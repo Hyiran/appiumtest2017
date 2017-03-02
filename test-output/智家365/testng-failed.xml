@@ -11,33 +11,15 @@
     <parameter name="reportreceiver" value="penghong@orvibo.com"/>
     <parameter name="udid" value="492c754e"/>
     <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
-    <parameter name="testpassword" value="123456"/>
+    <parameter name="testpassword" value="2hq5qt"/>
     <parameter name="testaccount" value="840432908@qq.com"/>
-    <groups>
-      <run>
-        <include name="个人中心"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.oribo.android365.testcase.Personcenter">
+      <class name="com.oribo.android365.testcase.HomeManage">
         <methods>
-          <include name="rightaccountnext"/>
-          <include name="CheckMyHubMac"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="CheckMyHub"/>
-          <include name="feedback"/>
-          <include name="ClickMore"/>
-          <include name="beforeSuite"/>
-          <include name="identifycode"/>
-          <include name="CheckMyHubFirmwareVersion"/>
-          <include name="CancelDeleteHostNotice"/>
-          <include name="CheckMyHubBack"/>
-          <include name="CheckDeleteHost"/>
-          <include name="CheckMyHubIpAddress"/>
-          <include name="tearDown"/>
+          <include name="checkdefault"/>
         </methods>
-      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+      </class> <!-- com.oribo.android365.testcase.HomeManage -->
     </classes>
   </test> <!-- init(failed) -->
 </suite> <!-- Failed suite [智家365] -->

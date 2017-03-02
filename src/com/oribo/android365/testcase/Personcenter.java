@@ -18,6 +18,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
@@ -48,8 +49,6 @@ public class Personcenter extends TestcaseFrame{
 	AndroidDriver<AndroidElement> driver;
 	public String receiver;//测试报告邮件接收人
 	AppBean  appbean = AppBean.getAppBean();
-	static UserInfo account=UserInfo.getUserInfo();
-	 
 	 
 	/**
 	 * 获取被测APP的信息以及APP的登录帐户信息
@@ -59,7 +58,7 @@ public class Personcenter extends TestcaseFrame{
 	 * @param platformVersion  手机系统
 	 * @param apk  测试的apk
 	 */
-	@BeforeClass(alwaysRun=true)
+	@BeforeSuite(alwaysRun=true)
 	@Parameters({ "port","udid","phone","platformVersion", "apk","testaccount","testpassword","reportreceiver"})
 	public void beforeSuite(String port, String udid,String phone,String platformVersion ,String apk,String testaccount,String testpassword,String reportreceiver ){
 		
@@ -70,18 +69,10 @@ public class Personcenter extends TestcaseFrame{
 		appbean.setPhone(phone);
 		appbean.setApk(apk);
 		appbean.setPlatformVersion(platformVersion);
-		//保存登录账号信息
-		UserInfo account=UserInfo.getUserInfo();
-		//从Excel读取账号信息
-		System.out.println("账号是:"+ReadExcel.readsimpledata(1,1,0)+"密码是:"+ReadExcel.readsimpledata(1,1,1));
-		account.setAccount(ReadExcel.readsimpledata(1,1,0));
-		account.setPassWord(ReadExcel.readsimpledata(1,1,1));
 	/*	account.setAccount(testaccount);
 		account.setPassWord(testpassword);*/
 		FileOperate.delectLogFiles();
 
-	 
-	    
 		
 	}
 	
@@ -93,7 +84,6 @@ public class Personcenter extends TestcaseFrame{
 		excelData.setNumerSheet(0);
 		excelData.setCaseType(Constant.CASETYPE_ANDROID);
 		excel.readXls("personInfo_TestData.xls", excelData,bean);
-		FileOperate.delectLogFiles();
 		
 	}
 	@BeforeMethod(alwaysRun=true)
@@ -102,30 +92,6 @@ public class Personcenter extends TestcaseFrame{
 		super.testSetUp();
 		driver=super.getDriver();
 		logging();
-
-	}
-	/**
-	 * 登录
-	 */
-	
-
-	public void logging() {
-		newSleep(2);
-		System.out.println("当前界面是什么"+driver.currentActivity());
-		if(driver.currentActivity().equals(".user.LoginActivity"))
-		{
-		//登录页面
-			List<AndroidElement> edittext = driver.findElementsByClassName("android.widget.EditText"); 
-			System.out.println("多少个输入框"+edittext.size());
-			Assert.assertTrue(edittext.size()>0, "未找到输入框");
-			 AppOperate.clear(edittext.get(0), "清除账号框");
-			 AppOperate.sendKeys(edittext.get(0), "输入账号", UserInfo.getUserInfo().getAccount());
-			 AppOperate.clear(edittext.get(1), "清除密码框");
-			 AppOperate.sendKeys( edittext.get(1), "输入密码", UserInfo.getUserInfo().getPassWord());
-		     AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/login_btn")), "点击登录按扭");
-		     AppOperate.waitelementexit(driver, By.id("com.orvibo.homemate:id/text"), 20);
-		     AppOperate.waitForText(20, "我的");
-		}
 
 	}
 	
@@ -364,8 +330,8 @@ public class Personcenter extends TestcaseFrame{
 	{   
 		//DataBean  data = bean.get(24);
 		enterPersoninfo();
-		System.out.println("登录类型"+account.getLogingType());
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		System.out.println("登录类型"+super.getaccount().getLogingType());
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{   
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"邮箱\")"), "点击进入邮箱绑定界面");
 			AppOperate.exitElement("更换邮箱", driver);
@@ -374,7 +340,7 @@ public class Personcenter extends TestcaseFrame{
 			AppOperate.notExitElement("更换手机号", driver);	
 			
 		}
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			AppOperate.exitElement("更换手机号", driver);
@@ -393,7 +359,7 @@ public class Personcenter extends TestcaseFrame{
 	public void phonebind()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -402,7 +368,7 @@ public class Personcenter extends TestcaseFrame{
 			Assert.assertFalse(driver.findElement(By.id("com.orvibo.homemate:id/nextButton")).isEnabled(), "输入空格下一步可点击");
 			
 		}
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"邮箱\")"), "点击进入邮箱绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -420,7 +386,7 @@ public class Personcenter extends TestcaseFrame{
 	public void  specialchar()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -428,7 +394,7 @@ public class Personcenter extends TestcaseFrame{
 			Assert.assertFalse(edit.gettext().trim().equals(edit.getSpecialchar2()), "能输入特殊字符");
 		
 		}
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"邮箱\")"), "点击进入邮箱绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -445,7 +411,7 @@ public class Personcenter extends TestcaseFrame{
 	public void lesphonenumber()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -463,7 +429,7 @@ public class Personcenter extends TestcaseFrame{
 	public void grephonenumber()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -481,7 +447,7 @@ public class Personcenter extends TestcaseFrame{
 	public void notphonenumber()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -499,7 +465,7 @@ public class Personcenter extends TestcaseFrame{
 	public void rightaccount()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -508,7 +474,7 @@ public class Personcenter extends TestcaseFrame{
 			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/left_iv")), "返回到个人信息界面");
 			AppOperate.notExitElement(edit.getphonenumber(), driver);
 		}
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"邮箱\")"), "点击进入邮箱绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -530,7 +496,7 @@ public class Personcenter extends TestcaseFrame{
 	public void rightaccountnext()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"手机号\")"), "点击进入手机绑定界面");
 			Assert.assertFalse(driver.findElement(By.id("com.orvibo.homemate:id/nextButton")).isEnabled(), "点击手机账号进入绑定账号页面，按钮可点击");
@@ -542,7 +508,7 @@ public class Personcenter extends TestcaseFrame{
 			AppOperate.exitElement("短信验证码", driver);
 			
 		}
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"邮箱\")"), "点击进入邮箱绑定界面");
 			EditText edit=new EditText(driver.findElementById("com.orvibo.homemate:id/userPhoneEmailEditText"));
@@ -566,7 +532,7 @@ public class Personcenter extends TestcaseFrame{
 	public void identifycode()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			try{
 				AppOperate.exitElement("未绑定", driver);
@@ -627,7 +593,7 @@ public class Personcenter extends TestcaseFrame{
 
 		}
 		//手机登录时安全验证
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{
 
 			try{
@@ -701,7 +667,7 @@ public class Personcenter extends TestcaseFrame{
 	public void checkaccount()
 	{
 		enterPersoninfo();
-		if(account.getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 		{ 
 			String email=driver.findElement(By.id("com.orvibo.homemate:id/userEmailTextView")).getText();
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"邮箱\")"), "进入邮箱绑定界面");
@@ -712,7 +678,7 @@ public class Personcenter extends TestcaseFrame{
 			//检查当前手机号显示 是否正确
 			AppOperate.exitElement(email, driver);
 		}
-		else if(account.getLogingType()==Constant.LOGING_TYPE_PHONE)
+		else if(super.getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		{   
 			//获取个人信息界面手机号
 			String phone=driver.findElement(By.id("com.orvibo.homemate:id/userPhoneTextView")).getText();
@@ -1271,6 +1237,8 @@ public class Personcenter extends TestcaseFrame{
 		 newSleep(2);
 		 AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"我的\")"), "点击'我的'");
 		 AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"家庭管理\")"), "点击'家庭管理'");
+		 
+		 //我的家庭-家庭成员-点击右上角的添加按扭
 		 //判断“发起邀请”是否可点击
 		 Assert.assertFalse(driver.findElementByAndroidUIAutomator("text(\"发起邀请\")").isEnabled(), "发起邀请默认是激活的");
 		 //点击联系人选择按扭
@@ -1384,15 +1352,11 @@ public class Personcenter extends TestcaseFrame{
 	@AfterMethod(alwaysRun=true)
 	public void tearDown(){
 		//关闭appium 资源
-		System.out.println("**********");
+		Log.logInfo("**********");
 		driver.quit();
 		
 	}
 	
-	public static UserInfo getaccount()
-	{
-		return account;
-	}
 	
 	public static void main(String[] args)
 	{

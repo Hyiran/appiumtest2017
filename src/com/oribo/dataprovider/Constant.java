@@ -33,7 +33,12 @@ public class Constant {
 	public static final String STARTTAG ="********";
 	public static final String ENDTAG ="********";
 	public static final String ERROR = "error--------";
-
+    
+	//服务器位置
+	public static final String INTERNALURL="jdbc:mysql://192.168.2.20/vihome_cloud";
+	//数据库账号和密码
+	public static final String DATABASEACCOUNTINTER="root";
+	public static final String DATABASEACCOUNTPASSWORD="orvibo888";
 	/**
 	 * 记录待测试App的路径,名称,URL端口等
 	 */

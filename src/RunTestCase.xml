@@ -15,7 +15,7 @@
 		<parameter name="testpassword" value="2hq5qt" />
 		<parameter name="reportreceiver" value="penghong@orvibo.com" />
 		
- 	    <groups>
+<!--  	    <groups>
  	            <define name="functest">
       			<include name="登录"/>
       			<include name="个人中心"/>
@@ -25,12 +25,12 @@
 		   	<run>
 		        <include name="个人中心"/>
 		    </run>
-		</groups>  
+		</groups>   -->
 
 		<classes>
-			<class name="com.oribo.android365.testcase.Personcenter" />
+			<!-- <class name="com.oribo.android365.testcase.Personcenter" /> -->
 
-			<!-- <class name="com.oribo.android365.testcase.MyHost" />   -->
+			<class name="com.oribo.android365.testcase.HomeManage" />  
 		</classes>
 
 	</test> 

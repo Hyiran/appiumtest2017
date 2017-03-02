@@ -8937,3 +8937,36 @@
 2017-03-01 15:06:05 [main] [dev_log] [INFO] [29]- [INFO] [��� -> -android uiautomator: text("�ҵ�")]
 2017-03-01 15:06:28 [main] [dev_log] [INFO] [29]- Failed, method:Personcenter.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5] #parameters:0 time:22253
 2017-03-01 15:06:48 [main] [dev_log] [INFO] [36]- ִ��ʧ�ܣ���ץȡ��־����־��Ϊ��201703011506CancelDeleteHostNotice.txt
+2017-03-02 10:43:44 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:43:44 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:43:44 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:43:44 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:44:41 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:13 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:13 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:13 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:13 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:31 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:31 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:31 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:45:32 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:46:35 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:46:35 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:46:35 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 10:46:35 [main] [dev_log] [INFO] [29]- [INFO] 读取第1张表
+2017-03-02 11:23:12 [main] [dev_log] [INFO] [40]- [STEP] [���'�ҵ�'] 
+2017-03-02 11:23:12 [main] [dev_log] [INFO] [29]- [INFO] [��� -> -android uiautomator: text("�ҵ�")]
+2017-03-02 11:23:13 [main] [dev_log] [INFO] [40]- [STEP] [���'�ҵ�'] 
+2017-03-02 11:23:13 [main] [dev_log] [INFO] [29]- [INFO] [��� -> -android uiautomator: text("��ͥ����")]
+2017-03-02 11:23:15 [main] [dev_log] [INFO] [29]- [INFO] ��ȡ��1�ű�
+2017-03-02 11:23:15 [main] [dev_log] [INFO] [29]- [INFO] ��ȡ��1�ű�
+2017-03-02 11:23:15 [main] [dev_log] [INFO] [29]- [INFO] ��ȡ��1�ű�
+2017-03-02 11:23:15 [main] [dev_log] [INFO] [29]- [INFO] ��ȡ��1�ű�
+2017-03-02 11:23:15 [main] [dev_log] [INFO] [29]- [INFO] **********

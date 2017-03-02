@@ -68,11 +68,14 @@ public abstract class AppOperate {
 	 * @param driver
 	 */
 	public static void exitElement(String element,AndroidDriver driver)
-	{  
-		Assert.assertTrue(driver.getPageSource().contains(element));
+	{   
+		 
+			 Assert.assertTrue(driver.getPageSource().contains(element));
+         
 		
 	
 	}
+	
 	
 
 	

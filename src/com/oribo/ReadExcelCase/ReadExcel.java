@@ -125,7 +125,6 @@ public class ReadExcel {
 			File filedata = new File(appDir, "personInfo_TestData.xls");//此处path指文件名
 			is = new FileInputStream(filedata);
 			hssfWorkbook = new HSSFWorkbook(is);
-			Log.logInfo("读取第"+numbersheet+"张表");
 			HSSFSheet sheet=hssfWorkbook.getSheetAt(numbersheet);
 			cell=sheet.getRow(row).getCell(column);		
 			//sheet.getRow(row).createCell(3).setCellValue("345345");

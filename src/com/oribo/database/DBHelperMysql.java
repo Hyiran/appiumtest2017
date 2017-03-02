@@ -9,15 +9,15 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException; 
 
 public class DBHelperMysql {
-	    public static final String url = "jdbc:mysql://192.168.2.20/vihome_cloud";  
+	   // public static final String url = "jdbc:mysql://192.168.2.20/vihome_cloud";  
 	    public static final String name = "com.mysql.jdbc.Driver";  
-	    public static final String user = "root";  
-	    public static final String password = "orvibo888";  
+	 //   public static final String user = "root";  
+	 //   public static final String password = "orvibo888";  
 	  
 	    public static Connection conn = null;  
 	    public PreparedStatement pst = null;  
 	    
-	    public DBHelperMysql(String sql) {  
+	    public DBHelperMysql(String sql,String url,String user,String password) {  
 	        try {  
 	            Class.forName(name);//指定连接类型  
 	            conn =DriverManager.getConnection(url, user, password);//获取连接

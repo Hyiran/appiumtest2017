@@ -7,15 +7,18 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -51,7 +54,15 @@ public class TestcaseFrame {
 	static Logger logger;
 	AppBean   appbean = AppBean.getAppBean();
 	static AndroidDriver<AndroidElement>  driver = null;
+	static UserInfo account=UserInfo.getUserInfo();
     
+	public static UserInfo getaccount()
+	{    
+		//从Excel读取账号信息
+		account.setAccount(ReadExcel.readsimpledata(1,1,0));
+		account.setPassWord(ReadExcel.readsimpledata(1,1,1));
+		return account;
+	}
 	
 	public void testSetUp()
 	{
@@ -87,6 +98,26 @@ public class TestcaseFrame {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);//全局等待5秒
 		
 	
+	}
+	
+	public void logging() {
+		newSleep(2);
+		System.out.println("当前界面是什么"+driver.currentActivity());
+		if(driver.currentActivity().equals(".user.LoginActivity"))
+		{
+		//登录页面
+			List<AndroidElement> edittext = driver.findElementsByClassName("android.widget.EditText"); 
+			System.out.println("多少个输入框"+edittext.size());
+			Assert.assertTrue(edittext.size()>0, "未找到输入框");
+			 AppOperate.clear(edittext.get(0), "清除账号框");
+			 AppOperate.sendKeys(edittext.get(0), "输入账号", UserInfo.getUserInfo().getAccount());
+			 AppOperate.clear(edittext.get(1), "清除密码框");
+			 AppOperate.sendKeys( edittext.get(1), "输入密码", UserInfo.getUserInfo().getPassWord());
+		     AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/login_btn")), "点击登录按扭");
+		     AppOperate.waitelementexit(driver, By.id("com.orvibo.homemate:id/text"), 20);
+		     AppOperate.waitForText(20, "我的");
+		}
+
 	}
 	
 	public static AndroidDriver<AndroidElement> getDriver()
