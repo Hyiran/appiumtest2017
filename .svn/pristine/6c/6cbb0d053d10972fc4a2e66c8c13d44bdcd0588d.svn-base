@@ -1,0 +1,411 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import java.util.List;
+import java.util.logging.Logger;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import com.oribo.common.Constant;
+import com.oribo.common.FindEelement;
+import com.oribo.common.AndroidOperate;
+import com.oribo.common.CommonButton;
+import com.oribo.common.Driver;
+import com.oribo.common.SaveUserInfo;
+import com.oribo.common.SetData;
+import com.oribo.common.SetExcelDataIndex;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.dataprovider.ExcelData;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.report.MessageOutput;
+import com.oribo.utils.GetElementUtil;
+import com.oribo.log.LoggerUtil;
+import com.oribo.utils.ReadExcel;
+import com.oribo.log.LoggerUtil.loggerLevel;
+import com.oribo.utils.ReadExcel.ReadExcelListener;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+/**
+ * 修改账号密码
+ * @author Cindy
+ *
+ */
+public class ChangepwTest extends TestcaseFrame{
+
+/*	*//**
+	 * 静态代码块，读取数据测试
+	 *//*
+	static {
+		try {
+			ReadExcel  excel =  new ReadExcel();
+			ExcelData  excelData =  new ExcelData();
+			//数据的清除
+			bean.clear();
+			excelData.setNumerSheet(3);
+			excelData.setCaseType(Constant.CASETYPE_ANDROID);
+			excel.readXls("personInfo_TestData.xls", excelData,bean);
+			System.out.print(bean.size());
+			for (int i = 0; i < bean.size(); i++) {
+				System.out.print(bean.get(i).toString());
+			}
+		} catch (Exception e) {
+		}
+	}*/
+
+	ReadExcelListener  listener;
+	int index = SetExcelDataIndex.setChangePWDataIndex();
+	String currentActivity;
+	Logger logger ;
+
+	@BeforeTest 
+	public void testStart(){
+		ReadExcel  excel =  new ReadExcel();
+		ExcelData  excelData =  new ExcelData();
+		//数据的清除
+		bean.clear();
+		excelData.setNumerSheet(3);
+		excelData.setCaseType(Constant.CASETYPE_ANDROID);
+//		if (SaveUserInfo.getUserInfo().getLogingType() == Constant.LOGING_TYPE_EMAIL) {
+//			excelData.setFirstIndex(14);//注释掉了12.18
+//		}
+		excel.readXls("personInfo_TestData.xls", excelData,bean);
+		System.out.print(bean.size());//测试用例的条数
+		for (int i = 0; i < bean.size(); i++) {
+			System.out.print(bean.get(i).toString());
+		}
+		currentActivity = Driver.getAndroidDriver(null).currentActivity();
+		//System.out.println(currentActivity );
+		// newSleep(5);
+		//Driver.getAndroidDriver(null).findElementByName("我的").click();
+		//System.out.println("点击成功");
+		// newSleep(1);
+		//FindEelement.findByIdClick("com.orvibo.homemate:id/rl_userInfo");
+//		FindEelement.findByIdClick("com.orvibo.homemate:id/iv_personal_user_icon");//2.0此处无"个人中心"
+		 newSleep(1);
+		Driver.getAndroidDriver(null).findElementByName("修改密码").click();	
+		//获取当前的activity
+		currentActivity  = Driver.getAndroidDriver(null).currentActivity();
+		//创建longger 日志文件
+		logger =LoggerUtil.getwriteFileLog(Constant.CHANGEPW,AppBean.getAppBean().getApk()+"_"+AppBean.getAppBean().getPhone()+"_"+"修改密码", ChangepwTest.class);
+	}
+
+
+	/**
+	 * 修改测试密码的用例执行
+	 */
+	@org.testng.annotations.Test
+	private void testPw() {
+		List<AndroidElement>   edittext = GetElementUtil.getEdit(logger, "修改密码的页面元素");
+		if ( inputNomalone(0 ,edittext,1)) {//输入旧密码为空
+			if (inputNomalone(1 , edittext,2)) {//输入新密为空
+				if (save_check(2 ,edittext)){//旧密码和新密码都不为空能点击
+					if ( ErroldPwTip(3)) {//旧密码错误提示
+						if (newoldpwLess6(4,edittext)) {
+							if ( save_check_02(5)) {
+								if ( newoldpwmore16(6 ,	edittext)) {//输入密码超过16位的检查
+									if (savePW(7)) {//保存的输入密码
+										if (clickKnown(8)) {
+											if (oldPWlogin(9)) {
+												newPWlogin(10);
+												}
+											}
+										}
+									}
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+	/**
+	 * 输入的密码其中一个为空，输入新密码和旧密码，通过参数type指定新旧
+	 * @param index
+	 * @param edittext
+	 * @param classname
+	 * @return
+	 */
+	private  boolean  inputNomalone(int index ,	List<AndroidElement>   edittext,int type){
+		DataBean  data =  bean.get(index);
+		System.out.println(index);
+		LoggerUtil.startTest(data.getTestCaseName(), logger);
+		LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "清除数据");	
+		SetData.clearTest(edittext);
+		 newSleep(1);
+		if (type == 1) {
+			LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "输入旧密码");	
+			edittext.get(0).sendKeys(String.valueOf(data.getData()));
+			LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "输入旧密码的数据为："+data.getData());
+		} else{
+			LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "输入新密码");	
+			edittext.get(1).sendKeys(data.getData());
+			LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "输入新密码的数据为："+data.getData());
+		}
+		AndroidElement  btn =   GetElementUtil.getEelememtByName(logger, "完成");
+		 newSleep(1);
+		if (btn.isEnabled()) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,"一个输入为空按钮不能点击", logger, null);	
+		}else{
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, null);	
+		}		
+		LoggerUtil.endTest(data.getTestCaseName(), logger);
+		return  true;
+	}
+
+	/**
+	 * 输入不为空的时候，按钮能点击
+	 * @param index
+	 * @param edittext
+	 * @param classname
+	 * @return
+	 */
+	private boolean save_check(int index ,	List<AndroidElement>   edittext){
+		DataBean  data =  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		SetData.clearTest(edittext);
+		AndroidElement  confirm =  GetElementUtil.getEelememtByName(logger, "完成");
+		edittext.get(0).sendKeys("45rto0ii");
+		edittext.get(1).sendKeys("123456");
+		confirm.click();
+		if (confirm.isEnabled()) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, "");
+			LoggerUtil.endTest( data.getTestCaseName(), logger);
+			return true;
+			//simpleAssertEquals(androidDriver, bean, MessageOutput.ISRIGHT,  MessageOutput.ISRIGHT, logger, "旧的密码错误不能修改密码")	;
+		} else{
+			//simpleAssertEquals(androidDriver, bean, MessageOutput.ISRIGHT,  MessageOutput.ISERROR, logger, "错误：旧的密码错误能修改密码")	;
+			newAssertEquals(Driver.getAndroidDriver(null), data ,"错误：旧的密码错误能修改密码", logger, "错误：旧的密码错误能修改密码");
+			LoggerUtil.endTest( data.getTestCaseName(), logger);
+			return  false;
+		}			
+	}
+
+	/**
+	 * 用例：输入错误密码的提示
+	 * @param index
+	 * @return
+	 */
+	private boolean ErroldPwTip(int index){
+		DataBean  data =  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		try {
+			AndroidElement  element = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute());
+			if (element.getText().contains(data.getData())){
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, "");		     				
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,"没有错误旧密码提示语", logger, "");
+		}
+
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;
+
+	}
+
+
+	/**
+	 * 用例名称：修改密码时，输入的新密码少于6位，完成按钮置灰不能点击
+	 * @param index
+	 * @param edittext
+	 * @param classname
+	 * @return
+	 */
+	private boolean newoldpwLess6(int index ,	List<AndroidElement>   edittext){
+		DataBean  data=  bean.get(index);
+		//SetData.clearTest(edittext);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		edittext.get(0).clear();
+		edittext.get(0).sendKeys(SaveUserInfo.getUserInfo().getPassWord());
+		edittext.get(1).clear();
+		edittext.get(1).sendKeys(data.getData());
+		LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "输入少于六位的新密密码"+data.getData());
+		//AndroidElement  confirm =  GetElementUtil.getEelememtByName(logger, "完成");
+		LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "获取少于6位密码的提示语");
+		try {
+			AndroidElement  tip = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute());
+			if (tip != null) {
+				newAssertEquals(Driver.getAndroidDriver(null),data,data.getExpectValue() , logger, "");
+				//simpleAssertEquals(androidDriver, bean, MessageOutput.INPUTISOK, MessageOutput.INPUTISOK, logger, "输入密码的16位");
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null),data,"输入新密码少于6位的提示获取失败" , logger, "");
+				//simpleAssertEquals(androidDriver, bean, MessageOutput.INPUTISOK, MessageOutput.INPUTISOKMORE, logger, "能输入密码的超出16位");
+			}	
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null),data,e.getMessage() , logger, "输入密码的16位");
+		}
+
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;
+	}
+
+	/**
+	 * 输入少于6位密码的按钮不能点击pand
+	 * @param index
+	 * @return
+	 */
+	private boolean  save_check_02(int index){
+		DataBean  data =  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		AndroidElement  confirm =  GetElementUtil.getEelememtByName(logger, "完成");
+		if (!confirm.isEnabled()) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, "");
+		} else{
+			newAssertEquals(Driver.getAndroidDriver(null), data ,"输入少于6位密码的错误保存按钮能点击", logger, "错误：旧的密码错误能修改密码");		
+		}	
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;		
+	}
+
+	/**
+	 * 用例：修改密码时，输入的新密码多于16位
+	 * @param index
+	 * @param edittext
+	 * @param classname
+	 * @return
+	 */
+	private boolean newoldpwmore16(int index ,	List<AndroidElement>   edittext){
+		DataBean  data=  bean.get(index);
+		//SetData.clearTest(edittext);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		edittext.get(0).clear();
+		edittext.get(0).sendKeys(SaveUserInfo.getUserInfo().getPassWord());
+		SaveUserInfo.getUserInfo().setOldPW(edittext.get(0).getText());
+		edittext.get(1).clear();
+		edittext.get(1).sendKeys(data.getData());
+		LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, "输入超过16位的新密码"+data.getData());
+		SaveUserInfo.getUserInfo().setNewPW(edittext.get(1).getText());//保存新密码
+		//AndroidElement  confirm =  GetElementUtil.getEelememtByName(logger, "完成");
+		if (edittext.get(1).getText().length()<=16) {
+			newAssertEquals(Driver.getAndroidDriver(null),data,data.getExpectValue() , logger, "");			
+		} else{
+			newAssertEquals(Driver.getAndroidDriver(null),data,"输入超过16位的新密码输入框的值："+edittext.get(1).getText() , logger, "输入密码的16位");		
+		}		
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;
+	}
+
+
+	/**
+	 *用例：修改密码时，保存密码
+	 * @return
+	 */
+	public boolean savePW(int index){
+		DataBean  data=  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		AndroidElement  btn =   GetElementUtil.getEelememtByName(logger, "完成");
+		btn.click();
+		try {
+			if (AndroidOperate.getElementByType(bean.get(index+1).getLocationElement(), bean.get(index+1).getElementAttribute()).getText().contains("知道了")) {
+				newAssertEquals(Driver.getAndroidDriver(null),data,data.getExpectValue() , logger, "");	
+			} else if (currentActivity.equals(Driver.getAndroidDriver(null).currentActivity())){
+				newAssertEquals(Driver.getAndroidDriver(null),data,"没有弹框提示，还是停留在原来页面" , logger, "");	
+			}	
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null),data,e.getMessage() , logger, "");
+		}
+
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;	
+	}
+
+	/**
+	 * 点击我知道了
+	 * @param index
+	 * @return
+	 */
+	private boolean clickKnown(int index){
+		DataBean  data=  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);
+		try {
+			AndroidElement  known = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute());	
+			known.click();
+			 newSleep(2);
+			System.out.println( "点击知道了跳转的到"+Driver.getAndroidDriver(null).currentActivity());
+			if (Driver.getAndroidDriver(null).currentActivity().contains("user.LoginActivity")) {		
+				newAssertEquals(Driver.getAndroidDriver(null),data,data.getExpectValue() , logger, "");	
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null),data,"修改密码失败" , logger, "");	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null),data,e.getMessage() , logger, "");	
+		}
+
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;
+
+	}
+
+
+	/**
+	 * 使用旧的密码登陆
+	 */
+
+	public boolean oldPWlogin(int index){
+		DataBean  data=  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);	
+		List<AndroidElement>   edittext  =  GetElementUtil.getEdit(logger, "登陆页面");
+		edittext.get(1).clear();
+		edittext.get(1).sendKeys(SaveUserInfo.getUserInfo().getOldPW());//旧密码
+		AndroidElement  confirm =  GetElementUtil.getEelememtByName(logger, "登录");
+		confirm.click();
+		try {
+			if (Driver.getAndroidDriver(null).currentActivity().contains("user.LoginActivity")) {
+
+				newAssertEquals(Driver.getAndroidDriver(null),data,data.getExpectValue() , logger, "");
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null),data,"旧密码能成登陆" , logger, "");		
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null),data,e.getMessage() , logger, "");	
+		}
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;
+
+	}
+
+
+	/**
+	 * 新的密码登陆
+	 */
+
+	public boolean newPWlogin(int index){
+		DataBean  data=  bean.get(index);
+		LoggerUtil.startTest( data.getTestCaseName(), logger);	
+		List<AndroidElement>   edittext  =  GetElementUtil.getEdit(logger, "登陆页面");
+		edittext.get(1).clear();
+		edittext.get(1).sendKeys(SaveUserInfo.getUserInfo().getNewPW());//新密码
+		try {
+			AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute()).click();
+			if (!Driver.getAndroidDriver(null).currentActivity().equals("com.orvibo.homemate.user.LoginActivity")) {
+
+				newAssertEquals(Driver.getAndroidDriver(null),data,data.getExpectValue() , logger, "");
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null),data,"新密码登陆失败" , logger, "");		
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null),data,e.getMessage() , logger, "");	
+		}
+		LoggerUtil.endTest( data.getTestCaseName(), logger);
+		return true;
+	}
+	
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		CreateHtmlreport.closeLog();
+	}
+	
+}

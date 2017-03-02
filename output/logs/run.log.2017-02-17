@@ -1,0 +1,684 @@
+2017-02-17 09:45:16 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:05:56 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:05:57 dev_log : All Tests is finished
+2017-02-17 10:05:57 dev_log : PASSED:0
+2017-02-17 10:05:57 dev_log : FAILED:0
+2017-02-17 10:05:57 dev_log : SKIPPED:0
+2017-02-17 10:06:51 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:53 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:54 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:06:54 dev_log : All Tests is finished
+2017-02-17 10:06:54 dev_log : PASSED:0
+2017-02-17 10:06:54 dev_log : FAILED:0
+2017-02-17 10:06:54 dev_log : SKIPPED:0
+2017-02-17 10:08:11 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:12 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:13 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:08:13 dev_log : All Tests is finished
+2017-02-17 10:08:13 dev_log : PASSED:0
+2017-02-17 10:08:13 dev_log : FAILED:0
+2017-02-17 10:08:13 dev_log : SKIPPED:0
+2017-02-17 10:28:12 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:28:12 dev_log : All Tests is finished
+2017-02-17 10:28:12 dev_log : PASSED:0
+2017-02-17 10:28:12 dev_log : FAILED:0
+2017-02-17 10:28:12 dev_log : SKIPPED:0
+2017-02-17 10:29:23 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:25 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:26 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:29:26 dev_log : All Tests is finished
+2017-02-17 10:29:26 dev_log : PASSED:0
+2017-02-17 10:29:26 dev_log : FAILED:0
+2017-02-17 10:29:26 dev_log : SKIPPED:0
+2017-02-17 10:30:42 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:43 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:44 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:30:44 dev_log : All Tests is finished
+2017-02-17 10:30:44 dev_log : PASSED:0
+2017-02-17 10:30:44 dev_log : FAILED:0
+2017-02-17 10:30:44 dev_log : SKIPPED:0
+2017-02-17 10:32:39 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:41 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:42 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:32:42 dev_log : All Tests is finished
+2017-02-17 10:32:42 dev_log : PASSED:0
+2017-02-17 10:32:42 dev_log : FAILED:0
+2017-02-17 10:32:42 dev_log : SKIPPED:0
+2017-02-17 10:36:21 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:36:21 dev_log : All Tests is finished
+2017-02-17 10:36:21 dev_log : PASSED:0
+2017-02-17 10:36:21 dev_log : FAILED:0
+2017-02-17 10:36:21 dev_log : SKIPPED:0
+2017-02-17 10:37:39 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:40 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:41 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:37:41 dev_log : All Tests is finished
+2017-02-17 10:37:41 dev_log : PASSED:0
+2017-02-17 10:37:41 dev_log : FAILED:0
+2017-02-17 10:37:41 dev_log : SKIPPED:0
+2017-02-17 10:38:22 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:23 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:24 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:24 dev_log : All Tests is finished
+2017-02-17 10:38:24 dev_log : PASSED:0
+2017-02-17 10:38:24 dev_log : FAILED:0
+2017-02-17 10:38:24 dev_log : SKIPPED:0
+2017-02-17 10:38:58 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:38:59 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:39:00 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:39:00 dev_log : All Tests is finished
+2017-02-17 10:39:00 dev_log : PASSED:0
+2017-02-17 10:39:00 dev_log : FAILED:0
+2017-02-17 10:39:00 dev_log : SKIPPED:0
+2017-02-17 10:41:44 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:45 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:46 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:41:46 dev_log : All Tests is finished
+2017-02-17 10:41:46 dev_log : PASSED:0
+2017-02-17 10:41:46 dev_log : FAILED:0
+2017-02-17 10:41:46 dev_log : SKIPPED:0
+2017-02-17 10:43:29 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:31 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:32 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:43:32 dev_log : All Tests is finished
+2017-02-17 10:43:32 dev_log : PASSED:0
+2017-02-17 10:43:32 dev_log : FAILED:0
+2017-02-17 10:43:32 dev_log : SKIPPED:0
+2017-02-17 10:44:22 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:24 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:25 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:44:25 dev_log : All Tests is finished
+2017-02-17 10:44:25 dev_log : PASSED:0
+2017-02-17 10:44:25 dev_log : FAILED:0
+2017-02-17 10:44:25 dev_log : SKIPPED:0
+2017-02-17 10:51:23 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:24 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:25 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:51:25 dev_log : All Tests is finished
+2017-02-17 10:51:25 dev_log : PASSED:0
+2017-02-17 10:51:25 dev_log : FAILED:0
+2017-02-17 10:51:25 dev_log : SKIPPED:0
+2017-02-17 10:58:02 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:03 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:04 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 10:58:05 dev_log : All Tests is finished
+2017-02-17 10:58:05 dev_log : PASSED:0
+2017-02-17 10:58:05 dev_log : FAILED:0
+2017-02-17 10:58:05 dev_log : SKIPPED:0
+2017-02-17 11:00:01 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 11:00:04 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 11:00:08 dev_log : Failed, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4] #parameters:0 time:3435
+2017-02-17 11:01:06 dev_log : Failed, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:2091
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:34 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:01:59 dev_log : Failed, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:58
+2017-02-17 11:03:19 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:20 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:22 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:03:22 dev_log : All Tests is finished
+2017-02-17 11:03:22 dev_log : PASSED:0
+2017-02-17 11:03:22 dev_log : FAILED:0
+2017-02-17 11:03:22 dev_log : SKIPPED:0
+2017-02-17 11:06:25 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:27 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:28 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 11:06:28 dev_log : All Tests is finished
+2017-02-17 11:06:28 dev_log : PASSED:0
+2017-02-17 11:06:28 dev_log : FAILED:0
+2017-02-17 11:06:28 dev_log : SKIPPED:0
+2017-02-17 12:09:44 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 12:09:44 dev_log : All Tests is finished
+2017-02-17 12:09:44 dev_log : PASSED:0
+2017-02-17 12:09:44 dev_log : FAILED:0
+2017-02-17 12:09:44 dev_log : SKIPPED:0
+2017-02-17 12:19:12 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 12:19:12 dev_log : All Tests is finished
+2017-02-17 12:19:12 dev_log : PASSED:0
+2017-02-17 12:19:12 dev_log : FAILED:0
+2017-02-17 12:19:12 dev_log : SKIPPED:0
+2017-02-17 13:28:09 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 13:28:09 dev_log : All Tests is finished
+2017-02-17 13:28:09 dev_log : PASSED:0
+2017-02-17 13:28:09 dev_log : FAILED:0
+2017-02-17 13:28:09 dev_log : SKIPPED:0
+2017-02-17 13:29:55 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 13:29:55 dev_log : All Tests is finished
+2017-02-17 13:29:55 dev_log : PASSED:0
+2017-02-17 13:29:55 dev_log : FAILED:0
+2017-02-17 13:29:55 dev_log : SKIPPED:0
+2017-02-17 13:33:04 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 13:33:04 dev_log : All Tests is finished
+2017-02-17 13:33:04 dev_log : PASSED:0
+2017-02-17 13:33:04 dev_log : FAILED:0
+2017-02-17 13:33:04 dev_log : SKIPPED:0
+2017-02-17 13:54:01 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 13:54:01 dev_log : All Tests is finished
+2017-02-17 13:54:01 dev_log : PASSED:0
+2017-02-17 13:54:01 dev_log : FAILED:0
+2017-02-17 13:54:01 dev_log : SKIPPED:0
+2017-02-17 14:00:26 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3a883ce7]
+2017-02-17 14:00:28 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:29 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:30 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-17 14:00:30 dev_log : All Tests is finished
+2017-02-17 14:00:30 dev_log : PASSED:0
+2017-02-17 14:00:30 dev_log : FAILED:0
+2017-02-17 14:00:30 dev_log : SKIPPED:0
+2017-02-17 14:01:42 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3a883ce7] #parameters:0 time:3623
+2017-02-17 14:04:34 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:04:34 dev_log : All Tests is finished
+2017-02-17 14:04:34 dev_log : PASSED:0
+2017-02-17 14:04:34 dev_log : FAILED:0
+2017-02-17 14:04:34 dev_log : SKIPPED:0
+2017-02-17 14:08:35 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4] #parameters:0 time:3742
+2017-02-17 14:09:00 dev_log : [STEP] [点击'我的'] 
+2017-02-17 14:09:00 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 14:09:02 dev_log : Success, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3224f60b] #parameters:0 time:5942
+2017-02-17 14:09:29 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3224f60b]
+2017-02-17 14:09:56 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3224f60b]
+2017-02-17 14:10:22 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3224f60b] #parameters:0 time:5085
+2017-02-17 14:11:09 dev_log : [STEP] [点击'我的'] 
+2017-02-17 14:11:09 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 14:11:10 dev_log : [STEP] [点击'我的主机'] 
+2017-02-17 14:11:10 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-17 14:11:12 dev_log : Success, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@3224f60b] #parameters:0 time:7148
+2017-02-17 14:16:24 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4] #parameters:0 time:3741
+2017-02-17 14:16:51 dev_log : [STEP] [点击'我的'] 
+2017-02-17 14:16:51 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 14:16:53 dev_log : Success, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3224f60b] #parameters:0 time:5410
+2017-02-17 14:19:10 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:19:10 dev_log : All Tests is finished
+2017-02-17 14:19:10 dev_log : PASSED:0
+2017-02-17 14:19:10 dev_log : FAILED:0
+2017-02-17 14:19:10 dev_log : SKIPPED:0
+2017-02-17 14:19:41 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:19:41 dev_log : All Tests is finished
+2017-02-17 14:19:41 dev_log : PASSED:0
+2017-02-17 14:19:41 dev_log : FAILED:0
+2017-02-17 14:19:41 dev_log : SKIPPED:0
+2017-02-17 14:20:27 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:20:28 dev_log : All Tests is finished
+2017-02-17 14:20:28 dev_log : PASSED:0
+2017-02-17 14:20:28 dev_log : FAILED:0
+2017-02-17 14:20:28 dev_log : SKIPPED:0
+2017-02-17 14:21:35 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]
+2017-02-17 14:21:35 dev_log : All Tests is finished
+2017-02-17 14:21:35 dev_log : PASSED:0
+2017-02-17 14:21:35 dev_log : FAILED:0
+2017-02-17 14:21:35 dev_log : SKIPPED:0
+2017-02-17 14:22:37 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:22:37 dev_log : All Tests is finished
+2017-02-17 14:22:37 dev_log : PASSED:0
+2017-02-17 14:22:37 dev_log : FAILED:0
+2017-02-17 14:22:37 dev_log : SKIPPED:0
+2017-02-17 14:37:09 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:37:37 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:38:06 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:7554
+2017-02-17 14:38:30 dev_log : All Tests is finished
+2017-02-17 14:38:30 dev_log : PASSED:0
+2017-02-17 14:38:30 dev_log : FAILED:0
+2017-02-17 14:38:30 dev_log : SKIPPED:0
+2017-02-17 14:41:38 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:42:07 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:42:37 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:7653
+2017-02-17 14:43:01 dev_log : All Tests is finished
+2017-02-17 14:43:01 dev_log : PASSED:0
+2017-02-17 14:43:01 dev_log : FAILED:0
+2017-02-17 14:43:01 dev_log : SKIPPED:0
+2017-02-17 14:43:57 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:44:22 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:44:47 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:2372
+2017-02-17 14:45:11 dev_log : All Tests is finished
+2017-02-17 14:45:11 dev_log : PASSED:0
+2017-02-17 14:45:11 dev_log : FAILED:0
+2017-02-17 14:45:11 dev_log : SKIPPED:0
+2017-02-17 14:46:46 dev_log : [STEP] [点击'我的'] 
+2017-02-17 14:46:46 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 14:46:47 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 14:46:47 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 14:46:48 dev_log : [STEP] [点击昵称] 
+2017-02-17 14:46:48 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 14:46:49 dev_log : [STEP] [清空昵称文本框] 
+2017-02-17 14:46:49 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 14:46:52 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 14:50:17 dev_log : [STEP] [点击'我的'] 
+2017-02-17 14:50:17 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 14:50:18 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 14:50:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 14:50:20 dev_log : [STEP] [点击昵称] 
+2017-02-17 14:50:20 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 14:50:20 dev_log : [STEP] [清空昵称文本框] 
+2017-02-17 14:50:20 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 14:50:24 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:10361
+2017-02-17 14:52:50 dev_log : [STEP] [点击'我的'] 
+2017-02-17 14:52:50 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 14:52:51 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 14:52:51 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 14:52:52 dev_log : [STEP] [点击昵称] 
+2017-02-17 14:52:52 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 14:52:53 dev_log : [STEP] [清空昵称文本框] 
+2017-02-17 14:52:53 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 14:52:56 dev_log : Success, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:9627
+2017-02-17 14:52:59 dev_log : All Tests is finished
+2017-02-17 14:52:59 dev_log : PASSED:0
+2017-02-17 14:52:59 dev_log : FAILED:0
+2017-02-17 14:52:59 dev_log : SKIPPED:0
+2017-02-17 15:02:04 dev_log : [STEP] [点击'我的'] 
+2017-02-17 15:02:04 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 15:02:06 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 15:02:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 15:02:07 dev_log : [STEP] [点击昵称] 
+2017-02-17 15:02:07 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 15:02:08 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:6604
+2017-02-17 15:02:32 dev_log : All Tests is finished
+2017-02-17 15:02:32 dev_log : PASSED:0
+2017-02-17 15:02:32 dev_log : FAILED:0
+2017-02-17 15:02:32 dev_log : SKIPPED:0
+2017-02-17 15:04:09 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:09 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@6e6c3152]
+2017-02-17 15:04:10 dev_log : All Tests is finished
+2017-02-17 15:04:10 dev_log : PASSED:0
+2017-02-17 15:04:10 dev_log : FAILED:0
+2017-02-17 15:04:10 dev_log : SKIPPED:0
+2017-02-17 15:05:52 dev_log : [STEP] [点击'我的'] 
+2017-02-17 15:05:52 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 15:05:53 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 15:05:53 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 15:05:54 dev_log : [STEP] [点击昵称] 
+2017-02-17 15:05:54 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 15:05:55 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:6276
+2017-02-17 15:06:19 dev_log : All Tests is finished
+2017-02-17 15:06:19 dev_log : PASSED:0
+2017-02-17 15:06:19 dev_log : FAILED:0
+2017-02-17 15:06:19 dev_log : SKIPPED:0
+2017-02-17 15:12:52 dev_log : [STEP] [点击'我的'] 
+2017-02-17 15:12:52 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 15:12:54 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 15:12:54 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 15:12:55 dev_log : [STEP] [点击昵称] 
+2017-02-17 15:12:55 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 15:12:56 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:8237
+2017-02-17 15:13:40 dev_log : [STEP] [点击'我的'] 
+2017-02-17 15:13:40 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 15:13:41 dev_log : [STEP] [点击'我的主机'] 
+2017-02-17 15:13:41 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-17 15:13:42 dev_log : [STEP] [向上滑屏] 
+2017-02-17 15:13:42 dev_log : [STEP] [点击更多] 
+2017-02-17 15:13:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-17 15:13:45 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-17 15:13:45 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-17 15:13:47 dev_log : [STEP] [确认删除] 
+2017-02-17 15:13:47 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-17 15:13:48 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-17 15:17:23 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:76
+2017-02-17 15:18:03 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:81
+2017-02-17 15:19:15 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:68
+2017-02-17 15:19:56 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:56
+2017-02-17 15:20:20 dev_log : All Tests is finished
+2017-02-17 15:20:20 dev_log : PASSED:0
+2017-02-17 15:20:20 dev_log : FAILED:0
+2017-02-17 15:20:20 dev_log : SKIPPED:0
+2017-02-17 15:25:23 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:90
+2017-02-17 15:26:05 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:71
+2017-02-17 15:26:29 dev_log : All Tests is finished
+2017-02-17 15:26:29 dev_log : PASSED:0
+2017-02-17 15:26:29 dev_log : FAILED:0
+2017-02-17 15:26:29 dev_log : SKIPPED:0
+2017-02-17 15:27:32 dev_log : [STEP] [点击'我的'] 
+2017-02-17 15:27:32 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 15:27:33 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 15:27:33 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 15:27:34 dev_log : [STEP] [点击昵称] 
+2017-02-17 15:27:34 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 15:27:35 dev_log : [STEP] [清空昵称文本框] 
+2017-02-17 15:27:35 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 15:27:39 dev_log : Success, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:7077
+2017-02-17 15:28:00 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:108
+2017-02-17 15:28:24 dev_log : All Tests is finished
+2017-02-17 15:28:24 dev_log : PASSED:0
+2017-02-17 15:28:24 dev_log : FAILED:0
+2017-02-17 15:28:24 dev_log : SKIPPED:0
+2017-02-17 15:30:47 dev_log : [STEP] [点击'我的'] 
+2017-02-17 15:30:47 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 15:30:48 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 15:30:48 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 15:30:50 dev_log : [STEP] [点击昵称] 
+2017-02-17 15:30:50 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 15:30:51 dev_log : [STEP] [清空昵称文本框] 
+2017-02-17 15:30:51 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 15:30:54 dev_log : Success, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:10419
+2017-02-17 15:31:18 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:79
+2017-02-17 16:22:20 dev_log : Failed, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:185
+2017-02-17 16:23:07 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:23:07 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:23:08 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:23:08 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:23:09 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:23:09 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 16:23:10 dev_log : [STEP] [输入16个字汉] 
+2017-02-17 16:23:10 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:23:16 dev_log : [STEP] [确认输入] 
+2017-02-17 16:23:16 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:23:16 dev_log : Failed, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:11928
+2017-02-17 16:24:01 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:24:01 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:24:02 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:24:02 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:24:04 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:24:04 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 16:24:04 dev_log : [STEP] [输入32个英文] 
+2017-02-17 16:24:04 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:24:10 dev_log : [STEP] [确认输入] 
+2017-02-17 16:24:10 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:24:10 dev_log : Failed, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:12112
+2017-02-17 16:24:58 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:24:58 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:24:59 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:24:59 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:25:00 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:25:00 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userNicknameTextView]
+2017-02-17 16:25:01 dev_log : [STEP] [输入1个字符] 
+2017-02-17 16:25:01 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:25:07 dev_log : [STEP] [确认输入] 
+2017-02-17 16:25:07 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:25:07 dev_log : Failed, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:11802
+2017-02-17 16:25:31 dev_log : All Tests is finished
+2017-02-17 16:25:31 dev_log : PASSED:0
+2017-02-17 16:25:31 dev_log : FAILED:0
+2017-02-17 16:25:31 dev_log : SKIPPED:0
+2017-02-17 16:31:06 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:31:10 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:31:15 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:31:19 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:31:19 dev_log : All Tests is finished
+2017-02-17 16:31:19 dev_log : PASSED:0
+2017-02-17 16:31:19 dev_log : FAILED:0
+2017-02-17 16:31:19 dev_log : SKIPPED:0
+2017-02-17 16:32:12 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:32:15 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:32:17 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:32:19 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:32:19 dev_log : All Tests is finished
+2017-02-17 16:32:19 dev_log : PASSED:0
+2017-02-17 16:32:19 dev_log : FAILED:0
+2017-02-17 16:32:19 dev_log : SKIPPED:0
+2017-02-17 16:33:40 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:33:43 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:33:45 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:33:48 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:33:48 dev_log : All Tests is finished
+2017-02-17 16:33:48 dev_log : PASSED:0
+2017-02-17 16:33:48 dev_log : FAILED:0
+2017-02-17 16:33:48 dev_log : SKIPPED:0
+2017-02-17 16:34:27 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:34:27 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:34:28 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:34:28 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:34:28 dev_log : All Tests is finished
+2017-02-17 16:34:28 dev_log : PASSED:0
+2017-02-17 16:34:28 dev_log : FAILED:0
+2017-02-17 16:34:28 dev_log : SKIPPED:0
+2017-02-17 16:35:24 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:35:27 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:35:29 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:35:31 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:35:31 dev_log : All Tests is finished
+2017-02-17 16:35:31 dev_log : PASSED:0
+2017-02-17 16:35:31 dev_log : FAILED:0
+2017-02-17 16:35:31 dev_log : SKIPPED:0
+2017-02-17 16:36:25 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:36:25 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:36:26 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:36:26 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:36:26 dev_log : All Tests is finished
+2017-02-17 16:36:26 dev_log : PASSED:0
+2017-02-17 16:36:26 dev_log : FAILED:0
+2017-02-17 16:36:26 dev_log : SKIPPED:0
+2017-02-17 16:39:27 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:39:29 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:39:31 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:39:34 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]
+2017-02-17 16:39:34 dev_log : All Tests is finished
+2017-02-17 16:39:34 dev_log : PASSED:0
+2017-02-17 16:39:34 dev_log : FAILED:0
+2017-02-17 16:39:34 dev_log : SKIPPED:0
+2017-02-17 16:46:49 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:46:49 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:46:50 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:46:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:46:51 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:46:51 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 16:46:52 dev_log : [STEP] [清空昵称文本框] 
+2017-02-17 16:46:52 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:46:55 dev_log : Success, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:10231
+2017-02-17 16:47:18 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:47:18 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:47:19 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:47:19 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:47:20 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:47:20 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 16:47:21 dev_log : [STEP] [输入16个字汉] 
+2017-02-17 16:47:21 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:47:27 dev_log : [STEP] [确认输入] 
+2017-02-17 16:47:27 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:47:28 dev_log : [STEP] [点击保存按扭] 
+2017-02-17 16:47:28 dev_log : [INFO] [点击按扭 -> name: 保存]
+2017-02-17 16:47:29 dev_log : Success, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:14013
+2017-02-17 16:47:55 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:47:55 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:47:56 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:47:56 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:47:57 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:47:57 dev_log : [INFO] [点击 -> name: 昵称]
+2017-02-17 16:47:58 dev_log : [STEP] [输入32个英文] 
+2017-02-17 16:47:58 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:48:18 dev_log : [STEP] [确认输入] 
+2017-02-17 16:48:18 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:48:19 dev_log : [STEP] [点击保存按扭] 
+2017-02-17 16:48:19 dev_log : [INFO] [点击按扭 -> name: 保存]
+2017-02-17 16:48:20 dev_log : Success, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:28658
+2017-02-17 16:48:45 dev_log : [STEP] [点击'我的'] 
+2017-02-17 16:48:45 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-17 16:48:46 dev_log : [STEP] [点击个人信息头像] 
+2017-02-17 16:48:46 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-17 16:48:47 dev_log : [STEP] [点击昵称] 
+2017-02-17 16:48:47 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userNicknameTextView]
+2017-02-17 16:48:48 dev_log : [STEP] [输入1个字符] 
+2017-02-17 16:48:48 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:48:53 dev_log : [STEP] [确认输入] 
+2017-02-17 16:48:53 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-02-17 16:48:55 dev_log : [STEP] [点击保存按扭] 
+2017-02-17 16:48:55 dev_log : [INFO] [点击按扭 -> name: 保存]
+2017-02-17 16:48:56 dev_log : Success, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:13788
+2017-02-17 16:48:59 dev_log : All Tests is finished
+2017-02-17 16:48:59 dev_log : PASSED:0
+2017-02-17 16:48:59 dev_log : FAILED:0
+2017-02-17 16:48:59 dev_log : SKIPPED:0
+2017-02-17 17:08:45 dev_log : Failed, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:135
+2017-02-17 17:09:09 dev_log : All Tests is finished
+2017-02-17 17:09:09 dev_log : PASSED:0
+2017-02-17 17:09:09 dev_log : FAILED:0
+2017-02-17 17:09:09 dev_log : SKIPPED:0
+2017-02-17 17:11:06 dev_log : Success, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:103
+2017-02-17 17:11:10 dev_log : All Tests is finished
+2017-02-17 17:11:10 dev_log : PASSED:0
+2017-02-17 17:11:10 dev_log : FAILED:0
+2017-02-17 17:11:10 dev_log : SKIPPED:0
+2017-02-17 17:19:22 dev_log : Success, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:120
+2017-02-17 17:19:25 dev_log : All Tests is finished
+2017-02-17 17:19:25 dev_log : PASSED:0
+2017-02-17 17:19:25 dev_log : FAILED:0
+2017-02-17 17:19:25 dev_log : SKIPPED:0
+2017-02-17 17:30:14 dev_log : Success, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:132
+2017-02-17 17:30:18 dev_log : All Tests is finished
+2017-02-17 17:30:18 dev_log : PASSED:0
+2017-02-17 17:30:18 dev_log : FAILED:0
+2017-02-17 17:30:18 dev_log : SKIPPED:0
+2017-02-17 17:40:52 dev_log : Success, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:165
+2017-02-17 17:40:56 dev_log : All Tests is finished
+2017-02-17 17:40:56 dev_log : PASSED:0
+2017-02-17 17:40:56 dev_log : FAILED:0
+2017-02-17 17:40:56 dev_log : SKIPPED:0
+2017-02-17 17:44:06 dev_log : Success, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@22a67b4] #parameters:0 time:124
+2017-02-17 17:44:10 dev_log : All Tests is finished
+2017-02-17 17:44:10 dev_log : PASSED:0
+2017-02-17 17:44:10 dev_log : FAILED:0
+2017-02-17 17:44:10 dev_log : SKIPPED:0
+2017-02-17 17:47:28 dev_log : Success, method:Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:140
+2017-02-17 17:47:32 dev_log : All Tests is finished
+2017-02-17 17:47:32 dev_log : PASSED:0
+2017-02-17 17:47:32 dev_log : FAILED:0
+2017-02-17 17:47:32 dev_log : SKIPPED:0

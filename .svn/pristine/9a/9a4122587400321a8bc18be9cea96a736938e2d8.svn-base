@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"><META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"><link rel="stylesheet" href="demo_report_style.css"/><html><head><title>测试报告</title></head><body><div class="page_title"><center><h1>测试报告</h1></center></div><div class="statistics"><table id="statistics_table" class="sortable" align="center" border="5"  style="width:100%;"><tr><th><b>序号</b></th><th><b>模块</b></th><th><b>用例描述</b></th><th><b>期待结果</b></th><th><b>实际结果</b></th><th><b>执行时间</b></th><th><b>状态</b></th></tr><div class="statistics"><tr><td>1</td><td>我的主机</td><td>个人中心检查我的主机
+</td><td>有主机个人中心显示我的主机</td><td>跟期望值一样</td><td>2017-02-10 09:55:24</td><td><b><font color=Green>PASS</font></b></td></tr></div>
+<div class="statistics"><tr><td>2</td><td>设备信息</td><td>设备信息检查主机Mac地址
+</td><td>00:7E:56:08:C5:D2</td><td></td><td>2017-02-10 09:55:30</td><td><b><font color=Red>FAIL</font></b></td></tr></div>
+<div class="statistics"><tr><td>3</td><td>设备信息</td><td>设备信息检查主机ip
+</td><td></td><td>跟期望值一样</td><td>2017-02-10 09:55:38</td><td><b><font color=Green>PASS</font></b></td></tr></div>
+<div class="statistics"><tr><td>4</td><td>设备信息</td><td>设备信息检查主机固件版本
+</td><td></td><td>跟期望值一样</td><td>2017-02-10 09:55:43</td><td><b><font color=Green>PASS</font></b></td></tr></div>
+<div class="statistics"><tr><td>5</td><td>设备信息返回</td><td>设备信息检查主机版本后返回
+</td><td>返回个人中心</td><td>An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'test', ip: '192.168.18.223', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\AppiumTest\orvibo_appiumtest\apps\HomeMate 2.2.0.201.apk, appPackage=com.orvibo.homemate, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=492c754e, platform=LINUX, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, desired={app=D:\AppiumTest\orvibo_appiumtest\apps\HomeMate 2.2.0.201.apk, appPackage=com.orvibo.homemate, setWebContentsDebuggingEnabled=true, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, platformName=Android, udid=492c754e, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, resetKeyboard=true}]
+Session ID: c4508d53-53ba-40be-926c-c96a5646c9aa
+*** Element info: {Using=id, value=com.orvibo.homemate:id/leftTextView}</td><td>2017-02-10 09:55:53</td><td><b><font color=Red>FAIL</font></b></td></tr></div>
+<div class="statistics"><tr><td>6</td><td>更多</td><td>更多页面检查删除主机
+</td><td>显示删除主机</td><td>An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'test', ip: '192.168.18.223', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\AppiumTest\orvibo_appiumtest\apps\HomeMate 2.2.0.201.apk, appPackage=com.orvibo.homemate, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=492c754e, platform=LINUX, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, desired={app=D:\AppiumTest\orvibo_appiumtest\apps\HomeMate 2.2.0.201.apk, appPackage=com.orvibo.homemate, setWebContentsDebuggingEnabled=true, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, platformName=Android, udid=492c754e, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, resetKeyboard=true}]
+Session ID: c4508d53-53ba-40be-926c-c96a5646c9aa
+*** Element info: {Using=name, value=我的主机}</td><td>2017-02-10 09:56:04</td><td><b><font color=Red>FAIL</font></b></td></tr></div>
+<div class="statistics"><tr><td>7</td><td>更多</td><td>检查删除主机弹窗
+</td><td>点击删除主机弹窗文案检查</td><td>An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'test', ip: '192.168.18.223', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\AppiumTest\orvibo_appiumtest\apps\HomeMate 2.2.0.201.apk, appPackage=com.orvibo.homemate, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=true, noReset=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=492c754e, platform=LINUX, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, desired={app=D:\AppiumTest\orvibo_appiumtest\apps\HomeMate 2.2.0.201.apk, appPackage=com.orvibo.homemate, setWebContentsDebuggingEnabled=true, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, platformName=Android, udid=492c754e, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, resetKeyboard=true}]
+Session ID: c4508d53-53ba-40be-926c-c96a5646c9aa
+*** Element info: {Using=id, value=com.orvibo.homemate:id/deleteTextView}</td><td>2017-02-10 09:56:16</td><td><b><font color=Red>FAIL</font></b></td></tr></div>

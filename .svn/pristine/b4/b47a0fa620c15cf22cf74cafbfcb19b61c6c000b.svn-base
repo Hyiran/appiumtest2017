@@ -1,0 +1,34 @@
+<h2>Reporter output</h2><table><tr><td>2017-02-23 18:38:22 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-23 18:38:22 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-23 18:38:23 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-23 18:38:23 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-23 18:38:25 : [STEP] [点击进入授权登录界面] </td></tr>
+<tr><td>2017-02-23 18:38:25 : [INFO] [点击 -> -android uiautomator: text("授权登录")]</td></tr>
+<tr><td>2017-02-23 18:38:29 : [INFO] 安装了QQ</td></tr>
+<tr><td>2017-02-23 18:38:29 : [STEP] [点击QQ账号] </td></tr>
+<tr><td>2017-02-23 18:38:29 : [INFO] [点击 -> -android uiautomator: text("QQ账号")]</td></tr>
+<tr><td>2017-02-23 18:38:30 : [STEP] [点击绑定QQ] </td></tr>
+<tr><td>2017-02-23 18:38:30 : [INFO] [点击 -> -android uiautomator: text("绑定QQ")]</td></tr>
+<tr><td>2017-02-23 18:39:11 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-23 18:39:11 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-23 18:39:12 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-23 18:39:12 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-23 18:39:14 : [STEP] [点击进入授权登录界面] </td></tr>
+<tr><td>2017-02-23 18:39:14 : [INFO] [点击 -> -android uiautomator: text("授权登录")]</td></tr>
+<tr><td>2017-02-23 18:39:17 : [INFO] 未安装微信</td></tr>
+<tr><td>2017-02-23 18:39:17 : [STEP] [点击微信账号] </td></tr>
+<tr><td>2017-02-23 18:39:17 : [INFO] [点击 -> -android uiautomator: text("微信账号")]</td></tr>
+<tr><td>2017-02-23 18:39:19 : [STEP] [点击绑定微信] </td></tr>
+<tr><td>2017-02-23 18:39:19 : [INFO] [点击 -> -android uiautomator: text("绑定微信")]</td></tr>
+<tr><td>2017-02-23 18:40:03 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-23 18:40:03 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-23 18:40:05 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-23 18:40:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-23 18:40:06 : [STEP] [点击进入授权登录界面] </td></tr>
+<tr><td>2017-02-23 18:40:06 : [INFO] [点击 -> -android uiautomator: text("授权登录")]</td></tr>
+<tr><td>2017-02-23 18:40:09 : [INFO] 安装了微博</td></tr>
+<tr><td>2017-02-23 18:40:09 : [STEP] [点击微博账号] </td></tr>
+<tr><td>2017-02-23 18:40:09 : [INFO] [点击 -> -android uiautomator: text("微博账号")]</td></tr>
+<tr><td>2017-02-23 18:40:11 : [STEP] [点击绑定微博] </td></tr>
+<tr><td>2017-02-23 18:40:11 : [INFO] [点击 -> -android uiautomator: text("绑定微博")]</td></tr>
+</table>

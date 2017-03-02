@@ -1,0 +1,75 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import java.util.logging.Logger;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.oribo.android365.automationtest.personcenter.MyHost;
+import com.oribo.common.Constant;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.common.Driver;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.dataprovider.ExcelData;
+import com.oribo.log.LoggerUtil;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.utils.ReadExcel;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import com.oribo.common.AppOperate;
+import com.oribo.common.AppOperate.*;
+public class PhotoCheck extends TestcaseFrame{
+	Logger mLogger;
+	
+	@BeforeTest
+	public void SetUp()
+	{   
+		ReadExcel  excel =  new ReadExcel();
+		ExcelData  excelData =  new ExcelData();
+		excelData.setNumerSheet(6);
+		excelData.setCaseType(Constant.CASETYPE_ANDROID);
+		excel.readXls("personInfo_TestData.xls", excelData,bean);
+		 newSleep(3);
+		Driver.getAndroidDriver(null).findElementByName("我的").click();
+		mLogger =LoggerUtil.getwriteFileLog(Constant.MYHOST,AppBean.getAppBean().getApk()+"_"+AppBean.getAppBean().getPhone()+"_"+"我的主机", MyHost.class);
+	}
+	
+	@Test
+	public void setPhoto()
+	{   
+	
+		AndroidElement photo1,photo2;
+		DataBean  data = bean.get(0);
+		System.out.println("正在执行用例："+data.getTestCaseName());
+		//执行第几条用例
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		Assert.assertNotNull((photo1=Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/iv_personal_user_icon")));
+	//    AppOperate.click(photo1, "点击个人中心的头像图标");
+	     newSleep(2);
+	    Assert.assertNotNull((photo2=Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/userPicImageView")));
+	//    AppOperate.click(photo2, "点击个人信息中的头像图标");
+	     newSleep(3);
+	 //   AppOperate.click(Driver.getAndroidDriver(null).findElementByName("拍照"), "点击拍照图标");
+	    
+	    
+	    
+	    
+		
+		
+		
+		
+	}
+	
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		 CreateHtmlreport.closeLog();
+	}
+
+}

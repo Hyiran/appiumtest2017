@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="29" total="32" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-02-23 18:38:22 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:22 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:23 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:23 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:25 : [STEP] [点击进入授权登录界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:25 : [INFO] [点击 -> -android uiautomator: text("授权登录")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:29 : [INFO] 安装了QQ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:29 : [STEP] [点击QQ账号] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:29 : [INFO] [点击 -> -android uiautomator: text("QQ账号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:30 : [STEP] [点击绑定QQ] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:38:30 : [INFO] [点击 -> -android uiautomator: text("绑定QQ")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:11 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:11 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:12 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:12 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:14 : [STEP] [点击进入授权登录界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:14 : [INFO] [点击 -> -android uiautomator: text("授权登录")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:17 : [INFO] 未安装微信]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:17 : [STEP] [点击微信账号] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:17 : [INFO] [点击 -> -android uiautomator: text("微信账号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:19 : [STEP] [点击绑定微信] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:39:19 : [INFO] [点击 -> -android uiautomator: text("绑定微信")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:03 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:03 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:05 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:06 : [STEP] [点击进入授权登录界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:06 : [INFO] [点击 -> -android uiautomator: text("授权登录")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:09 : [INFO] 安装了微博]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:09 : [STEP] [点击微博账号] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:09 : [INFO] [点击 -> -android uiautomator: text("微博账号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:11 : [STEP] [点击绑定微博] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-23 18:40:11 : [INFO] [点击 -> -android uiautomator: text("绑定微博")]]]>
+    </line>
+  </reporter-output>
+  <suite name="智家365" duration-ms="182956" started-at="2017-02-23T10:37:24Z" finished-at="2017-02-23T10:40:27Z">
+    <groups>
+      <group name="个人信息">
+        <method signature="Personcenter.authorizationqq()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationqq" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.authorizationwechat()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationwechat" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.authorizationweibo()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationweibo" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 个人信息 -->
+      <group name="授权">
+        <method signature="Personcenter.authorizationqq()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationqq" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.authorizationwechat()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationwechat" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.authorizationweibo()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationweibo" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 授权 -->
+    </groups>
+    <test name="init" duration-ms="182956" started-at="2017-02-23T10:37:24Z" finished-at="2017-02-23T10:40:27Z">
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeClass" is-config="true" duration-ms="236" started-at="2017-02-23T18:37:24Z" finished-at="2017-02-23T18:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2017-02-23T18:37:24Z" finished-at="2017-02-23T18:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.2.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13088884762]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[penghong@orvibo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeMethod" is-config="true" duration-ms="55360" started-at="2017-02-23T18:37:24Z" finished-at="2017-02-23T18:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="authorizationqq()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationqq" duration-ms="14798" started-at="2017-02-23T18:38:20Z" finished-at="2017-02-23T18:38:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-23 18:38:22 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:22 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:23 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:23 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:25 : [STEP] [点击进入授权登录界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:25 : [INFO] [点击 -> -android uiautomator: text("授权登录")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:29 : [INFO] 安装了QQ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:29 : [STEP] [点击QQ账号] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:29 : [INFO] [点击 -> -android uiautomator: text("QQ账号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:30 : [STEP] [点击绑定QQ] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:38:30 : [INFO] [点击 -> -android uiautomator: text("绑定QQ")]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authorizationqq -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="tearDown" is-config="true" duration-ms="8271" started-at="2017-02-23T18:38:35Z" finished-at="2017-02-23T18:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeMethod" is-config="true" duration-ms="25950" started-at="2017-02-23T18:38:43Z" finished-at="2017-02-23T18:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="authorizationwechat()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationwechat" duration-ms="19260" started-at="2017-02-23T18:39:09Z" finished-at="2017-02-23T18:39:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-23 18:39:11 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:11 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:12 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:12 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:14 : [STEP] [点击进入授权登录界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:14 : [INFO] [点击 -> -android uiautomator: text("授权登录")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:17 : [INFO] 未安装微信]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:17 : [STEP] [点击微信账号] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:17 : [INFO] [点击 -> -android uiautomator: text("微信账号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:19 : [STEP] [点击绑定微信] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:39:19 : [INFO] [点击 -> -android uiautomator: text("绑定微信")]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authorizationwechat -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="tearDown" is-config="true" duration-ms="8923" started-at="2017-02-23T18:39:28Z" finished-at="2017-02-23T18:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeMethod" is-config="true" duration-ms="24223" started-at="2017-02-23T18:39:37Z" finished-at="2017-02-23T18:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="authorizationweibo()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="authorizationweibo" duration-ms="17341" started-at="2017-02-23T18:40:01Z" finished-at="2017-02-23T18:40:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-23 18:40:03 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:03 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:05 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:06 : [STEP] [点击进入授权登录界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:06 : [INFO] [点击 -> -android uiautomator: text("授权登录")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:09 : [INFO] 安装了微博]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:09 : [STEP] [点击微博账号] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:09 : [INFO] [点击 -> -android uiautomator: text("微博账号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:11 : [STEP] [点击绑定微博] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-23 18:40:11 : [INFO] [点击 -> -android uiautomator: text("绑定微博")]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authorizationweibo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="tearDown" is-config="true" duration-ms="8565" started-at="2017-02-23T18:40:19Z" finished-at="2017-02-23T18:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+    </test> <!-- init -->
+  </suite> <!-- 智家365 -->
+</testng-results>

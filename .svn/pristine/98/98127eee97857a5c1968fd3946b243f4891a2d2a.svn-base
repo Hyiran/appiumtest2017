@@ -1,0 +1,96 @@
+package com.oribo.common;
+
+import org.testng.Assert;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class EditText {
+	 AndroidElement edittext;
+	
+	//16个汉字
+	private  final String MAXCHINA="我是中国人我爱我的祖国我们是一家";
+	//32个英文字符
+	private  final String MAXENG="qwertyuiopasdfghjklzxcvbnmqwerty";
+	private  final String ONECHAR="a";
+	//超过32个英文字符
+	private  final String GREMAXENG="qwertyuiopasdfghjklzxcvbnmqwertya";
+	//超过16个汉字
+	private  final String GREMAXCHINA="我是中国人我爱我的祖国我们是一家多";
+	private  final String INCLUDENULL="adfa 我们 ￥%……￥%";
+	
+	public EditText(AndroidElement edittext)
+	{
+		this.edittext=edittext;
+	}
+	
+
+	/**
+	 * 输入16个汉字
+	 */
+	public  void inputmaxchina(AndroidDriver driver)
+	{
+		AppOperate.sendKeys(edittext, "输入16个字汉", MAXCHINA);
+		AppOperate.submit(edittext, "确认输入",driver);
+		Assert.assertEquals(edittext.getText().trim(), MAXCHINA);
+		
+	}
+	public String getmaxchina()
+	{
+		return MAXCHINA;
+	}
+	
+	
+	/**
+	 * 输入32个英文
+	 */
+	public void inputmaxeng(AndroidDriver driver)
+	{
+		AppOperate.sendKeys(edittext, "输入32个英文",MAXENG);
+		AppOperate.submit(edittext, "确认输入",driver);
+		Assert.assertEquals(edittext.getText().trim(), MAXENG);
+	}
+	public String getmaxeng()
+	{
+		return MAXENG;
+	}
+	
+	/**
+	 * 输入超过32个字符能否再输入
+	 */
+	public boolean inputgremax(AndroidDriver driver)
+	{  
+		edittext.sendKeys(GREMAXENG);
+		AppOperate.submit(edittext, "确认输入",driver);
+		if(edittext.getText().length()>32)
+			return false;
+		else 
+			return true;
+	
+	}
+	
+	/**
+	 * 输入一个字符
+	 * @return
+	 */
+	public void inputonechar(AndroidDriver driver)
+	{
+		AppOperate.sendKeys(edittext, "输入1个字符",ONECHAR);
+		AppOperate.submit(edittext, "确认输入",driver);
+	}
+	/**
+	 * 返回单个字符的内容
+	 * @return
+	 */
+	public String getonechar()
+	{
+		return ONECHAR;
+	}
+	public String gettext()
+	{
+		return edittext.getText().trim();
+	}
+	
+	
+
+}

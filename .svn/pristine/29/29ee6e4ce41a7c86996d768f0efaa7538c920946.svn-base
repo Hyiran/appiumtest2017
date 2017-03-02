@@ -1,0 +1,114 @@
+package com.oribo.android365.testcase;
+import org.testng.annotations.Test;
+
+import com.beust.testng.TestNG;
+import com.oribo.common.Capabilities;
+import com.oribo.common.Driver;
+import com.oribo.common.SaveUserInfo;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.utils.FileOperate;
+import com.oribo.utils.GetElementUtil;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import java.io.File;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.BeforeSuite;
+public class StartAppiumTest extends TestcaseFrame {
+	public String appport ;
+	public String appudid;
+	public String testphone;//  测试手机
+	public String appplatformVersion;//手机的版本号
+	public String appapk;//测试的App 包
+	public String receiver;//测试报告邮件接收人
+	AndroidDriver driver=null;
+	/**
+	 * 此类作用为启动APP，然后进行登录
+	 * 设置测试环境
+	 * @param port  启动的端口好
+	 * @param udid 手机的IDID
+	 * @param platformVersion  手机系统
+	 * @param apk  测试的apk
+	 */
+	@BeforeTest(alwaysRun=true)
+	@Parameters({ "port","udid","phone","platformVersion", "apk","testaccount","testpassword","reportreceiver"})
+	public void beforeSuite(String port, String udid,String phone,String platformVersion ,String apk,String testaccount,String testpassword,String reportreceiver ){
+		appport=port;
+		appudid=udid;
+		testphone = phone;
+		appplatformVersion = platformVersion;
+		appapk =apk;
+		account = testaccount;
+		password = testpassword;
+		receiver=reportreceiver;
+	}
+	
+	@BeforeTest(alwaysRun=true)
+	public void startApp() {
+	//保存app的基础信息		
+		AppBean   appbean = AppBean.getAppBean();
+		appbean.setUid(appudid);
+		appbean.setPort( appport);
+		appbean.setPhone(testphone);
+		appbean.setApk(appapk);
+		appbean.setPlatformVersion(appplatformVersion);
+		//保存登录账号信息
+		SaveUserInfo.getUserInfo().setAccount(account);
+		SaveUserInfo.getUserInfo().setPassWord(password);
+		FileOperate.delectLogFiles();
+		    super.testSetUp();
+			driver = super.getDriver();
+		//	newSetUp();
+
+	
+	
+	}
+
+	@Test(groups={"我的"})
+	public void test() {
+		System.out.println("11111 "+driver.currentActivity());
+		if(driver.currentActivity().equals(".user.LoginActivity"))
+		{
+		//登录页面
+		List<AndroidElement> edittext = GetElementUtil.getEdit(null,"");
+			 edittext.get(0).clear();
+			 edittext.get(0).sendKeys(SaveUserInfo.getUserInfo().getAccount());
+			 edittext.get(1).clear(); 
+			 edittext.get(1).sendKeys(SaveUserInfo.getUserInfo().getPassWord()); 
+		 GetElementUtil.getEelememtByName(null, "登录").click();	
+		}
+
+	}
+	
+	@AfterClass(alwaysRun=true)
+	public void afterClass()
+	{
+		System.out.println("**********");
+		driver.quit();
+		
+	}
+	
+	@AfterSuite(alwaysRun=true)
+	public void afterSuite()
+	{   
+		
+		//获取suit名称
+		sendReport(testphone+appplatformVersion+appapk,receiver);
+	}
+	
+
+}

@@ -1,0 +1,331 @@
+--------- beginning of main
+
+02-14 17:03:25.914   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:26.916   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:27.783  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:27.785  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:27.917   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:28.918   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:29.919   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:30.792  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:30.809  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:30.920   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:31.922   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:32.923   377   489 I ThermalEngine: Sensor:batt_temp:291 mC
+
+02-14 17:03:33.819  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:33.834  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:33.924   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:34.925   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:35.926   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:36.431  2665  2707 W System.err: 无法访问或网络不稳定
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+02-14 17:03:36.432  2665  2707 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+02-14 17:03:36.433  2665  2707 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+02-14 17:03:36.433  2665  2707 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+02-14 17:03:36.433  2665  2707 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+02-14 17:03:36.433  2665  2707 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+02-14 17:03:36.434  2665  2707 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+02-14 17:03:36.435  2665  2707 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+02-14 17:03:36.435  2665  2707 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+02-14 17:03:36.435  2665  2707 W System.err: 	... 9 more
+
+02-14 17:03:36.839  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:36.843  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:36.838  1823  1823 W AppWatcher: type=1400 audit(0.0:431315): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431316): avc: denied { getattr } for path="/proc/1" dev="proc" ino=7221 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431317): avc: denied { getattr } for path="/proc/2" dev="proc" ino=13911 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431318): avc: denied { getattr } for path="/proc/3" dev="proc" ino=13912 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431319): avc: denied { getattr } for path="/proc/6" dev="proc" ino=13915 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431320): avc: denied { getattr } for path="/proc/7" dev="proc" ino=13916 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431321): avc: denied { getattr } for path="/proc/8" dev="proc" ino=13917 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431322): avc: denied { getattr } for path="/proc/21" dev="proc" ino=13918 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431323): avc: denied { getattr } for path="/proc/22" dev="proc" ino=13919 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.848  1823  1823 W AppWatcher: type=1400 audit(0.0:431324): avc: denied { getattr } for path="/proc/28" dev="proc" ino=13922 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431325): avc: denied { getattr } for path="/proc/29" dev="proc" ino=13923 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431326): avc: denied { getattr } for path="/proc/30" dev="proc" ino=13924 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431327): avc: denied { getattr } for path="/proc/32" dev="proc" ino=13926 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431328): avc: denied { getattr } for path="/proc/33" dev="proc" ino=13927 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431329): avc: denied { getattr } for path="/proc/34" dev="proc" ino=13928 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431330): avc: denied { getattr } for path="/proc/61" dev="proc" ino=13930 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431331): avc: denied { getattr } for path="/proc/62" dev="proc" ino=13931 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431332): avc: denied { getattr } for path="/proc/63" dev="proc" ino=13932 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431333): avc: denied { getattr } for path="/proc/64" dev="proc" ino=13933 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431334): avc: denied { getattr } for path="/proc/65" dev="proc" ino=13934 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431335): avc: denied { getattr } for path="/proc/66" dev="proc" ino=13935 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.858  1823  1823 W AppWatcher: type=1400 audit(0.0:431336): avc: denied { getattr } for path="/proc/67" dev="proc" ino=13936 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.868  1823  1823 W AppWatcher: type=1400 audit(0.0:431337): avc: denied { getattr } for path="/proc/68" dev="proc" ino=13937 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.868  1823  1823 W AppWatcher: type=1400 audit(0.0:431338): avc: denied { getattr } for path="/proc/69" dev="proc" ino=13938 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.868  1823  1823 W AppWatcher: type=1400 audit(0.0:431339): avc: denied { getattr } for path="/proc/70" dev="proc" ino=13939 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.868  1823  1823 W AppWatcher: type=1400 audit(0.0:431340): avc: denied { getattr } for path="/proc/71" dev="proc" ino=13940 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+02-14 17:03:36.928   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:37.929   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:38.930   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:39.850  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:39.866  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:39.931   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:40.577  3748  4036 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+02-14 17:03:40.932   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:41.492  2665  2736 D UTAnalytics:CommitTask: pid:2665 check&commit event:65501,
+
+02-14 17:03:41.492  2665  2742 D UTAnalytics:CommitTask: pid:2665 check&commit event:65502,
+
+02-14 17:03:41.493  2665  2736 D UTAnalytics:CommitTask: pid:2665 next:65501,
+
+02-14 17:03:41.493  2665  2736 D UTAnalytics:CommitTask: pid:2665 check&commit event:65503,
+
+02-14 17:03:41.493  2665  2736 D UTAnalytics:CommitTask: pid:2665 next:65503,
+
+02-14 17:03:41.516  2665  2742 D UTAnalytics:CommitTask: pid:2665 next:65502,
+
+02-14 17:03:41.520  2665  2742 D UTAnalytics:UTUtil: pid:2665 upload without flowback. args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":1,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+02-14 17:03:41.520  2665  2742 D UTAnalytics:null: pid:2665 [sendToUT]: args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":1,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+02-14 17:03:41.520  2665  2742 D UTAnalytics:UTDC: pid:2665 [commit] page:eventId:65502,arg1:feedback,arg2:getUnreadCountSuccess,arg3:args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":1,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+02-14 17:03:41.534  2665  2742 D UTAnalytics:UTLog: pid:2665 Log [id=0, eventId=65502, index=],867451020054497||WJrlhFIwuTQc2RhdQohzQQ==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.2.0.201||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1487062996456||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1487063021521||-||65502||feedback||getUnreadCountSuccess||-||counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":1,"value":0}]},
+
+02-14 17:03:41.534  2665  2742 D UTAnalytics:LogStoreMgr: pid:2665 [add] :,
+
+02-14 17:03:41.933   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:42.873  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:42.889  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:42.935   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:43.303  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:03:43.303  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+02-14 17:03:43.303  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+02-14 17:03:43.310  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:03:43.310  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+02-14 17:03:43.310  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+02-14 17:03:43.321  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:03:43.321  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+02-14 17:03:43.321  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+02-14 17:03:43.330  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:03:43.330  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+02-14 17:03:43.330  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+02-14 17:03:43.936   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:44.937   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:45.502  2665  2736 D UTAnalytics:LogStoreMgr: pid:2665 [store],
+
+02-14 17:03:45.508  2665  2736 D UTAnalytics:UTSqliteLogStore: pid:2665 [insert] ,, isSuccess:true,ret,1130,
+
+02-14 17:03:45.532  2665  2736 D UTAnalytics:UTSqliteLogStore: pid:2665 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 20,
+
+02-14 17:03:45.533  2665  2736 D UTAnalytics:UTSqliteLogStore: pid:2665 pos,0,count,3,
+
+02-14 17:03:45.533  2665  2736 D UTAnalytics:UTSqliteLogStore: pid:2665 pos,1,count,3,
+
+02-14 17:03:45.533  2665  2736 D UTAnalytics:UTSqliteLogStore: pid:2665 pos,2,count,3,
+
+02-14 17:03:45.534  2665  2736 D UTAnalytics:LogStoreMgr: pid:2665 [get],[Log [id=1128, eventId=19999, index=], Log [id=1129, eventId=2001, index=], Log [id=1130, eventId=65502, index=]],
+
+02-14 17:03:45.536  2665  2736 D UTAnalytics:UploadTask: pid:2665 averagePackageSize:265.0,
+
+02-14 17:03:45.642  2665  2716 D NAT     : SYMMETRIC_NAT
+
+02-14 17:03:45.643  2665  2716 D NAT     : call void method before
+
+02-14 17:03:45.643  2665  2716 D NAT     : call void method after
+
+02-14 17:03:45.653  3813  3950 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 2665 Uid: 10123 Start by: activity Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10123 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:1011}
+
+02-14 17:03:45.718  3813  3950 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 3851 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1487062994977 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:1010}
+
+02-14 17:03:45.758  3813  3950 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 2774 Uid: 10123 Start by: service Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10123 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:-1}
+
+02-14 17:03:45.764  2665  2736 W System.err: java.lang.reflect.InvocationTargetException
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+02-14 17:03:45.765  2665  2736 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+02-14 17:03:45.765  2665  2736 W System.err: 	... 11 more
+
+02-14 17:03:45.782  3748  4036 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+--------- beginning of system
+
+02-14 17:03:45.842  1991  1991 V NotificationService: pkg=com.qihoo.appstore canInterrupt=true intercept=true
+
+02-14 17:03:45.873  2665  2736 D UTAnalytics:UploadTask: pid:2665 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.2.0.201&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1487063025621&u=&is=1&k=0,
+
+02-14 17:03:45.874  2665  2736 D UTAnalytics:UploadTask: pid:2665 result:{"t":1487063021342,"ret":"","success":"success"}
+
+02-14 17:03:45.874  2665  2736 D UTAnalytics:UploadTask: ,
+
+02-14 17:03:45.874  2665  2736 D UTAnalytics:UploadTask: pid:2665 winsize:350,
+
+02-14 17:03:45.874  2665  2736 D UTAnalytics:LogStoreMgr: pid:2665 [Log [id=1128, eventId=19999, index=], Log [id=1129, eventId=2001, index=], Log [id=1130, eventId=65502, index=]],
+
+02-14 17:03:45.893  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:03:45.896  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:03:45.899  2665  2736 D UTAnalytics:UTSqliteLogStore: pid:2665 delete ,3, isSuccess:true,
+
+02-14 17:03:45.899  2665  2736 D UTAnalytics:CoreStatics: pid:2665 [uploadInc]:0,count:3,
+
+02-14 17:03:45.899  2665  2736 D UTAnalytics:CoreStatics: pid:2665 [uploadInc]:3,
+
+02-14 17:03:45.899  2665  2736 D UTAnalytics:UploadTask: pid:2665 logs.size():3, selfMonitorLogCount:0,
+
+02-14 17:03:45.899  2665  2736 D UTAnalytics:UploadTask: pid:2665 upload isSendSuccess:true, consume:338, delete consume:25,
+
+02-14 17:03:45.938   377   489 I ThermalEngine: Sensor:batt_temp:293 mC
+
+02-14 17:03:45.939  3548  3612 D StatusBar: onNotificationPosted:  Key: 0|com.qihoo.appstore|10012|null|10120 GroupKey: 0|com.qihoo.appstore|10012|null|10120 Connected: true
+
+02-14 17:03:45.940  3548  3548 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+02-14 17:03:45.940  3548  3548 D PhoneStatusBar: updateNotification pkg=com.qihoo.appstore;id=10012
+
+02-14 17:03:45.977  1991  1991 V NotificationService: pkg=com.qihoo.appstore canInterrupt=true intercept=true
+
+02-14 17:03:46.013  1991  3999 V LocationPolicy: writePolicyLocked()
+
+02-14 17:03:46.058  3548  3622 D StatusBar: onNotificationPosted:  Key: 0|com.qihoo.appstore|10012|null|10120 GroupKey: 0|com.qihoo.appstore|10012|null|10120 Connected: true
+
+02-14 17:03:46.082  3548  3548 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+02-14 17:03:46.084  3548  3548 D PhoneStatusBar: updateNotification pkg=com.qihoo.appstore;id=10012
+
+02-14 17:03:46.538  2665  2742 D UTAnalytics:LogStoreMgr: pid:2665 [store],
+
+02-14 17:03:46.939   377   489 I ThermalEngine: Sensor:batt_temp:292 mC
+
+02-14 17:03:47.941   377   489 I ThermalEngine: Sensor:batt_temp:292 mC

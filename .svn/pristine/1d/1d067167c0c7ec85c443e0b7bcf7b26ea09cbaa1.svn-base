@@ -1,0 +1,158 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>ÖÇ¼Ò365</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:38:50</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeClass</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:38:51</td>   <td>474</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:38:51</td>   <td>483</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:39:20</td>   <td>29701</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">CheckMyHub</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:39:44</td>   <td>53439</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:39:51</td>   <td>60773</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:40:15</td>   <td>84415</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">CheckMyHub</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:40:38</td>   <td>108226</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:40:45</td>   <td>114788</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:41:09</td>   <td>138781</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">CheckMyHub</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:41:58</td>   <td>188027</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:42:05</td>   <td>195054</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:42:29</td>   <td>218766</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">Unboundauthorization</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:42:36</td>   <td>225506</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:42:45</td>   <td>234728</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:43:09</td>   <td>258712</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">about</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:43:18</td>   <td>267738</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:43:24</td>   <td>273923</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:43:50</td>   <td>299959</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">authorizationentrance</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:44:00</td>   <td>309411</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:44:07</td>   <td>316677</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:44:31</td>   <td>340677</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">checkaccount</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:44:39</td>   <td>349357</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:44:46</td>   <td>355886</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:45:10</td>   <td>379507</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">feedback</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:49:54</td>   <td>663467</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:54:01</td>   <td>910621</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:54:25</td>   <td>935114</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">forgetpassword</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:55:45</td>   <td>1014706</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:55:52</td>   <td>1021445</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:56:16</td>   <td>1046032</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">grephonenumber</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:56:30</td>   <td>1059754</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:56:37</td>   <td>1066834</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:57:01</td>   <td>1090646</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.homemanage()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">homemanage</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:58:00</td>   <td>1149381</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:58:06</td>   <td>1155711</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:58:30</td>   <td>1179970</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">identifycode</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:59:09</td>   <td>1219283</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:59:17</td>   <td>1226945</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:59:42</td>   <td>1251644</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">lesphonenumber</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 12:59:54</td>   <td>1264245</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:00:02</td>   <td>1271509</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:00:26</td>   <td>1295639</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">modifypassword</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:01:20</td>   <td>1349454</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:01:26</td>   <td>1355791</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:01:50</td>   <td>1379388</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">nickNull</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:02:00</td>   <td>1389915</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:02:08</td>   <td>1398096</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:02:32</td>   <td>1422190</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">nickmaxchina</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:02:47</td>   <td>1437055</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:02:54</td>   <td>1444088</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:03:19</td>   <td>1469017</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">nickmaxeng</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:03:50</td>   <td>1499583</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:03:56</td>   <td>1506193</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:04:21</td>   <td>1530646</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">nickmodify</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:04:35</td>   <td>1544506</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:04:42</td>   <td>1551604</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:05:07</td>   <td>1576386</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">notphonenumber</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:05:20</td>   <td>1589390</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:05:26</td>   <td>1596151</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:05:51</td>   <td>1621312</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">phonebind</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:06:05</td>   <td>1635109</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:06:12</td>   <td>1642146</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:06:37</td>   <td>1666766</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">rightaccount</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:06:52</td>   <td>1681411</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:06:59</td>   <td>1688535</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:07:23</td>   <td>1713267</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">rightaccountnext</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:08:01</td>   <td>1750876</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:08:08</td>   <td>1758111</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:08:33</td>   <td>1782712</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">setphotobyalbum</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:09:11</td>   <td>1821314</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:09:18</td>   <td>1828149</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:09:43</td>   <td>1853137</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">setphotobycamera</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:10:42</td>   <td>1911817</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:10:49</td>   <td>1918728</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:11:15</td>   <td>1945083</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">specialchar</td> 
+  <td>main@110431793</td>   <td></td> </tr>
+<tr bgcolor="d2b987">  <td>17/03/01 13:11:28</td>   <td>1958350</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@cd2dae5]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@110431793</td>   <td></td> </tr>
+</table>

@@ -1,0 +1,351 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.apache.jasper.tagplugins.jstl.core.If;
+import org.apache.log4j.PropertyConfigurator;
+import org.bouncycastle.jcajce.provider.symmetric.ARC4.Base;
+import org.junit.Test;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+
+import com.oribo.android365.automationtest.personcenter.PersonalCenterTest;
+import com.oribo.common.Constant;
+import com.oribo.common.FindEelement;
+import com.oribo.common.AndroidOperate;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.common.Driver;
+import com.oribo.common.SetExcelDataIndex;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.dataprovider.ExcelData;
+import com.oribo.log.LoggerTestOne;
+import com.oribo.log.LoggerTestThree;
+import com.oribo.log.LoggerTestTow;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.report.MessageOutput;
+import com.oribo.utils.GetElementUtil;
+import com.oribo.log.LoggerUtil;
+import com.oribo.utils.ReadExcel;
+import com.oribo.log.LoggerUtil.LoggerFormater;
+import com.oribo.log.LoggerUtil.loggerLevel;
+import com.oribo.utils.ElementOperate;
+import com.sun.jna.platform.win32.OaIdl.TYPEATTR;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+/**
+ * 修改昵称  测试逻辑
+ * @author cindy
+ *
+ */
+public class NickNameTest extends TestcaseFrame{
+	//private AndroidDriver<AndroidElement>  driver = Driver.getAndroidDriver(null);
+	Logger mLogger;
+	//private AndroidElement  inputName = null;
+	//private AndroidElement  btnSave = null;
+	private String currentActivity;
+	private String  strNickName;//记录输入的昵称 
+
+	/**
+	 * 静态代码块，读取数据测试
+	 *//*
+	static {
+		try {
+			ReadExcel  excel =  new ReadExcel();
+			ExcelData  excelData =  new ExcelData();
+			excelData.setNumerSheet(0);
+			excelData.setCaseType(Constant.CASETYPE_ANDROID);
+			excel.readXls("personInfo_TestData.xls", excelData,bean);
+		} catch (Exception e) {
+		}
+	}*/
+
+	@BeforeTest 
+	public  void SetUp() {
+		ReadExcel  excel =  new ReadExcel();
+		ExcelData  excelData =  new ExcelData();
+		excelData.setNumerSheet(0);
+		excelData.setCaseType(Constant.CASETYPE_ANDROID);
+		excel.readXls("personInfo_TestData.xls", excelData,bean);//初始化时已经读取了测试用例了，放在bean中
+		 newSleep(3);
+		Driver.getAndroidDriver(null).findElementByName("我的").click();
+		 newSleep(1);
+		FindEelement.findByIdClick("com.orvibo.homemate:id/iv_personal_user_icon");//2.0此处无"个人中心"
+		 newSleep(1);
+		Driver.getAndroidDriver(null).findElementByName("昵称").click();
+		//获取当前的activity
+		currentActivity  = Driver.getAndroidDriver(null).currentActivity();
+		//创建longger 日志文件
+		mLogger =LoggerUtil.getwriteFileLog(Constant.NICKNAMEFILE,AppBean.getAppBean().getApk()+"_"+AppBean.getAppBean().getPhone()+"_"+"昵称", NickNameTest.class);
+	}
+
+	/**
+	 * 测试
+	 */
+	@Test
+	public void test(){
+		if (inputnull(0)) {
+			//输入汉字16个
+			if (inputTest(1, Constant.CHINESE_NUMBER)) {
+				if (saveCheck(2)) {
+					//输入英文32个
+					if (inputTest(3, Constant.ENGlISH_NUMBER)) {
+						if (save(4)) {
+							Driver.getAndroidDriver(null).findElementByName("昵称").click();
+							if (inputTest(5, Constant.CHINESE_NUMBER)) {
+								save(6);
+							}
+						}
+
+					}
+				}	
+			}
+		}
+
+	}
+	
+	/**
+	 * 输入为空
+	 *//*
+	@org.testng.annotations.Test
+	public void test_01(){
+		inputnull(0);
+	}
+
+	  *//**
+	  * 不能超过16个汉字
+	  *//*
+	@org.testng.annotations.Test  
+	public void test_02(){
+		 newSleep(2);
+		inputTest(1, Constant.CHINESE_NUMBER);
+	}
+
+	   *//**
+	   * 检查输入内容不空，按钮是否能保存
+	   *//*
+	@org.testng.annotations.Test
+	public void test_03(){
+		 newSleep(2);
+		saveCheck(2);
+		//Driver.getAndroidDriver(null).findElementByName("昵称").click();
+	}
+
+	/**
+	    *输入超过32 个字符
+
+	@org.testng.annotations.Test
+	public void test_04(){
+		 newSleep(2);
+		inputTest(3, Constant.ENGlISH_NUMBER);
+	}
+
+	    *//**
+	    *输入超过32 个字符  的保存
+	    *//*
+
+	@org.testng.annotations.Test
+	public void test_05(){
+		 newSleep(2);
+		save(4);
+		Driver.getAndroidDriver(null).findElementByName("昵称").click();
+	}
+
+	@org.testng.annotations.Test
+	public void test_06(){
+		 newSleep(2);
+		inputTest(5, Constant.CHINESE_NUMBER);
+	}
+
+	@org.testng.annotations.Test
+	public void test_07(){
+		 newSleep(2);
+		save(6);
+	}
+	     */
+
+	/**
+	 * 检查内容不为空时保存按扭是否可点击
+	 * @param index
+	 * @return
+	 */
+	private boolean  saveCheck(int index){
+		DataBean  data = bean.get(index);
+		System.out.println("测试开始");
+		try {
+			LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+			AndroidElement save  = (AndroidElement)Driver.getAndroidDriver(null).findElementByClassName("android.widget.Button");
+			if (save.isEnabled()) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, "");
+				LoggerUtil.startTest("点击保存", mLogger);
+				//save.click();
+				LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+				return true;
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"输入内容保存按钮不能点击", mLogger, "");
+				LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+				return false;
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, "");
+			LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+			return false;
+		}
+	}
+
+	/**
+	 * 用例：昵称为空时按扭是否可点击
+	 * 期待结果：不可点击
+	 * @param element
+	 * @param index
+	 * @param classname
+	 * @return
+	 */
+	private boolean inputnull(	int index){
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("输入为空");
+			AndroidElement  	inputName = Driver.getAndroidDriver(null).findElementByClassName("android.widget.EditText");
+			System.out.println("inputName"+inputName.getId().toString());
+			AndroidElement  	btnSave  = Driver.getAndroidDriver(null).findElementByClassName("android.widget.Button");
+			System.out.println("btnSave "+btnSave .getId().toString());
+			if (inputName == null) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"输入框查找失败", mLogger, "输入框查找失败");
+				LoggerUtil.endTest(data.getTestCaseName(), mLogger);	
+				return false;
+			} else if (btnSave == null){
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"保存按钮查找失败", mLogger, "保存按钮查找失败");
+				LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+				return false;
+			} 
+			else{
+				inputName.clear();
+				if (btnSave.isEnabled() == true) {
+					newAssertEquals(Driver.getAndroidDriver(null), data ,btnSave.getText()+"输入内容为空为能点击", mLogger, null);
+					LoggerUtil.endTest(data.getTestCaseName(), mLogger);	
+					return true;
+				} else{
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+					LoggerUtil.endTest(data.getTestCaseName(), mLogger);	
+					return true;
+				}
+
+			}
+
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			return false;
+		}
+
+	}
+
+
+	/**
+	 * 保存
+	 * @param index
+	 * @return
+	 */
+	private boolean save(int index){
+		DataBean data =bean.get(index);	
+		//AndroidElement  	inputName = Driver.getAndroidDriver(null).findElementByClassName("android.widget.EditText");
+		//inputName.sendKeys("积极发掘发掘");
+		try {
+			//AndroidElement   test = AndroidOperate.getElementByType(bean.get(1).getLocationElement(), bean.get(0).getElementAttribute());
+			//System.out.println(" test"+ test.getText());
+			LoggerUtil.logOutput(mLogger,loggerLevel.LEVLEINFO , "获取保存按钮");
+			AndroidElement save  = (AndroidElement) Driver.getAndroidDriver(null).findElementByClassName("android.widget.Button");
+			//System.out.println(" 保存测试"+ test.getText());
+			LoggerUtil.logOutput(mLogger,loggerLevel.LEVLEINFO , "判断保存按钮的状态");
+			if (save.isEnabled()) {
+				LoggerUtil.logOutput(mLogger,loggerLevel.LEVLEINFO , "点击保存按钮");
+				save.click();
+				 newSleep(1);
+				if (Driver.getAndroidDriver(null).currentActivity().equals(currentActivity)) {
+					newAssertEquals(Driver.getAndroidDriver(null), data ,"点击保存失败，还在保昵称页面中" , mLogger, null);		
+				} else{
+					//修改的名称
+					AndroidElement  nametext =Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/userNicknameTextView");
+					 newSleep(1);
+					if ( nametext !=null && nametext.getText().equals(strNickName)) {					
+						newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+					} else{
+						newAssertEquals(Driver.getAndroidDriver(null), data ,"返回到个人中心页面，没有保存昵称" , mLogger, null);
+					}
+				}
+
+			} else{	
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"保存按钮的状态"+save.isEnabled() , mLogger, null);			
+			}
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage() , mLogger, null);	
+		} 	
+
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+
+
+	/**
+	 * 用例：输入16个汉子、32个英文，数据从Excel表中
+	 * 验证输入框是否在正常的显示在规定的字符字数中
+	 * @param classname
+	 * @param index
+	 * @return
+	 */
+	private  boolean inputTest( int index,int type){	
+		DataBean data =bean.get(index);	
+		AndroidElement  	inputName = Driver.getAndroidDriver(null).findElementByClassName("android.widget.EditText");
+		System.out.println("inputName"+inputName.getId().toString());
+		System.out.println("输入测试开始");
+		System.out.println("输入测试开始"+data.getTestCaseName());
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		LoggerUtil.logOutput(mLogger,loggerLevel.LEVLEINFO , "清除输入");
+		System.out.println("输入数据"+data.getData());
+		inputName.clear();	
+		inputName.sendKeys(data.getData());
+		LoggerUtil.logOutput(mLogger,loggerLevel.LEVLEINFO , "输入数据"+inputName.getText());
+		//重置输入的名字，设置为空	
+		strNickName = null;
+		strNickName =inputName.getText();//保存名字
+		System.out.println("strNickName"+strNickName.toString());
+		int length =inputName.getText().length();
+		if (type == Constant.CHINESE_NUMBER) {//输入超过16个汉字的判断
+			if (length<=Constant.CHINESE_NUMBER&&length>0) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);	
+			}else if (length>Constant.CHINESE_NUMBER) {//超过
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"能输入中文的字数为"+length , mLogger, null);	
+			}	
+		} else if (type == Constant.ENGlISH_NUMBER){//超过32 个字符判断
+			if (length<=Constant.ENGlISH_NUMBER&&length>0) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+			}else if (length>Constant.ENGlISH_NUMBER) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"能输入英文的字数为"+length , mLogger, null);		
+			}		
+		}
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return  true;
+	}
+	
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		 CreateHtmlreport.closeLog();
+	}
+
+
+}

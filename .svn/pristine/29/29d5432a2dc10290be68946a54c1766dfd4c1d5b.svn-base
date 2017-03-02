@@ -1,0 +1,84 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Logger;
+
+import org.testng.annotations.AfterTest;
+
+import com.oribo.common.Constant;
+import com.oribo.common.FindEelement;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.common.Driver;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.report.MessageOutput;
+import com.oribo.utils.GetElementUtil;
+import com.oribo.log.LoggerUtil;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+/**
+ * 照相页面
+ * @author Administrator
+ *
+ */
+public class PhotoTest extends TestcaseFrame{
+	private int index ;
+	private  AndroidDriver<AndroidElement>  androidDriver  =  Driver.getAndroidDriver(null);
+	public static  Map<Integer, DataBean>  data = new HashMap<>();
+    public void  cancelBtn(){
+     FindEelement.findByIdClick("com.orvibo.homemate:id/btn_cancel");	
+    }
+    
+    private void gotoPhoto(Class<?> classname){
+    	DataBean  bean =  data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.CHANGEPW,bean.getTestCaseName(), classname);
+    	AndroidElement   element = GetElementUtil.getEelememtByName(logger, "拍照",Driver.getAndroidDriver(null));
+    	if (element != null) {
+    		//simpleAssertEquals( androidDriver, bean, MessageOutput.PHOTOSUCCESS, MessageOutput.PHOTOSUCCESS, logger, "跳到拍照页面成功");	
+    		 newAssertEquals(androidDriver, bean,bean.getExpectValue(), logger, "跳到拍照页面成功");
+		} else{
+			//simpleAssertEquals( androidDriver, bean, MessageOutput.PHOTOSUCCESS, MessageOutput.PHOTOFAIL, logger, "跳到拍照页面失败");
+			 newAssertEquals(androidDriver, bean,MessageOutput.PHOTOFAIL, logger, "跳到拍照页面失败");
+		}
+    	
+    }
+    
+    private void gotoSelect(Class<?> classname){
+    	DataBean  bean =  data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.CHANGEPW,bean.getTestCaseName(), classname);
+    	AndroidElement   element = GetElementUtil.getEelememtByName(logger, "从手机相处选择",Driver.getAndroidDriver(null));
+    	if (element != null) {
+    		//simpleAssertEquals( androidDriver, bean, MessageOutput.SELECTSUCCESS, MessageOutput.SELECTSUCCESS, logger, "跳到选择拍照页面成功");	
+    		 newAssertEquals(androidDriver, bean,bean.getExpectValue(), logger, "跳到选择拍照页面成功");
+		} else{
+			//simpleAssertEquals( androidDriver, bean, MessageOutput.SELECTSUCCESS, MessageOutput.SELECTFAIL, logger, "跳到选择拍照页面失败");
+			 newAssertEquals(androidDriver, bean,MessageOutput.SELECTFAIL, logger, "跳到选择拍照页面失败");
+		}
+    	
+    }
+    
+    private void gotocanle(Class<?> classname){
+    	DataBean  bean =  data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.CHANGEPW,bean.getTestCaseName(), classname);
+    	AndroidElement   element = GetElementUtil.getEelememtByName(logger, "取消",Driver.getAndroidDriver(null));
+    	if (element != null) {
+    		 newAssertEquals(androidDriver, bean,bean.getExpectValue(), logger, "取消成功");
+    		//simpleAssertEquals( androidDriver, bean, MessageOutput.PHOTOSUCCESS, MessageOutput.PHOTOSUCCESS, logger, "取消成功");	
+		} else{
+			//simpleAssertEquals( androidDriver, bean, MessageOutput.PHOTOSUCCESS, MessageOutput.PHOTOFAIL, logger, "取消失败");
+			 newAssertEquals(androidDriver, bean,MessageOutput.PHOTOFAIL, logger, "取消失败");
+		}
+    	
+    }
+    
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		 CreateHtmlreport.closeLog();
+	}
+}

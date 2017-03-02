@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="port" value="4723"/>
+  <parameter name="phone" value="xiaomi"/>
+  <parameter name="platformVersion" value="6.0.1"/>
+  <parameter name="reportreceiver" value="penghong@orvibo.com"/>
+  <parameter name="udid" value="492c754e"/>
+  <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
+  <parameter name="testpassword" value="penghong1987"/>
+  <parameter name="testaccount" value="13088884762"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.oribo.android365.testcase.StartAppiumTest">
+        <methods>
+          <include name="test"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="startApp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.oribo.android365.testcase.StartAppiumTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

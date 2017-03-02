@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-智家365">
+              <span class="suite-name border-skipped">智家365</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-智家365">
+                    <span>D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\RunTestCase.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-智家365">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-智家365">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-智家365">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-智家365">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-智家365">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-智家365">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  10 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-智家365" class="hide-methods skipped suite-智家365"> (hide)</a> <!-- hide-methods skipped suite-智家365 -->
+                      <a href="#" panel-name="suite-智家365" class="show-methods skipped suite-智家365"> (show)</a> <!-- show-methods skipped suite-智家365 -->
+                    </span>
+                    <div class="method-list-content skipped suite-智家365">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CancelDeleteHostNotice">CancelDeleteHostNotice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CheckDeleteHost">CheckDeleteHost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CheckMyHub">CheckMyHub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CheckMyHubBack">CheckMyHubBack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CheckMyHubFirmwareVersion">CheckMyHubFirmwareVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CheckMyHubIpAddress">CheckMyHubIpAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="CheckMyHubMac">CheckMyHubMac</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="ClickMore">ClickMore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.Personcenter" hash-for-method="DeleteHost">DeleteHost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.StartAppiumTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-智家365 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-智家365" class="panel 智家365">
+          <div class="suite-智家365-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.oribo.android365.testcase.StartAppiumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method beforeSuite requires 8 parameters but 6 were supplied in the BeforeTest annotation.
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-智家365-class-skipped -->
+          <div class="suite-智家365-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.oribo.android365.testcase.Personcenter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelDeleteHostNotice">
+                  </a> <!-- CancelDeleteHostNotice -->
+                  <span class="method-name">CancelDeleteHostNotice</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckDeleteHost">
+                  </a> <!-- CheckDeleteHost -->
+                  <span class="method-name">CheckDeleteHost</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckMyHub">
+                  </a> <!-- CheckMyHub -->
+                  <span class="method-name">CheckMyHub</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method beforeSuite requires 8 parameters but 6 were supplied in the BeforeTest annotation.
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckMyHubBack">
+                  </a> <!-- CheckMyHubBack -->
+                  <span class="method-name">CheckMyHubBack</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckMyHubFirmwareVersion">
+                  </a> <!-- CheckMyHubFirmwareVersion -->
+                  <span class="method-name">CheckMyHubFirmwareVersion</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckMyHubIpAddress">
+                  </a> <!-- CheckMyHubIpAddress -->
+                  <span class="method-name">CheckMyHubIpAddress</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckMyHubMac">
+                  </a> <!-- CheckMyHubMac -->
+                  <span class="method-name">CheckMyHubMac</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickMore">
+                  </a> <!-- ClickMore -->
+                  <span class="method-name">ClickMore</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@79be0360] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteHost">
+                  </a> <!-- DeleteHost -->
+                  <span class="method-name">DeleteHost</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method beforeSuite requires 8 parameters but 6 were supplied in the BeforeTest annotation.
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-智家365-class-skipped -->
+        </div> <!-- panel 智家365 -->
+        <div panel-name="test-xml-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\RunTestCase.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;智家365&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.oribo.testRetry.Retrylistener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;init&quot;&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;4723&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;xiaomi&quot;/&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;6.0.1&quot;/&gt;
+    &lt;parameter name=&quot;reportreceiver&quot; value=&quot;penghong@orvibo.com&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;492c754e&quot;/&gt;
+    &lt;parameter name=&quot;apk&quot; value=&quot;HomeMate 2.2.0.201.apk&quot;/&gt;
+    &lt;parameter name=&quot;testpassword&quot; value=&quot;123456&quot;/&gt;
+    &lt;parameter name=&quot;testaccount&quot; value=&quot;840432908@qq.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.oribo.android365.testcase.StartAppiumTest&quot;/&gt;
+      &lt;class name=&quot;com.oribo.android365.testcase.Personcenter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- init --&gt;
+&lt;/suite&gt; &lt;!-- 智家365 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 智家365</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">init (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 智家365</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">我的</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckDeleteHost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckMyHub</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">我的主机</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CancelDeleteHostNotice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckMyHubBack</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckMyHubFirmwareVersion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckMyHubIpAddress</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CheckMyHubMac</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClickMore</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteHost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 智家365</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_智家365');
+function tableData_智家365() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DeleteHost')
+data.setCell(0, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(0, 3, 104);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.oribo.android365.testcase.StartAppiumTest')
+data.setCell(1, 3, 78);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckMyHub')
+data.setCell(2, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(2, 3, 58);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckMyHubIpAddress')
+data.setCell(3, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickMore')
+data.setCell(4, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CheckMyHubMac')
+data.setCell(5, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CheckMyHubFirmwareVersion')
+data.setCell(6, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CancelDeleteHostNotice')
+data.setCell(7, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CheckMyHubBack')
+data.setCell(8, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CheckDeleteHost')
+data.setCell(9, 2, 'com.oribo.android365.testcase.Personcenter')
+data.setCell(9, 3, 0);
+window.suiteTableData['智家365']= { tableData: data, tableDiv: 'times-div-智家365'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 240 ms</span>
+              <div id="times-div-智家365">
+              </div> <!-- times-div-智家365 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 智家365</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-智家365" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.oribo.android365.testcase.StartAppiumTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.oribo.android365.testcase.Personcenter</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckMyHub</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteHost</span>
+                <span class="method-start">270 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

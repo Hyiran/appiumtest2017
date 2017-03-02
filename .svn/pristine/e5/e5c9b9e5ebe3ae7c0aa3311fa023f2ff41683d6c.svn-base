@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-02-14 17:53:44 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-14 17:53:44 : [INFO] [点击 -> name: 我的]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-14 17:53:45 : [STEP] [点击个人中心的头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-14 17:53:45 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="103374" started-at="2017-02-14T09:52:09Z" finished-at="2017-02-14T09:53:52Z">
+    <groups>
+    </groups>
+    <test name="init" duration-ms="103374" started-at="2017-02-14T09:52:09Z" finished-at="2017-02-14T09:53:52Z">
+      <class name="com.oribo.android365.testcase.StartAppiumTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3d99d22e]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2017-02-14T17:52:09Z" finished-at="2017-02-14T17:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.2.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[840432908@qq.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3d99d22e]" name="startApp" is-config="true" duration-ms="66409" started-at="2017-02-14T17:52:09Z" finished-at="2017-02-14T17:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3d99d22e]" name="test" duration-ms="965" started-at="2017-02-14T17:53:15Z" finished-at="2017-02-14T17:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3d99d22e]" name="afterClass" is-config="true" duration-ms="2857" started-at="2017-02-14T17:53:16Z" finished-at="2017-02-14T17:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.oribo.android365.testcase.StartAppiumTest -->
+      <class name="com.oribo.android365.testcase.PhTestDome">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.oribo.android365.testcase.PhTestDome@49fc609f]" name="beforeClass" is-config="true" duration-ms="20768" started-at="2017-02-14T17:53:19Z" finished-at="2017-02-14T17:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="logging()[pri:0, instance:com.oribo.android365.testcase.PhTestDome@49fc609f]" name="logging" duration-ms="9089" started-at="2017-02-14T17:53:40Z" finished-at="2017-02-14T17:53:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-14 17:53:44 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-14 17:53:44 : [INFO] [点击 -> name: 我的]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-14 17:53:45 : [STEP] [点击个人中心的头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-14 17:53:45 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.oribo.android365.testcase.PhTestDome@49fc609f]" name="afterClass" is-config="true" duration-ms="3222" started-at="2017-02-14T17:53:49Z" finished-at="2017-02-14T17:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.oribo.android365.testcase.PhTestDome -->
+    </test> <!-- init -->
+  </suite> <!-- Suite1 -->
+</testng-results>

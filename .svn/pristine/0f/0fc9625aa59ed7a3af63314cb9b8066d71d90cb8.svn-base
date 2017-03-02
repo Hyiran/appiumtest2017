@@ -1,0 +1,318 @@
+--------- beginning of main
+
+02-14 17:11:34.639   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:34.960  3706  3706 W PushService: 2017-02-14 17:11:34,959 - [WARN::PushService] - [Thread:1] register timer 1487063794952
+
+02-14 17:11:34.961  3706  3706 W PushService: 2017-02-14 17:11:34,960 - [WARN::PushService] - [Thread:1] com.xiaomi.xmsf is the package name
+
+02-14 17:11:34.962  3706  3706 W PushService: 2017-02-14 17:11:34,961 - [WARN::PushService] - [Thread:1] Ping XMChannelService on timer
+
+02-14 17:11:34.973  3706  3706 W PushService: 2017-02-14 17:11:34,973 - [WARN::PushService] - [Thread:1] onStart() with intent.Action = com.xiaomi.push.timer, chid = null
+
+02-14 17:11:34.973  3706  3706 W PushService: 2017-02-14 17:11:34,973 - [WARN::PushService] - [Thread:1] Service called on timer
+
+02-14 17:11:34.976  3706  3810 W PushService: 2017-02-14 17:11:34,976 - [WARN::PushService] - [Thread:51] [Slim] SND ping id=0
+
+02-14 17:11:34.977  3706  3810 W PushService: 2017-02-14 17:11:34,977 - [WARN::PushService] - [Thread:51] [Slim] Wrote {cmd=PING;chid=0;len=33}
+
+02-14 17:11:34.978  3706  3810 W PushService: 2017-02-14 17:11:34,977 - [WARN::PushService] - [Thread:51] [Slim] 05:11:34 下午 Sent  Blob [PING,0,0]
+
+02-14 17:11:35.027  3706 16654 W PushService: 2017-02-14 17:11:35,027 - [WARN::PushService] - [Thread:204] [Slim] Read {cmd=PING;chid=0;len=27}
+
+02-14 17:11:35.027  3706 16654 W PushService: 2017-02-14 17:11:35,027 - [WARN::PushService] - [Thread:204] [Slim] RCV ping id=0
+
+02-14 17:11:35.028  3706 16654 W PushService: 2017-02-14 17:11:35,028 - [WARN::PushService] - [Thread:204] [Slim] 05:11:35 下午 RCV  Blob [PING,0,0]
+
+02-14 17:11:35.047  3813  3950 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 7024 Uid: 10123 Start by: activity Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10123 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:1028}
+
+02-14 17:11:35.142  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:11:35.146  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:11:35.540   651   651 D charger_monitor: present 0
+
+02-14 17:11:35.541   651   651 D charger_monitor: vchg_loop stable: 0, is_settled = 1,usb_target_ua = 1500000, usbin_current_now = 500000,fastchg_sts = 0, num_attempts = 0
+
+02-14 17:11:35.577  4505  5185 I InfoCollectManager: ACTION:android.intent.action.BATTERY_CHANGED
+
+02-14 17:11:35.580  6206  6206 V MiCloudSyncStateObserver: broadcast received
+
+02-14 17:11:35.580  6206  6206 V MiCloudSyncStateObserver: battery changed
+
+02-14 17:11:35.590  4505  5185 I InfoCollectManager: ACTION:android.intent.action.BATTERY_CHANGED
+
+02-14 17:11:35.598  6206  6206 V MiCloudSyncStateObserver: broadcast received
+
+02-14 17:11:35.598  6206  6206 V MiCloudSyncStateObserver: battery changed
+
+02-14 17:11:35.640   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:36.642   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:37.643   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:38.151  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:11:38.164  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:11:38.644   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:39.645   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:40.646   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:41.172  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:11:41.186  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:11:41.647   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:42.084  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+
+02-14 17:11:42.084  4028  4028 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+02-14 17:11:42.084  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+02-14 17:11:42.084  4028  4028 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+02-14 17:11:42.085  4028  4028 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb6899398
+
+02-14 17:11:42.085  4028  4028 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+02-14 17:11:42.085  4028  4028 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb6899398 after 0.000235 second wait
+
+02-14 17:11:42.085  4028  4028 D wpa_supplicant: wlan0: nl80211: scan request
+
+02-14 17:11:42.085  4028  4028 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+02-14 17:11:42.085  4028  4028 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: nl80211: Event message available
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000181 seconds
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+02-14 17:11:42.099  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+--------- beginning of system
+
+02-14 17:11:42.154  1991  2070 D AutomaticBrightnessController: drop the lightsensor event ,time=295570692 ,lux=78.61867
+
+02-14 17:11:42.323  1991  2070 D AutomaticBrightnessController: drop the lightsensor event ,time=295570861 ,lux=47.02425
+
+02-14 17:11:42.353 29608 29647 D DatabaseTaskManager: Cleaned 0 long time unfinished task
+
+02-14 17:11:42.355 29608 29647 D DatabaseTaskManager: get 0 task to run
+
+02-14 17:11:42.492  1991  2070 D AutomaticBrightnessController: drop the lightsensor event ,time=295571030 ,lux=45.554745
+
+02-14 17:11:42.649   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:42.662  1991  2070 D AutomaticBrightnessController: drop the lightsensor event ,time=295571200 ,lux=47.759007
+
+02-14 17:11:42.832  1991  2070 D AutomaticBrightnessController: drop the lightsensor event ,time=295571370 ,lux=49.22851
+
+02-14 17:11:43.002  1991  2070 D AutomaticBrightnessController: drop the lightsensor event ,time=295571541 ,lux=77.88391
+
+02-14 17:11:43.650   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:44.023  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:11:44.023  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+02-14 17:11:44.024  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+02-14 17:11:44.030  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:11:44.030  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+02-14 17:11:44.030  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+02-14 17:11:44.038  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:11:44.038  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+02-14 17:11:44.038  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+02-14 17:11:44.044  4505  6642 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+02-14 17:11:44.044  4505  6642 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+02-14 17:11:44.044  4505  6642 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+02-14 17:11:44.190  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 17:11:44.194  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 17:11:44.652   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:44.916  7024  7072 W System.err: 无法访问或网络不稳定
+
+02-14 17:11:44.916  7024  7072 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+02-14 17:11:44.917  7024  7072 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+02-14 17:11:44.917  7024  7072 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+02-14 17:11:44.918  7024  7072 W System.err: 	... 9 more
+
+02-14 17:11:44.978  3706  3810 W PushService: 2017-02-14 17:11:44,978 - [WARN::PushService] - [Thread:51] JOB: check the ping-pong.1487063494976
+
+02-14 17:11:45.653   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Event message available
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: wlan0: Scan completed in 4.122811 seconds
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Associated on 2452 MHz
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Received scan results (26 BSSes)
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: wlan0: BSS: Start scan result update 1455
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: wlan0: BSS: Add new id 6485 BSSID 30:fc:68:f5:6c:ff SSID 'HostGroup'
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=43
+
+02-14 17:11:46.222  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Add new id 6486 BSSID d4:ee:07:3f:27:1c SSID 'zhanting'
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=43
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Add new id 6487 BSSID b8:f8:83:ee:be:7b SSID 'TP-LINK_BE7B'
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=43
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Remove id 6478 BSSID c0:3d:46:00:12:ca SSID 'rgts' due to no match in scan
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1344 send_len=45
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Remove id 6452 BSSID e0:10:7f:4c:0b:98 SSID 'WX-ORVIBO-Guest' due to no match in scan
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1792 send_len=45
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Remove id 6465 BSSID e0:10:7f:0c:0b:98 SSID 'ORVIBO' due to no match in scan
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=2240 send_len=45
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Remove id 6479 BSSID e0:10:7f:4b:f3:68 SSID 'WX-ORVIBO-Guest' due to no match in scan
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=2688 send_len=45
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Remove id 6480 BSSID 64:09:80:51:3f:75 SSID 'FuckMe_5G' due to no match in scan
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=3136 send_len=45
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: wlan0: BSS: Remove id 6468 BSSID d0:ee:07:3f:27:1c SSID 'zhanting_5G' due to no match in scan
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=3136 send_len=45
+
+02-14 17:11:46.223  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.224  4028  4028 D wpa_supplicant: BSS: last_scan_res_used=26/128
+
+02-14 17:11:46.224  4028  4028 D wpa_supplicant: wlan0: Scan-only results received
+
+02-14 17:11:46.224  4028  4028 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1792 send_len=24
+
+02-14 17:11:46.224  4028  4028 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1991-4\x00
+
+02-14 17:11:46.224  4028  4028 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6899398 done in 4.138778 seconds
+
+02-14 17:11:46.229  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4058
+
+02-14 17:11:46.229  4028  4028 D wpa_supplicant: RTM_NEWLINK: ifi_index=24 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+02-14 17:11:46.232  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3469
+
+02-14 17:11:46.233   437   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [26] AP's
+
+02-14 17:11:46.239  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3747
+
+02-14 17:11:46.241  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3548
+
+02-14 17:11:46.242  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3399
+
+02-14 17:11:46.244  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3102
+
+02-14 17:11:46.257  4028  4028 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+02-14 17:11:46.257  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+02-14 17:11:46.265  3813  4327 I StepsProvider: Steps Provider Query
+
+02-14 17:11:46.349  3813  3950 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 3851 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1487063483531 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:1027}
+
+02-14 17:11:46.654   377   489 I ThermalEngine: Sensor:batt_temp:300 mC
+

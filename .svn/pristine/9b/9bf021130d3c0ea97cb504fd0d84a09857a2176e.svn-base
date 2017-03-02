@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="智家365" preserve-order="true" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.oribo.testRetry.Retrylistener" />
+    </listeners>
+	<test name="init" preserve-order="true">
+	    <parameter name="port" value="4723" />
+		<parameter name="udid" value="492c754e" />
+<!-- 	    <parameter name="udid" value="LGD85786654604" /> -->
+		<parameter name="phone" value="xiaomi" />
+		<parameter name="platformVersion" value="6.0.1" />
+		<parameter name="apk" value="HomeMate 2.2.0.201.apk" />
+		<parameter name="testaccount" value="13088884762" />
+		<parameter name="testpassword" value="penghong1987" />
+		<parameter name="reportreceiver" value="penghong@orvibo.com" />
+		
+<!--  	 <groups>
+		   	<run>
+		        <include name="个人信息"/>
+		    </run>
+		</groups>  -->
+
+		<classes>
+			<!-- <class name="com.oribo.android365.testcase.PhTestDome" /> -->
+			<class name="com.oribo.android365.testcase.Personcenter" />
+
+			<!-- <class name="com.oribo.android365.testcase.MyHost" />   -->
+		</classes>
+		
+
+	</test>
+	
+		<test name="init2" preserve-order="true">
+	    <parameter name="port" value="4724" />
+	    <parameter name="udid" value="LGD85786654604" />
+		<parameter name="phone" value="xiaomi" />
+		<parameter name="platformVersion" value="6.0.1" />
+		<parameter name="apk" value="HomeMate 2.2.0.201.apk" />
+		<parameter name="testaccount" value="13088884762" />
+		<parameter name="testpassword" value="penghong1987" />
+		<parameter name="reportreceiver" value="penghong@orvibo.com" />
+		
+<!--  	 <groups>
+		   	<run>
+		        <include name="个人信息"/>
+		    </run>
+		</groups>  -->
+
+		<classes>
+			<!-- <class name="com.oribo.android365.testcase.PhTestDome" /> -->
+			<class name="com.oribo.android365.testcase.Personcenter" />
+
+			<!-- <class name="com.oribo.android365.testcase.MyHost" />   -->
+		</classes>
+		
+
+	</test>
+	
+
+</suite>

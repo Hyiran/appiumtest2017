@@ -1,0 +1,128 @@
+package com.oribo.android365.testcase;
+import org.testng.annotations.Test;
+
+import com.oribo.common.Capabilities;
+import com.oribo.common.Driver;
+import com.oribo.common.SaveUserInfo;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.utils.GetElementUtil;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import java.io.File;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.BeforeSuite;
+public class StartAppiumTest extends TestcaseFrame {
+	public String appport ;//  端口号
+	public String appudid;// 手机Udid 
+	public String testphone;//  测试手机
+	public String appplatformVersion;//手机的版本号
+	public String appapk;//测试的App 包
+	/**
+	 * 此类作用为启动APP，然后进行登录
+	 * 设置测试环境
+	 * @param port  启动的端口好
+	 * @param udid 手机的IDID
+	 * @param platformVersion  手机系统
+	 * @param apk  测试的apk
+	 */
+	@BeforeTest
+	@Parameters({ "port", "udid","phone","platformVersion", "apk","testaccount","testpassword"})
+	public void beforeSuite(String port, String udid,String phone,String platformVersion ,String apk,String testaccount,String testpassword ){
+		appport = port;
+		appudid = udid;
+		testphone = phone;
+		appplatformVersion = platformVersion;
+		appapk =apk;
+		account = testaccount;
+		password = testpassword;
+	}
+	
+	@BeforeTest
+	public void startApp() {
+		//保存app的基础信息		
+		AppBean   appbean = AppBean.getAppBean();
+		appbean.setUid(appudid);
+		appbean.setPort( appport);
+		appbean.setPhone(testphone);
+		appbean.setApk(appapk);
+		appbean.setPlatformVersion(appplatformVersion);
+		//保存登录账号信息
+		SaveUserInfo.getUserInfo().setAccount(account);
+		SaveUserInfo.getUserInfo().setPassWord(password);
+		try {
+			File classpathRoot = new File(System.getProperty("user.dir"));//本地的路径
+			File appDir = new File(classpathRoot, "apps");//apk 存放的路径
+			File app = new File(appDir, appbean.getApk());//apk 的名字	
+			//android Appium 的 基础参数的设置
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
+			capabilities.setCapability("platformName", "Android");
+			capabilities.setCapability("deviceName", "Android Emulator");	
+			capabilities.setCapability("platformVersion", appbean.getPlatformVersion() );
+			 capabilities.setCapability("udid", appbean.getUid());
+			capabilities.setCapability("app", app.getAbsolutePath()); 	
+			//capabilities.setCapability( "automationName","Selendroid");//这句话设置可以获取toast 消息
+			capabilities.setCapability("appPackage", "com.orvibo.homemate");
+			capabilities.setCapability("appActivity", "com.orvibo.homemate.common.launch.LaunchActivity");//
+			capabilities.setCapability("unicodeKeyboard", true);
+			capabilities.setCapability("unicodeKeyboard", "True");  
+			capabilities.setCapability("resetKeyboard", "True");  
+			capabilities.setCapability("setWebContentsDebuggingEnabled", "True");	
+			capabilities.setCapability("noSign", "True");
+			capabilities.setCapability("noReset", true);//实现app不是每次都安装
+			AndroidDriver<AndroidElement>  driver = null;
+			try {
+				Capabilities   capability  = new Capabilities();
+				capability.setCapability(capabilities);
+				capability.setPort(appbean.getPort());
+				driver  = Driver.getAndroidDriver(capability);
+				Thread.sleep(1000);
+				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);//全局等待5秒
+			} catch (Exception e) {
+				throw new RuntimeException("driver驱动初始化失败：" + e.getMessage());
+			}
+			//配置app测试环境，并启动被测app
+			newSetUp();
+			driver = Driver.getAndroidDriver(null);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}	
+	
+	}
+
+	@Test
+	public void test() {
+		//登录页面
+		List<AndroidElement> edittext = GetElementUtil.getEdit(null,"");
+			 edittext.get(0).clear();
+			 edittext.get(0).sendKeys(SaveUserInfo.getUserInfo().getAccount());
+			 edittext.get(1).clear(); 
+			 edittext.get(1).sendKeys(SaveUserInfo.getUserInfo().getPassWord()); 
+		 GetElementUtil.getEelememtByName(null, "登录").click();	
+		 WebDriverWait wait = new WebDriverWait(Driver.getAndroidDriver(null), 6);//下面是自动发现弹窗
+		    WebElement element= wait.until(new  ExpectedCondition<WebElement>() {
+		            @Override
+		            public WebElement apply(WebDriver d) {
+		                return d.findElement(By.name("取消"));//登录后等待弹窗，点击取消
+		            }
+		        });	   
+		 if (element != null) {
+			 element.click();
+		}
+	}
+
+}

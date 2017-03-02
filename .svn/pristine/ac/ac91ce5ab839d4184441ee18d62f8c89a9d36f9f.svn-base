@@ -1,0 +1,4 @@
+<h2>Groups used for this test run</h2><table border="1">
+<tr> <td align="center"><b>Group name</b></td><td align="center"><b>Methods</b></td></tr><tr><td>个人信息</td><td>Personcenter.authorizationwechat()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/>Personcenter.authorizationqq()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/>Personcenter.authorizationweibo()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/></td></tr>
+<tr><td>授权</td><td>Personcenter.authorizationwechat()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/>Personcenter.authorizationqq()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/>Personcenter.authorizationweibo()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/></td></tr>
+</table>

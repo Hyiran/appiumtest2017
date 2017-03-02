@@ -1,0 +1,213 @@
+--------- beginning of main
+
+02-14 16:47:58.921  3748  4036 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+02-14 16:47:59.211 30932 31004 D UTAnalytics:UploadTask: pid:30932 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.2.0.201&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1487062078610&u=&is=1&k=0,
+
+02-14 16:47:59.212 30932 31004 D UTAnalytics:UploadTask: pid:30932 result:{"t":1487062074566,"ret":"","success":"success"}
+
+02-14 16:47:59.212 30932 31004 D UTAnalytics:UploadTask: ,
+
+02-14 16:47:59.212 30932 31004 D UTAnalytics:UploadTask: pid:30932 winsize:146,
+
+02-14 16:47:59.212 30932 31004 D UTAnalytics:LogStoreMgr: pid:30932 [Log [id=1120, eventId=19999, index=], Log [id=1121, eventId=2001, index=]],
+
+02-14 16:47:59.268 30932 31004 D UTAnalytics:UTSqliteLogStore: pid:30932 delete ,2, isSuccess:true,
+
+02-14 16:47:59.268 30932 31004 D UTAnalytics:CoreStatics: pid:30932 [uploadInc]:0,count:2,
+
+02-14 16:47:59.268 30932 31004 D UTAnalytics:CoreStatics: pid:30932 [uploadInc]:2,
+
+02-14 16:47:59.269 30932 31004 D UTAnalytics:UploadTask: pid:30932 logs.size():2, selfMonitorLogCount:0,
+
+02-14 16:47:59.269 30932 31004 D UTAnalytics:UploadTask: pid:30932 upload isSendSuccess:true, consume:615, delete consume:56,
+
+02-14 16:47:59.412 30932 31045 D HomeMate: comm[ pool-4-thread-1: BaseRequest.java:176 run() ] - current count is 1,serial:798944133
+
+02-14 16:47:59.414 30932 31045 D HomeMate: comm[ pool-4-thread-1: MinaSocket.java:139 send() ] - target:server,position:server start request.requestConfig:RequestConfig{state=1, type=2, target=0, requestConf=RequestConf{totalCount=2, intervalTime=2000}},messageLength:122
+
+02-14 16:47:59.414 30932 31045 D HomeMate: sConnectFutures:{server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@7e14cb2, 007e5608c640=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@76bb59a}
+
+02-14 16:47:59.415 30932 31045 D HomeMate: comm[ pool-4-thread-1: MinaSocket.java:157 send() ] - isWritten:false,ioSession:(0x00000003: nio socket, client, /:::35939 => null)
+
+02-14 16:47:59.416 30932 31045 W HomeMate: comm[ pool-4-thread-1: MinaSocket.java:161 send() ] - Fail to write message to server,ioSession:(0x00000003: nio socket, client, /:::35939 => null)
+
+02-14 16:47:59.416 30932 31045 W HomeMate: {server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@7e14cb2, 007e5608c640=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@76bb59a}
+
+02-14 16:47:59.431 30932 31045 W HomeMate: comm[ pool-4-thread-1: BaseRequest.java:229 run() ] - Could not reconnect,callback now.command:Command{uid='server', serial=798944133, cmd=32, jsonObject={"uid":"server","userName":"840432908@qq.com","cmd":32,"serial":798944133}, crc='9EAC91F7', requestConfig=RequestConfig{state=1, type=2, target=0, requestConf=RequestConf{totalCount=2, intervalTime=2000}}}
+
+02-14 16:47:59.436 30932 31045 D HomeMate: comm[ pool-4-thread-1: NetUtil.java:238 isLocalLan() ] - isLocalLan()-lastSSID:null,curSSID:18.1_neiwang
+
+02-14 16:47:59.438 30932 31045 E HomeMate: comm[ pool-4-thread-1: BaseRequest.java:244 run() ] - doRequestAsync(1)-local sendResult(349).command:Command{uid='server', serial=798944133, cmd=32, jsonObject={"uid":"server","userName":"840432908@qq.com","cmd":32,"serial":798944133}, crc='9EAC91F7', requestConfig=RequestConfig{state=1, type=2, target=0, requestConf=RequestConf{totalCount=2, intervalTime=2000}}}
+
+02-14 16:47:59.446 30932 30932 E HomeMate: comm[ main: Heartbeat.java:239 onEventMainThread() ] - onEventMainThread()-Serial not equal.reSerial:798944133,this:com.orvibo.homemate.model.Heartbeat@aa91619
+
+02-14 16:47:59.446 30932 30932 D HomeMate: comm[ main: BaseRequest.java:433 stopRequest() ] - Stop request which serial is 798944133 on com.orvibo.homemate.core.reconnect.Reconnect$5@3f81403
+
+02-14 16:47:59.449 30932 30932 E HomeMate: comm[ main: ProductManage.java:610 getWifiFlagByModel() ] - getWifiFlagByModel()-Could not get wifiFlag by null
+
+02-14 16:47:59.450 30932 30932 E HomeMate: comm[ main: ProductManage.java:610 getWifiFlagByModel() ] - getWifiFlagByModel()-Could not get wifiFlag by null
+
+02-14 16:47:59.450 30932 30932 D HomeMate: comm[ main: ProductManage.java:472 isVicenter300() ] - uid:server,model:null,wifiFlag:unknown[-1]
+
+02-14 16:47:59.450 30932 30932 E HomeMate: comm[ main: Heartbeat.java:267 onServerHeartbeatResult() ] - onServerHeartbeatResult()-心跳包返回失�?
+
+02-14 16:47:59.496   377   489 I ThermalEngine: Sensor:batt_temp:287 mC
+
+02-14 16:47:59.741 30932 30961 I RestfulUtils: {"result":{"code":"200","msg":"操作成功!"}}
+
+02-14 16:48:00.078  3813  3950 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 30932 Uid: 10123 Start by: activity Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10123 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:1001}
+
+02-14 16:48:00.498   377   489 I ThermalEngine: Sensor:batt_temp:287 mC
+
+02-14 16:48:01.499   377   489 I ThermalEngine: Sensor:batt_temp:287 mC
+
+02-14 16:48:01.518  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:01.534  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:02.500   377   489 I ThermalEngine: Sensor:batt_temp:287 mC
+
+02-14 16:48:02.500 30932 31004 D UTAnalytics:LogStoreMgr: pid:30932 [store],
+
+02-14 16:48:02.521 30932 31004 D UTAnalytics:UTSqliteLogStore: pid:30932 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 146,
+
+02-14 16:48:02.523 30932 31004 D UTAnalytics:LogStoreMgr: pid:30932 [get],[],
+
+02-14 16:48:02.535 30932 31004 D UTAnalytics:UploadEngine: pid:30932 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+02-14 16:48:02.536 30932 31004 D UTAnalytics:UploadTask: pid:30932 mPeriod:30000,
+
+02-14 16:48:03.502   377   489 I ThermalEngine: Sensor:batt_temp:287 mC
+
+02-14 16:48:04.173 30880 30890 I art     : Background sticky concurrent mark sweep GC freed 301293(16MB) AllocSpace objects, 0(0B) LOS objects, 91% free, 1527KB/17MB, paused 473us total 106.417ms
+
+02-14 16:48:04.503   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:04.542  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:04.559  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:05.504   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:06.506   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:07.507   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:07.569  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:07.583  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:08.508   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:09.510   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:10.511   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:10.589  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:10.603  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:11.157 30932 30974 W System.err: 无法访问或网络不稳定
+
+02-14 16:48:11.157 30932 30974 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+02-14 16:48:11.158 30932 30974 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+02-14 16:48:11.158 30932 30974 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+02-14 16:48:11.159 30932 30974 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+02-14 16:48:11.159 30932 30974 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+02-14 16:48:11.159 30932 30974 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+02-14 16:48:11.159 30932 30974 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+02-14 16:48:11.159 30932 30974 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+02-14 16:48:11.159 30932 30974 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+02-14 16:48:11.160 30932 30974 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+02-14 16:48:11.160 30932 30974 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+02-14 16:48:11.160 30932 30974 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+02-14 16:48:11.160 30932 30974 W System.err: 	... 9 more
+
+02-14 16:48:11.512   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:12.513   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:13.514   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:13.615  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:13.618  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:14.515   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:15.325  3748  4036 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+02-14 16:48:15.517   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:16.212 30932 31004 D UTAnalytics:CommitTask: pid:30932 check&commit event:65502,
+
+02-14 16:48:16.212 30932 31012 D UTAnalytics:CommitTask: pid:30932 check&commit event:65501,
+
+02-14 16:48:16.212 30932 31012 D UTAnalytics:CommitTask: pid:30932 next:65501,
+
+02-14 16:48:16.213 30932 31004 D UTAnalytics:CommitTask: pid:30932 next:65502,
+
+02-14 16:48:16.216 30932 31012 D UTAnalytics:CommitTask: pid:30932 check&commit event:65503,
+
+02-14 16:48:16.216 30932 31012 D UTAnalytics:CommitTask: pid:30932 next:65503,
+
+02-14 16:48:16.518   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:16.628  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:16.642  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:17.519   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:17.583  3748  4036 I XiaomiFirewall: firewall pkgName:com.qihoo.appstore, result:0x0
+
+02-14 16:48:18.521   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:19.523   377   489 I ThermalEngine: Sensor:batt_temp:288 mC
+
+02-14 16:48:19.648  4028  4028 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+02-14 16:48:19.663  4028  4028 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+02-14 16:48:19.727 30880 30890 I art     : Background concurrent mark sweep GC freed 296140(16MB) AllocSpace objects, 0(0B) LOS objects, 92% free, 1327KB/17MB, paused 704us total 108.147ms
+
+02-14 16:48:20.383 30932 30983 D NAT     : SYMMETRIC_NAT
+
+02-14 16:48:20.388 30932 30983 D NAT     : call void method before
+
+02-14 16:48:20.389 30932 30983 D NAT     : call void method after
+
+02-14 16:48:20.524   377   489 I ThermalEngine: Sensor:batt_temp:289 mC
+
+02-14 16:48:21.525   377   489 I ThermalEngine: Sensor:batt_temp:289 mC
+
+02-14 16:48:22.526   377   489 I ThermalEngine: Sensor:batt_temp:289 mC

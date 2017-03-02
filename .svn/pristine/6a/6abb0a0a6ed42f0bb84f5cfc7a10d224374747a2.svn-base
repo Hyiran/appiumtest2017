@@ -1,0 +1,26 @@
+package com.oribo.android365.automationtest.personcenter;
+
+import com.oribo.android365.automationtest.personcenter.personinfo.UserActivityTestCase;
+import com.oribo.common.Driver;
+import com.oribo.common.FindEelement;
+import com.oribo.common.TestcaseFrame;
+
+import io.appium.java_client.android.AndroidElement;
+
+
+public class PersonalCenterTest extends TestcaseFrame{
+	
+    public  void gotoPersonInfo(){
+    	FindEelement.findByIdClick("com.orvibo.homemate:id/userInfoLayout");
+    	UserActivityTestCase  personinfo = new 	UserActivityTestCase();
+    	personinfo.testStart();
+
+    }
+    public void logout() {
+		newSleep(2);
+		//TestSuit.longinTest();
+		
+    }
+    
+	
+}

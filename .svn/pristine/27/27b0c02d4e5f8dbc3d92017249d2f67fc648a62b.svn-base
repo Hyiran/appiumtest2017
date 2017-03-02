@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [智家365]">
+  <listeners>
+    <listener class-name="com.oribo.testRetry.Retrylistener"/>
+  </listeners>
+  <test name="init(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="phone" value="xiaomi"/>
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="reportreceiver" value="penghong@orvibo.com"/>
+    <parameter name="udid" value="492c754e"/>
+    <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
+    <parameter name="testpassword" value="123456"/>
+    <parameter name="testaccount" value="13088884762"/>
+    <groups>
+      <run>
+        <include name="授权"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="authorization"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+    </classes>
+  </test> <!-- init(failed) -->
+</suite> <!-- Failed suite [智家365] -->

@@ -1,0 +1,137 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import com.oribo.common.Constant;
+import com.oribo.common.CommonButton;
+import com.oribo.common.Driver;
+import com.oribo.common.SetExcelDataIndex;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.log.LoggerTestOne;
+import com.oribo.log.LoggerTestThree;
+import com.oribo.log.LoggerTestTow;
+import com.oribo.report.MessageOutput;
+import com.oribo.log.LoggerUtil;
+import com.oribo.log.LoggerUtil.loggerLevel;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+/**
+ * 绑定账号页面检查
+ * @author Administrator
+ *
+ */
+public class BindAccountTest extends TestcaseFrame{
+	private AndroidDriver<AndroidElement>  driver = Driver.getAndroidDriver(null);
+	private int index =0;
+	private  	Logger mLogger;
+	public static  Map<Integer, DataBean>  data = new HashMap<>();
+	public void testStart(){
+		mLogger =LoggerUtil.getwriteFileLog(Constant.BINDACCOUNTFILE,"BindAccout_findelemt", NickNameTest.class);
+		index = SetExcelDataIndex.setBindAcoutDataIndex();
+		AndroidElement  element = getEdit(mLogger).get(0);
+	    if (inputnull(element, index, LoggerTestOne.class)) {
+			if (inputErrorEmail(element, index+1, LoggerTestTow.class)) {
+				inputRightEmail(element, index+2, LoggerTestThree.class);
+			}
+		}
+		
+	}
+	
+	private boolean inputErrorEmail(AndroidElement  element,	int index,Class<?> classname){
+		DataBean  bean = data.get(index);
+		driver.hideKeyboard();
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.BINDACCOUNTFILE,bean.getTestCaseName(), classname);
+		element.sendKeys(bean.getData());
+		 AndroidElement  btn= getSave(logger);
+		 //btnUnenanled(btn, bean, logger);
+		 newAssertEquals(driver, bean,btnunenanled(btn, bean, logger), logger, "");
+		return true;
+		
+	}
+	
+	private boolean  inputRightEmail(AndroidElement  element,	int index,Class<?> classname){
+		DataBean  bean = data.get(index);
+		driver.hideKeyboard();
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.BINDACCOUNTFILE,bean.getTestCaseName(), classname);
+		element.clear();
+		System.out.println(bean.getData());
+		element.sendKeys("1122"+"@"+".com");
+		System.out.println("设置后的字符串"+element.getText());
+		 AndroidElement  btn= getSave(logger);	
+			if ( btn.isEnabled()) {
+				btn.click();
+		        TestcaseFrame.newSleep(1);
+		        AndroidElement  next = Driver.getAndroidDriver(null).findElementByClassName("android.widget.Button"); 
+				if (next !=null ) {
+					 newAssertEquals(driver,data.get(index+1),btnunenanled(btn, data.get(index+1), logger), logger, "");
+					//LoggerUtil.logOutput(logger, loggerLevel.LEVLEINFO, bean.getTestCaseName()+"测试数据--"+"能成功进入更换账号页面");
+					 newAssertEquals(driver,data.get(index),data.get(next).getExpectValue() , logger, "能成功进入更换账号页面");
+					/*simpleAssertEquals(Driver.getAndroidDriver(null), bean, MessageOutput.SHOWLOGINACOUNT ,
+							MessageOutput.SHOWLOGINACOUNT, logger, "测试用例"+bean.getTestCaseName()+" "+"能成功进入绑定账号页面");*/
+					CommonButton.backButton();
+					TestcaseFrame.newSleep(1);
+					CommonButton.backButton();
+				} else{
+					failtoChange( bean,  logger);
+					
+				}
+			
+		}else{
+			CommonButton.backButton();
+			TestcaseFrame.newSleep(1);
+			CommonButton.backButton();
+		}
+		
+		
+		return true;
+		
+	}
+	
+	private void failtoChange(DataBean bean, Logger logger) {
+		//LoggerUtil.logOutput(logger, loggerLevel.LEVELSERVER, bean.getTestCaseName()+"测试数据--"+bean.getData()+"更换账号按钮不存在");
+		/*simpleAssertEquals(Driver.getAndroidDriver(null), bean, MessageOutput.SHOWLOGINACOUNT ,
+				MessageOutput.SHOWLOGINACOUNTER, logger, "测试用例"+bean.getTestCaseName()+" "+"更换账号按钮不存在");*/
+		 newAssertEquals(driver,bean,MessageOutput.SHOWLOGINACOUNTER , logger, "测试用例"+bean.getTestCaseName()+" "+"更换账号按钮不存在");
+	}
+	private boolean inputnull(	AndroidElement  element,int index,Class<?> classname){	
+		DataBean  bean = data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.NICKNAMEFILE,bean.getTestCaseName(), classname);
+	    element.clear();
+	    AndroidElement  btn= getSave(logger);
+	     // btnUnenanled(btn, bean, logger);
+	      newAssertEquals(driver,bean,btnunenanled(btn, bean, logger) , logger, "");
+		logger.setLevel(Level.OFF);
+		return true;
+	}
+	private List<AndroidElement> getEdit(Logger  logger) {
+		List<AndroidElement> edittext =null; 
+		try {
+			edittext =  Driver.getAndroidDriver(null).findElementsByClassName("android.widget.EditText");
+			// newSleep(1);
+		} catch (Exception e) {
+		// TODO: handle exception
+		 LoggerUtil.logOutput(logger, loggerLevel.LEVELSERVER, "查找输入昵称输入框失败");
+		
+		}
+		return edittext;	
+	}
+	
+	private AndroidElement getSave(Logger logger) {
+		AndroidElement  edit = null;
+		try {
+			edit =driver.findElementByName(Constant.NEXT);
+		} catch (Exception e) {
+			// TODO: handle exception
+		LoggerUtil.logOutput(logger, loggerLevel.LEVELSERVER, "查找下一步失败");
+		
+		}
+		return edit;
+		
+	}
+
+}

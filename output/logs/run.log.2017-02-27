@@ -1,0 +1,1165 @@
+2017-02-27 09:21:20 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 09:21:20 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 09:21:26 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 09:21:26 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 09:21:31 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 09:21:31 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 09:21:34 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 09:21:37 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 09:21:37 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 09:21:39 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 09:21:39 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 09:21:46 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 09:21:47 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 09:24:26 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 09:25:52 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 09:28:06 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 09:28:06 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 09:28:12 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 09:28:12 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 09:28:17 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 09:28:17 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 09:28:20 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 09:28:23 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 09:28:23 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 09:28:25 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 09:28:25 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 09:28:35 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 09:28:36 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 09:30:41 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 09:30:41 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 09:30:48 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 09:30:48 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 09:30:52 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 09:30:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 09:30:55 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 09:30:58 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 09:30:58 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 09:31:00 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 09:31:00 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 09:31:08 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 09:31:09 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 09:31:14 dev_log : [INFO] ¶ÁÈ¡ÎÄ¼şÒì³£
+2017-02-27 09:31:14 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 09:33:28 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:40:10 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:40:16 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:42:24 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:43:27 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:43:46 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:47:23 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:47:41 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:49:33 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:50:41 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:58:24 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 09:59:37 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:00:46 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:01:42 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:03:25 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:03:46 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:04:23 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:05:21 dev_log : [INFO] è¯»å–æ–‡ä»¶å¼‚å¸¸
+2017-02-27 10:07:20 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:07:20 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:07:26 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:07:26 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:07:31 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:07:31 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:07:34 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:07:37 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:07:37 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:07:39 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:07:39 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:21275
+2017-02-27 10:07:46 dev_log : All Tests is finished
+2017-02-27 10:08:41 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:08:41 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:08:47 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:08:47 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:08:52 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:08:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:08:54 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:08:57 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:08:57 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:09:00 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:09:00 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:09:09 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:09:10 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:09:15 dev_log : [INFO] ¶ÁÈ¡ÎÄ¼şÒì³£
+2017-02-27 10:09:15 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:11:36 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:11:36 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:11:43 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:11:43 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:11:47 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:11:47 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:11:50 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:11:53 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:11:53 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:11:55 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:12:26 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:12:26 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:12:32 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:12:32 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:12:40 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:12:40 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:12:43 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:12:47 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:12:47 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:12:49 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:12:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:12:58 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:12:59 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:13:04 dev_log : [INFO] ¶ÁÈ¡ÎÄ¼şÒì³£
+2017-02-27 10:13:04 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:13:36 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:13:36 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:15:08 dev_log : Skipped, method:Personcenter.checkdefaultphoto()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:16:19 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:16:19 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:16:26 dev_log : Skipped, method:Personcenter.checkdefaultphoto()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:16:57 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:16:57 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:17:05 dev_log : Failed, method:Personcenter.checkdefaultphoto()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:9915
+2017-02-27 10:18:22 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:18:22 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:18:28 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:18:28 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:18:29 dev_log : [STEP] [¸öÈËĞÅÏ¢ÖĞµã»÷¡°Í·Ïñ¡±] 
+2017-02-27 10:18:29 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/userPicImageView]
+2017-02-27 10:18:31 dev_log : [STEP] [µã»÷Ñ¡Ôñ¿òÖĞµÄ¡°È¡Ïû¡±°´Å¤] 
+2017-02-27 10:18:31 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("È¡Ïû")]
+2017-02-27 10:18:35 dev_log : [STEP] [Wait For Text Disappear : È¡Ïû] 
+2017-02-27 10:18:37 dev_log : [STEP] [¸öÈËĞÅÏ¢ÖĞµã»÷¡°Í·Ïñ¡±] 
+2017-02-27 10:18:37 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/userPicImageView]
+2017-02-27 10:18:38 dev_log : [STEP] [µã»÷Ñ¡Ôñ¿òÖĞµÄ¡°ÅÄÕÕ¡±°´Å¤] 
+2017-02-27 10:18:38 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÅÄÕÕ")]
+2017-02-27 10:18:41 dev_log : [STEP] [ÅÄÕÕ½çÃæµã»÷È¡Ïû] 
+2017-02-27 10:18:41 dev_log : [INFO] [µã»÷ -> id: com.android.camera:id/v6_btn_cancel]
+2017-02-27 10:18:43 dev_log : [STEP] [¸öÈËĞÅÏ¢ÖĞµã»÷¡°Í·Ïñ¡±] 
+2017-02-27 10:18:43 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/userPicImageView]
+2017-02-27 10:18:45 dev_log : [STEP] [µã»÷Ñ¡Ôñ¿òÖĞµÄ¡°ÅÄÕÕ¡±°´Å¤] 
+2017-02-27 10:18:45 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÅÄÕÕ")]
+2017-02-27 10:18:47 dev_log : [STEP] [µã»÷ÅÄÕÕ°´Å¤] 
+2017-02-27 10:18:47 dev_log : [INFO] [µã»÷ -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-02-27 10:18:51 dev_log : [STEP] [µã»÷Ñ¡Ôñ°´Å¤] 
+2017-02-27 10:18:51 dev_log : [INFO] [µã»÷ -> id: com.android.camera:id/v6_btn_done]
+2017-02-27 10:18:53 dev_log : [STEP] [²Ã¼ô½çÃæµã»÷¡°È¡Ïû¡±] 
+2017-02-27 10:18:53 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/cancel]
+2017-02-27 10:18:55 dev_log : [STEP] [¸öÈËĞÅÏ¢ÖĞµã»÷¡°Í·Ïñ¡±] 
+2017-02-27 10:18:55 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/userPicImageView]
+2017-02-27 10:18:56 dev_log : [STEP] [µã»÷Ñ¡Ôñ¿òÖĞµÄ¡°ÅÄÕÕ¡±°´Å¤] 
+2017-02-27 10:18:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÅÄÕÕ")]
+2017-02-27 10:18:58 dev_log : [STEP] [µã»÷ÅÄÕÕ°´Å¤] 
+2017-02-27 10:18:58 dev_log : [INFO] [µã»÷ -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-02-27 10:19:03 dev_log : [STEP] [µã»÷Ñ¡Ôñ°´Å¤] 
+2017-02-27 10:19:03 dev_log : [INFO] [µã»÷ -> id: com.android.camera:id/v6_btn_done]
+2017-02-27 10:19:04 dev_log : [STEP] [²Ã¼ô½çÃæµã»÷È·¶¨] 
+2017-02-27 10:19:04 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("È·¶¨")]
+2017-02-27 10:19:06 dev_log : [STEP] [Wait For Text Disappear : ĞŞ¸ÄÍ·ÏñÖĞ] 
+2017-02-27 10:19:07 dev_log : [STEP] [µã»÷ÊÖ»ú·µ»Ø¼ü] 
+2017-02-27 10:19:14 dev_log : Success, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:54801
+2017-02-27 10:19:21 dev_log : All Tests is finished
+2017-02-27 10:25:40 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:25:40 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:25:46 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:25:46 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:25:51 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:25:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:25:54 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:25:56 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:25:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:25:58 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:25:58 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:22763
+2017-02-27 10:26:05 dev_log : All Tests is finished
+2017-02-27 10:26:52 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:26:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:26:59 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:26:59 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:27:03 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:27:03 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:27:05 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:27:09 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:27:09 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:27:11 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:27:11 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:27:20 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:27:21 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:27:26 dev_log : [INFO] ¶ÁÈ¡ÎÄ¼şÒì³£
+2017-02-27 10:27:26 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:27:58 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:27:58 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:28:04 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:28:04 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:28:10 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:28:10 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:28:12 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:28:15 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:28:15 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:28:17 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:28:17 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:21388
+2017-02-27 10:28:24 dev_log : All Tests is finished
+2017-02-27 10:34:29 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:36:00 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:36:00 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:36:06 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:36:06 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:36:11 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:36:11 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:36:13 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:36:16 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:36:16 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:36:18 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:36:18 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:36:28 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:36:29 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:36:34 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:37:05 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:37:05 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:37:10 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:37:10 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:37:17 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:37:17 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:37:20 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:37:23 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:37:23 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:37:25 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:37:25 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:22535
+2017-02-27 10:37:32 dev_log : All Tests is finished
+2017-02-27 10:40:33 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:40:33 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:40:38 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:40:38 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:40:43 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:40:43 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:40:45 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:40:48 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:40:48 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:40:50 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:40:50 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:41:00 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:41:01 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:41:06 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:41:37 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:41:37 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:41:43 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:41:43 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:41:49 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:41:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:41:52 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:41:55 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:41:55 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:41:57 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:41:57 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:22460
+2017-02-27 10:42:04 dev_log : All Tests is finished
+2017-02-27 10:45:05 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:45:05 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:45:11 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:45:11 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:45:16 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:45:16 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:45:18 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:45:21 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:45:21 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:45:23 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:45:23 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:45:33 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:45:34 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:45:39 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:46:13 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:46:13 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:46:19 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:46:19 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:47:45 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:47:45 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:47:52 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:47:52 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:47:56 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:47:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:47:59 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:48:02 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:48:02 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:48:04 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:48:04 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:21805
+2017-02-27 10:48:57 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:48:57 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:49:03 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:49:03 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:49:08 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:49:08 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:49:11 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:49:14 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:49:14 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:49:16 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 10:49:16 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 10:49:23 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 10:49:24 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:49:30 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 10:50:03 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:50:03 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:50:09 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:50:09 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:50:14 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:50:14 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:50:17 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:50:20 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:50:20 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:50:22 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 10:50:22 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:20815
+2017-02-27 10:50:30 dev_log : All Tests is finished
+2017-02-27 10:59:28 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 10:59:28 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 10:59:34 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:q.png
+2017-02-27 10:59:34 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 10:59:34 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 10:59:39 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:y.png
+2017-02-27 10:59:39 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 10:59:39 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 10:59:41 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 10:59:44 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:y.png
+2017-02-27 10:59:44 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 10:59:44 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 10:59:46 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:00:18 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:00:18 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:00:24 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:6.png
+2017-02-27 11:00:24 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:00:24 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:00:29 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:s.png
+2017-02-27 11:00:29 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:00:29 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:00:31 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:00:34 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:g.png
+2017-02-27 11:00:35 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:00:35 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:00:36 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:00:36 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:00:46 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:00:47 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:00:52 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:9.png
+2017-02-27 11:00:52 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:00:56 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:p.png
+2017-02-27 11:00:57 dev_log : [INFO] ¶ÁÈ¡ÎÄ¼şÒì³£
+2017-02-27 11:00:57 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:01:30 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:01:30 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:01:36 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:9.png
+2017-02-27 11:01:36 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:01:36 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:01:41 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:e.png
+2017-02-27 11:01:41 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:01:41 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:01:44 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:03:57 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:03:57 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:04:03 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:t.png
+2017-02-27 11:04:03 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:04:03 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:04:07 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:f.png
+2017-02-27 11:04:07 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:04:07 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:04:10 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:04:13 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 11:04:13 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:04:13 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:04:15 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:04:15 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:04:22 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:04:23 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:04:58 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:04:58 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:05:04 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:z.png
+2017-02-27 11:05:04 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:05:04 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:05:08 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:s.png
+2017-02-27 11:05:08 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:05:08 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:05:11 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:05:14 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:k.png
+2017-02-27 11:05:14 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:05:14 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:05:16 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:05:47 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:05:47 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:05:53 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:m.png
+2017-02-27 11:05:53 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:05:53 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:05:58 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:m.png
+2017-02-27 11:05:58 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:05:58 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:06:01 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:06:04 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:1.png
+2017-02-27 11:06:04 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:06:04 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:06:06 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:06:06 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:06:16 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:06:17 dev_log : Failed, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:31713
+2017-02-27 11:06:38 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271106authorization.txt
+2017-02-27 11:06:41 dev_log : ÒÑ½ØÍ¼£¬Í¼Æ¬ÃûÎª£ºauthorization201702271106.png
+2017-02-27 11:06:49 dev_log : All Tests is finished
+2017-02-27 11:12:45 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:12:45 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:12:51 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:b.png
+2017-02-27 11:12:51 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:12:51 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:12:56 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:z.png
+2017-02-27 11:12:56 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:12:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:12:59 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:13:02 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:f.png
+2017-02-27 11:13:02 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:13:02 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:13:05 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:13:05 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:13:14 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:13:15 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:13:20 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:c.png
+2017-02-27 11:13:21 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\c.pngÓëÍ¼Æ¬:BufferedImage@21ba0741: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:13:21 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:16:03 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:16:03 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:16:10 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:e.png
+2017-02-27 11:16:10 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:16:10 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:16:14 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:z.png
+2017-02-27 11:16:14 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:16:14 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:16:17 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:16:20 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:d.png
+2017-02-27 11:16:20 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:16:20 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:16:23 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:16:23 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:16:31 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:16:32 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:16:37 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:x.png
+2017-02-27 11:16:38 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\x.pngÓëÍ¼Æ¬:BufferedImage@21ba0741: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:16:38 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:16:42 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:w.png
+2017-02-27 11:16:42 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\z.pngÓëÍ¼Æ¬:BufferedImage@51fadaff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:16:42 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:17:18 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:17:18 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:17:24 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:s.png
+2017-02-27 11:17:24 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:17:24 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:17:29 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 11:17:29 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:17:29 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:17:32 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:17:35 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:v.png
+2017-02-27 11:17:35 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:17:35 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:17:36 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 11:17:36 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:20467
+2017-02-27 11:17:45 dev_log : All Tests is finished
+2017-02-27 11:19:42 dev_log : [INFO] å¯¹æ¯”å›¾ç‰‡:D:\z.pngä¸å›¾ç‰‡:BufferedImage@1ed6993a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@7e32c033 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3çš„ç›¸ä¼¼åº¦
+2017-02-27 11:19:53 dev_log : [INFO] å¯¹æ¯”å›¾ç‰‡:D:\z.pngä¸å›¾ç‰‡:BufferedImage@1ed6993a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@7e32c033 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3çš„ç›¸ä¼¼åº¦
+2017-02-27 11:20:36 dev_log : [INFO] å¯¹æ¯”å›¾ç‰‡:D:\z.pngä¸å›¾ç‰‡:BufferedImage@1ed6993a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@7e32c033 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3çš„ç›¸ä¼¼åº¦
+2017-02-27 11:20:50 dev_log : [INFO] å¯¹æ¯”å›¾ç‰‡:D:\z.pngä¸å›¾ç‰‡:BufferedImage@1ed6993a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@7e32c033 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3çš„ç›¸ä¼¼åº¦
+2017-02-27 11:23:00 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:23:00 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:23:06 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:5.png
+2017-02-27 11:23:06 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:23:06 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:23:10 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:z.png
+2017-02-27 11:23:10 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:23:10 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:23:13 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:23:16 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:r.png
+2017-02-27 11:23:16 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:23:16 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:23:19 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:23:19 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:23:27 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:23:28 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:23:32 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:c.png
+2017-02-27 11:23:33 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\c.pngÓëÍ¼Æ¬:BufferedImage@21ba0741: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:23:33 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:23:37 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:g.png
+2017-02-27 11:23:37 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\z.pngÓëÍ¼Æ¬:BufferedImage@51fadaff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:23:37 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:23:43 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:u.png
+2017-02-27 11:23:43 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\5.pngÓëÍ¼Æ¬:BufferedImage@7b205dbd: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:23:43 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:24:18 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:24:18 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:24:23 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:u.png
+2017-02-27 11:24:24 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:24:24 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:24:28 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:f.png
+2017-02-27 11:24:28 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:24:28 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:24:31 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:24:34 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:s.png
+2017-02-27 11:24:34 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:24:34 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:24:36 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 11:24:36 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:20279
+2017-02-27 11:24:45 dev_log : All Tests is finished
+2017-02-27 11:30:29 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:30:29 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:30:36 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:k.png
+2017-02-27 11:30:36 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:30:36 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:30:41 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:g.png
+2017-02-27 11:30:41 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:30:41 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:30:43 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:30:47 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:q.png
+2017-02-27 11:30:47 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:30:47 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:30:50 dev_log : [STEP] [µã»÷°ó¶¨Î¢ĞÅ] 
+2017-02-27 11:30:50 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢ĞÅ")]
+2017-02-27 11:30:58 dev_log : [INFO] Çá´¥×ø±ê: x = 592, y = 1088
+2017-02-27 11:30:59 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:31:04 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:m.png
+2017-02-27 11:31:04 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\m.pngÓëÍ¼Æ¬:BufferedImage@21ba0741: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:31:04 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:31:40 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:31:40 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:31:46 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 11:31:46 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:31:46 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:31:51 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:i.png
+2017-02-27 11:31:51 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:31:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:31:53 dev_log : [INFO] °²×°ÁËÎ¢ĞÅ
+2017-02-27 11:31:57 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:a.png
+2017-02-27 11:31:57 dev_log : [STEP] [µã»÷Î¢ĞÅÕËºÅ] 
+2017-02-27 11:31:57 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢ĞÅÕËºÅ")]
+2017-02-27 11:31:58 dev_log : [INFO] Î¢ĞÅÕËºÅÒÑ°ó¶¨
+2017-02-27 11:31:58 dev_log : Success, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:21058
+2017-02-27 11:32:31 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:32:31 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:32:37 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:z.png
+2017-02-27 11:32:38 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:32:38 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:32:42 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:s.png
+2017-02-27 11:32:42 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:32:42 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:32:45 dev_log : [INFO] °²×°ÁËÎ¢²©
+2017-02-27 11:32:48 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:k.png
+2017-02-27 11:32:48 dev_log : [STEP] [µã»÷Î¢²©ÕËºÅ] 
+2017-02-27 11:32:48 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢²©ÕËºÅ")]
+2017-02-27 11:32:51 dev_log : [STEP] [µã»÷°ó¶¨Î¢²©] 
+2017-02-27 11:32:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢²©")]
+2017-02-27 11:32:54 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:32:58 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:y.png
+2017-02-27 11:32:59 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\y.pngÓëÍ¼Æ¬:BufferedImage@73cd37c0: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:32:59 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:33:03 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:e.png
+2017-02-27 11:33:04 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\s.pngÓëÍ¼Æ¬:BufferedImage@512baff6: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:33:04 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:33:37 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:33:37 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:33:43 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:c.png
+2017-02-27 11:33:43 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:33:43 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:33:48 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:g.png
+2017-02-27 11:33:48 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:33:48 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:33:50 dev_log : [INFO] °²×°ÁËÎ¢²©
+2017-02-27 11:33:53 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 11:33:53 dev_log : [STEP] [µã»÷Î¢²©ÕËºÅ] 
+2017-02-27 11:33:53 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢²©ÕËºÅ")]
+2017-02-27 11:33:56 dev_log : [STEP] [µã»÷°ó¶¨Î¢²©] 
+2017-02-27 11:33:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢²©")]
+2017-02-27 11:33:58 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:34:02 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:1.png
+2017-02-27 11:34:03 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\1.pngÓëÍ¼Æ¬:BufferedImage@3899782c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:34:03 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:34:07 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 11:34:08 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\g.pngÓëÍ¼Æ¬:BufferedImage@4f0100a7: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@58ce9668 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:34:08 dev_log : Failed, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:8 time:32911
+2017-02-27 11:34:28 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271134authorization.txt
+2017-02-27 11:34:31 dev_log : ÒÑ½ØÍ¼£¬Í¼Æ¬ÃûÎª£ºauthorization201702271134.png
+2017-02-27 11:36:04 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 11:36:39 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 11:36:39 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 11:36:45 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:h.png
+2017-02-27 11:36:45 dev_log : [STEP] [µã»÷¸öÈËĞÅÏ¢Í·Ïñ] 
+2017-02-27 11:36:45 dev_log : [INFO] [µã»÷ -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-02-27 11:36:50 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:q.png
+2017-02-27 11:36:50 dev_log : [STEP] [µã»÷½øÈëÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:36:50 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÊÚÈ¨µÇÂ¼")]
+2017-02-27 11:36:53 dev_log : [INFO] °²×°ÁËÎ¢²©
+2017-02-27 11:36:56 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:2.png
+2017-02-27 11:36:56 dev_log : [STEP] [µã»÷Î¢²©ÕËºÅ] 
+2017-02-27 11:36:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Î¢²©ÕËºÅ")]
+2017-02-27 11:36:59 dev_log : [STEP] [µã»÷°ó¶¨Î¢²©] 
+2017-02-27 11:36:59 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("°ó¶¨Î¢²©")]
+2017-02-27 11:37:01 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:37:06 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:g.png
+2017-02-27 11:37:06 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\g.pngÓëÍ¼Æ¬:BufferedImage@51fadaff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@401f7633 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:37:06 dev_log : [STEP] [·µ»Øµ½ÊÚÈ¨µÇÂ¼½çÃæ] 
+2017-02-27 11:37:11 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:k.png
+2017-02-27 11:37:11 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\q.pngÓëÍ¼Æ¬:BufferedImage@106cc338: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@401f7633 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 11:37:11 dev_log : Skipped, method:Personcenter.authorization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:09:33 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:09:33 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:09:35 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:09:35 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:09:37 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:5968
+2017-02-27 14:09:44 dev_log : All Tests is finished
+2017-02-27 14:11:08 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:11:41 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:11:41 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:11:42 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:11:42 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:11:44 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:12:37 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:12:37 dev_log : All Tests is finished
+2017-02-27 14:12:58 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:12:58 dev_log : All Tests is finished
+2017-02-27 14:13:25 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:13:25 dev_log : All Tests is finished
+2017-02-27 14:17:45 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:17:45 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:17:46 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:17:46 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:17:49 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:18:22 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:18:22 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:18:24 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:18:24 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:18:25 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:19:00 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:19:00 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:19:01 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:19:01 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:19:03 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:5253
+2017-02-27 14:19:23 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271419feedback.txt
+2017-02-27 14:19:27 dev_log : ÒÑ½ØÍ¼£¬Í¼Æ¬ÃûÎª£ºfeedback201702271419.png
+2017-02-27 14:19:34 dev_log : All Tests is finished
+2017-02-27 14:23:12 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:23:12 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:23:13 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:23:13 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:23:28 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:17919
+2017-02-27 14:23:35 dev_log : All Tests is finished
+2017-02-27 14:29:42 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:29:42 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:29:43 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:29:43 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:29:52 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:12694
+2017-02-27 14:29:59 dev_log : All Tests is finished
+2017-02-27 14:42:49 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:42:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:42:50 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:42:50 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:42:59 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:12643
+2017-02-27 14:43:07 dev_log : All Tests is finished
+2017-02-27 14:49:26 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:49:26 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:49:28 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:49:28 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:49:38 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:50:12 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:50:12 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:50:13 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:50:13 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:50:24 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:50:57 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:50:57 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:50:58 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:50:58 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:51:09 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:13502
+2017-02-27 14:51:29 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271451feedback.txt
+2017-02-27 14:51:32 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:51:33 dev_log : All Tests is finished
+2017-02-27 14:51:39 dev_log : All Tests is finished
+2017-02-27 14:52:21 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:52:21 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:52:22 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:52:22 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:52:31 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 14:53:06 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 14:53:06 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 14:53:07 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 14:53:07 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 14:53:17 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 15:11:49 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 15:11:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 15:11:50 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 15:11:50 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 15:12:01 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:16534
+2017-02-27 15:12:08 dev_log : All Tests is finished
+2017-02-27 15:12:38 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 15:12:38 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 15:12:39 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 15:12:39 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 15:12:52 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:16904
+2017-02-27 15:13:00 dev_log : All Tests is finished
+2017-02-27 15:15:53 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 15:15:53 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 15:15:54 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 15:15:54 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 15:16:05 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:13985
+2017-02-27 15:16:12 dev_log : All Tests is finished
+2017-02-27 16:08:49 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:08:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:08:51 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:08:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:12:03 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:12:03 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:12:04 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:12:04 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:15:52 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:15:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:15:53 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:15:53 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:15:59 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:9.png
+2017-02-27 16:15:59 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@6f44a157: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:16:05 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:16:05 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:16:05 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:16:05 dev_log : [INFO] [µã»÷ -> id: add-img-wrapper]
+2017-02-27 16:16:07 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:16:40 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:16:40 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:16:42 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:16:42 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:16:49 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:0.png
+2017-02-27 16:16:50 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1fa1cab1: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:16:59 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:16:59 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:16:59 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:16:59 dev_log : [INFO] [µã»÷ -> id: add-img-wrapper]
+2017-02-27 16:17:01 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:21:37 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:21:37 dev_log : All Tests is finished
+2017-02-27 16:22:34 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:22:34 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:22:35 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:22:35 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:22:40 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:c.png
+2017-02-27 16:22:41 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@6f44a157: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:22:46 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:22:46 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:22:47 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:22:47 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="add-img-wrapper"]]
+2017-02-27 16:22:48 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:23:23 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:23:23 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:23:25 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:23:25 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:23:32 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:d.png
+2017-02-27 16:23:32 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@b4711e2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:23:32 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:24:06 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:24:06 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:24:07 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:24:07 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:24:15 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:a.png
+2017-02-27 16:24:16 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@600b90df: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:24:16 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:12100
+2017-02-27 16:24:37 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271624feedback.txt
+2017-02-27 16:24:40 dev_log : ÒÑ½ØÍ¼£¬Í¼Æ¬ÃûÎª£ºfeedback201702271624.png
+2017-02-27 16:24:48 dev_log : All Tests is finished
+2017-02-27 16:27:21 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:27:21 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:27:23 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:27:23 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:27:29 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:s.png
+2017-02-27 16:27:30 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@6f44a157: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:27:36 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:27:36 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:27:36 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:27:36 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="add-img-wrapper"]]
+2017-02-27 16:27:38 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:31:37 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:31:37 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:31:38 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:31:38 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:31:44 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:x.png
+2017-02-27 16:31:44 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@6f44a157: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:31:50 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:31:50 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:31:51 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:31:51 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="add-img-btn"]]
+2017-02-27 16:31:53 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:35:45 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:35:45 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:35:46 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:35:46 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:35:52 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:3.png
+2017-02-27 16:35:52 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@6f44a157: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:35:52 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:36:27 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:36:27 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:36:28 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:36:28 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:36:36 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:i.png
+2017-02-27 16:36:36 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@4ff8d125: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:36:36 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:37:12 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:37:12 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:37:13 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:37:13 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:37:21 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:t.png
+2017-02-27 16:37:21 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@479460a6: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@6bc407fd transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:37:21 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:12176
+2017-02-27 16:37:42 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271637feedback.txt
+2017-02-27 16:37:45 dev_log : ÒÑ½ØÍ¼£¬Í¼Æ¬ÃûÎª£ºfeedback201702271637.png
+2017-02-27 16:37:53 dev_log : All Tests is finished
+2017-02-27 16:39:15 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:39:49 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:39:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:39:50 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:39:50 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:40:17 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:z.png
+2017-02-27 16:40:17 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@3e6104fc: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@12359a82 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:40:24 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:40:24 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:40:24 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:41:49 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:41:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:41:51 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:41:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:42:18 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:k.png
+2017-02-27 16:42:19 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:42:27 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:42:27 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:42:28 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:43:03 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:43:03 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:43:05 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:43:05 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:53:46 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:53:46 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:53:47 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:53:47 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:54:14 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:x.png
+2017-02-27 16:54:15 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:54:20 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:54:20 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:54:21 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:54:21 dev_log : [INFO] [µã»÷ -> class name: bc-feedback-upload-img]
+2017-02-27 16:54:22 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:54:56 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:54:56 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:54:58 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:54:58 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:55:24 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:h.png
+2017-02-27 16:55:25 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@b4711e2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:55:33 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:55:33 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:55:33 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 16:55:33 dev_log : [INFO] [µã»÷ -> class name: bc-feedback-upload-img]
+2017-02-27 16:55:35 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:56:33 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:56:33 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:56:34 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:56:34 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:57:01 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:7.png
+2017-02-27 16:57:01 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:57:09 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:57:09 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:57:11 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 16:57:11 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 16:57:12 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 16:57:12 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 16:57:14 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:57:49 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:57:49 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:57:51 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:57:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:58:09 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:58:11 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 16:58:11 dev_log : All Tests is finished
+2017-02-27 16:58:51 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 16:58:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 16:58:53 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 16:58:53 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 16:59:20 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:b.png
+2017-02-27 16:59:20 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 16:59:26 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:59:26 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:59:28 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 16:59:28 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 16:59:29 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 16:59:29 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 16:59:31 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 16:59:31 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 16:59:31 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 16:59:31 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 16:59:32 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:00:08 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:00:08 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:00:09 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:00:09 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:09:51 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:09:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:09:52 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:09:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:10:19 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 17:10:20 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:10:33 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:10:33 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:10:34 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 17:10:34 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-02-27 17:10:36 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:11:07 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:11:07 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:11:08 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:11:08 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:11:35 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:c.png
+2017-02-27 17:11:35 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@b4711e2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:11:46 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:11:46 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:11:47 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 17:11:47 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-02-27 17:11:49 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:12:25 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:12:25 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:12:27 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:12:27 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:12:54 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:h.png
+2017-02-27 17:12:54 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@5c2375a9: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:13:05 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:13:05 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:13:05 dev_log : [STEP] [µã»÷Ìí¼ÓÍ¼Æ¬°´Å¤] 
+2017-02-27 17:13:05 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-02-27 17:13:07 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:44732
+2017-02-27 17:13:28 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271713feedback.txt
+2017-02-27 17:16:54 dev_log : All Tests is finished
+2017-02-27 17:20:46 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:20:46 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:20:48 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:20:48 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:21:14 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:7.png
+2017-02-27 17:21:15 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:21:21 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:21:21 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:21:22 dev_log : [STEP] [LogText] 
+2017-02-27 17:21:22 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="add-img-wrapper"]]
+2017-02-27 17:21:23 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:42:20 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:42:20 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:42:21 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:42:21 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:42:48 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:m.png
+2017-02-27 17:42:49 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:42:54 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:42:54 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:42:55 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:43:31 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:43:31 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:43:33 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:43:33 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:43:59 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:n.png
+2017-02-27 17:44:00 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@b4711e2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:44:08 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:44:08 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:44:08 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:44:46 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:44:46 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:44:47 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:44:47 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:45:15 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:1.png
+2017-02-27 17:45:16 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@7c8c9a05: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:45:30 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:45:30 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:45:31 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:47364
+2017-02-27 17:45:51 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271745feedback.txt
+2017-02-27 17:46:27 dev_log : All Tests is finished
+2017-02-27 17:47:22 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:47:22 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:47:24 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:47:24 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:47:50 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:t.png
+2017-02-27 17:47:51 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:47:57 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:47:57 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:47:58 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:49:20 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:49:20 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:49:22 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:49:22 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:49:48 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:x.png
+2017-02-27 17:49:49 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:49:57 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:49:57 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:50:00 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 17:50:00 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 17:50:03 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:54:14 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:54:14 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:54:15 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:54:15 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:54:42 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:5.png
+2017-02-27 17:54:43 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:54:49 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:54:49 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:54:52 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 17:54:52 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 17:55:16 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 17:55:51 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 17:55:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 17:55:52 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 17:55:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 17:56:19 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:0.png
+2017-02-27 17:56:20 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@51fadaff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 17:56:28 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 17:56:28 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 17:56:31 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 17:56:31 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 17:56:55 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:01:51 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:01:51 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:01:52 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:01:52 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:02:19 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:3.png
+2017-02-27 18:02:20 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:02:26 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:02:26 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:02:29 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:02:29 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:02:30 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:02:30 dev_log : [INFO] [µã»÷ -> class name: photo]
+2017-02-27 18:02:53 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:08:26 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:08:26 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:08:28 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:08:28 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:08:54 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:v.png
+2017-02-27 18:08:55 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:08:55 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:10:09 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:10:09 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:10:10 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:10:10 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:10:37 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:8.png
+2017-02-27 18:10:37 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:10:46 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:10:46 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:10:49 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:10:49 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:10:56 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:10:56 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:10:59 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:10:59 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:11:00 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 18:11:00 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 18:11:01 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:11:01 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:11:02 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 18:11:02 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 18:11:03 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:11:41 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:11:41 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:11:42 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:11:42 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:12:08 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:0.png
+2017-02-27 18:12:09 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@15713d56: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:12:25 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:12:25 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:12:28 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:12:28 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:12:33 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:12:33 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:12:36 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:12:36 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:12:37 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 18:12:37 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 18:12:39 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:12:39 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:12:39 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 18:12:39 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 18:12:41 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:14:38 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:14:38 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:14:39 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:14:39 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:15:06 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:8.png
+2017-02-27 18:15:06 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:15:12 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:15:12 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:15:15 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:15:15 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:15:21 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:15:21 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:15:24 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:15:24 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:15:25 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 18:15:25 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 18:15:26 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:15:26 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:15:27 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:17:04 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:17:38 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:17:38 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:17:39 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:17:39 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:18:05 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:0.png
+2017-02-27 18:18:06 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@3e6104fc: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@12359a82 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:18:12 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:18:12 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:18:15 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:18:15 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:18:21 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:18:21 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:18:24 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:18:24 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:18:25 dev_log : [STEP] [µã»÷Ìá½»°´Å¤] 
+2017-02-27 18:18:25 dev_log : [INFO] [µã»÷ -> id: submit-btn]
+2017-02-27 18:18:27 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:18:27 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:18:30 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:19:04 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:19:04 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:19:05 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:19:05 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:20:08 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:20:08 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:20:09 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:20:09 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:20:36 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:p.png
+2017-02-27 18:20:36 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1984b1f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:20:42 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:20:42 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:20:45 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:20:45 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:20:51 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:20:51 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:20:54 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:20:54 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:20:55 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:20:55 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:20:58 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:21:32 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:21:32 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:21:34 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:21:34 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:22:00 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:7.png
+2017-02-27 18:22:00 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@7b205dbd: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:22:11 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:22:11 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:22:14 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:22:14 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:22:20 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:22:20 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:22:23 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:22:23 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:22:23 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:22:23 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:22:27 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e]
+2017-02-27 18:22:59 dev_log : [STEP] [µã»÷'ÎÒµÄ'] 
+2017-02-27 18:22:59 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("ÎÒµÄ")]
+2017-02-27 18:23:01 dev_log : [STEP] [µã»÷'Òâ¼û·´À¡'] 
+2017-02-27 18:23:01 dev_log : [INFO] [µã»÷ -> -android uiautomator: text("Òâ¼û·´À¡")]
+2017-02-27 18:23:27 dev_log : [INFO] ÒÑ½ØÍ¼,Í¼Æ¬Ãû³ÆÎª:y.png
+2017-02-27 18:23:27 dev_log : [INFO] ¶Ô±ÈÍ¼Æ¬:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.pngÓëÍ¼Æ¬:BufferedImage@1869fbd2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3bd323e9 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3µÄÏàËÆ¶È
+2017-02-27 18:23:38 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:23:38 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:23:41 dev_log : [STEP] [µã»÷´ÓÏà²áÖĞÑ¡È¡] 
+2017-02-27 18:23:41 dev_log : [INFO] [µã»÷ -> xpath: //*[@id="img-selector"]/div[2]/div[1]]
+2017-02-27 18:23:46 dev_log : [STEP] [Ñ¡ÖĞÒ»ÕÅÕÕÆ¬] 
+2017-02-27 18:23:46 dev_log : [INFO] [µã»÷ -> id: com.miui.gallery:id/pick_num_indicator]
+2017-02-27 18:23:50 dev_log : [STEP] [ÊäÈëÁªÏµ·½Ê½] 
+2017-02-27 18:23:50 dev_log : [INFO] [ÊäÈë×Ö·û -> id: feedback-contact]
+2017-02-27 18:23:51 dev_log : [STEP] [·´À¡ÄÚÈİ¿òÖĞÊäÈëÄÚÈİ] 
+2017-02-27 18:23:51 dev_log : [INFO] [ÊäÈë×Ö·û -> xpath: //*[@id="feedback-content"]]
+2017-02-27 18:23:54 dev_log : Failed, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@3d99d22e] #parameters:0 time:56557
+2017-02-27 18:24:15 dev_log : Ö´ĞĞÊ§°Ü£¬ÒÑ×¥È¡ÈÕÖ¾£¬ÈÕÖ¾ÃûÎª£º201702271823feedback.txt

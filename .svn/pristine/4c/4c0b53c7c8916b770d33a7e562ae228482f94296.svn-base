@@ -1,0 +1,248 @@
+package com.oribo.android365.testcase;
+
+import java.util.logging.Logger;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import com.oribo.android365.automationtest.personcenter.personinfo.NickNameTest;
+import com.oribo.common.Constant;
+import com.oribo.common.FindEelement;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.common.Driver;
+import com.oribo.common.AndroidOperate;
+import com.oribo.common.AppOperate;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.dataprovider.ExcelData;
+import com.oribo.log.LoggerUtil;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.report.TestResultListener;
+import com.oribo.utils.ReadExcel;
+
+
+import com.oribo.dataprovider.DataBean;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+@Listeners({TestResultListener.class})
+public class Personcenter extends TestcaseFrame{
+	Logger eventLogger=null;
+	AndroidDriver driver=null;
+	
+	@BeforeClass(alwaysRun=true)
+	public void beforeClass()
+	{
+		ReadExcel  excel =  new ReadExcel();
+		ExcelData  excelData =  new ExcelData();
+		excelData.setNumerSheet(5);
+		excelData.setCaseType(Constant.CASETYPE_ANDROID);
+		excel.readXls("personInfo_TestData.xls", excelData,bean);
+		
+	}
+	@BeforeMethod(alwaysRun=true)
+	public void beforeMethod()
+	{   
+		super.testSetUp();
+		driver=super.getDriver();
+	}
+	
+	/**
+	 * 个人中心检查我的主机
+	 */
+	@Test(priority=0,groups={"我的","我的主机"})
+	private void CheckMyHub() {
+		DataBean  data = bean.get(0);
+		newSleep(2);
+		AppOperate.click(driver.findElement(By.name("我的")), "点击'我的'");
+		newSleep(2);
+	    AndroidElement  	HostName = (AndroidElement) driver.findElementByName("我的主机");
+	}			
+	       
+	/**
+	 * 
+	 * 设备信息检查主机Mac地址
+	 */
+	@Test(priority=1,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void  CheckMyHubMac() {
+		DataBean  data = bean.get(1);
+		enterMyhost();
+		AppOperate.exitElement(data.getExpectValue(), driver);
+	}
+	
+	/**
+	 * 
+	 * 设备信息检查主机ip
+	 */
+	@Test(priority=2,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void  CheckMyHubIpAddress() {
+		DataBean  data = bean.get(2);
+		enterMyhost();
+		AndroidElement  	HostName = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/info2TextView");//主机ip地址
+		Assert.assertEquals(HostName.getText(), data.getExpectValue(), "MAC地址与期望值不符");
+				
+	
+		
+	}
+	
+	/**
+	 * 
+	 * 设备信息检查主机固件版本
+	 */
+	@Test(priority=3,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void  CheckMyHubFirmwareVersion() {
+		DataBean  data = bean.get(3);
+		enterMyhost();
+		AndroidElement  	HostName = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/info3TextView");//主机固件版本
+		Assert.assertEquals(HostName.getText(), data.getExpectValue(), "固件版本与期望值不符");
+	}
+		
+
+		
+	
+	
+    /**
+	 *  设备信息检查主机版本后返回
+	 */
+	@Test(priority=4,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void CheckMyHubBack() {
+		DataBean  data = bean.get(4);
+		enterMyhost();
+		AndroidElement  HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/left_iv");//返回按扭
+		Assert.assertTrue(HostName.isDisplayed(), "未找到返回按钮");
+		AppOperate.click(HostName, "点击返回按扭");;//返回我的页面
+		AndroidElement  	PageName = Driver.getAndroidDriver(null).findElementByName("我的");//
+		Assert.assertNotNull(PageName, "返回个人信息页面失败");
+			
+
+	}
+	
+	/**
+	 * 
+	 * 更多页面检查删除主机
+	 */
+	@Test(priority=5,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void ClickMore() {
+		DataBean  data = bean.get(5);	
+		enterMyhost();
+		AppOperate.swipeToUp(driver, "向上滑屏");
+		AndroidElement  	MoreName = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/moreTextView");//主机设备信息“更多”
+		Assert.assertNotNull(MoreName, "找不到“更多”");
+        AppOperate.click(MoreName, "点击更多");
+		Assert.assertNotNull(driver.findElement(By.name("删除主机")),"点击‘更多’跳转失败");
+			
+	
+
+	}
+	
+	/**
+	 * 
+	 *检查删除主机弹窗
+	 */
+	@Test(priority=6,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void  CheckDeleteHost() {
+		DataBean  data = bean.get(6);
+		enterMore();
+		AndroidElement  	HostName = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/deleteTextView");//更多页面检查删除主机
+	    AppOperate.click(HostName, "点击‘删除主机’");
+	    AndroidElement  	noticeText = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/contentTextView");//点击删除主机弹窗提示文案
+	    Assert.assertNotNull(noticeText, "点击删除主机未弹出提示框");
+	    Assert.assertEquals(noticeText.getText(), "主机和所有设备均将被删除，需要重新添加后才能使用，确实要删除吗？");
+	        
+
+	}
+	
+	/**
+	 * 
+	 * 取消删除主机弹窗
+	 */
+	@Test(priority=7,dependsOnMethods={"CheckMyHub"},groups={"我的","我的主机"})
+	private void  CancelDeleteHostNotice() {
+		DataBean  data = bean.get(7);
+		enterMore();
+		AndroidElement  	HostName = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/deleteTextView");//更多页面检查删除主机
+	    AppOperate.click(HostName, "点击‘删除主机’");
+	    AndroidElement  	noticeText = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/contentTextView");//点击删除主机弹窗提示文案
+	    Assert.assertNotNull(noticeText, "点击删除主机未弹出提示框");
+	    Assert.assertEquals(noticeText.getText(), "主机和所有设备均将被删除，需要重新添加后才能使用，确实要删除吗？");
+		AndroidElement  	CancelButton = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/rightButton");//点击删除主机弹窗提示文案
+        AppOperate.click(CancelButton, "点击‘取消’");
+        newSleep(1);
+        Assert.assertFalse(CancelButton.isDisplayed(), "点击弹窗中的‘取消’按扭，弹窗并未消失");
+		
+
+	}
+	
+	/**
+	 * 
+	 * 删除主机
+	 */
+	@Test(priority=8,groups={"我的","我的主机"})
+	private void  DeleteHost() {
+		DataBean  data = bean.get(8);	
+		enterMore();
+		AndroidElement  	HostName = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/deleteTextView");//更多页面检查删除主机
+	    AppOperate.click(HostName, "点击‘删除主机’");
+	    newSleep(2);
+	    AndroidElement  	noticeText = (AndroidElement) driver.findElementById("com.orvibo.homemate:id/contentTextView");//点击删除主机弹窗提示文案
+	    Assert.assertNotNull(noticeText, "点击删除主机未弹出提示框");
+	    Assert.assertEquals(noticeText.getText(), "主机和所有设备均将被删除，需要重新添加后才能使用，确实要删除吗？");
+		AndroidElement  	DeleteButton = (AndroidElement) driver.findElementByName("删除");//删除按钮		
+		AppOperate.click(DeleteButton, "确认删除");
+		AppOperate.waitForTextDisappear(10, "努力奔跑中，快到终点喽~",driver);
+		Assert.assertFalse(driver.getPageSource().contains("努力奔跑中，快到终点喽~"),"等待10S后删除主机失败");
+		Assert.assertFalse(HostName.isDisplayed(),"删除主机失败");
+			
+			
+
+
+	}
+	
+	
+	
+	public void enterMyhost()
+	{
+		AppOperate.click(driver.findElement(By.name("我的")), "点击'我的'");
+		AppOperate.click(driver.findElement(By.name("我的主机")), "点击'我的主机'");
+		newSleep(2);
+		
+	}
+	public void enterMore()
+	{
+		AppOperate.click(driver.findElement(By.name("我的")), "点击'我的'");
+		AppOperate.click(driver.findElement(By.name("我的主机")), "点击'我的主机'");
+		AppOperate.swipeToUp(driver, "向上滑屏");
+		AppOperate.click((AndroidElement) driver.findElementById("com.orvibo.homemate:id/moreTextView"), "点击更多");
+		newSleep(2);
+	}
+	
+
+	@AfterMethod(alwaysRun=true)
+	public void tearDown(){
+		//关闭appium 资源
+		System.out.println("**********");
+		driver.quit();
+		
+	}
+	
+
+		
+	
+
+}
+

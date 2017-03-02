@@ -1,0 +1,260 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Logger;
+
+import org.testng.annotations.AfterTest;
+
+import com.oribo.common.Constant;
+import com.oribo.common.FindEelement;
+import com.oribo.common.CommonButton;
+import com.oribo.common.Driver;
+import com.oribo.common.SetExcelDataIndex;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.log.LoggerTesFoure;
+import com.oribo.log.LoggerTestFive;
+import com.oribo.log.LoggerTestOne;
+import com.oribo.log.LoggerTestSeven;
+import com.oribo.log.LoggerTestSix;
+import com.oribo.log.LoggerTestThree;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.report.MessageOutput;
+import com.oribo.log.LoggerUtil;
+import com.oribo.log.LoggerUtil.loggerLevel;
+import com.sun.jna.platform.unix.X11.XClientMessageEvent.Data;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+/**
+ * 授权登陆页面
+ * @author Administrator
+ *
+ */
+public class Authorized extends TestcaseFrame{
+	private AndroidDriver<AndroidElement>  driver = Driver.getAndroidDriver(null);
+	private Logger  mlogger;
+	public static  Map<Integer, DataBean>  data = new HashMap<>();
+	public void testStart(){
+		mlogger = LoggerUtil.getwriteFileLog(Constant.AUTHORIZED,"Authoried_findelemt", NickNameTest.class);
+		int index = SetExcelDataIndex.setAuthorizedWeixintDataIndex();
+		//bindWeiXin(index);
+		bindQq(index);
+		
+	}
+
+	public boolean bindSina(int index){
+		AndroidElement  weixinBind;
+		try{
+			weixinBind = driver.findElementById("com.orvibo.homemate:id/sinaNickNameTextView");
+			if (weixinBind.getText().equals("未绑定")) {
+				FindEelement.findByIdClick("com.orvibo.homemate:id/sinaRelativeLayout");
+				 newSleep(1);
+				FindEelement.findByIdClick("com.orvibo.homemate:id/bindChangeButton");
+				 newSleep(1);
+				try {					         
+					gotoqq(index+4, LoggerTesFoure.class);
+
+				} catch (Exception e) {
+					LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "微博绑定跳转失败");
+				}
+			} else {
+				FindEelement.findByIdClick("com.orvibo.homemate:id/qqRelativeLayout");
+				 newSleep(1);
+				unbind(index+5,LoggerTestFive.class);			
+			} 
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "没有找到微信绑定状态的textview");
+		}
+		return true;
+		
+		
+	}
+	
+    
+	public boolean  bindQq(int index){
+		AndroidElement  weixinBind;
+		try{
+			weixinBind = driver.findElementById("com.orvibo.homemate:id/qqNickNameTextView");
+			if (weixinBind.getText().equals("未绑定")) {
+				FindEelement.findByIdClick("com.orvibo.homemate:id/qqRelativeLayout");
+				 newSleep(1);
+				FindEelement.findByIdClick("com.orvibo.homemate:id/bindChangeButton");
+				 newSleep(1);
+				try {					         
+					gotoqq(index+2, LoggerTestThree.class);
+
+				} catch (Exception e) {
+					LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "微信绑定跳转失败");
+				}
+			} else {
+				FindEelement.findByIdClick("com.orvibo.homemate:id/qqRelativeLayout");
+				 newSleep(1);
+				unbind(index+3,LoggerTestSix.class);			
+			} 
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "没有找到微信绑定状态的textview");
+		}
+		return true;
+	}
+	public boolean bindWeiXin(int index){	
+		AndroidElement  weixinBind;
+		try{
+			weixinBind = driver.findElementById("com.orvibo.homemate:id/weChatNickNameTextView");
+			if (weixinBind.getText().equals("未绑定")) {
+				FindEelement.findByIdClick("om.orvibo.homemate:id/qqRelativeLayout");
+				 newSleep(1);
+				FindEelement.findByIdClick("com.orvibo.homemate:id/bindChangeButton");
+				 newSleep(1);
+				try {					         
+					gotoWeixin(index,LoggerTestOne.class);
+
+				} catch (Exception e) {
+					LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "微信绑定跳转失败");
+				}
+			} else {
+				FindEelement.findByIdClick("com.orvibo.homemate:id/weChatRelativeLayout");
+				 newSleep(1);
+				unbind(index+1,LoggerTestSeven.class);			
+			} 
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "没有找到微信绑定状态的textview");
+		}
+
+		return true;
+
+	}
+	
+	public boolean  gotosina(int index,Class<?> logger2){
+		DataBean  bean =  data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.ACCOUNTCHECK,bean.getTestCaseName(), logger2);
+		try {
+			AndroidElement   element = driver.findElementByName("微博登录");
+			if (element !=null) {
+				//simpleAssertEquals(driver, bean,MessageOutput.GOTOSIANSUCCESS  , MessageOutput.GOTOSIANSUCCESS , logger, "跳转到QQ界面失败！");
+				newAssertEquals(driver, bean, bean.getExpectValue(), logger, "跳转到QQ界面失败！");
+				AndroidElement    back = driver.findElementByName("取消");
+				back.click();
+				CommonButton.backButton();
+			} else{
+				gotoqqFail(bean, logger);	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			//gotosina(bean, logger);
+		}
+		return true;
+
+	}
+	private void gotoSinaFail(DataBean bean, Logger logger) {
+		//simpleAssertEquals(driver, bean,MessageOutput.GOTOSIANSUCCESS  , MessageOutput.GOTOSIANFAIL , logger, "跳转到QQ界面失败！");
+		newAssertEquals(driver, bean, MessageOutput.GOTOSIANFAIL, logger, "跳转到QQ界面失败！");
+	}
+	
+	private void unbind(int index,Class<?> classname) {	
+		DataBean  bean =data.get(index);
+		Logger unbinflogger =LoggerUtil.getwriteFileLog(Constant.AUTHORIZED,bean.getTestCaseName(),classname);
+		try {
+			AndroidElement  element = driver.findElementByName("解除绑定");
+			if ( element !=null) {	
+				element.click();
+				AndroidElement  elementKnow = driver.findElementByXPath("//android.widget.Button[contains(@text,'绑定')]");
+				if (elementKnow != null) {
+					elementKnow.click();
+					AndroidElement  elementbind = driver.findElementByName("绑定微信");
+					if (elementbind !=null) {
+						//simpleAssertEquals(driver, bean, MessageOutput.UNBINDSUCCESS, MessageOutput.UNBINDSUCCESS, unbinflogger , "解绑成功");
+						newAssertEquals(driver, bean,bean.getExpectValue(), unbinflogger, "解绑成功");
+						CommonButton.backButton();
+					}else{
+						//simpleAssertEquals(driver, bean, MessageOutput.UNBINDSUCCESS, MessageOutput.UNBINDFAIL, unbinflogger , "解除失败，找解除按钮出现异常");	
+						newAssertEquals(driver, bean,MessageOutput.UNBINDFAIL, unbinflogger, "解除失败，找解除按钮出现异常");
+					}
+				} else{
+					LoggerUtil.logOutput(mlogger, loggerLevel.LEVELSERVER, "没有找到解除绑提示框的\"知道了\" 按钮");
+				}
+			} else{
+				//simpleAssertEquals(driver, bean, MessageOutput.UNBINDSUCCESS, MessageOutput.UNBINDFAIL, unbinflogger , "解除失败，找解除按钮出现异常");
+				newAssertEquals(driver, bean,MessageOutput.UNBINDFAIL, unbinflogger, "解除失败，找解除按钮出现异常");
+			}	
+		} catch (Exception e) {
+			// TODO: handle exception
+			//simpleAssertEquals(driver, bean, MessageOutput.UNBINDSUCCESS, MessageOutput.UNBINDFAIL, unbinflogger , "解除失败，找解除按钮出现异常");
+			 newAssertEquals(driver, bean,MessageOutput.UNBINDFAIL, unbinflogger, "解除失败，找解除按钮出现异常");
+		}
+	}
+
+	public boolean  gotoqq(int index,Class<?> classname){
+		DataBean  bean =  data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.ACCOUNTCHECK,bean.getTestCaseName(), classname);
+
+		try {
+			AndroidElement   element = driver.findElementByName("QQ登录");
+			if (element !=null) {
+				//simpleAssertEquals(driver, bean,MessageOutput.GOTOQQNSUCCESS  , MessageOutput.GOTOQQNSUCCESS , logger, "跳转到QQ界面失败！");
+				 newAssertEquals(driver, bean,bean.getExpectValue(), logger,"跳转到QQ界面失败！");
+				AndroidElement    back = driver.findElementByName("返回");
+				back.click();
+				CommonButton.backButton();
+			} else{
+				gotoqqFail(bean, logger);	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			gotoqqFail(bean, logger);
+		}
+		return true;
+
+	}
+
+	private void gotoqqFail(DataBean bean, Logger logger) {
+		//simpleAssertEquals(driver, bean,MessageOutput.GOTOQQNSUCCESS  , MessageOutput.GOTOQQFAIL , logger, "跳转到QQ界面失败！");
+		 newAssertEquals(driver, bean, MessageOutput.GOTOQQFAIL, logger, "跳转到QQ界面失败！");
+			AndroidElement    back = driver.findElementByName("返回");
+	}
+
+	public boolean  gotoWeixin(int index,Class<?> classname){
+		DataBean  bean =  data.get(index);
+		Logger logger =LoggerUtil.getwriteFileLog(Constant.ACCOUNTCHECK,bean.getTestCaseName(), classname);
+
+		try {
+			AndroidElement   element = driver.findElementByName("微信登录");
+			if (element !=null) {
+				//simpleAssertEquals(driver, bean,MessageOutput.GOTOWEIXINSUCCESS , MessageOutput.GOTOWEIXINSUCCESS, logger, "跳转到微信界面失败！");
+				 newAssertEquals(driver, bean,bean.getExpectValue(), logger, "跳转到微信界面失败！");
+				AndroidElement    back = driver.findElementByName("返回");
+				back.click();
+				CommonButton.backButton();
+			} else{
+				gotoWeinFail(bean, logger);	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			gotoWeinFail(bean, logger);
+		}
+		return true;
+
+	}
+
+	private void gotoWeinFail(DataBean bean, Logger logger) {
+		//simpleAssertEquals(driver, bean,MessageOutput.GOTOWEIXINSUCCESS , MessageOutput.GOTOWEIXINFAIL, logger, "跳转到微信界面失败！");
+		 newAssertEquals(driver, bean,MessageOutput.GOTOWEIXINFAIL, logger, "跳转到微信界面失败！");
+	}
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		CreateHtmlreport.closeLog();
+	}
+
+}

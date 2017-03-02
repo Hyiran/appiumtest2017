@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="15" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="智家365" duration-ms="89020" started-at="2017-02-17T09:46:03Z" finished-at="2017-02-17T09:47:32Z">
+    <groups>
+      <group name="账号绑定">
+        <method signature="Personcenter.phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="phoneBind" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 账号绑定 -->
+    </groups>
+    <test name="init" duration-ms="89020" started-at="2017-02-17T09:46:03Z" finished-at="2017-02-17T09:47:32Z">
+      <class name="com.oribo.android365.testcase.StartAppiumTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2017-02-17T17:46:03Z" finished-at="2017-02-17T17:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.2.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[840432908@qq.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[penghong@orvibo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="startApp" is-config="true" duration-ms="60551" started-at="2017-02-17T17:46:03Z" finished-at="2017-02-17T17:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-02-17T17:47:32Z" finished-at="2017-02-17T17:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.oribo.android365.testcase.StartAppiumTest -->
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="beforeClass" is-config="true" duration-ms="274" started-at="2017-02-17T17:47:04Z" finished-at="2017-02-17T17:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="beforeMethod" is-config="true" duration-ms="23808" started-at="2017-02-17T17:47:04Z" finished-at="2017-02-17T17:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="phoneBind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="phoneBind" duration-ms="140" started-at="2017-02-17T17:47:28Z" finished-at="2017-02-17T17:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneBind -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="tearDown" is-config="true" duration-ms="4187" started-at="2017-02-17T17:47:28Z" finished-at="2017-02-17T17:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+    </test> <!-- init -->
+  </suite> <!-- 智家365 -->
+</testng-results>

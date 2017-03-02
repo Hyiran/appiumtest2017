@@ -1,0 +1,10 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>com.oribo.android365.testcase.MyHost.CheckMyHub</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.CheckDeleteHost</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.CheckMyHubMac</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.ClickMore</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.CancelDeleteHostNotice</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.CheckMyHubBack</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.CheckMyHubFirmwareVersion</td></tr>
+<tr><td>com.oribo.android365.testcase.MyHost.CheckMyHubIpAddress</td></tr>
+</table>

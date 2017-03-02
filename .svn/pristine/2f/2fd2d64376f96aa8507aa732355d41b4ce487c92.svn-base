@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="24" total="25" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-02-22 18:17:41 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:41 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:42 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:42 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:43 : [STEP] [个人信息中点击“头像”] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:43 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:44 : [STEP] [点击选择框中的“取消”按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:44 : [INFO] [点击 -> -android uiautomator: text("取消")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:47 : [STEP] [Wait For Text Disappear : 取消] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:49 : [STEP] [个人信息中点击“头像”] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:49 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:50 : [STEP] [点击选择框中的“拍照”按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:50 : [INFO] [点击 -> -android uiautomator: text("拍照")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:52 : [STEP] [拍照界面点击取消] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:52 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:54 : [STEP] [个人信息中点击“头像”] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:55 : [STEP] [点击选择框中的“拍照”按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:55 : [INFO] [点击 -> -android uiautomator: text("拍照")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:57 : [STEP] [点击拍照按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:17:57 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:02 : [STEP] [点击选择按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:02 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:03 : [STEP] [裁剪界面点击“取消”] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:03 : [INFO] [点击 -> id: com.miui.gallery:id/cancel]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:05 : [STEP] [个人信息中点击“头像”] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:06 : [STEP] [点击选择框中的“拍照”按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:06 : [INFO] [点击 -> -android uiautomator: text("拍照")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:08 : [STEP] [点击拍照按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:08 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:12 : [STEP] [点击选择按扭] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:12 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:13 : [STEP] [裁剪界面点击确定] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-22 18:18:13 : [INFO] [点击 -> -android uiautomator: text("确定")]]]>
+    </line>
+  </reporter-output>
+  <suite name="智家365" duration-ms="110429" started-at="2017-02-22T10:16:31Z" finished-at="2017-02-22T10:18:22Z">
+    <groups>
+      <group name="头像">
+        <method signature="Personcenter.photocheck()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="photocheck" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 头像 -->
+      <group name="个人信息">
+        <method signature="Personcenter.photocheck()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="photocheck" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 个人信息 -->
+    </groups>
+    <test name="init" duration-ms="110429" started-at="2017-02-22T10:16:31Z" finished-at="2017-02-22T10:18:22Z">
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeClass" is-config="true" duration-ms="394" started-at="2017-02-22T18:16:31Z" finished-at="2017-02-22T18:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeSuite" is-config="true" duration-ms="2" started-at="2017-02-22T18:16:32Z" finished-at="2017-02-22T18:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.2.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13088884762]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[penghong@orvibo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="beforeMethod" is-config="true" duration-ms="66945" started-at="2017-02-22T18:16:32Z" finished-at="2017-02-22T18:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="photocheck()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="photocheck" duration-ms="35554" started-at="2017-02-22T18:17:39Z" finished-at="2017-02-22T18:18:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-22 18:17:41 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:41 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:42 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:42 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:43 : [STEP] [个人信息中点击“头像”] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:43 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:44 : [STEP] [点击选择框中的“取消”按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:44 : [INFO] [点击 -> -android uiautomator: text("取消")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:47 : [STEP] [Wait For Text Disappear : 取消] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:49 : [STEP] [个人信息中点击“头像”] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:49 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:50 : [STEP] [点击选择框中的“拍照”按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:50 : [INFO] [点击 -> -android uiautomator: text("拍照")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:52 : [STEP] [拍照界面点击取消] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:52 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:54 : [STEP] [个人信息中点击“头像”] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:55 : [STEP] [点击选择框中的“拍照”按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:55 : [INFO] [点击 -> -android uiautomator: text("拍照")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:57 : [STEP] [点击拍照按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:17:57 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:02 : [STEP] [点击选择按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:02 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:03 : [STEP] [裁剪界面点击“取消”] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:03 : [INFO] [点击 -> id: com.miui.gallery:id/cancel]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:05 : [STEP] [个人信息中点击“头像”] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:06 : [STEP] [点击选择框中的“拍照”按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:06 : [INFO] [点击 -> -android uiautomator: text("拍照")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:08 : [STEP] [点击拍照按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:08 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:12 : [STEP] [点击选择按扭] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:12 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:13 : [STEP] [裁剪界面点击确定] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-22 18:18:13 : [INFO] [点击 -> -android uiautomator: text("确定")]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- photocheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]" name="tearDown" is-config="true" duration-ms="7511" started-at="2017-02-22T18:18:14Z" finished-at="2017-02-22T18:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+    </test> <!-- init -->
+  </suite> <!-- 智家365 -->
+</testng-results>

@@ -1,0 +1,10 @@
+package com.oribo.log;
+
+/**
+ * 空类用来输出日志
+ * @author Administrator
+ *
+ */
+public class LoggerTestOne {
+
+}

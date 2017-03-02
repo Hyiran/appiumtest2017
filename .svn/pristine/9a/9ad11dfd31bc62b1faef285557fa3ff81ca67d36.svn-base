@@ -1,0 +1,38 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>ÖÇ¼Ò365</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="659282">  <td>17/02/20 18:07:28</td>   <td>0</td> <td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:07:28</td>   <td>16</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeClass</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:07:28</td>   <td>273</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:07:51</td>   <td>23124</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">grephonenumber</td> 
+  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:08:02</td>   <td>34404</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:08:09</td>   <td>41563</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:08:32</td>   <td>64686</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">lesphonenumber</td> 
+  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:08:44</td>   <td>76078</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:08:51</td>   <td>83375</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:09:15</td>   <td>107326</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">notphonenumber</td> 
+  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:09:27</td>   <td>119627</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:09:34</td>   <td>126644</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:09:58</td>   <td>150242</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">rightaccount</td> 
+  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:10:13</td>   <td>165140</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:10:20</td>   <td>172248</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Personcenter.beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&gt;&gt;beforeMethod</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:10:43</td>   <td>195223</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">specialchar</td> 
+  <td>main@242355057</td>   <td></td> </tr>
+<tr bgcolor="659282">  <td>17/02/20 18:10:54</td>   <td>206025</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Personcenter.tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@242355057</td>   <td></td> </tr>
+</table>

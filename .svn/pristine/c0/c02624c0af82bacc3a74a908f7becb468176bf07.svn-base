@@ -1,0 +1,36 @@
+<h2>Reporter output</h2><table><tr><td>2017-02-22 18:17:41 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-22 18:17:41 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-22 18:17:42 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-22 18:17:42 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-22 18:17:43 : [STEP] [个人信息中点击“头像”] </td></tr>
+<tr><td>2017-02-22 18:17:43 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]</td></tr>
+<tr><td>2017-02-22 18:17:44 : [STEP] [点击选择框中的“取消”按扭] </td></tr>
+<tr><td>2017-02-22 18:17:44 : [INFO] [点击 -> -android uiautomator: text("取消")]</td></tr>
+<tr><td>2017-02-22 18:17:47 : [STEP] [Wait For Text Disappear : 取消] </td></tr>
+<tr><td>2017-02-22 18:17:49 : [STEP] [个人信息中点击“头像”] </td></tr>
+<tr><td>2017-02-22 18:17:49 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]</td></tr>
+<tr><td>2017-02-22 18:17:50 : [STEP] [点击选择框中的“拍照”按扭] </td></tr>
+<tr><td>2017-02-22 18:17:50 : [INFO] [点击 -> -android uiautomator: text("拍照")]</td></tr>
+<tr><td>2017-02-22 18:17:52 : [STEP] [拍照界面点击取消] </td></tr>
+<tr><td>2017-02-22 18:17:52 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]</td></tr>
+<tr><td>2017-02-22 18:17:54 : [STEP] [个人信息中点击“头像”] </td></tr>
+<tr><td>2017-02-22 18:17:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]</td></tr>
+<tr><td>2017-02-22 18:17:55 : [STEP] [点击选择框中的“拍照”按扭] </td></tr>
+<tr><td>2017-02-22 18:17:55 : [INFO] [点击 -> -android uiautomator: text("拍照")]</td></tr>
+<tr><td>2017-02-22 18:17:57 : [STEP] [点击拍照按扭] </td></tr>
+<tr><td>2017-02-22 18:17:57 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]</td></tr>
+<tr><td>2017-02-22 18:18:02 : [STEP] [点击选择按扭] </td></tr>
+<tr><td>2017-02-22 18:18:02 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]</td></tr>
+<tr><td>2017-02-22 18:18:03 : [STEP] [裁剪界面点击“取消”] </td></tr>
+<tr><td>2017-02-22 18:18:03 : [INFO] [点击 -> id: com.miui.gallery:id/cancel]</td></tr>
+<tr><td>2017-02-22 18:18:05 : [STEP] [个人信息中点击“头像”] </td></tr>
+<tr><td>2017-02-22 18:18:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]</td></tr>
+<tr><td>2017-02-22 18:18:06 : [STEP] [点击选择框中的“拍照”按扭] </td></tr>
+<tr><td>2017-02-22 18:18:06 : [INFO] [点击 -> -android uiautomator: text("拍照")]</td></tr>
+<tr><td>2017-02-22 18:18:08 : [STEP] [点击拍照按扭] </td></tr>
+<tr><td>2017-02-22 18:18:08 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]</td></tr>
+<tr><td>2017-02-22 18:18:12 : [STEP] [点击选择按扭] </td></tr>
+<tr><td>2017-02-22 18:18:12 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]</td></tr>
+<tr><td>2017-02-22 18:18:13 : [STEP] [裁剪界面点击确定] </td></tr>
+<tr><td>2017-02-22 18:18:13 : [INFO] [点击 -> -android uiautomator: text("确定")]</td></tr>
+</table>

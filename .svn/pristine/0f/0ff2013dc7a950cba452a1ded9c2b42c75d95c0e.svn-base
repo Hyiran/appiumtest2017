@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="19" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-02-20 18:07:53 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:53 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:54 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:55 : [STEP] [点击进入手机绑定界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:55 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:56 : [STEP] [输入大于11位手机号] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:07:56 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:01 : [STEP] [确认输入] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:01 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:34 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:34 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:35 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:36 : [STEP] [点击进入手机绑定界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:36 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:37 : [STEP] [输入小11位手机号] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:37 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:42 : [STEP] [确认输入] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:08:42 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:17 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:17 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:18 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:20 : [STEP] [点击进入手机绑定界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:20 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:21 : [STEP] [输入特殊字符] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:21 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:26 : [STEP] [确认输入] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:09:26 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:00 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:00 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:01 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:02 : [STEP] [点击进入手机绑定界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:02 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:03 : [STEP] [输入11位手机号] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:03 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:09 : [STEP] [确认输入] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:09 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:10 : [STEP] [返回到个人信息界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:10 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:45 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:45 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:47 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:47 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:48 : [STEP] [点击进入手机绑定界面] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:48 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:48 : [STEP] [输入特殊字符] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:48 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:53 : [STEP] [确认输入] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-20 18:10:53 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+    </line>
+  </reporter-output>
+  <suite name="智家365" duration-ms="213195" started-at="2017-02-20T10:07:28Z" finished-at="2017-02-20T10:11:01Z">
+    <groups>
+      <group name="个人信息">
+        <method signature="Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="grephonenumber" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="lesphonenumber" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="notphonenumber" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="rightaccount" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="specialchar" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 个人信息 -->
+      <group name="账号绑定">
+        <method signature="Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="grephonenumber" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="lesphonenumber" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="notphonenumber" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="rightaccount" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="specialchar" class="com.oribo.android365.testcase.Personcenter"/>
+      </group> <!-- 账号绑定 -->
+    </groups>
+    <test name="init" duration-ms="213195" started-at="2017-02-20T10:07:28Z" finished-at="2017-02-20T10:11:01Z">
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2017-02-20T18:07:28Z" finished-at="2017-02-20T18:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.2.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[840432908@qq.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[penghong@orvibo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeClass" is-config="true" duration-ms="246" started-at="2017-02-20T18:07:28Z" finished-at="2017-02-20T18:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeMethod" is-config="true" duration-ms="22852" started-at="2017-02-20T18:07:28Z" finished-at="2017-02-20T18:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="grephonenumber" duration-ms="11276" started-at="2017-02-20T18:07:51Z" finished-at="2017-02-20T18:08:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-20 18:07:53 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:53 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:54 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:55 : [STEP] [点击进入手机绑定界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:55 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:56 : [STEP] [输入大于11位手机号] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:07:56 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:01 : [STEP] [确认输入] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:01 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- grephonenumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="tearDown" is-config="true" duration-ms="7158" started-at="2017-02-20T18:08:02Z" finished-at="2017-02-20T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeMethod" is-config="true" duration-ms="23123" started-at="2017-02-20T18:08:09Z" finished-at="2017-02-20T18:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="lesphonenumber" duration-ms="11388" started-at="2017-02-20T18:08:32Z" finished-at="2017-02-20T18:08:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-20 18:08:34 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:34 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:35 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:36 : [STEP] [点击进入手机绑定界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:36 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:37 : [STEP] [输入小11位手机号] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:37 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:42 : [STEP] [确认输入] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:08:42 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lesphonenumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="tearDown" is-config="true" duration-ms="7297" started-at="2017-02-20T18:08:44Z" finished-at="2017-02-20T18:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeMethod" is-config="true" duration-ms="23950" started-at="2017-02-20T18:08:51Z" finished-at="2017-02-20T18:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="notphonenumber" duration-ms="12300" started-at="2017-02-20T18:09:15Z" finished-at="2017-02-20T18:09:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-20 18:09:17 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:17 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:18 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:20 : [STEP] [点击进入手机绑定界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:20 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:21 : [STEP] [输入特殊字符] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:21 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:26 : [STEP] [确认输入] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:09:26 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- notphonenumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="tearDown" is-config="true" duration-ms="7018" started-at="2017-02-20T18:09:27Z" finished-at="2017-02-20T18:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeMethod" is-config="true" duration-ms="23598" started-at="2017-02-20T18:09:34Z" finished-at="2017-02-20T18:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="rightaccount" duration-ms="14891" started-at="2017-02-20T18:09:58Z" finished-at="2017-02-20T18:10:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-20 18:10:00 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:00 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:01 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:02 : [STEP] [点击进入手机绑定界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:02 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:03 : [STEP] [输入11位手机号] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:03 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:09 : [STEP] [确认输入] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:09 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:10 : [STEP] [返回到个人信息界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:10 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- rightaccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="tearDown" is-config="true" duration-ms="7108" started-at="2017-02-20T18:10:13Z" finished-at="2017-02-20T18:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="beforeMethod" is-config="true" duration-ms="22975" started-at="2017-02-20T18:10:20Z" finished-at="2017-02-20T18:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="specialchar" duration-ms="10800" started-at="2017-02-20T18:10:43Z" finished-at="2017-02-20T18:10:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-20 18:10:45 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:45 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:47 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:47 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:48 : [STEP] [点击进入手机绑定界面] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:48 : [INFO] [点击 -> -android uiautomator: text("手机号")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:48 : [STEP] [输入特殊字符] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:48 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:53 : [STEP] [确认输入] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-20 18:10:53 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- specialchar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@4973813a]" name="tearDown" is-config="true" duration-ms="7161" started-at="2017-02-20T18:10:54Z" finished-at="2017-02-20T18:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+    </test> <!-- init -->
+  </suite> <!-- 智家365 -->
+</testng-results>

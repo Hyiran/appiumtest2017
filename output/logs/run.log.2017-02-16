@@ -1,0 +1,592 @@
+2017-02-16 09:04:44 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@4973813a] #parameters:0 time:1099
+2017-02-16 09:05:09 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:05:09 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:05:12 dev_log : Success, method:MyHost.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:6278
+2017-02-16 09:05:36 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:05:36 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:05:37 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:05:37 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:05:40 dev_log : Success, method:MyHost.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:7622
+2017-02-16 09:06:04 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:06:04 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:06:05 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:06:05 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:06:08 dev_log : Success, method:MyHost.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:7685
+2017-02-16 09:06:33 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:06:33 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:06:34 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:06:34 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:06:37 dev_log : Success, method:MyHost.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:7725
+2017-02-16 09:07:02 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:07:02 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:07:03 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:07:03 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:07:08 dev_log : Skipped, method:MyHost.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.MyHost@6321e813]
+2017-02-16 09:07:35 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:07:35 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:07:36 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:07:36 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:07:41 dev_log : Skipped, method:MyHost.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.MyHost@6321e813]
+2017-02-16 09:08:05 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:08:05 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:08:07 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:08:07 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:08:11 dev_log : Failed, method:MyHost.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:9591
+2017-02-16 09:08:59 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:08:59 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:09:00 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:09:00 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:09:02 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:09:02 dev_log : [INFO] [向上滑屏] 
+2017-02-16 09:09:02 dev_log : [STEP] [点击更多] 
+2017-02-16 09:09:02 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:09:03 dev_log : Success, method:MyHost.ClickMore()[pri:5, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:8351
+2017-02-16 09:09:30 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:09:30 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:09:31 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:09:31 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:09:32 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:09:32 dev_log : [INFO] [向上滑屏] 
+2017-02-16 09:09:32 dev_log : [STEP] [点击更多] 
+2017-02-16 09:09:32 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:09:35 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:09:35 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:09:36 dev_log : Success, method:MyHost.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:9493
+2017-02-16 09:10:03 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:10:03 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:10:04 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:10:04 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:10:05 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:10:05 dev_log : [INFO] [向上滑屏] 
+2017-02-16 09:10:05 dev_log : [STEP] [点击更多] 
+2017-02-16 09:10:05 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:10:08 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:10:08 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:10:09 dev_log : [STEP] [点击‘取消’] 
+2017-02-16 09:10:09 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]
+2017-02-16 09:10:13 dev_log : Failed, method:MyHost.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:13701
+2017-02-16 09:10:59 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:10:59 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:11:01 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:11:01 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:11:01 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:11:01 dev_log : [INFO] [向上滑屏] 
+2017-02-16 09:11:02 dev_log : [STEP] [点击更多] 
+2017-02-16 09:11:02 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:11:04 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:11:04 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:11:07 dev_log : Failed, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:11207
+2017-02-16 09:11:31 dev_log : All Tests is finished
+2017-02-16 09:11:31 dev_log : PASSED:0
+2017-02-16 09:11:31 dev_log : FAILED:0
+2017-02-16 09:29:50 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@4973813a] #parameters:0 time:1266
+2017-02-16 09:30:15 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:30:15 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:30:17 dev_log : Success, method:MyHost.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:5775
+2017-02-16 09:30:44 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:30:44 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:30:45 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:30:45 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:30:47 dev_log : Success, method:MyHost.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:7634
+2017-02-16 09:31:15 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:31:15 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:31:16 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:31:16 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:31:19 dev_log : Success, method:MyHost.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:6514
+2017-02-16 09:31:48 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:31:48 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:31:49 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:31:49 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:31:52 dev_log : Success, method:MyHost.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:6870
+2017-02-16 09:32:21 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:32:21 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:32:22 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:32:22 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:32:28 dev_log : Skipped, method:MyHost.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.MyHost@6321e813]
+2017-02-16 09:32:55 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:32:55 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:32:56 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:32:56 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:33:02 dev_log : Skipped, method:MyHost.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.MyHost@6321e813]
+2017-02-16 09:33:29 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:33:29 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:33:30 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:33:30 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:33:37 dev_log : Failed, method:MyHost.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:11527
+2017-02-16 09:34:24 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:34:24 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:34:25 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:34:25 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:34:27 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:34:27 dev_log : [STEP] [点击更多] 
+2017-02-16 09:34:27 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:34:28 dev_log : Success, method:MyHost.ClickMore()[pri:5, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:8376
+2017-02-16 09:34:55 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:34:55 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:34:56 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:34:56 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:34:57 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:34:57 dev_log : [STEP] [点击更多] 
+2017-02-16 09:34:57 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:35:00 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:35:00 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:35:01 dev_log : Success, method:MyHost.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:9513
+2017-02-16 09:35:28 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:35:28 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:35:29 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:35:29 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:35:30 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:35:30 dev_log : [STEP] [点击更多] 
+2017-02-16 09:35:30 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:35:33 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:35:33 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:35:34 dev_log : [STEP] [点击‘取消’] 
+2017-02-16 09:35:34 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]
+2017-02-16 09:35:39 dev_log : Success, method:MyHost.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:14126
+2017-02-16 09:36:08 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:36:08 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:36:09 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:36:09 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:36:10 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:36:10 dev_log : [STEP] [点击更多] 
+2017-02-16 09:36:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:36:13 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:36:13 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:36:17 dev_log : Failed, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@6321e813] #parameters:0 time:11981
+2017-02-16 09:36:41 dev_log : All Tests is finished
+2017-02-16 09:36:41 dev_log : PASSED:0
+2017-02-16 09:36:41 dev_log : FAILED:0
+2017-02-16 09:36:41 dev_log : SKIPPED:0
+2017-02-16 09:55:06 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:1330
+2017-02-16 09:55:32 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:55:32 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:55:33 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:55:33 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:55:34 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:55:34 dev_log : [STEP] [点击更多] 
+2017-02-16 09:55:34 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:55:37 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:55:37 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:55:41 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 09:56:08 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:56:08 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:56:09 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:56:09 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:56:09 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:56:10 dev_log : [STEP] [点击更多] 
+2017-02-16 09:56:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:56:12 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:56:12 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:56:17 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 09:57:37 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 09:57:37 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 09:57:37 dev_log : All Tests is finished
+2017-02-16 09:57:37 dev_log : PASSED:0
+2017-02-16 09:57:37 dev_log : FAILED:0
+2017-02-16 09:57:37 dev_log : SKIPPED:0
+2017-02-16 09:58:16 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:1274
+2017-02-16 09:58:42 dev_log : [STEP] [点击'我的'] 
+2017-02-16 09:58:42 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 09:58:43 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 09:58:43 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 09:58:44 dev_log : [STEP] [向上滑屏] 
+2017-02-16 09:58:44 dev_log : [STEP] [点击更多] 
+2017-02-16 09:58:44 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 09:58:47 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 09:58:47 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 09:58:54 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:01:32 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:1265
+2017-02-16 10:01:59 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:01:59 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:02:00 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:02:00 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:02:00 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:02:01 dev_log : [STEP] [点击更多] 
+2017-02-16 10:02:01 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:02:03 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:02:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:02:08 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:03:55 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:03:55 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:03:55 dev_log : All Tests is finished
+2017-02-16 10:03:55 dev_log : PASSED:0
+2017-02-16 10:03:55 dev_log : FAILED:0
+2017-02-16 10:03:55 dev_log : SKIPPED:0
+2017-02-16 10:04:52 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:857
+2017-02-16 10:05:15 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:05:15 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:05:16 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:05:16 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:05:17 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:05:17 dev_log : [STEP] [点击更多] 
+2017-02-16 10:05:17 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:05:20 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:05:20 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:05:22 dev_log : [STEP] [确认删除] 
+2017-02-16 10:05:22 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:05:23 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:05:24 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:05:48 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:05:48 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:05:49 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:05:49 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:05:49 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:05:50 dev_log : [STEP] [点击更多] 
+2017-02-16 10:05:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:05:52 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:05:52 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:05:55 dev_log : [STEP] [确认删除] 
+2017-02-16 10:05:55 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:05:56 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:05:57 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:06:21 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:06:21 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:06:22 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:06:22 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:06:22 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:06:23 dev_log : [STEP] [点击更多] 
+2017-02-16 10:06:23 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:06:25 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:06:25 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:06:28 dev_log : [STEP] [确认删除] 
+2017-02-16 10:06:28 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:06:29 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:06:30 dev_log : Failed, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709] #parameters:0 time:12563
+2017-02-16 10:06:54 dev_log : All Tests is finished
+2017-02-16 10:06:54 dev_log : PASSED:0
+2017-02-16 10:06:54 dev_log : FAILED:0
+2017-02-16 10:06:54 dev_log : SKIPPED:0
+2017-02-16 10:08:53 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:1076
+2017-02-16 10:09:20 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:09:20 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:09:21 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:09:21 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:09:21 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:09:22 dev_log : [STEP] [点击更多] 
+2017-02-16 10:09:22 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:09:24 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:09:24 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:09:27 dev_log : [STEP] [确认删除] 
+2017-02-16 10:09:27 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:09:30 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:09:31 dev_log : Success, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709] #parameters:0 time:15412
+2017-02-16 10:09:34 dev_log : All Tests is finished
+2017-02-16 10:09:34 dev_log : PASSED:0
+2017-02-16 10:09:34 dev_log : FAILED:0
+2017-02-16 10:09:34 dev_log : SKIPPED:0
+2017-02-16 10:31:02 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:31:02 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:31:02 dev_log : All Tests is finished
+2017-02-16 10:31:02 dev_log : PASSED:0
+2017-02-16 10:31:02 dev_log : FAILED:0
+2017-02-16 10:31:02 dev_log : SKIPPED:0
+2017-02-16 10:31:48 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:31:48 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:31:48 dev_log : All Tests is finished
+2017-02-16 10:31:48 dev_log : PASSED:0
+2017-02-16 10:31:48 dev_log : FAILED:0
+2017-02-16 10:31:48 dev_log : SKIPPED:0
+2017-02-16 10:32:08 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:32:08 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:32:08 dev_log : All Tests is finished
+2017-02-16 10:32:08 dev_log : PASSED:0
+2017-02-16 10:32:08 dev_log : FAILED:0
+2017-02-16 10:32:08 dev_log : SKIPPED:0
+2017-02-16 10:35:05 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:35:05 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:35:05 dev_log : All Tests is finished
+2017-02-16 10:35:05 dev_log : PASSED:0
+2017-02-16 10:35:05 dev_log : FAILED:0
+2017-02-16 10:35:05 dev_log : SKIPPED:0
+2017-02-16 10:37:25 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:37:25 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:37:25 dev_log : All Tests is finished
+2017-02-16 10:37:25 dev_log : PASSED:0
+2017-02-16 10:37:25 dev_log : FAILED:0
+2017-02-16 10:37:25 dev_log : SKIPPED:0
+2017-02-16 10:38:55 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:38:55 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:38:55 dev_log : All Tests is finished
+2017-02-16 10:38:55 dev_log : PASSED:0
+2017-02-16 10:38:55 dev_log : FAILED:0
+2017-02-16 10:38:55 dev_log : SKIPPED:0
+2017-02-16 10:41:43 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:41:44 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:41:44 dev_log : All Tests is finished
+2017-02-16 10:41:44 dev_log : PASSED:0
+2017-02-16 10:41:44 dev_log : FAILED:0
+2017-02-16 10:41:44 dev_log : SKIPPED:0
+2017-02-16 10:42:23 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a]
+2017-02-16 10:42:24 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:42:24 dev_log : All Tests is finished
+2017-02-16 10:42:24 dev_log : PASSED:0
+2017-02-16 10:42:24 dev_log : FAILED:0
+2017-02-16 10:42:24 dev_log : SKIPPED:0
+2017-02-16 10:43:56 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:872
+2017-02-16 10:44:19 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:44:19 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:44:21 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:44:21 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:44:21 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:44:22 dev_log : [STEP] [点击更多] 
+2017-02-16 10:44:22 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:44:24 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:44:24 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:44:26 dev_log : [STEP] [确认删除] 
+2017-02-16 10:44:26 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:44:28 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:44:39 dev_log : Success, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709] #parameters:0 time:23133
+2017-02-16 10:44:42 dev_log : All Tests is finished
+2017-02-16 10:44:42 dev_log : PASSED:0
+2017-02-16 10:44:42 dev_log : FAILED:0
+2017-02-16 10:44:42 dev_log : SKIPPED:0
+2017-02-16 10:49:35 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:1058
+2017-02-16 10:49:59 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:49:59 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:50:00 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:50:00 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:50:00 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:50:01 dev_log : [STEP] [点击更多] 
+2017-02-16 10:50:01 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:50:03 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:50:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:50:06 dev_log : [STEP] [确认删除] 
+2017-02-16 10:50:06 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:50:07 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:50:18 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:50:44 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:50:44 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:50:45 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:50:45 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:50:45 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:50:46 dev_log : [STEP] [点击更多] 
+2017-02-16 10:50:46 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:50:48 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:50:48 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:50:51 dev_log : [STEP] [确认删除] 
+2017-02-16 10:50:51 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:50:54 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:50:55 dev_log : Success, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709] #parameters:0 time:15132
+2017-02-16 10:50:58 dev_log : All Tests is finished
+2017-02-16 10:50:58 dev_log : PASSED:0
+2017-02-16 10:50:58 dev_log : FAILED:0
+2017-02-16 10:50:58 dev_log : SKIPPED:0
+2017-02-16 10:52:03 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@57855c9a] #parameters:0 time:1177
+2017-02-16 10:52:27 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:52:27 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:52:28 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:52:28 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:52:29 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:52:29 dev_log : [STEP] [点击更多] 
+2017-02-16 10:52:29 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:52:32 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:52:32 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:52:34 dev_log : [STEP] [确认删除] 
+2017-02-16 10:52:34 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:52:37 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:52:39 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:53:04 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:53:04 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:53:06 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:53:06 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:53:06 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:53:07 dev_log : [STEP] [点击更多] 
+2017-02-16 10:53:07 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:53:09 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:53:09 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:53:11 dev_log : [STEP] [确认删除] 
+2017-02-16 10:53:11 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:53:15 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:53:16 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709]
+2017-02-16 10:53:43 dev_log : [STEP] [点击'我的'] 
+2017-02-16 10:53:43 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 10:53:44 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 10:53:44 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 10:53:44 dev_log : [STEP] [向上滑屏] 
+2017-02-16 10:53:45 dev_log : [STEP] [点击更多] 
+2017-02-16 10:53:45 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 10:53:47 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 10:53:47 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 10:53:50 dev_log : [STEP] [确认删除] 
+2017-02-16 10:53:50 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 10:53:52 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 10:54:02 dev_log : Failed, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3b084709] #parameters:0 time:22253
+2017-02-16 10:54:26 dev_log : All Tests is finished
+2017-02-16 10:54:26 dev_log : PASSED:0
+2017-02-16 10:54:26 dev_log : FAILED:0
+2017-02-16 10:54:26 dev_log : SKIPPED:0
+2017-02-16 14:25:49 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3b084709] #parameters:0 time:1670
+2017-02-16 14:26:15 dev_log : [STEP] [点击'我的'] 
+2017-02-16 14:26:15 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 14:26:17 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 14:26:17 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 14:26:17 dev_log : [STEP] [向上滑屏] 
+2017-02-16 14:26:18 dev_log : [STEP] [点击更多] 
+2017-02-16 14:26:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 14:26:20 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 14:26:20 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 14:26:23 dev_log : [STEP] [确认删除] 
+2017-02-16 14:26:23 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 14:26:24 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 14:26:35 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3224f60b]
+2017-02-16 14:27:00 dev_log : [STEP] [点击'我的'] 
+2017-02-16 14:27:00 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 14:27:01 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 14:27:01 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 14:27:01 dev_log : [STEP] [向上滑屏] 
+2017-02-16 14:27:02 dev_log : [STEP] [点击更多] 
+2017-02-16 14:27:02 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 14:27:04 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 14:27:04 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 14:27:07 dev_log : [STEP] [确认删除] 
+2017-02-16 14:27:07 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 14:27:10 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 14:27:11 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3224f60b]
+2017-02-16 14:27:37 dev_log : [STEP] [点击'我的'] 
+2017-02-16 14:27:37 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 14:27:38 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 14:27:38 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 14:27:39 dev_log : [STEP] [向上滑屏] 
+2017-02-16 14:27:39 dev_log : [STEP] [点击更多] 
+2017-02-16 14:27:39 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 14:27:42 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 14:27:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 14:27:44 dev_log : [STEP] [确认删除] 
+2017-02-16 14:27:44 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 14:27:45 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 14:27:56 dev_log : Failed, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3224f60b] #parameters:0 time:23053
+2017-02-16 14:28:20 dev_log : All Tests is finished
+2017-02-16 14:28:20 dev_log : PASSED:0
+2017-02-16 14:28:20 dev_log : FAILED:0
+2017-02-16 14:28:20 dev_log : SKIPPED:0
+2017-02-16 14:50:52 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@3b084709] #parameters:0 time:2044
+2017-02-16 14:51:27 dev_log : [STEP] [点击'我的'] 
+2017-02-16 14:51:27 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 14:51:28 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 14:51:28 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 14:51:28 dev_log : [STEP] [向上滑屏] 
+2017-02-16 14:51:29 dev_log : [STEP] [点击更多] 
+2017-02-16 14:51:29 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 14:51:31 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 14:51:31 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 14:51:34 dev_log : [STEP] [确认删除] 
+2017-02-16 14:51:34 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 14:51:35 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 14:51:46 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3224f60b]
+2017-02-16 14:52:24 dev_log : [STEP] [点击'我的'] 
+2017-02-16 14:52:24 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 14:52:25 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 14:52:25 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 14:52:26 dev_log : [STEP] [向上滑屏] 
+2017-02-16 14:52:26 dev_log : [STEP] [点击更多] 
+2017-02-16 14:52:26 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 14:52:29 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 14:52:29 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 14:52:31 dev_log : [STEP] [确认删除] 
+2017-02-16 14:52:31 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 14:52:34 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 14:52:36 dev_log : Skipped, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3224f60b]
+2017-02-16 14:53:09 dev_log : [STEP] [点击'我的'] 
+2017-02-16 14:53:09 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 14:53:10 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 14:53:10 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 14:53:11 dev_log : [STEP] [向上滑屏] 
+2017-02-16 14:53:11 dev_log : [STEP] [点击更多] 
+2017-02-16 14:53:11 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 14:53:14 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 14:53:14 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 14:53:16 dev_log : [STEP] [确认删除] 
+2017-02-16 14:53:16 dev_log : [INFO] [点击 -> name: 删除]
+2017-02-16 14:53:18 dev_log : [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-02-16 14:53:28 dev_log : Failed, method:MyHost.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.MyHost@3224f60b] #parameters:0 time:20316
+2017-02-16 14:53:53 dev_log : All Tests is finished
+2017-02-16 14:53:53 dev_log : PASSED:0
+2017-02-16 14:53:53 dev_log : FAILED:0
+2017-02-16 14:53:53 dev_log : SKIPPED:0
+2017-02-16 15:12:06 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6321e813]
+2017-02-16 15:12:08 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6321e813]
+2017-02-16 15:12:11 dev_log : Failed, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6321e813] #parameters:0 time:2054
+2017-02-16 15:13:49 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:13:49 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:13:49 dev_log : Failed, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813] #parameters:0 time:128
+2017-02-16 15:14:11 dev_log : Failed, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@57855c9a] #parameters:0 time:2064
+2017-02-16 15:14:32 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@57855c9a]
+2017-02-16 15:14:32 dev_log : All Tests is finished
+2017-02-16 15:14:32 dev_log : PASSED:0
+2017-02-16 15:14:32 dev_log : FAILED:0
+2017-02-16 15:14:32 dev_log : SKIPPED:0
+2017-02-16 15:15:14 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:15:14 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:15:14 dev_log : Failed, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813] #parameters:0 time:153
+2017-02-16 15:21:51 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:21:51 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:21:52 dev_log : Failed, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813] #parameters:0 time:127
+2017-02-16 15:29:00 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:29:00 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:29:00 dev_log : Failed, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813] #parameters:0 time:435
+2017-02-16 15:29:23 dev_log : Failed, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@57855c9a] #parameters:0 time:2058
+2017-02-16 15:29:44 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@57855c9a]
+2017-02-16 15:29:44 dev_log : All Tests is finished
+2017-02-16 15:29:44 dev_log : PASSED:0
+2017-02-16 15:29:44 dev_log : FAILED:0
+2017-02-16 15:29:44 dev_log : SKIPPED:0
+2017-02-16 15:30:48 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:30:48 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:30:48 dev_log : Failed, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813] #parameters:0 time:129
+2017-02-16 15:31:12 dev_log : Failed, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@57855c9a] #parameters:0 time:2222
+2017-02-16 15:33:28 dev_log : Skipped, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.ClickMore()[pri:5, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:7, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : Skipped, method:Personcenter.DeleteHost()[pri:8, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:33:28 dev_log : All Tests is finished
+2017-02-16 15:33:28 dev_log : PASSED:0
+2017-02-16 15:33:28 dev_log : FAILED:0
+2017-02-16 15:33:28 dev_log : SKIPPED:0
+2017-02-16 15:36:50 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@6321e813] #parameters:0 time:994
+2017-02-16 15:37:15 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:37:15 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:37:17 dev_log : Success, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@79be0360] #parameters:0 time:6221
+2017-02-16 15:37:42 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:37:42 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:37:43 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 15:37:43 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 15:37:46 dev_log : Success, method:Personcenter.CheckMyHubMac()[pri:1, instance:com.oribo.android365.testcase.Personcenter@79be0360] #parameters:0 time:7815
+2017-02-16 15:38:11 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:38:11 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:38:12 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 15:38:12 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 15:38:15 dev_log : Success, method:Personcenter.CheckMyHubIpAddress()[pri:2, instance:com.oribo.android365.testcase.Personcenter@79be0360] #parameters:0 time:7386
+2017-02-16 15:38:44 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:38:44 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:38:45 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 15:38:45 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 15:38:47 dev_log : Success, method:Personcenter.CheckMyHubFirmwareVersion()[pri:3, instance:com.oribo.android365.testcase.Personcenter@79be0360] #parameters:0 time:7710
+2017-02-16 15:39:18 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:39:18 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:39:19 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 15:39:19 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 15:39:23 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:4, instance:com.oribo.android365.testcase.Personcenter@79be0360]
+2017-02-16 15:40:35 dev_log : Success, method:StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4] #parameters:0 time:1126
+2017-02-16 15:40:59 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:40:59 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:41:01 dev_log : Success, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:5680
+2017-02-16 15:41:26 dev_log : [STEP] [点击'我的'] 
+2017-02-16 15:41:26 dev_log : [INFO] [点击 -> name: 我的]
+2017-02-16 15:41:27 dev_log : [STEP] [点击'我的主机'] 
+2017-02-16 15:41:27 dev_log : [INFO] [点击 -> name: 我的主机]
+2017-02-16 15:41:28 dev_log : [STEP] [向上滑屏] 
+2017-02-16 15:41:28 dev_log : [STEP] [点击更多] 
+2017-02-16 15:41:28 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-02-16 15:41:31 dev_log : [STEP] [点击‘删除主机’] 
+2017-02-16 15:41:31 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-02-16 15:41:32 dev_log : Success, method:Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156] #parameters:0 time:9291
+2017-02-16 15:41:35 dev_log : All Tests is finished
+2017-02-16 15:41:35 dev_log : PASSED:0
+2017-02-16 15:41:35 dev_log : FAILED:0
+2017-02-16 15:41:35 dev_log : SKIPPED:0

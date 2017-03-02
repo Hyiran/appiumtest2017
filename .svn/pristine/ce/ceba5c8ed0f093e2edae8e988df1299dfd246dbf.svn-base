@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="10" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-02-16 15:40:59 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:40:59 : [INFO] [点击 -> name: 我的]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:26 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:26 : [INFO] [点击 -> name: 我的]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:27 : [STEP] [点击'我的主机'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:27 : [INFO] [点击 -> name: 我的主机]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:28 : [STEP] [向上滑屏] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:28 : [STEP] [点击更多] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:28 : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:31 : [STEP] [点击‘删除主机’] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-02-16 15:41:31 : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]]]>
+    </line>
+  </reporter-output>
+  <suite name="智家365" duration-ms="82590" started-at="2017-02-16T07:40:12Z" finished-at="2017-02-16T07:41:35Z">
+    <groups>
+      <group name="我的">
+        <method signature="Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="CheckMyHub" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="CheckDeleteHost" class="com.oribo.android365.testcase.Personcenter"/>
+        <method signature="StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="test" class="com.oribo.android365.testcase.StartAppiumTest"/>
+      </group> <!-- 我的 -->
+    </groups>
+    <test name="init" duration-ms="82590" started-at="2017-02-16T07:40:12Z" finished-at="2017-02-16T07:41:35Z">
+      <class name="com.oribo.android365.testcase.StartAppiumTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2017-02-16T15:40:12Z" finished-at="2017-02-16T15:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.2.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[840432908@qq.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[penghong@orvibo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="startApp" is-config="true" duration-ms="21340" started-at="2017-02-16T15:40:12Z" finished-at="2017-02-16T15:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="test" duration-ms="1126" started-at="2017-02-16T15:40:34Z" finished-at="2017-02-16T15:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="afterClass" is-config="true" duration-ms="3710" started-at="2017-02-16T15:40:35Z" finished-at="2017-02-16T15:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]" name="afterSuite" is-config="true" duration-ms="2117" started-at="2017-02-16T15:41:35Z" finished-at="2017-02-16T15:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.oribo.android365.testcase.StartAppiumTest -->
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="beforeClass" is-config="true" duration-ms="189" started-at="2017-02-16T15:40:39Z" finished-at="2017-02-16T15:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="beforeMethod" is-config="true" duration-ms="17015" started-at="2017-02-16T15:40:39Z" finished-at="2017-02-16T15:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="CheckMyHub" duration-ms="5680" started-at="2017-02-16T15:40:56Z" finished-at="2017-02-16T15:41:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-16 15:40:59 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:40:59 : [INFO] [点击 -> name: 我的]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckMyHub -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="tearDown" is-config="true" duration-ms="3158" started-at="2017-02-16T15:41:01Z" finished-at="2017-02-16T15:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="beforeMethod" is-config="true" duration-ms="17605" started-at="2017-02-16T15:41:05Z" finished-at="2017-02-16T15:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="CheckDeleteHost" duration-ms="9291" started-at="2017-02-16T15:41:22Z" depends-on-methods="com.oribo.android365.testcase.Personcenter.CheckMyHub" finished-at="2017-02-16T15:41:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-02-16 15:41:26 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:26 : [INFO] [点击 -> name: 我的]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:27 : [STEP] [点击'我的主机'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:27 : [INFO] [点击 -> name: 我的主机]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:28 : [STEP] [向上滑屏] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:28 : [STEP] [点击更多] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:28 : [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:31 : [STEP] [点击‘删除主机’] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-02-16 15:41:31 : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckDeleteHost -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]" name="tearDown" is-config="true" duration-ms="3422" started-at="2017-02-16T15:41:32Z" finished-at="2017-02-16T15:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+    </test> <!-- init -->
+  </suite> <!-- 智家365 -->
+</testng-results>

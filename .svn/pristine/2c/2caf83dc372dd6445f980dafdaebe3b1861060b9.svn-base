@@ -1,0 +1,37 @@
+package com.oribo.report;
+
+import java.io.File;
+import com.oribo.utils.FileUtils;
+import com.oribo.common.*;
+
+public class CreateHtmlreport {
+	static HTMLReport hr = new HTMLReport();
+	public static String HtmlLog;
+	public static String AppiumBaseLibLog;
+	// 创建HTML类型的测试报告页面信息
+	public static void createHtmlLog() throws Exception
+	{
+		String resultsPath= FileUtils.getlogFilePath();
+		String resultHtmlFileName = resultsPath + File.separator + FileUtils.getAppSavePath()
+				+ "_" + ToolFunctions.getCurrentTime() + "_"+ "_log.html";
+		HtmlLog = resultHtmlFileName;
+		System.out.println(resultHtmlFileName);
+		String resultAppiumLogFileName =FileUtils. getInfolgPath(resultsPath,  FileUtils.getAppSavePath());
+		AppiumBaseLibLog = resultAppiumLogFileName;
+		//System.out.println(AppBean.getAppBean().getApk()+"_"+AppBean.getAppBean().getPhone());
+		System.out.println("创建 HTML日志 ---" + resultHtmlFileName);
+		hr.setup(resultHtmlFileName);
+	}
+	public static void closeLog()
+	{
+		hr.closeLog();
+	}
+	
+	public static void writeToLog(String info,Object instrut, Object expected, Object actual,String result)
+	{
+		hr.logWriter(info, instrut,expected, actual, result);
+	}
+ 
+
+
+}

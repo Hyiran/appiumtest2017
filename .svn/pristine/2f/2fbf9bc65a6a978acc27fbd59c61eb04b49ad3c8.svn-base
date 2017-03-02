@@ -1,0 +1,92 @@
+package com.oribo.utils;
+
+import java.util.List;
+import java.util.logging.Logger;
+
+import org.testng.Assert;
+
+import com.oribo.dataprovider.Constant;
+import com.oribo.common.Driver;
+import com.oribo.ReadExcelCase.DataBean;
+import com.oribo.log.Log;
+import com.oribo.log.LoggerUtil;
+import com.oribo.log.LoggerUtil.loggerLevel;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+/**
+ * 控件封装，用于查找常用控件
+ */
+
+//查找文本框
+public class GetElementUtil {
+	public static  List<AndroidElement> getEdit(Logger mLogger,String info,AndroidDriver driver) {
+		List<AndroidElement> edittext = driver.findElementsByClassName("android.widget.EditText"); 
+		Assert.assertTrue(edittext.size()>0, "未找到输入框");
+	
+		return edittext;	
+	}
+//查看控件名为“下一步”的控件
+	public static  AndroidElement getNext(Logger  mLogger) {
+		AndroidElement  edit = null;
+		try {
+			edit =Driver.getAndroidDriver(null).findElementByName(Constant.NEXT);
+			LoggerUtil.logOutput(mLogger, loggerLevel.LEVLEINFO, "获取控件--"+ "下一步");
+		} catch (Exception e) {
+			// TODO: handle exception
+			if (mLogger!=null) {
+				LoggerUtil.logOutput(mLogger, loggerLevel.LEVELSERVER, "查找下一步失败");
+			}
+		}
+		if (edit == null) {
+			LoggerUtil.logOutput(mLogger, loggerLevel.LEVELSERVER, "查找下一步失败");
+		}
+		return edit;
+
+	}
+	
+//通过“name”查找控件
+	public static  AndroidElement getEelememtByName(Logger  mLogger,String name,AndroidDriver driver) {
+		AndroidElement  edit = null;
+		try {
+			edit =(AndroidElement) driver.findElementByName(name);
+			LoggerUtil.logOutput(mLogger, loggerLevel.LEVLEINFO, "获取控件--"+ name);
+		} catch (Exception e) {
+			// TODO: handle exception
+			if (mLogger!=null) {
+				LoggerUtil.logOutput(mLogger, loggerLevel.LEVELSERVER, "查找"+ name+"失败");
+			}	
+
+		}
+		if (edit == null&&mLogger!=null) {
+			LoggerUtil.logOutput(mLogger, loggerLevel.LEVELSERVER, "查找"+ name+"失败");
+		}
+		return edit;
+
+	}
+	
+	//在有“text”属性的情况下通过xpath查找控件
+	public static  AndroidElement getEelememtTestviewByXPath(Logger  mLogger,String name) {
+		AndroidElement  edit = null;
+		try {
+			edit = Driver.getAndroidDriver(null).findElementByXPath("//android.widget.TextView[contains(@text,"+"\'"+name+"\')]");
+			LoggerUtil.logOutput(mLogger, loggerLevel.LEVLEINFO, "获取控件--"+ name);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			if (mLogger!=null) {
+				LoggerUtil.logOutput(mLogger, loggerLevel.LEVELSERVER, "获取控件--"+ name+"  失败");
+			}	
+		}
+		
+		if (edit == null) {
+			LoggerUtil.logOutput(mLogger, loggerLevel.LEVELSERVER, "获取控件--"+ name+"   失败");
+		}
+		return edit;
+
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,482 @@
+package com.oribo.android365.testcase;
+
+import java.util.logging.Logger;
+import java.util.HashMap;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.oribo.android365.automationtest.personcenter.personinfo.NickNameTest;
+import com.oribo.common.Constant;
+import com.oribo.common.FindEelement;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.common.Driver;
+import com.oribo.common.AndroidOperate;
+import com.oribo.dataprovider.AppBean;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.dataprovider.ExcelData;
+import com.oribo.log.LoggerUtil;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.utils.ReadExcel;
+
+
+import com.oribo.dataprovider.DataBean;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class MyHost extends TestcaseFrame{
+	Logger mLogger;
+	
+	//private AndroidElement  inputName = null;
+	//private AndroidElement  btnSave = null;
+	private String currentActivity;
+	
+	@BeforeTest 
+	public  void SetUp1() {
+		
+
+	}
+	
+	/**
+	 * 测试
+	 */
+	@Test
+	public void testMyHost(){
+		System.out.println("测试开始");
+		if ( CheckMyHub(0)) {
+			if (CheckMyHubMac(1)){
+				if(CheckMyHubIpAddress(2)){
+					if(CheckMyHubFirmwareVersion(3)) {
+						if(CheckMyHubBack(4)) {
+							if(ClickMore(5)) {
+								if(CheckDeleteHost(6)) {
+									if(CheckDeleteHostNotice(7)) {
+										if(CancelDeleteHostNotice(8)) {
+											if(DeleteHost(9)) {
+												System.out.println("testMyHost() over!");
+													
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+							
+					}
+					
+				}
+			}
+			
+		}
+	
+	
+	/**
+	 * 
+	 * @param 有主机我的页面检查我的主机
+	 */
+	private boolean CheckMyHub2(int index) {
+		boolean sucsess=true;
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);//显示用例开始执行
+		try {
+			System.out.println("CheckMyHub:我的页面检查我的主机");	
+			Assert.assertNotNull(Driver.getAndroidDriver(null).findElementByName("我的主机"));
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementByName("我的主机");
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+			HostName.click();//点击我的主机进入设备信息
+				
+		} catch (Exception e) {
+
+			System.out.println("找不到“我的主机”");
+			sucsess=false;
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+		}
+		
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);//显示用例执行结束
+		return sucsess;
+	}
+	
+	private boolean CheckMyHub(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);//显示用例开始执行
+		
+		try {
+			System.out.println("CheckMyHub:我的页面检查我的主机");	
+			Assert.assertNotNull(Driver.getAndroidDriver(null).findElementByName("我的主机"));
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementByName("我的主机");
+			if(null!= HostName) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+			    HostName.click();//点击我的主机进入设备信息
+			} else {
+				System.out.println("找不到“我的主机”");
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+			}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		}
+		return true;
+	}
+	
+	
+	
+	       
+	/**
+	 * 
+	 * @param 已点击我的主机，检查主机设备信息,检查主机Mac地址，期待的mac地址在用例中
+	 */
+	private boolean  CheckMyHubMac(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CheckMyHubMac:主机设备信息检查主机Mac地址");
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/info1TextView");//主机mac地址数字串
+			newSleep(1);
+			if(HostName.getText().equals(data.getExpectValue())) {                                                                                                           
+				System.out.println(HostName.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+				} else{
+					System.out.println("非预期MAC地址："+HostName.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue(), mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 检查主机设备信息,检查主机ip地址
+	 */
+	private boolean  CheckMyHubIpAddress(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CheckMyHubVersion:点击我的主机设备信息检查主机ip地址");
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/info2TextView");//主机ip地址
+			newSleep(1);
+			if(HostName.getText().equals("")) {                                                                                                           
+				System.out.println("主机ip为：空");
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue(), mLogger, null);
+				} else{
+					System.out.println("主机ip地址为："+HostName.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 检查主机设备信息,检查主机固件版本
+	 */
+	private boolean  CheckMyHubFirmwareVersion(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CheckMyHubVersion:点击我的主机设备信息检查主机固件版本");
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/info3TextView");//主机固件版本
+			newSleep(1);
+			if(HostName.getText().equals("")) {                                                                                                           
+				System.out.println("主机固件版本为：空");
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue(), mLogger, null);
+				} else{
+					System.out.println("主机固件版本为："+HostName.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 *  有主机，检查主机信息后，返回我的页面
+	 */
+	private boolean  CheckMyHubBack(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CheckMyHubBack:有主机检查主机信息后返回");
+			AndroidElement  HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/leftTextView");//主机mac具体数字串
+			newSleep(1);
+			HostName.click();//返回我的页面
+			AndroidElement  	PageName = Driver.getAndroidDriver(null).findElementByName("我的");//
+			System.out.println(PageName.getText());	
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue() , mLogger, null);
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+
+	}
+	
+	/**
+	 * 
+	 * @param 主机设备信息，点击更多
+	 */
+	private boolean  ClickMore(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+			
+		try {
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementByName("我的主机");
+			HostName.click();
+			System.out.println("ClickMore:主机设备信息，点击更多");
+							
+			AndroidElement  	MoreName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/moreTextView");//主机设备信息“更多”
+			newSleep(1);
+			//需要上拉一点，如何实现？不然找不到更多,或者需要手动上拉
+			
+			if(MoreName.getText().equals("更多")) {                                                                                                           
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+				MoreName.click();//点击更多
+				} else{
+					System.out.println("找不到“更多”"+MoreName.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 更多页面，检查删除主机
+	 */
+	private boolean  CheckDeleteHost(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CheckDeleteHost:更多页面检查删除主机按钮");
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/deleteTextView");//更多页面检查删除主机
+			newSleep(1);
+			if(HostName.getText().equals("删除主机")) {                                                                                                           
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+				HostName.click();//点击删除主机
+				} else{
+					System.out.println("找不到“删除主机”");
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 检查删除主机主机弹窗提示
+	 */
+	private boolean  CheckDeleteHostNotice(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CheckDeleteHostNotice:检查删除主机弹窗提示");
+			AndroidElement  	title = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/titleTextView");//点击删除主机弹窗标题
+			System.out.println(title.getText());
+			AndroidElement  	noticeText = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/contentTextView");//点击删除主机弹窗提示文案
+			System.out.println(noticeText.getText());
+			newSleep(1);
+			if(title.getText().equals("注意")
+					&&noticeText.getText().equals("主机和所有设备均将被删除，需要重新添加后才能使用，确实要删除吗？")){
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+				} else{
+					System.out.println("“删除主机”弹窗提示文案不是预期，实际是："+title.getText()+noticeText.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 取消删除主机
+	 */
+	private boolean  CancelDeleteHostNotice(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {
+			System.out.println("CancelDeleteHostNotice:取消删除主机");
+			AndroidElement  	CancelButton = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/rightButton");//点击删除主机弹窗提示文案
+			
+			newSleep(1);
+			if(CancelButton.getText().equals("取消")) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+				CancelButton.click();//点击取消
+				} else{
+					System.out.println("没有找到取消按钮："+CancelButton.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 删除主机
+	 */
+	private boolean  DeleteHost(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {				
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/deleteTextView");//更多页面检查删除主机
+			newSleep(1);
+			if(HostName.getText().equals("删除主机")) {
+				HostName.click();//点击删除主机
+				newSleep(1);
+			}
+					
+			AndroidElement  	DeleteButton = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/leftButton");//删除按钮			
+			newSleep(1);
+			if(DeleteButton.getText().equals("删除")) {			
+				currentActivity = Driver.getAndroidDriver(null).currentActivity();
+				DeleteButton.click();//点击删除，返回设备页面
+				newSleep(2);
+				AndroidElement  	BackPageName = Driver.getAndroidDriver(null).findElementByName("家");
+			if (BackPageName.getText().equals("家")) {
+					System.out.println("删除主机成功");
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+				}			
+				else if(Driver.getAndroidDriver(null).findElementByName("更多").getText().equals("更多")){
+					System.out.println("删除主机失败");
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+				}
+					
+				
+				} else{
+					System.out.println("没有找到删除按钮："+DeleteButton.getText());
+					
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	/**
+	 * 
+	 * @param 删除主机失败，检查toast
+	 */
+	private boolean  DeleteHostFail(int index) {
+		DataBean  data = bean.get(index);
+		LoggerUtil.startTest(data.getTestCaseName(), mLogger);
+		try {	
+			
+			AndroidElement  	HostName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/deleteTextView");//更多页面检查删除主机
+			newSleep(1);
+			if(HostName.getText().equals("删除主机")) {
+				HostName.click();//点击删除主机
+				newSleep(1);
+			}
+					
+			AndroidElement  	DeleteButton = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/leftButton");//删除按钮			
+			newSleep(1);
+			System.out.println(DeleteButton.getText());
+			if(DeleteButton.getText().equals("删除")) {
+				currentActivity = Driver.getAndroidDriver(null).currentActivity();
+				DeleteButton.click();//点击删除，返回设备页面
+				if (currentActivity.equals(Driver.getAndroidDriver(null).currentActivity())){
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+					System.out.println("删除失败，还是当前页面");
+				}
+					
+				else {
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), mLogger, null);
+					System.out.println("删除成功，返回设备页面");
+				}
+					
+				
+				} else{
+					System.out.println("没有找到删除按钮"+DeleteButton.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,data.getActualValue() , mLogger, null);
+				}
+				
+		} catch (Exception e) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), mLogger, e.getMessage());		  ;;;;;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+			
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), mLogger);
+		return true;
+	}
+	
+	
+	
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		CreateHtmlreport.closeLog();
+	}
+	
+		
+	
+
+}
+
+/*	// 手机登录
+	public void loginByPone(){
+		Driver.getAndroidDriver(null).startActivity("com.orvibo.homemate","com.orvibo.homemate.user.LoginActivity");//启动app？
+		AndroidElement userName = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/userName_et");
+		userName.clear();
+		userName.sendKeys("18026930912");
+		AndroidElement password = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/password_et");
+		password.clear();
+		password.sendKeys("20161008");
+		AndroidElement login  = Driver.getAndroidDriver(null).findElementById("com.orvibo.homemate:id/login_btn");
+		login.click();	
+		 newSleep(5);
+		Driver.getAndroidDriver(null).findElementByName("我的").click();
+		 newSleep(1);
+		FindEelement.findByIdClick("com.orvibo.homemate:id/rl_userInfo");
+		 newSleep(1);
+}
+*/

@@ -1,0 +1,53 @@
+<h2>Reporter output</h2><table><tr><td>2017-02-20 18:07:53 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-20 18:07:53 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-20 18:07:54 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-20 18:07:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-20 18:07:55 : [STEP] [点击进入手机绑定界面] </td></tr>
+<tr><td>2017-02-20 18:07:55 : [INFO] [点击 -> -android uiautomator: text("手机号")]</td></tr>
+<tr><td>2017-02-20 18:07:56 : [STEP] [输入大于11位手机号] </td></tr>
+<tr><td>2017-02-20 18:07:56 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:08:01 : [STEP] [确认输入] </td></tr>
+<tr><td>2017-02-20 18:08:01 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:08:34 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-20 18:08:34 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-20 18:08:35 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-20 18:08:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-20 18:08:36 : [STEP] [点击进入手机绑定界面] </td></tr>
+<tr><td>2017-02-20 18:08:36 : [INFO] [点击 -> -android uiautomator: text("手机号")]</td></tr>
+<tr><td>2017-02-20 18:08:37 : [STEP] [输入小11位手机号] </td></tr>
+<tr><td>2017-02-20 18:08:37 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:08:42 : [STEP] [确认输入] </td></tr>
+<tr><td>2017-02-20 18:08:42 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:09:17 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-20 18:09:17 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-20 18:09:18 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-20 18:09:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-20 18:09:20 : [STEP] [点击进入手机绑定界面] </td></tr>
+<tr><td>2017-02-20 18:09:20 : [INFO] [点击 -> -android uiautomator: text("手机号")]</td></tr>
+<tr><td>2017-02-20 18:09:21 : [STEP] [输入特殊字符] </td></tr>
+<tr><td>2017-02-20 18:09:21 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:09:26 : [STEP] [确认输入] </td></tr>
+<tr><td>2017-02-20 18:09:26 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:10:00 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-20 18:10:00 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-20 18:10:01 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-20 18:10:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-20 18:10:02 : [STEP] [点击进入手机绑定界面] </td></tr>
+<tr><td>2017-02-20 18:10:02 : [INFO] [点击 -> -android uiautomator: text("手机号")]</td></tr>
+<tr><td>2017-02-20 18:10:03 : [STEP] [输入11位手机号] </td></tr>
+<tr><td>2017-02-20 18:10:03 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:10:09 : [STEP] [确认输入] </td></tr>
+<tr><td>2017-02-20 18:10:09 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:10:10 : [STEP] [返回到个人信息界面] </td></tr>
+<tr><td>2017-02-20 18:10:10 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]</td></tr>
+<tr><td>2017-02-20 18:10:45 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-20 18:10:45 : [INFO] [点击 -> -android uiautomator: text("我的")]</td></tr>
+<tr><td>2017-02-20 18:10:47 : [STEP] [点击个人信息头像] </td></tr>
+<tr><td>2017-02-20 18:10:47 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+<tr><td>2017-02-20 18:10:48 : [STEP] [点击进入手机绑定界面] </td></tr>
+<tr><td>2017-02-20 18:10:48 : [INFO] [点击 -> -android uiautomator: text("手机号")]</td></tr>
+<tr><td>2017-02-20 18:10:48 : [STEP] [输入特殊字符] </td></tr>
+<tr><td>2017-02-20 18:10:48 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+<tr><td>2017-02-20 18:10:53 : [STEP] [确认输入] </td></tr>
+<tr><td>2017-02-20 18:10:53 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]</td></tr>
+</table>

@@ -1,0 +1,212 @@
+package com.oribo.android365.automationtest.personcenter.personinfo;
+
+import com.oribo.common.Constant;
+import com.oribo.common.AndroidOperate;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.common.CommonButton;
+import com.oribo.common.Driver;
+import com.oribo.dataprovider.DataBean;
+import com.oribo.utils.GetElementUtil;
+import com.oribo.log.LoggerUtil;
+import com.oribo.report.CreateHtmlreport;
+import com.oribo.utils.StrUtils;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+
+import org.apache.poi.util.StringUtil;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidElement;
+
+/**
+ * 安全验证的公共类
+ * @author Administrator
+ *
+ */
+public class SaveModifyTest extends TestcaseFrame{
+
+	/**
+	 * 进入页面发送按钮的测试
+	 */
+	public static void  checkSend_01(DataBean  data,Logger  logger){
+		System.out.println("test01");
+		LoggerUtil.startTest(data.getTestCaseName(), logger);
+		try {
+			AndroidElement  send = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute());
+			if (send.getText().contains("已发送")) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, null);	
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null), data ,send.getText(), logger, null);	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), logger, null);
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), logger);	
+	}
+
+	/**
+	 * 
+	 * @param data 测试数据
+	 * @param logger
+	 * @param time 进入页面系统时间
+	 */
+	public  static void cheakctime_02(DataBean  data,Logger  logger,String time){
+		try {
+			AndroidElement  send = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute()); 		
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			String date = sdf.format(new Date(Long.valueOf(System.currentTimeMillis())));
+			System.out.println(date );
+			String testtime = date.substring(date.lastIndexOf(":")+1, date.length());
+			String   str = send.getText();
+			String   showtime = str.substring(str.indexOf("(")+1, str.indexOf(")"));
+			System.out.println(Integer.valueOf(testtime)-Integer.valueOf(time) -Integer.valueOf(showtime)+"时间");
+			if (Integer.valueOf(testtime)-Integer.valueOf(time) -Integer.valueOf(showtime)<=1) {
+				data.setExpectValue(send.getText());
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, null);
+			}else{
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"倒计时显示时间错误差为："+(Integer.valueOf(testtime)-Integer.valueOf(time) -Integer.valueOf(showtime)), logger, null);	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), logger, null);
+		}
+
+
+	}
+	
+	/**
+	 * 60秒后按钮的文档显示
+	 * @param data 测试数据
+	 * @param logger
+	 * 
+	 */
+	public  static void cheaksend_03(DataBean  data,Logger  logger){
+		try {
+			//等“重新发送 ”元素
+		WebDriverWait wait = new WebDriverWait(Driver.getAndroidDriver(null), 60);
+	    WebElement element= wait.until(new  ExpectedCondition<WebElement>() {
+	            @Override
+	            public WebElement apply(WebDriver d) {
+	                return d.findElement(By.name("重新发送"));
+	            }
+	        });	    
+			if (element.getText().contains(data.getData())) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, null);
+			}else{
+				newAssertEquals(Driver.getAndroidDriver(null), data ,element.getText(), logger, null);	
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), logger, null);
+		}
+
+	}
+
+	/**
+	 * 
+	 * @param type  邮箱或者手机号
+	 * @param data 测试数据
+	 * @param logger 日志
+	 * @param str 上个页面传递过来的字符串
+	 * @return
+	 */
+
+	public  static  void checkText_04(int type,DataBean  data,Logger  logger,String str ){
+		LoggerUtil.startTest(data.getTestCaseName(), logger);
+		try {
+			AndroidElement  tipview = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute());
+			if (Constant.LOGING_TYPE_PHONE == type) {
+				if (tipview.getText().contains(StrUtils.strPhone(str))) {
+					data.setExpectValue(tipview.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,tipview.getText(), logger, null);
+				} else{
+					newAssertEquals(Driver.getAndroidDriver(null), data ,tipview.getText(), logger, null);
+				}		
+			} 
+			else if (Constant.LOGING_TYPE_EMAIL == type){
+				if (tipview.getText().contains(str)) {
+					data.setExpectValue(tipview.getText());
+					newAssertEquals(Driver.getAndroidDriver(null), data ,tipview.getText(), logger, null);
+				} else{
+					newAssertEquals(Driver.getAndroidDriver(null), data ,tipview.getText(), logger, null);
+				}		
+
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), logger, null);
+		}
+
+		LoggerUtil.endTest(data.getTestCaseName(), logger);	
+
+	}
+
+
+	/**
+	 * 输入验证码为空，按钮状态的检查
+	 * @param data
+	 * @param logger
+	 */
+	public static void inputNone_05(DataBean  data,Logger  logger){
+		LoggerUtil.startTest(data.getTestCaseName(), logger);
+		AndroidElement  element  = GetElementUtil.getEdit(logger, "",Driver.getAndroidDriver(null)).get(0);
+		element.clear();
+		AndroidElement  next =GetElementUtil.getNext(logger);
+		if (!next.isEnabled()) {
+			newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, null);
+		} else{
+			newAssertEquals(Driver.getAndroidDriver(null), data ,"输入为空，下一步按钮能点击", logger, null);
+		}
+		LoggerUtil.endTest(data.getTestCaseName(), logger);	
+
+	}
+	
+	/**
+	 * 输入错误的验证码
+	 * @param data
+	 * @param logger
+	 */
+	public static void  inputError_06(DataBean  data,Logger  logger){
+		LoggerUtil.startTest(data.getTestCaseName(), logger);
+		AndroidElement  element  = GetElementUtil.getEdit(logger, "",Driver.getAndroidDriver(null)).get(0);
+		element.clear();
+		element.sendKeys("12io");
+		AndroidElement  next =GetElementUtil.getNext(logger);
+		next.click();
+		try {
+			AndroidElement  newnext = AndroidOperate.getElementByType(data.getLocationElement(), data.getElementAttribute());
+			if ( newnext !=null) {
+				newAssertEquals(Driver.getAndroidDriver(null), data ,data.getExpectValue(), logger, null);
+			} else{
+				newAssertEquals(Driver.getAndroidDriver(null), data ,"没有错误验证码提示语", logger, null);
+			}	
+		} catch (Exception e) {
+			// TODO: handle exception
+			newAssertEquals(Driver.getAndroidDriver(null), data ,e.getMessage(), logger, null);
+		}
+		//测试完返回到个人信息页面
+		CommonButton.backButton();//安全验证的返回到修改密码
+		GetElementUtil.getEelememtByName(null, "取消",Driver.getAndroidDriver(null));//修改密码页面返回到个人信息		
+		LoggerUtil.endTest(data.getTestCaseName(), logger);				
+	}
+	
+	@AfterTest
+	public void tearDown(){
+		//关闭appium 资源
+		Driver.getAndroidDriver(null).quit();
+		//关闭 html 的写操作
+		 CreateHtmlreport.closeLog();
+	}
+ 
+}

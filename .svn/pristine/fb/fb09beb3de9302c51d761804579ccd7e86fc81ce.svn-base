@@ -1,0 +1,5 @@
+<h2>Reporter output</h2><table><tr><td>2017-02-13 16:51:11 : [STEP] [点击'我的'] </td></tr>
+<tr><td>2017-02-13 16:51:11 : [INFO] [点击 -> name: 我的]</td></tr>
+<tr><td>2017-02-13 16:51:13 : [STEP] [点击个人中心的头像] </td></tr>
+<tr><td>2017-02-13 16:51:13 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</td></tr>
+</table>

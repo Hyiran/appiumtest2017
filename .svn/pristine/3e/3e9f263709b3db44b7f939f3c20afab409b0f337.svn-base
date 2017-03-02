@@ -1,0 +1,85 @@
+package com.oribo.utils;
+
+import java.io.File;
+
+import com.oribo.common.Constant;
+import com.oribo.common.ToolFunctions;
+import com.oribo.dataprovider.AppBean;
+/**
+ * 文件操作类
+ * @author Administrator
+ *
+ */
+public class FileUtils {
+
+	/**
+	 * 返回日志存在的文件路径
+	 * @return
+	 */
+	public static String getlogFilePath(String modelfile){
+		String RESULTS_BASE_PATH = Constant.LOGGERFILEPATH+modelfile;
+		File file =new File(RESULTS_BASE_PATH);
+		if (!new File(RESULTS_BASE_PATH).exists())
+		{
+			  new File(RESULTS_BASE_PATH).mkdirs();
+		}
+		String resultsPath = file.getAbsolutePath();
+		return  resultsPath;
+	}
+	
+	/**
+	 * 返回日志存在的文件路径
+	 * @return
+	 */
+	public static String getlogFilePath(){
+		String RESULTS_BASE_PATH = Constant.LOGGERFILEPATH;
+		File file =new File(RESULTS_BASE_PATH);
+		if (!new File(RESULTS_BASE_PATH).exists())
+		{
+			  new File(RESULTS_BASE_PATH).mkdirs();
+		}
+		String resultsPath = file.getAbsolutePath();
+		return  resultsPath;
+	}
+	
+	/**
+	 * 返回打印日志的text 文件名
+	 * @param resultsPath
+	 * @param caseName
+	 * @return
+	 */
+	public static String getInfolgPath(String resultsPath,String caseName ){
+		String resultAppiumLogFileName =null;
+		try {
+			resultAppiumLogFileName = resultsPath + File.separator
+					+ caseName + "_" +  ToolFunctions.getCurrentTime() + "_"
+					+ "_appiumLog.log";
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+		return resultAppiumLogFileName; 
+	}
+	
+	
+	/**
+	 * 返回错误截图的路径
+	 * @param resultsPath
+	 * @param caseName
+	 * @return
+	 */
+	public static File getPicturePath(String caseName,String dateStr ,String captureName){
+		String RESULTS_BASE_PATH  = "Log/snapshot/"+caseName+"/" +dateStr+ "_" + captureName;
+		File file =new File(RESULTS_BASE_PATH);
+		return file; 
+	}
+	
+	
+	/**
+	 * 
+	 * @return 返回  apk  和手机系统的版本
+	 */
+	public static String getAppSavePath(){
+		return AppBean.getAppBean().getApk()+"_"+AppBean.getAppBean().getPhone();
+	}
+}

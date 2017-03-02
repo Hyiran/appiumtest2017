@@ -1,0 +1,9 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>com.oribo.android365.testcase.Personcenter.DeleteHost</td></tr>
+<tr><td>com.oribo.android365.testcase.Personcenter.CheckMyHubMac</td></tr>
+<tr><td>com.oribo.android365.testcase.Personcenter.CheckMyHubFirmwareVersion</td></tr>
+<tr><td>com.oribo.android365.testcase.Personcenter.CancelDeleteHostNotice</td></tr>
+<tr><td>com.oribo.android365.testcase.Personcenter.CheckMyHubBack</td></tr>
+<tr><td>com.oribo.android365.testcase.Personcenter.CheckMyHubIpAddress</td></tr>
+<tr><td>com.oribo.android365.testcase.Personcenter.ClickMore</td></tr>
+</table>

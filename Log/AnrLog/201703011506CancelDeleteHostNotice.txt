@@ -1,0 +1,2411 @@
+--------- beginning of main
+
+03-01 15:06:08.628   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: nl80211: Event message available
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: wlan0: Scan completed in 4.121078 seconds
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-01 15:06:08.795  4135  4135 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: nl80211: Received scan results (29 BSSes)
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: wlan0: BSS: Start scan result update 7067
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: wlan0: BSS: Add new id 20659 BSSID 10:bd:18:08:36:17 SSID 'cisco-3615'
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: wlan0: BSS: Remove id 20646 BSSID 62:01:94:0a:68:a2 SSID 'HomeMate_AP' due to no match in scan
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=46
+
+03-01 15:06:08.796  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:08.797  4135  4135 D wpa_supplicant: BSS: last_scan_res_used=29/128
+
+03-01 15:06:08.797  4135  4135 D wpa_supplicant: wlan0: Scan-only results received
+
+03-01 15:06:08.797  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-01 15:06:08.797  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:08.797  4135  4135 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 4.125597 seconds
+
+03-01 15:06:08.822  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3544
+
+03-01 15:06:08.822  4135  4135 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-01 15:06:08.833  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4071
+
+03-01 15:06:08.840  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4003
+
+03-01 15:06:08.852  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3795
+
+03-01 15:06:08.873  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4094
+
+03-01 15:06:08.888  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4035
+
+03-01 15:06:08.897  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=2849
+
+03-01 15:06:09.178  4135  4135 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-01 15:06:09.178  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-01 15:06:09.207  3834 12511 I StepsProvider: Steps Provider Query
+
+03-01 15:06:09.629   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:09.825  3765  4095 I XiaomiFirewall: firewall pkgName:com.qihoo.permmgr, result:0x0
+
+03-01 15:06:09.869 14472 14488 I art     : Background sticky concurrent mark sweep GC freed 296146(15MB) AllocSpace objects, 0(0B) LOS objects, 94% free, 984KB/16MB, paused 322us total 180.391ms
+
+03-01 15:06:10.630   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:11.302  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:11.315  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:11.526  9738  9749 W art     : Suspending all threads took: 6.097ms
+
+03-01 15:06:11.631   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:11.809  9738  9749 I art     : Background partial concurrent mark sweep GC freed 366845(15MB) AllocSpace objects, 0(0B) LOS objects, 43% free, 20MB/36MB, paused 8.960ms total 560.175ms
+
+03-01 15:06:11.939  3765  4095 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-01 15:06:12.633   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:13.162  1973  3476 D WifiStateMachine: starting scan for "18.1_neiwang"-WPA_PSK with 5745,2422
+
+03-01 15:06:13.162  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2422'
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d9398
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d9398 after 0.000071 second wait
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: nl80211: Scan frequency 2422 MHz
+
+03-01 15:06:13.163  4135  4135 D wpa_supplicant: nl80211: Scan frequency 5745 MHz
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: nl80211: Event message available
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000231 seconds
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-01 15:06:13.178  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: nl80211: Event message available
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: nl80211: Scan included frequencies: 2422 5745
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: wlan0: Scan completed in 0.117347 seconds
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-01 15:06:13.295  4135  4135 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: nl80211: Received scan results (29 BSSes)
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: wlan0: BSS: Start scan result update 7068
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: wlan0: BSS: Remove id 20658 BSSID 00:6b:8e:f0:3c:50 SSID '@ZigbeeTeam_5G' due to no match in scan
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: wlan0: BSS: Remove id 20655 BSSID d0:ee:07:3f:27:1c SSID 'zhanting_5G' due to no match in scan
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=46
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:13.296  4135  4135 D wpa_supplicant: BSS: last_scan_res_used=29/128
+
+03-01 15:06:13.297  4135  4135 D wpa_supplicant: wlan0: Scan-only results received
+
+03-01 15:06:13.297  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-01 15:06:13.297  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:13.297  4135  4135 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 0.133696 seconds
+
+03-01 15:06:13.315  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3544
+
+03-01 15:06:13.319  4135  4135 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-01 15:06:13.326  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4071
+
+03-01 15:06:13.341  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4003
+
+03-01 15:06:13.353  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3795
+
+03-01 15:06:13.368  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4094
+
+03-01 15:06:13.389  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4035
+
+03-01 15:06:13.393  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=1716
+
+03-01 15:06:13.399  9738 10911 D filemap : FileMap File size: 34543283 bytes
+
+03-01 15:06:13.399  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.399  9738 10911 D filemap : FileMap mDataPtr: 0x9a515421, mDataLength: 287356 mDataOffset: 34255905
+
+03-01 15:06:13.513  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:13.513  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:13.513  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.513  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.537  9738 10911 D filemap : FileMap File size: 34543283 bytes
+
+03-01 15:06:13.537  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.537  9738 10911 D filemap : FileMap mDataPtr: 0x9e2594cd, mDataLength: 7353 mDataOffset: 8512717
+
+03-01 15:06:13.609  4135  4135 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-01 15:06:13.609  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-01 15:06:13.620  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:13.620  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:13.620  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:13.620  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:13.620  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:13.620  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.620  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.620  9738 10911 D filemap : ~FileMap File size: 34543283 bytes
+
+03-01 15:06:13.620  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.620  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e2594cd, mDataLength: 7353 mDataOffset: 8512717
+
+03-01 15:06:13.634   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:13.641 19772  8029 D UTAnalytics:CommitTask: pid:19772 check&commit event:65501,
+
+03-01 15:06:13.641 19772  8029 D UTAnalytics:CommitTask: pid:19772 next:65501,
+
+03-01 15:06:13.641 19772  8029 D UTAnalytics:CommitTask: pid:19772 check&commit event:65502,
+
+03-01 15:06:13.641 19772  8029 D UTAnalytics:CommitTask: pid:19772 next:65502,
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.681  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.682  9738 10911 D filemap : FileMap File size: 34543283 bytes
+
+03-01 15:06:13.682  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.682  9738 10911 D filemap : FileMap mDataPtr: 0x950d26d8, mDataLength: 3329476 mDataOffset: 5183192
+
+03-01 15:06:13.738  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:13.738  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:13.738  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:13.738  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:13.738  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:13.738  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:13.738  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.738  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.769 19772  8172 D UTAnalytics:CommitTask: pid:19772 check&commit event:65503,
+
+03-01 15:06:13.769 19772  8172 D UTAnalytics:CommitTask: pid:19772 next:65503,
+
+03-01 15:06:13.815  9738 10911 D filemap : FileMap File size: 34543283 bytes
+
+03-01 15:06:13.815  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.815  9738 10911 D filemap : FileMap mDataPtr: 0x9e2594cd, mDataLength: 7353 mDataOffset: 8512717
+
+03-01 15:06:13.846  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:13.846  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:13.846  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:13.846  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:13.846  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:13.846  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.847  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.847  9738 10911 D filemap : ~FileMap File size: 34543283 bytes
+
+03-01 15:06:13.847  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.847  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e2594cd, mDataLength: 7353 mDataOffset: 8512717
+
+03-01 15:06:13.880  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:13.880  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:13.880  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.880  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.927  9738 10911 D filemap : ~FileMap File size: 34543283 bytes
+
+03-01 15:06:13.927  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.927  9738 10911 D filemap : ~FileMap mDataPtr: 0x950d26d8, mDataLength: 3329476 mDataOffset: 5183192
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:13.969  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:13.971  9738 10911 D filemap : ~FileMap File size: 34543283 bytes
+
+03-01 15:06:13.971  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Android/data/com.android.browser/files/update/Browser_20170116.apk
+
+03-01 15:06:13.971  9738 10911 D filemap : ~FileMap mDataPtr: 0x9a515421, mDataLength: 287356 mDataOffset: 34255905
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.006  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.028  9738 10911 D filemap : FileMap File size: 7770608 bytes
+
+03-01 15:06:14.028  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.028  9738 10911 D filemap : FileMap mDataPtr: 0x9a525ffe, mDataLength: 217564 mDataOffset: 7553022
+
+03-01 15:06:14.055  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:14.055  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:14.055  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.055  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.058 14537 14612 D UTAnalytics:UTSqliteLogStore: pid:14537 [insert] ,, isSuccess:true,ret,8070,
+
+03-01 15:06:14.058 14537 14612 D UTAnalytics:UTSqliteLogStore: pid:14537 [insert] ,, isSuccess:true,ret,8071,
+
+03-01 15:06:14.070  9738 10911 D filemap : FileMap File size: 7770608 bytes
+
+03-01 15:06:14.070  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.070  9738 10911 D filemap : FileMap mDataPtr: 0x9de5d107, mDataLength: 38653 mDataOffset: 160007
+
+03-01 15:06:14.082 30103 30103 W AppWatcher: type=1400 audit(0.0:4181893): avc: denied { getattr } for path="/proc/30028" dev="proc" ino=15821316 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:shell:s0 tclass=dir permissive=0
+
+03-01 15:06:14.082 30103 30103 W AppWatcher: type=1400 audit(0.0:4181894): avc: denied { getattr } for path="/proc/31384" dev="proc" ino=15821318 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:shell:s0 tclass=dir permissive=0
+
+03-01 15:06:14.092 30103 30103 W AppWatcher: type=1400 audit(0.0:4181895): avc: denied { getattr } for path="/proc/31743" dev="proc" ino=15821319 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:platform_app:s0:c512,c768 tclass=dir permissive=0
+
+03-01 15:06:14.092 30103 30103 W AppWatcher: type=1400 audit(0.0:4181896): avc: denied { getattr } for path="/proc/31808" dev="proc" ino=15893659 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:14.102 30103 30103 W AppWatcher: type=1400 audit(0.0:4181897): avc: denied { getattr } for path="/proc/32408" dev="proc" ino=15821321 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:shell:s0 tclass=dir permissive=0
+
+03-01 15:06:14.102 30103 30103 W AppWatcher: type=1400 audit(0.0:4181898): avc: denied { getattr } for path="/proc/32676" dev="proc" ino=15821322 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:platform_app:s0:c512,c768 tclass=dir permissive=0
+
+03-01 15:06:14.110  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.110  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:14.110  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:14.110  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:14.110  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:14.110  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.110  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.110  9738 10911 D filemap : ~FileMap File size: 7770608 bytes
+
+03-01 15:06:14.110  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.110  9738 10911 D filemap : ~FileMap mDataPtr: 0x9de5d107, mDataLength: 38653 mDataOffset: 160007
+
+03-01 15:06:14.170  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:14.170  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:14.170  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:14.170  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:14.170  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:14.170  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.171  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.173  9738 10911 D filemap : FileMap File size: 7770608 bytes
+
+03-01 15:06:14.173  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.173  9738 10911 D filemap : FileMap mDataPtr: 0x994ba720, mDataLength: 260742 mDataOffset: 2926368
+
+03-01 15:06:14.236  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.236  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:14.236  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:14.236  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:14.236  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:14.236  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:14.236  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.236  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.277  9738 10911 D filemap : FileMap File size: 7770608 bytes
+
+03-01 15:06:14.277  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.277  9738 10911 D filemap : FileMap mDataPtr: 0x9de5d107, mDataLength: 38653 mDataOffset: 160007
+
+03-01 15:06:14.320  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:14.328  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.328  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:14.328  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:14.328  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:14.328  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:14.328  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.328  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.332  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:14.350  9738 10911 D filemap : ~FileMap File size: 7770608 bytes
+
+03-01 15:06:14.350  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.350  9738 10911 D filemap : ~FileMap mDataPtr: 0x9de5d107, mDataLength: 38653 mDataOffset: 160007
+
+03-01 15:06:14.387  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:14.387  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:14.387  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.387  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+--------- beginning of system
+
+03-01 15:06:14.406  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.READ_EXTERNAL_STORAGE in package: com.qihoo.appstore at: Binary XML file line #218
+
+03-01 15:06:14.547  9738 10911 D filemap : ~FileMap File size: 7770608 bytes
+
+03-01 15:06:14.547  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.547  9738 10911 D filemap : ~FileMap mDataPtr: 0x994ba720, mDataLength: 260742 mDataOffset: 2926368
+
+03-01 15:06:14.595  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:14.595  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:14.595  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:14.595  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:14.595  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:14.595  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.596  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.611  9738 10911 D filemap : ~FileMap File size: 7770608 bytes
+
+03-01 15:06:14.612  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/com.qihoo.appstore_300070021.apk
+
+03-01 15:06:14.612  9738 10911 D filemap : ~FileMap mDataPtr: 0x9a525ffe, mDataLength: 217564 mDataOffset: 7553022
+
+03-01 15:06:14.636   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.640  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.665  9738 10911 D filemap : FileMap File size: 5931313 bytes
+
+03-01 15:06:14.665  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:14.665  9738 10911 D filemap : FileMap mDataPtr: 0x9de42bc4, mDataLength: 83287 mDataOffset: 5848004
+
+03-01 15:06:14.763  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:14.763  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:14.763  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.763  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.778  9738 10911 D filemap : FileMap File size: 5931313 bytes
+
+03-01 15:06:14.778  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:14.778  9738 10911 D filemap : FileMap mDataPtr: 0x9e176fa9, mDataLength: 16574 mDataOffset: 57257
+
+03-01 15:06:14.877  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.877  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:14.877  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:14.877  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:14.877  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:14.877  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.877  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.877  9738 10911 D filemap : ~FileMap File size: 5931313 bytes
+
+03-01 15:06:14.877  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:14.877  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e176fa9, mDataLength: 16574 mDataOffset: 57257
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.926  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.927  9738 10911 D filemap : FileMap File size: 5931313 bytes
+
+03-01 15:06:14.927  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:14.927  9738 10911 D filemap : FileMap mDataPtr: 0x9a507208, mDataLength: 346556 mDataOffset: 5501448
+
+03-01 15:06:14.976  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:14.976  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:14.976  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:14.976  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:14.976  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:14.976  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:14.977  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:14.977  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:14.991  9738 10911 D filemap : FileMap File size: 5931313 bytes
+
+03-01 15:06:14.991  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:14.991  9738 10911 D filemap : FileMap mDataPtr: 0x9e176fa9, mDataLength: 16574 mDataOffset: 57257
+
+03-01 15:06:15.039  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:15.039  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:15.039  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:15.039  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:15.039  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:15.039  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.039  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.053  9738 10911 D filemap : ~FileMap File size: 5931313 bytes
+
+03-01 15:06:15.053  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:15.053  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e176fa9, mDataLength: 16574 mDataOffset: 57257
+
+03-01 15:06:15.109 14472 14488 I art     : Background concurrent mark sweep GC freed 290946(16MB) AllocSpace objects, 0(0B) LOS objects, 95% free, 810KB/16MB, paused 1.514ms total 139.014ms
+
+03-01 15:06:15.139  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:15.143  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:15.143  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.143  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.237  9738 10911 D filemap : ~FileMap File size: 5931313 bytes
+
+03-01 15:06:15.237  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:15.237  9738 10911 D filemap : ~FileMap mDataPtr: 0x9a507208, mDataLength: 346556 mDataOffset: 5501448
+
+03-01 15:06:15.254  4218  6612 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-01 15:06:15.254  4218  6612 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10098
+
+03-01 15:06:15.254  4218  6612 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10098 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.340  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.347  9738 10911 D filemap : ~FileMap File size: 5931313 bytes
+
+03-01 15:06:15.347  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Download/PermRoot.apk
+
+03-01 15:06:15.347  9738 10911 D filemap : ~FileMap mDataPtr: 0x9de42bc4, mDataLength: 83287 mDataOffset: 5848004
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.432  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.451  9738 10911 D filemap : FileMap File size: 43280112 bytes
+
+03-01 15:06:15.451  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.452  9738 10911 D filemap : FileMap mDataPtr: 0x99496e00, mDataLength: 407770 mDataOffset: 42872320
+
+03-01 15:06:15.500  3834  3906 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 14537 Uid: 10123 Start by: activity Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10123 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:5721}
+
+03-01 15:06:15.518  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:15.518  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:15.518  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.518  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.535  9738 10911 D filemap : FileMap File size: 43280112 bytes
+
+03-01 15:06:15.535  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.535  9738 10911 D filemap : FileMap mDataPtr: 0x9e2592c0, mDataLength: 10644 mDataOffset: 271040
+
+03-01 15:06:15.587  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:15.587  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:15.587  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:15.587  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:15.587  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:15.587  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.587  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.587  9738 10911 D filemap : ~FileMap File size: 43280112 bytes
+
+03-01 15:06:15.587  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.587  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e2592c0, mDataLength: 10644 mDataOffset: 271040
+
+03-01 15:06:15.637   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.665  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.665  9738 10911 D filemap : FileMap File size: 43280112 bytes
+
+03-01 15:06:15.665  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.665  9738 10911 D filemap : FileMap mDataPtr: 0x952ad634, mDataLength: 1386444 mDataOffset: 41485876
+
+03-01 15:06:15.755  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:15.755  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:15.755  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:15.755  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:15.755  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:15.755  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:15.755  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.755  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.788  9738 10911 D filemap : FileMap File size: 43280112 bytes
+
+03-01 15:06:15.788  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.788  9738 10911 D filemap : FileMap mDataPtr: 0x9e2592c0, mDataLength: 10644 mDataOffset: 271040
+
+03-01 15:06:15.846  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:15.847  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:15.847  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:15.847  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:15.847  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:15.847  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.847  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.865  9738 10911 D filemap : ~FileMap File size: 43280112 bytes
+
+03-01 15:06:15.865  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.865  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e2592c0, mDataLength: 10644 mDataOffset: 271040
+
+03-01 15:06:15.907  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:15.908  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:15.908  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:15.908  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.READ_EXTERNAL_STORAGE in package: com.orvibo.homemate at: Binary XML file line #58
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.WRITE_EXTERNAL_STORAGE in package: com.orvibo.homemate at: Binary XML file line #59
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_NETWORK_STATE in package: com.orvibo.homemate at: Binary XML file line #60
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_WIFI_STATE in package: com.orvibo.homemate at: Binary XML file line #61
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.READ_PHONE_STATE in package: com.orvibo.homemate at: Binary XML file line #62
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.WRITE_SETTINGS in package: com.orvibo.homemate at: Binary XML file line #63
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.INTERNET in package: com.orvibo.homemate at: Binary XML file line #64
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_FINE_LOCATION in package: com.orvibo.homemate at: Binary XML file line #66
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_COARSE_LOCATION in package: com.orvibo.homemate at: Binary XML file line #67
+
+03-01 15:06:15.913  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.GET_TASKS in package: com.orvibo.homemate at: Binary XML file line #69
+
+03-01 15:06:15.963  9738 10911 D filemap : ~FileMap File size: 43280112 bytes
+
+03-01 15:06:15.963  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:15.963  9738 10911 D filemap : ~FileMap mDataPtr: 0x952ad634, mDataLength: 1386444 mDataOffset: 41485876
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:16.002  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:16.003  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:16.003  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:16.003  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:16.003  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:16.003  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.003  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.014  9738 10911 D filemap : ~FileMap File size: 43280112 bytes
+
+03-01 15:06:16.014  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/HomeMate 2.2.0.201.apk
+
+03-01 15:06:16.014  9738 10911 D filemap : ~FileMap mDataPtr: 0x99496e00, mDataLength: 407770 mDataOffset: 42872320
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.087  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.105  9738 10911 D filemap : FileMap File size: 15447548 bytes
+
+03-01 15:06:16.105  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.105  9738 10911 D filemap : FileMap mDataPtr: 0x9dd67d90, mDataLength: 96342 mDataOffset: 15351184
+
+03-01 15:06:16.154  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:16.154  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:16.154  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.154  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.166  9738 10911 D filemap : FileMap File size: 15447548 bytes
+
+03-01 15:06:16.166  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.166  9738 10911 D filemap : FileMap mDataPtr: 0x9e2592fd, mDataLength: 10036 mDataOffset: 12108541
+
+03-01 15:06:16.228  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.228  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:16.228  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:16.228  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:16.228  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:16.228  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.228  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.228  9738 10911 D filemap : ~FileMap File size: 15447548 bytes
+
+03-01 15:06:16.228  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.228  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e2592fd, mDataLength: 10036 mDataOffset: 12108541
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.300  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.301  9738 10911 D filemap : FileMap File size: 15447548 bytes
+
+03-01 15:06:16.301  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.301  9738 10911 D filemap : FileMap mDataPtr: 0x95681650, mDataLength: 1042240 mDataOffset: 14308944
+
+03-01 15:06:16.407  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.407  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:16.407  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:16.407  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:16.407  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:16.407  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:16.407  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.407  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.433  9738 10911 D filemap : FileMap File size: 15447548 bytes
+
+03-01 15:06:16.433  9738 10911 D filemap : FileMap mmap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.433  9738 10911 D filemap : FileMap mDataPtr: 0x9e2592fd, mDataLength: 10036 mDataOffset: 12108541
+
+03-01 15:06:16.501  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.501  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:16.502  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:16.502  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:16.502  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:16.502  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.502  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.514  9738 10911 D filemap : ~FileMap File size: 15447548 bytes
+
+03-01 15:06:16.514  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.514  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e2592fd, mDataLength: 10036 mDataOffset: 12108541
+
+03-01 15:06:16.570  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.570  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:16.570  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.570  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.600  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: com.htc.launcher.permission.READ_SETTINGS in package: com.kingroot.kinguser at: Binary XML file line #192
+
+03-01 15:06:16.615  9738 10911 W PackageParser: No actions in intent filter at /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk Binary XML file line #621
+
+03-01 15:06:16.625  9738 10911 D filemap : ~FileMap File size: 15447548 bytes
+
+03-01 15:06:16.626  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.631  9738 10911 D filemap : ~FileMap mDataPtr: 0x95681650, mDataLength: 1042240 mDataOffset: 14308944
+
+03-01 15:06:16.638   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.676  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.693  9738 10911 D filemap : ~FileMap File size: 15447548 bytes
+
+03-01 15:06:16.693  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/Tencent/QQfile_recv/KingRoot_170.apk
+
+03-01 15:06:16.693  9738 10911 D filemap : ~FileMap mDataPtr: 0x9dd67d90, mDataLength: 96342 mDataOffset: 15351184
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.741  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.763  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:16.763  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:16.763  9738 10911 D filemap : FileMap mDataPtr: 0x9de49c78, mDataLength: 57647 mDataOffset: 6610040
+
+03-01 15:06:16.812  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:16.812  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:16.812  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.812  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.822  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:16.822  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:16.822  9738 10911 D filemap : FileMap mDataPtr: 0x9e25a041, mDataLength: 7954 mDataOffset: 4378689
+
+03-01 15:06:16.865  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.865  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:16.865  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:16.865  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:16.865  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:16.865  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.865  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.865  9738 10911 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:16.865  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:16.865  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e25a041, mDataLength: 7954 mDataOffset: 4378689
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.897  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.899  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:16.899  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:16.899  9738 10911 D filemap : FileMap mDataPtr: 0x9a529710, mDataLength: 206184 mDataOffset: 6403856
+
+03-01 15:06:16.935  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.935  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:16.935  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:16.935  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:16.935  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:16.935  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:16.935  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.935  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.943  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:16.943  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:16.943  9738 10911 D filemap : FileMap mDataPtr: 0x9e25a041, mDataLength: 7954 mDataOffset: 4378689
+
+03-01 15:06:16.982  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:16.982  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:16.982  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:16.982  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:16.982  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:16.982  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:16.982  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:16.996  9738 10911 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:16.996  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:16.996  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e25a041, mDataLength: 7954 mDataOffset: 4378689
+
+03-01 15:06:17.013  4218  6612 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-01 15:06:17.013  4218  6612 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+03-01 15:06:17.014  4218  6612 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+03-01 15:06:17.054  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:17.054  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:17.054  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.054  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.066  9738 10911 W PackageParser: Unknown element under <manifest>: user-feature at /storage/emulated/0/kinguserdown/kmPlugins.apk Binary XML file line #65
+
+03-01 15:06:17.067  9738 10911 W PackageParser: Unknown element under <manifest>: user-feature at /storage/emulated/0/kinguserdown/kmPlugins.apk Binary XML file line #72
+
+03-01 15:06:17.067  9738 10911 W PackageParser: Unknown element under <manifest>: user-feature at /storage/emulated/0/kinguserdown/kmPlugins.apk Binary XML file line #73
+
+03-01 15:06:17.067  9738 10911 W PackageParser: Unknown element under <manifest>: user-feature at /storage/emulated/0/kinguserdown/kmPlugins.apk Binary XML file line #74
+
+03-01 15:06:17.067  9738 10911 W PackageParser: Unknown element under <manifest>: user-feature at /storage/emulated/0/kinguserdown/kmPlugins.apk Binary XML file line #75
+
+03-01 15:06:17.089  9738 10911 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:17.089  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:17.089  9738 10911 D filemap : ~FileMap mDataPtr: 0x9a529710, mDataLength: 206184 mDataOffset: 6403856
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.138  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.147  9738 10911 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:17.147  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:17.147  9738 10911 D filemap : ~FileMap mDataPtr: 0x9de49c78, mDataLength: 57647 mDataOffset: 6610040
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.213  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.227  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:17.227  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:17.227  9738 10911 D filemap : FileMap mDataPtr: 0x9de49c78, mDataLength: 57647 mDataOffset: 6610040
+
+03-01 15:06:17.285  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.285  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:17.285  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:17.285  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:17.285  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:17.285  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:17.285  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:17.286  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:17.286  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:17.286  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.286  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.300  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:17.300  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:17.300  9738 10911 D filemap : FileMap mDataPtr: 0x9e25a041, mDataLength: 7954 mDataOffset: 4378689
+
+03-01 15:06:17.336  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:17.350  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:17.362  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.362  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:17.362  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:17.362  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:17.362  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:17.362  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.362  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.362  9738 10911 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:17.362  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:17.362  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e25a041, mDataLength: 7954 mDataOffset: 4378689
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.426  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.437  9738 10911 D filemap : FileMap File size: 6667709 bytes
+
+03-01 15:06:17.437  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:17.437  9738 10911 D filemap : FileMap mDataPtr: 0x9a529710, mDataLength: 206184 mDataOffset: 6403856
+
+03-01 15:06:17.494  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.494  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:17.494  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:17.494  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:17.494  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:17.494  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:17.494  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.494  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.513  9738 10911 D filemap : FileMap File size: 9122221 bytes
+
+03-01 15:06:17.514  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:17.514  9738 10911 D filemap : FileMap mDataPtr: 0x9dd67978, mDataLength: 96287 mDataOffset: 9025912
+
+03-01 15:06:17.566  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.566  9738 10911 D FileMap : #01 pc 0001e38d  /system/lib/libandroidfw.so
+
+03-01 15:06:17.571  9738 10911 D FileMap : #02 pc 0001ea23  /system/lib/libandroidfw.so (OpenArchive+102)
+
+03-01 15:06:17.571  9738 10911 D FileMap : #03 pc 0001bdfb  /system/lib/libandroidfw.so (_ZN7android9ZipFileRO4openEPKc+6)
+
+03-01 15:06:17.574  9738 10911 D FileMap : #04 pc 000118f9  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipC2ERKNS_7String8El+64)
+
+03-01 15:06:17.574  9738 10911 D FileMap : #05 pc 0001244f  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZip3getERKNS_7String8Eb+170)
+
+03-01 15:06:17.574  9738 10911 D FileMap : #06 pc 0001257d  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet6getZipERKNS_7String8E+40)
+
+03-01 15:06:17.574  9738 10911 D FileMap : #07 pc 00012627  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+106)
+
+03-01 15:06:17.574  9738 10911 D FileMap : #08 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:17.575  9738 10911 D FileMap : #09 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.575  9738 10911 D FileMap : #10 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.589  9738 10911 D filemap : FileMap File size: 9122221 bytes
+
+03-01 15:06:17.590  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:17.590  9738 10911 D filemap : FileMap mDataPtr: 0x9e258ee9, mDataLength: 10039 mDataOffset: 5783273
+
+03-01 15:06:17.639   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:17.671  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.672  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:17.672  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:17.672  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:17.672  9738 10911 D FileMap : #04 pc 000138bf  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+158)
+
+03-01 15:06:17.672  9738 10911 D FileMap : #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.672  9738 10911 D FileMap : #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.672  9738 10911 D filemap : ~FileMap File size: 9122221 bytes
+
+03-01 15:06:17.672  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:17.672  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e258ee9, mDataLength: 10039 mDataOffset: 5783273
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #02 pc 000109cf  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD1Ev+18)
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #03 pc 000109ed  /system/lib/libandroidfw.so (_ZN7android16_CompressedAssetD0Ev+4)
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #04 pc 000138d1  /system/lib/libandroidfw.so (_ZN7android12AssetManager12addAssetPathERKNS_7String8EPi+176)
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #05 pc 00089d39  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.752  9738 10911 D ~FileMap: #06 pc 0001ba25  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.756  9738 10911 D filemap : FileMap File size: 9122221 bytes
+
+03-01 15:06:17.756  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:17.756  9738 10911 D filemap : FileMap mDataPtr: 0x95681238, mDataLength: 1042240 mDataOffset: 7983672
+
+03-01 15:06:17.812  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.812  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:17.812  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:17.812  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:17.812  9738 10911 D FileMap : #04 pc 0001331f  /system/lib/libandroidfw.so (_ZNK7android12AssetManager20appendPathToResTableERKNS0_10asset_pathEPj+174)
+
+03-01 15:06:17.812  9738 10911 D FileMap : #05 pc 000137c3  /system/lib/libandroidfw.so (_ZNK7android12AssetManager11getResTableEb+98)
+
+03-01 15:06:17.812  9738 10911 D FileMap : #06 pc 00089761  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.812  9738 10911 D FileMap : #07 pc 0001c581  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.840  9738 10911 D filemap : FileMap File size: 9122221 bytes
+
+03-01 15:06:17.840  9738 10911 D filemap : FileMap mmap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:17.840  9738 10911 D filemap : FileMap mDataPtr: 0x9e258ee9, mDataLength: 10039 mDataOffset: 5783273
+
+03-01 15:06:17.885  9738 10911 D FileMap : #00 pc 0000d119  /system/lib/libutils.so (_ZN7android7FileMap6createEPKcixjb+340)
+
+03-01 15:06:17.885  9738 10911 D FileMap : #01 pc 0001c049  /system/lib/libandroidfw.so (_ZNK7android9ZipFileRO18createEntryFileMapEPv+60)
+
+03-01 15:06:17.885  9738 10911 D FileMap : #02 pc 000116b7  /system/lib/libandroidfw.so (_ZN7android12AssetManager22openAssetFromZipLockedEPKNS_9ZipFileROEPvNS_5Asset10AccessModeERKNS_7String8E+54)
+
+03-01 15:06:17.885  9738 10911 D FileMap : #03 pc 00012649  /system/lib/libandroidfw.so (_ZN7android12AssetManager24openNonAssetInPathLockedEPKcNS_5Asset10AccessModeERKNS0_10asset_pathE+140)
+
+03-01 15:06:17.885  9738 10911 D FileMap : #04 pc 00012915  /system/lib/libandroidfw.so (_ZN7android12AssetManager12openNonAssetEiPKcNS_5Asset10AccessModeE+60)
+
+03-01 15:06:17.886  9738 10911 D FileMap : #05 pc 00089173  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.886  9738 10911 D FileMap : #06 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.892  9738 10911 D filemap : ~FileMap File size: 9122221 bytes
+
+03-01 15:06:17.892  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:17.892  9738 10911 D filemap : ~FileMap mDataPtr: 0x9e258ee9, mDataLength: 10039 mDataOffset: 5783273
+
+03-01 15:06:17.944  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:17.944  9738 10911 D ~FileMap: #01 pc 000106d3  /system/lib/libandroidfw.so (_ZN7android16_CompressedAsset5closeEv+20)
+
+03-01 15:06:17.944  9738 10911 D ~FileMap: #02 pc 000891d7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:17.944  9738 10911 D ~FileMap: #03 pc 009a0e8d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:17.971  9738 10911 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: com.htc.launcher.permission.READ_SETTINGS in package: com.kingroot.kinguser at: Binary XML file line #192
+
+03-01 15:06:17.991  9738 10911 W PackageParser: No actions in intent filter at /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk Binary XML file line #621
+
+03-01 15:06:18.007  9738 10911 D filemap : ~FileMap File size: 9122221 bytes
+
+03-01 15:06:18.007  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:18.010  9738 10911 D filemap : ~FileMap mDataPtr: 0x95681238, mDataLength: 1042240 mDataOffset: 7983672
+
+03-01 15:06:18.035 14472 14488 I art     : Background sticky concurrent mark sweep GC freed 294273(16MB) AllocSpace objects, 0(0B) LOS objects, 92% free, 1235KB/16MB, paused 306us total 114.090ms
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:18.086  9738 10911 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:18.090  9738 10911 D filemap : ~FileMap File size: 9122221 bytes
+
+03-01 15:06:18.090  9738 10911 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/KinguserV5.0.4B432.apk
+
+03-01 15:06:18.090  9738 10911 D filemap : ~FileMap mDataPtr: 0x9dd67978, mDataLength: 96287 mDataOffset: 9025912
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:18.167  9738 10911 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:18.302  9738  9747 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:18.302  9738  9747 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:18.302  9738  9747 D filemap : ~FileMap mDataPtr: 0x9a529710, mDataLength: 206184 mDataOffset: 6403856
+
+03-01 15:06:18.320  9738  9749 I art     : Background sticky concurrent mark sweep GC freed 293180(14MB) AllocSpace objects, 0(0B) LOS objects, 39% free, 22MB/36MB, paused 2.337ms total 156.113ms
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #01 pc 000105d3  /system/lib/libandroidfw.so (_ZN7android10_FileAsset5closeEv+10)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #02 pc 00010997  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD1Ev+14)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #03 pc 000109ad  /system/lib/libandroidfw.so (_ZN7android10_FileAssetD0Ev+4)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #04 pc 00011213  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+38)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #05 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #06 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #07 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #08 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #09 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #10 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #11 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:18.343  9738  9747 D ~FileMap: #12 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:18.356  9738  9747 D filemap : ~FileMap File size: 6667709 bytes
+
+03-01 15:06:18.356  9738  9747 D filemap : ~FileMap ummap /storage/emulated/0/kinguserdown/kmPlugins.apk
+
+03-01 15:06:18.356  9738  9747 D filemap : ~FileMap mDataPtr: 0x9de49c78, mDataLength: 57647 mDataOffset: 6610040
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #00 pc 0000cf63  /system/lib/libutils.so (_ZN7android7FileMapD1Ev+146)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #01 pc 0001ea5f  /system/lib/libandroidfw.so (CloseArchive+30)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #02 pc 0001bde5  /system/lib/libandroidfw.so (_ZN7android9ZipFileROD2Ev+6)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #03 pc 0001121b  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD1Ev+46)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #04 pc 00011249  /system/lib/libandroidfw.so (_ZN7android12AssetManager9SharedZipD0Ev+4)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #05 pc 0000e8cf  /system/lib/libutils.so (_ZNK7android7RefBase9decStrongEPKv+50)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #06 pc 00011a59  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSet8closeZipEi+16)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #07 pc 00011a73  /system/lib/libandroidfw.so (_ZN7android12AssetManager6ZipSetD1Ev+16)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #08 pc 00011aeb  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD1Ev+94)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #09 pc 00011b05  /system/lib/libandroidfw.so (_ZN7android12AssetManagerD0Ev+4)
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #10 pc 000888c7  /system/lib/libandroid_runtime.so
+
+03-01 15:06:18.413  9738  9747 D ~FileMap: #11 pc 0000036f  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x244a000)
+
+03-01 15:06:18.640   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:19.641   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:20.355  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:20.371  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:20.642   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:21.643   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:21.786  1973  1973 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-01 15:06:21.792  3579 10810 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-01 15:06:21.792  3579  3579 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-01 15:06:21.793  3579  3579 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-01 15:06:21.807  3840  3840 I PowerSaveService: Update connected notification, charging true
+
+03-01 15:06:21.926 14472 14489 V MiuiFeatureUtils: Loaded and parsed feature configure file successfully
+
+03-01 15:06:21.926 14472 14489 W MiuiFeatureUtils: Failed to get system feature DumpBitmapInfo
+
+03-01 15:06:21.977  1973  1973 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-01 15:06:21.983  3579 13948 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-01 15:06:21.983  3840  3840 I PowerSaveService: Update connected notification, charging true
+
+03-01 15:06:21.983  3579  3579 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-01 15:06:21.984  3579  3579 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-01 15:06:22.084  3579  3618 I art     : Background sticky concurrent mark sweep GC freed 265351(12MB) AllocSpace objects, 157(13MB) LOS objects, 25% free, 74MB/100MB, paused 3.174ms total 258.490ms
+
+03-01 15:06:22.467 14537 14579 W System.err: 无法访问或网络不稳定
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-01 15:06:22.467 14537 14579 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-01 15:06:22.467 14537 14579 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-01 15:06:22.468 14537 14579 W System.err: 	... 9 more
+
+03-01 15:06:22.644   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:22.913  9738  9738 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@3b10337
+
+03-01 15:06:22.913  9738  9738 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@4e350a4
+
+03-01 15:06:22.935  1973  1973 V NotificationService: pkg=com.wandoujia.phoenix2 canInterrupt=true intercept=true
+
+03-01 15:06:22.938  3579 20443 D StatusBar: onNotificationPosted:  Key: 0|com.wandoujia.phoenix2|4096|null|10119 GroupKey: 0|com.wandoujia.phoenix2|4096|null|10119 Connected: true
+
+03-01 15:06:22.938  3579  3579 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-01 15:06:22.938  3579  3579 D PhoneStatusBar: updateNotification pkg=com.wandoujia.phoenix2;id=4096
+
+03-01 15:06:23.158   367   475 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-01 15:06:23.160   367   502 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-01 15:06:23.160   367   502 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 2 at 55.0 degC
+
+03-01 15:06:23.379  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:23.396  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:23.645   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:24.179 14472 14488 I art     : Background sticky concurrent mark sweep GC freed 293819(16MB) AllocSpace objects, 1(20KB) LOS objects, 94% free, 885KB/16MB, paused 745us total 119.631ms
+
+03-01 15:06:24.646   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:24.762 30103 30103 W AppWatcher: type=1400 audit(0.0:4181899): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534761 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-01 15:06:24.782 30103 30103 W AppWatcher: type=1400 audit(0.0:4181900): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534600 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-01 15:06:24.792 30103 30103 W AppWatcher: type=1400 audit(0.0:4181901): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-01 15:06:24.802 30103 30103 W AppWatcher: type=1400 audit(0.0:4181902): avc: denied { getattr } for path="/proc/1" dev="proc" ino=15821234 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-01 15:06:24.802 30103 30103 W AppWatcher: type=1400 audit(0.0:4181903): avc: denied { getattr } for path="/proc/2" dev="proc" ino=15821235 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.802 30103 30103 W AppWatcher: type=1400 audit(0.0:4181904): avc: denied { getattr } for path="/proc/3" dev="proc" ino=15821236 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.802 30103 30103 W AppWatcher: type=1400 audit(0.0:4181905): avc: denied { getattr } for path="/proc/6" dev="proc" ino=15821237 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.812 30103 30103 W AppWatcher: type=1400 audit(0.0:4181906): avc: denied { getattr } for path="/proc/7" dev="proc" ino=15821238 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.812 30103 30103 W AppWatcher: type=1400 audit(0.0:4181907): avc: denied { getattr } for path="/proc/8" dev="proc" ino=15821239 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.812 30103 30103 W AppWatcher: type=1400 audit(0.0:4181908): avc: denied { getattr } for path="/proc/21" dev="proc" ino=15821240 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.822 30103 30103 W AppWatcher: type=1400 audit(0.0:4181909): avc: denied { getattr } for path="/proc/22" dev="proc" ino=15821241 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.822 30103 30103 W AppWatcher: type=1400 audit(0.0:4181910): avc: denied { getattr } for path="/proc/28" dev="proc" ino=15821242 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.822 30103 30103 W AppWatcher: type=1400 audit(0.0:4181911): avc: denied { getattr } for path="/proc/29" dev="proc" ino=15821243 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.832 30103 30103 W AppWatcher: type=1400 audit(0.0:4181912): avc: denied { getattr } for path="/proc/30" dev="proc" ino=15821244 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.842 30103 30103 W AppWatcher: type=1400 audit(0.0:4181913): avc: denied { getattr } for path="/proc/32" dev="proc" ino=15821245 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.852 30103 30103 W AppWatcher: type=1400 audit(0.0:4181914): avc: denied { getattr } for path="/proc/33" dev="proc" ino=15821246 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.862 30103 30103 W AppWatcher: type=1400 audit(0.0:4181915): avc: denied { getattr } for path="/proc/34" dev="proc" ino=15821247 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.862 30103 30103 W AppWatcher: type=1400 audit(0.0:4181916): avc: denied { getattr } for path="/proc/61" dev="proc" ino=15821248 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.872 30103 30103 W AppWatcher: type=1400 audit(0.0:4181917): avc: denied { getattr } for path="/proc/62" dev="proc" ino=15821249 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.882 30103 30103 W AppWatcher: type=1400 audit(0.0:4181918): avc: denied { getattr } for path="/proc/63" dev="proc" ino=15821250 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.892 30103 30103 W AppWatcher: type=1400 audit(0.0:4181919): avc: denied { getattr } for path="/proc/64" dev="proc" ino=15821251 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.902 30103 30103 W AppWatcher: type=1400 audit(0.0:4181920): avc: denied { getattr } for path="/proc/65" dev="proc" ino=15821252 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.912 30103 30103 W AppWatcher: type=1400 audit(0.0:4181921): avc: denied { getattr } for path="/proc/66" dev="proc" ino=15821253 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.922 30103 30103 W AppWatcher: type=1400 audit(0.0:4181922): avc: denied { getattr } for path="/proc/67" dev="proc" ino=15821254 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.932 30103 30103 W AppWatcher: type=1400 audit(0.0:4181923): avc: denied { getattr } for path="/proc/68" dev="proc" ino=15821255 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.932 30103 30103 W AppWatcher: type=1400 audit(0.0:4181924): avc: denied { getattr } for path="/proc/69" dev="proc" ino=15821256 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.942 30103 30103 W AppWatcher: type=1400 audit(0.0:4181925): avc: denied { getattr } for path="/proc/70" dev="proc" ino=15821257 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.942 30103 30103 W AppWatcher: type=1400 audit(0.0:4181926): avc: denied { getattr } for path="/proc/71" dev="proc" ino=15821258 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.952 30103 30103 W AppWatcher: type=1400 audit(0.0:4181927): avc: denied { getattr } for path="/proc/72" dev="proc" ino=15821259 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.952 30103 30103 W AppWatcher: type=1400 audit(0.0:4181928): avc: denied { getattr } for path="/proc/73" dev="proc" ino=15821260 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.962 30103 30103 W AppWatcher: type=1400 audit(0.0:4181929): avc: denied { getattr } for path="/proc/74" dev="proc" ino=15821261 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.962 30103 30103 W AppWatcher: type=1400 audit(0.0:4181930): avc: denied { getattr } for path="/proc/75" dev="proc" ino=15821262 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.962 30103 30103 W AppWatcher: type=1400 audit(0.0:4181931): avc: denied { getattr } for path="/proc/76" dev="proc" ino=15821263 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:24.962 30103 30103 W AppWatcher: type=1400 audit(0.0:4181932): avc: denied { getattr } for path="/proc/77" dev="proc" ino=15821264 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:25.314 21418 21613 D MSF.C.NetConnTag: pa ok: 110520
+
+03-01 15:06:25.318 21418 21613 D MSF.C.NetConnTag: netSend ssoSeq:110520 uin:*2908 cmd:346110978 110603
+
+03-01 15:06:25.330 21418 27077 D MSF.C.NetConnTag: netRecv ssoSeq:110520 uin:*2908 cmd:346110978 110631
+
+03-01 15:06:25.374  3834  3906 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 3873 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1488351960184 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:5720}
+
+03-01 15:06:25.648   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:26.405  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:26.420  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:26.615  3765  4095 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-01 15:06:26.650   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:27.580 14537 14609 D UTAnalytics:CommitTask: pid:14537 check&commit event:65501,
+
+03-01 15:06:27.580 14537 14612 D UTAnalytics:CommitTask: pid:14537 check&commit event:65502,
+
+03-01 15:06:27.581 14537 14612 D UTAnalytics:CommitTask: pid:14537 next:65502,
+
+03-01 15:06:27.581 14537 14612 D UTAnalytics:CommitTask: pid:14537 check&commit event:65503,
+
+03-01 15:06:27.581 14537 14612 D UTAnalytics:CommitTask: pid:14537 next:65503,
+
+03-01 15:06:27.583 14537 14612 D UTAnalytics:UTUtil: pid:14537 upload without flowback. args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":3,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-01 15:06:27.583 14537 14612 D UTAnalytics:null: pid:14537 [sendToUT]: args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":3,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-01 15:06:27.583 14537 14612 D UTAnalytics:UTDC: pid:14537 [commit] page:eventId:65502,arg1:feedback,arg2:getUnreadCountSuccess,arg3:args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":3,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-01 15:06:27.599 14537 14609 D UTAnalytics:CommitTask: pid:14537 next:65501,
+
+03-01 15:06:27.618 14537 14612 D UTAnalytics:UTLog: pid:14537 Log [id=0, eventId=65502, index=],867451020054497||WKpkMP7KOi6CXaZlICoMRw==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.2.0.301||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488351962534||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488351987583||-||65502||feedback||getUnreadCountSuccess||-||counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":3,"value":0}]},
+
+03-01 15:06:27.618 14537 14612 D UTAnalytics:LogStoreMgr: pid:14537 [add] :,
+
+03-01 15:06:27.651   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:28.653   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:29.190 19772  8172 D UTAnalytics:CleanTask: pid:19772 clean TimeoutEvent,
+
+03-01 15:06:29.425  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:29.439  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:29.654   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:30.279   367   475 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-01 15:06:30.281   367   502 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-01 15:06:30.281   367   502 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-01 15:06:30.655   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:30.882  3840  3840 I PowerSaveService: Update connected notification, charging true
+
+03-01 15:06:30.885  1973  1973 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-01 15:06:30.894  3579  3619 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-01 15:06:30.896  3579  3579 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-01 15:06:30.897  3579  3579 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-01 15:06:31.405 19772  8029 D UTAnalytics:LogStoreMgr: pid:19772 [store],
+
+03-01 15:06:31.417 19772  8029 D UTAnalytics:UTSqliteLogStore: pid:19772 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 350,
+
+03-01 15:06:31.421 19772  8029 D UTAnalytics:LogStoreMgr: pid:19772 [get],[],
+
+03-01 15:06:31.426 19772  8029 D UTAnalytics:UploadEngine: pid:19772 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-01 15:06:31.429 19772  8029 D UTAnalytics:UploadTask: pid:19772 mPeriod:30000,
+
+03-01 15:06:31.576 14537 14609 D UTAnalytics:LogStoreMgr: pid:14537 [store],
+
+03-01 15:06:31.592 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 [insert] ,, isSuccess:true,ret,8072,
+
+03-01 15:06:31.627 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 20,
+
+03-01 15:06:31.634 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 pos,0,count,3,
+
+03-01 15:06:31.634 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 pos,1,count,3,
+
+03-01 15:06:31.640 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 pos,2,count,3,
+
+03-01 15:06:31.644 14537 14609 D UTAnalytics:LogStoreMgr: pid:14537 [get],[Log [id=8070, eventId=19999, index=], Log [id=8071, eventId=2001, index=], Log [id=8072, eventId=65502, index=]],
+
+03-01 15:06:31.653 14537 14609 D UTAnalytics:UploadTask: pid:14537 averagePackageSize:266.33334,
+
+03-01 15:06:31.656   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:31.671 14537 14588 D NAT     : SYMMETRIC_NAT
+
+03-01 15:06:31.673 14537 14588 D NAT     : call void method before
+
+03-01 15:06:31.673 14537 14588 D NAT     : call void method after
+
+03-01 15:06:31.883   367   475 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-01 15:06:31.884   367   502 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-01 15:06:31.884   367   502 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm raised 1 at 55.0 degC
+
+03-01 15:06:31.938 14537 14609 W System.err: java.lang.reflect.InvocationTargetException
+
+03-01 15:06:31.938 14537 14609 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+03-01 15:06:31.938 14537 14609 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+03-01 15:06:31.938 14537 14609 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+03-01 15:06:31.938 14537 14609 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+03-01 15:06:31.938 14537 14609 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+03-01 15:06:31.938 14537 14609 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-01 15:06:31.939 14537 14609 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+03-01 15:06:31.939 14537 14609 W System.err: 	... 11 more
+
+03-01 15:06:31.962  3765  4095 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-01 15:06:32.042 14537 14609 D UTAnalytics:UploadTask: pid:14537 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.2.0.301&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1488351991691&u=&is=1&k=0,
+
+03-01 15:06:32.043 14537 14609 D UTAnalytics:UploadTask: pid:14537 result:{"t":1488351991138,"ret":"","success":"success"}
+
+03-01 15:06:32.043 14537 14609 D UTAnalytics:UploadTask: ,
+
+03-01 15:06:32.043 14537 14609 D UTAnalytics:UploadTask: pid:14537 winsize:347,
+
+03-01 15:06:32.043 14537 14609 D UTAnalytics:LogStoreMgr: pid:14537 [Log [id=8070, eventId=19999, index=], Log [id=8071, eventId=2001, index=], Log [id=8072, eventId=65502, index=]],
+
+03-01 15:06:32.069 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 delete ,3, isSuccess:true,
+
+03-01 15:06:32.069 14537 14609 D UTAnalytics:CoreStatics: pid:14537 [uploadInc]:0,count:3,
+
+03-01 15:06:32.069 14537 14609 D UTAnalytics:CoreStatics: pid:14537 [uploadInc]:3,
+
+03-01 15:06:32.069 14537 14609 D UTAnalytics:UploadTask: pid:14537 logs.size():3, selfMonitorLogCount:0,
+
+03-01 15:06:32.069 14537 14609 D UTAnalytics:UploadTask: pid:14537 upload isSendSuccess:true, consume:389, delete consume:26,
+
+03-01 15:06:32.445  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:32.451  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:32.628 14537 14612 D UTAnalytics:LogStoreMgr: pid:14537 [store],
+
+03-01 15:06:32.657   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:33.163  1973  3476 D WifiStateMachine: starting scan for "18.1_neiwang"-WPA_PSK with 5745,2422
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2422'
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d9398
+
+03-01 15:06:33.164  4135  4135 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-01 15:06:33.165  4135  4135 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d9398 after 0.000078 second wait
+
+03-01 15:06:33.165  4135  4135 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-01 15:06:33.165  4135  4135 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-01 15:06:33.165  4135  4135 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-01 15:06:33.165  4135  4135 D wpa_supplicant: nl80211: Scan frequency 2422 MHz
+
+03-01 15:06:33.165  4135  4135 D wpa_supplicant: nl80211: Scan frequency 5745 MHz
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: nl80211: Event message available
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000243 seconds
+
+03-01 15:06:33.186  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-01 15:06:33.189  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:33.306  4135  4135 D wpa_supplicant: nl80211: Event message available
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: nl80211: Scan included frequencies: 2422 5745
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: wlan0: Scan completed in 0.120328 seconds
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: nl80211: Received scan results (31 BSSes)
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-01 15:06:33.307  4135  4135 D wpa_supplicant: wlan0: BSS: Start scan result update 7069
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: wlan0: BSS: Add new id 20660 BSSID cc:81:da:8d:29:08 SSID '50.1-qian'
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: wlan0: BSS: Add new id 20661 BSSID d0:ee:07:3f:27:1c SSID 'zhanting_5G'
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=44
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: BSS: last_scan_res_used=31/128
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: wlan0: Scan-only results received
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1973-2\x00
+
+03-01 15:06:33.308  4135  4135 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 0.143851 seconds
+
+03-01 15:06:33.329  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3544
+
+03-01 15:06:33.329  4135  4135 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-01 15:06:33.336  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4071
+
+03-01 15:06:33.341  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4003
+
+03-01 15:06:33.346  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3795
+
+03-01 15:06:33.350  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4094
+
+03-01 15:06:33.355  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4035
+
+03-01 15:06:33.359  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=2830
+
+03-01 15:06:33.460  4135  4135 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-01 15:06:33.460  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-01 15:06:33.658   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:34.660   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:35.132 30103 30103 W AppWatcher: type=1400 audit(0.0:4182185): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534761 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-01 15:06:35.142 30103 30103 W AppWatcher: type=1400 audit(0.0:4182186): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534600 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-01 15:06:35.142 30103 30103 W AppWatcher: type=1400 audit(0.0:4182187): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-01 15:06:35.142 30103 30103 W AppWatcher: type=1400 audit(0.0:4182188): avc: denied { getattr } for path="/proc/1" dev="proc" ino=15821234 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-01 15:06:35.152 30103 30103 W AppWatcher: type=1400 audit(0.0:4182189): avc: denied { getattr } for path="/proc/2" dev="proc" ino=15821235 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.152 30103 30103 W AppWatcher: type=1400 audit(0.0:4182190): avc: denied { getattr } for path="/proc/3" dev="proc" ino=15821236 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.152 30103 30103 W AppWatcher: type=1400 audit(0.0:4182191): avc: denied { getattr } for path="/proc/6" dev="proc" ino=15821237 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.152 30103 30103 W AppWatcher: type=1400 audit(0.0:4182192): avc: denied { getattr } for path="/proc/7" dev="proc" ino=15821238 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.162 30103 30103 W AppWatcher: type=1400 audit(0.0:4182193): avc: denied { getattr } for path="/proc/8" dev="proc" ino=15821239 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.162 30103 30103 W AppWatcher: type=1400 audit(0.0:4182194): avc: denied { getattr } for path="/proc/21" dev="proc" ino=15821240 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182195): avc: denied { getattr } for path="/proc/22" dev="proc" ino=15821241 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182196): avc: denied { getattr } for path="/proc/28" dev="proc" ino=15821242 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182197): avc: denied { getattr } for path="/proc/29" dev="proc" ino=15821243 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182198): avc: denied { getattr } for path="/proc/30" dev="proc" ino=15821244 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182199): avc: denied { getattr } for path="/proc/32" dev="proc" ino=15821245 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182200): avc: denied { getattr } for path="/proc/33" dev="proc" ino=15821246 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182201): avc: denied { getattr } for path="/proc/34" dev="proc" ino=15821247 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182202): avc: denied { getattr } for path="/proc/61" dev="proc" ino=15821248 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182203): avc: denied { getattr } for path="/proc/62" dev="proc" ino=15821249 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.172 30103 30103 W AppWatcher: type=1400 audit(0.0:4182204): avc: denied { getattr } for path="/proc/63" dev="proc" ino=15821250 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:35.462  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:35.477  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:35.662   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:36.180 14537 14609 D UTAnalytics:LogStoreMgr: pid:14537 [store],
+
+03-01 15:06:36.211 14537 14609 D UTAnalytics:UTSqliteLogStore: pid:14537 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 347,
+
+03-01 15:06:36.213 14537 14609 D UTAnalytics:LogStoreMgr: pid:14537 [get],[],
+
+03-01 15:06:36.234 14537 14609 D UTAnalytics:UploadEngine: pid:14537 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-01 15:06:36.238 14537 14609 D UTAnalytics:UploadTask: pid:14537 mPeriod:30000,
+
+03-01 15:06:36.663   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:37.483  5660  5869 D DatabaseTaskManager: Cleaned 0 long time unfinished task
+
+03-01 15:06:37.518  5660  5869 D DatabaseTaskManager: get 0 task to run
+
+03-01 15:06:37.664   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:38.043   367   475 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-01 15:06:38.043   367   502 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-01 15:06:38.043   367   502 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-01 15:06:38.482  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:38.486  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:38.644 19772  8172 D UTAnalytics:CommitTask: pid:19772 check&commit event:65501,
+
+03-01 15:06:38.650 19772  8029 D UTAnalytics:CommitTask: pid:19772 check&commit event:65502,
+
+03-01 15:06:38.650 19772  8029 D UTAnalytics:CommitTask: pid:19772 next:65502,
+
+03-01 15:06:38.651 19772  8172 D UTAnalytics:CommitTask: pid:19772 next:65501,
+
+03-01 15:06:38.665   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:38.770 19772  8029 D UTAnalytics:CommitTask: pid:19772 check&commit event:65503,
+
+03-01 15:06:38.770 19772  8029 D UTAnalytics:CommitTask: pid:19772 next:65503,
+
+03-01 15:06:39.666   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:40.504  4218  6612 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-01 15:06:40.504  4218  6612 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10098
+
+03-01 15:06:40.507  4218  6612 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10098 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-01 15:06:40.522  4218  6612 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-01 15:06:40.523  4218  6612 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10098
+
+03-01 15:06:40.523  4218  6612 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10098 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-01 15:06:40.667   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:40.906  3765  4095 I XiaomiFirewall: firewall pkgName:com.qihoo.permmgr, result:0x0
+
+03-01 15:06:41.494  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:41.510  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:41.669   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:42.670   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:43.671   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:44.522  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:44.540  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:44.672   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:45.352 30103 30103 W AppWatcher: type=1400 audit(0.0:4182477): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534761 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-01 15:06:45.352 30103 30103 W AppWatcher: type=1400 audit(0.0:4182478): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534600 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-01 15:06:45.362 30103 30103 W AppWatcher: type=1400 audit(0.0:4182479): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-01 15:06:45.372 30103 30103 W AppWatcher: type=1400 audit(0.0:4182480): avc: denied { getattr } for path="/proc/1" dev="proc" ino=15821234 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-01 15:06:45.382 30103 30103 W AppWatcher: type=1400 audit(0.0:4182481): avc: denied { getattr } for path="/proc/2" dev="proc" ino=15821235 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.382 30103 30103 W AppWatcher: type=1400 audit(0.0:4182482): avc: denied { getattr } for path="/proc/3" dev="proc" ino=15821236 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.382 30103 30103 W AppWatcher: type=1400 audit(0.0:4182483): avc: denied { getattr } for path="/proc/6" dev="proc" ino=15821237 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.392 30103 30103 W AppWatcher: type=1400 audit(0.0:4182484): avc: denied { getattr } for path="/proc/7" dev="proc" ino=15821238 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.392 30103 30103 W AppWatcher: type=1400 audit(0.0:4182485): avc: denied { getattr } for path="/proc/8" dev="proc" ino=15821239 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.392 30103 30103 W AppWatcher: type=1400 audit(0.0:4182486): avc: denied { getattr } for path="/proc/21" dev="proc" ino=15821240 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.402 30103 30103 W AppWatcher: type=1400 audit(0.0:4182487): avc: denied { getattr } for path="/proc/22" dev="proc" ino=15821241 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.402 30103 30103 W AppWatcher: type=1400 audit(0.0:4182488): avc: denied { getattr } for path="/proc/28" dev="proc" ino=15821242 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.412 30103 30103 W AppWatcher: type=1400 audit(0.0:4182489): avc: denied { getattr } for path="/proc/29" dev="proc" ino=15821243 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.412 30103 30103 W AppWatcher: type=1400 audit(0.0:4182490): avc: denied { getattr } for path="/proc/30" dev="proc" ino=15821244 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.412 30103 30103 W AppWatcher: type=1400 audit(0.0:4182491): avc: denied { getattr } for path="/proc/32" dev="proc" ino=15821245 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.412 30103 30103 W AppWatcher: type=1400 audit(0.0:4182492): avc: denied { getattr } for path="/proc/33" dev="proc" ino=15821246 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.422 30103 30103 W AppWatcher: type=1400 audit(0.0:4182493): avc: denied { getattr } for path="/proc/34" dev="proc" ino=15821247 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.422 30103 30103 W AppWatcher: type=1400 audit(0.0:4182494): avc: denied { getattr } for path="/proc/61" dev="proc" ino=15821248 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.432 30103 30103 W AppWatcher: type=1400 audit(0.0:4182495): avc: denied { getattr } for path="/proc/62" dev="proc" ino=15821249 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.432 30103 30103 W AppWatcher: type=1400 audit(0.0:4182496): avc: denied { getattr } for path="/proc/63" dev="proc" ino=15821250 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-01 15:06:45.673   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:46.674   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:47.449 14472 14488 I art     : Background concurrent mark sweep GC freed 298169(16MB) AllocSpace objects, 0(0B) LOS objects, 95% free, 683KB/16MB, paused 1.519ms total 108.215ms
+
+03-01 15:06:47.550  4135  4135 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-01 15:06:47.564  4135  4135 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-01 15:06:47.675   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:48.676   367   490 I ThermalEngine: Sensor:batt_temp:380 mC
+
+03-01 15:06:49.678   367   490 I ThermalEngine: Sensor:batt_temp:380 mC

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="智家365" preserve-order="true">
+    <listeners>
+        <listener class-name="com.oribo.testRetry.Retrylistener" />
+    </listeners>
+	<test name="init" preserve-order="true">
+	    <parameter name="port" value="4723" />
+		<parameter name="udid" value="492c754e" />
+		<parameter name="phone" value="xiaomi" />
+		<parameter name="platformVersion" value="6.0.1" />
+		<parameter name="apk" value="HomeMate 2.2.0.201.apk" />
+		<parameter name="testaccount" value="840432908@qq.com" />
+		<parameter name="testpassword" value="123456" />
+		<parameter name="reportreceiver" value="penghong@orvibo.com" />
+        <groups>
+		    <define name="ALL">
+		      <include name="我的主机"/>
+		      <include name="我的"/>
+		    </define>
+		    <run>
+		        <include name="我的"/>
+		    </run>
+		</groups>
+		<classes>
+			<class name="com.oribo.android365.testcase.StartAppiumTest" />
+			<class name="com.oribo.android365.testcase.Personcenter" />
+
+			<!--<class name="com.oribo.android365.testcase.MyHost" />  --> 
+		</classes>
+	</test>
+	
+
+</suite>

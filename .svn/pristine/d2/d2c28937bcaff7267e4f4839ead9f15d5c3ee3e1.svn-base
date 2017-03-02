@@ -1,0 +1,3 @@
+<h2>Groups used for this test run</h2><table border="1">
+<tr> <td align="center"><b>Group name</b></td><td align="center"><b>Methods</b></td></tr><tr><td>ÎÒµÄ</td><td>StartAppiumTest.test()[pri:0, instance:com.oribo.android365.testcase.StartAppiumTest@22a67b4]<br/>Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@1efed156]<br/>Personcenter.CheckDeleteHost()[pri:6, instance:com.oribo.android365.testcase.Personcenter@1efed156]<br/></td></tr>
+</table>

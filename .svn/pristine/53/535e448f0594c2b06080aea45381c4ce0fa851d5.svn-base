@@ -1,0 +1,97 @@
+package com.oribo.android365.testcase;
+
+import org.testng.annotations.AfterTest;
+
+import com.oribo.common.FindEelement;
+import com.oribo.common.TestcaseFrame;
+import com.oribo.android365.automationtest.personcenter.personinfo.Authorized;
+import com.oribo.android365.automationtest.personcenter.personinfo.BindAccountTest;
+import com.oribo.android365.automationtest.personcenter.personinfo.ChangepwTest;
+import com.oribo.android365.automationtest.personcenter.personinfo.CheckAccount;
+import com.oribo.android365.automationtest.personcenter.personinfo.NickNameTest;
+import com.oribo.android365.automationtest.personcenter.personinfo.PhotoTest;
+import com.oribo.common.CommonButton;
+import com.oribo.common.Driver;
+
+/**
+ * 检查个人信息界面各个按扭的跳转
+ * @author test1
+ *
+ */
+public class UserActivityTestCase extends TestcaseFrame{
+	public  void testStart(){
+		gotoChagepw();
+
+	}
+	
+	
+	/**
+	 * 跳转到照相页面
+	 */
+	public  void gotoPhoto(){
+		FindEelement.findByIdClick("com.orvibo.homemate:id/userPicRelativeLayout");
+		PhotoTest   test =  new PhotoTest();
+		test.cancelBtn();
+	}
+
+	/**
+	 * 去到昵称的页面
+	 */
+	public boolean gotoNickname(){
+		FindEelement.findByIdClick("com.orvibo.homemate:id/userNicknameRelativeLayout");
+		//CommonButton.backButton();
+		newSleep(2);
+		NickNameTest  test = new NickNameTest();
+		//test.testStart();
+		return true;
+
+	}
+
+	/**
+	 * 查看账号显示页面
+	 */
+	public boolean gotoBindPhone(){
+		FindEelement.findByIdClick("com.orvibo.homemate:id/userPhoneRelativeLayout");
+		//CommonButton.backButton();
+		CheckAccount  test = new CheckAccount();
+		test.testStart();
+		return true;
+
+	}
+	
+
+	/**
+	 * 去到绑定账号页面
+	 */
+	public boolean gotoBindEmail(){
+		FindEelement.findByIdClick("com.orvibo.homemate:id/userEmailRelativeLayout");
+		//CommonButton.backButton();
+		BindAccountTest  test =  new BindAccountTest();
+		test.testStart();
+		return true;
+	}
+
+	/**
+	 * ȥ����Ȩҳ��
+	 */
+	public void gotoAuthorized(){
+		FindEelement.findByIdClick("com.orvibo.homemate:id/userThirdRelativeLayout");
+		Authorized   test =  new Authorized();
+		test.testStart();
+		//CommonButton.backButton();
+	}
+
+	/**
+	 * 修改密码界面
+	 */
+	public void gotoChagepw(){
+		FindEelement.findByIdClick("com.orvibo.homemate:id/userPasswordChangeRelativeLayout");
+		ChangepwTest  test = new ChangepwTest();
+		test.testStart();
+		//CommonButton.backButton();
+	}
+	
+
+	
+
+}
