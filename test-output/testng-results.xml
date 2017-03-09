@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="19" total="20" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2017-03-02 11:23:12 : [STEP] [点击'我的'] ]]>
+      <![CDATA[2017-03-09 15:59:08 : [INFO] groups:1]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:12 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+      <![CDATA[2017-03-09 15:59:09 : [STEP] [点击我的] ]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:13 : [STEP] [点击'我的'] ]]>
+      <![CDATA[2017-03-09 15:59:09 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:13 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]]]>
+      <![CDATA[2017-03-09 15:59:10 : [STEP] [点击提醒 设置] ]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
+      <![CDATA[2017-03-09 15:59:10 : [INFO] [点击 -> -android uiautomator: text("提醒设置")]]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
+      <![CDATA[2017-03-09 15:59:12 : [INFO] WIFI设备数为:0]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
+      <![CDATA[2017-03-09 15:59:32 : [INFO] 灯设备数为:0]]>
     </line>
     <line>
-      <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-02 11:23:15 : [INFO] **********]]>
+      <![CDATA[2017-03-09 15:59:53 : [INFO] **********]]>
     </line>
   </reporter-output>
-  <suite name="智家365" duration-ms="41806" started-at="2017-03-02T03:22:41Z" finished-at="2017-03-02T03:23:23Z">
+  <suite name="智家365" duration-ms="74070" started-at="2017-03-09T07:58:45Z" finished-at="2017-03-09T07:59:59Z">
     <groups>
+      <group name="提醒设置">
+        <method signature="HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]" name="remindersettings" class="com.oribo.android365.testcase.HomeManage"/>
+      </group> <!-- 提醒设置 -->
     </groups>
-    <test name="init" duration-ms="41806" started-at="2017-03-02T03:22:41Z" finished-at="2017-03-02T03:23:23Z">
+    <test name="init" duration-ms="74070" started-at="2017-03-09T07:58:45Z" finished-at="2017-03-09T07:59:59Z">
       <class name="com.oribo.android365.testcase.HomeManage">
-        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.HomeManage@1f36e637]" name="init" is-config="true" duration-ms="10" started-at="2017-03-02T11:22:41Z" finished-at="2017-03-02T11:22:41Z">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]" name="init" is-config="true" duration-ms="9" started-at="2017-03-09T15:58:45Z" finished-at="2017-03-09T15:58:45Z">
           <params>
             <param index="0">
               <value>
@@ -80,42 +80,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.HomeManage@1f36e637]" name="beforeMethod" is-config="true" duration-ms="28134" started-at="2017-03-02T11:22:41Z" finished-at="2017-03-02T11:23:09Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]" name="beforeMethod" is-config="true" duration-ms="22841" started-at="2017-03-09T15:58:45Z" finished-at="2017-03-09T15:59:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkdefault()[pri:0, instance:com.oribo.android365.testcase.HomeManage@1f36e637]" name="checkdefault" duration-ms="6418" started-at="2017-03-02T11:23:09Z" finished-at="2017-03-02T11:23:15Z">
+        <test-method status="PASS" signature="remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]" name="remindersettings" duration-ms="45189" started-at="2017-03-09T15:59:08Z" finished-at="2017-03-09T15:59:53Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-03-02 11:23:12 : [STEP] [点击'我的'] ]]>
+              <![CDATA[2017-03-09 15:59:08 : [INFO] groups:1]]>
             </line>
             <line>
-              <![CDATA[2017-03-02 11:23:12 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+              <![CDATA[2017-03-09 15:59:09 : [STEP] [点击我的] ]]>
             </line>
             <line>
-              <![CDATA[2017-03-02 11:23:13 : [STEP] [点击'我的'] ]]>
+              <![CDATA[2017-03-09 15:59:09 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
             </line>
             <line>
-              <![CDATA[2017-03-02 11:23:13 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]]]>
+              <![CDATA[2017-03-09 15:59:10 : [STEP] [点击提醒 设置] ]]>
             </line>
             <line>
-              <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
+              <![CDATA[2017-03-09 15:59:10 : [INFO] [点击 -> -android uiautomator: text("提醒设置")]]]>
             </line>
             <line>
-              <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
+              <![CDATA[2017-03-09 15:59:12 : [INFO] WIFI设备数为:0]]>
             </line>
             <line>
-              <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-02 11:23:15 : [INFO] 读取第1张表]]>
+              <![CDATA[2017-03-09 15:59:32 : [INFO] 灯设备数为:0]]>
             </line>
           </reporter-output>
-        </test-method> <!-- checkdefault -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.HomeManage@1f36e637]" name="tearDown" is-config="true" duration-ms="7219" started-at="2017-03-02T11:23:15Z" finished-at="2017-03-02T11:23:23Z">
+        </test-method> <!-- remindersettings -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]" name="tearDown" is-config="true" duration-ms="6003" started-at="2017-03-09T15:59:53Z" finished-at="2017-03-09T15:59:59Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-03-02 11:23:15 : [INFO] **********]]>
+              <![CDATA[2017-03-09 15:59:53 : [INFO] **********]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->

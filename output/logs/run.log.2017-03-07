@@ -1,0 +1,616 @@
+2017-03-07 08:55:47 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:47 dev_log : [INFO] **********
+2017-03-07 08:55:47 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:47 dev_log : [INFO] **********
+2017-03-07 08:55:47 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:47 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : [INFO] **********
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:55:48 dev_log : Skipped, method:Personcenter.ClickMore()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 08:56:43 dev_log : Skipped, method:HomeManage.addhome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:56:43 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : Skipped, method:HomeManage.checkdefault()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:57:15 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : Skipped, method:HomeManage.checkfamilynumber()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:57:15 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : Skipped, method:HomeManage.edithome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:57:15 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : Skipped, method:HomeManage.familydetails()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:57:15 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : Skipped, method:HomeManage.memberoffamily()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:57:15 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : Skipped, method:HomeManage.sort()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 08:57:15 dev_log : [INFO] **********
+2017-03-07 08:57:15 dev_log : All Tests is finished
+2017-03-07 08:57:15 dev_log : PASSED:0
+2017-03-07 08:57:15 dev_log : FAILED:0
+2017-03-07 08:57:15 dev_log : SKIPPED:0
+2017-03-07 16:00:29 dev_log : Skipped, method:Personcenter.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:29 dev_log : [INFO] **********
+2017-03-07 16:00:29 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:29 dev_log : [INFO] **********
+2017-03-07 16:00:29 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:29 dev_log : [INFO] **********
+2017-03-07 16:00:29 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:29 dev_log : [INFO] **********
+2017-03-07 16:00:29 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : [INFO] **********
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.CheckDeleteHost()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.CheckMyHubBack()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.CheckMyHubFirmwareVersion()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.CheckMyHubIpAddress()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.CheckMyHubMac()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:00:30 dev_log : Skipped, method:Personcenter.ClickMore()[pri:0, instance:com.oribo.android365.testcase.Personcenter@49fc609f]
+2017-03-07 16:01:02 dev_log : Skipped, method:HomeManage.addhome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:01:02 dev_log : [INFO] **********
+2017-03-07 16:02:02 dev_log : Skipped, method:HomeManage.checkdefault()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:02:02 dev_log : [INFO] **********
+2017-03-07 16:03:12 dev_log : Skipped, method:HomeManage.checkfamilynumber()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:03:12 dev_log : [INFO] **********
+2017-03-07 16:04:23 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:04:23 dev_log : [INFO] **********
+2017-03-07 16:04:53 dev_log : Skipped, method:HomeManage.edithome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:04:53 dev_log : [INFO] **********
+2017-03-07 16:05:24 dev_log : Skipped, method:HomeManage.familydetails()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:05:24 dev_log : [INFO] **********
+2017-03-07 16:05:55 dev_log : Skipped, method:HomeManage.memberoffamily()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:05:55 dev_log : [INFO] **********
+2017-03-07 16:06:26 dev_log : Skipped, method:HomeManage.sort()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6321e813]
+2017-03-07 16:06:26 dev_log : [INFO] **********
+2017-03-07 16:06:34 dev_log : All Tests is finished
+2017-03-07 16:06:34 dev_log : PASSED:0
+2017-03-07 16:06:34 dev_log : FAILED:0
+2017-03-07 16:06:34 dev_log : SKIPPED:0
+2017-03-07 17:44:47 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 17:44:48 dev_log : [INFO] 添加楼层前的楼层数为:3
+2017-03-07 17:44:49 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:44:49 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:44:51 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:44:51 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:44:52 dev_log : [STEP] [点击添加楼层的按扭] 
+2017-03-07 17:44:52 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]
+2017-03-07 17:44:54 dev_log : [INFO] **********
+2017-03-07 17:45:25 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:45:25 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:45:26 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:45:26 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:45:27 dev_log : [STEP] [点击添加房间按扭] 
+2017-03-07 17:45:27 dev_log : [INFO] [点击 -> -android uiautomator: text("+添加房间")]
+2017-03-07 17:45:35 dev_log : [STEP] [点击保存按扭] 
+2017-03-07 17:45:35 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-07 17:45:38 dev_log : [INFO] **********
+2017-03-07 17:46:09 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:46:09 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:46:11 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:46:11 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:46:33 dev_log : [INFO] **********
+2017-03-07 17:47:03 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:47:03 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:47:05 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:47:05 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:47:26 dev_log : [INFO] **********
+2017-03-07 17:47:58 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:47:58 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:47:59 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:47:59 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:48:21 dev_log : [INFO] **********
+2017-03-07 17:48:52 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 17:48:53 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:48:53 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:48:54 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:48:54 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:48:56 dev_log : [STEP] [删除第01个家庭] 
+2017-03-07 17:48:56 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/delete_tv]
+2017-03-07 17:48:58 dev_log : [STEP] [提示框中点击确认删除] 
+2017-03-07 17:48:58 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/rightTextView]
+2017-03-07 17:49:14 dev_log : [INFO] 该房间没有楼层
+2017-03-07 17:49:14 dev_log : [INFO] **********
+2017-03-07 17:51:45 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 17:51:46 dev_log : [INFO] 添加楼层前的楼层数为:3
+2017-03-07 17:51:47 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:51:47 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:51:48 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:51:48 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:51:50 dev_log : [STEP] [点击添加楼层的按扭] 
+2017-03-07 17:51:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]
+2017-03-07 17:51:52 dev_log : [INFO] **********
+2017-03-07 17:52:22 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:52:22 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:52:24 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:52:24 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:52:25 dev_log : [STEP] [点击添加房间按扭] 
+2017-03-07 17:52:25 dev_log : [INFO] [点击 -> -android uiautomator: text("+添加房间")]
+2017-03-07 17:52:32 dev_log : [STEP] [点击保存按扭] 
+2017-03-07 17:52:32 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-07 17:52:54 dev_log : [INFO] 删除成功
+2017-03-07 17:52:54 dev_log : [INFO] **********
+2017-03-07 17:53:26 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:53:26 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:53:27 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:53:27 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:53:49 dev_log : [INFO] **********
+2017-03-07 17:54:21 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:54:21 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:54:22 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:54:22 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:54:44 dev_log : [INFO] **********
+2017-03-07 17:55:14 dev_log : [STEP] [点击'我的'] 
+2017-03-07 17:55:14 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 17:55:16 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 17:55:16 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 17:55:38 dev_log : [INFO] **********
+2017-03-07 18:01:40 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 18:01:41 dev_log : [INFO] 添加楼层前的楼层数为:2
+2017-03-07 18:01:42 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:01:42 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:01:43 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:01:43 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:01:45 dev_log : [STEP] [点击添加楼层的按扭] 
+2017-03-07 18:01:45 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]
+2017-03-07 18:01:46 dev_log : [INFO] **********
+2017-03-07 18:02:17 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:02:17 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:02:19 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:02:19 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:02:20 dev_log : [STEP] [点击添加房间按扭] 
+2017-03-07 18:02:20 dev_log : [INFO] [点击 -> -android uiautomator: text("+添加房间")]
+2017-03-07 18:02:27 dev_log : [STEP] [点击保存按扭] 
+2017-03-07 18:02:27 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-07 18:02:30 dev_log : [INFO] **********
+2017-03-07 18:03:02 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:03:02 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:03:03 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:03:03 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:03:05 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:03:05 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:03:06 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:03:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:03:07 dev_log : [INFO] **********
+2017-03-07 18:03:40 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:03:40 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:03:41 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:03:41 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:03:43 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:03:43 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:03:44 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:03:44 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:03:45 dev_log : [INFO] **********
+2017-03-07 18:04:17 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:04:17 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:04:18 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:04:18 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:04:19 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:04:19 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:04:21 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:04:21 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:04:22 dev_log : [INFO] **********
+2017-03-07 18:04:53 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 18:04:54 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:04:54 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:04:55 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:04:55 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:04:57 dev_log : [STEP] [删除第01个家庭] 
+2017-03-07 18:04:57 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/delete_tv]
+2017-03-07 18:04:58 dev_log : [STEP] [提示框中点击确认删除] 
+2017-03-07 18:04:58 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/rightTextView]
+2017-03-07 18:05:22 dev_log : [INFO] 删除成功
+2017-03-07 18:05:33 dev_log : [INFO] 该房间没有楼层
+2017-03-07 18:05:33 dev_log : [INFO] **********
+2017-03-07 18:42:14 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 18:42:14 dev_log : [INFO] 添加楼层前的楼层数为:2
+2017-03-07 18:42:16 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:42:16 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:42:17 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:42:17 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:42:18 dev_log : [STEP] [点击添加楼层的按扭] 
+2017-03-07 18:42:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]
+2017-03-07 18:42:20 dev_log : [INFO] **********
+2017-03-07 18:42:52 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:42:52 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:42:53 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:42:53 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:42:55 dev_log : [STEP] [点击添加房间按扭] 
+2017-03-07 18:42:55 dev_log : [INFO] [点击 -> -android uiautomator: text("+添加房间")]
+2017-03-07 18:43:03 dev_log : [STEP] [点击保存按扭] 
+2017-03-07 18:43:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-07 18:43:25 dev_log : [INFO] 删除成功
+2017-03-07 18:43:25 dev_log : [INFO] **********
+2017-03-07 18:43:56 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:43:56 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:43:58 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:43:58 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:43:59 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:43:59 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:44:01 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:44:01 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:44:02 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:44:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:44:24 dev_log : [INFO] **********
+2017-03-07 18:44:54 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:44:54 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:44:55 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:44:55 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:44:57 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:44:57 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:44:58 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:44:58 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:45:00 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:45:00 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:45:22 dev_log : [INFO] **********
+2017-03-07 18:45:52 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:45:52 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:45:54 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:45:54 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:45:55 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:45:55 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:45:56 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:45:56 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:45:58 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:45:58 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:46:19 dev_log : [INFO] **********
+2017-03-07 18:46:50 dev_log : [INFO] 当前家庭为:老家
+2017-03-07 18:46:51 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:46:51 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:46:52 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:46:52 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:46:55 dev_log : [STEP] [删除第01个家庭] 
+2017-03-07 18:46:55 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/delete_tv]
+2017-03-07 18:47:18 dev_log : [INFO] 删除成功
+2017-03-07 18:47:29 dev_log : [INFO] 该房间没有楼层
+2017-03-07 18:47:29 dev_log : [INFO] **********
+2017-03-07 18:51:35 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:51:35 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:51:37 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:51:37 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:51:38 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:51:38 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:51:40 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:51:40 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:51:41 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:51:41 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:52:03 dev_log : [INFO] **********
+2017-03-07 18:52:34 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:52:34 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:52:36 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:52:36 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:52:37 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:52:37 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:52:39 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:52:39 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:52:40 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:52:40 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:53:02 dev_log : [INFO] **********
+2017-03-07 18:53:35 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:53:35 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:53:36 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:53:36 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:53:37 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:53:37 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:53:39 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:53:39 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:53:40 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:53:40 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:54:02 dev_log : [INFO] **********
+2017-03-07 18:54:45 dev_log : [INFO] groups:1
+2017-03-07 18:54:46 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:54:46 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:54:47 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:54:47 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:54:49 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:54:49 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:54:50 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:54:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:54:52 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:54:52 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:54:53 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 18:54:53 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 18:55:02 dev_log : [INFO] 已截图,图片名称为:9mj.png
+2017-03-07 18:55:02 dev_log : [INFO] 读取文件异常
+2017-03-07 18:55:02 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e]
+2017-03-07 18:55:02 dev_log : [INFO] **********
+2017-03-07 18:55:32 dev_log : [INFO] groups:1
+2017-03-07 18:55:33 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:55:33 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:55:35 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:55:35 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:55:36 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:55:36 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:55:38 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:55:38 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:55:39 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:55:39 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:55:41 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 18:55:41 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 18:55:48 dev_log : [INFO] 已截图,图片名称为:gsr.png
+2017-03-07 18:55:48 dev_log : [INFO] 读取文件异常
+2017-03-07 18:55:48 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e]
+2017-03-07 18:55:48 dev_log : [INFO] **********
+2017-03-07 18:57:35 dev_log : [INFO] groups:1
+2017-03-07 18:57:36 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:57:36 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:57:38 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:57:38 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:57:39 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:57:39 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:57:41 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:57:41 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:57:43 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:57:43 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:57:44 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 18:57:44 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 18:57:53 dev_log : [INFO] 已截图,图片名称为:lms.png
+2017-03-07 18:57:53 dev_log : [INFO] 读取文件异常
+2017-03-07 18:57:53 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e]
+2017-03-07 18:57:53 dev_log : [INFO] **********
+2017-03-07 18:58:25 dev_log : [INFO] groups:1
+2017-03-07 18:58:26 dev_log : [STEP] [点击'我的'] 
+2017-03-07 18:58:26 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 18:58:27 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 18:58:27 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 18:58:29 dev_log : [STEP] [点击默认房间] 
+2017-03-07 18:58:29 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 18:58:30 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 18:58:30 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 18:58:32 dev_log : [STEP] [点击默认图库] 
+2017-03-07 18:58:32 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 18:58:33 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 18:58:33 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:00:02 dev_log : [INFO] groups:1
+2017-03-07 19:00:03 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:00:03 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:00:05 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:00:05 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:00:06 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:00:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:00:08 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:00:08 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:00:09 dev_log : [STEP] [点击默认图库] 
+2017-03-07 19:00:09 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:00:10 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 19:00:10 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:00:18 dev_log : [INFO] 已截图,图片名称为:m19.png
+2017-03-07 19:00:19 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\m19.png与图片:BufferedImage@74e28667: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@1cf6d1be transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-07 19:00:19 dev_log : [STEP] [点击左上方的返回键] 
+2017-03-07 19:00:19 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-07 19:00:20 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:00:20 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:00:32 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e]
+2017-03-07 19:00:32 dev_log : [INFO] **********
+2017-03-07 19:01:01 dev_log : [INFO] groups:1
+2017-03-07 19:01:02 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:01:02 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:01:04 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:01:04 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:01:51 dev_log : [INFO] groups:1
+2017-03-07 19:01:52 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:01:52 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:01:53 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:01:53 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:01:54 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:01:54 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:01:56 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:01:56 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:01:57 dev_log : [STEP] [点击默认图库] 
+2017-03-07 19:01:57 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:01:59 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 19:01:59 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:02:05 dev_log : [INFO] 已截图,图片名称为:ftk.png
+2017-03-07 19:02:06 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\ftk.png与图片:BufferedImage@74e28667: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@1cf6d1be transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-07 19:02:06 dev_log : [STEP] [点击左上方的返回键] 
+2017-03-07 19:02:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-07 19:02:07 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:02:07 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:02:08 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:02:08 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:02:10 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-07 19:02:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:02:11 dev_log : [STEP] [点击选择框中的“从相册中选择”按扭] 
+2017-03-07 19:02:11 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:02:23 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e]
+2017-03-07 19:02:23 dev_log : [INFO] **********
+2017-03-07 19:05:33 dev_log : [INFO] groups:1
+2017-03-07 19:05:34 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:05:34 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:05:35 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:05:35 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:05:36 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:05:36 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:05:38 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:05:38 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:05:39 dev_log : [STEP] [点击默认图库] 
+2017-03-07 19:05:39 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:05:41 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 19:05:41 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:05:49 dev_log : [INFO] 已截图,图片名称为:ara.png
+2017-03-07 19:05:50 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\ara.png与图片:BufferedImage@74e28667: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@1cf6d1be transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-07 19:05:50 dev_log : [STEP] [点击左上方的返回键] 
+2017-03-07 19:05:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-07 19:05:51 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:05:51 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:05:52 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:05:52 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:05:54 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-07 19:05:54 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:05:55 dev_log : [STEP] [点击返回] 
+2017-03-07 19:05:57 dev_log : [STEP] [点击返回] 
+2017-03-07 19:05:58 dev_log : [STEP] [点击选择框中的“从相册中选择”按扭] 
+2017-03-07 19:05:58 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:07:04 dev_log : [INFO] groups:1
+2017-03-07 19:07:06 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:07:06 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:07:07 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:07:07 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:07:08 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:07:08 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:07:10 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:07:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:07:11 dev_log : [STEP] [点击默认图库] 
+2017-03-07 19:07:11 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:07:13 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 19:07:13 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:07:20 dev_log : [INFO] 已截图,图片名称为:9xa.png
+2017-03-07 19:07:21 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\9xa.png与图片:BufferedImage@74e28667: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@1cf6d1be transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-07 19:07:21 dev_log : [STEP] [点击左上方的返回键] 
+2017-03-07 19:07:21 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-07 19:07:23 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:07:23 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:07:24 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:07:24 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:07:25 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-07 19:07:25 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:07:27 dev_log : [STEP] [点击返回] 
+2017-03-07 19:07:29 dev_log : [STEP] [点击选择框中的“从相册中选择”按扭] 
+2017-03-07 19:07:29 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:07:40 dev_log : Skipped, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e]
+2017-03-07 19:07:40 dev_log : [INFO] **********
+2017-03-07 19:08:58 dev_log : [INFO] groups:1
+2017-03-07 19:09:00 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:09:00 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:09:01 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:09:01 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:09:03 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:09:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:09:04 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:09:04 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:09:06 dev_log : [STEP] [点击默认图库] 
+2017-03-07 19:09:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:09:07 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 19:09:07 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:09:15 dev_log : [INFO] 已截图,图片名称为:gg4.png
+2017-03-07 19:09:15 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\gg4.png与图片:BufferedImage@74e28667: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@1cf6d1be transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-07 19:09:16 dev_log : [STEP] [点击左上方的返回键] 
+2017-03-07 19:09:16 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-07 19:09:17 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:09:17 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:09:18 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:09:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:09:20 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-07 19:09:20 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:09:21 dev_log : [STEP] [点击返回] 
+2017-03-07 19:09:23 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:09:23 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:09:24 dev_log : [STEP] [点击选择框中的“从相册中选择”按扭] 
+2017-03-07 19:09:24 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:09:26 dev_log : [STEP] [返回到编辑房间界面] 
+2017-03-07 19:09:27 dev_log : [STEP] [房间编辑界面点击保存] 
+2017-03-07 19:09:27 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-07 19:09:31 dev_log : Success, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e] #parameters:0 time:33061
+2017-03-07 19:09:31 dev_log : [INFO] **********
+2017-03-07 19:09:37 dev_log : All Tests is finished
+2017-03-07 19:09:37 dev_log : PASSED:0
+2017-03-07 19:09:37 dev_log : FAILED:0
+2017-03-07 19:09:37 dev_log : SKIPPED:0
+2017-03-07 19:12:46 dev_log : [INFO] groups:1
+2017-03-07 19:12:47 dev_log : [STEP] [点击'我的'] 
+2017-03-07 19:12:47 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-07 19:12:48 dev_log : [STEP] [点击'房间管理'] 
+2017-03-07 19:12:48 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-07 19:12:50 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:12:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:12:51 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:12:51 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:12:53 dev_log : [STEP] [点击默认图库] 
+2017-03-07 19:12:53 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:12:54 dev_log : [STEP] [默认图库中选择一张图片] 
+2017-03-07 19:12:54 dev_log : [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-07 19:13:02 dev_log : [INFO] 已截图,图片名称为:ipn.png
+2017-03-07 19:13:03 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\ipn.png与图片:BufferedImage@74e28667: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@1cf6d1be transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-07 19:13:03 dev_log : [STEP] [点击左上方的返回键] 
+2017-03-07 19:13:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-07 19:13:04 dev_log : [STEP] [点击默认房间] 
+2017-03-07 19:13:04 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-07 19:13:06 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:13:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:13:07 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-07 19:13:07 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:13:09 dev_log : [STEP] [点击返回] 
+2017-03-07 19:13:10 dev_log : [STEP] [点击默认的房间图片] 
+2017-03-07 19:13:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-07 19:13:12 dev_log : [STEP] [点击选择框中的“从相册中选择”按扭] 
+2017-03-07 19:13:12 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-07 19:13:13 dev_log : [STEP] [返回到编辑房间界面] 
+2017-03-07 19:13:20 dev_log : [STEP] [房间编辑界面点击保存] 
+2017-03-07 19:13:20 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-07 19:13:21 dev_log : Success, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3d99d22e] #parameters:0 time:35231
+2017-03-07 19:13:21 dev_log : [INFO] **********
+2017-03-07 19:13:28 dev_log : All Tests is finished
+2017-03-07 19:13:28 dev_log : PASSED:0
+2017-03-07 19:13:28 dev_log : FAILED:0
+2017-03-07 19:13:28 dev_log : SKIPPED:0

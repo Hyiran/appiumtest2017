@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="智家365"  thread-count="2">
+<suite name="智家365"  preserve-order="true">
 
     <listeners>
         <listener class-name="com.oribo.testRetry.Retrylistener" />
@@ -15,21 +15,15 @@
 		<parameter name="testpassword" value="2hq5qt" />
 		<parameter name="reportreceiver" value="penghong@orvibo.com" />
 		
-<!--  	    <groups>
- 	            <define name="functest">
-      			<include name="登录"/>
-      			<include name="个人中心"/>
-      			<include name="授权登录1"/>
-    			</define>
+ 	    <groups>
 
 		   	<run>
-		        <include name="个人中心"/>
+		        <include name="提醒设置"/>
 		    </run>
-		</groups>   -->
+		</groups>  
 
 		<classes>
 			<!-- <class name="com.oribo.android365.testcase.Personcenter" /> -->
-
 			<class name="com.oribo.android365.testcase.HomeManage" />  
 		</classes>
 

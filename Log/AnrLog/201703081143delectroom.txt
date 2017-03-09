@@ -1,0 +1,608 @@
+--------- beginning of main
+
+03-08 11:42:55.174  4099  5103 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-08 11:42:55.184 18989 19114 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:212
+
+03-08 11:42:55.185 18989 19114 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,0,6a,64,6b,b1,46,db,ec,65,65,39,64,30,37,34,30,66,65,61,31,34,65,38,37,61,66,31,34,32,39,33,66,61,66,64,36,33,66,36,36,ce,d9,44,70,8b,da,d0,5c,24,60,13,86,e4,32,e0,76,c8,23,72,19,72,60,4f,c8,70,39,38,a0,81,51,e4,af,44,55,aa,6a,19,ee,7c,80,56,ec,48,52,3f,c0,9e,a9,11,eb,86,94,8e,a0,ee,65,ca,b7,c1,5e,a0,4,bd,97
+
+03-08 11:42:55.186 18989 19114 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:106
+
+03-08 11:42:55.186 18989 19114 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,0,6a,64,6b,74,28,52,e5,65,65,39,64,30,37,34,30,66,65,61,31,34,65,38,37,61,66,31,34,32,39,33,66,61,66,64,36,33,66,36,36,9f,8a,ae,43,51,9a,79,fe,4f,49,d5,de,40,69,fd,54,c3,56,87,cd,64,75,0,1e,de,17,34,a,88,18,c0,17,c3,12,da,85,66,40,25,58,92,21,13,e5,b6,fb,e3,3e,43,25,4f,c7,8b,e6,c5,34,c8,3e,1b,c2,9e,d6,b6,ea
+
+03-08 11:42:55.196 18989 19115 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:B146DBEC,sessionId:ee9d0740fea14e87af14293fafd63f66,jsonLen:64,ip:192.168.2.242,port:10001
+
+03-08 11:42:55.197 18989 19115 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"serial":999921502,"deviceList":"[]","cmd":66,"status":0}]
+
+03-08 11:42:55.201 18989 19115 D HomeMate: comm[ pool-5-thread-1: ProcessPayload.java:3022 parseJson2DeviceList() ] - count = 0
+
+03-08 11:42:55.205 18989 18989 D HomeMate: comm[ main: QueryUnbinds.java:97 onEventMainThread() ] - QueryUnbinds.onEventMainThread event.getDeviceUnbindList() = []
+
+03-08 11:42:55.206 18989 18989 D HomeMate: comm[ main: QueryUnbinds.java:98 onEventMainThread() ] - QueryUnbinds onEventMainThread configAp:false
+
+03-08 11:42:55.206 18989 18989 D HomeMate: comm[ main: BaseRequest.java:460 stopRequest() ] -  Stop request com.orvibo.homemate.device.searchdevice.SearchDevice$2@74b570a
+
+03-08 11:42:55.228 18989 19115 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:742852E5,sessionId:ee9d0740fea14e87af14293fafd63f66,jsonLen:64,ip:192.168.2.242,port:10001
+
+03-08 11:42:55.229 18989 19115 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"uid":"007e5671f027","serial":399439876,"cmd":3,"status":30}]
+
+03-08 11:42:55.230 18989 19115 E HomeMate: comm[ pool-5-thread-1: GatewayTool.java:162 deleteWifiDeviceOrHub() ] - Start to delete 657e5607dc0d4a679b6c08743f8792e9's 007e5671f027 device
+
+03-08 11:42:55.238 18989 19115 D HomeMate: comm[ pool-5-thread-1: GatewayTool.java:168 deleteWifiDeviceOrHub() ] - 007e5671f027 is 657e5607dc0d4a679b6c08743f8792e9's device?true
+
+03-08 11:42:55.240 18989 18989 D HomeMate: comm[ main: BaseRequest.java:433 stopRequest() ] - Stop request which serial is 399439876 on com.orvibo.homemate.core.load.MultiLoad$1@4ef32ac
+
+03-08 11:42:55.248 18989 18989 I HomeMate: comm[ main: QueryStatistics.java:84 onEventMainThread() ] - onEventMainThread(007e5671f027)-statistics:null
+
+03-08 11:42:55.248 18989 18989 D HomeMate: comm[ main: MultiLoad.java:239 onStatisticsResult() ] - uid:007e5671f027,result:30,tableLoadStatisticses:null
+
+03-08 11:42:55.249 18989 18989 D HomeMate: comm[ main: MultiLoad.java:520 isLoading() ] - {007e5671f027=LoadStatistics{mTableLoadStatistics={}, mLoadingTables=[], mLatestUpdateTime=0, appLatestUpdateTime=0, timeoutWhat=11}}
+
+03-08 11:42:55.257 18989 19115 E HomeMate: comm[ pool-5-thread-1: GatewayTool.java:106 doDeleteGateway() ] - Clear 007e5671f027 all data.
+
+03-08 11:42:55.259 18989 19115 E HomeMate: comm[ pool-5-thread-1: UpdateTimeCache.java:61 resetUpdateTime() ] - saveKey:007e5671f027
+
+03-08 11:42:55.264 18989 19115 E HomeMate: comm[ pool-5-thread-1: UpdateTimeCache.java:61 resetUpdateTime() ] - saveKey:007e5671f027
+
+03-08 11:42:55.264 18989 19115 D HomeMate: comm[ pool-5-thread-1: UserCache.java:422 setLoginStatus() ] - setLoginStatus()-userNameOrUid:007e5671f027,status:3
+
+03-08 11:42:55.266 18989 18989 D HomeMate: comm[ main: MultiLoad.java:718 callback() ] - uid:007e5671f027,tableName:null,noneUpdate:false,callBackType:ALL。[com.orvibo.homemate.service.ViCenterService@65a531c]
+
+03-08 11:42:55.266 18989 18989 I HomeMate: comm[ main: ViCenterService.java:558 onMultiLoadFinish() ] - uid:007e5671f027,result:30,noneUpdate:false
+
+03-08 11:42:55.266 18989 18989 D HomeMate: comm[ main: BaseActivity.java:479 onEventMainThread() ] - onEventMainThread()-event:ViewEvent{loadDataType=2, uid='007e5671f027', result=30}
+
+03-08 11:42:55.266 18989 18989 D HomeMate: comm[ main: MainActivity.java:223 onRefresh() ] - ViewEvent{loadDataType=2, uid='007e5671f027', result=30}
+
+03-08 11:42:55.267 18989 18989 I HomeMate: comm[ main: MultiLoad.java:774 onHandleMessage() ] - Load 007e5671f027 cost 477ms
+
+03-08 11:42:55.267 18989 18989 W HomeMate: comm[ main: MultiLoad.java:526 cancelLoad() ] - uid:007e5671f027
+
+03-08 11:42:55.267 18989 18989 D HomeMate: comm[ main: MultiLoad.java:547 cancelLoad() ] - Cancel read data request by []
+
+03-08 11:42:55.267 18989 18989 I HomeMate: comm[ main: MultiLoad.java:227 loadNextDevice() ] - None devices waitting to load.
+
+03-08 11:42:55.267 18989 18989 D HomeMate: comm[ main: MultiLoad.java:558 cancelLoad() ] - 当前没有设备在读表或者等待读�?
+
+03-08 11:42:55.269 18989 18989 E HomeMate: comm[ main: QueryStatistics.java:95 cancal() ] - Stop to query data statistics.
+
+03-08 11:42:55.270 18989 18989 D HomeMate: comm[ main: BaseRequest.java:460 stopRequest() ] -  Stop request com.orvibo.homemate.core.load.MultiLoad$1@4ef32ac
+
+03-08 11:42:55.270 18989 18989 E HomeMate: comm[ main: ReadData.java:117 stopRead() ] - Stop to load data.com.orvibo.homemate.core.load.MultiLoad$2@d933abd
+
+03-08 11:42:55.270 18989 18989 D HomeMate: comm[ main: BaseRequest.java:460 stopRequest() ] -  Stop request com.orvibo.homemate.core.load.MultiLoad$2@d933abd
+
+03-08 11:42:55.271 18989 18989 D HomeMate: comm[ main: BaseActivity.java:479 onEventMainThread() ] - onEventMainThread()-event:ViewEvent{loadDataType=1, uid='null', result=0}
+
+03-08 11:42:55.271 18989 18989 D HomeMate: comm[ main: MainActivity.java:223 onRefresh() ] - ViewEvent{loadDataType=1, uid='null', result=0}
+
+03-08 11:42:55.486 18989 18989 D HomeMate: comm[ main: MainActivity.java:341 onRefresh() ] - mainRefreshType:4
+
+03-08 11:42:55.487 18989 18989 D HomeMate: comm[ main: MainActivity.java:254 refreshCurrentFragment() ] - Current tag is �?,HomeFragment{7c7012c #0 id=0x7f0e02d1 家}
+
+03-08 11:42:55.487 18989 18989 D HomeMate: comm[ main: BaseFragment.java:183 onRefresh() ] - onRefresh()
+
+03-08 11:42:55.488 18989 18989 D HomeMate: comm[ main: HomeFragment.java:182 onRefresh() ] - HomeFragment{7c7012c #0 id=0x7f0e02d1 家}
+
+03-08 11:42:55.488 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from family where family.delFlag= 0 and userId=? order by sequence asc
+
+03-08 11:42:55.498 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? or floorId=? order by sequence asc
+
+03-08 11:42:55.506 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 11:42:55.507 18989 18989 D HomeMate: comm[ main: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM room INNER JOIN floor ON room.floorId = floor.floorId WHERE room.delFlag = 0 AND floor.delFlag = 0 AND floor.familyId=?
+
+03-08 11:42:55.510 18989 18989 D HomeMate: comm[ main: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM device INNER JOIN userGatewayBind ON device.uid = userGatewayBind.uid WHERE device.delFlag = 0 AND userGatewayBind.delFlag = 0 AND familyId = ? AND roomId IN ('','0','657e5607dc0d4a679b6c08743f8792e9') AND deviceType IN (22,23,65,66,18,14,1,0,38,19,43,2,29,67,30,11,8,52,5,58,7,32,6,59,60,33,36,34,42,35,4,37,3,39,57,64,9,10,17,20)  ORDER BY createTime DESC
+
+03-08 11:42:55.512 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 11:42:55.514 18989 18989 D HomeMate: allen[ main: HomeFragment.java:267 onRefreshFamilies() ] - families:[Family{familyId='657e5607dc0d4a679b6c08743f8792e9', pic='null', creator='c17b273d4baa45fb8f3731fa13a9aa07', familyName='老家', nickname_in_family='null', email='840432908@qq.com', phone='', showIndex=1, isAdmin=1, userid='c17b273d4baa45fb8f3731fa13a9aa07', userName=jxjd, updateTimeSec=1488852741000} , Family{familyId='8732cb0d98464a1d97c809dfe17c1643', pic='null', creator='c17b273d4baa45fb8f3731fa13a9aa07', familyName='深圳', nickname_in_family='null', email='840432908@qq.com', phone='', showIndex=2, isAdmin=1, userid='c17b273d4baa45fb8f3731fa13a9aa07', userName=jxjd, updateTimeSec=1488857729000} , Family{familyId='2b2b0421d6984912a95a266862c4451b', pic='null', creator='c17b273d4baa45fb8f3731fa13a9aa07', familyName='fygycy', nickname_in_family='null', email='840432908@qq.com', phone='', showIndex=3, isAdmin=1, userid='c17b273d4baa45fb8f3731fa13a9aa07', userName=jxjd, updateTimeSec=1488871865000} ] selectFamilyPosition:0
+
+03-08 11:42:55.521 18989 18989 D HomeMate: allen[ main: HomeFragment.java:353 onRefreshRooms() ] - rooms:[] selectRoomPosition:0
+
+03-08 11:42:55.526 18989 18989 D HomeMate: comm[ main: CmdManage.java:4936 getCommand() ] - getCommand()-cmd:201,len:138,crc:7F5AB9B1,sessionId:ee9d0740fea14e87af14293fafd63f66,key:Q8fRKUPm6q7vLnNN,uid:null,socketModel:SERVER,serial:1622641156
+
+03-08 11:42:55.526 18989 18989 D HomeMate: requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=null}
+
+03-08 11:42:55.526 18989 18989 D HomeMate: json(before encrypt):{"userId":"c17b273d4baa45fb8f3731fa13a9aa07","cmd":201,"serial":1622641156,"ver":"2.3.0"}(89)
+
+03-08 11:42:55.526 18989 18989 I HomeMate: comm[ main: BaseRequest.java:126 doRequestAsync() ] - registerEvent: com.orvibo.homemate.device.home.HomeRoomPresenter$1@9ab0629
+
+03-08 11:42:55.526 18989 18989 D HomeMate: comm[ main: BaseRequest.java:934 saveSerial() ] - Record serial 1622641156 on com.orvibo.homemate.device.home.HomeRoomPresenter$1@9ab0629
+
+03-08 11:42:55.529 18989 19112 D HomeMate: comm[ pool-4-thread-2: BaseRequest.java:160 run() ] - Start command:Command{uid='server', serial=1622641156, cmd=201, jsonObject={"userId":"c17b273d4baa45fb8f3731fa13a9aa07","cmd":201,"serial":1622641156,"ver":"2.3.0"}, crc='7F5AB9B1', requestConfig=RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}}}
+
+03-08 11:42:55.529 18989 19112 D HomeMate: comm[ pool-4-thread-2: BaseRequest.java:176 run() ] - current count is 0,serial:1622641156
+
+03-08 11:42:55.530 18989 19112 D HomeMate: comm[ pool-4-thread-2: MinaSocket.java:139 send() ] - target:server,position:server start request.requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}},messageLength:138
+
+03-08 11:42:55.530 18989 19112 D HomeMate: sConnectFutures:{server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@2df3bba, 007e5671f027=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@401a8fe}
+
+03-08 11:42:55.531 18989 19112 I HomeMate: comm[ pool-4-thread-2: CodecEncoder.java:44 encode() ] - encode()-编码完成,向IP:/192.168.2.242:10001写数�?(138):68,64,00,8a,64,6b,7f,5a,b9,b1,65,65,39,64,30,37,34,30,66,65,61,31,34,65,38,37,61,66,31,34,32,39,33,66,61,66,64,36,33,66,36,36,6a,56,96,65,67,0f,ea,a5,37,5d,44,50,30,10,eb,26,b2,a8,32,f3,b5,d9,19,50,84,be,5c,dc,48,d6,7b,4a,cc,c7,99,e2,9b,d8,c9,68,eb,c7,fb,88,5e,4f,bd,8e,1f,8f,46,ae,c6,82,2b,93,54,3f,85,f6,0a,72,1e,ea,5b,20,44,d9,6a,6e,20,db,bb,ed,45,4d,64,ba,c0,7f,98,e1,2f,15,06,24,b0,9f,fa,53,c3,bf,60,54,da,c6
+
+03-08 11:42:55.533 18989 19112 D HomeMate: comm[ pool-4-thread-2: MinaSocket.java:157 send() ] - isWritten:true,ioSession:(0x00000001: nio socket, client, /192.168.18.181:52202 => /192.168.2.242:10001)
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001905): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534634 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001906): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534633 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001907): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001908): avc: denied { getattr } for path="/proc/1" dev="proc" ino=907269 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001909): avc: denied { getattr } for path="/proc/2" dev="proc" ino=907270 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001910): avc: denied { getattr } for path="/proc/3" dev="proc" ino=907271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001911): avc: denied { getattr } for path="/proc/6" dev="proc" ino=907272 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001912): avc: denied { getattr } for path="/proc/7" dev="proc" ino=907273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001913): avc: denied { getattr } for path="/proc/8" dev="proc" ino=907274 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001914): avc: denied { getattr } for path="/proc/21" dev="proc" ino=907275 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001915): avc: denied { getattr } for path="/proc/22" dev="proc" ino=907276 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001916): avc: denied { getattr } for path="/proc/28" dev="proc" ino=907278 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001917): avc: denied { getattr } for path="/proc/29" dev="proc" ino=907279 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001918): avc: denied { getattr } for path="/proc/30" dev="proc" ino=907280 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001919): avc: denied { getattr } for path="/proc/32" dev="proc" ino=907281 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001920): avc: denied { getattr } for path="/proc/33" dev="proc" ino=907282 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001921): avc: denied { getattr } for path="/proc/34" dev="proc" ino=907283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001922): avc: denied { getattr } for path="/proc/61" dev="proc" ino=907284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001923): avc: denied { getattr } for path="/proc/62" dev="proc" ino=907285 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001924): avc: denied { getattr } for path="/proc/63" dev="proc" ino=907286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001925): avc: denied { getattr } for path="/proc/64" dev="proc" ino=907287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001926): avc: denied { getattr } for path="/proc/65" dev="proc" ino=907288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001927): avc: denied { getattr } for path="/proc/66" dev="proc" ino=907289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001928): avc: denied { getattr } for path="/proc/67" dev="proc" ino=907290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001929): avc: denied { getattr } for path="/proc/68" dev="proc" ino=907291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001930): avc: denied { getattr } for path="/proc/69" dev="proc" ino=907292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001931): avc: denied { getattr } for path="/proc/70" dev="proc" ino=907293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.597 29006 29006 W AppWatcher: type=1400 audit(0.0:1001932): avc: denied { getattr } for path="/proc/71" dev="proc" ino=907294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.607 29006 29006 W AppWatcher: type=1400 audit(0.0:1001933): avc: denied { getattr } for path="/proc/72" dev="proc" ino=907295 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.607 29006 29006 W AppWatcher: type=1400 audit(0.0:1001934): avc: denied { getattr } for path="/proc/73" dev="proc" ino=907296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.607 29006 29006 W AppWatcher: type=1400 audit(0.0:1001935): avc: denied { getattr } for path="/proc/74" dev="proc" ino=907297 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.607 29006 29006 W AppWatcher: type=1400 audit(0.0:1001936): avc: denied { getattr } for path="/proc/75" dev="proc" ino=907298 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 11:42:55.645 18989 19114 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:1024
+
+03-08 11:42:55.645 18989 19114 W HomeMate: comm[ NioProcessor-7: CodecDecoder.java:57 doDecode() ] - length is wrong.数据的�?�长度Len[1418]，实际接收到的长度actualLen�?1024
+
+03-08 11:42:55.646 18989 19114 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:1418
+
+03-08 11:42:55.653 18989 19114 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,5,8a,64,6b,ca,71,86,95,65,65,39,64,30,37,34,30,66,65,61,31,34,65,38,37,61,66,31,34,32,39,33,66,61,66,64,36,33,66,36,36,16,3b,e5,c7,63,96,67,59,20,77,1c,2,e8,11,ed,cc,44,73,42,44,5,2d,22,d,b5,46,27,bd,ec,10,6e,2c,5b,1d,bd,e6,b6,8a,e2,40,d2,bb,4c,c3,be,e6,fa,c,a6,44,d5,dd,21,89,3,e6,ad,d7,1,f4,6f,70,b3,1,cc,25,d3,58,2a,91,b8,2d,9a,e9,9c,e9,eb,9a,37,85,41,2f,e3,d7,54,cd,e,67,ff,0,6c,7b,6,3e,f0,79,60,56,c7,db,7c,3,f6,1c,29,45,4d,55,25,9e,b6,c8,c5,6e,a1,f2,f,15,8c,58,4a,3b,4b,35,5,df,b7,5f,9a,ae,4d,d1,16,29,9d,e4,f9,f5,30,1,56,c9,be,11,eb,cd,d4,90,3d,96,21,4f,88,4e,d,61,68,bd,5a,85,43,bc,6e,5f,86,cc,58,69,82,6b,7d,ca,25,8f,3f,17,b0,16,6c,b7,66,a5,6d,31,ae,87,a8,84,26,16,6d,a8,e,81,49,a1,66,16,94,3,aa,5a,ee,8e,30,e0,92,be,7e,1,80,f0,f,ff,85,87,da,14,8d,59,c7,9f,f6,cf,dd,7,3b,eb,c4,de,bb,a9,64,ba,7e,b6,bd,27,14,aa,f2,44,80,b0,f2,a5,3a,1e,89,54,69,13,e6,e,e9,ca,cd,cc,fc,65,cc,75,75,e5,e0,5f,93,e8,bd,9a,c1,a8,7,dc,38,f2,a5,c6,f1,26,f0,80,74,89,aa,7f,d5,7f,49,e6,ed,2c,8c,a1,cb,62,2f,2d,69,2f,c3,d,32,86,85,a7,9a,7a,cb,35,71,84,2d,85,f8,45,4b,2e,b,2f,36,78,95,9f,fe,63,f4,7e,ca,27,95,fa,2f,9b,16,34,8a,e4,14,a3,d1,15,e,6f,71,ce,b,d6,53,5a,e3,cb,18,95,2c,7c,17,14,a7,cb,3a,9,65,32,51,40,1a,bf,19,d,9,d,46,8b,c1,92,7f,bd,37,8c,b,83,cb,61,78,73,e9,a3,ce,19,e6,6a,ea,df,ff,40,2a,a5,65,dd,a6,ec,87,c5,60,24,ef,db,f7,b,d4,91,79,a1,82,32,b1,ec,8c,c5,d5,a9,97,68,99,b1,8f,2c,d0,7,92,19,82,1,5d,d4,fc,b8,9f,12,3c,c0,6f,4e,1c,9e,a5,3a,3e,60,2c,cd,50,bc,5c,25,d5,39,ac,c0,c,c,47,28,a3,fe,3,bd,44,95,bd,72,a1,2a,67,4d,a,54,ce,ff,b1,68,31,5c,71,c5,20,6a,e2,b2,3d,ec,5c,e5,2d,a8,2a,16,f7,ba,5e,84,36,aa,10,83,23,aa,ce,3a,41,e,6d,92,54,5b,fc,e3,36,8,f5,93,8e,2,ff,87,92,de,2,5e,95,18,a0,ad,ca,6d,7c,13,c,6c,75,b4,e,1a,f5,1f,f5,34,a1,b5,91,f8,5b,6,5a,bb,d,f0,6c,d5,fd,b1,95,fe,6d,1b,a4,ca,e7,a9,17,b7,b6,5d,b7,c3,10,6e,6c,e1,51,ca,79,fe,12,37,e1,0,15,4d,76,15,6b,83,3f,d3,f5,e,d8,b9,77,57,ae,49,66,21,4e,2b,74,cd,74,d0,e2,b5,4d,f7,2f,11,7c,83,29,a2,1c,dc,4d,5,78,e7,ab,7e,ca,10,b2,fc,af,d6,7a,37,2a,b2,c3,d3,3c,a,25,e4,c6,5b,50,ce,78,86,db,33,cb,f7,7,15,68,36,d3,4e,42,65,af,70,69,eb,c0,4d,75,fd,5f,40,78,28,65,73,bb,d,e5,1b,ba,4f,fa,83,58,1a,b7,8f,7b,4,10,2c,9a,7a,d3,8c,53,11,cc,e,72,95,a5,dd,2f,e9,1a,37,3,e4,b5,ea,51,1c,ed,af,19,62,14,cb,63,99,61,b4,d9,e4,99,c,89,73,c7,15,18,b5,76,95,ac,9b,dc,82,61,c1,e2,20,3c,85,fe,8,32,74,52,1c,ba,6f,a0,bf,ed,77,27,27,70,55,12,98,8b,37,6b,ef,5c,b5,d9,7c,61,5d,d4,c0,10,fc,8c,50,1e,8d,87,31,5f,5,19,f2,c1,be,57,56,81,34,4e,e8,5,76,69,c2,5c,f9,57,a4,51,60,70,78,92,73,64,2b,b3,ae,81,78,81,f9,b0,30,4f,6e,88,c9,30,41,db,31,97,66,a1,69,56,4,e8,b1,6,5f,c1,5a,f9,64,6f,18,d2,90,81,d3,c5,6c,df,c6,a2,42,87,3d,2,72,f9,62,34,d0,3e,f3,2b,ca,89,db,3f,49,3,9e,92,21,8,90,f6,d,58,55,40,30,f6,ef,99,52,be,f5,e4,a5,91,b1,e,fd,dc,3c,b2,f0,35,1d,4f,da,9a,cc,2b,88,ea,6b,6e,5c,d8,20,97,36,81,22,cc,4c,f1,a3,32,f5,fa,47,f3,28,85,b3,47,e1,27,a9,aa,ba,e1,3f,f1,9e,a,34,38,cb,57,dc,28,39,fa,16,2b,80,e2,2b,af,31,9e,21,e6,84,d3,20,1f,4b,88,3b,95,38,6c,cd,f4,b4,2e,2d,7c,c5,6d,cd,ad,fd,14,b9,59,df,f0,6e,fb,e2,f9,42,64,37,20,96,97,25,92,fd,3d,3e,47,af,13,bc,9a,83,6,d9,73,ca,72,32,87,30,57,8c,42,ce,b7,48,dd,c7,40,c5,a4,c,34,72,b9,ae,a5,f8,84,58,27,68,6d,aa,5e,c9,19,43,a3,26,90,34,bc,61,2e,bf,60,14,c7,3f,2b,8e,9c,38,57,c3,9b,bb,f9,c1,85,65,8f,30,53,16,d7,fe,7,51,6c,38,e,0,82,46,ec,63,b1,bb,bb,1,54,20,23,82,34,92,82,55,32,a6,ce,e7,10,7b,2e,ed,28,34,2b,5d,7e,c2,a2,29,9c,36,3d,33,20,ff,e2,cd,74,59,d1,d0,b2,40,4e,31,c8,d5,8,d,64,3e,38,a3,fd,29,de,14,7b,dd,59,70,5f,eb,67,55,94,48,6,85,8e,84,6d,a,9f,85,d0,cb,ff,70,a9,96,10,e,48,a,a9,ab,dd,93,e0,da,9b,63,1b,3c,54,5b,ea,de,92,47,45,78,7,9e,f2,a5,cd,0,be,a4,e2,17,5a,8d,2a,47,57,78,a9,9,87,af,c7,9b,5d,b8,7f,47,60,be,da,88,9e,d0,fa,77,bf,f5,f2,26,6c,2c,c6,4f,6c,ec,59,8b,fd,be,3b,67,d7,59,a4,87,61,a6,47,4d,bb,28,4a,52,34,a4,cd,2f,25,d6,e2,62,77,84,7f,c9,2,32,3,59,38,98,71,56,cf,dc,14,53,17,d0,47,8b,96,27,1e,5d,29,f9,1f,45,61,48,13,33,e1,a9,e6,35,aa,35,c0,be,3f,89,9c,d0,25,d7,3a,91,70,79,45,af,b5,bd,3a,8c
+
+03-08 11:42:55.654 18989 19115 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:CA718695,sessionId:ee9d0740fea14e87af14293fafd63f66,jsonLen:1376,ip:192.168.2.242,port:10001
+
+03-08 11:42:55.654 18989 19115 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"cmd":201,"userId":"c17b273d4baa45fb8f3731fa13a9aa07","ver":"2.3.0","serial":1622641156,"status":0,"familyList":[{"email":"840432908@qq.com","phone":"","userName":"jxjd","isAdmin":1,"familyId":"657e5607dc0d4a679b6c08743f8792e9","familyName":"老家","creator":"c17b273d4baa45fb8f3731fa13a9aa07","showIndex":1,"createTime":"2017-03-03 13:36:26","updateTime":"2017-03-07 10:12:21","longitude":"114.004563","latotide":"22.594121","country":"cn","city":"shenzhen","state":"guangdong","timeOffset":28800,"zoneOffset":28800,"delFlag":0},{"email":"840432908@qq.com","phone":"","userName":"jxjd","isAdmin":1,"familyId":"8732cb0d98464a1d97c809dfe17c1643","familyName":"深圳","creator":"c17b273d4baa45fb8f3731fa13a9aa07","showIndex":2,"createTime":"2017-03-07 10:10:10","updateTime":"2017-03-07 11:35:29","longitude":"114.004559","latotide":"22.594117","country":"cn","city":"shenzhen","state":"guangdong","timeOffset":28800,"zoneOffset":28800,"delFlag":0},{"email":"840432908@qq.com","phone":"","userName":"jxjd","isAdmin":1,"familyId":"2b2b0421d6984912a95a266862c4451b","familyName":"fygycy","creator":"c17b273d4baa45fb8f3731fa13a9aa07","showIndex":3,"createTime":"2017-03-07 13:53:23","updateTime":"2017-03-07 15:31:05","longitude":"114.004559","latotide":"22.594117","country":"cn","city":"shenzhen","state":"guangdong","timeOffset":28800,"zoneOffset":28800,"delFlag":0}]}]
+
+03-08 11:42:55.715 18989 18989 D HomeMate: comm[ main: BaseRequest.java:433 stopRequest() ] - Stop request which serial is 1622641156 on com.orvibo.homemate.device.home.HomeRoomPresenter$1@9ab0629
+
+03-08 11:42:55.717 18989 18989 D HomeMate: allen[ main: HomeFragment.java:267 onRefreshFamilies() ] - families:[Family{familyId='657e5607dc0d4a679b6c08743f8792e9', pic='null', creator='c17b273d4baa45fb8f3731fa13a9aa07', familyName='老家', nickname_in_family='null', email='840432908@qq.com', phone='', showIndex=1, isAdmin=1, userid='c17b273d4baa45fb8f3731fa13a9aa07', userName=jxjd, updateTimeSec=1488852741000} , Family{familyId='8732cb0d98464a1d97c809dfe17c1643', pic='null', creator='c17b273d4baa45fb8f3731fa13a9aa07', familyName='深圳', nickname_in_family='null', email='840432908@qq.com', phone='', showIndex=2, isAdmin=1, userid='c17b273d4baa45fb8f3731fa13a9aa07', userName=jxjd, updateTimeSec=1488857729000} , Family{familyId='2b2b0421d6984912a95a266862c4451b', pic='null', creator='c17b273d4baa45fb8f3731fa13a9aa07', familyName='fygycy', nickname_in_family='null', email='840432908@qq.com', phone='', showIndex=3, isAdmin=1, userid='c17b273d4baa45fb8f3731fa13a9aa07', userName=jxjd, updateTimeSec=1488871865000} ] selectFamilyPosition:0
+
+03-08 11:42:55.720 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? or floorId=? order by sequence asc
+
+03-08 11:42:55.725 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 11:42:55.726 18989 18989 D HomeMate: comm[ main: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM room INNER JOIN floor ON room.floorId = floor.floorId WHERE room.delFlag = 0 AND floor.delFlag = 0 AND floor.familyId=?
+
+03-08 11:42:55.731 18989 18989 D HomeMate: comm[ main: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM device INNER JOIN userGatewayBind ON device.uid = userGatewayBind.uid WHERE device.delFlag = 0 AND userGatewayBind.delFlag = 0 AND familyId = ? AND roomId IN ('','0','657e5607dc0d4a679b6c08743f8792e9') AND deviceType IN (22,23,65,66,18,14,1,0,38,19,43,2,29,67,30,11,8,52,5,58,7,32,6,59,60,33,36,34,42,35,4,37,3,39,57,64,9,10,17,20)  ORDER BY createTime DESC
+
+03-08 11:42:55.732 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 11:42:55.734 18989 18989 D HomeMate: allen[ main: HomeFragment.java:353 onRefreshRooms() ] - rooms:[] selectRoomPosition:0
+
+03-08 11:42:55.785   372   476 I ThermalEngine: Sensor:batt_temp:335 mC
+
+03-08 11:42:55.819 18989 19057 D UTAnalytics:LogStoreMgr: pid:18989 [store],
+
+03-08 11:42:55.858 18989 19057 D UTAnalytics:UTSqliteLogStore: pid:18989 [insert] ,, isSuccess:true,ret,1449,
+
+03-08 11:42:55.859 18989 19057 D UTAnalytics:UTSqliteLogStore: pid:18989 [insert] ,, isSuccess:true,ret,1450,
+
+03-08 11:42:55.957 26902 26918 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 11:42:55.964  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 11:42:56.296 18927 18927 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80014429; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 11:42:56.360 18927 18927 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80014429; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 11:42:56.369 18927 18927 D InteractionController: clickAndSync(945, 1887)
+
+03-08 11:42:56.506 18989 18989 D HomeMate: comm[ main: MainActivity.java:115 onClick() ] - android.widget.RelativeLayout{eeba49f VFE...C.. ...P.... 810,0-1080,154 #7f0e084e app:id/tab_rl}
+
+03-08 11:42:56.530 18989 18989 D HomeMate: comm[ main: MainActivity.java:131 onTabChanged() ] - tabId:我的
+
+03-08 11:42:56.534 18989 19256 D FeedbackAPI: sign before:appkey=23256401&deviceId=WJfwe+sntC4DAAdSBLpxQDCW
+
+03-08 11:42:56.539 18989 19256 D FeedbackAPI : sign after:e469344ba86f5f3f88c8fd188558071e8ce8dba2
+
+03-08 11:42:56.559 18989 18989 D HomeMate: comm[ main: BaseFragment.java:105 onPause() ] - HomeFragment
+
+03-08 11:42:56.573 18989 18989 D HomeMate: comm[ main: BaseFragment.java:116 onStop() ] - HomeFragment
+
+03-08 11:42:56.575 18989 18989 D HomeMate: comm[ main: BaseFragment.java:202 onDestroyView() ] - HomeFragment
+
+03-08 11:42:56.576 18989 18989 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - PersonalFragment
+
+03-08 11:42:56.576 18989 18989 D HomeMate: comm[ main: BaseFragment.java:86 onCreate() ] - onCreate:PersonalFragment
+
+03-08 11:42:56.576 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:95 onCreateView() ] - onCreateView()
+
+03-08 11:42:56.579 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@d1fd147
+
+03-08 11:42:56.579 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@c39ed74
+
+03-08 11:42:56.668 18989 18989 D HomeMate: comm[ main: BaseFragment.java:92 onActivityCreated() ] - PersonalFragment
+
+03-08 11:42:56.668 18989 18989 D HomeMate: comm[ main: BaseFragment.java:126 onResume() ] - PersonalFragment
+
+03-08 11:42:56.671 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:207 refresh() ] - refresh()-appUserName:840432908@qq.com,userId:c17b273d4baa45fb8f3731fa13a9aa07
+
+03-08 11:42:56.673 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:209 refresh() ] - refresh(0)-account:Account{userId='c17b273d4baa45fb8f3731fa13a9aa07', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='840432908@qq.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1488852287000', createTime='1488852287000', updateTimeSec=0, uid='null', userName='jxjd'}
+
+03-08 11:42:56.679 18989 18989 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=ee9d0740fea14e87af14293fafd63f66&userName=840432908@qq.com
+
+03-08 11:42:56.685 18989 18989 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"2fe284d31c6d4e6f814b637109fed1be","url":null}
+
+03-08 11:42:56.688 18989 18989 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-08 11:42:56.690 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 11:42:56.693 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:148 setHubView() ] - hub uid :[]
+
+03-08 11:42:56.696 18989 19256 D HomeMate: hank[ Thread-4955: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:2
+
+03-08 11:42:56.700 18989 19260 D FeedbackAPI: sign before:appkey=23256401&deviceId=WJfwe+sntC4DAAdSBLpxQDCW
+
+03-08 11:42:56.708  4601  4923 W Metok_Tag: < metok_app > invalid network operator 
+
+03-08 11:42:56.710 18989 19260 D FeedbackAPI : sign after:e469344ba86f5f3f88c8fd188558071e8ce8dba2
+
+03-08 11:42:56.726 18989 18989 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:true,position:3
+
+03-08 11:42:56.742 18989 18989 D HomeMate: comm[ main: MainActivity.java:341 onRefresh() ] - mainRefreshType:1
+
+03-08 11:42:56.744 18989 18989 D HomeMate: comm[ main: MainActivity.java:254 refreshCurrentFragment() ] - Current tag is 我的,PersonalFragment{23ace10 #1 id=0x7f0e02d1 我的}
+
+03-08 11:42:56.745 18989 18989 D HomeMate: comm[ main: BaseFragment.java:183 onRefresh() ] - onRefresh()
+
+03-08 11:42:56.745 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:207 refresh() ] - refresh()-appUserName:840432908@qq.com,userId:c17b273d4baa45fb8f3731fa13a9aa07
+
+03-08 11:42:56.746 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:209 refresh() ] - refresh(0)-account:Account{userId='c17b273d4baa45fb8f3731fa13a9aa07', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='840432908@qq.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1488852287000', createTime='1488852287000', updateTimeSec=0, uid='null', userName='jxjd'}
+
+03-08 11:42:56.749 18989 18989 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=ee9d0740fea14e87af14293fafd63f66&userName=840432908@qq.com
+
+03-08 11:42:56.750 18989 19260 D HomeMate: hank[ Thread-4958: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:2
+
+03-08 11:42:56.751 18989 18989 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"2fe284d31c6d4e6f814b637109fed1be","url":null}
+
+03-08 11:42:56.756 18989 18989 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-08 11:42:56.756 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 11:42:56.758 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:148 setHubView() ] - hub uid :[]
+
+03-08 11:42:56.759 18989 18989 V AsyncHttpRH: Progress 59 from 1 (5900%)
+
+03-08 11:42:56.760 18989 18989 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"未设置头�?","file":"","errorCode":56}
+
+03-08 11:42:56.760 18989 18989 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 未设置头�?
+
+03-08 11:42:56.760 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:392 onGetAccountIconResult() ] - 
+
+03-08 11:42:56.768 18989 19264 D FeedbackAPI: sign before:appkey=23256401&deviceId=WJfwe+sntC4DAAdSBLpxQDCW
+
+03-08 11:42:56.774 18989 18989 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:true,position:3
+
+03-08 11:42:56.777 18989 19264 D FeedbackAPI : sign after:e469344ba86f5f3f88c8fd188558071e8ce8dba2
+
+03-08 11:42:56.787   372   476 I ThermalEngine: Sensor:batt_temp:335 mC
+
+03-08 11:42:56.835  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 11:42:56.835  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 11:42:56.835  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 11:42:56.835  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+03-08 11:42:56.835  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 11:42:56.835  4269  4269 D wpa_supplicant: wlan0: Scan completed in 3.952909 seconds
+
+03-08 11:42:56.836  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 11:42:56.836  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 11:42:56.836  4269  4269 D wpa_supplicant: nl80211: Received scan results (27 BSSes)
+
+03-08 11:42:56.836  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 9158
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 27434 BSSID c0:3d:46:00:4e:26 SSID '22.1_\xe5\xa4\x96\xe7\xbd\x91'
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 27435 BSSID e0:10:7f:0c:0b:98 SSID 'ORVIBO'
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 27436 BSSID e0:10:7f:4c:0b:98 SSID 'WX-ORVIBO-Guest'
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=44
+
+03-08 11:42:56.837  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.841  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 27426 BSSID c0:3d:46:00:4e:27 SSID '22.1_\xe5\xa4\x96\xe7\xbd\x91' due to no match in scan
+
+03-08 11:42:56.841  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 11:42:56.841  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.841  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 27430 BSSID e0:10:7f:4b:f3:68 SSID 'WX-ORVIBO-Guest' due to no match in scan
+
+03-08 11:42:56.841  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=46
+
+03-08 11:42:56.841  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.842  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 27431 BSSID e0:10:7f:0b:f3:68 SSID 'ORVIBO' due to no match in scan
+
+03-08 11:42:56.842  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 11:42:56.842  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.842  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 27421 BSSID 64:09:80:51:3f:74 SSID 'FuckMe' due to no match in scan
+
+03-08 11:42:56.842  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 27425 BSSID 00:0c:43:43:6f:f7 SSID 'MWIFI-GLUO' due to no match in scan
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=27/64
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=24
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 3.975938 seconds
+
+03-08 11:42:56.844  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 11:42:56.848  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 11:42:56.850  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3821
+
+03-08 11:42:56.852  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3734
+
+03-08 11:42:56.855  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4086
+
+03-08 11:42:56.857  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3914
+
+03-08 11:42:56.859  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=2257
+
+03-08 11:42:56.862   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [27] AP's
+
+03-08 11:42:56.899 18989 18989 V AsyncHttpRH: Progress 59 from 1 (5900%)
+
+03-08 11:42:56.899 18989 18989 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"未设置头�?","file":"","errorCode":56}
+
+03-08 11:42:56.900 18989 18989 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 未设置头�?
+
+03-08 11:42:56.900 18989 18989 D HomeMate: comm[ main: PersonalFragment.java:392 onGetAccountIconResult() ] - 
+
+03-08 11:42:56.902 18989 19264 D HomeMate: hank[ Thread-4960: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:2
+
+03-08 11:42:56.906 18989 18989 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:true,position:3
+
+03-08 11:42:56.910  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 11:42:56.910  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 11:42:56.920  4188  4206 I StepsProvider: Steps Provider Query
+
+03-08 11:42:56.942 26390 26435 E WifiScanHomelog: start process end time - 18
+
+03-08 11:42:56.944 26390 27008 E WifiDeviceFinder: start process end time - 21
+
+03-08 11:42:57.608 18927 18927 I QueryController: Matched selector: UiSelector[TEXT=房间管理] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800212a0; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 830 - 352, 889); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 房间管理; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 11:42:57.647 18927 18927 I QueryController: Matched selector: UiSelector[TEXT=房间管理] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800212a0; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 830 - 352, 889); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 房间管理; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 11:42:57.652 18927 18927 D InteractionController: clickAndSync(264, 859)
+
+03-08 11:42:57.788   372   476 I ThermalEngine: Sensor:batt_temp:335 mC
+
+03-08 11:42:57.794 18989 18989 I Timeline: Timeline: Activity_launch_request time:87470731
+
+--------- beginning of system
+
+03-08 11:42:57.805  1923  4377 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity} from uid 10133 on display 0
+
+03-08 11:42:57.809  4188  4327 D WtProcessController: onAMCreateActivity callback
+
+03-08 11:42:57.811  4188  4327 D WtProcessController: onAMPauseActivity callback
+
+03-08 11:42:57.824  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 11:42:57.827  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 11:42:57.829 18989 18989 D HomeMate: comm[ main: BaseFragment.java:105 onPause() ] - PersonalFragment
+
+03-08 11:42:57.854 18989 18989 D UTAnalytics:UTDC: pid:18989 [commit] page:Main,eventId:2001,arg1:Launch,arg2:arg3:4636,args:{SDKTYPE=mini},
+
+03-08 11:42:57.858 18989 18989 D UTAnalytics:UTLog: pid:18989 Log [id=0, eventId=2001, index=],867451020054497||WL4Uxp3/0mBYvRluo5uk/g==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.200||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488944570736||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488944577854||Main||2001||Launch||-||4636||-,
+
+03-08 11:42:57.858 18989 18989 D UTAnalytics:LogStoreMgr: pid:18989 [add] :,
+
+03-08 11:42:57.861 18989 18989 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - MainActivity
+
+03-08 11:42:57.865  4188  4327 D WtProcessController: onAMRestartActivity callback
+
+03-08 11:42:57.868  1923  4237 I Timeline: Timeline: App_transition_ready time:87470805
+
+03-08 11:42:57.886 18989 18989 D HomeMate: comm[ main: BaseActivity.java:128 onCreate() ] - onCreate:RoomManagerActivity
+
+03-08 11:42:57.886 18989 18989 D HomeMate: allen[ main: ActivityManager.java:43 pushActivity() ] - pushActivity:com.orvibo.homemate.roomfloor.manager.RoomManagerActivity@c9fcdf6
+
+03-08 11:42:57.906 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8090b
+
+03-08 11:42:57.906 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@faf63e8
+
+03-08 11:42:57.910 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@b8e6a01
+
+03-08 11:42:57.910 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@db5a0a6
+
+03-08 11:42:57.915 18989 18989 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? order by sequence asc
+
+03-08 11:42:57.920 18989 18989 D HomeMate: comm[ main: BaseActivity.java:155 onResume() ] - RoomManagerActivity
+
+03-08 11:42:57.922 18989 19067 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? or floorId=? order by sequence asc
+
+03-08 11:42:57.925 18989 19067 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 11:42:57.927 18989 19067 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 11:42:57.927 18989 19067 D HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM room INNER JOIN floor ON room.floorId = floor.floorId WHERE room.delFlag = 0 AND floor.delFlag = 0 AND floor.familyId=?
+
+03-08 11:42:57.917  3723  3723 W Binder_3: type=1400 audit(0.0:1002173): avc: denied { ioctl } for path="socket:[3264027]" dev="sockfs" ino=3264027 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 11:42:57.917  3723  3723 W Binder_3: type=1400 audit(0.0:1002174): avc: denied { ioctl } for path="socket:[3264027]" dev="sockfs" ino=3264027 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 11:42:57.931 18989 19067 D HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM device INNER JOIN userGatewayBind ON device.uid = userGatewayBind.uid WHERE device.delFlag = 0 AND userGatewayBind.delFlag = 0 AND familyId = ? AND roomId IN ('','0','657e5607dc0d4a679b6c08743f8792e9') AND deviceType IN (22,23,65,66,18,14,1,0,38,19,43,2,29,67,30,11,8,52,5,58,7,32,6,59,60,33,36,34,42,35,4,37,3,39,57,64,9,10,17,20)  ORDER BY createTime DESC
+
+03-08 11:42:57.934 18989 18989 D ActivityThreadInjector: clearCachedDrawables.
+
+03-08 11:42:57.934 18989 19067 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 11:42:57.949  1923  4325 I Timeline: Timeline: App_transition_ready time:87470886
+
+03-08 11:42:57.951  1923  4325 I Timeline: Timeline: App_transition_ready time:87470888
+
+03-08 11:42:57.959 18989 18989 E RecyclerView: No adapter attached; skipping layout
+
+03-08 11:42:57.974  1923  2113 I Timeline: Timeline: App_transition_ready time:87470911
+
+03-08 11:42:57.976  1923  2113 I ActivityManager: Displayed com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity: +113ms
+
+03-08 11:42:57.967  4416  4416 W Binder_F: type=1400 audit(0.0:1002175): avc: denied { ioctl } for path="socket:[3262330]" dev="sockfs" ino=3262330 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 11:42:57.967  4416  4416 W Binder_F: type=1400 audit(0.0:1002176): avc: denied { ioctl } for path="socket:[3262330]" dev="sockfs" ino=3262330 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 11:42:57.977  3887  3887 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-08 11:42:57.977 14596 14596 I AppiumUnicodeIME: onFinishInput
+
+03-08 11:42:57.977 14596 14596 I AppiumUnicodeIME: onStartInput
+
+03-08 11:42:57.991 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@5a1cf65
+
+03-08 11:42:57.991 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@34443a
+
+03-08 11:42:58.008 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@c07308d
+
+03-08 11:42:58.008 18989 18989 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@9e8d242
+
+03-08 11:42:58.041 18989 19073 D OpenGLRenderer: endAllStagingAnimators on 0x9fcc3500 (RippleDrawable) with handle 0x9fcf2e00
+
+03-08 11:42:58.251  1923  2113 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ba15a5c u0 com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity t6908} time:87471188
+
+03-08 11:42:58.252  1923  2113 I Timeline: Timeline: App_transition_stopped time:87471189
+
+03-08 11:42:58.266 18989 18989 D HomeMate: comm[ main: BaseFragment.java:116 onStop() ] - PersonalFragment
+
+03-08 11:42:58.266 18989 18989 D HomeMate: comm[ main: BaseActivity.java:214 onStop() ] - MainActivity
+
+03-08 11:42:58.790   372   476 I ThermalEngine: Sensor:batt_temp:335 mC
+
+03-08 11:42:59.771  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 11:42:59.791   372   476 I ThermalEngine: Sensor:batt_temp:335 mC
+
+03-08 11:43:00.080  5352  9829 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-08 11:43:00.080  5352  9829 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10122
+
+03-08 11:43:00.081  5352  9829 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10122 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-08 11:43:00.123  4188  4327 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 18989 Uid: 10133 Start by: activity Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1488944577811 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 2 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10133 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:6908}
+
+03-08 11:43:00.264   372   460 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-08 11:43:00.265   372   509 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-08 11:43:00.265   372   509 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm raised 1 at 55.0 degC
+
+03-08 11:43:00.266   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 1728000
+
+03-08 11:43:00.267   372   509 I ThermalEngine: Mitigation:CPU[0]:1728000 Khz
+
+03-08 11:43:00.267   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 1728000
+
+03-08 11:43:00.267   372   509 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 1728000
+
+03-08 11:43:00.268   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 1728000
+
+03-08 11:43:00.268   372   509 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 1728000
+
+03-08 11:43:00.268   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 1728000
+
+03-08 11:43:00.269   372   509 I ThermalEngine: Mitigation:CPU[3]:1728000 Khz
+
+03-08 11:43:00.328   372   460 I ThermalEngine: Sensor:tsens_tz_sensor5:49000 mC
+
+03-08 11:43:00.330   372   509 I ThermalEngine: Sensor:tsens_tz_sensor5:49000 mC
+
+03-08 11:43:00.330   372   509 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 49.0 degC
+
+03-08 11:43:00.332   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-08 11:43:00.332   372   509 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-08 11:43:00.332   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-08 11:43:00.333   372   509 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-08 11:43:00.334   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-08 11:43:00.334   372   509 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-08 11:43:00.334   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-08 11:43:00.335   372   509 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+

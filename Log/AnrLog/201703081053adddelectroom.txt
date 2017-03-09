@@ -1,0 +1,2543 @@
+--------- beginning of main
+
+03-08 10:52:54.782  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:52:54.787  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:52:54.925 17995 17995 I QueryController: Matched selector: UiSelector[TEXT=房间管理] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80027610; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 830 - 352, 889); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 房间管理; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:54.963 17995 17995 I QueryController: Matched selector: UiSelector[TEXT=房间管理] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80027610; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 830 - 352, 889); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 房间管理; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:54.965 17995 17995 D InteractionController: clickAndSync(264, 859)
+
+03-08 10:52:55.081   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:52:55.112 18065 18065 I Timeline: Timeline: Activity_launch_request time:84468049
+
+--------- beginning of system
+
+03-08 10:52:55.123  1923  3723 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity} from uid 10133 on display 0
+
+03-08 10:52:55.129  4188  4327 D WtProcessController: onAMCreateActivity callback
+
+03-08 10:52:55.130  4188  4327 D WtProcessController: onAMPauseActivity callback
+
+03-08 10:52:55.147 18065 18065 D HomeMate: comm[ main: BaseFragment.java:105 onPause() ] - HomePagerFragment
+
+03-08 10:52:55.149 18065 18065 D HomeMate: comm[ main: BaseFragment.java:105 onPause() ] - PersonalFragment
+
+03-08 10:52:55.163 18065 18065 D HomeMate: comm[ main: BaseFragment.java:105 onPause() ] - HomePagerFragment
+
+03-08 10:52:55.165 18065 18065 D HomeMate: comm[ main: BaseFragment.java:105 onPause() ] - HomePagerFragment
+
+03-08 10:52:55.167 18065 18065 D UTAnalytics:UTDC: pid:18065 [commit] page:Main,eventId:2001,arg1:Launch,arg2:arg3:5248,args:{SDKTYPE=mini},
+
+03-08 10:52:55.171 18065 18065 D UTAnalytics:UTLog: pid:18065 Log [id=0, eventId=2001, index=],867451020054497||WL4Uxp3/0mBYvRluo5uk/g==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.200||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488941567492||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488941575167||Main||2001||Launch||-||5248||-,
+
+03-08 10:52:55.171 18065 18065 D UTAnalytics:LogStoreMgr: pid:18065 [add] :,
+
+03-08 10:52:55.173 18065 18065 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - MainActivity
+
+03-08 10:52:55.176  4188  4327 D WtProcessController: onAMRestartActivity callback
+
+03-08 10:52:55.176  1923  1987 I Timeline: Timeline: App_transition_ready time:84468113
+
+03-08 10:52:55.191 18065 18065 D HomeMate: comm[ main: BaseActivity.java:128 onCreate() ] - onCreate:RoomManagerActivity
+
+03-08 10:52:55.191 18065 18065 D HomeMate: allen[ main: ActivityManager.java:43 pushActivity() ] - pushActivity:com.orvibo.homemate.roomfloor.manager.RoomManagerActivity@e612ba6
+
+03-08 10:52:55.235 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@521ca56
+
+03-08 10:52:55.235 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@f8d8ad7
+
+03-08 10:52:55.237 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8dbcfc4
+
+03-08 10:52:55.237 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@47d5ead
+
+03-08 10:52:55.241 18065 18065 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? order by sequence asc
+
+03-08 10:52:55.254 18065 18065 D HomeMate: comm[ main: BaseActivity.java:155 onResume() ] - RoomManagerActivity
+
+03-08 10:52:55.255 18065 18146 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? or floorId=? order by sequence asc
+
+03-08 10:52:55.258 18065 18146 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 10:52:55.260 18065 18146 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 10:52:55.261 18065 18146 D HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM room INNER JOIN floor ON room.floorId = floor.floorId WHERE room.delFlag = 0 AND floor.delFlag = 0 AND floor.familyId=?
+
+03-08 10:52:55.247  4238  4238 W Binder_B: type=1400 audit(0.0:947088): avc: denied { ioctl } for path="socket:[3077137]" dev="sockfs" ino=3077137 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:55.247  4238  4238 W Binder_B: type=1400 audit(0.0:947089): avc: denied { ioctl } for path="socket:[3077137]" dev="sockfs" ino=3077137 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:55.264 18065 18065 D ActivityThreadInjector: clearCachedDrawables.
+
+03-08 10:52:55.265 18065 18146 D HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM device INNER JOIN userGatewayBind ON device.uid = userGatewayBind.uid WHERE device.delFlag = 0 AND userGatewayBind.delFlag = 0 AND familyId = ? AND roomId IN ('','0','657e5607dc0d4a679b6c08743f8792e9') AND deviceType IN (22,23,65,66,18,14,1,0,38,19,43,2,29,67,30,11,8,52,5,58,7,32,6,59,60,33,36,34,42,35,4,37,3,39,57,64,9,10,17,20)  ORDER BY createTime DESC
+
+03-08 10:52:55.266 18065 18146 I HomeMate: comm[ pool-6-thread-1: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 10:52:55.285  1923  4419 I Timeline: Timeline: App_transition_ready time:84468222
+
+03-08 10:52:55.287  1923  4419 I Timeline: Timeline: App_transition_ready time:84468224
+
+03-08 10:52:55.291 18065 18065 E RecyclerView: No adapter attached; skipping layout
+
+03-08 10:52:55.307  1923  2113 I Timeline: Timeline: App_transition_ready time:84468244
+
+03-08 10:52:55.311  1923  2113 I ActivityManager: Displayed com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity: +136ms
+
+03-08 10:52:55.297  4325  4325 W Binder_C: type=1400 audit(0.0:947090): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:55.311 14596 14596 I AppiumUnicodeIME: onFinishInput
+
+03-08 10:52:55.297  4325  4325 W Binder_C: type=1400 audit(0.0:947091): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:55.311  3887  3887 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-08 10:52:55.312 14596 14596 I AppiumUnicodeIME: onStartInput
+
+03-08 10:52:55.324 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@dbc9478
+
+03-08 10:52:55.324 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@b57f751
+
+03-08 10:52:55.359 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@88049a1
+
+03-08 10:52:55.359 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@89497c6
+
+03-08 10:52:55.421 18065 18152 D OpenGLRenderer: endAllStagingAnimators on 0x9fcf8480 (RippleDrawable) with handle 0x9fb5dff0
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: wlan0: Scan completed in 4.010805 seconds
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Received scan results (33 BSSes)
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 8871
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26627 BSSID e0:10:7f:0b:f3:68 SSID 'ORVIBO'
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.494  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26628 BSSID e0:10:7f:4b:f3:68 SSID 'WX-ORVIBO-Guest'
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=44
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26629 BSSID 00:6b:8e:f0:3c:50 SSID '@ZigbeeTeam_5G'
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=44
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26630 BSSID d0:ee:07:3f:27:1c SSID 'zhanting_5G'
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1344 send_len=44
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26631 BSSID 10:bd:18:08:36:17 SSID 'cisco-3615'
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1792 send_len=44
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26632 BSSID 04:f0:21:26:f9:27 SSID 'yunji-tele'
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=2240 send_len=44
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26589 BSSID 24:69:68:b1:36:12 SSID 'bin' due to no match in scan
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=2688 send_len=46
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26599 BSSID b8:f8:83:ee:be:7b SSID 'HostGroup-InnerNet' due to no match in scan
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=3136 send_len=46
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26607 BSSID 9c:21:6a:9e:48:f8 SSID 'FAST_9E48F8' due to no match in scan
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=3584 send_len=46
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26619 BSSID 3c:df:bd:39:72:f4 SSID '55.1_neiwang' due to no match in scan
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=4032 send_len=46
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.495  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26620 BSSID 10:bd:18:09:51:6d SSID 'iOS-NW' due to no match in scan
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=4032 send_len=46
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=33/64
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=4480 send_len=24
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 4.014886 seconds
+
+03-08 10:52:55.496  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 10:52:55.504  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 10:52:55.507  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3849
+
+03-08 10:52:55.509   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [33] AP's
+
+03-08 10:52:55.509  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3837
+
+03-08 10:52:55.512  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3806
+
+03-08 10:52:55.515  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3845
+
+03-08 10:52:55.518  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3791
+
+03-08 10:52:55.519  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=1275
+
+03-08 10:52:55.582  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 10:52:55.583  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 10:52:55.587  1923  2113 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{bb93af u0 com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity t6826} time:84468524
+
+03-08 10:52:55.589  1923  2113 I Timeline: Timeline: App_transition_stopped time:84468526
+
+03-08 10:52:55.601 18065 18065 D HomeMate: comm[ main: BaseFragment.java:116 onStop() ] - HomePagerFragment
+
+03-08 10:52:55.601 18065 18065 D HomeMate: comm[ main: BaseFragment.java:116 onStop() ] - PersonalFragment
+
+03-08 10:52:55.602 18065 18065 D HomeMate: comm[ main: BaseFragment.java:116 onStop() ] - HomePagerFragment
+
+03-08 10:52:55.602 18065 18065 D HomeMate: comm[ main: BaseFragment.java:116 onStop() ] - HomePagerFragment
+
+03-08 10:52:55.602 18065 18065 D HomeMate: comm[ main: BaseActivity.java:214 onStop() ] - MainActivity
+
+03-08 10:52:55.621 26390 27008 E WifiDeviceFinder: start process end time - 21
+
+03-08 10:52:55.625 26390 26435 E WifiScanHomelog: start process end time - 19
+
+03-08 10:52:55.632  5352  9829 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-08 10:52:55.632  5352  9829 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10122
+
+03-08 10:52:55.632  5352  9829 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10122 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-08 10:52:56.082   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:52:56.147 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:52:56.157 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 [insert] ,, isSuccess:true,ret,1328,
+
+03-08 10:52:56.182 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 350,
+
+03-08 10:52:56.190 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 pos,0,count,1,
+
+03-08 10:52:56.191 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [get],[Log [id=1328, eventId=2001, index=]],
+
+03-08 10:52:56.191 18065 18135 D UTAnalytics:UploadTask: pid:18065 averagePackageSize:237.0,
+
+03-08 10:52:56.247  6869 24532 D MSF.C.NetConnTag: netRecv ssoSeq:-1559255850 uin:*2908 cmd:-316037937 -1559254699
+
+03-08 10:52:56.265  2859  2922 D Q.msg.TroopMsgProxy: insertToList MessageRecord=friendUin:3239senderuin:5866,istroop:1,msgType:-1035,time:1488941576,shmsgseq:25919
+
+03-08 10:52:56.273  2859  2922 D Q.unread.ProxyUnreadMonitor: insertOrUpdateUnread update=--ConversationInfo--,shortUin:*3239,type:1,lastread:25142,unreadCount:777,unreadGiftCount:0,unreadRedPacketCount:0,unreadMark:0
+
+03-08 10:52:56.324  2859  2922 D Q.msg.QQMessageFacadeUnreadMonitor: Recent Msg Unread: (0,0,43) (9980,9000,0) (9953,7230,4) (9992,7000,0) 
+
+03-08 10:52:56.329  4099  5103 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-08 10:52:56.347 18065 18074 I art     : Background partial concurrent mark sweep GC freed 338876(27MB) AllocSpace objects, 7(11MB) LOS objects, 39% free, 54MB/90MB, paused 5.077ms total 150.328ms
+
+03-08 10:52:56.353  2859 18380 D ProxyIpManagerImpl: Load local proxy ip failed, uin:*2908 type: 3 reason: not mobile network!
+
+03-08 10:52:56.354  2859 18380 D TicketManager: get ticket succ, stKey!
+
+03-08 10:52:56.356  2859 18380 D TicketManager: get ticket succ, st!
+
+03-08 10:52:56.374  4099  5103 I XiaomiFirewall: firewall pkgName:com.tencent.mobileqq, result:0x0
+
+03-08 10:52:56.428 17995 17995 I QueryController: Matched selector: UiSelector[TEXT=+添加房间] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800403fb; boundsInParent: Rect(524147, 0 - 524430, 124); boundsInScreen: Rect(739, 565 - 1022, 689); packageName: com.orvibo.homemate; className: android.widget.TextView; text: +添加房间; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/tag_tv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:56.454 17995 17995 I QueryController: Matched selector: UiSelector[TEXT=+添加房间] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800403fb; boundsInParent: Rect(524147, 0 - 524430, 124); boundsInScreen: Rect(739, 565 - 1022, 689); packageName: com.orvibo.homemate; className: android.widget.TextView; text: +添加房间; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/tag_tv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:56.455 17995 17995 D InteractionController: clickAndSync(880, 627)
+
+03-08 10:52:56.462 18065 18135 W System.err: java.lang.reflect.InvocationTargetException
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-08 10:52:56.463 18065 18135 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+03-08 10:52:56.463 18065 18135 W System.err: 	... 11 more
+
+03-08 10:52:56.539 18065 18135 D UTAnalytics:UploadTask: pid:18065 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.200&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1488941576208&u=&is=1&k=0,
+
+03-08 10:52:56.539 18065 18135 D UTAnalytics:UploadTask: pid:18065 result:{"t":1488941576415,"ret":"","success":"success"}
+
+03-08 10:52:56.539 18065 18135 D UTAnalytics:UploadTask: ,
+
+03-08 10:52:56.539 18065 18135 D UTAnalytics:UploadTask: pid:18065 winsize:128,
+
+03-08 10:52:56.539 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [Log [id=1328, eventId=2001, index=]],
+
+03-08 10:52:56.572 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 delete ,1, isSuccess:true,
+
+03-08 10:52:56.572 18065 18135 D UTAnalytics:CoreStatics: pid:18065 [uploadInc]:4,count:1,
+
+03-08 10:52:56.572 18065 18135 D UTAnalytics:CoreStatics: pid:18065 [uploadInc]:5,
+
+03-08 10:52:56.572 18065 18135 D UTAnalytics:UploadTask: pid:18065 logs.size():1, selfMonitorLogCount:0,
+
+03-08 10:52:56.572 18065 18135 D UTAnalytics:UploadTask: pid:18065 upload isSendSuccess:true, consume:349, delete consume:32,
+
+03-08 10:52:56.575 18065 18065 I Timeline: Timeline: Activity_launch_request time:84469512
+
+03-08 10:52:56.579  1923  1987 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.roomfloor.room.AddOrModifyRoomActivity (has extras)} from uid 10133 on display 0
+
+03-08 10:52:56.583  4188  4327 D WtProcessController: onAMCreateActivity callback
+
+03-08 10:52:56.585  4188  4327 D WtProcessController: onAMPauseActivity callback
+
+03-08 10:52:56.597 18065 18065 D UTAnalytics:UTDC: pid:18065 [commit] page:RoomManager,eventId:2001,arg1:Main,arg2:arg3:1344,args:{SDKTYPE=mini},
+
+03-08 10:52:56.601 18065 18065 D UTAnalytics:UTLog: pid:18065 Log [id=0, eventId=2001, index=],867451020054497||WL4Uxp3/0mBYvRluo5uk/g==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.200||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488941567492||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488941576597||RoomManager||2001||Main||-||1344||-,
+
+03-08 10:52:56.601 18065 18065 D UTAnalytics:LogStoreMgr: pid:18065 [add] :,
+
+03-08 10:52:56.602 18065 18065 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - RoomManagerActivity
+
+03-08 10:52:56.605  4188  4327 D WtProcessController: onAMRestartActivity callback
+
+03-08 10:52:56.606  1923  3723 I Timeline: Timeline: App_transition_ready time:84469543
+
+03-08 10:52:56.615 18065 18065 D HomeMate: comm[ main: BaseActivity.java:128 onCreate() ] - onCreate:AddOrModifyRoomActivity
+
+03-08 10:52:56.615 18065 18065 D HomeMate: allen[ main: ActivityManager.java:43 pushActivity() ] - pushActivity:com.orvibo.homemate.roomfloor.room.AddOrModifyRoomActivity@a7b7126
+
+03-08 10:52:56.636 18065 18065 D HomeMate: comm[ main: AddOrModifyRoomActivity.java:238 initData() ] - room:null,mEditType:10,mSequence:5,cameraImageUrl:null
+
+03-08 10:52:56.658  4188  4327 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 18065 Uid: 10133 Start by: activity Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1488941575130 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 3 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10133 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:6826}
+
+03-08 10:52:56.662   372   460 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-08 10:52:56.662   372   509 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-08 10:52:56.662   372   509 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm raised 1 at 55.0 degC
+
+03-08 10:52:56.663   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 1728000
+
+03-08 10:52:56.663 26902 18026 W System.err: java.net.SocketTimeoutException: failed to connect to loc.map.baidu.com/14.215.177.33 (port 443) after 12000ms
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:169)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:452)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at java.net.Socket.connect(Socket.java:884)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:117)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectTls(SocketConnector.java:79)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.Connection.connect(Connection.java:143)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.Connection.connectAndSetOwner(Connection.java:185)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:342)
+
+03-08 10:52:56.663   372   509 I ThermalEngine: Mitigation:CPU[0]:1728000 Khz
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:331)
+
+03-08 10:52:56.663   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 1728000
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:437)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:114)
+
+03-08 10:52:56.663   372   509 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 1728000
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:89)
+
+03-08 10:52:56.663   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 1728000
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:25)
+
+03-08 10:52:56.663 26902 18026 W System.err: 	at com.baidu.location.h.e$4.run(Unknown Source)
+
+03-08 10:52:56.664 26902 18026 I baidu_location_service: https NetworkCommunicationException!
+
+03-08 10:52:56.664   372   509 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 1728000
+
+03-08 10:52:56.664   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 1728000
+
+03-08 10:52:56.664   372   509 I ThermalEngine: Mitigation:CPU[3]:1728000 Khz
+
+03-08 10:52:56.702  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:52:56.718 18065 18065 D HomeMate: comm[ main: BaseActivity.java:155 onResume() ] - AddOrModifyRoomActivity
+
+03-08 10:52:56.707  4325  4325 W Binder_C: type=1400 audit(0.0:947092): avc: denied { ioctl } for path="socket:[3077210]" dev="sockfs" ino=3077210 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:56.707  4325  4325 W Binder_C: type=1400 audit(0.0:947093): avc: denied { ioctl } for path="socket:[3077210]" dev="sockfs" ino=3077210 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:56.722 18065 18065 D ActivityThreadInjector: clearCachedDrawables.
+
+03-08 10:52:56.737 26902 26918 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:52:56.747  1923  4106 I Timeline: Timeline: App_transition_ready time:84469684
+
+03-08 10:52:56.749  1923  4106 I Timeline: Timeline: App_transition_ready time:84469686
+
+03-08 10:52:56.776  1923  2113 I Timeline: Timeline: App_transition_ready time:84469713
+
+03-08 10:52:56.767  4106  4106 W Binder_7: type=1400 audit(0.0:947094): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:56.782  1923  2113 I ActivityManager: Displayed com.orvibo.homemate/.roomfloor.room.AddOrModifyRoomActivity: +179ms
+
+03-08 10:52:56.783 14596 14596 I AppiumUnicodeIME: onFinishInput
+
+03-08 10:52:56.783 14596 14596 I AppiumUnicodeIME: onStartInput
+
+03-08 10:52:56.767  4106  4106 W Binder_7: type=1400 audit(0.0:947095): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:56.784  3887  3887 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-08 10:52:57.050  1923  2113 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{1f4ffa8 u0 com.orvibo.homemate/.roomfloor.room.AddOrModifyRoomActivity t6826} time:84469987
+
+03-08 10:52:57.051  1923  2113 I Timeline: Timeline: App_transition_stopped time:84469988
+
+03-08 10:52:57.056 18065 18065 D HomeMate: comm[ main: BaseActivity.java:214 onStop() ] - RoomManagerActivity
+
+03-08 10:52:57.083   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:52:57.111   372   460 I ThermalEngine: Sensor:tsens_tz_sensor5:49000 mC
+
+03-08 10:52:57.112   372   509 I ThermalEngine: Sensor:tsens_tz_sensor5:49000 mC
+
+03-08 10:52:57.112   372   509 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 49.0 degC
+
+03-08 10:52:57.113   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-08 10:52:57.113   372   509 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-08 10:52:57.113   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-08 10:52:57.113   372   509 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-08 10:52:57.113   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-08 10:52:57.113   372   509 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-08 10:52:57.113   372   509 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-08 10:52:57.113   372   509 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-08 10:52:57.680  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:52:57.792  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:52:57.808  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:52:57.849 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:57.879 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:57.879 17995 17995 D UiObject: getText() = 请输入房间名�?
+
+03-08 10:52:57.895 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:52:58.084   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:52:58.499 18065 18065 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+
+03-08 10:52:58.497  4377  4377 W Binder_E: type=1400 audit(0.0:947096): avc: denied { ioctl } for path="socket:[3078223]" dev="sockfs" ino=3078223 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:58.497  4377  4377 W Binder_E: type=1400 audit(0.0:947097): avc: denied { ioctl } for path="socket:[3078223]" dev="sockfs" ino=3078223 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:58.797  1980  1980 W Binder_1: type=1400 audit(0.0:947098): avc: denied { ioctl } for path="socket:[3076923]" dev="sockfs" ino=3076923 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:58.797  1980  1980 W Binder_1: type=1400 audit(0.0:947099): avc: denied { ioctl } for path="socket:[3076923]" dev="sockfs" ino=3076923 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:52:59.005  6869  6988 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:52:59.007  6869  6988 W beacon  : onUserAction return false, because eventName:[MixedMsgReceived] is not allowed in server strategy!
+
+03-08 10:52:59.009  6869  6988 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:52:59.011  6869  6988 W beacon  : onUserAction return false, because eventName:[actDnsReq] is not allowed in server strategy!
+
+03-08 10:52:59.014  6869  6988 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:52:59.015  6869  6988 W beacon  : onUserAction return false, because eventName:[actGroupPicSmallDownV1] is not allowed in server strategy!
+
+03-08 10:52:59.085   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:52:59.797 29006 29006 W AppWatcher: type=1400 audit(0.0:947100): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534634 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:52:59.797 29006 29006 W AppWatcher: type=1400 audit(0.0:947101): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534633 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:52:59.797 29006 29006 W AppWatcher: type=1400 audit(0.0:947102): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-08 10:52:59.817 29006 29006 W AppWatcher: type=1400 audit(0.0:947103): avc: denied { getattr } for path="/proc/1" dev="proc" ino=907269 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-08 10:52:59.817 29006 29006 W AppWatcher: type=1400 audit(0.0:947104): avc: denied { getattr } for path="/proc/2" dev="proc" ino=907270 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.817 29006 29006 W AppWatcher: type=1400 audit(0.0:947105): avc: denied { getattr } for path="/proc/3" dev="proc" ino=907271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.817 29006 29006 W AppWatcher: type=1400 audit(0.0:947106): avc: denied { getattr } for path="/proc/6" dev="proc" ino=907272 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947107): avc: denied { getattr } for path="/proc/7" dev="proc" ino=907273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947108): avc: denied { getattr } for path="/proc/8" dev="proc" ino=907274 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947109): avc: denied { getattr } for path="/proc/21" dev="proc" ino=907275 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947110): avc: denied { getattr } for path="/proc/22" dev="proc" ino=907276 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947111): avc: denied { getattr } for path="/proc/28" dev="proc" ino=907278 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947112): avc: denied { getattr } for path="/proc/29" dev="proc" ino=907279 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947113): avc: denied { getattr } for path="/proc/30" dev="proc" ino=907280 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947114): avc: denied { getattr } for path="/proc/32" dev="proc" ino=907281 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947115): avc: denied { getattr } for path="/proc/33" dev="proc" ino=907282 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947116): avc: denied { getattr } for path="/proc/34" dev="proc" ino=907283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947117): avc: denied { getattr } for path="/proc/61" dev="proc" ino=907284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.827 29006 29006 W AppWatcher: type=1400 audit(0.0:947118): avc: denied { getattr } for path="/proc/62" dev="proc" ino=907285 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947119): avc: denied { getattr } for path="/proc/63" dev="proc" ino=907286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947120): avc: denied { getattr } for path="/proc/64" dev="proc" ino=907287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947121): avc: denied { getattr } for path="/proc/65" dev="proc" ino=907288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947122): avc: denied { getattr } for path="/proc/66" dev="proc" ino=907289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947123): avc: denied { getattr } for path="/proc/67" dev="proc" ino=907290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947124): avc: denied { getattr } for path="/proc/68" dev="proc" ino=907291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947125): avc: denied { getattr } for path="/proc/69" dev="proc" ino=907292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947126): avc: denied { getattr } for path="/proc/70" dev="proc" ino=907293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:52:59.837 29006 29006 W AppWatcher: type=1400 audit(0.0:947127): avc: denied { getattr } for path="/proc/71" dev="proc" ino=907294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:00.086   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:53:00.178 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:53:00.189  1923  1980 D BaseMiuiPhoneWindowManager: keyCode:67 down:true 84473124 84473124 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:00.189  1923  1980 D WindowManager: keyguardActive=false
+
+03-08 10:53:00.197 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='67', event.keyCode='67', metaState='0')
+
+03-08 10:53:00.205 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 [insert] ,, isSuccess:true,ret,1329,
+
+03-08 10:53:00.217  1923  4377 D BaseMiuiPhoneWindowManager: keyCode:67 down:false 84473124 84473124 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:00.217  1923  4377 D WindowManager: keyguardActive=false
+
+03-08 10:53:00.218 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='67', event.keyCode='67', metaState='0')
+
+03-08 10:53:00.534 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:00.538 17995 17995 D UiObject: getText() = 请输入房间名�?
+
+03-08 10:53:00.630 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:00.630 17995 17995 D UiObject: getText() = 请输入房间名�?
+
+03-08 10:53:00.677 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:00.684  1923  4130 D BaseMiuiPhoneWindowManager: keyCode:67 down:true 84473619 84473619 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:00.684  1923  4130 D WindowManager: keyguardActive=false
+
+03-08 10:53:00.689 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='67', event.keyCode='67', metaState='0')
+
+03-08 10:53:00.702  1923  3920 D BaseMiuiPhoneWindowManager: keyCode:67 down:false 84473619 84473619 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:00.702  1923  3920 D WindowManager: keyguardActive=false
+
+03-08 10:53:00.704 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='67', event.keyCode='67', metaState='0')
+
+03-08 10:53:00.712  1923  4106 D BaseMiuiPhoneWindowManager: keyCode:112 down:true 84473649 84473649 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:00.712  1923  4106 D WindowManager: keyguardActive=false
+
+03-08 10:53:00.719 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='112', event.keyCode='112', metaState='0')
+
+03-08 10:53:00.721  1923  4416 D BaseMiuiPhoneWindowManager: keyCode:112 down:false 84473649 84473649 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:00.721  1923  4416 D WindowManager: keyguardActive=false
+
+03-08 10:53:00.722 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='112', event.keyCode='112', metaState='0')
+
+03-08 10:53:00.736 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:00.736 17995 17995 D UiObject: getText() = 请输入房间名�?
+
+03-08 10:53:00.748 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:00.748 17995 17995 D UiObject: getText() = 请输入房间名�?
+
+03-08 10:53:00.762 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/room_name_et] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80041300; boundsInParent: Rect(0, 0 - 816, 132); boundsInScreen: Rect(264, 189 - 1080, 321); packageName: com.orvibo.homemate; className: android.widget.EditText; text: 请输入房间名�?; error: null; maxTextLength: 32; contentDescription: null; viewIdResName: com.orvibo.homemate:id/room_name_et; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_CLEAR_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_PASTE - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:00.814  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:00.828  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:01.025 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:53:01.045 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 128,
+
+03-08 10:53:01.046 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 pos,0,count,1,
+
+03-08 10:53:01.047 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [get],[Log [id=1329, eventId=2001, index=]],
+
+03-08 10:53:01.048 18065 18135 D UTAnalytics:UploadTask: pid:18065 averagePackageSize:241.0,
+
+03-08 10:53:01.088   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:53:01.279 18065 18065 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+
+03-08 10:53:01.350 18065 18135 W System.err: java.lang.reflect.InvocationTargetException
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-08 10:53:01.350 18065 18135 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+03-08 10:53:01.350 18065 18135 W System.err: 	... 11 more
+
+03-08 10:53:01.353  4099  5103 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-08 10:53:01.437 18065 18135 D UTAnalytics:UploadTask: pid:18065 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.200&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1488941581069&u=&is=1&k=0,
+
+03-08 10:53:01.438 18065 18135 D UTAnalytics:UploadTask: pid:18065 result:{"t":1488941580799,"ret":"","success":"success"}
+
+03-08 10:53:01.438 18065 18135 D UTAnalytics:UploadTask: ,
+
+03-08 10:53:01.438 18065 18135 D UTAnalytics:UploadTask: pid:18065 winsize:115,
+
+03-08 10:53:01.443 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [Log [id=1329, eventId=2001, index=]],
+
+03-08 10:53:01.478 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 delete ,1, isSuccess:true,
+
+03-08 10:53:01.478 18065 18135 D UTAnalytics:CoreStatics: pid:18065 [uploadInc]:5,count:1,
+
+03-08 10:53:01.478 18065 18135 D UTAnalytics:CoreStatics: pid:18065 [uploadInc]:6,
+
+03-08 10:53:01.478 18065 18135 D UTAnalytics:UploadTask: pid:18065 logs.size():1, selfMonitorLogCount:0,
+
+03-08 10:53:01.478 18065 18135 D UTAnalytics:UploadTask: pid:18065 upload isSendSuccess:true, consume:390, delete consume:40,
+
+03-08 10:53:01.685 18065 18135 D UTAnalytics:UploadEngine: pid:18065 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-08 10:53:01.692 18065 18135 D UTAnalytics:UploadTask: pid:18065 mPeriod:30000,
+
+03-08 10:53:01.709  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:02.089   372   476 I ThermalEngine: Sensor:batt_temp:319 mC
+
+03-08 10:53:03.046  1923  4238 D BaseMiuiPhoneWindowManager: keyCode:67 down:true 84475982 84475982 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.046  1923  4238 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.057 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='67', event.keyCode='67', metaState='0')
+
+03-08 10:53:03.059  1923  1987 D BaseMiuiPhoneWindowManager: keyCode:67 down:false 84475982 84475982 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.059  1923  1987 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.062 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='67', event.keyCode='67', metaState='0')
+
+03-08 10:53:03.071  1923  1980 D BaseMiuiPhoneWindowManager: keyCode:16 down:true 84476008 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.072  1923  1980 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.077 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='16', event.keyCode='16', metaState='0')
+
+03-08 10:53:03.090   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:03.108  1923  4325 D BaseMiuiPhoneWindowManager: keyCode:16 down:false 84476045 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.109  1923  4325 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.111 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='16', event.keyCode='16', metaState='0')
+
+03-08 10:53:03.118  1923  4106 D BaseMiuiPhoneWindowManager: keyCode:10 down:true 84476055 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.119  1923  4106 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.121 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='10', event.keyCode='10', metaState='0')
+
+03-08 10:53:03.129  1923  1987 D BaseMiuiPhoneWindowManager: keyCode:10 down:false 84476066 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.130  1923  1987 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.131 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='10', event.keyCode='10', metaState='0')
+
+03-08 10:53:03.132  1923  4122 D BaseMiuiPhoneWindowManager: keyCode:41 down:true 84476068 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.132  1923  4122 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.133 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='41', event.keyCode='41', metaState='0')
+
+03-08 10:53:03.134  1923  4237 D BaseMiuiPhoneWindowManager: keyCode:41 down:false 84476071 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.134  1923  4237 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.135 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='41', event.keyCode='41', metaState='0')
+
+03-08 10:53:03.136  1923  4130 D BaseMiuiPhoneWindowManager: keyCode:37 down:true 84476073 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.136  1923  4130 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.137 14596 14596 I AppiumUnicodeIME: onKeyDown (keyCode='37', event.keyCode='37', metaState='0')
+
+03-08 10:53:03.138  1923  3920 D BaseMiuiPhoneWindowManager: keyCode:37 down:false 84476074 84476008 policyFlags=2b000000 deviceId:-1 isScreenOn:true
+
+03-08 10:53:03.138  1923  3920 D WindowManager: keyguardActive=false
+
+03-08 10:53:03.139 14596 14596 I AppiumUnicodeIME: onKeyUp (keyCode='37', event.keyCode='37', metaState='0')
+
+03-08 10:53:03.162  1923  3680 D WifiStateMachine: starting scan for "18.1_neiwang"-WPA_PSK with 5745,2422
+
+03-08 10:53:03.162  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2422'
+
+03-08 10:53:03.162  4269  4269 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-08 10:53:03.162  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb6919398
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb6919398 after 0.000114 second wait
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: nl80211: Scan frequency 2422 MHz
+
+03-08 10:53:03.163  4269  4269 D wpa_supplicant: nl80211: Scan frequency 5745 MHz
+
+03-08 10:53:03.177  4269  4269 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-08 10:53:03.178  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:03.178  4269  4269 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-08 10:53:03.178  4269  4269 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-08 10:53:03.178  4269  4269 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-08 10:53:03.178  4269  4269 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000296 seconds
+
+03-08 10:53:03.178  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:03.179  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2422 5745
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: wlan0: Scan completed in 0.121184 seconds
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Received scan results (33 BSSes)
+
+03-08 10:53:03.299  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 8872
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=33/64
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 0.136971 seconds
+
+03-08 10:53:03.300  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 10:53:03.304  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 10:53:03.307  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3849
+
+03-08 10:53:03.309  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3837
+
+03-08 10:53:03.311  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3806
+
+03-08 10:53:03.314  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3845
+
+03-08 10:53:03.315  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3791
+
+03-08 10:53:03.317  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=1275
+
+03-08 10:53:03.339   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [7] AP's
+
+03-08 10:53:03.373  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 10:53:03.373  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 10:53:03.719 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/save_tv] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80040b7e; boundsInParent: Rect(0, 0 - 1080, 132); boundsInScreen: Rect(0, 1248 - 1080, 1380); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 保存; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/save_tv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:03.793 17995 17995 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/save_tv] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80040b7e; boundsInParent: Rect(0, 0 - 1080, 132); boundsInScreen: Rect(0, 1248 - 1080, 1380); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 保存; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/save_tv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:03.798 17995 17995 D InteractionController: clickAndSync(540, 1314)
+
+03-08 10:53:03.830  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:03.846  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:03.923 18065 18065 D HomeMate: comm[ main: AddOrModifyRoomPresenter.java:50 addRoom() ] - room:Room{roomId='null', roomName='93mi', floorId='cc31dbafe6d74ca495041e0c085b6f68', roomType=14, sequence=5, isDefaultRoom=false, imgUrl='null'} BaseBo{delFlag=0, updateTime='null', createTime='null', updateTimeSec=0, uid='null', userName='840432908@qq.com'}
+
+03-08 10:53:03.924 18065 18065 I HomeMate: comm[ main: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? order by sequence asc
+
+03-08 10:53:03.928 18065 18065 D HomeMate: comm[ main: UpdateTimeCache.java:89 getUpdateTime() ] - get 657e5607dc0d4a679b6c08743f8792e9's latest time is 1488941517000[2017-03-08 10:51:57],minTime:0
+
+03-08 10:53:03.929 18065 18065 D HomeMate: comm[ main: CmdManage.java:4936 getCommand() ] - getCommand()-cmd:8,len:234,crc:E2E83EEE,sessionId:f832a867b4b542fda4234c8314874892,key:i95paF7WDkIpMbL5,uid:null,socketModel:SERVER,serial:1205434973
+
+03-08 10:53:03.929 18065 18065 D HomeMate: requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=null}
+
+03-08 10:53:03.929 18065 18065 D HomeMate: json(before encrypt):{"userName":"840432908@qq.com","roomName":"93mi","floorId":"cc31dbafe6d74ca495041e0c085b6f68","roomType":14,"cmd":8,"serial":1205434973,"ver":"2.3.0","lastUpdateTime":1488941517}(178)
+
+03-08 10:53:03.930 18065 18065 I HomeMate: comm[ main: BaseRequest.java:126 doRequestAsync() ] - registerEvent: com.orvibo.homemate.roomfloor.room.AddOrModifyRoomPresenter$2@14c9692
+
+03-08 10:53:03.931 18065 18065 D HomeMate: comm[ main: BaseRequest.java:934 saveSerial() ] - Record serial 1205434973 on com.orvibo.homemate.roomfloor.room.AddOrModifyRoomPresenter$2@14c9692
+
+03-08 10:53:03.933 18065 18174 D HomeMate: comm[ pool-4-thread-1: BaseRequest.java:160 run() ] - Start command:Command{uid='server', serial=1205434973, cmd=8, jsonObject={"userName":"840432908@qq.com","roomName":"93mi","floorId":"cc31dbafe6d74ca495041e0c085b6f68","roomType":14,"cmd":8,"serial":1205434973,"ver":"2.3.0","lastUpdateTime":1488941517}, crc='E2E83EEE', requestConfig=RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}}}
+
+03-08 10:53:03.937 18065 18174 D HomeMate: comm[ pool-4-thread-1: BaseRequest.java:176 run() ] - current count is 0,serial:1205434973
+
+03-08 10:53:03.938 18065 18174 D HomeMate: comm[ pool-4-thread-1: MinaSocket.java:139 send() ] - target:server,position:server start request.requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}},messageLength:234
+
+03-08 10:53:03.938 18065 18174 D HomeMate: sConnectFutures:{server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@2df3bba, 007e5671f027=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@6f338cb}
+
+03-08 10:53:03.943 18065 18174 I HomeMate: comm[ pool-4-thread-1: CodecEncoder.java:44 encode() ] - encode()-编码完成,向IP:/192.168.2.242:10001写数�?(234):68,64,00,ea,64,6b,e2,e8,3e,ee,66,38,33,32,61,38,36,37,62,34,62,35,34,32,66,64,61,34,32,33,34,63,38,33,31,34,38,37,34,38,39,32,ec,af,d7,e7,4b,8d,96,79,54,2b,6d,91,b8,9a,34,1f,05,97,9f,0f,3a,f8,0c,6e,18,47,f8,34,6d,c6,1a,f6,ae,74,88,b1,20,49,e3,55,31,a1,21,7d,45,9f,aa,17,94,73,37,e7,b5,33,4d,81,f1,f2,79,82,78,03,4a,48,35,47,fb,54,39,b0,d4,1f,0f,cb,88,9f,f1,21,0a,cf,ff,66,fa,e2,65,cb,60,f3,3e,b6,69,f8,f5,13,89,7f,bf,ba,7d,33,26,45,15,74,94,0e,3e,46,f2,59,86,f0,82,56,95,4a,1c,62,3c,85,6f,5e,c6,0c,c6,02,10,cf,ad,d7,d0,37,a2,89,54,f2,1e,30,82,04,13,45,d7,37,02,c5,21,41,da,7b,2a,fd,28,47,f7,06,14,66,4b,af,b5,dc,ad,de,d9,df,b5,51,72,31,c8,b3,41,54,81,04,37,19,7e,27,c2,89,60,53,1b,f8,c3,79,20,5f,a2,1d
+
+03-08 10:53:03.945 18065 18174 D HomeMate: comm[ pool-4-thread-1: MinaSocket.java:157 send() ] - isWritten:true,ioSession:(0x00000001: nio socket, client, /192.168.18.181:52122 => /192.168.2.242:10001)
+
+03-08 10:53:03.957  4416  4416 W Binder_F: type=1400 audit(0.0:947367): avc: denied { ioctl } for path="socket:[3079177]" dev="sockfs" ino=3079177 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:03.957  4416  4416 W Binder_F: type=1400 audit(0.0:947368): avc: denied { ioctl } for path="socket:[3079177]" dev="sockfs" ino=3079177 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:03.997  1980  1980 W Binder_1: type=1400 audit(0.0:947369): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:04.005 14596 14596 I AppiumUnicodeIME: onFinishInput
+
+03-08 10:53:03.997  1980  1980 W Binder_1: type=1400 audit(0.0:947370): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:04.006 14596 14596 I AppiumUnicodeIME: onStartInput
+
+03-08 10:53:04.015 18065 18192 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:266
+
+03-08 10:53:04.017 18065 18192 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,1,a,64,6b,d7,27,f7,7e,66,38,33,32,61,38,36,37,62,34,62,35,34,32,66,64,61,34,32,33,34,63,38,33,31,34,38,37,34,38,39,32,89,e0,71,a7,de,0,d7,e3,ed,e2,15,a4,e8,a9,9f,80,35,47,fb,54,39,b0,d4,1f,f,cb,88,9f,f1,21,a,cf,57,2d,3c,b2,4b,5c,24,4c,50,f9,ce,53,4d,d1,3d,a9,8e,da,64,ee,d7,6d,95,49,2e,8b,63,c3,2c,cf,9,f4,b,7b,ea,18,36,26,89,de,13,5d,72,df,83,8,a9,bf,a5,5d,3a,49,11,12,59,54,d9,bf,9f,ee,dc,fa,48,64,10,49,8,9c,a,da,fa,f5,dc,8f,17,7c,65,2b,17,ad,46,62,79,7b,2d,f8,d7,2c,1b,4e,88,3,89,ca,6b,a0,61,8,1,9d,55,47,1b,20,1f,43,7c,b2,2,e2,af,c0,ea,d6,e4,30,e9,af,bc,d6,71,eb,da,69,7,b,69,90,12,2e,af,77,27,0,c3,1,41,89,b2,7,21,26,f1,78,46,4a,78,41,8e,1c,92,be,dc,82,fe,f1,92,de,18,47,36,90,dc,bd,7c,28,23,80,e9,fa,a7,84,71,49,ea,17,66,56,e4,fc,f5,3a,c8,9a,36,ce,f8,9d,4d,87,bd,b7
+
+03-08 10:53:04.017 18065 18193 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:D727F77E,sessionId:f832a867b4b542fda4234c8314874892,jsonLen:224,ip:192.168.2.242,port:10001
+
+03-08 10:53:04.018 18065 18193 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"floorId":"cc31dbafe6d74ca495041e0c085b6f68","serial":1205434973,"updateTime":"2017-03-08 10:53:04","cmd":8,"delFlag":0,"roomId":"950fc1fb8f244aae8b144ab8e7baa7ae","roomName":"93mi","roomType":14,"status":0}]
+
+03-08 10:53:04.030 18065 18065 D HomeMate: comm[ main: BaseRequest.java:433 stopRequest() ] - Stop request which serial is 1205434973 on com.orvibo.homemate.roomfloor.room.AddOrModifyRoomPresenter$2@14c9692
+
+03-08 10:53:04.030 18065 18065 D HomeMate: comm[ main: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM room INNER JOIN floor ON room.floorId = floor.floorId WHERE room.delFlag = 0 AND floor.delFlag = 0 AND floor.familyId=?
+
+03-08 10:53:04.079 18065 18065 D HomeMate: comm[ main: AddOrModifyRoomPresenter.java:164 onAddRoomResult() ] - room:Room{roomId='950fc1fb8f244aae8b144ab8e7baa7ae', roomName='93mi', floorId='cc31dbafe6d74ca495041e0c085b6f68', roomType=14, sequence=7, isDefaultRoom=false, imgUrl='null'} BaseBo{delFlag=0, updateTime='2017-03-08 10:53:04', createTime='0', updateTimeSec=0, uid='null', userName='null'},result:0
+
+03-08 10:53:04.079 18065 18065 D HomeMate: comm[ main: BaseRequest.java:460 stopRequest() ] -  Stop request com.orvibo.homemate.roomfloor.room.AddOrModifyRoomPresenter$2@14c9692
+
+03-08 10:53:04.086  4188  4327 D WtProcessController: onAMPauseActivity callback
+
+03-08 10:53:04.092   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:04.094 18065 18065 W HomeMate: comm[ main: BaseActivity.java:227 finish() ] - AddOrModifyRoomActivity
+
+03-08 10:53:04.117 18065 18065 D UTAnalytics:UTDC: pid:18065 [commit] page:AddOrModifyRoom,eventId:2001,arg1:RoomManager,arg2:arg3:7400,args:{SDKTYPE=mini},
+
+03-08 10:53:04.129 18065 18065 D UTAnalytics:UTLog: pid:18065 Log [id=0, eventId=2001, index=],867451020054497||WL4Uxp3/0mBYvRluo5uk/g==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.200||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488941567492||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488941584117||AddOrModifyRoom||2001||RoomManager||-||7400||-,
+
+03-08 10:53:04.129 18065 18065 D UTAnalytics:LogStoreMgr: pid:18065 [add] :,
+
+03-08 10:53:04.132 18065 18065 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - AddOrModifyRoomActivity
+
+03-08 10:53:04.136  1923  4106 I Timeline: Timeline: App_transition_ready time:84477073
+
+03-08 10:53:04.138  4188  4327 D WtProcessController: onAMResumeActivity callback
+
+03-08 10:53:04.144 18065 18065 D HomeMate: comm[ main: BaseActivity.java:155 onResume() ] - RoomManagerActivity
+
+03-08 10:53:04.145 18065 18157 I HomeMate: comm[ pool-6-thread-2: AbstractBaseDao.java:263 getListData() ] - select * from floor where floor.delFlag= 0 and familyId=? or floorId=? order by sequence asc
+
+03-08 10:53:04.146 18065 18157 I HomeMate: comm[ pool-6-thread-2: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 10:53:04.149 18065 18157 I HomeMate: comm[ pool-6-thread-2: AbstractBaseDao.java:263 getListData() ] - select * from room where room.delFlag= 0 and floorId=? order by sequence asc
+
+03-08 10:53:04.149 18065 18157 D HomeMate: comm[ pool-6-thread-2: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM room INNER JOIN floor ON room.floorId = floor.floorId WHERE room.delFlag = 0 AND floor.delFlag = 0 AND floor.familyId=?
+
+03-08 10:53:04.152 18065 18157 D HomeMate: comm[ pool-6-thread-2: AbstractBaseDao.java:328 getListDataByMultiTable() ] - sql:SELECT * FROM device INNER JOIN userGatewayBind ON device.uid = userGatewayBind.uid WHERE device.delFlag = 0 AND userGatewayBind.delFlag = 0 AND familyId = ? AND roomId IN ('','0','657e5607dc0d4a679b6c08743f8792e9') AND deviceType IN (22,23,65,66,18,14,1,0,38,19,43,2,29,67,30,11,8,52,5,58,7,32,6,59,60,33,36,34,42,35,4,37,3,39,57,64,9,10,17,20)  ORDER BY createTime DESC
+
+03-08 10:53:04.155 18065 18157 I HomeMate: comm[ pool-6-thread-2: AbstractBaseDao.java:263 getListData() ] - select * from userGatewayBind where userGatewayBind.delFlag= 0 and familyId=? 
+
+03-08 10:53:04.158  1923  4130 I Timeline: Timeline: App_transition_ready time:84477095
+
+03-08 10:53:04.157  3995  3995 W Binder_5: type=1400 audit(0.0:947371): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:04.157  3995  3995 W Binder_5: type=1400 audit(0.0:947372): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:04.164 14596 14596 I AppiumUnicodeIME: onFinishInput
+
+03-08 10:53:04.164 14596 14596 I AppiumUnicodeIME: onStartInput
+
+03-08 10:53:04.177 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@caa268e
+
+03-08 10:53:04.177 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@c05deaf
+
+03-08 10:53:04.201 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@58e474c
+
+03-08 10:53:04.201 18065 18065 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@815b395
+
+03-08 10:53:04.232  1923  2113 I Timeline: Timeline: App_transition_ready time:84477169
+
+03-08 10:53:04.235  3887  3887 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-08 10:53:04.277 18065 18152 D OpenGLRenderer: endAllStagingAnimators on 0x9fd90200 (RippleDrawable) with handle 0x9fb8cc70
+
+03-08 10:53:04.510  1923  2113 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{bb93af u0 com.orvibo.homemate/.roomfloor.manager.RoomManagerActivity t6826} time:84477447
+
+03-08 10:53:04.512  1923  2113 I Timeline: Timeline: App_transition_stopped time:84477449
+
+03-08 10:53:04.512  4188  4327 D WtProcessController: onAMDestroyActivity callback
+
+03-08 10:53:04.521 18065 18065 D HomeMate: comm[ main: BaseActivity.java:214 onStop() ] - AddOrModifyRoomActivity
+
+03-08 10:53:04.523 18065 18065 D HomeMate: comm[ main: BaseRequest.java:460 stopRequest() ] -  Stop request com.orvibo.homemate.roomfloor.room.AddOrModifyRoomPresenter$2@14c9692
+
+03-08 10:53:04.523 18065 18065 D HomeMate: comm[ main: BaseActivity.java:409 onDestroy() ] - AddOrModifyRoomActivity
+
+03-08 10:53:04.524 18065 18065 D HomeMate: allen[ main: ActivityManager.java:55 popActivity() ] - popActivity:com.orvibo.homemate.roomfloor.room.AddOrModifyRoomActivity@a7b7126
+
+03-08 10:53:05.093   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:05.383 17995 17995 I QueryController: Matched selector: UiSelector[TEXT=+添加房间] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80055214; boundsInParent: Rect(524147, 0 - 524429, 124); boundsInScreen: Rect(49, 752 - 331, 876); packageName: com.orvibo.homemate; className: android.widget.TextView; text: +添加房间; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/tag_tv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:05.466 17995 17995 I QueryController: Matched selector: UiSelector[TEXT=+添加房间] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80055214; boundsInParent: Rect(524147, 0 - 524429, 124); boundsInScreen: Rect(49, 752 - 331, 876); packageName: com.orvibo.homemate; className: android.widget.TextView; text: +添加房间; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/tag_tv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-08 10:53:05.469 17995 17995 D InteractionController: clickAndSync(190, 814)
+
+03-08 10:53:05.591 18065 18065 I Timeline: Timeline: Activity_launch_request time:84478528
+
+03-08 10:53:05.595  1923  4416 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.roomfloor.room.AddOrModifyRoomActivity (has extras)} from uid 10133 on display 0
+
+03-08 10:53:05.603  4188  4327 D WtProcessController: onAMCreateActivity callback
+
+03-08 10:53:05.604  4188  4327 D WtProcessController: onAMPauseActivity callback
+
+03-08 10:53:05.623 18065 18065 D UTAnalytics:UTDC: pid:18065 [commit] page:RoomManager,eventId:2001,arg1:AddOrModifyRoom,arg2:arg3:1479,args:{SDKTYPE=mini},
+
+03-08 10:53:05.627 18065 18065 D UTAnalytics:UTLog: pid:18065 Log [id=0, eventId=2001, index=],867451020054497||WL4Uxp3/0mBYvRluo5uk/g==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.200||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488941567492||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488941585623||RoomManager||2001||AddOrModifyRoom||-||1479||-,
+
+03-08 10:53:05.628 18065 18065 D UTAnalytics:LogStoreMgr: pid:18065 [add] :,
+
+03-08 10:53:05.630 18065 18065 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - RoomManagerActivity
+
+03-08 10:53:05.634  4188  4327 D WtProcessController: onAMRestartActivity callback
+
+03-08 10:53:05.635  1923  4237 I Timeline: Timeline: App_transition_ready time:84478572
+
+03-08 10:53:05.643 18065 18065 D HomeMate: comm[ main: BaseActivity.java:128 onCreate() ] - onCreate:AddOrModifyRoomActivity
+
+03-08 10:53:05.643 18065 18065 D HomeMate: allen[ main: ActivityManager.java:43 pushActivity() ] - pushActivity:com.orvibo.homemate.roomfloor.room.AddOrModifyRoomActivity@6f65e14
+
+03-08 10:53:05.649  5352  9829 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-08 10:53:05.649  5352  9829 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+03-08 10:53:05.649  5352  9829 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+03-08 10:53:05.660 18065 18065 D HomeMate: comm[ main: AddOrModifyRoomActivity.java:238 initData() ] - room:null,mEditType:10,mSequence:6,cameraImageUrl:null
+
+03-08 10:53:05.724  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:05.739 18065 18065 D HomeMate: comm[ main: BaseActivity.java:155 onResume() ] - AddOrModifyRoomActivity
+
+03-08 10:53:05.737  4237  4237 W Binder_A: type=1400 audit(0.0:947373): avc: denied { ioctl } for path="socket:[3078358]" dev="sockfs" ino=3078358 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:05.737  4237  4237 W Binder_A: type=1400 audit(0.0:947374): avc: denied { ioctl } for path="socket:[3078358]" dev="sockfs" ino=3078358 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:05.749 18065 18065 D ActivityThreadInjector: clearCachedDrawables.
+
+03-08 10:53:05.763  1923  3723 I Timeline: Timeline: App_transition_ready time:84478700
+
+03-08 10:53:05.765  1923  3723 I Timeline: Timeline: App_transition_ready time:84478702
+
+03-08 10:53:05.757  1987  1987 W Binder_2: type=1400 audit(0.0:947375): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:05.772 14596 14596 I AppiumUnicodeIME: onFinishInput
+
+03-08 10:53:05.757  1987  1987 W Binder_2: type=1400 audit(0.0:947376): avc: denied { ioctl } for path="socket:[3074352]" dev="sockfs" ino=3074352 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-08 10:53:05.773 14596 14596 I AppiumUnicodeIME: onStartInput
+
+03-08 10:53:05.792  1923  2113 I Timeline: Timeline: App_transition_ready time:84478729
+
+03-08 10:53:05.795  1923  2113 I ActivityManager: Displayed com.orvibo.homemate/.roomfloor.room.AddOrModifyRoomActivity: +163ms
+
+03-08 10:53:05.795  3887  3887 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-08 10:53:06.064  1923  2113 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{f341484 u0 com.orvibo.homemate/.roomfloor.room.AddOrModifyRoomActivity t6826} time:84479001
+
+03-08 10:53:06.067 18065 18065 D HomeMate: comm[ main: BaseActivity.java:214 onStop() ] - RoomManagerActivity
+
+03-08 10:53:06.067  1923  2113 I Timeline: Timeline: App_transition_stopped time:84479004
+
+03-08 10:53:06.094   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:06.852  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:06.854  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:07.096   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:07.435 18065 18104 W System.err: 无法访问或网络不稳定
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-08 10:53:07.435 18065 18104 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-08 10:53:07.435 18065 18104 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-08 10:53:07.436 18065 18104 W System.err: 	... 9 more
+
+03-08 10:53:07.531  5352  9829 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-08 10:53:07.531  5352  9829 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10122
+
+03-08 10:53:07.531  5352  9829 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10122 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-08 10:53:08.098   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:08.774 26902 18393 W System.err: java.net.SocketTimeoutException: failed to connect to loc.map.baidu.com/14.215.177.33 (port 443) after 12000ms
+
+03-08 10:53:08.775 26902 18393 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:169)
+
+03-08 10:53:08.775 26902 18393 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+
+03-08 10:53:08.775 26902 18393 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+
+03-08 10:53:08.775 26902 18393 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:452)
+
+03-08 10:53:08.775 26902 18393 W System.err: 	at java.net.Socket.connect(Socket.java:884)
+
+03-08 10:53:08.775 26902 18393 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:117)
+
+03-08 10:53:08.776 26902 18393 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160)
+
+03-08 10:53:08.776 26902 18393 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectTls(SocketConnector.java:79)
+
+03-08 10:53:08.776 26902 18393 W System.err: 	at com.android.okhttp.Connection.connect(Connection.java:143)
+
+03-08 10:53:08.776 26902 18393 W System.err: 	at com.android.okhttp.Connection.connectAndSetOwner(Connection.java:185)
+
+03-08 10:53:08.777 26902 18393 W System.err: 	at com.android.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128)
+
+03-08 10:53:08.777 26902 18393 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:342)
+
+03-08 10:53:08.777 26902 18393 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:331)
+
+03-08 10:53:08.778 26902 18393 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+
+03-08 10:53:08.778 26902 18393 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:437)
+
+03-08 10:53:08.780 26902 18393 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:114)
+
+03-08 10:53:08.780 26902 18393 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:89)
+
+03-08 10:53:08.780 26902 18393 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:25)
+
+03-08 10:53:08.781 26902 18393 W System.err: 	at com.baidu.location.h.e$4.run(Unknown Source)
+
+03-08 10:53:08.781 26902 18393 I baidu_location_service: https NetworkCommunicationException!
+
+03-08 10:53:08.845  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:53:08.863  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+
+03-08 10:53:08.863  4269  4269 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb6919398
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb6919398 after 0.000060 second wait
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-08 10:53:08.864  4269  4269 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000176 seconds
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:08.878  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:09.099   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:09.137 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:53:09.165 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 [insert] ,, isSuccess:true,ret,1330,
+
+03-08 10:53:09.165 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 [insert] ,, isSuccess:true,ret,1331,
+
+03-08 10:53:09.859  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:09.873  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:10.007 29006 29006 W AppWatcher: type=1400 audit(0.0:947377): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534634 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:10.007 29006 29006 W AppWatcher: type=1400 audit(0.0:947378): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534633 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:10.007 29006 29006 W AppWatcher: type=1400 audit(0.0:947379): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-08 10:53:10.027 29006 29006 W AppWatcher: type=1400 audit(0.0:947380): avc: denied { getattr } for path="/proc/1" dev="proc" ino=907269 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-08 10:53:10.027 29006 29006 W AppWatcher: type=1400 audit(0.0:947381): avc: denied { getattr } for path="/proc/2" dev="proc" ino=907270 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.027 29006 29006 W AppWatcher: type=1400 audit(0.0:947382): avc: denied { getattr } for path="/proc/3" dev="proc" ino=907271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.027 29006 29006 W AppWatcher: type=1400 audit(0.0:947383): avc: denied { getattr } for path="/proc/6" dev="proc" ino=907272 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.027 29006 29006 W AppWatcher: type=1400 audit(0.0:947384): avc: denied { getattr } for path="/proc/7" dev="proc" ino=907273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.027 29006 29006 W AppWatcher: type=1400 audit(0.0:947385): avc: denied { getattr } for path="/proc/8" dev="proc" ino=907274 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947386): avc: denied { getattr } for path="/proc/21" dev="proc" ino=907275 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947387): avc: denied { getattr } for path="/proc/22" dev="proc" ino=907276 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947388): avc: denied { getattr } for path="/proc/28" dev="proc" ino=907278 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947389): avc: denied { getattr } for path="/proc/29" dev="proc" ino=907279 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947390): avc: denied { getattr } for path="/proc/30" dev="proc" ino=907280 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947391): avc: denied { getattr } for path="/proc/32" dev="proc" ino=907281 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947392): avc: denied { getattr } for path="/proc/33" dev="proc" ino=907282 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947393): avc: denied { getattr } for path="/proc/34" dev="proc" ino=907283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947394): avc: denied { getattr } for path="/proc/61" dev="proc" ino=907284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947395): avc: denied { getattr } for path="/proc/62" dev="proc" ino=907285 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947396): avc: denied { getattr } for path="/proc/63" dev="proc" ino=907286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.037 29006 29006 W AppWatcher: type=1400 audit(0.0:947397): avc: denied { getattr } for path="/proc/64" dev="proc" ino=907287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947398): avc: denied { getattr } for path="/proc/65" dev="proc" ino=907288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947399): avc: denied { getattr } for path="/proc/66" dev="proc" ino=907289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947400): avc: denied { getattr } for path="/proc/67" dev="proc" ino=907290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947401): avc: denied { getattr } for path="/proc/68" dev="proc" ino=907291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947402): avc: denied { getattr } for path="/proc/69" dev="proc" ino=907292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947403): avc: denied { getattr } for path="/proc/70" dev="proc" ino=907293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947404): avc: denied { getattr } for path="/proc/71" dev="proc" ino=907294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947405): avc: denied { getattr } for path="/proc/72" dev="proc" ino=907295 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.047 29006 29006 W AppWatcher: type=1400 audit(0.0:947406): avc: denied { getattr } for path="/proc/73" dev="proc" ino=907296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:10.091  5352  9829 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-08 10:53:10.091  5352  9829 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+03-08 10:53:10.091  5352  9829 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-08 10:53:10.100   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:11.101   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:11.607  4099  5103 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-08 10:53:11.743  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:11.908 26902 26918 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:53:11.917  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:53:12.102   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:12.224  6869 24532 D MSF.C.NetConnTag: netRecv ssoSeq:-1559215344 uin:*2908 cmd:-316037937 -1559214113
+
+03-08 10:53:12.273  2859  2922 D Q.msg.TroopMsgProxy: insertToList MessageRecord=friendUin:1835senderuin:3945,istroop:1,msgType:-1035,time:1488941592,shmsgseq:209746
+
+03-08 10:53:12.279  2859  2922 D Q.unread.ProxyUnreadMonitor: insertOrUpdateUnread update=--ConversationInfo--,shortUin:*1835,type:1,lastread:204096,unreadCount:5642,unreadGiftCount:0,unreadRedPacketCount:0,unreadMark:0
+
+03-08 10:53:12.344  2859  2922 D Q.msg.QQMessageFacadeUnreadMonitor: Recent Msg Unread: (0,0,43) (9980,9000,0) (9953,7230,4) (9992,7000,0) 
+
+03-08 10:53:12.362  2859 18538 D ProxyIpManagerImpl: Load local proxy ip failed, uin:*2908 type: 3 reason: not mobile network!
+
+03-08 10:53:12.367  2859 18538 D TicketManager: get ticket succ, stKey!
+
+03-08 10:53:12.372  2859 18538 D TicketManager: get ticket succ, st!
+
+03-08 10:53:12.506 18065 18132 D UTAnalytics:CommitTask: pid:18065 check&commit event:65502,
+
+03-08 10:53:12.506 18065 18135 D UTAnalytics:CommitTask: pid:18065 check&commit event:65501,
+
+03-08 10:53:12.509 18065 18132 D UTAnalytics:CommitTask: pid:18065 next:65502,
+
+03-08 10:53:12.509 18065 18132 D UTAnalytics:CommitTask: pid:18065 check&commit event:65503,
+
+03-08 10:53:12.509 18065 18132 D UTAnalytics:CommitTask: pid:18065 next:65503,
+
+03-08 10:53:12.510 18065 18132 D UTAnalytics:UTUtil: pid:18065 upload without flowback. args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-08 10:53:12.511 18065 18132 D UTAnalytics:null: pid:18065 [sendToUT]: args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-08 10:53:12.511 18065 18132 D UTAnalytics:UTDC: pid:18065 [commit] page:eventId:65502,arg1:feedback,arg2:getUnreadCountSuccess,arg3:args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-08 10:53:12.512 18065 18135 D UTAnalytics:CommitTask: pid:18065 next:65501,
+
+03-08 10:53:12.525 18065 18132 D UTAnalytics:UTLog: pid:18065 Log [id=0, eventId=65502, index=],867451020054497||WL4Uxp3/0mBYvRluo5uk/g==||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.200||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1488941567492||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1488941592511||-||65502||feedback||getUnreadCountSuccess||-||counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]},
+
+03-08 10:53:12.525 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [add] :,
+
+03-08 10:53:12.879  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:12.894  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: wlan0: Scan completed in 4.078113 seconds
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Received scan results (31 BSSes)
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 10:53:12.956  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 8873
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26633 BSSID 24:69:68:b1:36:12 SSID 'bin'
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26634 BSSID b8:f8:83:ee:be:7b SSID 'HostGroup-InnerNet'
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=44
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26635 BSSID 6c:e8:73:b2:5f:c0 SSID 'Base_ID_111'
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=44
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26636 BSSID e0:10:7f:0c:0b:98 SSID 'ORVIBO'
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1344 send_len=44
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26637 BSSID 10:bd:18:09:51:6d SSID 'iOS-NW'
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=1792 send_len=44
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26638 BSSID 64:09:80:51:3f:75 SSID 'FuckMe_5G'
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=2240 send_len=44
+
+03-08 10:53:12.957  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26639 BSSID e0:10:7f:4b:e9:f8 SSID 'WX-ORVIBO-Guest'
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=2688 send_len=44
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26613 BSSID 42:fc:68:f5:6c:ff SSID 'HostGroupGuest' due to no match in scan
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=3136 send_len=46
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26623 BSSID cc:81:da:c4:ad:a0 SSID '50.1-qian' due to no match in scan
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=3584 send_len=46
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26624 BSSID 08:10:77:61:24:3e SSID 'er1' due to no match in scan
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=4032 send_len=46
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26621 BSSID 00:0c:43:76:20:b0 SSID 'OpenWrt' due to no match in scan
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=4480 send_len=46
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=31/64
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=4928 send_len=24
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:12.958  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 4.094668 seconds
+
+03-08 10:53:12.967  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 10:53:12.978  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 10:53:12.979   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [27] AP's
+
+03-08 10:53:12.984  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3849
+
+03-08 10:53:12.989  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3837
+
+03-08 10:53:12.993  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3689
+
+03-08 10:53:12.997  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3821
+
+03-08 10:53:13.000  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3590
+
+03-08 10:53:13.004  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3648
+
+03-08 10:53:13.006  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=567
+
+03-08 10:53:13.094  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 10:53:13.094  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 10:53:13.104   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:13.112  4188 28792 I StepsProvider: Steps Provider Query
+
+03-08 10:53:13.139 26390 26435 E WifiScanHomelog: start process end time - 26
+
+03-08 10:53:13.145 26390 27008 E WifiDeviceFinder: start process end time - 37
+
+03-08 10:53:13.218  4188  4327 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 4270 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1488941565993 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:6825}
+
+03-08 10:53:13.238  4188  4327 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 18158 Uid: 10133 Start by: service Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1488941585604 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10133 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:-1}
+
+03-08 10:53:13.756  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:14.105   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:14.106  6869  6988 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:53:14.107  6869  6988 W beacon  : onUserAction return false, because eventName:[MixedMsgReceived] is not allowed in server strategy!
+
+03-08 10:53:14.108  6869  6988 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:53:14.109  6869  6988 W beacon  : onUserAction return false, because eventName:[actDnsReq] is not allowed in server strategy!
+
+03-08 10:53:14.110  6869  6988 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:53:14.111  6869  6988 W beacon  : onUserAction return false, because eventName:[actGroupPicSmallDownV1] is not allowed in server strategy!
+
+03-08 10:53:15.106   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:15.899  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:15.914  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:16.108   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:16.772 18065 18113 D NAT     : SYMMETRIC_NAT
+
+03-08 10:53:16.773 18065 18113 D NAT     : call void method before
+
+03-08 10:53:16.773 18065 18113 D NAT     : call void method after
+
+03-08 10:53:16.783  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:17.109   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:17.364  1923  2085 I UsageStatsService: User[0] Flushing usage stats to disk
+
+03-08 10:53:17.533 18065 18135 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:53:17.543 18065 18135 D UTAnalytics:UTSqliteLogStore: pid:18065 [insert] ,, isSuccess:true,ret,1332,
+
+03-08 10:53:17.789  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:18.110   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:18.920  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:18.935  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:19.112   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:19.814  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:20.113   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:20.247 29006 29006 W AppWatcher: type=1400 audit(0.0:947644): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534634 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:20.247 29006 29006 W AppWatcher: type=1400 audit(0.0:947645): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534633 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:20.247 29006 29006 W AppWatcher: type=1400 audit(0.0:947646): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-08 10:53:20.257 29006 29006 W AppWatcher: type=1400 audit(0.0:947647): avc: denied { getattr } for path="/proc/1" dev="proc" ino=907269 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-08 10:53:20.257 29006 29006 W AppWatcher: type=1400 audit(0.0:947648): avc: denied { getattr } for path="/proc/2" dev="proc" ino=907270 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.257 29006 29006 W AppWatcher: type=1400 audit(0.0:947649): avc: denied { getattr } for path="/proc/3" dev="proc" ino=907271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947650): avc: denied { getattr } for path="/proc/6" dev="proc" ino=907272 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947651): avc: denied { getattr } for path="/proc/7" dev="proc" ino=907273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947652): avc: denied { getattr } for path="/proc/8" dev="proc" ino=907274 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947653): avc: denied { getattr } for path="/proc/21" dev="proc" ino=907275 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947654): avc: denied { getattr } for path="/proc/22" dev="proc" ino=907276 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947655): avc: denied { getattr } for path="/proc/28" dev="proc" ino=907278 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947656): avc: denied { getattr } for path="/proc/29" dev="proc" ino=907279 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947657): avc: denied { getattr } for path="/proc/30" dev="proc" ino=907280 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947658): avc: denied { getattr } for path="/proc/32" dev="proc" ino=907281 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947659): avc: denied { getattr } for path="/proc/33" dev="proc" ino=907282 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947660): avc: denied { getattr } for path="/proc/34" dev="proc" ino=907283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947661): avc: denied { getattr } for path="/proc/61" dev="proc" ino=907284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947662): avc: denied { getattr } for path="/proc/62" dev="proc" ino=907285 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:20.267 29006 29006 W AppWatcher: type=1400 audit(0.0:947663): avc: denied { getattr } for path="/proc/63" dev="proc" ino=907286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:21.115   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:21.832  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:21.942  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:21.946  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:22.117   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:22.847  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:23.119   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:23.166  1923  3680 D WifiStateMachine: starting scan for "18.1_neiwang"-WPA_PSK with 5745,2422
+
+03-08 10:53:23.166  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2422'
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb6919398
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb6919398 after 0.000114 second wait
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-08 10:53:23.167  4269  4269 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-08 10:53:23.168  4269  4269 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-08 10:53:23.168  4269  4269 D wpa_supplicant: nl80211: Scan frequency 2422 MHz
+
+03-08 10:53:23.168  4269  4269 D wpa_supplicant: nl80211: Scan frequency 5745 MHz
+
+03-08 10:53:23.183  4269  4269 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-08 10:53:23.183  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:23.183  4269  4269 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-08 10:53:23.184  4269  4269 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-08 10:53:23.184  4269  4269 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-08 10:53:23.184  4269  4269 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000317 seconds
+
+03-08 10:53:23.184  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:23.184  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:23.306  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:23.306  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 10:53:23.306  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 10:53:23.306  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2422 5745
+
+03-08 10:53:23.306  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 10:53:23.307  4269  4269 D wpa_supplicant: wlan0: Scan completed in 0.122837 seconds
+
+03-08 10:53:23.307  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 10:53:23.307  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 10:53:23.307  4269  4269 D wpa_supplicant: nl80211: Received scan results (33 BSSes)
+
+03-08 10:53:23.307  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 10:53:23.308  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 8874
+
+03-08 10:53:23.308  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=33/64
+
+03-08 10:53:23.308  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 10:53:23.308  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:23.317  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:23.318  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 0.150231 seconds
+
+03-08 10:53:23.320  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 10:53:23.320  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 10:53:23.331  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3849
+
+03-08 10:53:23.334  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3837
+
+03-08 10:53:23.337   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [4] AP's
+
+03-08 10:53:23.345  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3689
+
+03-08 10:53:23.348  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3821
+
+03-08 10:53:23.352  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3590
+
+03-08 10:53:23.357  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3648
+
+03-08 10:53:23.358  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=567
+
+03-08 10:53:23.444  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 10:53:23.444  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 10:53:23.953 26902 18530 W System.err: java.net.SocketTimeoutException: failed to connect to loc.map.baidu.com/14.215.177.33 (port 443) after 12000ms
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:169)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:452)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at java.net.Socket.connect(Socket.java:884)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:117)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectTls(SocketConnector.java:79)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at com.android.okhttp.Connection.connect(Connection.java:143)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at com.android.okhttp.Connection.connectAndSetOwner(Connection.java:185)
+
+03-08 10:53:23.954 26902 18530 W System.err: 	at com.android.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:342)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:331)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:437)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:114)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:89)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:25)
+
+03-08 10:53:23.955 26902 18530 W System.err: 	at com.baidu.location.h.e$4.run(Unknown Source)
+
+03-08 10:53:23.955 26902 18530 I baidu_location_service: https NetworkCommunicationException!
+
+03-08 10:53:24.036  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb6919398
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb6919398 after 0.000061 second wait
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-08 10:53:24.066  4269  4269 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-08 10:53:24.082  4269  4269 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-08 10:53:24.082  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:24.082  4269  4269 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-08 10:53:24.083  4269  4269 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-08 10:53:24.083  4269  4269 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-08 10:53:24.083  4269  4269 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000228 seconds
+
+03-08 10:53:24.083  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:24.083  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:24.120   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:24.854  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:24.950  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:24.952  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:25.121   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:26.122   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:27.110 26902 26918 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:53:27.123   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:27.124  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:53:27.873  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:27.954  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:27.957  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:28.124   372   476 I ThermalEngine: Sensor:batt_temp:320 mC
+
+03-08 10:53:28.168  1923  4266 D WifiHAL : Read rolling over to the start of ring buffer
+
+03-08 10:53:28.177  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:28.177  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 10:53:28.177  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 10:53:28.178  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+03-08 10:53:28.178  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 10:53:28.178  4269  4269 D wpa_supplicant: wlan0: Scan completed in 4.095239 seconds
+
+03-08 10:53:28.178  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 10:53:28.178  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 10:53:28.180  4269  4269 D wpa_supplicant: nl80211: Received scan results (31 BSSes)
+
+03-08 10:53:28.180  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 10:53:28.180  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 8875
+
+03-08 10:53:28.181  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26640 BSSID 42:fc:68:f5:6c:ff SSID 'HostGroupGuest'
+
+03-08 10:53:28.181  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:28.190  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.190  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26641 BSSID cc:81:da:c4:ad:a0 SSID '50.1-qian'
+
+03-08 10:53:28.190  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:28.191  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.191  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26642 BSSID d8:15:0d:6c:70:10 SSID '@ZigbeeTeam_Ext'
+
+03-08 10:53:28.192  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:28.196  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.196  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26590 BSSID fc:d7:33:ac:07:7e SSID 'TP-LINK_@2.xx' due to no match in scan
+
+03-08 10:53:28.196  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:28.197  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.197  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26521 BSSID 30:fc:68:f2:85:0f SSID 'Android' due to no match in scan
+
+03-08 10:53:28.199  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:28.199  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.199  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26631 BSSID 10:bd:18:08:36:17 SSID 'cisco-3615' due to no match in scan
+
+03-08 10:53:28.200  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:28.204  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.204  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=31/64
+
+03-08 10:53:28.204  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 10:53:28.204  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:28.208  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:28.208  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 4.141719 seconds
+
+03-08 10:53:28.210  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 10:53:28.211  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 10:53:28.212  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3849
+
+03-08 10:53:28.220   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [28] AP's
+
+03-08 10:53:28.222  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3802
+
+03-08 10:53:28.225  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3922
+
+03-08 10:53:28.229  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3974
+
+03-08 10:53:28.232  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3907
+
+03-08 10:53:28.235  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3119
+
+03-08 10:53:28.310  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 10:53:28.310  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 10:53:28.321  4188  5395 I StepsProvider: Steps Provider Query
+
+03-08 10:53:28.337 26390 26435 E WifiScanHomelog: start process end time - 13
+
+03-08 10:53:28.338 26390 27008 E WifiDeviceFinder: start process end time - 18
+
+03-08 10:53:28.888  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:29.126   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:30.127   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:30.497 29006 29006 W AppWatcher: type=1400 audit(0.0:947911): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534634 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:30.507 29006 29006 W AppWatcher: type=1400 audit(0.0:947912): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534633 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:30.507 29006 29006 W AppWatcher: type=1400 audit(0.0:947913): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-08 10:53:30.517 29006 29006 W AppWatcher: type=1400 audit(0.0:947914): avc: denied { getattr } for path="/proc/1" dev="proc" ino=907269 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-08 10:53:30.517 29006 29006 W AppWatcher: type=1400 audit(0.0:947915): avc: denied { getattr } for path="/proc/2" dev="proc" ino=907270 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.517 29006 29006 W AppWatcher: type=1400 audit(0.0:947916): avc: denied { getattr } for path="/proc/3" dev="proc" ino=907271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.517 29006 29006 W AppWatcher: type=1400 audit(0.0:947917): avc: denied { getattr } for path="/proc/6" dev="proc" ino=907272 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.517 29006 29006 W AppWatcher: type=1400 audit(0.0:947918): avc: denied { getattr } for path="/proc/7" dev="proc" ino=907273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.527 29006 29006 W AppWatcher: type=1400 audit(0.0:947919): avc: denied { getattr } for path="/proc/8" dev="proc" ino=907274 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.527 29006 29006 W AppWatcher: type=1400 audit(0.0:947920): avc: denied { getattr } for path="/proc/21" dev="proc" ino=907275 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.527 29006 29006 W AppWatcher: type=1400 audit(0.0:947921): avc: denied { getattr } for path="/proc/22" dev="proc" ino=907276 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.527 29006 29006 W AppWatcher: type=1400 audit(0.0:947922): avc: denied { getattr } for path="/proc/28" dev="proc" ino=907278 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.527 29006 29006 W AppWatcher: type=1400 audit(0.0:947923): avc: denied { getattr } for path="/proc/29" dev="proc" ino=907279 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947924): avc: denied { getattr } for path="/proc/30" dev="proc" ino=907280 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947925): avc: denied { getattr } for path="/proc/32" dev="proc" ino=907281 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947926): avc: denied { getattr } for path="/proc/33" dev="proc" ino=907282 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947927): avc: denied { getattr } for path="/proc/34" dev="proc" ino=907283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947928): avc: denied { getattr } for path="/proc/61" dev="proc" ino=907284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947929): avc: denied { getattr } for path="/proc/62" dev="proc" ino=907285 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.537 29006 29006 W AppWatcher: type=1400 audit(0.0:947930): avc: denied { getattr } for path="/proc/63" dev="proc" ino=907286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:30.964  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:30.978  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:31.128   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:31.704 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:53:31.722 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 115,
+
+03-08 10:53:31.727 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 pos,0,count,3,
+
+03-08 10:53:31.727 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 pos,1,count,3,
+
+03-08 10:53:31.727 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 pos,2,count,3,
+
+03-08 10:53:31.728 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [get],[Log [id=1330, eventId=2001, index=], Log [id=1331, eventId=2001, index=], Log [id=1332, eventId=65502, index=]],
+
+03-08 10:53:31.747 18065 18132 D UTAnalytics:UploadTask: pid:18065 averagePackageSize:200.0,
+
+03-08 10:53:31.911  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:31.962 18065 18132 W System.err: java.lang.reflect.InvocationTargetException
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+03-08 10:53:31.962 18065 18132 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+03-08 10:53:31.967 18065 18132 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-08 10:53:31.967 18065 18132 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-08 10:53:31.967 18065 18132 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-08 10:53:31.968 18065 18132 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-08 10:53:31.968 18065 18132 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+03-08 10:53:31.969 18065 18132 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+03-08 10:53:31.969 18065 18132 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+03-08 10:53:31.969 18065 18132 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+03-08 10:53:31.969 18065 18132 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-08 10:53:31.969 18065 18132 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-08 10:53:31.969 18065 18132 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+03-08 10:53:31.969 18065 18132 W System.err: 	... 11 more
+
+03-08 10:53:31.978  4099  5103 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-08 10:53:32.055 18065 18132 D UTAnalytics:UploadTask: pid:18065 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.200&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1488941611757&u=&is=1&k=0,
+
+03-08 10:53:32.055 18065 18132 D UTAnalytics:UploadTask: pid:18065 result:{"t":1488941611892,"ret":"","success":"success"}
+
+03-08 10:53:32.055 18065 18132 D UTAnalytics:UploadTask: ,
+
+03-08 10:53:32.055 18065 18132 D UTAnalytics:UploadTask: pid:18065 winsize:350,
+
+03-08 10:53:32.056 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [Log [id=1330, eventId=2001, index=], Log [id=1331, eventId=2001, index=], Log [id=1332, eventId=65502, index=]],
+
+03-08 10:53:32.076 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 delete ,3, isSuccess:true,
+
+03-08 10:53:32.076 18065 18132 D UTAnalytics:CoreStatics: pid:18065 [uploadInc]:6,count:3,
+
+03-08 10:53:32.076 18065 18132 D UTAnalytics:CoreStatics: pid:18065 [uploadInc]:9,
+
+03-08 10:53:32.076 18065 18132 D UTAnalytics:UploadTask: pid:18065 logs.size():3, selfMonitorLogCount:0,
+
+03-08 10:53:32.076 18065 18132 D UTAnalytics:UploadTask: pid:18065 upload isSendSuccess:true, consume:308, delete consume:21,
+
+03-08 10:53:32.129   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:33.131   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:33.921  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:33.984  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:33.998  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:34.132   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:34.932  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:35.134   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:35.951  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:36.135   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:37.006  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:37.010  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:37.029 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [store],
+
+03-08 10:53:37.038 18065 18132 D UTAnalytics:UTSqliteLogStore: pid:18065 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 350,
+
+03-08 10:53:37.043 18065 18132 D UTAnalytics:LogStoreMgr: pid:18065 [get],[],
+
+03-08 10:53:37.045 18065 18132 D UTAnalytics:UploadEngine: pid:18065 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-08 10:53:37.047 18065 18132 D UTAnalytics:UploadTask: pid:18065 mPeriod:30000,
+
+03-08 10:53:37.136   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:37.516 18065 18135 D UTAnalytics:CommitTask: pid:18065 check&commit event:65502,
+
+03-08 10:53:37.516 18065 18135 D UTAnalytics:CommitTask: pid:18065 next:65502,
+
+03-08 10:53:37.516 18065 18135 D UTAnalytics:CommitTask: pid:18065 check&commit event:65503,
+
+03-08 10:53:37.517 18065 18135 D UTAnalytics:CommitTask: pid:18065 next:65503,
+
+03-08 10:53:37.528 18065 18132 D UTAnalytics:CommitTask: pid:18065 check&commit event:65501,
+
+03-08 10:53:37.529 18065 18132 D UTAnalytics:CommitTask: pid:18065 next:65501,
+
+03-08 10:53:38.137   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:38.458  5352  5352 I PowerKeeperBackgroundService: onStartCommand()
+
+03-08 10:53:38.458  5352  5352 I PowerKeeperService: onAlarm
+
+03-08 10:53:38.516  4823  4823 V SettingsCollector: start service
+
+03-08 10:53:38.517  4823  5782 I CloudSettingsProvider: uriMatch : 2
+
+03-08 10:53:38.518  4823  5782 I CloudSettingsProvider: uriMatch : 2
+
+03-08 10:53:38.519  4823  5782 E SettingsCollector: analyze JSON failed.
+
+03-08 10:53:38.519  4823  5782 I CloudSettingsProvider: uriMatch : 2
+
+03-08 10:53:38.520  4823  5782 I CloudSettingsProvider: uriMatch : 2
+
+03-08 10:53:38.521  4823  5782 I CloudSettingsProvider: uriMatch : 2
+
+03-08 10:53:38.522  4823  5782 E SettingsCollector: analyze JSON failed.
+
+03-08 10:53:38.522  4823  5782 I CloudSettingsProvider: uriMatch : 2
+
+03-08 10:53:38.530  4823  5782 E SettingsCollector: analyze JSON failed.
+
+03-08 10:53:38.545 17995 18010 I art     : Background concurrent mark sweep GC freed 302546(16MB) AllocSpace objects, 0(0B) LOS objects, 96% free, 655KB/16MB, paused 2.029ms total 104.728ms
+
+03-08 10:53:38.950  4099  5103 I XiaomiFirewall: firewall pkgName:com.miui.analytics, result:0x0
+
+03-08 10:53:38.967  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:39.138   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:39.189 26902 18640 W System.err: java.net.SocketTimeoutException: failed to connect to loc.map.baidu.com/14.215.177.33 (port 443) after 12000ms
+
+03-08 10:53:39.189 26902 18640 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:169)
+
+03-08 10:53:39.189 26902 18640 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:452)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at java.net.Socket.connect(Socket.java:884)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:117)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectRawSocket(SocketConnector.java:160)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.internal.http.SocketConnector.connectTls(SocketConnector.java:79)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.Connection.connect(Connection.java:143)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.Connection.connectAndSetOwner(Connection.java:185)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.OkHttpClient$1.connectAndSetOwner(OkHttpClient.java:128)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.nextConnection(HttpEngine.java:342)
+
+03-08 10:53:39.190 26902 18640 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:331)
+
+03-08 10:53:39.191 26902 18640 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:249)
+
+03-08 10:53:39.191 26902 18640 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:437)
+
+03-08 10:53:39.191 26902 18640 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:114)
+
+03-08 10:53:39.191 26902 18640 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:89)
+
+03-08 10:53:39.191 26902 18640 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:25)
+
+03-08 10:53:39.191 26902 18640 W System.err: 	at com.baidu.location.h.e$4.run(Unknown Source)
+
+03-08 10:53:39.191 26902 18640 I baidu_location_service: https NetworkCommunicationException!
+
+03-08 10:53:39.209  1923  3654 D NtpTrustedTime: currentTimeMillis() cache hit
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting: getTetherStats() called NetworkStats: elapsedRealtime=89523628
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [0] iface=wlan0 uid=0 set=DEFAULT tag=0x0 rxBytes=1028303 rxPackets=12892 txBytes=2020031 txPackets=12776 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [1] iface=wlan0 uid=0 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [2] iface=wlan0 uid=1000 set=DEFAULT tag=0x0 rxBytes=269912 rxPackets=619 txBytes=146487 txPackets=884 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [3] iface=wlan0 uid=1000 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [4] iface=wlan0 uid=9802 set=DEFAULT tag=0x0 rxBytes=21564 rxPackets=39 txBytes=6041 txPackets=42 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [5] iface=wlan0 uid=9802 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [6] iface=wlan0 uid=9810 set=DEFAULT tag=0x0 rxBytes=103857 rxPackets=177 txBytes=27839 txPackets=225 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [7] iface=wlan0 uid=9810 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [8] iface=wlan0 uid=10002 set=DEFAULT tag=0x0 rxBytes=22843 rxPackets=140 txBytes=25628 txPackets=157 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [9] iface=wlan0 uid=10002 set=FOREGROUND tag=0x0 rxBytes=780169 rxPackets=761 txBytes=96434 txPackets=854 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [10] iface=wlan0 uid=10005 set=DEFAULT tag=0x0 rxBytes=720 rxPackets=8 txBytes=10504 txPackets=18 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [11] iface=wlan0 uid=10005 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [12] iface=wlan0 uid=10008 set=DEFAULT tag=0x0 rxBytes=172846 rxPackets=797 txBytes=329149 txPackets=1191 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [13] iface=wlan0 uid=10008 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [14] iface=wlan0 uid=10015 set=DEFAULT tag=0x0 rxBytes=18718 rxPackets=37 txBytes=7760 txPackets=48 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [15] iface=wlan0 uid=10015 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [16] iface=wlan0 uid=10016 set=DEFAULT tag=0x0 rxBytes=3515 rxPackets=33 txBytes=8072 txPackets=43 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [17] iface=wlan0 uid=10016 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [18] iface=wlan0 uid=10018 set=DEFAULT tag=0x0 rxBytes=60442 rxPackets=77 txBytes=7058 txPackets=68 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [19] iface=wlan0 uid=10018 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [20] iface=wlan0 uid=10026 set=DEFAULT tag=0x0 rxBytes=4295 rxPackets=78 txBytes=6362 txPackets=80 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [21] iface=wlan0 uid=10026 set=FOREGROUND tag=0x0 rxBytes=98820 rxPackets=188 txBytes=28456 txPackets=218 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [22] iface=wlan0 uid=10034 set=DEFAULT tag=0x0 rxBytes=63548 rxPackets=181 txBytes=104630 txPackets=261 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [23] iface=wlan0 uid=10034 set=FOREGROUND tag=0x0 rxBytes=874 rxPackets=9 txBytes=6628 txPackets=11 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [24] iface=wlan0 uid=10041 set=DEFAULT tag=0x0 rxBytes=8676 rxPackets=62 txBytes=25913 txPackets=102 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [25] iface=wlan0 uid=10041 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [26] iface=wlan0 uid=10047 set=DEFAULT tag=0x0 rxBytes=32522 rxPackets=120 txBytes=62596 txPackets=185 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [27] iface=wlan0 uid=10047 set=FOREGROUND tag=0x0 rxBytes=1273938 rxPackets=1357 txBytes=189759 txPackets=1508 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [28] iface=wlan0 uid=10048 set=DEFAULT tag=0x0 rxBytes=2972 rxPackets=26 txBytes=4530 txPackets=33 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [29] iface=wlan0 uid=10048 set=FOREGROUND tag=0x0 rxBytes=2313636 rxPackets=1651 txBytes=73179 txPackets=1663 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [30] iface=wlan0 uid=10057 set=DEFAULT tag=0x0 rxBytes=514 rxPackets=5 txBytes=9880 txPackets=15 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [31] iface=wlan0 uid=10057 set=FOREGROUND tag=0x0 rxBytes=1987 rxPackets=23 txBytes=6687 txPackets=29 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [32] iface=wlan0 uid=10063 set=DEFAULT tag=0x0 rxBytes=839064 rxPackets=919 txBytes=86113 txPackets=801 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [33] iface=wlan0 uid=10063 set=FOREGROUND tag=0x0 rxBytes=0 rxPackets=0 txBytes=0 txPackets=0 operations=0
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting:   [34] iface=wlan0 uid=10076 set=DEFAULT tag=0x0 rxBytes=2947819 rxPackets=2446 txBytes=208432 txPack
+
+03-08 10:53:39.224  1923  3654 I TetherStatsReporting: binding to service
+
+03-08 10:53:39.227  1923  3654 D NtpTrustedTime: currentTimeMillis() cache hit
+
+03-08 10:53:39.231  1923  3655 D NtpTrustedTime: currentTimeMillis() cache hit
+
+03-08 10:53:39.232  4099  5155 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+
+03-08 10:53:39.233  4099  5155 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:773 android.content.ContextWrapper.sendBroadcast:406 com.miui.networkassistant.service.tm.TrafficManageService.broadCastDataUsageUpdated:-1 com.miui.networkassistant.service.tm.TrafficManageService$8.onReceive:-1 android.app.LoadedApk$ReceiverDispatcher$Args.run:883 
+
+03-08 10:53:39.252  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb6919398
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb6919398 after 0.000062 second wait
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-08 10:53:39.268  4269  4269 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000157 seconds
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:39.270  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:40.026  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:40.032  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:40.140   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:40.797 29006 29006 W AppWatcher: type=1400 audit(0.0:948179): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534634 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:40.797 29006 29006 W AppWatcher: type=1400 audit(0.0:948180): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534633 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-08 10:53:40.807 29006 29006 W AppWatcher: type=1400 audit(0.0:948181): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948182): avc: denied { getattr } for path="/proc/1" dev="proc" ino=907269 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948183): avc: denied { getattr } for path="/proc/2" dev="proc" ino=907270 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948184): avc: denied { getattr } for path="/proc/3" dev="proc" ino=907271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948185): avc: denied { getattr } for path="/proc/6" dev="proc" ino=907272 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948186): avc: denied { getattr } for path="/proc/7" dev="proc" ino=907273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948187): avc: denied { getattr } for path="/proc/8" dev="proc" ino=907274 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948188): avc: denied { getattr } for path="/proc/21" dev="proc" ino=907275 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948189): avc: denied { getattr } for path="/proc/22" dev="proc" ino=907276 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948190): avc: denied { getattr } for path="/proc/28" dev="proc" ino=907278 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948191): avc: denied { getattr } for path="/proc/29" dev="proc" ino=907279 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948192): avc: denied { getattr } for path="/proc/30" dev="proc" ino=907280 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948193): avc: denied { getattr } for path="/proc/32" dev="proc" ino=907281 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.817 29006 29006 W AppWatcher: type=1400 audit(0.0:948194): avc: denied { getattr } for path="/proc/33" dev="proc" ino=907282 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.827 29006 29006 W AppWatcher: type=1400 audit(0.0:948195): avc: denied { getattr } for path="/proc/34" dev="proc" ino=907283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.827 29006 29006 W AppWatcher: type=1400 audit(0.0:948196): avc: denied { getattr } for path="/proc/61" dev="proc" ino=907284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.827 29006 29006 W AppWatcher: type=1400 audit(0.0:948197): avc: denied { getattr } for path="/proc/62" dev="proc" ino=907285 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.827 29006 29006 W AppWatcher: type=1400 audit(0.0:948198): avc: denied { getattr } for path="/proc/63" dev="proc" ino=907286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-08 10:53:40.975  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:41.141   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:42.142   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:42.298 26902 26918 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+
+03-08 10:53:42.314  4099  5103 I XiaomiFirewall: firewall pkgName:com.baidu.BaiduMap, result:0x0
+
+03-08 10:53:42.988  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:43.039  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:43.044  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:43.143   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:43.166  1923  3680 D WifiStateMachine: starting scan for "18.1_neiwang"-WPA_PSK with 5745,2422
+
+03-08 10:53:43.166  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2422'
+
+03-08 10:53:43.166  4269  4269 D wpa_supplicant: Pending scan scheduled - reject new request
+
+03-08 10:53:43.166  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=10
+
+03-08 10:53:43.280  4269  4269 D wpa_supplicant: nl80211: Event message available
+
+03-08 10:53:43.280  4269  4269 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-08 10:53:43.280  4269  4269 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-08 10:53:43.281  4269  4269 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5745 5765 5785 5805 5825
+
+03-08 10:53:43.281  4269  4269 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-08 10:53:43.281  4269  4269 D wpa_supplicant: wlan0: Scan completed in 4.010540 seconds
+
+03-08 10:53:43.281  4269  4269 D wpa_supplicant: nl80211: Associated on 2422 MHz
+
+03-08 10:53:43.281  4269  4269 D wpa_supplicant: nl80211: Associated with c0:3d:46:00:1a:5a
+
+03-08 10:53:43.282  4269  4269 D wpa_supplicant: nl80211: Received scan results (28 BSSes)
+
+03-08 10:53:43.282  4269  4269 D wpa_supplicant: nl80211: Scan results indicate BSS status with c0:3d:46:00:1a:5a as associated
+
+03-08 10:53:43.298  4269  4269 D wpa_supplicant: wlan0: BSS: Start scan result update 8876
+
+03-08 10:53:43.298  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26643 BSSID 9c:21:6a:9e:48:f8 SSID 'FAST_9E48F8'
+
+03-08 10:53:43.299  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:43.302  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.303  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26644 BSSID 30:fc:68:f2:85:0f SSID 'Android'
+
+03-08 10:53:43.303  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:43.304  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.304  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26645 BSSID 3c:df:bd:39:72:f4 SSID '55.1_neiwang'
+
+03-08 10:53:43.304  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:43.305  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.305  4269  4269 D wpa_supplicant: wlan0: BSS: Add new id 26646 BSSID 08:10:77:61:24:3e SSID 'er1'
+
+03-08 10:53:43.305  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-08 10:53:43.306  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.306  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26534 BSSID c0:3d:46:00:4e:26 SSID '22.1_\xe5\xa4\x96\xe7\xbd\x91' due to no match in scan
+
+03-08 10:53:43.306  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.307  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.307  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26634 BSSID b8:f8:83:ee:be:7b SSID 'HostGroup-InnerNet' due to no match in scan
+
+03-08 10:53:43.308  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.309  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.309  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26629 BSSID 00:6b:8e:f0:3c:50 SSID '@ZigbeeTeam_5G' due to no match in scan
+
+03-08 10:53:43.309  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.310  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.310  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26622 BSSID cc:81:da:9c:13:20 SSID '56.1_neiwang' due to no match in scan
+
+03-08 10:53:43.310  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.311  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.311  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26627 BSSID e0:10:7f:0b:f3:68 SSID 'ORVIBO' due to no match in scan
+
+03-08 10:53:43.311  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.312  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.312  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26628 BSSID e0:10:7f:4b:f3:68 SSID 'WX-ORVIBO-Guest' due to no match in scan
+
+03-08 10:53:43.312  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.314  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.314  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26636 BSSID e0:10:7f:0c:0b:98 SSID 'ORVIBO' due to no match in scan
+
+03-08 10:53:43.314  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.315  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.315  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26630 BSSID d0:ee:07:3f:27:1c SSID 'zhanting_5G' due to no match in scan
+
+03-08 10:53:43.315  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.316  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.316  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26638 BSSID 64:09:80:51:3f:75 SSID 'FuckMe_5G' due to no match in scan
+
+03-08 10:53:43.317  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.318  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.318  4269  4269 D wpa_supplicant: wlan0: BSS: Remove id 26639 BSSID e0:10:7f:4b:e9:f8 SSID 'WX-ORVIBO-Guest' due to no match in scan
+
+03-08 10:53:43.318  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-08 10:53:43.324  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.324  4269  4269 D wpa_supplicant: BSS: last_scan_res_used=28/64
+
+03-08 10:53:43.324  4269  4269 D wpa_supplicant: wlan0: Scan-only results received
+
+03-08 10:53:43.325  4269  4269 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-08 10:53:43.326  4269  4269 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1923-2\x00
+
+03-08 10:53:43.327  4269  4269 D wpa_supplicant: wlan0: Radio work 'scan'@0xb6919398 done in 4.058317 seconds
+
+03-08 10:53:43.328  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3995
+
+03-08 10:53:43.328  4269  4269 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-08 10:53:43.339   433   644 W XTCC-5.1.0.8: [WifiScanner] WiFi scan result : [25] AP's
+
+03-08 10:53:43.341  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3849
+
+03-08 10:53:43.344  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3634
+
+03-08 10:53:43.346  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3592
+
+03-08 10:53:43.349  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3909
+
+03-08 10:53:43.352  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4010
+
+03-08 10:53:43.354  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=429
+
+03-08 10:53:43.415  4269  4269 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-08 10:53:43.415  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=278
+
+03-08 10:53:43.426  4188  5395 I StepsProvider: Steps Provider Query
+
+03-08 10:53:43.439 26390 27008 E WifiDeviceFinder: start process end time - 16
+
+03-08 10:53:43.443 26390 26435 E WifiScanHomelog: start process end time - 18
+
+03-08 10:53:44.144   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:44.998  1923  1923 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-08 10:53:45.146   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:46.048  4269  4269 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-08 10:53:46.063  4269  4269 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-08 10:53:46.147   372   476 I ThermalEngine: Sensor:batt_temp:321 mC
+
+03-08 10:53:47.149   372   476 I ThermalEngine: Sensor:batt_temp:321 mC

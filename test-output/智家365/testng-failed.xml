@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [智家365]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [智家365]">
   <listeners>
     <listener class-name="com.oribo.testRetry.Retrylistener"/>
   </listeners>
@@ -13,11 +13,18 @@
     <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
     <parameter name="testpassword" value="2hq5qt"/>
     <parameter name="testaccount" value="840432908@qq.com"/>
+    <groups>
+      <run>
+        <include name="房间管理"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.oribo.android365.testcase.HomeManage">
         <methods>
+          <include name="init"/>
           <include name="beforeMethod"/>
-          <include name="checkdefault"/>
+          <include name="dragfloor"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.HomeManage -->
     </classes>

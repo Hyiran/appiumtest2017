@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-智家365">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-智家365">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="checkdefault">checkdefault</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="remindersettings">remindersettings</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-智家365 -->
@@ -125,9 +125,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkdefault">
-                  </a> <!-- checkdefault -->
-                  <span class="method-name">checkdefault</span>
+                  <a name="remindersettings">
+                  </a> <!-- remindersettings -->
+                  <span class="method-name">remindersettings</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -141,7 +141,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;智家365&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;智家365&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.oribo.testRetry.Retrylistener&quot;/&gt;
   &lt;/listeners&gt;
@@ -154,6 +154,11 @@
     &lt;parameter name=&quot;apk&quot; value=&quot;HomeMate 2.2.0.201.apk&quot;/&gt;
     &lt;parameter name=&quot;testpassword&quot; value=&quot;2hq5qt&quot;/&gt;
     &lt;parameter name=&quot;testaccount&quot; value=&quot;840432908@qq.com&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;提醒设置&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.oribo.android365.testcase.HomeManage&quot;/&gt;
     &lt;/classes&gt;
@@ -179,6 +184,14 @@
             <span class="header-content">Groups for 智家365</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">提醒设置</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">remindersettings</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-智家365" class="panel">
@@ -197,14 +210,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkdefault')
+data.setCell(0, 1, 'remindersettings')
 data.setCell(0, 2, 'com.oribo.android365.testcase.HomeManage')
-data.setCell(0, 3, 6418);
+data.setCell(0, 3, 45189);
 window.suiteTableData['智家365']= { tableData: data, tableDiv: 'times-div-智家365'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-智家365">
               </div> <!-- times-div-智家365 -->
             </div> <!-- times-div -->
@@ -216,25 +229,67 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">checkdefault</span>
+              <span class="reporter-method-name">remindersettings</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">2017-03-02 11:23:12 : [STEP] [点击'我的'] </span>
-                <span class="reporter-method-output">2017-03-02 11:23:12 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
-                <span class="reporter-method-output">2017-03-02 11:23:13 : [STEP] [点击'我的'] </span>
-                <span class="reporter-method-output">2017-03-02 11:23:13 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]</span>
-                <span class="reporter-method-output">2017-03-02 11:23:15 : [INFO] 读取第1张表</span>
-                <span class="reporter-method-output">2017-03-02 11:23:15 : [INFO] 读取第1张表</span>
-                <span class="reporter-method-output">2017-03-02 11:23:15 : [INFO] 读取第1张表</span>
-                <span class="reporter-method-output">2017-03-02 11:23:15 : [INFO] 读取第1张表</span>
+                <span class="reporter-method-output">2017-03-09 15:59:08 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-09 15:59:09 : [STEP] [点击我的] </span>
+                <span class="reporter-method-output">2017-03-09 15:59:09 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+                <span class="reporter-method-output">2017-03-09 15:59:10 : [STEP] [点击提醒 设置] </span>
+                <span class="reporter-method-output">2017-03-09 15:59:10 : [INFO] [点击 -> -android uiautomator: text("提醒设置")]</span>
+                <span class="reporter-method-output">2017-03-09 15:59:12 : [INFO] WIFI设备数为:0</span>
+                <span class="reporter-method-output">2017-03-09 15:59:32 : [INFO] 灯设备数为:0</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-智家365" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">19 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.oribo.android365.testcase.HomeManage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CheckDeleteHost</span>
+                <br/>
+                <span class="ignored-method-name">checkdefault</span>
+                <br/>
+                <span class="ignored-method-name">CancelDeleteHostNotice</span>
+                <br/>
+                <span class="ignored-method-name">DeleteHost</span>
+                <br/>
+                <span class="ignored-method-name">dragfloor</span>
+                <br/>
+                <span class="ignored-method-name">checkfamilynumber</span>
+                <br/>
+                <span class="ignored-method-name">addroom</span>
+                <br/>
+                <span class="ignored-method-name">edithome</span>
+                <br/>
+                <span class="ignored-method-name">delectroom</span>
+                <br/>
+                <span class="ignored-method-name">memberoffamily</span>
+                <br/>
+                <span class="ignored-method-name">myhost</span>
+                <br/>
+                <span class="ignored-method-name">sort</span>
+                <br/>
+                <span class="ignored-method-name">ClickMore</span>
+                <br/>
+                <span class="ignored-method-name">CheckMyHub</span>
+                <br/>
+                <span class="ignored-method-name">delectfloor</span>
+                <br/>
+                <span class="ignored-method-name">addhome</span>
+                <br/>
+                <span class="ignored-method-name">familydetails</span>
+                <br/>
+                <span class="ignored-method-name">addfloor</span>
+                <br/>
+                <span class="ignored-method-name">defaultroom</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-智家365" class="panel">
@@ -253,12 +308,12 @@ return data;
                 <span class="method-start">17 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">checkdefault</span>
-                <span class="method-start">28151 ms</span>
+                <span class="method-name">remindersettings</span>
+                <span class="method-start">22858 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34574 ms</span>
+                <span class="method-start">68053 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

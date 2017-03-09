@@ -29,10 +29,10 @@
   
    <dependencies>
    
- <dependency>
+<dependency>
     <groupId>io.appium</groupId>
     <artifactId>java-client</artifactId>
-    <version>5.0.0-BETA3</version>
+    <version>4.1.2</version>
 </dependency>
 	
 	
