@@ -18,12 +18,12 @@
  	    <groups>
 
 		   	<run>
-		        <include name="提醒设置"/>
+		        <include name="情景"/>
 		    </run>
 		</groups>  
 
 		<classes>
-			<!-- <class name="com.oribo.android365.testcase.Personcenter" /> -->
+			<class name="com.oribo.android365.testcase.Personcenter" />
 			<class name="com.oribo.android365.testcase.HomeManage" />  
 		</classes>
 

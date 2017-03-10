@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-智家365">
-              <span class="suite-name border-passed">智家365</span>
+              <span class="suite-name border-failed">智家365</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-智家365" class="hide-methods failed suite-智家365"> (hide)</a> <!-- hide-methods failed suite-智家365 -->
+                      <a href="#" panel-name="suite-智家365" class="show-methods failed suite-智家365"> (show)</a> <!-- show-methods failed suite-智家365 -->
+                    </span>
+                    <div class="method-list-content failed suite-智家365">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="checkscene">checkscene</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-智家365 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-智家365" class="hide-methods skipped suite-智家365"> (hide)</a> <!-- hide-methods skipped suite-智家365 -->
+                      <a href="#" panel-name="suite-智家365" class="show-methods skipped suite-智家365"> (show)</a> <!-- show-methods skipped suite-智家365 -->
+                    </span>
+                    <div class="method-list-content skipped suite-智家365">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="checkscene">checkscene</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="checkscene">checkscene</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-智家365 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +135,7 @@
                     <div class="method-list-content passed suite-智家365">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="remindersettings">remindersettings</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.HomeManage" hash-for-method="checklinkage">checklinkage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-智家365 -->
@@ -117,6 +150,55 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-智家365" class="panel 智家365">
+          <div class="suite-智家365-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.oribo.android365.testcase.HomeManage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkscene">
+                  </a> <!-- checkscene -->
+                  <span class="method-name">checkscene</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.oribo.android365.testcase.HomeManage.checkscene(HomeManage.java:948)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-智家365-class-failed -->
+          <div class="suite-智家365-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.oribo.android365.testcase.HomeManage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkscene">
+                  </a> <!-- checkscene -->
+                  <span class="method-name">checkscene</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.oribo.android365.testcase.HomeManage.checkscene(HomeManage.java:948)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkscene">
+                  </a> <!-- checkscene -->
+                  <span class="method-name">checkscene</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.oribo.android365.testcase.HomeManage.checkscene(HomeManage.java:948)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-智家365-class-skipped -->
           <div class="suite-智家365-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -125,9 +207,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="remindersettings">
-                  </a> <!-- remindersettings -->
-                  <span class="method-name">remindersettings</span>
+                  <a name="checklinkage">
+                  </a> <!-- checklinkage -->
+                  <span class="method-name">checklinkage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -156,10 +238,11 @@
     &lt;parameter name=&quot;testaccount&quot; value=&quot;840432908@qq.com&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;提醒设置&quot;/&gt;
+        &lt;include name=&quot;情景&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.oribo.android365.testcase.Personcenter&quot;/&gt;
       &lt;class name=&quot;com.oribo.android365.testcase.HomeManage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- init --&gt;
@@ -174,7 +257,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">init (1 class)</span>
+                <span class="test-name">init (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,10 +268,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">提醒设置</span>
+              <span class="test-group-name">情景</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">remindersettings</span>
+                <span class="method-in-group-name">checklinkage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkscene</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -208,16 +295,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'remindersettings')
+data.setCell(0, 1, 'checkscene')
 data.setCell(0, 2, 'com.oribo.android365.testcase.HomeManage')
-data.setCell(0, 3, 45189);
+data.setCell(0, 3, 64305);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkscene')
+data.setCell(1, 2, 'com.oribo.android365.testcase.HomeManage')
+data.setCell(1, 3, 64257);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkscene')
+data.setCell(2, 2, 'com.oribo.android365.testcase.HomeManage')
+data.setCell(2, 3, 63679);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checklinkage')
+data.setCell(3, 2, 'com.oribo.android365.testcase.HomeManage')
+data.setCell(3, 3, 4997);
 window.suiteTableData['智家365']= { tableData: data, tableDiv: 'times-div-智家365'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-智家365">
               </div> <!-- times-div-智家365 -->
             </div> <!-- times-div -->
@@ -229,28 +328,125 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">remindersettings</span>
+              <span class="reporter-method-name">checklinkage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">2017-03-09 15:59:08 : [INFO] groups:1</span>
-                <span class="reporter-method-output">2017-03-09 15:59:09 : [STEP] [点击我的] </span>
-                <span class="reporter-method-output">2017-03-09 15:59:09 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
-                <span class="reporter-method-output">2017-03-09 15:59:10 : [STEP] [点击提醒 设置] </span>
-                <span class="reporter-method-output">2017-03-09 15:59:10 : [INFO] [点击 -> -android uiautomator: text("提醒设置")]</span>
-                <span class="reporter-method-output">2017-03-09 15:59:12 : [INFO] WIFI设备数为:0</span>
-                <span class="reporter-method-output">2017-03-09 15:59:32 : [INFO] 灯设备数为:0</span>
+                <span class="reporter-method-output">2017-03-10 16:05:12 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-10 16:05:14 : [STEP] [点击'场景'] </span>
+                <span class="reporter-method-output">2017-03-10 16:05:14 : [INFO] [点击 -> -android uiautomator: text("场景")]</span>
+                <span class="reporter-method-output">2017-03-10 16:05:15 : [STEP] [点击联动] </span>
+                <span class="reporter-method-output">2017-03-10 16:05:15 : [INFO] [点击 -> -android uiautomator: text("联 动")]</span>
+                <span class="reporter-method-output">2017-03-10 16:05:17 : [INFO] 当前联动数为:3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkscene</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017-03-10 16:09:53 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-10 16:09:54 : [STEP] [点击'场景'] </span>
+                <span class="reporter-method-output">2017-03-10 16:09:54 : [INFO] [点击 -> -android uiautomator: text("场景")]</span>
+                <span class="reporter-method-output">2017-03-10 16:09:55 : [INFO] 当前家庭为:我的家庭</span>
+                <span class="reporter-method-output">2017-03-10 16:09:55 : [INFO] 当前情景数为:6</span>
+                <span class="reporter-method-output">2017-03-10 16:10:16 : [STEP] [滑动查找场景] </span>
+                <span class="reporter-method-output">2017-03-10 16:10:36 : [STEP] [滑动查找场景] </span>
+                <span class="reporter-method-output">2017-03-10 16:10:56 : [STEP] [滑动查找场景] </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkscene</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017-03-10 16:08:12 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-10 16:08:14 : [STEP] [点击'场景'] </span>
+                <span class="reporter-method-output">2017-03-10 16:08:14 : [INFO] [点击 -> -android uiautomator: text("场景")]</span>
+                <span class="reporter-method-output">2017-03-10 16:08:15 : [INFO] 当前家庭为:我的家庭</span>
+                <span class="reporter-method-output">2017-03-10 16:08:15 : [INFO] 当前情景数为:5</span>
+                <span class="reporter-method-output">2017-03-10 16:08:36 : [STEP] [滑动查找场景] </span>
+                <span class="reporter-method-output">2017-03-10 16:08:56 : [STEP] [滑动查找场景] </span>
+                <span class="reporter-method-output">2017-03-10 16:09:16 : [STEP] [滑动查找场景] </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkscene</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017-03-10 16:05:53 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-10 16:05:54 : [STEP] [点击'场景'] </span>
+                <span class="reporter-method-output">2017-03-10 16:05:54 : [INFO] [点击 -> -android uiautomator: text("场景")]</span>
+                <span class="reporter-method-output">2017-03-10 16:05:56 : [INFO] 当前家庭为:我的家庭</span>
+                <span class="reporter-method-output">2017-03-10 16:05:56 : [INFO] 当前情景数为:4</span>
+                <span class="reporter-method-output">2017-03-10 16:06:16 : [STEP] [滑动查找场景] </span>
+                <span class="reporter-method-output">2017-03-10 16:06:37 : [STEP] [滑动查找场景] </span>
+                <span class="reporter-method-output">2017-03-10 16:06:57 : [STEP] [滑动查找场景] </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-智家365" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">19 ignored methods</span>
+            <span class="header-content">47 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.oribo.android365.testcase.Personcenter</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">nickmaxchina</span>
+                <br/>
+                <span class="ignored-method-name">grephonenumber</span>
+                <br/>
+                <span class="ignored-method-name">checkdefaultphoto</span>
+                <br/>
+                <span class="ignored-method-name">nickmodify</span>
+                <br/>
+                <span class="ignored-method-name">nickNull</span>
+                <br/>
+                <span class="ignored-method-name">nickmaxeng</span>
+                <br/>
+                <span class="ignored-method-name">authorizationentrance</span>
+                <br/>
+                <span class="ignored-method-name">forgetpassword</span>
+                <br/>
+                <span class="ignored-method-name">rightaccountnext</span>
+                <br/>
+                <span class="ignored-method-name">checkaccount</span>
+                <br/>
+                <span class="ignored-method-name">phonebind</span>
+                <br/>
+                <span class="ignored-method-name">setphotobyalbum</span>
+                <br/>
+                <span class="ignored-method-name">notphonenumber</span>
+                <br/>
+                <span class="ignored-method-name">feedback</span>
+                <br/>
+                <span class="ignored-method-name">authorization</span>
+                <br/>
+                <span class="ignored-method-name">lesphonenumber</span>
+                <br/>
+                <span class="ignored-method-name">checkbind</span>
+                <br/>
+                <span class="ignored-method-name">rightaccount</span>
+                <br/>
+                <span class="ignored-method-name">specialchar</span>
+                <br/>
+                <span class="ignored-method-name">identifycode</span>
+                <br/>
+                <span class="ignored-method-name">homemanage</span>
+                <br/>
+                <span class="ignored-method-name">about</span>
+                <br/>
+                <span class="ignored-method-name">Unboundauthorization</span>
+                <br/>
+                <span class="ignored-method-name">modifypassword</span>
+                <br/>
+                <span class="ignored-method-name">setphotobycamera</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.oribo.android365.testcase.HomeManage</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">addscene</span>
+                <br/>
                 <span class="ignored-method-name">CheckDeleteHost</span>
+                <br/>
+                <span class="ignored-method-name">remindersettings</span>
                 <br/>
                 <span class="ignored-method-name">checkdefault</span>
                 <br/>
@@ -260,15 +456,17 @@ return data;
                 <br/>
                 <span class="ignored-method-name">dragfloor</span>
                 <br/>
-                <span class="ignored-method-name">checkfamilynumber</span>
-                <br/>
                 <span class="ignored-method-name">addroom</span>
+                <br/>
+                <span class="ignored-method-name">checkfamilynumber</span>
                 <br/>
                 <span class="ignored-method-name">edithome</span>
                 <br/>
-                <span class="ignored-method-name">delectroom</span>
+                <span class="ignored-method-name">addlink</span>
                 <br/>
                 <span class="ignored-method-name">memberoffamily</span>
+                <br/>
+                <span class="ignored-method-name">delectroom</span>
                 <br/>
                 <span class="ignored-method-name">myhost</span>
                 <br/>
@@ -278,11 +476,11 @@ return data;
                 <br/>
                 <span class="ignored-method-name">CheckMyHub</span>
                 <br/>
+                <span class="ignored-method-name">familydetails</span>
+                <br/>
                 <span class="ignored-method-name">delectfloor</span>
                 <br/>
                 <span class="ignored-method-name">addhome</span>
-                <br/>
-                <span class="ignored-method-name">familydetails</span>
                 <br/>
                 <span class="ignored-method-name">addfloor</span>
                 <br/>
@@ -298,22 +496,69 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.oribo.android365.testcase.Personcenter</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.oribo.android365.testcase.HomeManage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">init(4723, 492c754e, xiaomi, 6.0.1, HomeMate 2.2.0.201.apk, 840432908@qq.com, 2hq5qt, penghong@orvibo.com)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">remindersettings</span>
-                <span class="method-start">22858 ms</span>
+                <span class="method-name">checklinkage</span>
+                <span class="method-start">28359 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68053 ms</span>
+                <span class="method-start">33358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">40832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkscene</span>
+                <span class="method-start">69037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">141801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkscene</span>
+                <span class="method-start">208207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">272471 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">280788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkscene</span>
+                <span class="method-start">308678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">394268 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

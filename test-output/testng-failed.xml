@@ -15,15 +15,20 @@
     <parameter name="testaccount" value="840432908@qq.com"/>
     <groups>
       <run>
-        <include name="房间管理"/>
+        <include name="情景"/>
       </run>
     </groups>
     <classes>
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
       <class name="com.oribo.android365.testcase.HomeManage">
         <methods>
           <include name="init"/>
           <include name="beforeMethod"/>
-          <include name="dragfloor"/>
+          <include name="checkscene"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.HomeManage -->

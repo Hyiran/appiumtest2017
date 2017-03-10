@@ -1,0 +1,1318 @@
+2017-03-09 15:20:42 dev_log : [INFO] groups:1
+2017-03-09 15:20:43 dev_log : [STEP] [点击我的] 
+2017-03-09 15:20:43 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:20:45 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:20:45 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:20:46 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:20:46 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:20:48 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:20:48 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:20:53 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:20:53 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:20:59 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:20:59 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:21:04 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:21:04 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:21:07 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:21:07 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:21:12 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:21:12 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:21:17 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:21:17 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:23:52 dev_log : [INFO] groups:1
+2017-03-09 15:23:53 dev_log : [STEP] [点击我的] 
+2017-03-09 15:23:53 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:23:55 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:23:55 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:23:57 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:23:57 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:23:59 dev_log : [INFO] WIFI设备数为:8
+2017-03-09 15:23:59 dev_log : Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:6629
+2017-03-09 15:23:59 dev_log : [INFO] **********
+2017-03-09 15:24:05 dev_log : All Tests is finished
+2017-03-09 15:24:05 dev_log : PASSED:0
+2017-03-09 15:24:05 dev_log : FAILED:0
+2017-03-09 15:24:05 dev_log : SKIPPED:0
+2017-03-09 15:26:49 dev_log : [INFO] groups:1
+2017-03-09 15:26:50 dev_log : [STEP] [点击我的] 
+2017-03-09 15:26:50 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:26:52 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:26:52 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:26:54 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:26:54 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:26:56 dev_log : [INFO] WIFI设备数为:8
+2017-03-09 15:27:04 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:27:04 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:29:11 dev_log : [INFO] groups:1
+2017-03-09 15:29:13 dev_log : [STEP] [点击我的] 
+2017-03-09 15:29:13 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:29:14 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:29:14 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:29:16 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:29:16 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:29:18 dev_log : [STEP] [返回到提醒设置界面] 
+2017-03-09 15:29:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-09 15:29:22 dev_log : [INFO] WIFI设备数为:8
+2017-03-09 15:29:22 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:29:22 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:29:44 dev_log : Skipped, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]
+2017-03-09 15:29:44 dev_log : [INFO] **********
+2017-03-09 15:32:02 dev_log : [INFO] groups:1
+2017-03-09 15:32:03 dev_log : [STEP] [点击我的] 
+2017-03-09 15:32:03 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:32:05 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:32:05 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:32:07 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:32:07 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:32:09 dev_log : [STEP] [返回到提醒设置界面] 
+2017-03-09 15:32:09 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-09 15:32:13 dev_log : [INFO] WIFI设备数为:8
+2017-03-09 15:32:13 dev_log : [STEP] [进入节能提醒界面] 
+2017-03-09 15:32:13 dev_log : [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-09 15:32:15 dev_log : [STEP] [进入节能提醒界面] 
+2017-03-09 15:32:15 dev_log : [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-09 15:32:19 dev_log : [STEP] [进入节能提醒界面] 
+2017-03-09 15:32:19 dev_log : [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-09 15:32:23 dev_log : [STEP] [进入节能提醒界面] 
+2017-03-09 15:32:23 dev_log : [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-09 15:33:21 dev_log : [INFO] groups:1
+2017-03-09 15:33:23 dev_log : [STEP] [点击我的] 
+2017-03-09 15:33:23 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:33:24 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:33:24 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:33:27 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:33:27 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:33:28 dev_log : [STEP] [返回到提醒设置界面] 
+2017-03-09 15:33:28 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-09 15:33:33 dev_log : [INFO] WIFI设备数为:8
+2017-03-09 15:33:33 dev_log : [INFO] 灯设备数为:8
+2017-03-09 15:33:33 dev_log : [STEP] [进入节能提醒界面] 
+2017-03-09 15:33:33 dev_log : [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-09 15:33:36 dev_log : Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:15328
+2017-03-09 15:33:36 dev_log : [INFO] **********
+2017-03-09 15:33:42 dev_log : All Tests is finished
+2017-03-09 15:33:42 dev_log : PASSED:0
+2017-03-09 15:33:42 dev_log : FAILED:0
+2017-03-09 15:33:42 dev_log : SKIPPED:0
+2017-03-09 15:49:20 dev_log : [INFO] groups:1
+2017-03-09 15:49:22 dev_log : [STEP] [点击我的] 
+2017-03-09 15:49:22 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:49:24 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:49:24 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:49:26 dev_log : [INFO] WIFI设备数为:8
+2017-03-09 15:49:26 dev_log : [STEP] [进入定时执行提醒界面] 
+2017-03-09 15:49:26 dev_log : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-09 15:49:27 dev_log : [STEP] [返回到提醒设置界面] 
+2017-03-09 15:49:27 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-09 15:49:33 dev_log : [INFO] 灯设备数为:9
+2017-03-09 15:49:33 dev_log : [STEP] [进入节能提醒界面] 
+2017-03-09 15:49:33 dev_log : [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-09 15:49:35 dev_log : Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:14824
+2017-03-09 15:49:35 dev_log : [INFO] **********
+2017-03-09 15:49:41 dev_log : All Tests is finished
+2017-03-09 15:49:41 dev_log : PASSED:0
+2017-03-09 15:49:41 dev_log : FAILED:0
+2017-03-09 15:49:41 dev_log : SKIPPED:0
+2017-03-09 15:53:32 dev_log : [INFO] groups:1
+2017-03-09 15:53:33 dev_log : [STEP] [点击我的] 
+2017-03-09 15:53:33 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:53:34 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:53:34 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:53:35 dev_log : [INFO] WIFI设备数为:0
+2017-03-09 15:53:56 dev_log : [INFO] 灯设备数为:0
+2017-03-09 15:54:16 dev_log : Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:44440
+2017-03-09 15:54:16 dev_log : [INFO] **********
+2017-03-09 15:54:22 dev_log : All Tests is finished
+2017-03-09 15:54:22 dev_log : PASSED:0
+2017-03-09 15:54:22 dev_log : FAILED:0
+2017-03-09 15:54:22 dev_log : SKIPPED:0
+2017-03-09 15:56:24 dev_log : [INFO] groups:1
+2017-03-09 15:56:25 dev_log : [STEP] [点击我的] 
+2017-03-09 15:56:25 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:56:26 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:56:26 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:56:28 dev_log : [INFO] WIFI设备数为:0
+2017-03-09 15:56:48 dev_log : [INFO] 灯设备数为:0
+2017-03-09 15:57:09 dev_log : Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:44939
+2017-03-09 15:57:09 dev_log : [INFO] **********
+2017-03-09 15:57:15 dev_log : All Tests is finished
+2017-03-09 15:57:15 dev_log : PASSED:0
+2017-03-09 15:57:15 dev_log : FAILED:0
+2017-03-09 15:57:15 dev_log : SKIPPED:0
+2017-03-09 15:59:08 dev_log : [INFO] groups:1
+2017-03-09 15:59:09 dev_log : [STEP] [点击我的] 
+2017-03-09 15:59:09 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 15:59:10 dev_log : [STEP] [点击提醒 设置] 
+2017-03-09 15:59:10 dev_log : [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-09 15:59:12 dev_log : [INFO] WIFI设备数为:0
+2017-03-09 15:59:32 dev_log : [INFO] 灯设备数为:0
+2017-03-09 15:59:53 dev_log : Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:45189
+2017-03-09 15:59:53 dev_log : [INFO] **********
+2017-03-09 15:59:59 dev_log : All Tests is finished
+2017-03-09 15:59:59 dev_log : PASSED:0
+2017-03-09 15:59:59 dev_log : FAILED:0
+2017-03-09 15:59:59 dev_log : SKIPPED:0
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:19 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:04:19 dev_log : [INFO] **********
+2017-03-09 16:04:44 dev_log : Skipped, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152]
+2017-03-09 16:04:44 dev_log : [INFO] **********
+2017-03-09 16:05:16 dev_log : Skipped, method:HomeManage.addfloor()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152]
+2017-03-09 16:05:16 dev_log : [INFO] **********
+2017-03-09 16:05:53 dev_log : Skipped, method:HomeManage.addhome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152]
+2017-03-09 16:05:53 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:06:42 dev_log : [INFO] **********
+2017-03-09 16:06:42 dev_log : All Tests is finished
+2017-03-09 16:06:42 dev_log : PASSED:0
+2017-03-09 16:06:42 dev_log : FAILED:0
+2017-03-09 16:06:42 dev_log : SKIPPED:0
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 16:08:50 dev_log : [INFO] **********
+2017-03-09 16:08:50 dev_log : All Tests is finished
+2017-03-09 16:08:50 dev_log : PASSED:0
+2017-03-09 16:08:50 dev_log : FAILED:0
+2017-03-09 16:08:50 dev_log : SKIPPED:0
+2017-03-09 16:19:54 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:19:54 dev_log : [INFO] **********
+2017-03-09 16:20:24 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:20:24 dev_log : [INFO] **********
+2017-03-09 16:20:55 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:20:55 dev_log : [INFO] **********
+2017-03-09 16:21:24 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:21:24 dev_log : [INFO] **********
+2017-03-09 16:21:53 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:21:53 dev_log : [INFO] **********
+2017-03-09 16:23:44 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:23:44 dev_log : [INFO] **********
+2017-03-09 16:24:53 dev_log : [INFO] groups:3
+2017-03-09 16:24:54 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:24:54 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:24:55 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:24:55 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:24:57 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 16:24:57 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 16:24:59 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:6341
+2017-03-09 16:24:59 dev_log : [INFO] **********
+2017-03-09 16:25:32 dev_log : [INFO] groups:3
+2017-03-09 16:25:34 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:25:34 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:25:35 dev_log : [STEP] [点击'关于'] 
+2017-03-09 16:25:35 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 16:25:39 dev_log : [INFO] 已截图,图片名称为:o.png
+2017-03-09 16:25:40 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@53045c6c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 16:25:40 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:8938
+2017-03-09 16:25:40 dev_log : [INFO] **********
+2017-03-09 16:26:17 dev_log : [INFO] groups:3
+2017-03-09 16:26:19 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:26:19 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:26:21 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:26:21 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:26:23 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 16:26:23 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 16:26:25 dev_log : Success, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:7598
+2017-03-09 16:26:25 dev_log : [INFO] **********
+2017-03-09 16:26:54 dev_log : [INFO] groups:3
+2017-03-09 16:26:55 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:26:55 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:26:56 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:26:56 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:26:59 dev_log : [STEP] [进入 手机号绑定界面] 
+2017-03-09 16:26:59 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:27:01 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:27:01 dev_log : [INFO] **********
+2017-03-09 16:29:11 dev_log : [INFO] groups:3
+2017-03-09 16:29:12 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:29:12 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:29:14 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:29:14 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:29:15 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 16:29:15 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 16:29:17 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:6064
+2017-03-09 16:29:17 dev_log : [INFO] **********
+2017-03-09 16:29:47 dev_log : [INFO] groups:3
+2017-03-09 16:29:49 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:29:49 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:29:50 dev_log : [STEP] [点击'关于'] 
+2017-03-09 16:29:50 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 16:29:54 dev_log : [INFO] 已截图,图片名称为:6.png
+2017-03-09 16:29:55 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@53045c6c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 16:29:55 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:8101
+2017-03-09 16:29:55 dev_log : [INFO] **********
+2017-03-09 16:30:26 dev_log : [INFO] groups:3
+2017-03-09 16:30:27 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:30:27 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:30:28 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:30:28 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:30:31 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 16:30:31 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 16:30:33 dev_log : Success, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:6578
+2017-03-09 16:30:33 dev_log : [INFO] **********
+2017-03-09 16:31:02 dev_log : [INFO] groups:3
+2017-03-09 16:31:04 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:31:04 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:31:06 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:31:06 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:31:08 dev_log : [STEP] [进入邮箱绑定界面] 
+2017-03-09 16:31:08 dev_log : [INFO] [点击 -> -android uiautomator: text("邮箱")]
+2017-03-09 16:31:09 dev_log : [STEP] [点击“更换邮箱”] 
+2017-03-09 16:31:09 dev_log : [INFO] [点击 -> -android uiautomator: text("更换邮箱")]
+2017-03-09 16:31:11 dev_log : Success, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:9125
+2017-03-09 16:31:11 dev_log : [INFO] **********
+2017-03-09 16:31:41 dev_log : [INFO] groups:3
+2017-03-09 16:31:43 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:31:43 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:31:45 dev_log : [STEP] [点击'意见反馈'] 
+2017-03-09 16:31:45 dev_log : [INFO] [点击 -> -android uiautomator: text("意见反馈")]
+2017-03-09 16:31:47 dev_log : [STEP] [Wait For Text Disappear : 我的] 
+2017-03-09 16:31:51 dev_log : [INFO] 已截图,图片名称为:u.png
+2017-03-09 16:31:51 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.png与图片:BufferedImage@2fd953a6: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 16:31:51 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:31:51 dev_log : [INFO] **********
+2017-03-09 16:32:23 dev_log : [INFO] groups:3
+2017-03-09 16:32:25 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:32:25 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:32:27 dev_log : [STEP] [点击'意见反馈'] 
+2017-03-09 16:32:27 dev_log : [INFO] [点击 -> -android uiautomator: text("意见反馈")]
+2017-03-09 16:32:29 dev_log : [STEP] [Wait For Text Disappear : 我的] 
+2017-03-09 16:32:33 dev_log : [INFO] 已截图,图片名称为:n.png
+2017-03-09 16:32:34 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.png与图片:BufferedImage@9ebe38b: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 16:32:41 dev_log : [STEP] [反馈内容框中输入内容] 
+2017-03-09 16:32:41 dev_log : [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-09 16:32:41 dev_log : [STEP] [点击添加图片按扭] 
+2017-03-09 16:32:41 dev_log : [INFO] [点击 -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-03-09 16:32:47 dev_log : [STEP] [选中一张照片] 
+2017-03-09 16:32:47 dev_log : [INFO] [点击 -> id: com.miui.gallery:id/pick_num_indicator]
+2017-03-09 16:32:50 dev_log : [STEP] [输入联系方式] 
+2017-03-09 16:32:50 dev_log : [INFO] [输入字符 -> id: feedback-contact]
+2017-03-09 16:32:51 dev_log : [STEP] [反馈内容框中输入内容] 
+2017-03-09 16:32:51 dev_log : [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-09 16:33:01 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:38082
+2017-03-09 16:33:01 dev_log : [INFO] **********
+2017-03-09 16:33:32 dev_log : [INFO] groups:4
+2017-03-09 16:33:33 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:33:33 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:33:35 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:33:35 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:33:36 dev_log : [STEP] [点击修改密码] 
+2017-03-09 16:33:36 dev_log : [INFO] [点击 -> -android uiautomator: text("修改密码")]
+2017-03-09 16:33:38 dev_log : [STEP] [点击忘记旧密码] 
+2017-03-09 16:33:38 dev_log : [INFO] [点击 -> -android uiautomator: text("忘记旧密码")]
+2017-03-09 16:33:40 dev_log : [STEP] [输入正确的账号] 
+2017-03-09 16:33:40 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:33:45 dev_log : [STEP] [确认输入] 
+2017-03-09 16:33:45 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:33:46 dev_log : [STEP] [点击下一步] 
+2017-03-09 16:33:46 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 16:33:47 dev_log : [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-09 16:33:47 dev_log : [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-09 16:33:59 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 16:33:59 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-09 16:34:04 dev_log : [STEP] [确认输入] 
+2017-03-09 16:34:04 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-09 16:34:06 dev_log : [STEP] [点击下一步] 
+2017-03-09 16:34:06 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 16:34:50 dev_log : Success, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:77479
+2017-03-09 16:34:50 dev_log : [INFO] **********
+2017-03-09 16:35:19 dev_log : [INFO] groups:3
+2017-03-09 16:35:20 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:35:20 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:35:23 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:35:23 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:35:25 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 16:35:25 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:35:26 dev_log : [STEP] [输入大于11位手机号] 
+2017-03-09 16:35:26 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:35:31 dev_log : [STEP] [确认输入] 
+2017-03-09 16:35:31 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:35:32 dev_log : Success, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:12954
+2017-03-09 16:35:32 dev_log : [INFO] **********
+2017-03-09 16:36:01 dev_log : [INFO] groups:3
+2017-03-09 16:36:02 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:36:02 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:36:03 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:36:03 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:36:05 dev_log : [INFO] 登录的账号为邮箱登录，且未绑定手机号
+2017-03-09 16:36:05 dev_log : [STEP] [进入 手机号绑定界面] 
+2017-03-09 16:36:05 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:36:07 dev_log : [STEP] [输入11位手机号] 
+2017-03-09 16:36:07 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:36:12 dev_log : [STEP] [确认输入] 
+2017-03-09 16:36:12 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:36:13 dev_log : [STEP] [点击下一步] 
+2017-03-09 16:36:13 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 16:36:21 dev_log : [STEP] [Wait For Text Disappear : 获取验证码…] 
+2017-03-09 16:36:23 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 16:36:23 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-09 16:36:28 dev_log : [STEP] [确认输入] 
+2017-03-09 16:36:28 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-09 16:36:30 dev_log : [STEP] [点击下一步] 
+2017-03-09 16:36:30 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 16:37:25 dev_log : Success, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:84731
+2017-03-09 16:37:25 dev_log : [INFO] **********
+2017-03-09 16:37:55 dev_log : [INFO] groups:3
+2017-03-09 16:37:58 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:37:58 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:37:59 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:37:59 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:38:00 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 16:38:00 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:38:02 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 16:38:02 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:38:07 dev_log : [STEP] [确认输入] 
+2017-03-09 16:38:07 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:38:08 dev_log : Success, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:13633
+2017-03-09 16:38:08 dev_log : [INFO] **********
+2017-03-09 16:38:39 dev_log : [INFO] groups:3
+2017-03-09 16:38:41 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:38:41 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:38:42 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:38:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:38:44 dev_log : [STEP] [点击修改密码] 
+2017-03-09 16:38:44 dev_log : [INFO] [点击 -> -android uiautomator: text("修改密码")]
+2017-03-09 16:38:45 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 16:38:45 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:38:51 dev_log : [STEP] [确认输入] 
+2017-03-09 16:38:51 dev_log : [INFO] [输入后回车 -> class name: android.widget.EditText]
+2017-03-09 16:38:52 dev_log : [STEP] [清空文本框] 
+2017-03-09 16:38:52 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:38:54 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 16:38:54 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:38:59 dev_log : [STEP] [确认输入] 
+2017-03-09 16:38:59 dev_log : [INFO] [输入后回车 -> class name: android.widget.EditText]
+2017-03-09 16:39:00 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 16:39:00 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:39:05 dev_log : [STEP] [确认输入] 
+2017-03-09 16:39:05 dev_log : [INFO] [输入后回车 -> class name: android.widget.EditText]
+2017-03-09 16:39:06 dev_log : [STEP] [点击完成按扭] 
+2017-03-09 16:39:06 dev_log : [INFO] [点击 -> -android uiautomator: text("完成")]
+2017-03-09 16:39:08 dev_log : [STEP] [清空文本框] 
+2017-03-09 16:39:08 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:39:10 dev_log : [STEP] [输入旧密码] 
+2017-03-09 16:39:10 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:39:15 dev_log : [STEP] [确认输入] 
+2017-03-09 16:39:15 dev_log : [INFO] [输入后回车 -> class name: android.widget.EditText]
+2017-03-09 16:39:16 dev_log : [STEP] [输入5个字符] 
+2017-03-09 16:39:16 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:39:22 dev_log : [STEP] [确认输入] 
+2017-03-09 16:39:22 dev_log : [INFO] [输入后回车 -> class name: android.widget.EditText]
+2017-03-09 16:39:23 dev_log : [STEP] [清空文本框] 
+2017-03-09 16:39:23 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:39:25 dev_log : [STEP] [输入新密码] 
+2017-03-09 16:39:25 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:39:30 dev_log : [STEP] [确认输入] 
+2017-03-09 16:39:30 dev_log : [INFO] [输入后回车 -> class name: android.widget.EditText]
+2017-03-09 16:39:31 dev_log : [INFO] 修改的新 密码为:dihkd8
+2017-03-09 16:39:31 dev_log : [STEP] [点击完成按扭] 
+2017-03-09 16:39:31 dev_log : [INFO] [点击 -> -android uiautomator: text("完成")]
+2017-03-09 16:39:33 dev_log : Success, method:Personcenter.modifypassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:54470
+2017-03-09 16:39:33 dev_log : [INFO] **********
+2017-03-09 16:40:03 dev_log : [INFO] groups:3
+2017-03-09 16:40:04 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:40:04 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:40:05 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:40:05 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:40:07 dev_log : [STEP] [点击昵称] 
+2017-03-09 16:40:07 dev_log : [INFO] [点击 -> -android uiautomator: text("昵称")]
+2017-03-09 16:40:09 dev_log : [STEP] [清空昵称文本框] 
+2017-03-09 16:40:09 dev_log : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:40:11 dev_log : Success, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:7955
+2017-03-09 16:40:11 dev_log : [INFO] **********
+2017-03-09 16:40:40 dev_log : [INFO] groups:3
+2017-03-09 16:40:42 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:40:42 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:40:43 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:40:43 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:40:45 dev_log : [STEP] [点击昵称] 
+2017-03-09 16:40:45 dev_log : [INFO] [点击 -> -android uiautomator: text("昵称")]
+2017-03-09 16:40:46 dev_log : [STEP] [输入16个字汉] 
+2017-03-09 16:40:46 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:41:05 dev_log : [STEP] [确认输入] 
+2017-03-09 16:41:05 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:41:06 dev_log : [STEP] [点击保存按扭] 
+2017-03-09 16:41:06 dev_log : [INFO] [点击按扭 -> -android uiautomator: text("保存")]
+2017-03-09 16:41:07 dev_log : Success, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:26849
+2017-03-09 16:41:07 dev_log : [INFO] **********
+2017-03-09 16:41:39 dev_log : [INFO] groups:3
+2017-03-09 16:41:41 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:41:41 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:41:42 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:41:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:41:43 dev_log : [STEP] [点击昵称] 
+2017-03-09 16:41:43 dev_log : [INFO] [点击 -> -android uiautomator: text("昵称")]
+2017-03-09 16:41:45 dev_log : [STEP] [输入32个英文] 
+2017-03-09 16:41:45 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:42:05 dev_log : [STEP] [确认输入] 
+2017-03-09 16:42:05 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:42:07 dev_log : [STEP] [点击保存按扭] 
+2017-03-09 16:42:07 dev_log : [INFO] [点击按扭 -> -android uiautomator: text("保存")]
+2017-03-09 16:42:08 dev_log : Success, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:28341
+2017-03-09 16:42:08 dev_log : [INFO] **********
+2017-03-09 16:42:39 dev_log : [INFO] groups:3
+2017-03-09 16:42:41 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:42:41 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:42:42 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:42:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:42:43 dev_log : [STEP] [点击昵称] 
+2017-03-09 16:42:43 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userNicknameTextView]
+2017-03-09 16:42:45 dev_log : [STEP] [输入1个字符] 
+2017-03-09 16:42:45 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:42:51 dev_log : [STEP] [确认输入] 
+2017-03-09 16:42:51 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-09 16:42:52 dev_log : [STEP] [点击保存按扭] 
+2017-03-09 16:42:52 dev_log : [INFO] [点击按扭 -> -android uiautomator: text("保存")]
+2017-03-09 16:42:53 dev_log : Success, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:13959
+2017-03-09 16:42:53 dev_log : [INFO] **********
+2017-03-09 16:43:24 dev_log : [INFO] groups:3
+2017-03-09 16:43:25 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:43:25 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:43:26 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:43:26 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:43:28 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 16:43:28 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:43:29 dev_log : [STEP] [输入特殊字符] 
+2017-03-09 16:43:29 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:43:34 dev_log : [STEP] [确认输入] 
+2017-03-09 16:43:34 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:43:35 dev_log : Success, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:11772
+2017-03-09 16:43:35 dev_log : [INFO] **********
+2017-03-09 16:44:05 dev_log : [INFO] groups:3
+2017-03-09 16:44:26 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 16:44:26 dev_log : [INFO] **********
+2017-03-09 16:44:56 dev_log : [INFO] groups:3
+2017-03-09 16:45:18 dev_log : Failed, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:21590
+2017-03-09 16:45:38 dev_log : 执行失败，已抓取日志，日志名为：201703091645phonebind.txt
+2017-03-09 16:45:43 dev_log : 已截图，图片名为：phonebind201703091645.png
+2017-03-09 16:45:43 dev_log : [INFO] 成功比列:100
+2017-03-09 16:45:43 dev_log : [INFO] **********
+2017-03-09 16:46:15 dev_log : [INFO] groups:3
+2017-03-09 16:46:37 dev_log : Failed, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:21141
+2017-03-09 16:46:57 dev_log : 执行失败，已抓取日志，日志名为：201703091646rightaccount.txt
+2017-03-09 16:47:01 dev_log : 已截图，图片名为：rightaccount201703091647.png
+2017-03-09 16:47:01 dev_log : [INFO] 成功比列:100
+2017-03-09 16:47:01 dev_log : [INFO] **********
+2017-03-09 16:47:33 dev_log : [INFO] groups:3
+2017-03-09 16:47:34 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:47:34 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:47:36 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:47:36 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:47:37 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 16:47:37 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:47:39 dev_log : [STEP] [输入11位手机号] 
+2017-03-09 16:47:39 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:47:44 dev_log : [STEP] [确认输入] 
+2017-03-09 16:47:44 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:47:45 dev_log : [STEP] [跳到安全验证界面] 
+2017-03-09 16:47:45 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 16:47:53 dev_log : Success, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:19663
+2017-03-09 16:47:53 dev_log : [INFO] **********
+2017-03-09 16:48:24 dev_log : [INFO] groups:3
+2017-03-09 16:48:27 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:48:27 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:48:33 dev_log : [INFO] 已截图,图片名称为:v.png
+2017-03-09 16:48:33 dev_log : [STEP] [点击个人中心头像] 
+2017-03-09 16:48:33 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:48:35 dev_log : [STEP] [个人信息中点击“头像”] 
+2017-03-09 16:48:35 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-09 16:48:36 dev_log : [STEP] [点击选择框中的“取消”按扭] 
+2017-03-09 16:48:36 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 16:48:41 dev_log : [STEP] [Wait For Text Disappear : 取消] 
+2017-03-09 16:48:42 dev_log : [STEP] [个人信息中点击“头像”] 
+2017-03-09 16:48:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-09 16:48:43 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-09 16:48:43 dev_log : [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-09 16:48:46 dev_log : [STEP] [拍照界面点击取消] 
+2017-03-09 16:48:46 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]
+2017-03-09 16:48:48 dev_log : [STEP] [点击“头像”] 
+2017-03-09 16:48:48 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-09 16:48:50 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-09 16:48:50 dev_log : [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-09 16:48:51 dev_log : [STEP] [点击拍照按扭] 
+2017-03-09 16:48:51 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-09 16:48:56 dev_log : [STEP] [点击选择按扭] 
+2017-03-09 16:48:56 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-09 16:48:58 dev_log : [STEP] [裁剪界面点击“取消”] 
+2017-03-09 16:48:58 dev_log : [INFO] [点击 -> id: com.miui.gallery:id/cancel]
+2017-03-09 16:49:00 dev_log : [STEP] [点击“头像”] 
+2017-03-09 16:49:00 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-09 16:49:01 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-09 16:49:01 dev_log : [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-09 16:49:04 dev_log : [STEP] [点击拍照按扭] 
+2017-03-09 16:49:04 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-09 16:49:08 dev_log : [STEP] [点击选择按扭] 
+2017-03-09 16:49:08 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-09 16:49:09 dev_log : [STEP] [裁剪界面点击确定] 
+2017-03-09 16:49:09 dev_log : [INFO] [点击 -> -android uiautomator: text("确定")]
+2017-03-09 16:49:14 dev_log : [STEP] [图片选择界面点击返回] 
+2017-03-09 16:49:20 dev_log : [INFO] 已截图,图片名称为:s.png
+2017-03-09 16:49:20 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\s.png与图片:BufferedImage@6d23017e: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 16:49:20 dev_log : Success, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:55675
+2017-03-09 16:49:20 dev_log : [INFO] **********
+2017-03-09 16:49:52 dev_log : [INFO] groups:3
+2017-03-09 16:49:54 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:49:54 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:50:04 dev_log : [INFO] 已截图,图片名称为:4g.png
+2017-03-09 16:50:24 dev_log : Failed, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:32468
+2017-03-09 16:50:44 dev_log : 执行失败，已抓取日志，日志名为：201703091650setphotobycamera.txt
+2017-03-09 16:50:50 dev_log : 已截图，图片名为：setphotobycamera201703091650.png
+2017-03-09 16:50:50 dev_log : [INFO] 成功比列:100
+2017-03-09 16:50:50 dev_log : [INFO] **********
+2017-03-09 16:51:20 dev_log : [INFO] groups:3
+2017-03-09 16:51:21 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:51:21 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:51:23 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 16:51:23 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 16:51:24 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 16:51:24 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 16:51:26 dev_log : [STEP] [输入特殊字符] 
+2017-03-09 16:51:26 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:51:31 dev_log : [STEP] [确认输入] 
+2017-03-09 16:51:31 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 16:51:31 dev_log : Success, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:11346
+2017-03-09 16:51:31 dev_log : [INFO] **********
+2017-03-09 16:52:02 dev_log : [INFO] groups:2
+2017-03-09 16:52:03 dev_log : [INFO] 有主机
+2017-03-09 16:52:03 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:52:03 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:52:05 dev_log : Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:2522
+2017-03-09 16:52:05 dev_log : [INFO] **********
+2017-03-09 16:52:36 dev_log : [INFO] groups:1
+2017-03-09 16:52:37 dev_log : [INFO] 当前家庭为:我的家庭
+2017-03-09 16:52:38 dev_log : [INFO] 添加楼层前的楼层数为:1
+2017-03-09 16:52:39 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:52:39 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:52:40 dev_log : [STEP] [点击'房间管理'] 
+2017-03-09 16:52:40 dev_log : [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-09 16:52:42 dev_log : [STEP] [点击添加楼层的按扭] 
+2017-03-09 16:52:42 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]
+2017-03-09 16:52:43 dev_log : Success, method:HomeManage.addfloor()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:7274
+2017-03-09 16:52:43 dev_log : [INFO] **********
+2017-03-09 16:53:15 dev_log : [INFO] groups:1
+2017-03-09 16:53:17 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:53:17 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:53:18 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:53:18 dev_log : [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-09 16:53:20 dev_log : [STEP] [点击新建家庭按扭] 
+2017-03-09 16:53:20 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/right_iv]
+2017-03-09 16:53:22 dev_log : [STEP] [输入5个字符] 
+2017-03-09 16:53:22 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/familyName]
+2017-03-09 16:53:27 dev_log : [STEP] [确认输入] 
+2017-03-09 16:53:27 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/familyName]
+2017-03-09 16:53:31 dev_log : [INFO] 已截图,图片名称为:0.png
+2017-03-09 16:53:31 dev_log : [STEP] [点击“头像”] 
+2017-03-09 16:53:31 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/familyIcon]
+2017-03-09 16:53:32 dev_log : [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-09 16:53:32 dev_log : [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-09 16:53:35 dev_log : [STEP] [点击拍照按扭] 
+2017-03-09 16:53:35 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-09 16:53:39 dev_log : [STEP] [点击选择按扭] 
+2017-03-09 16:53:39 dev_log : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-09 16:53:40 dev_log : [STEP] [裁剪界面点击确定] 
+2017-03-09 16:53:40 dev_log : [INFO] [点击 -> -android uiautomator: text("确定")]
+2017-03-09 16:53:47 dev_log : [INFO] 已截图,图片名称为:z.png
+2017-03-09 16:53:48 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\0.png与图片:BufferedImage@57ac5227: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 16:53:48 dev_log : [STEP] [点击创建家庭] 
+2017-03-09 16:53:48 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/familyAddBtn]
+2017-03-09 16:53:51 dev_log : Success, method:HomeManage.addhome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:36488
+2017-03-09 16:53:51 dev_log : [INFO] **********
+2017-03-09 16:54:23 dev_log : [INFO] groups:1
+2017-03-09 16:54:43 dev_log : Failed, method:HomeManage.addroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:20392
+2017-03-09 16:55:03 dev_log : 执行失败，已抓取日志，日志名为：201703091654addroom.txt
+2017-03-09 16:55:08 dev_log : 已截图，图片名为：addroom201703091655.png
+2017-03-09 16:55:08 dev_log : [INFO] 成功比列:100
+2017-03-09 16:55:08 dev_log : [INFO] **********
+2017-03-09 16:55:40 dev_log : [INFO] groups:0
+2017-03-09 16:55:42 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:55:42 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 16:55:43 dev_log : [STEP] [点击'我的'] 
+2017-03-09 16:55:43 dev_log : [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-09 16:55:45 dev_log : Success, method:HomeManage.checkdefault()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:5465
+2017-03-09 16:55:45 dev_log : [INFO] **********
+2017-03-09 16:56:16 dev_log : [STEP] [清除账号框] 
+2017-03-09 16:56:16 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:56:18 dev_log : [STEP] [输入账号] 
+2017-03-09 16:56:18 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:56:24 dev_log : [STEP] [清除密码框] 
+2017-03-09 16:56:24 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:56:28 dev_log : [STEP] [输入密码] 
+2017-03-09 16:56:28 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:56:34 dev_log : [STEP] [点击登录按扭] 
+2017-03-09 16:56:34 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/login_btn]
+2017-03-09 16:56:57 dev_log : [STEP] [Wait For Text : [我的]] 
+2017-03-09 16:56:57 dev_log : [INFO] [Wait For Text : [我的]] 
+2017-03-09 16:57:18 dev_log : [INFO] groups:1
+2017-03-09 16:57:41 dev_log : Failed, method:HomeManage.checkfamilynumber()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:23372
+2017-03-09 16:58:02 dev_log : 执行失败，已抓取日志，日志名为：201703091657checkfamilynumber.txt
+2017-03-09 16:58:06 dev_log : 已截图，图片名为：checkfamilynumber201703091658.png
+2017-03-09 16:58:06 dev_log : [INFO] 成功比列:100
+2017-03-09 16:58:06 dev_log : [INFO] **********
+2017-03-09 16:58:38 dev_log : [STEP] [清除账号框] 
+2017-03-09 16:58:38 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:58:40 dev_log : [STEP] [输入账号] 
+2017-03-09 16:58:40 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:58:46 dev_log : [STEP] [清除密码框] 
+2017-03-09 16:58:46 dev_log : [INFO] [清空数据 -> class name: android.widget.EditText]
+2017-03-09 16:58:50 dev_log : [STEP] [输入密码] 
+2017-03-09 16:58:50 dev_log : [INFO] [输入字符 -> class name: android.widget.EditText]
+2017-03-09 16:58:56 dev_log : [STEP] [点击登录按扭] 
+2017-03-09 16:58:56 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/login_btn]
+2017-03-09 16:59:19 dev_log : [STEP] [Wait For Text : [我的]] 
+2017-03-09 16:59:19 dev_log : [INFO] [Wait For Text : [我的]] 
+2017-03-09 17:07:50 dev_log : [INFO] groups:3
+2017-03-09 17:07:51 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:07:51 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:08:13 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 17:08:13 dev_log : [INFO] **********
+2017-03-09 17:08:49 dev_log : [INFO] groups:3
+2017-03-09 17:08:50 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:08:50 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:09:12 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 17:09:12 dev_log : [INFO] **********
+2017-03-09 17:28:22 dev_log : [INFO] groups:3
+2017-03-09 17:30:21 dev_log : [INFO] groups:3
+2017-03-09 17:31:41 dev_log : [INFO] groups:3
+2017-03-09 17:31:42 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:31:42 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:31:44 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 17:31:44 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 17:31:45 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 17:31:45 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 17:31:47 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:5770
+2017-03-09 17:31:47 dev_log : [INFO] **********
+2017-03-09 17:32:24 dev_log : [INFO] groups:3
+2017-03-09 17:32:26 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:32:26 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:32:27 dev_log : [STEP] [点击'关于'] 
+2017-03-09 17:32:27 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 17:32:32 dev_log : [INFO] 已截图,图片名称为:m.png
+2017-03-09 17:32:33 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@58cbafc2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@2034b64c transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 17:32:33 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:8702
+2017-03-09 17:32:33 dev_log : [INFO] **********
+2017-03-09 17:33:10 dev_log : [INFO] groups:3
+2017-03-09 17:33:11 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:33:11 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:33:12 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 17:33:12 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 17:33:14 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 17:33:14 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 17:33:17 dev_log : Success, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:6943
+2017-03-09 17:33:17 dev_log : [INFO] **********
+2017-03-09 17:33:52 dev_log : [INFO] groups:3
+2017-03-09 17:33:53 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:33:53 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:34:15 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:34:15 dev_log : [INFO] **********
+2017-03-09 17:35:49 dev_log : [INFO] groups:3
+2017-03-09 17:35:49 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:49 dev_log : [INFO] **********
+2017-03-09 17:35:49 dev_log : [INFO] groups:3
+2017-03-09 17:35:49 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:49 dev_log : [INFO] **********
+2017-03-09 17:35:49 dev_log : [INFO] groups:3
+2017-03-09 17:35:49 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:49 dev_log : [INFO] **********
+2017-03-09 17:35:50 dev_log : [INFO] groups:3
+2017-03-09 17:35:50 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:50 dev_log : [INFO] **********
+2017-03-09 17:35:50 dev_log : [INFO] groups:3
+2017-03-09 17:35:50 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:50 dev_log : [INFO] **********
+2017-03-09 17:35:50 dev_log : [INFO] groups:4
+2017-03-09 17:35:50 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:50 dev_log : [INFO] **********
+2017-03-09 17:35:50 dev_log : [INFO] groups:3
+2017-03-09 17:35:50 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:50 dev_log : [INFO] **********
+2017-03-09 17:35:50 dev_log : [INFO] groups:3
+2017-03-09 17:35:50 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:35:50 dev_log : [INFO] **********
+2017-03-09 17:35:51 dev_log : [INFO] groups:3
+2017-03-09 17:36:37 dev_log : [INFO] groups:3
+2017-03-09 17:36:39 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:36:39 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:36:40 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 17:36:40 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 17:36:52 dev_log : Skipped, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 17:36:52 dev_log : [INFO] **********
+2017-03-09 17:40:06 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 17:40:06 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 17:40:06 dev_log : [INFO] groups:3
+2017-03-09 17:40:09 dev_log : [STEP] [点击'我的'] 
+2017-03-09 17:40:09 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 17:40:10 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 17:40:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 19:10:53 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:10:53 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:10:53 dev_log : [INFO] groups:3
+2017-03-09 19:10:56 dev_log : [STEP] [点击'我的'] 
+2017-03-09 19:10:56 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 19:10:58 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 19:10:58 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 19:11:18 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 19:11:18 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 19:11:40 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:46701
+2017-03-09 19:11:40 dev_log : [INFO] **********
+2017-03-09 19:12:21 dev_log : [INFO] groups:3
+2017-03-09 19:12:21 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:12:21 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:12:24 dev_log : [STEP] [点击'我的'] 
+2017-03-09 19:12:24 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 19:12:25 dev_log : [STEP] [点击'关于'] 
+2017-03-09 19:12:25 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 19:12:52 dev_log : [INFO] 已截图,图片名称为:e.png
+2017-03-09 19:12:52 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@3b0fe47a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@202b0582 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 19:12:52 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:31353
+2017-03-09 19:12:52 dev_log : [INFO] **********
+2017-03-09 19:13:34 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:13:34 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:13:34 dev_log : [INFO] groups:3
+2017-03-09 19:13:34 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:13:34 dev_log : [INFO] **********
+2017-03-09 19:14:14 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:14:14 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:14:14 dev_log : [INFO] groups:3
+2017-03-09 19:14:14 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:14:14 dev_log : [INFO] **********
+2017-03-09 19:14:55 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:14:55 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:14:55 dev_log : [INFO] groups:3
+2017-03-09 19:14:55 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:14:55 dev_log : [INFO] **********
+2017-03-09 19:15:38 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:15:38 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:15:38 dev_log : [INFO] groups:4
+2017-03-09 19:15:38 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:15:38 dev_log : [INFO] **********
+2017-03-09 19:16:18 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:16:18 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:16:18 dev_log : [INFO] groups:3
+2017-03-09 19:16:18 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:16:18 dev_log : [INFO] **********
+2017-03-09 19:16:59 dev_log : [INFO] groups:3
+2017-03-09 19:16:59 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:16:59 dev_log : [INFO] **********
+2017-03-09 19:16:59 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:16:59 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:17:38 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:17:38 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:17:38 dev_log : [INFO] groups:3
+2017-03-09 19:17:38 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:17:38 dev_log : [INFO] **********
+2017-03-09 19:18:19 dev_log : [INFO] groups:3
+2017-03-09 19:18:19 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:18:19 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:18:19 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:18:19 dev_log : [INFO] **********
+2017-03-09 19:18:59 dev_log : [INFO] groups:3
+2017-03-09 19:18:59 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:18:59 dev_log : [INFO] **********
+2017-03-09 19:18:59 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:18:59 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:19:37 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:19:37 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:19:37 dev_log : [INFO] groups:3
+2017-03-09 19:19:37 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:19:37 dev_log : [INFO] **********
+2017-03-09 19:20:21 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:20:21 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:20:21 dev_log : [INFO] groups:3
+2017-03-09 19:20:21 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:20:21 dev_log : [INFO] **********
+2017-03-09 19:21:01 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:21:01 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:21:01 dev_log : [INFO] groups:3
+2017-03-09 19:21:01 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:21:01 dev_log : [INFO] **********
+2017-03-09 19:21:43 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:21:43 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:21:43 dev_log : [INFO] groups:3
+2017-03-09 19:21:43 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:21:43 dev_log : [INFO] **********
+2017-03-09 19:22:22 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:22:22 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:22:22 dev_log : [INFO] groups:3
+2017-03-09 19:22:22 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:22:22 dev_log : [INFO] **********
+2017-03-09 19:23:05 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:23:05 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:23:05 dev_log : [INFO] groups:3
+2017-03-09 19:23:05 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:23:05 dev_log : [INFO] **********
+2017-03-09 19:23:45 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:23:45 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:23:45 dev_log : [INFO] groups:3
+2017-03-09 19:23:45 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:23:45 dev_log : [INFO] **********
+2017-03-09 19:24:25 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:24:25 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:24:25 dev_log : [INFO] groups:3
+2017-03-09 19:24:25 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:24:25 dev_log : [INFO] **********
+2017-03-09 19:25:05 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 19:25:05 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 19:25:05 dev_log : [INFO] groups:3
+2017-03-09 19:25:05 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3]
+2017-03-09 19:25:05 dev_log : [INFO] **********
+2017-03-09 19:25:13 dev_log : All Tests is finished
+2017-03-09 19:25:13 dev_log : PASSED:0
+2017-03-09 19:25:13 dev_log : FAILED:0
+2017-03-09 19:25:13 dev_log : SKIPPED:0
+2017-03-09 20:00:38 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:00:38 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:00:39 dev_log : [INFO] groups:3
+2017-03-09 20:00:42 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:00:42 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:00:43 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:00:43 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:01:04 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:01:04 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:01:26 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:47240
+2017-03-09 20:01:26 dev_log : [INFO] **********
+2017-03-09 20:02:07 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:02:07 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:02:07 dev_log : [INFO] groups:3
+2017-03-09 20:02:10 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:02:10 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:02:11 dev_log : [STEP] [点击'关于'] 
+2017-03-09 20:02:11 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 20:02:36 dev_log : [INFO] 已截图,图片名称为:h.png
+2017-03-09 20:02:37 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@3b0fe47a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@202b0582 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 20:02:37 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@578486a3] #parameters:0 time:30130
+2017-03-09 20:02:37 dev_log : [INFO] **********
+2017-03-09 20:06:57 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:06:57 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:06:57 dev_log : [INFO] groups:3
+2017-03-09 20:06:59 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:06:59 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:07:00 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:07:00 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:07:21 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:07:21 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:07:43 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:45739
+2017-03-09 20:07:43 dev_log : [INFO] **********
+2017-03-09 20:08:22 dev_log : [INFO] groups:3
+2017-03-09 20:08:24 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:08:24 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:08:45 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:08:45 dev_log : [INFO] **********
+2017-03-09 20:09:23 dev_log : [INFO] groups:3
+2017-03-09 20:13:21 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:13:21 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:13:21 dev_log : [INFO] groups:3
+2017-03-09 20:13:24 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:13:24 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:13:25 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:13:25 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:13:46 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:13:46 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:14:07 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:46826
+2017-03-09 20:14:07 dev_log : [INFO] **********
+2017-03-09 20:14:50 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:14:50 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:14:50 dev_log : [INFO] groups:3
+2017-03-09 20:14:53 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:14:53 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:14:54 dev_log : [STEP] [点击'关于'] 
+2017-03-09 20:14:54 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 20:15:20 dev_log : [INFO] 已截图,图片名称为:7.png
+2017-03-09 20:15:21 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@7ef82753: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3b0fe47a transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 20:15:21 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:31164
+2017-03-09 20:15:21 dev_log : [INFO] **********
+2017-03-09 20:16:02 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:16:02 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:16:02 dev_log : [INFO] groups:3
+2017-03-09 20:16:02 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:16:02 dev_log : [INFO] **********
+2017-03-09 20:16:43 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:16:43 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:16:43 dev_log : [INFO] groups:3
+2017-03-09 20:16:43 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:16:43 dev_log : [INFO] **********
+2017-03-09 20:31:09 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:31:09 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:31:09 dev_log : [INFO] groups:3
+2017-03-09 20:31:12 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:31:12 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:31:14 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:31:14 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:31:35 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:31:35 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:31:56 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:47225
+2017-03-09 20:31:56 dev_log : [INFO] **********
+2017-03-09 20:31:56 dev_log : [INFO] groups:3
+2017-03-09 20:31:56 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:56 dev_log : [INFO] **********
+2017-03-09 20:31:56 dev_log : [INFO] groups:3
+2017-03-09 20:31:56 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:57 dev_log : [INFO] **********
+2017-03-09 20:31:57 dev_log : [INFO] groups:3
+2017-03-09 20:31:57 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:57 dev_log : [INFO] **********
+2017-03-09 20:31:57 dev_log : [INFO] groups:3
+2017-03-09 20:31:57 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:57 dev_log : [INFO] **********
+2017-03-09 20:31:57 dev_log : [INFO] groups:4
+2017-03-09 20:31:57 dev_log : Skipped, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:57 dev_log : [INFO] **********
+2017-03-09 20:31:57 dev_log : [INFO] groups:3
+2017-03-09 20:31:57 dev_log : Skipped, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:57 dev_log : [INFO] **********
+2017-03-09 20:31:58 dev_log : [INFO] groups:3
+2017-03-09 20:31:58 dev_log : Skipped, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:58 dev_log : [INFO] **********
+2017-03-09 20:31:58 dev_log : [INFO] groups:3
+2017-03-09 20:31:58 dev_log : Skipped, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:58 dev_log : [INFO] **********
+2017-03-09 20:31:58 dev_log : [INFO] groups:3
+2017-03-09 20:31:58 dev_log : Skipped, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:58 dev_log : [INFO] **********
+2017-03-09 20:31:58 dev_log : [INFO] groups:3
+2017-03-09 20:31:58 dev_log : Skipped, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:58 dev_log : [INFO] **********
+2017-03-09 20:31:58 dev_log : [INFO] groups:3
+2017-03-09 20:31:58 dev_log : Skipped, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:58 dev_log : [INFO] **********
+2017-03-09 20:31:58 dev_log : [INFO] groups:3
+2017-03-09 20:31:59 dev_log : Skipped, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:59 dev_log : [INFO] **********
+2017-03-09 20:31:59 dev_log : [INFO] groups:3
+2017-03-09 20:31:59 dev_log : Skipped, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:59 dev_log : [INFO] **********
+2017-03-09 20:31:59 dev_log : [INFO] groups:3
+2017-03-09 20:31:59 dev_log : Skipped, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:59 dev_log : [INFO] **********
+2017-03-09 20:31:59 dev_log : [INFO] groups:3
+2017-03-09 20:31:59 dev_log : Skipped, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:59 dev_log : [INFO] **********
+2017-03-09 20:31:59 dev_log : [INFO] groups:3
+2017-03-09 20:31:59 dev_log : Skipped, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:31:59 dev_log : [INFO] **********
+2017-03-09 20:32:00 dev_log : [INFO] groups:3
+2017-03-09 20:32:00 dev_log : Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:32:00 dev_log : [INFO] **********
+2017-03-09 20:32:00 dev_log : [INFO] groups:3
+2017-03-09 20:32:00 dev_log : Skipped, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:32:00 dev_log : [INFO] **********
+2017-03-09 20:32:00 dev_log : [INFO] groups:3
+2017-03-09 20:32:00 dev_log : Skipped, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:32:00 dev_log : [INFO] **********
+2017-03-09 20:32:00 dev_log : All Tests is finished
+2017-03-09 20:32:00 dev_log : PASSED:0
+2017-03-09 20:32:00 dev_log : FAILED:0
+2017-03-09 20:32:00 dev_log : SKIPPED:0
+2017-03-09 20:33:40 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:33:40 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:33:40 dev_log : [INFO] groups:3
+2017-03-09 20:33:43 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:33:43 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:33:45 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:33:45 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:34:05 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:34:05 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:34:27 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:46981
+2017-03-09 20:34:27 dev_log : [INFO] **********
+2017-03-09 20:35:08 dev_log : [INFO] groups:3
+2017-03-09 20:35:08 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:35:08 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:35:11 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:35:11 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:35:13 dev_log : [STEP] [点击'关于'] 
+2017-03-09 20:35:13 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 20:35:38 dev_log : [INFO] 已截图,图片名称为:p.png
+2017-03-09 20:35:38 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@7ef82753: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@3b0fe47a transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 20:35:38 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:30117
+2017-03-09 20:35:38 dev_log : [INFO] **********
+2017-03-09 20:36:21 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:36:21 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:36:21 dev_log : [INFO] groups:3
+2017-03-09 20:36:21 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:36:21 dev_log : [INFO] **********
+2017-03-09 20:36:59 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:36:59 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:36:59 dev_log : [INFO] groups:3
+2017-03-09 20:36:59 dev_log : Skipped, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:36:59 dev_log : [INFO] **********
+2017-03-09 20:37:40 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:37:40 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:37:40 dev_log : [INFO] groups:3
+2017-03-09 20:37:40 dev_log : Skipped, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:37:40 dev_log : [INFO] **********
+2017-03-09 20:38:44 dev_log : [INFO] groups:3
+2017-03-09 20:38:44 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:38:44 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:38:47 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:38:47 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:39:08 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:39:08 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:39:49 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:39:49 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:42:12 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:208142
+2017-03-09 20:42:12 dev_log : [INFO] **********
+2017-03-09 20:42:58 dev_log : [STEP] [发现新设备点击取消] 
+2017-03-09 20:42:58 dev_log : [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-09 20:42:58 dev_log : [INFO] groups:3
+2017-03-09 20:42:58 dev_log : Skipped, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920]
+2017-03-09 20:42:58 dev_log : [INFO] **********
+2017-03-09 20:44:34 dev_log : [INFO] groups:3
+2017-03-09 20:44:36 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:44:36 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:44:38 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:44:38 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:44:40 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:44:40 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:44:41 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@2b552920] #parameters:0 time:7468
+2017-03-09 20:44:41 dev_log : [INFO] **********
+2017-03-09 20:45:46 dev_log : [INFO] groups:3
+2017-03-09 20:45:49 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:45:49 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:45:50 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:45:50 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:45:52 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:45:52 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:45:54 dev_log : Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:7569
+2017-03-09 20:45:54 dev_log : [INFO] **********
+2017-03-09 20:46:30 dev_log : [INFO] groups:3
+2017-03-09 20:46:32 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:46:32 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:46:37 dev_log : [STEP] [点击'关于'] 
+2017-03-09 20:46:37 dev_log : [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-09 20:46:43 dev_log : [INFO] 已截图,图片名称为:g.png
+2017-03-09 20:46:43 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@53045c6c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 20:46:43 dev_log : Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:13195
+2017-03-09 20:46:43 dev_log : [INFO] **********
+2017-03-09 20:47:16 dev_log : [INFO] groups:3
+2017-03-09 20:47:19 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:47:19 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:47:41 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 20:47:41 dev_log : [INFO] **********
+2017-03-09 20:48:16 dev_log : [INFO] groups:3
+2017-03-09 20:48:19 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:48:19 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:48:40 dev_log : Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-09 20:48:40 dev_log : [INFO] **********
+2017-03-09 20:49:14 dev_log : [INFO] groups:3
+2017-03-09 20:49:17 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:49:17 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:49:18 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:49:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:49:21 dev_log : [STEP] [点击进入授权登录界面] 
+2017-03-09 20:49:21 dev_log : [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-09 20:49:23 dev_log : Success, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:8747
+2017-03-09 20:49:23 dev_log : [INFO] **********
+2017-03-09 20:49:56 dev_log : [INFO] groups:3
+2017-03-09 20:49:59 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:49:59 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:50:18 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:50:18 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:50:20 dev_log : [STEP] [进入邮箱绑定界面] 
+2017-03-09 20:50:20 dev_log : [INFO] [点击 -> -android uiautomator: text("邮箱")]
+2017-03-09 20:50:22 dev_log : Failed, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:25274
+2017-03-09 20:50:42 dev_log : 执行失败，已抓取日志，日志名为：201703092050checkaccount.txt
+2017-03-09 20:50:45 dev_log : 已截图，图片名为：checkaccount201703092050.png
+2017-03-09 20:50:45 dev_log : [INFO] 成功比列:100
+2017-03-09 20:50:45 dev_log : [INFO] **********
+2017-03-09 20:51:20 dev_log : [INFO] groups:3
+2017-03-09 20:51:23 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:51:23 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:51:37 dev_log : [STEP] [点击'意见反馈'] 
+2017-03-09 20:51:37 dev_log : [INFO] [点击 -> -android uiautomator: text("意见反馈")]
+2017-03-09 20:52:03 dev_log : [INFO] 已截图,图片名称为:4.png
+2017-03-09 20:52:04 dev_log : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.png与图片:BufferedImage@1c33c17b: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-09 20:52:09 dev_log : [STEP] [反馈内容框中输入内容] 
+2017-03-09 20:52:09 dev_log : [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-09 20:52:10 dev_log : [STEP] [点击添加图片按扭] 
+2017-03-09 20:52:10 dev_log : [INFO] [点击 -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-03-09 20:52:17 dev_log : [STEP] [选中一张照片] 
+2017-03-09 20:52:17 dev_log : [INFO] [点击 -> id: com.miui.gallery:id/pick_num_indicator]
+2017-03-09 20:52:19 dev_log : [STEP] [输入联系方式] 
+2017-03-09 20:52:19 dev_log : [INFO] [输入字符 -> id: feedback-contact]
+2017-03-09 20:52:21 dev_log : [STEP] [反馈内容框中输入内容] 
+2017-03-09 20:52:21 dev_log : [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-09 20:52:25 dev_log : [STEP] [Wait For Text : [com.orvibo.homemate:id/title_text]] 
+2017-03-09 20:52:25 dev_log : [INFO] [Wait For Text : [com.orvibo.homemate:id/title_text]] 
+2017-03-09 20:52:31 dev_log : Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:71056
+2017-03-09 20:52:31 dev_log : [INFO] **********
+2017-03-09 20:53:05 dev_log : [INFO] groups:4
+2017-03-09 20:53:07 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:53:07 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:53:09 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:53:09 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:53:10 dev_log : [STEP] [点击修改密码] 
+2017-03-09 20:53:10 dev_log : [INFO] [点击 -> -android uiautomator: text("修改密码")]
+2017-03-09 20:53:12 dev_log : [STEP] [点击忘记旧密码] 
+2017-03-09 20:53:12 dev_log : [INFO] [点击 -> -android uiautomator: text("忘记旧密码")]
+2017-03-09 20:53:14 dev_log : [STEP] [输入正确的账号] 
+2017-03-09 20:53:14 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 20:53:19 dev_log : [STEP] [确认输入] 
+2017-03-09 20:53:19 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-09 20:53:20 dev_log : [STEP] [点击下一步] 
+2017-03-09 20:53:20 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 20:53:21 dev_log : [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-09 20:53:21 dev_log : [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-09 20:53:25 dev_log : [STEP] [输入小11位手机号] 
+2017-03-09 20:53:25 dev_log : [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-09 20:53:31 dev_log : [STEP] [确认输入] 
+2017-03-09 20:53:31 dev_log : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-09 20:53:32 dev_log : [STEP] [点击下一步] 
+2017-03-09 20:53:32 dev_log : [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-09 20:54:24 dev_log : Success, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:79086
+2017-03-09 20:54:24 dev_log : [INFO] **********
+2017-03-09 20:54:57 dev_log : [INFO] groups:3
+2017-03-09 20:55:00 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:55:00 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:55:10 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:55:10 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:55:11 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 20:55:11 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 20:55:33 dev_log : Failed, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:35955
+2017-03-09 20:55:54 dev_log : 执行失败，已抓取日志，日志名为：201703092055grephonenumber.txt
+2017-03-09 20:55:58 dev_log : 已截图，图片名为：grephonenumber201703092055.png
+2017-03-09 20:55:58 dev_log : [INFO] 成功比列:100
+2017-03-09 20:55:58 dev_log : [INFO] **********
+2017-03-09 20:56:32 dev_log : [INFO] groups:3
+2017-03-09 20:56:35 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:56:35 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:56:37 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:56:37 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:56:38 dev_log : [INFO] 登录的账号为邮箱登录，且未绑定手机号
+2017-03-09 20:56:38 dev_log : [STEP] [进入 手机号绑定界面] 
+2017-03-09 20:56:38 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 20:57:00 dev_log : [INFO] 登录的账号为邮箱登录，且已绑定手机号，此条用例无法测试
+2017-03-09 20:57:00 dev_log : Success, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:28256
+2017-03-09 20:57:00 dev_log : [INFO] **********
+2017-03-09 20:57:36 dev_log : [INFO] groups:3
+2017-03-09 20:57:38 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:57:38 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:57:44 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:57:44 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-09 20:57:46 dev_log : [STEP] [点击进入手机绑定界面] 
+2017-03-09 20:57:46 dev_log : [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-09 20:58:07 dev_log : Failed, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:31551
+2017-03-09 20:58:28 dev_log : 执行失败，已抓取日志，日志名为：201703092058lesphonenumber.txt
+2017-03-09 20:58:31 dev_log : 已截图，图片名为：lesphonenumber201703092058.png
+2017-03-09 20:58:31 dev_log : [INFO] 成功比列:100
+2017-03-09 20:58:31 dev_log : [INFO] **********
+2017-03-09 20:59:05 dev_log : [INFO] groups:3
+2017-03-09 20:59:08 dev_log : [STEP] [点击'我的'] 
+2017-03-09 20:59:08 dev_log : [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-09 20:59:11 dev_log : [STEP] [点击个人信息头像] 
+2017-03-09 20:59:11 dev_log : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
