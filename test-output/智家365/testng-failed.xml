@@ -11,11 +11,11 @@
     <parameter name="reportreceiver" value="penghong@orvibo.com"/>
     <parameter name="udid" value="492c754e"/>
     <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
-    <parameter name="testpassword" value="2hq5qt"/>
-    <parameter name="testaccount" value="840432908@qq.com"/>
+    <parameter name="testpassword" value="999000"/>
+    <parameter name="testaccount" value="eop@qq.com"/>
     <groups>
       <run>
-        <include name="情景"/>
+        <include name="联动2"/>
       </run>
     </groups>
     <classes>
@@ -28,7 +28,7 @@
         <methods>
           <include name="init"/>
           <include name="beforeMethod"/>
-          <include name="checkscene"/>
+          <include name="editlinkage"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.HomeManage -->

@@ -36,6 +36,7 @@ D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\s
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\ReadExcelCase\ExcelData.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\database\DBHelperMysql.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\utils\Common.java
+D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\monitor\PromptListener.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\android365\testcase\HomeManage.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\utils\cutImageUtils.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\common\EditText.java
@@ -44,6 +45,6 @@ D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\s
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\common\ToolFunctions.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\dataprovider\AppBean.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\utils\ParseProperties.java
+D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\common\HttpRequest.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\log\LoggerUtil.java
 D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\ReadExcelCase\ReadExcel.java
-D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\com\oribo\utils\StrUtils.java

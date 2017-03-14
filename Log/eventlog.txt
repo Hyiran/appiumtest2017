@@ -13693,3 +13693,1543 @@
 2017-03-10 16:20:09 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
 2017-03-10 16:20:10 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
 2017-03-10 16:20:11 [main] [dev_log] [INFO] [29]- [INFO] 当前情景数为:12
+2017-03-10 18:08:57 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-10 18:08:57 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-10 18:08:57 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-10 18:08:59 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-10 18:08:59 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-10 18:08:59 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-10 18:09:35 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-10 18:09:36 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-10 18:09:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-10 18:09:37 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-10 18:09:37 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-10 18:09:37 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 09:11:40 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 09:11:40 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 09:11:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 09:11:41 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 09:11:43 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 09:11:43 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 09:13:27 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 09:13:28 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 09:13:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 09:13:29 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 09:13:30 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 09:13:30 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 09:14:01 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 09:14:02 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 09:14:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 09:14:03 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 09:14:03 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 09:14:03 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 09:25:07 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 09:25:08 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 09:25:08 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 09:25:09 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 09:25:10 [main] [dev_log] [INFO] [29]- [INFO] 当前情景数为:3
+2017-03-13 09:27:23 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 09:27:25 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 09:27:25 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 09:27:26 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 09:27:27 [main] [dev_log] [INFO] [29]- [INFO] 当前情景数为:3
+2017-03-13 09:27:27 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:3963
+2017-03-13 09:27:27 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 09:27:34 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 09:27:34 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 09:27:34 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 09:27:34 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 09:28:37 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 09:28:37 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 09:28:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 09:28:39 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 09:28:39 [main] [dev_log] [INFO] [29]- [INFO] 当前情景数为:3
+2017-03-13 09:28:40 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:2768
+2017-03-13 09:28:40 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 09:28:47 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 09:28:47 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 09:28:47 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 09:28:47 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 10:29:59 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 10:30:00 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 10:30:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 10:30:02 [main] [dev_log] [INFO] [40]- [STEP] [点击联动] 
+2017-03-13 10:30:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-13 10:30:04 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为:1
+2017-03-13 10:30:04 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checklinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:4851
+2017-03-13 10:30:04 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:30:39 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 10:30:41 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-13 10:30:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-13 10:30:42 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 10:30:42 [main] [dev_log] [INFO] [29]- [INFO] 当前情景数为:3
+2017-03-13 10:30:42 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checkscene()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:3464
+2017-03-13 10:30:42 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:30:49 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 10:30:49 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 10:30:49 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 10:30:49 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 10:34:43 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 10:34:43 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 10:34:43 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 10:34:43 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 10:35:30 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:35:33 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:35:33 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:35:34 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:35:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:35:36 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:35:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:35:38 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:7368
+2017-03-13 10:35:38 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:36:10 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:36:14 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:36:14 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:36:15 [main] [dev_log] [INFO] [40]- [STEP] [点击'关于'] 
+2017-03-13 10:36:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-13 10:36:20 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:z.png
+2017-03-13 10:36:21 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@53045c6c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 10:36:21 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:10857
+2017-03-13 10:36:21 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:36:55 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:36:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:36:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:37:00 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:37:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:37:03 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:37:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:37:04 [main] [dev_log] [INFO] [49]- Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-13 10:37:04 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:37:38 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:37:42 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:37:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:37:43 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:37:43 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:37:45 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:37:45 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:37:47 [main] [dev_log] [INFO] [49]- Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-13 10:37:47 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:38:18 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:38:22 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:38:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:38:24 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:38:24 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:38:26 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:38:26 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:38:27 [main] [dev_log] [INFO] [29]- Failed, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:9054
+2017-03-13 10:45:26 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:45:29 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:45:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:45:30 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:45:30 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:45:32 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:45:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:45:34 [main] [dev_log] [INFO] [49]- Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@50b494a6]
+2017-03-13 10:45:34 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:46:07 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:46:11 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:46:11 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:46:13 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:46:13 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:46:15 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:46:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:46:16 [main] [dev_log] [INFO] [49]- Skipped, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@50b494a6]
+2017-03-13 10:46:16 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:46:49 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:46:52 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:46:52 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:46:54 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:46:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:46:56 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:46:56 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:46:58 [main] [dev_log] [INFO] [29]- Failed, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@50b494a6] #parameters:0 time:8510
+2017-03-13 10:47:18 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131046authorizationentrance.txt
+2017-03-13 10:47:21 [main] [dev_log] [INFO] [39]- 已截图，图片名为：authorizationentrance201703131047.png
+2017-03-13 10:47:21 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 10:47:21 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:47:29 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 10:47:29 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 10:47:29 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 10:47:29 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 10:54:57 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:55:00 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:55:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:55:02 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:55:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:55:04 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:55:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:55:05 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.Unboundauthorization()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:8102
+2017-03-13 10:55:05 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:55:38 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:55:41 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:55:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:55:43 [main] [dev_log] [INFO] [40]- [STEP] [点击'关于'] 
+2017-03-13 10:55:43 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("关于")]
+2017-03-13 10:55:48 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:g.png
+2017-03-13 10:55:49 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@53045c6c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 10:55:49 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.about()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:10968
+2017-03-13 10:55:49 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:56:21 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:56:24 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:56:24 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:56:26 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:56:26 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:56:28 [main] [dev_log] [INFO] [40]- [STEP] [点击进入授权登录界面] 
+2017-03-13 10:56:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("授权登录")]
+2017-03-13 10:56:30 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.authorizationentrance()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:9104
+2017-03-13 10:56:30 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:57:03 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:57:06 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:57:06 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:57:07 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:57:07 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:57:09 [main] [dev_log] [INFO] [40]- [STEP] [进入邮箱绑定界面] 
+2017-03-13 10:57:09 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("邮箱")]
+2017-03-13 10:57:11 [main] [dev_log] [INFO] [40]- [STEP] [点击“更换邮箱”] 
+2017-03-13 10:57:11 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("更换邮箱")]
+2017-03-13 10:57:13 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.checkaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:10297
+2017-03-13 10:57:13 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:57:44 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 10:57:47 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:57:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:57:49 [main] [dev_log] [INFO] [40]- [STEP] [点击'意见反馈'] 
+2017-03-13 10:57:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("意见反馈")]
+2017-03-13 10:58:14 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:8.png
+2017-03-13 10:58:15 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.png与图片:BufferedImage@60856961: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 10:58:21 [main] [dev_log] [INFO] [40]- [STEP] [反馈内容框中输入内容] 
+2017-03-13 10:58:21 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-13 10:58:22 [main] [dev_log] [INFO] [40]- [STEP] [点击添加图片按扭] 
+2017-03-13 10:58:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-03-13 10:58:28 [main] [dev_log] [INFO] [40]- [STEP] [选中一张照片] 
+2017-03-13 10:58:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.miui.gallery:id/pick_num_indicator]
+2017-03-13 10:58:31 [main] [dev_log] [INFO] [40]- [STEP] [输入联系方式] 
+2017-03-13 10:58:31 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: feedback-contact]
+2017-03-13 10:58:32 [main] [dev_log] [INFO] [40]- [STEP] [反馈内容框中输入内容] 
+2017-03-13 10:58:32 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-13 10:58:36 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_text]] 
+2017-03-13 10:58:36 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_text]] 
+2017-03-13 10:58:43 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:58308
+2017-03-13 10:58:43 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 10:59:14 [main] [dev_log] [INFO] [29]- [INFO] groups:4
+2017-03-13 10:59:19 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 10:59:19 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 10:59:20 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 10:59:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 10:59:22 [main] [dev_log] [INFO] [40]- [STEP] [点击修改密码] 
+2017-03-13 10:59:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("修改密码")]
+2017-03-13 10:59:23 [main] [dev_log] [INFO] [40]- [STEP] [点击忘记旧密码] 
+2017-03-13 10:59:23 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("忘记旧密码")]
+2017-03-13 10:59:25 [main] [dev_log] [INFO] [40]- [STEP] [输入正确的账号] 
+2017-03-13 10:59:25 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 10:59:30 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 10:59:30 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 10:59:31 [main] [dev_log] [INFO] [40]- [STEP] [点击下一步] 
+2017-03-13 10:59:31 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-13 10:59:33 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 10:59:33 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 10:59:36 [main] [dev_log] [INFO] [40]- [STEP] [输入小11位手机号] 
+2017-03-13 10:59:36 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-13 10:59:42 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 10:59:42 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-13 10:59:44 [main] [dev_log] [INFO] [40]- [STEP] [点击下一步] 
+2017-03-13 10:59:44 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-13 11:00:35 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.forgetpassword()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:81025
+2017-03-13 11:00:35 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:01:09 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:01:13 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:01:13 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:01:14 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:01:14 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:01:16 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:01:16 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:01:18 [main] [dev_log] [INFO] [40]- [STEP] [输入大于11位手机号] 
+2017-03-13 11:01:18 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:01:22 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:01:22 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:01:24 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.grephonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:14619
+2017-03-13 11:01:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:01:57 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:02:00 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:02:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:02:02 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:02:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:02:04 [main] [dev_log] [INFO] [29]- [INFO] 登录的账号为邮箱登录，且未绑定手机号
+2017-03-13 11:02:04 [main] [dev_log] [INFO] [40]- [STEP] [进入 手机号绑定界面] 
+2017-03-13 11:02:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:02:06 [main] [dev_log] [INFO] [40]- [STEP] [输入11位手机号] 
+2017-03-13 11:02:06 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:02:11 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:02:11 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:02:12 [main] [dev_log] [INFO] [40]- [STEP] [点击下一步] 
+2017-03-13 11:02:12 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-13 11:02:13 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/codeEditText]] 
+2017-03-13 11:02:13 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/codeEditText]] 
+2017-03-13 11:02:20 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 获取验证码…] 
+2017-03-13 11:02:22 [main] [dev_log] [INFO] [40]- [STEP] [输入小11位手机号] 
+2017-03-13 11:02:22 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-13 11:02:27 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:02:27 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/codeEditText]
+2017-03-13 11:02:29 [main] [dev_log] [INFO] [40]- [STEP] [点击下一步] 
+2017-03-13 11:02:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-13 11:03:24 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.identifycode()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:87720
+2017-03-13 11:03:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:03:58 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:04:01 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:04:01 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:04:02 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:04:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:04:04 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:04:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:04:05 [main] [dev_log] [INFO] [40]- [STEP] [输入小11位手机号] 
+2017-03-13 11:04:05 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:04:10 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:04:10 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:04:11 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.lesphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:13395
+2017-03-13 11:04:11 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:04:43 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:04:46 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:04:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:04:48 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:04:48 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:04:50 [main] [dev_log] [INFO] [40]- [STEP] [点击昵称] 
+2017-03-13 11:04:50 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("昵称")]
+2017-03-13 11:04:51 [main] [dev_log] [INFO] [40]- [STEP] [清空昵称文本框] 
+2017-03-13 11:04:51 [main] [dev_log] [INFO] [29]- [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:04:53 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.nickNull()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:10703
+2017-03-13 11:04:53 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:05:25 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:05:28 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:05:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:05:29 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:05:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:05:31 [main] [dev_log] [INFO] [40]- [STEP] [点击昵称] 
+2017-03-13 11:05:31 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("昵称")]
+2017-03-13 11:05:32 [main] [dev_log] [INFO] [40]- [STEP] [输入16个字汉] 
+2017-03-13 11:05:32 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:05:45 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:05:45 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:05:46 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-13 11:05:46 [main] [dev_log] [INFO] [29]- [INFO] [点击按扭 -> -android uiautomator: text("保存")]
+2017-03-13 11:05:47 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.nickmaxchina()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:22720
+2017-03-13 11:05:47 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:06:18 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:06:21 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:06:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:06:23 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:06:23 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:06:24 [main] [dev_log] [INFO] [40]- [STEP] [点击昵称] 
+2017-03-13 11:06:24 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("昵称")]
+2017-03-13 11:06:26 [main] [dev_log] [INFO] [40]- [STEP] [输入32个英文] 
+2017-03-13 11:06:26 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:06:46 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:06:46 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:06:47 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-13 11:06:47 [main] [dev_log] [INFO] [29]- [INFO] [点击按扭 -> -android uiautomator: text("保存")]
+2017-03-13 11:06:49 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.nickmaxeng()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:31080
+2017-03-13 11:06:49 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:07:18 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:07:21 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:07:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:07:23 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:07:23 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:07:25 [main] [dev_log] [INFO] [40]- [STEP] [点击昵称] 
+2017-03-13 11:07:25 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userNicknameTextView]
+2017-03-13 11:07:26 [main] [dev_log] [INFO] [40]- [STEP] [输入1个字符] 
+2017-03-13 11:07:26 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:07:32 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:07:32 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]
+2017-03-13 11:07:33 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-13 11:07:33 [main] [dev_log] [INFO] [29]- [INFO] [点击按扭 -> -android uiautomator: text("保存")]
+2017-03-13 11:07:34 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.nickmodify()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:15864
+2017-03-13 11:07:34 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:08:05 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:08:08 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:08:08 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:08:10 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:08:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:08:11 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:08:11 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:08:13 [main] [dev_log] [INFO] [40]- [STEP] [输入特殊字符] 
+2017-03-13 11:08:13 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:08:18 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:08:18 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:08:19 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.notphonenumber()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:14522
+2017-03-13 11:08:19 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:08:51 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:08:54 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:08:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:08:56 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:08:56 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:08:58 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:08:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:09:00 [main] [dev_log] [INFO] [40]- [STEP] [输入空格] 
+2017-03-13 11:09:00 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:09:05 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:09:05 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:09:06 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.phonebind()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:14539
+2017-03-13 11:09:06 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:09:39 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:09:42 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:09:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:09:44 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:09:44 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:09:46 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:09:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:09:47 [main] [dev_log] [INFO] [40]- [STEP] [输入11位手机号] 
+2017-03-13 11:09:47 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:09:52 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:09:52 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:09:53 [main] [dev_log] [INFO] [40]- [STEP] [返回到个人信息界面] 
+2017-03-13 11:09:53 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-13 11:09:55 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.rightaccount()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:16346
+2017-03-13 11:09:55 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:10:26 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:10:29 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:10:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:10:32 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:10:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:10:33 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:10:33 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:10:35 [main] [dev_log] [INFO] [40]- [STEP] [输入11位手机号] 
+2017-03-13 11:10:35 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:10:40 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:10:40 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:10:41 [main] [dev_log] [INFO] [40]- [STEP] [跳到安全验证界面] 
+2017-03-13 11:10:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("下一步")]
+2017-03-13 11:10:42 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/codeEditText]] 
+2017-03-13 11:10:42 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/codeEditText]] 
+2017-03-13 11:10:49 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.rightaccountnext()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:23334
+2017-03-13 11:10:49 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:11:20 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:11:23 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:11:23 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:11:30 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:1.png
+2017-03-13 11:11:30 [main] [dev_log] [INFO] [40]- [STEP] [点击个人中心头像] 
+2017-03-13 11:11:30 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:11:32 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:11:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:11:33 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:11:33 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:11:36 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“取消”按扭] 
+2017-03-13 11:11:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-13 11:11:41 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 取消] 
+2017-03-13 11:11:42 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:11:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:11:43 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:11:43 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:12:05 [main] [dev_log] [INFO] [49]- Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-13 11:12:05 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:12:37 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:12:41 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:12:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:12:47 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:w.png
+2017-03-13 11:12:47 [main] [dev_log] [INFO] [40]- [STEP] [点击个人中心头像] 
+2017-03-13 11:12:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:12:49 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:12:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:12:50 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:12:50 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:12:53 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“取消”按扭] 
+2017-03-13 11:12:53 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-13 11:12:58 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 取消] 
+2017-03-13 11:12:59 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:12:59 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:13:00 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:13:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:13:22 [main] [dev_log] [INFO] [49]- Skipped, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7]
+2017-03-13 11:13:22 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:13:51 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:13:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:13:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:14:04 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:x.png
+2017-03-13 11:14:04 [main] [dev_log] [INFO] [40]- [STEP] [点击个人中心头像] 
+2017-03-13 11:14:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:14:05 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:14:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:14:06 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:14:06 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:14:10 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“取消”按扭] 
+2017-03-13 11:14:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-13 11:14:14 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 取消] 
+2017-03-13 11:14:15 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:14:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:14:17 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:14:17 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:14:20 [main] [dev_log] [INFO] [40]- [STEP] [拍照界面点击取消] 
+2017-03-13 11:14:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]
+2017-03-13 11:14:21 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:14:21 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:14:25 [main] [dev_log] [INFO] [40]- [STEP] [点击“头像”] 
+2017-03-13 11:14:25 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:14:26 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:14:26 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:14:29 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:14:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:14:32 [main] [dev_log] [INFO] [40]- [STEP] [点击拍照按扭] 
+2017-03-13 11:14:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-13 11:14:33 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:14:33 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:14:36 [main] [dev_log] [INFO] [40]- [STEP] [点击选择按扭] 
+2017-03-13 11:14:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-13 11:14:38 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.miui.gallery:id/cancel]] 
+2017-03-13 11:14:38 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.miui.gallery:id/cancel]] 
+2017-03-13 11:14:41 [main] [dev_log] [INFO] [40]- [STEP] [裁剪界面点击“取消”] 
+2017-03-13 11:14:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.miui.gallery:id/cancel]
+2017-03-13 11:14:42 [main] [dev_log] [INFO] [40]- [STEP] [点击“头像”] 
+2017-03-13 11:14:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:14:44 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:14:44 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:14:47 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:14:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:14:49 [main] [dev_log] [INFO] [40]- [STEP] [点击拍照按扭] 
+2017-03-13 11:14:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-13 11:14:51 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:14:51 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:14:54 [main] [dev_log] [INFO] [40]- [STEP] [点击选择按扭] 
+2017-03-13 11:14:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-13 11:14:55 [main] [dev_log] [INFO] [40]- [STEP] [裁剪界面点击确定] 
+2017-03-13 11:14:55 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("确定")]
+2017-03-13 11:14:58 [main] [dev_log] [INFO] [40]- [STEP] [图片选择界面点击返回] 
+2017-03-13 11:15:05 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:n.png
+2017-03-13 11:15:06 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\n.png与图片:BufferedImage@5d5f10b2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 11:15:06 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.setphotobyalbum()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:74713
+2017-03-13 11:15:06 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:15:39 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:15:42 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:15:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:15:49 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:uq.png
+2017-03-13 11:15:49 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:15:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:15:50 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:15:50 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:15:52 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:15:52 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:15:55 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“取消”按扭] 
+2017-03-13 11:15:55 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("取消")]
+2017-03-13 11:15:59 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 取消] 
+2017-03-13 11:16:01 [main] [dev_log] [INFO] [40]- [STEP] [个人信息中点击“头像”] 
+2017-03-13 11:16:01 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:16:02 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:16:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:16:05 [main] [dev_log] [INFO] [40]- [STEP] [拍照界面点击取消] 
+2017-03-13 11:16:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]
+2017-03-13 11:16:07 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:16:07 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:16:10 [main] [dev_log] [INFO] [40]- [STEP] [点击“头像”] 
+2017-03-13 11:16:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:16:11 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:16:11 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:16:14 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:16:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:16:17 [main] [dev_log] [INFO] [40]- [STEP] [点击拍照按扭] 
+2017-03-13 11:16:17 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-13 11:16:18 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:16:18 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:16:22 [main] [dev_log] [INFO] [40]- [STEP] [点击选择按扭] 
+2017-03-13 11:16:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-13 11:16:23 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.miui.gallery:id/cancel]] 
+2017-03-13 11:16:23 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.miui.gallery:id/cancel]] 
+2017-03-13 11:16:26 [main] [dev_log] [INFO] [40]- [STEP] [裁剪界面点击“取消”] 
+2017-03-13 11:16:26 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.miui.gallery:id/cancel]
+2017-03-13 11:16:28 [main] [dev_log] [INFO] [40]- [STEP] [点击“头像”] 
+2017-03-13 11:16:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]
+2017-03-13 11:16:29 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:16:29 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:16:32 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:16:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:16:35 [main] [dev_log] [INFO] [40]- [STEP] [点击拍照按扭] 
+2017-03-13 11:16:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-13 11:16:36 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:16:36 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:16:39 [main] [dev_log] [INFO] [40]- [STEP] [点击选择按扭] 
+2017-03-13 11:16:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-13 11:16:41 [main] [dev_log] [INFO] [40]- [STEP] [裁剪界面点击确定] 
+2017-03-13 11:16:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("确定")]
+2017-03-13 11:16:43 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 修改头像中] 
+2017-03-13 11:16:44 [main] [dev_log] [INFO] [40]- [STEP] [点击手机返回键] 
+2017-03-13 11:16:49 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:zf.png
+2017-03-13 11:16:49 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\zf.png与图片:BufferedImage@75cd8043: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 11:16:49 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.setphotobycamera()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:70163
+2017-03-13 11:16:49 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:17:21 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 11:17:26 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:17:26 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:17:27 [main] [dev_log] [INFO] [40]- [STEP] [点击个人信息头像] 
+2017-03-13 11:17:27 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]
+2017-03-13 11:17:29 [main] [dev_log] [INFO] [40]- [STEP] [点击进入手机绑定界面] 
+2017-03-13 11:17:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("手机号")]
+2017-03-13 11:17:31 [main] [dev_log] [INFO] [40]- [STEP] [输入特殊字符] 
+2017-03-13 11:17:31 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:17:36 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:17:36 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]
+2017-03-13 11:17:36 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.specialchar()[pri:0, instance:com.oribo.android365.testcase.Personcenter@35d176f7] #parameters:0 time:14944
+2017-03-13 11:17:36 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:18:15 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:18:15 [main] [dev_log] [INFO] [29]- [INFO] 有主机
+2017-03-13 11:18:16 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:18:16 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:18:17 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:2626
+2017-03-13 11:18:17 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:18:53 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:18:54 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 11:18:54 [main] [dev_log] [INFO] [29]- [INFO] 添加楼层前的楼层数为:7
+2017-03-13 11:18:55 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:18:55 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:18:56 [main] [dev_log] [INFO] [40]- [STEP] [点击'房间管理'] 
+2017-03-13 11:18:56 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-13 11:19:19 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.addfloor()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:26348
+2017-03-13 11:19:39 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131119addfloor.txt
+2017-03-13 11:19:43 [main] [dev_log] [INFO] [39]- 已截图，图片名为：addfloor201703131119.png
+2017-03-13 11:19:43 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:19:43 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:20:17 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:20:19 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:20:19 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:20:20 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:20:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:20:22 [main] [dev_log] [INFO] [40]- [STEP] [点击新建家庭按扭] 
+2017-03-13 11:20:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/right_iv]
+2017-03-13 11:20:23 [main] [dev_log] [INFO] [40]- [STEP] [输入5个字符] 
+2017-03-13 11:20:23 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/familyName]
+2017-03-13 11:20:29 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:20:29 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/familyName]
+2017-03-13 11:20:34 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:i.png
+2017-03-13 11:20:34 [main] [dev_log] [INFO] [40]- [STEP] [点击“头像”] 
+2017-03-13 11:20:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/familyIcon]
+2017-03-13 11:20:35 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:20:35 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [android.widget.TextView]] 
+2017-03-13 11:20:39 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:20:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("拍照")]
+2017-03-13 11:20:41 [main] [dev_log] [INFO] [40]- [STEP] [点击拍照按扭] 
+2017-03-13 11:20:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]
+2017-03-13 11:20:43 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:20:43 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.android.camera:id/v6_btn_done]] 
+2017-03-13 11:20:46 [main] [dev_log] [INFO] [40]- [STEP] [点击选择按扭] 
+2017-03-13 11:20:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]
+2017-03-13 11:20:47 [main] [dev_log] [INFO] [40]- [STEP] [裁剪界面点击确定] 
+2017-03-13 11:20:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("确定")]
+2017-03-13 11:20:55 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:8.png
+2017-03-13 11:20:56 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\i.png与图片:BufferedImage@56c698e3: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 11:20:56 [main] [dev_log] [INFO] [40]- [STEP] [点击创建家庭] 
+2017-03-13 11:20:56 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/familyAddBtn]
+2017-03-13 11:20:57 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:20:57 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:21:07 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.addhome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:49918
+2017-03-13 11:21:07 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:21:41 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:21:44 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:21:44 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:21:46 [main] [dev_log] [INFO] [40]- [STEP] [点击'房间管理'] 
+2017-03-13 11:21:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-13 11:21:47 [main] [dev_log] [INFO] [40]- [STEP] [点击添加房间按扭] 
+2017-03-13 11:21:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("+添加房间")]
+2017-03-13 11:21:54 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-13 11:21:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-13 11:21:56 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.addroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:14998
+2017-03-13 11:21:56 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:22:32 [main] [dev_log] [INFO] [29]- [INFO] groups:0
+2017-03-13 11:22:34 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:22:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:22:35 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:22:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:22:38 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checkdefault()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:5951
+2017-03-13 11:22:38 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:23:14 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:23:16 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:23:16 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:23:18 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:23:18 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:23:20 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checkfamilynumber()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:5809
+2017-03-13 11:23:20 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:23:55 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:23:56 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:23:56 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:23:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'房间管理'] 
+2017-03-13 11:23:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-13 11:24:00 [main] [dev_log] [INFO] [40]- [STEP] [点击默认房间] 
+2017-03-13 11:24:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-13 11:24:01 [main] [dev_log] [INFO] [40]- [STEP] [点击默认的房间图片] 
+2017-03-13 11:24:01 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-13 11:24:03 [main] [dev_log] [INFO] [40]- [STEP] [点击默认图库] 
+2017-03-13 11:24:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-13 11:24:04 [main] [dev_log] [INFO] [40]- [STEP] [默认图库中选择一张图片] 
+2017-03-13 11:24:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> class name: android.widget.ImageView]
+2017-03-13 11:24:12 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:26q.png
+2017-03-13 11:24:13 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\26q.png与图片:BufferedImage@45905bff: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@5149d738 transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度
+2017-03-13 11:24:13 [main] [dev_log] [INFO] [40]- [STEP] [点击左上方的返回键] 
+2017-03-13 11:24:13 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-13 11:24:15 [main] [dev_log] [INFO] [40]- [STEP] [点击默认房间] 
+2017-03-13 11:24:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]
+2017-03-13 11:24:16 [main] [dev_log] [INFO] [40]- [STEP] [点击默认的房间图片] 
+2017-03-13 11:24:16 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-13 11:24:17 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“拍照”按扭] 
+2017-03-13 11:24:17 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-13 11:24:19 [main] [dev_log] [INFO] [40]- [STEP] [点击返回] 
+2017-03-13 11:24:20 [main] [dev_log] [INFO] [40]- [STEP] [点击默认的房间图片] 
+2017-03-13 11:24:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]
+2017-03-13 11:24:21 [main] [dev_log] [INFO] [40]- [STEP] [点击选择框中的“从相册中选择”按扭] 
+2017-03-13 11:24:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]
+2017-03-13 11:24:23 [main] [dev_log] [INFO] [40]- [STEP] [返回到编辑房间界面] 
+2017-03-13 11:24:30 [main] [dev_log] [INFO] [40]- [STEP] [房间编辑界面点击保存] 
+2017-03-13 11:24:30 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]
+2017-03-13 11:24:32 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.defaultroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:36750
+2017-03-13 11:24:32 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:25:07 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:25:09 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 11:25:10 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:25:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:25:11 [main] [dev_log] [INFO] [40]- [STEP] [点击'房间管理'] 
+2017-03-13 11:25:11 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-13 11:25:13 [main] [dev_log] [INFO] [40]- [STEP] [删除第01个家庭] 
+2017-03-13 11:25:13 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/delete_tv]
+2017-03-13 11:25:36 [main] [dev_log] [INFO] [29]- [INFO] 该房间没有楼层
+2017-03-13 11:25:36 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.delectfloor()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:28208
+2017-03-13 11:25:36 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:26:09 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:26:12 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:26:12 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:26:13 [main] [dev_log] [INFO] [40]- [STEP] [点击'房间管理'] 
+2017-03-13 11:26:13 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-13 11:26:15 [main] [dev_log] [INFO] [29]- [INFO] 房间数为8
+2017-03-13 11:26:15 [main] [dev_log] [INFO] [40]- [STEP] [删除一个房间] 
+2017-03-13 11:26:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/delete_iv]
+2017-03-13 11:26:18 [main] [dev_log] [INFO] [29]- [INFO] 删除后的房间数为:7
+2017-03-13 11:26:18 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.delectroom()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:9006
+2017-03-13 11:26:18 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:26:54 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:26:56 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭为:我的家庭
+2017-03-13 11:26:57 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:26:57 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:26:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'房间管理'] 
+2017-03-13 11:26:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("房间管理")]
+2017-03-13 11:27:00 [main] [dev_log] [INFO] [29]- [INFO] 操作前服务器获取楼层数为：7
+2017-03-13 11:27:00 [main] [dev_log] [INFO] [29]- [INFO] 前端展示楼层数为：3
+2017-03-13 11:27:00 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.dragfloor()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:6152
+2017-03-13 11:27:21 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131127dragfloor.txt
+2017-03-13 11:27:25 [main] [dev_log] [INFO] [39]- 已截图，图片名为：dragfloor201703131127.png
+2017-03-13 11:27:25 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:27:25 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:28:00 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:28:02 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:28:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:28:03 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:28:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:28:05 [main] [dev_log] [INFO] [40]- [STEP] [点击进入默认家庭] 
+2017-03-13 11:28:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/familyName]
+2017-03-13 11:28:06 [main] [dev_log] [INFO] [40]- [STEP] [点击家庭名称w] 
+2017-03-13 11:28:06 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭名称")]
+2017-03-13 11:28:08 [main] [dev_log] [INFO] [40]- [STEP] [重新输入家庭名称] 
+2017-03-13 11:28:08 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/input_family_nickname_edit]
+2017-03-13 11:28:21 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-13 11:28:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("保存")]
+2017-03-13 11:28:25 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:28:25 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_tv]] 
+2017-03-13 11:28:28 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.edithome()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:28897
+2017-03-13 11:28:28 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:29:04 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:29:06 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:29:06 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:29:07 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:29:07 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:29:09 [main] [dev_log] [INFO] [29]- [INFO] 第1个家庭,家庭名称为:Uio@qq.com
+2017-03-13 11:29:09 [main] [dev_log] [INFO] [40]- [STEP] [点击第1个家庭] 
+2017-03-13 11:29:09 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("Uio@qq.com")]
+2017-03-13 11:29:10 [main] [dev_log] [INFO] [29]- [INFO] Uio@qq.com为管理员家庭
+2017-03-13 11:29:10 [main] [dev_log] [INFO] [40]- [STEP] [点击删除家庭] 
+2017-03-13 11:29:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除家庭")]
+2017-03-13 11:29:12 [main] [dev_log] [INFO] [40]- [STEP] [弹出提示框点击删除] 
+2017-03-13 11:29:12 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除")]
+2017-03-13 11:29:13 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:29:13 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:29:37 [main] [dev_log] [INFO] [29]- [INFO] 家庭删除成功
+2017-03-13 11:29:37 [main] [dev_log] [INFO] [29]- [INFO] 第2个家庭,家庭名称为:6vvj0
+2017-03-13 11:29:37 [main] [dev_log] [INFO] [40]- [STEP] [点击第2个家庭] 
+2017-03-13 11:29:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("6vvj0")]
+2017-03-13 11:29:39 [main] [dev_log] [INFO] [29]- [INFO] 6vvj0为管理员家庭
+2017-03-13 11:29:39 [main] [dev_log] [INFO] [40]- [STEP] [点击删除家庭] 
+2017-03-13 11:29:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除家庭")]
+2017-03-13 11:29:40 [main] [dev_log] [INFO] [40]- [STEP] [弹出提示框点击删除] 
+2017-03-13 11:29:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除")]
+2017-03-13 11:29:42 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:29:42 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:30:05 [main] [dev_log] [INFO] [29]- [INFO] 家庭删除成功
+2017-03-13 11:30:05 [main] [dev_log] [INFO] [29]- [INFO] 第3个家庭,家庭名称为:3801y
+2017-03-13 11:30:05 [main] [dev_log] [INFO] [40]- [STEP] [点击第3个家庭] 
+2017-03-13 11:30:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("3801y")]
+2017-03-13 11:30:07 [main] [dev_log] [INFO] [29]- [INFO] 3801y为默认家庭
+2017-03-13 11:30:07 [main] [dev_log] [INFO] [40]- [STEP] [返回到家庭管理界面] 
+2017-03-13 11:30:08 [main] [dev_log] [INFO] [29]- [INFO] 第4个家庭,家庭名称为:mvvih
+2017-03-13 11:30:08 [main] [dev_log] [INFO] [40]- [STEP] [点击第4个家庭] 
+2017-03-13 11:30:08 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("mvvih")]
+2017-03-13 11:30:10 [main] [dev_log] [INFO] [29]- [INFO] mvvih为管理员家庭
+2017-03-13 11:30:10 [main] [dev_log] [INFO] [40]- [STEP] [点击删除家庭] 
+2017-03-13 11:30:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除家庭")]
+2017-03-13 11:30:11 [main] [dev_log] [INFO] [40]- [STEP] [弹出提示框点击删除] 
+2017-03-13 11:30:11 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除")]
+2017-03-13 11:30:13 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:30:13 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:30:36 [main] [dev_log] [INFO] [29]- [INFO] 家庭删除成功
+2017-03-13 11:30:36 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.familydetails()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:92530
+2017-03-13 11:30:36 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:31:12 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:31:14 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:31:14 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:31:15 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:31:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:31:17 [main] [dev_log] [INFO] [29]- [INFO] 当前家庭有2个成员
+2017-03-13 11:31:17 [main] [dev_log] [INFO] [40]- [STEP] [点击进入默认家庭] 
+2017-03-13 11:31:17 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("3801y")]
+2017-03-13 11:31:18 [main] [dev_log] [INFO] [40]- [STEP] [进入家庭成员列表] 
+2017-03-13 11:31:18 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭成员")]
+2017-03-13 11:31:20 [main] [dev_log] [INFO] [40]- [STEP] [点击任意成员] 
+2017-03-13 11:31:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/tv_name]
+2017-03-13 11:31:27 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-13 11:31:27 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]
+2017-03-13 11:31:28 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:31:28 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/right_iv]] 
+2017-03-13 11:31:32 [main] [dev_log] [INFO] [40]- [STEP] [点击删除按扭] 
+2017-03-13 11:31:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_delete]
+2017-03-13 11:31:33 [main] [dev_log] [INFO] [40]- [STEP] [弹框内点击删除] 
+2017-03-13 11:31:33 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除")]
+2017-03-13 11:31:35 [main] [dev_log] [INFO] [40]- [STEP] [点击添加成员按扭] 
+2017-03-13 11:31:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/right_iv]
+2017-03-13 11:31:36 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联系人选择按扭] 
+2017-03-13 11:31:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/contactImageView]
+2017-03-13 11:31:38 [main] [dev_log] [INFO] [40]- [STEP] [返回家庭管理界面] 
+2017-03-13 11:31:39 [main] [dev_log] [INFO] [40]- [STEP] [清空文本框] 
+2017-03-13 11:31:39 [main] [dev_log] [INFO] [29]- [INFO] [清空数据 -> id: com.orvibo.homemate:id/accountEditText]
+2017-03-13 11:31:45 [main] [dev_log] [INFO] [40]- [STEP] [输入11位手机号] 
+2017-03-13 11:31:45 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: com.orvibo.homemate:id/accountEditText]
+2017-03-13 11:31:50 [main] [dev_log] [INFO] [40]- [STEP] [确认输入] 
+2017-03-13 11:31:50 [main] [dev_log] [INFO] [29]- [INFO] [输入后回车 -> id: com.orvibo.homemate:id/accountEditText]
+2017-03-13 11:31:50 [main] [dev_log] [INFO] [40]- [STEP] [点击发起邀请按钮] 
+2017-03-13 11:31:50 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/send_invite_text]
+2017-03-13 11:31:52 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/titleTextView]] 
+2017-03-13 11:31:52 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/titleTextView]] 
+2017-03-13 11:31:55 [main] [dev_log] [INFO] [40]- [STEP] [点击微信邀请] 
+2017-03-13 11:31:55 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]
+2017-03-13 11:31:57 [main] [dev_log] [INFO] [40]- [STEP] [返回家庭管理界面] 
+2017-03-13 11:31:59 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.memberoffamily()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:47056
+2017-03-13 11:31:59 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:32:35 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:32:37 [main] [dev_log] [INFO] [40]- [STEP] [点击我的] 
+2017-03-13 11:32:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:32:38 [main] [dev_log] [INFO] [40]- [STEP] [点击提醒 设置] 
+2017-03-13 11:32:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("提醒设置")]
+2017-03-13 11:32:40 [main] [dev_log] [INFO] [29]- [INFO] WIFI设备数为:6
+2017-03-13 11:32:40 [main] [dev_log] [INFO] [40]- [STEP] [进入定时执行提醒界面] 
+2017-03-13 11:32:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]
+2017-03-13 11:32:42 [main] [dev_log] [INFO] [40]- [STEP] [返回到提醒设置界面] 
+2017-03-13 11:32:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]
+2017-03-13 11:32:47 [main] [dev_log] [INFO] [29]- [INFO] 灯设备数为:12
+2017-03-13 11:32:47 [main] [dev_log] [INFO] [40]- [STEP] [进入节能提醒界面] 
+2017-03-13 11:32:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("节能提醒")]
+2017-03-13 11:32:49 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.remindersettings()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:14381
+2017-03-13 11:32:49 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:33:25 [main] [dev_log] [INFO] [29]- [INFO] groups:0
+2017-03-13 11:33:27 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:33:27 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:33:28 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:33:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("家庭管理")]
+2017-03-13 11:33:30 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.sort()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:5378
+2017-03-13 11:33:30 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:34:04 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:34:06 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:34:06 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:34:08 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:34:08 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:34:09 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:34:30 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:25611
+2017-03-13 11:34:50 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131134CancelDeleteHostNotice.txt
+2017-03-13 11:34:54 [main] [dev_log] [INFO] [39]- 已截图，图片名为：CancelDeleteHostNotice201703131134.png
+2017-03-13 11:34:54 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:34:54 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:35:32 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:35:34 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:35:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:35:35 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:35:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:35:37 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:35:57 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.CheckDeleteHost()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:25262
+2017-03-13 11:36:17 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131135CheckDeleteHost.txt
+2017-03-13 11:36:21 [main] [dev_log] [INFO] [39]- 已截图，图片名为：CheckDeleteHost201703131136.png
+2017-03-13 11:36:21 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:36:21 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:36:56 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:36:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:36:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:36:59 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:36:59 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:37:01 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:37:10 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 11:37:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 11:37:11 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:14585
+2017-03-13 11:37:11 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:37:46 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:37:47 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:37:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:37:49 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:37:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:37:50 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:37:54 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 11:37:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 11:37:55 [main] [dev_log] [INFO] [40]- [STEP] [点击‘删除主机’] 
+2017-03-13 11:37:55 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-13 11:37:57 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.DeleteHost()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:11109
+2017-03-13 11:38:17 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131137DeleteHost.txt
+2017-03-13 11:38:20 [main] [dev_log] [INFO] [39]- 已截图，图片名为：DeleteHost201703131138.png
+2017-03-13 11:38:20 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:38:20 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:38:55 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 11:38:55 [main] [dev_log] [INFO] [29]- [INFO] 主机的名称为:智能主机,主机的MAC地址为：00:7E:56:1E:E9:89，主机的固件版本为：1.7.1.2,主机的IP地址为：192.168.55.3
+2017-03-13 11:38:57 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:38:57 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:38:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:38:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:39:00 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.myhost()[pri:0, instance:com.oribo.android365.testcase.HomeManage@6e6c3152] #parameters:0 time:5154
+2017-03-13 11:39:21 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131139myhost.txt
+2017-03-13 11:39:24 [main] [dev_log] [INFO] [39]- 已截图，图片名为：myhost201703131139.png
+2017-03-13 11:39:24 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:39:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:39:31 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 11:39:31 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 11:39:31 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 11:39:31 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 11:55:08 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:55:09 [main] [dev_log] [INFO] [29]- [INFO] 有主机
+2017-03-13 11:55:09 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:55:09 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:55:11 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:2583
+2017-03-13 11:55:11 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:55:46 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:55:47 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:55:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:55:49 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:55:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:55:50 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:55:58 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 11:55:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 11:56:00 [main] [dev_log] [INFO] [40]- [STEP] [点击‘删除主机’] 
+2017-03-13 11:56:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-13 11:56:01 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 11:56:01 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:56:34 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:56:35 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:56:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:56:37 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:56:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:56:38 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:56:40 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 11:56:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 11:56:41 [main] [dev_log] [INFO] [40]- [STEP] [点击‘删除主机’] 
+2017-03-13 11:56:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-13 11:56:42 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 11:56:42 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:57:17 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:57:18 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:57:18 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:57:20 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:57:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:57:21 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:57:35 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 11:57:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 11:57:36 [main] [dev_log] [INFO] [40]- [STEP] [点击‘删除主机’] 
+2017-03-13 11:57:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-13 11:57:38 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.CancelDeleteHostNotice()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:20872
+2017-03-13 11:57:58 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131157CancelDeleteHostNotice.txt
+2017-03-13 11:58:02 [main] [dev_log] [INFO] [39]- 已截图，图片名为：CancelDeleteHostNotice201703131158.png
+2017-03-13 11:58:02 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:58:02 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 11:58:38 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 11:58:40 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 11:58:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 11:58:41 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 11:58:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 11:58:42 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 11:59:03 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.CheckDeleteHost()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:24644
+2017-03-13 11:59:23 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131159CheckDeleteHost.txt
+2017-03-13 11:59:27 [main] [dev_log] [INFO] [39]- 已截图，图片名为：CheckDeleteHost201703131159.png
+2017-03-13 11:59:27 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 11:59:27 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 12:00:01 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 12:00:02 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 12:00:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 12:00:03 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 12:00:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 12:00:05 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 12:00:07 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 12:00:07 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 12:00:09 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:7982
+2017-03-13 12:00:09 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 12:00:43 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 12:00:45 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 12:00:45 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 12:00:46 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 12:00:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 12:00:48 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 12:00:48 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 12:00:48 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 12:00:49 [main] [dev_log] [INFO] [40]- [STEP] [点击‘删除主机’] 
+2017-03-13 12:00:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-13 12:00:51 [main] [dev_log] [INFO] [40]- [STEP] [确认删除] 
+2017-03-13 12:00:51 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("删除")]
+2017-03-13 12:00:53 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text Disappear : 努力奔跑中，快到终点喽~] 
+2017-03-13 12:00:55 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.DeleteHost()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:12170
+2017-03-13 12:00:55 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 12:01:29 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 12:01:29 [main] [dev_log] [INFO] [29]- [INFO] 主机的名称为:智能主机,主机的MAC地址为：00:7E:56:1E:E9:89，主机的固件版本为：1.7.1.2,主机的IP地址为：192.168.55.3
+2017-03-13 12:01:30 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 12:01:30 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 18:39:30 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 18:39:32 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 18:39:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 18:39:34 [main] [dev_log] [INFO] [29]- [INFO] 服务器返回数据显示该用户是广告投放目标
+2017-03-13 18:39:34 [main] [dev_log] [INFO] [40]- [STEP] [点击智家优品] 
+2017-03-13 18:39:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_store]
+2017-03-13 18:39:39 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.getAdvInfo()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]
+2017-03-13 18:39:39 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 18:43:53 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 18:43:55 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 18:43:55 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 18:43:57 [main] [dev_log] [INFO] [29]- [INFO] 服务器返回数据显示该用户是广告投放目标
+2017-03-13 18:43:57 [main] [dev_log] [INFO] [40]- [STEP] [点击智家优品] 
+2017-03-13 18:43:57 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_store]
+2017-03-13 18:44:02 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.getAdvInfo()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]
+2017-03-13 18:44:02 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 18:44:38 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 18:44:39 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 18:44:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 18:44:41 [main] [dev_log] [INFO] [29]- [INFO] 服务器返回数据显示该用户是广告投放目标
+2017-03-13 18:44:41 [main] [dev_log] [INFO] [40]- [STEP] [点击智家优品] 
+2017-03-13 18:44:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_store]
+2017-03-13 18:44:46 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.getAdvInfo()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7]
+2017-03-13 18:44:46 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 18:45:24 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-13 18:45:25 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 18:45:25 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 18:45:27 [main] [dev_log] [INFO] [29]- [INFO] 服务器返回数据显示该用户是广告投放目标
+2017-03-13 18:45:27 [main] [dev_log] [INFO] [40]- [STEP] [点击智家优品] 
+2017-03-13 18:45:27 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_store]
+2017-03-13 18:45:31 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.getAdvInfo()[pri:0, instance:com.oribo.android365.testcase.HomeManage@35d176f7] #parameters:0 time:6821
+2017-03-13 18:45:52 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703131845getAdvInfo.txt
+2017-03-13 18:46:00 [main] [dev_log] [INFO] [39]- 已截图，图片名为：getAdvInfo201703131846.png
+2017-03-13 18:46:00 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-13 18:46:00 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 18:46:10 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 18:46:10 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 18:46:10 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 18:46:10 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 18:46:56 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 18:46:56 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 18:46:56 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 18:46:56 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 18:48:16 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 18:48:16 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 18:48:16 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 18:48:16 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 18:49:02 [main] [dev_log] [INFO] [29]- [INFO] groups:3
+2017-03-13 18:49:05 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 18:49:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 18:49:07 [main] [dev_log] [INFO] [40]- [STEP] [点击'意见反馈'] 
+2017-03-13 18:49:07 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("意见反馈")]
+2017-03-13 18:49:32 [main] [dev_log] [INFO] [29]- [INFO] 已截图,图片名称为:g.png
+2017-03-13 18:49:33 [main] [dev_log] [INFO] [29]- [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\feedback.png与图片:BufferedImage@6e9175d8: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@7d0b7e3c transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度
+2017-03-13 18:49:39 [main] [dev_log] [INFO] [40]- [STEP] [反馈内容框中输入内容] 
+2017-03-13 18:49:39 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-13 18:49:40 [main] [dev_log] [INFO] [40]- [STEP] [点击添加图片按扭] 
+2017-03-13 18:49:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> xpath: //*[@id="container"]/div/div[1]/div[2]/div/div]
+2017-03-13 18:49:46 [main] [dev_log] [INFO] [40]- [STEP] [选中一张照片] 
+2017-03-13 18:49:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.miui.gallery:id/pick_num_indicator]
+2017-03-13 18:49:49 [main] [dev_log] [INFO] [40]- [STEP] [输入联系方式] 
+2017-03-13 18:49:49 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> id: feedback-contact]
+2017-03-13 18:49:50 [main] [dev_log] [INFO] [40]- [STEP] [反馈内容框中输入内容] 
+2017-03-13 18:49:50 [main] [dev_log] [INFO] [29]- [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]
+2017-03-13 18:49:54 [main] [dev_log] [INFO] [40]- [STEP] [Wait For Text : [com.orvibo.homemate:id/title_text]] 
+2017-03-13 18:49:54 [main] [dev_log] [INFO] [29]- [INFO] [Wait For Text : [com.orvibo.homemate:id/title_text]] 
+2017-03-13 18:50:01 [main] [dev_log] [INFO] [117]- Success, method:Personcenter.feedback()[pri:0, instance:com.oribo.android365.testcase.Personcenter@50b494a6] #parameters:0 time:59159
+2017-03-13 18:50:01 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 18:50:09 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 18:50:09 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 18:50:09 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 18:50:09 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 19:00:35 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:00:36 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:1063
+2017-03-13 19:00:36 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:01:11 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:01:12 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:01:12 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:01:33 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:01:33 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 19:02:11 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 19:02:17 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 19:03:31 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:03:32 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:831
+2017-03-13 19:03:32 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:04:09 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:04:10 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:04:10 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-13 19:06:08 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-13 19:07:02 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:07:03 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:870
+2017-03-13 19:07:03 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:07:40 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:07:41 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:07:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:07:42 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 19:07:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 19:07:44 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 19:10:11 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:10:12 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:776
+2017-03-13 19:10:12 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:10:49 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:10:50 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:10:50 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:10:51 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 19:10:51 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 19:10:53 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 19:11:02 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 19:11:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 19:11:05 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:16461
+2017-03-13 19:11:05 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:12:44 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:12:45 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:807
+2017-03-13 19:12:45 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:13:21 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:13:22 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:13:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:13:23 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 19:13:23 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 19:13:25 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 19:13:38 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 19:13:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 19:13:39 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:18333
+2017-03-13 19:13:39 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:15:23 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:15:24 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:781
+2017-03-13 19:15:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:16:00 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:16:01 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:16:01 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:16:02 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 19:16:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 19:16:04 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 19:16:04 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-13 19:16:25 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-13 19:16:25 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-13 19:17:38 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:17:38 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:853
+2017-03-13 19:17:38 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-13 19:18:15 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-13 19:18:16 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-13 19:18:16 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-13 19:18:17 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-13 19:18:17 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-13 19:18:19 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-13 19:18:19 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-14 09:11:50 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:11:52 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:1795
+2017-03-14 09:11:52 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:12:30 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:12:31 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 09:12:31 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 09:12:32 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-14 09:12:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-14 09:12:34 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-14 09:12:34 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-14 09:12:38 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-14 09:12:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-14 09:13:01 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 09:13:01 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:15:44 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:15:45 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:1217
+2017-03-14 09:15:45 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:16:23 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:16:24 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 09:16:24 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 09:16:26 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-14 09:16:26 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-14 09:16:27 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-14 09:16:27 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 09:17:32 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 09:20:05 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:20:06 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:860
+2017-03-14 09:20:06 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:20:42 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 09:20:43 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 09:20:43 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 09:20:44 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-14 09:20:44 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-14 09:20:46 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-14 09:20:46 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-14 09:20:52 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-14 09:20:52 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
+2017-03-14 09:20:53 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:11927
+2017-03-14 09:20:53 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:48:27 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 09:48:29 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 09:48:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 09:48:30 [main] [dev_log] [INFO] [29]- [INFO] 服务器返回数据显示该用户不是广告投放目标
+2017-03-14 09:48:31 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.getAdvInfo()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 09:48:31 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:51:02 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 09:51:03 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 09:51:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 09:51:05 [main] [dev_log] [INFO] [29]- [INFO] 服务器返回数据显示该用户是广告投放目标
+2017-03-14 09:51:05 [main] [dev_log] [INFO] [40]- [STEP] [点击智家优品] 
+2017-03-14 09:51:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_store]
+2017-03-14 09:51:09 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.getAdvInfo()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:7327
+2017-03-14 09:51:09 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 09:51:17 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 09:51:17 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 09:51:17 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 09:51:17 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 15:51:41 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 15:51:42 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 15:51:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 15:52:04 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 15:52:04 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 15:52:40 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 15:52:41 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 15:52:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 15:53:02 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 15:53:02 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 15:53:37 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 15:53:39 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 15:53:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 15:54:00 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:22525
+2017-03-14 15:54:20 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703141554addlink.txt
+2017-03-14 15:54:27 [main] [dev_log] [INFO] [39]- 已截图，图片名为：addlink201703141554.png
+2017-03-14 15:54:27 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-14 15:54:27 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 15:55:03 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 15:55:04 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 15:55:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 15:55:05 [main] [dev_log] [INFO] [40]- [STEP] [点击联动] 
+2017-03-14 15:55:05 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 15:55:08 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为:0
+2017-03-14 15:55:08 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checklinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:4623
+2017-03-14 15:55:08 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 15:55:41 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 15:55:42 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为0,无法做编辑或删除情景的操作
+2017-03-14 15:55:42 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.deletelin()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:982
+2017-03-14 15:55:42 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 15:56:17 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 15:56:18 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为0,无法做编辑或删除情景的操作
+2017-03-14 15:56:18 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:849
+2017-03-14 15:56:18 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 15:56:25 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 15:56:25 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 15:56:25 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 15:56:25 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 16:05:13 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:05:14 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:05:14 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:05:15 [main] [dev_log] [INFO] [40]- [STEP] [切换到联动界面] 
+2017-03-14 16:05:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:05:37 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:05:37 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 16:06:24 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 16:08:33 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:08:35 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:08:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:08:36 [main] [dev_log] [INFO] [40]- [STEP] [切换到联动界面] 
+2017-03-14 16:08:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:08:38 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:08:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:09:00 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:09:00 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:09:35 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:09:37 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:09:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:09:38 [main] [dev_log] [INFO] [40]- [STEP] [切换到联动界面] 
+2017-03-14 16:09:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:09:40 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:09:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:10:59 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:11:00 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:11:00 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:11:01 [main] [dev_log] [INFO] [40]- [STEP] [切换到联动界面] 
+2017-03-14 16:11:01 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:11:04 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:11:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 16:14:42 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 16:15:36 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:15:38 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:15:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:15:39 [main] [dev_log] [INFO] [40]- [STEP] [切换到联动界面] 
+2017-03-14 16:15:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:15:41 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:15:41 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:15:42 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:15:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 16:15:44 [main] [dev_log] [INFO] [40]- [STEP] [点击添加启动条件] 
+2017-03-14 16:15:44 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/tv_condition_type]
+2017-03-14 16:15:45 [main] [dev_log] [INFO] [40]- [STEP] [选择任意启动条件] 
+2017-03-14 16:15:45 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/typeName_tv]
+2017-03-14 16:15:47 [main] [dev_log] [INFO] [40]- [STEP] [点击添加执行任务] 
+2017-03-14 16:15:47 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/addBindTextView]
+2017-03-14 16:15:49 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:15:49 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:17:26 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:17:28 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:17:28 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:17:29 [main] [dev_log] [INFO] [40]- [STEP] [切换到联动界面] 
+2017-03-14 16:17:29 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:17:31 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:17:31 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:17:32 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:17:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 16:17:34 [main] [dev_log] [INFO] [40]- [STEP] [点击添加启动条件] 
+2017-03-14 16:17:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/tv_condition_type]
+2017-03-14 16:17:35 [main] [dev_log] [INFO] [40]- [STEP] [选择任意启动条件] 
+2017-03-14 16:17:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/typeName_tv]
+2017-03-14 16:17:37 [main] [dev_log] [INFO] [40]- [STEP] [点击添加执行任务] 
+2017-03-14 16:17:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/addBindTextView]
+2017-03-14 16:17:39 [main] [dev_log] [INFO] [40]- [STEP] [执行任务中点击任意设备] 
+2017-03-14 16:17:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/cbDevice]
+2017-03-14 16:17:40 [main] [dev_log] [INFO] [40]- [STEP] [点击返回按扭] 
+2017-03-14 16:17:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/back_iv]
+2017-03-14 16:17:42 [main] [dev_log] [INFO] [40]- [STEP] [点击保存按扭] 
+2017-03-14 16:17:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]
+2017-03-14 16:17:48 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.addlink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:21981
+2017-03-14 16:17:48 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:17:56 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 16:17:56 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 16:17:56 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 16:17:56 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 16:18:36 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:18:37 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:18:37 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:18:38 [main] [dev_log] [INFO] [40]- [STEP] [点击联动] 
+2017-03-14 16:18:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:18:41 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为:4
+2017-03-14 16:18:41 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checklinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:5100
+2017-03-14 16:18:41 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:19:17 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:19:18 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:19:18 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:19:40 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.deletelink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:19:40 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:21:19 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:21:20 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:21:20 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:21:21 [main] [dev_log] [INFO] [40]- [STEP] [点击联动] 
+2017-03-14 16:21:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:21:23 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为:4
+2017-03-14 16:21:24 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checklinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:4446
+2017-03-14 16:21:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:22:02 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:22:03 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:22:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:22:04 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:22:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:22:06 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:22:06 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:22:07 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:22:07 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 16:22:29 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.deletelink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:22:29 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:23:04 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:23:52 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:23:53 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:23:53 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:23:54 [main] [dev_log] [INFO] [40]- [STEP] [点击联动] 
+2017-03-14 16:23:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:23:56 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为:4
+2017-03-14 16:23:57 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checklinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:4585
+2017-03-14 16:23:57 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:24:32 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:24:32 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:24:32 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:24:34 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:24:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:24:35 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:24:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:24:36 [main] [dev_log] [INFO] [40]- [STEP] [点击编辑联动] 
+2017-03-14 16:24:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("编辑联动")]
+2017-03-14 16:24:39 [main] [dev_log] [INFO] [40]- [STEP] [点击删除联动的按扭] 
+2017-03-14 16:24:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-14 16:25:01 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.deletelink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:25:01 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:27:32 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:27:33 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:27:33 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:27:34 [main] [dev_log] [INFO] [40]- [STEP] [点击联动] 
+2017-03-14 16:27:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:27:36 [main] [dev_log] [INFO] [29]- [INFO] 当前联动数为:4
+2017-03-14 16:27:37 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.checklinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:4609
+2017-03-14 16:27:37 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:28:14 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:28:14 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:28:14 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:28:15 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:28:15 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:28:17 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:28:17 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:28:18 [main] [dev_log] [INFO] [40]- [STEP] [点击编辑联动] 
+2017-03-14 16:28:18 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("编辑联动")]
+2017-03-14 16:28:21 [main] [dev_log] [INFO] [40]- [STEP] [点击删除联动的按扭] 
+2017-03-14 16:28:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]
+2017-03-14 16:28:22 [main] [dev_log] [INFO] [40]- [STEP] [提示框中点击删除] 
+2017-03-14 16:28:22 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]
+2017-03-14 16:28:25 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.deletelink()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:11235
+2017-03-14 16:28:25 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:29:03 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:29:04 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:29:04 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:29:25 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:29:25 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:30:01 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:30:02 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:30:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:30:23 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:30:23 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:30:58 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:30:58 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:30:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:31:20 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:22264
+2017-03-14 16:31:41 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703141631editlinkage.txt
+2017-03-14 16:31:47 [main] [dev_log] [INFO] [39]- 已截图，图片名为：editlinkage201703141631.png
+2017-03-14 16:31:47 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-14 16:31:47 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:31:54 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 16:31:54 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 16:31:54 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 16:31:54 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 16:45:32 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:45:34 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:45:34 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:45:35 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:45:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:45:36 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:45:36 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:45:38 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:45:38 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 16:45:59 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:45:59 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:46:38 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:46:39 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:46:39 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:46:40 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:46:40 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:46:42 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:46:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:46:43 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:46:43 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 16:47:05 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 16:47:05 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:47:41 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:47:42 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:47:42 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:47:43 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:47:43 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:47:45 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:47:45 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:47:46 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:47:46 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 16:48:07 [main] [dev_log] [INFO] [29]- Failed, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:26155
+2017-03-14 16:48:28 [main] [dev_log] [INFO] [36]- 执行失败，已抓取日志，日志名为：201703141648editlinkage.txt
+2017-03-14 16:48:31 [main] [dev_log] [INFO] [39]- 已截图，图片名为：editlinkage201703141648.png
+2017-03-14 16:48:31 [main] [dev_log] [INFO] [29]- [INFO] 成功比列:100
+2017-03-14 16:48:31 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 16:48:39 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 16:48:39 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 16:48:39 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 16:48:39 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 16:59:49 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 16:59:51 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 16:59:51 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 16:59:54 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 16:59:54 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 16:59:56 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 16:59:56 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 16:59:58 [main] [dev_log] [INFO] [40]- [STEP] [点击添加联动按扭] 
+2017-03-14 16:59:58 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("添加联动")]
+2017-03-14 17:00:19 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]
+2017-03-14 17:00:19 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 17:01:47 [main] [dev_log] [INFO] [29]- [INFO] groups:1
+2017-03-14 17:01:49 [main] [dev_log] [INFO] [40]- [STEP] [点击'场景'] 
+2017-03-14 17:01:49 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("场景")]
+2017-03-14 17:01:50 [main] [dev_log] [INFO] [40]- [STEP] [点击'联动'] 
+2017-03-14 17:01:50 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("联 动")]
+2017-03-14 17:01:51 [main] [dev_log] [INFO] [40]- [STEP] [点击添加按扭] 
+2017-03-14 17:01:51 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]
+2017-03-14 17:01:53 [main] [dev_log] [INFO] [40]- [STEP] [点击编辑联动] 
+2017-03-14 17:01:53 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("编辑联动")]
+2017-03-14 17:02:09 [main] [dev_log] [INFO] [40]- [STEP] [点击保存] 
+2017-03-14 17:02:09 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]
+2017-03-14 17:02:11 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5] #parameters:0 time:23561
+2017-03-14 17:02:11 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 17:02:19 [main] [dev_log] [INFO] [87]- All Tests is finished
+2017-03-14 17:02:19 [main] [dev_log] [INFO] [88]- PASSED:0
+2017-03-14 17:02:19 [main] [dev_log] [INFO] [89]- FAILED:0
+2017-03-14 17:02:19 [main] [dev_log] [INFO] [90]- SKIPPED:0
+2017-03-14 18:59:57 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 18:59:59 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b] #parameters:0 time:1339
+2017-03-14 18:59:59 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 19:00:34 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 19:00:35 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 19:00:35 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 19:00:57 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]
+2017-03-14 19:00:57 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 19:02:23 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 19:02:24 [main] [dev_log] [INFO] [117]- Success, method:HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b] #parameters:0 time:811
+2017-03-14 19:02:24 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 19:03:01 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 19:03:02 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 19:03:02 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 19:03:03 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-14 19:03:03 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-14 19:03:05 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-14 19:03:05 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-14 19:03:26 [main] [dev_log] [INFO] [49]- Skipped, method:HomeManage.ClickMore()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]
+2017-03-14 19:03:26 [main] [dev_log] [INFO] [29]- [INFO] **********
+2017-03-14 19:04:06 [main] [dev_log] [INFO] [29]- [INFO] groups:2
+2017-03-14 19:04:07 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的'] 
+2017-03-14 19:04:07 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的")]
+2017-03-14 19:04:09 [main] [dev_log] [INFO] [40]- [STEP] [点击'我的主机'] 
+2017-03-14 19:04:09 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> -android uiautomator: text("我的主机")]
+2017-03-14 19:04:10 [main] [dev_log] [INFO] [40]- [STEP] [向上滑屏] 
+2017-03-14 19:04:10 [main] [dev_log] [INFO] [40]- [STEP] [2] 
+2017-03-14 19:04:21 [main] [dev_log] [INFO] [40]- [STEP] [点击更多] 
+2017-03-14 19:04:21 [main] [dev_log] [INFO] [29]- [INFO] [点击 -> id: com.orvibo.homemate:id/moreTextView]
