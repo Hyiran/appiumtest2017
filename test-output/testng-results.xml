@@ -1,52 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="53" total="54" passed="1">
+<testng-results skipped="0" failed="0" ignored="52" total="53" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2017-03-14 17:01:47 : [INFO] groups:1]]>
+      <![CDATA[2017-03-15 16:09:54 : [INFO] groups:2]]>
     </line>
     <line>
-      <![CDATA[2017-03-14 17:01:49 : [STEP] [点击'场景'] ]]>
+      <![CDATA[2017-03-15 16:09:55 : [INFO] 有主机]]>
     </line>
     <line>
-      <![CDATA[2017-03-14 17:01:49 : [INFO] [点击 -> -android uiautomator: text("场景")]]]>
+      <![CDATA[2017-03-15 16:09:56 : [STEP] [点击'我的'] ]]>
     </line>
     <line>
-      <![CDATA[2017-03-14 17:01:50 : [STEP] [点击'联动'] ]]>
+      <![CDATA[2017-03-15 16:09:56 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
     </line>
     <line>
-      <![CDATA[2017-03-14 17:01:50 : [INFO] [点击 -> -android uiautomator: text("联 动")]]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:01:51 : [STEP] [点击添加按扭] ]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:01:51 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:01:53 : [STEP] [点击编辑联动] ]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:01:53 : [INFO] [点击 -> -android uiautomator: text("编辑联动")]]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:02:09 : [STEP] [点击保存] ]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:02:09 : [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]]]>
-    </line>
-    <line>
-      <![CDATA[2017-03-14 17:02:11 : [INFO] **********]]>
+      <![CDATA[2017-03-15 16:09:58 : [INFO] **********]]>
     </line>
   </reporter-output>
-  <suite name="智家365" duration-ms="60863" started-at="2017-03-14T09:01:18Z" finished-at="2017-03-14T09:02:19Z">
+  <suite name="智家365" duration-ms="41211" started-at="2017-03-15T08:09:25Z" finished-at="2017-03-15T08:10:07Z">
     <groups>
-      <group name="联动2">
-        <method signature="HomeManage.editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]" name="editlinkage" class="com.oribo.android365.testcase.HomeManage"/>
-      </group> <!-- 联动2 -->
+      <group name="我的主机2">
+        <method signature="HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]" name="CheckMyHub" class="com.oribo.android365.testcase.HomeManage"/>
+      </group> <!-- 我的主机2 -->
+      <group name="个人中心">
+        <method signature="HomeManage.CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]" name="CheckMyHub" class="com.oribo.android365.testcase.HomeManage"/>
+      </group> <!-- 个人中心 -->
     </groups>
-    <test name="init" duration-ms="60863" started-at="2017-03-14T09:01:18Z" finished-at="2017-03-14T09:02:19Z">
+    <test name="init" duration-ms="41211" started-at="2017-03-15T08:09:25Z" finished-at="2017-03-15T08:10:07Z">
       <class name="com.oribo.android365.testcase.HomeManage">
-        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]" name="init" is-config="true" duration-ms="1" started-at="2017-03-14T17:01:18Z" finished-at="2017-03-14T17:01:18Z">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]" name="init" is-config="true" duration-ms="0" started-at="2017-03-15T16:09:25Z" finished-at="2017-03-15T16:09:25Z">
           <params>
             <param index="0">
               <value>
@@ -92,57 +74,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]" name="beforeMethod" is-config="true" duration-ms="29243" started-at="2017-03-14T17:01:18Z" finished-at="2017-03-14T17:01:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]" name="beforeMethod" is-config="true" duration-ms="29023" started-at="2017-03-15T16:09:25Z" finished-at="2017-03-15T16:09:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="editlinkage()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]" name="editlinkage" duration-ms="23561" started-at="2017-03-14T17:01:47Z" finished-at="2017-03-14T17:02:11Z">
+        <test-method status="PASS" signature="CheckMyHub()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]" name="CheckMyHub" duration-ms="3622" started-at="2017-03-15T16:09:54Z" finished-at="2017-03-15T16:09:58Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-03-14 17:01:47 : [INFO] groups:1]]>
+              <![CDATA[2017-03-15 16:09:54 : [INFO] groups:2]]>
             </line>
             <line>
-              <![CDATA[2017-03-14 17:01:49 : [STEP] [点击'场景'] ]]>
+              <![CDATA[2017-03-15 16:09:55 : [INFO] 有主机]]>
             </line>
             <line>
-              <![CDATA[2017-03-14 17:01:49 : [INFO] [点击 -> -android uiautomator: text("场景")]]]>
+              <![CDATA[2017-03-15 16:09:56 : [STEP] [点击'我的'] ]]>
             </line>
             <line>
-              <![CDATA[2017-03-14 17:01:50 : [STEP] [点击'联动'] ]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:01:50 : [INFO] [点击 -> -android uiautomator: text("联 动")]]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:01:51 : [STEP] [点击添加按扭] ]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:01:51 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:01:53 : [STEP] [点击编辑联动] ]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:01:53 : [INFO] [点击 -> -android uiautomator: text("编辑联动")]]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:02:09 : [STEP] [点击保存] ]]>
-            </line>
-            <line>
-              <![CDATA[2017-03-14 17:02:09 : [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]]]>
+              <![CDATA[2017-03-15 16:09:56 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
             </line>
           </reporter-output>
-        </test-method> <!-- editlinkage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.HomeManage@cd2dae5]" name="tearDown" is-config="true" duration-ms="8035" started-at="2017-03-14T17:02:11Z" finished-at="2017-03-14T17:02:19Z">
+        </test-method> <!-- CheckMyHub -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.HomeManage@3224f60b]" name="tearDown" is-config="true" duration-ms="8545" started-at="2017-03-15T16:09:58Z" finished-at="2017-03-15T16:10:07Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-03-14 17:02:11 : [INFO] **********]]>
+              <![CDATA[2017-03-15 16:09:58 : [INFO] **********]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.oribo.android365.testcase.HomeManage -->
       <class name="com.oribo.android365.testcase.Personcenter">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.oribo.android365.testcase.Personcenter@50b494a6]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2017-03-14T17:01:18Z" finished-at="2017-03-14T17:01:18Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.oribo.android365.testcase.Personcenter@6321e813]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2017-03-15T16:09:25Z" finished-at="2017-03-15T16:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->

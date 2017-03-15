@@ -15,7 +15,7 @@
     <parameter name="testaccount" value="eop@qq.com"/>
     <groups>
       <run>
-        <include name="联动2"/>
+        <include name="错误"/>
       </run>
     </groups>
     <classes>
@@ -28,7 +28,8 @@
         <methods>
           <include name="init"/>
           <include name="beforeMethod"/>
-          <include name="editlinkage"/>
+          <include name="dragfloor"/>
+          <include name="addfloor"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.HomeManage -->
