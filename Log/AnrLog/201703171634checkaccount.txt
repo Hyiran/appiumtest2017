@@ -1,0 +1,727 @@
+--------- beginning of main
+
+03-17 16:34:41.373  1158  1158 D HomeMate: comm[ main: DialogFragmentTwoButton.java:64 onCreateDialog() ] - 
+
+03-17 16:34:41.374  1158  1158 D HomeMate: comm[ main: DialogFragmentTwoButton.java:72 onActivityCreated() ] - 
+
+03-17 16:34:41.372  4094  4094 W Binder_E: type=1400 audit(0.0:3044905): avc: denied { ioctl } for path="socket:[6032884]" dev="sockfs" ino=6032884 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:34:41.389  1093  1093 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800262a7; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:34:41.389  1093  1122 W art     : Long monitor contention event with owner method=android.view.accessibility.AccessibilityNodeInfo com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(com.android.uiautomator.core.UiSelector, boolean) from QueryController.java:149 waiters=1 for 2.003s
+
+03-17 16:34:41.390  1093  1123 W art     : Long monitor contention event with owner method=android.view.accessibility.AccessibilityNodeInfo com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(com.android.uiautomator.core.UiSelector, boolean) from QueryController.java:149 waiters=1 for 1.510s
+
+03-17 16:34:41.382  4094  4094 W Binder_E: type=1400 audit(0.0:3044906): avc: denied { ioctl } for path="socket:[6032884]" dev="sockfs" ino=6032884 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:34:41.402 17661 17661 W AppWatcher: type=1400 audit(0.0:3044907): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534627 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:34:41.412 17661 17661 W AppWatcher: type=1400 audit(0.0:3044908): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534626 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:34:41.412 17661 17661 W AppWatcher: type=1400 audit(0.0:3044909): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-17 16:34:41.432 17661 17661 W AppWatcher: type=1400 audit(0.0:3044910): avc: denied { getattr } for path="/proc/1" dev="proc" ino=8200 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-17 16:34:41.432  3633  3633 W Binder_5: type=1400 audit(0.0:3044911): avc: denied { ioctl } for path="socket:[6031177]" dev="sockfs" ino=6031177 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:34:41.432 17661 17661 W AppWatcher: type=1400 audit(0.0:3044912): avc: denied { getattr } for path="/proc/2" dev="proc" ino=2557283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.432 17661 17661 W AppWatcher: type=1400 audit(0.0:3044913): avc: denied { getattr } for path="/proc/3" dev="proc" ino=2557284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.432  3633  3633 W Binder_5: type=1400 audit(0.0:3044914): avc: denied { ioctl } for path="socket:[6031177]" dev="sockfs" ino=6031177 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:34:41.444 29800 29800 I AppiumUnicodeIME: onFinishInput
+
+03-17 16:34:41.458 29800 29800 I AppiumUnicodeIME: onStartInput
+
+03-17 16:34:41.452 17661 17661 W AppWatcher: type=1400 audit(0.0:3044915): avc: denied { getattr } for path="/proc/6" dev="proc" ino=2557286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.452 17661 17661 W AppWatcher: type=1400 audit(0.0:3044916): avc: denied { getattr } for path="/proc/7" dev="proc" ino=2557287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.452 17661 17661 W AppWatcher: type=1400 audit(0.0:3044917): avc: denied { getattr } for path="/proc/8" dev="proc" ino=2557288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.462 17661 17661 W AppWatcher: type=1400 audit(0.0:3044918): avc: denied { getattr } for path="/proc/21" dev="proc" ino=2557289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.462 17661 17661 W AppWatcher: type=1400 audit(0.0:3044919): avc: denied { getattr } for path="/proc/22" dev="proc" ino=2557290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.462 17661 17661 W AppWatcher: type=1400 audit(0.0:3044920): avc: denied { getattr } for path="/proc/28" dev="proc" ino=2557291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.478  1158  1158 D HomeMate: comm[ main: LaunchActivity.java:384 onDestroy() ] - 
+
+03-17 16:34:41.480  3962  4066 D WtProcessController: onAMDestroyActivity callback
+
+03-17 16:34:41.482 17661 17661 W AppWatcher: type=1400 audit(0.0:3044921): avc: denied { getattr } for path="/proc/29" dev="proc" ino=2557292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.482 17661 17661 W AppWatcher: type=1400 audit(0.0:3044922): avc: denied { getattr } for path="/proc/30" dev="proc" ino=2557293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.492 17661 17661 W AppWatcher: type=1400 audit(0.0:3044923): avc: denied { getattr } for path="/proc/32" dev="proc" ino=2557294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.492 17661 17661 W AppWatcher: type=1400 audit(0.0:3044924): avc: denied { getattr } for path="/proc/33" dev="proc" ino=2557295 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.492 17661 17661 W AppWatcher: type=1400 audit(0.0:3044925): avc: denied { getattr } for path="/proc/34" dev="proc" ino=2557296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.492 17661 17661 W AppWatcher: type=1400 audit(0.0:3044926): avc: denied { getattr } for path="/proc/61" dev="proc" ino=2557297 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.502 17661 17661 W AppWatcher: type=1400 audit(0.0:3044927): avc: denied { getattr } for path="/proc/62" dev="proc" ino=2557298 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.502 17661 17661 W AppWatcher: type=1400 audit(0.0:3044928): avc: denied { getattr } for path="/proc/63" dev="proc" ino=2557299 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:34:41.540  1158  1409 D HomeMate: comm[ AsyncTask #1: OrviboUpdateAgent.java:259 doInBackground() ] - result =﻿{  "oldVersion": 90,  "day": "7",  "version": 22000302 ,  "name": "HomeMate",  "packagename":"com.orvibo.homemate",  "url": "http://firmware.orvibo.com/androidapk/homemate.apk",  "message": "修复BUG，提升稳定�?��??",  "message_en": "Bug fixes and overall performance improvements.",  "size": ""}
+
+03-17 16:34:41.542  1158  1158 E HomeMate: comm[ main: OrviboUpdateAgent.java:311 onPostExecute() ] - localVersionCode=23000201
+
+03-17 16:34:41.545  1158  1158 D HomeMate: comm[ main: MainPresenter.java:333 onUpdateReturned() ] - isCanUpdate:false,responseInfos:{packagename=com.orvibo.homemate, oldVersion=90, size=, url=http://firmware.orvibo.com/androidapk/homemate.apk, version=22000302, name=HomeMate, day=7, message=修复BUG，提升稳定�?��??, message_en=Bug fixes and overall performance improvements.}
+
+03-17 16:34:41.546  1158  1158 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:false,position:3
+
+03-17 16:34:41.792 22823 22823 D wpa_supplicant: nl80211: Event message available
+
+03-17 16:34:41.792 22823 22823 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-17 16:34:41.792 22823 22823 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-17 16:34:41.792 22823 22823 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+
+03-17 16:34:41.792 22823 22823 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-17 16:34:41.792 22823 22823 D wpa_supplicant: wlan0: Scan completed in 2.275576 seconds
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: nl80211: Associated on 2472 MHz
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: nl80211: Associated with cc:81:da:8d:29:08
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: nl80211: Received scan results (26 BSSes)
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:8d:29:08 as associated
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: wlan0: BSS: Start scan result update 6882
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: wlan0: BSS: Add new id 13321 BSSID c0:61:18:1c:14:42 SSID 'MERCURY_1C1442'
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-17 16:34:41.793 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: wlan0: BSS: Remove id 13317 BSSID d4:68:ba:1b:d4:33 SSID 'BD_meeting' due to no match in scan
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=46
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: BSS: last_scan_res_used=26/64
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: wlan0: Scan-only results received
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:34:41.794 22823 22823 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d93c0 done in 2.280590 seconds
+
+03-17 16:34:41.798 22823 22823 D wpa_supplicant: RTM_NEWLINK: ifi_index=26 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-17 16:34:41.812 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3379
+
+03-17 16:34:41.817 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3711
+
+03-17 16:34:41.823 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3512
+
+03-17 16:34:41.837 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3687
+
+03-17 16:34:41.843 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3851
+
+03-17 16:34:41.847 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=2613
+
+--------- beginning of system
+
+03-17 16:34:41.859  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199505901 ,lux=13.225571
+
+03-17 16:34:41.882 22823 22823 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-17 16:34:41.882 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=280
+
+03-17 16:34:41.890  1534  1669 I WhetstoneClientManager: pid = 16082, uid = 10098 is frozen, not allowed Broadcast
+
+03-17 16:34:41.890  1534  1669 V BroadcastQueueInjector: Skipping BroadcastRecord{d81511a u-1 android.net.wifi.SCAN_RESULTS} to ProcessRecord{d279ccd 16082:com.sina.weibo:remote/u0a98}
+
+03-17 16:34:41.890  1534  1669 D Whetstone-FW: MiuiLog-Whetstone-BroadcastControl BroadcastRecord{d81511a u-1 android.net.wifi.SCAN_RESULTS} is discarded
+
+03-17 16:34:41.908  3962  4665 I StepsProvider: Steps Provider Query
+
+03-17 16:34:41.992  8449 10515 E WifiDeviceFinder: start process end time - 92
+
+03-17 16:34:42.011  8449 10509 E WifiScanHomelog: start process end time - 29
+
+03-17 16:34:42.028  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199506070 ,lux=11.021309
+
+03-17 16:34:42.126   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:42.198  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199506240 ,lux=5.1432776
+
+03-17 16:34:42.368  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199506410 ,lux=2.2042618
+
+03-17 16:34:42.539  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199506580 ,lux=4.4085236
+
+03-17 16:34:42.549  4242  4392 W Metok_Tag: < metok_app > invalid network operator 
+
+03-17 16:34:42.622  4242  4392 W Metok_Tag: < metok_app > invalid network operator 
+
+03-17 16:34:42.655  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:34:42.655  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:34:42.655  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:34:42.655  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999997187
+
+03-17 16:34:42.708  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199506750 ,lux=7.347539
+
+03-17 16:34:42.879  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199506920 ,lux=3.6737695
+
+03-17 16:34:43.049  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199507090 ,lux=5.1432776
+
+03-17 16:34:43.127   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:43.631  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:43.642  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:43.645  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:44.005 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:34:44.021 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:34:44.128   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:45.129   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:45.657  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:45.667  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:45.667  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:45.769  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199509811 ,lux=33.063927
+
+03-17 16:34:45.938  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199509980 ,lux=6.6127853
+
+03-17 16:34:46.109  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199510150 ,lux=2.9390156
+
+03-17 16:34:46.131   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:46.279  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199510320 ,lux=1.4695078
+
+03-17 16:34:46.448  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199510490 ,lux=8.0822935
+
+03-17 16:34:46.618  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199510660 ,lux=5.1432776
+
+03-17 16:34:46.656  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:34:46.656  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:34:46.656  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:34:46.656  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999996719
+
+03-17 16:34:46.789  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199510831 ,lux=3.6737695
+
+03-17 16:34:46.959  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199511001 ,lux=3.6737695
+
+03-17 16:34:47.026 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:34:47.041 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:34:47.128  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199511170 ,lux=5.1432776
+
+03-17 16:34:47.133   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:47.299  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199511341 ,lux=5.8780313
+
+03-17 16:34:47.470  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199511511 ,lux=5.8780313
+
+03-17 16:34:47.678  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:47.694  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:47.695  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:48.134   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:48.858  1093  1116 I art     : Background sticky concurrent mark sweep GC freed 307700(15MB) AllocSpace objects, 0(0B) LOS objects, 94% free, 966KB/16MB, paused 612us total 160.349ms
+
+03-17 16:34:49.135   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:49.705  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:49.708  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:49.718  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:50.050 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:34:50.065 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:34:50.137   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:50.656  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:34:50.656  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:34:50.656  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:34:50.656  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999995989
+
+03-17 16:34:50.722  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:50.737  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:50.745  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:51.138   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:52.139   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:52.518   370   467 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-17 16:34:52.519   370   493 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-17 16:34:52.519   370   493 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-17 16:34:53.073 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:34:53.087 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:34:53.140   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:54.026  1158  1209 W System.err: 无法访问或网络不稳定
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-17 16:34:54.026  1158  1209 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-17 16:34:54.026  1158  1209 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-17 16:34:54.027  1158  1209 W System.err: 	... 9 more
+
+03-17 16:34:54.141   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:54.656  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:34:54.656  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:34:54.656  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:34:54.656  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999997396
+
+03-17 16:34:55.143   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:56.093 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:34:56.108 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:34:56.144   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:56.767  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:56.786  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:56.786  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:57.146   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:57.830  4326  4326 I PowerKeeperBackgroundService: onStartCommand()
+
+03-17 16:34:57.830  4326  4326 I PowerKeeperService: onAlarm
+
+03-17 16:34:57.955  1534  1534 I ActivityManager: Start proc 1576:com.miui.mipub/u0a16 for service com.miui.mipub/.service.MessageCheckService
+
+03-17 16:34:57.956  3962  4066 D WtProcessController: onAMProcStart callback
+
+03-17 16:34:58.005  3962  4066 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 3994 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1489739670940 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:10198}
+
+03-17 16:34:58.148   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:58.166  3852  4239 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-17 16:34:58.212  1576  1576 W System  : ClassLoader referenced unknown path: /system/priv-app/Mipub/lib/arm
+
+03-17 16:34:58.248  1576  1576 D miuisdk : current sdk level is 10
+
+03-17 16:34:58.261  1576  1576 I         : ARTPROXY OFFSET: method_entry_offset = 36
+
+03-17 16:34:58.262  1576  1576 I         : ARTPROXY OFFSET: method_interpreter_entry_offset = 28
+
+03-17 16:34:58.262  1576  1576 I         : ARTPROXY OFFSET: managed_stack_size = 12
+
+03-17 16:34:58.262  1576  1576 I         : ARTPROXY OFFSET: thread_deliver_exception_entry_offset = 608
+
+03-17 16:34:58.262  1576  1576 I         : ARTPROXY OFFSET: thread_exception_offset = 132
+
+03-17 16:34:58.262  1576  1576 I         : ARTPROXY OFFSET: method_code_size_offset = 4
+
+03-17 16:34:58.621  1576  1601 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+
+03-17 16:34:58.652  3852  4239 I XiaomiFirewall: firewall pkgName:com.miui.mipub, result:0x0
+
+03-17 16:34:58.656  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:34:58.656  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:34:58.656  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:34:58.656  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999997187
+
+03-17 16:34:58.799  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:58.805  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:58.806  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:59.117 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:34:59.133 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:34:59.150   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:34:59.208  1158  1242 D UTAnalytics:CommitTask: pid:1158 check&commit event:65501,
+
+03-17 16:34:59.209  1158  1242 D UTAnalytics:CommitTask: pid:1158 next:65501,
+
+03-17 16:34:59.209  1158  1242 D UTAnalytics:CommitTask: pid:1158 check&commit event:65502,
+
+03-17 16:34:59.209  1158  1242 D UTAnalytics:CommitTask: pid:1158 next:65502,
+
+03-17 16:34:59.209  1158  1242 D UTAnalytics:CommitTask: pid:1158 check&commit event:65503,
+
+03-17 16:34:59.209  1158  1242 D UTAnalytics:CommitTask: pid:1158 next:65503,
+
+03-17 16:34:59.814  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:59.828  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:34:59.828  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:00.054  3962  4066 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 1267 Uid: 10136 Start by: service Score:100 Old score:100 state:0 mBackgroundTimeInMillis:0 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10136 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:-1}
+
+03-17 16:35:00.151   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:01.152   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:01.847  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:01.864  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:01.869  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:02.136 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:35:02.152 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:35:02.153   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:02.658  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:35:02.658  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:35:02.658  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:35:02.658  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999988802
+
+03-17 16:35:02.878  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:02.889  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:02.893  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:03.013  1158  1242 D UTAnalytics:LogStoreMgr: pid:1158 [store],
+
+03-17 16:35:03.057  1158  1242 D UTAnalytics:UTSqliteLogStore: pid:1158 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 20,
+
+03-17 16:35:03.063  1158  1242 D UTAnalytics:UTSqliteLogStore: pid:1158 pos,0,count,2,
+
+03-17 16:35:03.064  1158  1242 D UTAnalytics:UTSqliteLogStore: pid:1158 pos,1,count,2,
+
+03-17 16:35:03.069  1158  1242 D UTAnalytics:LogStoreMgr: pid:1158 [get],[Log [id=2265, eventId=19999, index=], Log [id=2266, eventId=2001, index=]],
+
+03-17 16:35:03.074  1158  1242 D UTAnalytics:UploadTask: pid:1158 averagePackageSize:224.0,
+
+03-17 16:35:03.154   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:03.221  1158  1218 D NAT     : SYMMETRIC_NAT
+
+03-17 16:35:03.222  1158  1218 D NAT     : call void method before
+
+03-17 16:35:03.223  1158  1218 D NAT     : call void method after
+
+03-17 16:35:03.380  1158  1242 W System.err: java.lang.reflect.InvocationTargetException
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-17 16:35:03.381  1158  1242 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-17 16:35:03.381  1158  1242 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+03-17 16:35:03.382  1158  1242 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+03-17 16:35:03.382  1158  1242 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+03-17 16:35:03.382  1158  1242 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+03-17 16:35:03.382  1158  1242 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-17 16:35:03.382  1158  1242 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-17 16:35:03.382  1158  1242 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+03-17 16:35:03.382  1158  1242 W System.err: 	... 11 more
+
+03-17 16:35:03.389  3852  4239 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-17 16:35:03.482  1158  1242 D UTAnalytics:UploadTask: pid:1158 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.201&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1489739703090&u=&is=1&k=0,
+
+03-17 16:35:03.482  1158  1242 D UTAnalytics:UploadTask: pid:1158 result:{"t":1489739702568,"ret":"","success":"success"}
+
+03-17 16:35:03.482  1158  1242 D UTAnalytics:UploadTask: ,
+
+03-17 16:35:03.487  1158  1242 D UTAnalytics:UploadTask: pid:1158 winsize:218,
+
+03-17 16:35:03.487  1158  1242 D UTAnalytics:LogStoreMgr: pid:1158 [Log [id=2265, eventId=19999, index=], Log [id=2266, eventId=2001, index=]],
+
+03-17 16:35:03.512  1158  1242 D UTAnalytics:UTSqliteLogStore: pid:1158 delete ,2, isSuccess:true,
+
+03-17 16:35:03.515  1158  1242 D UTAnalytics:CoreStatics: pid:1158 [uploadInc]:0,count:2,
+
+03-17 16:35:03.515  1158  1242 D UTAnalytics:CoreStatics: pid:1158 [uploadInc]:2,
+
+03-17 16:35:03.515  1158  1242 D UTAnalytics:UploadTask: pid:1158 logs.size():2, selfMonitorLogCount:0,
+
+03-17 16:35:03.515  1158  1242 D UTAnalytics:UploadTask: pid:1158 upload isSendSuccess:true, consume:412, delete consume:28,
+
+03-17 16:35:03.902  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:03.910  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:03.911  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:04.155   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:04.921  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:04.932  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:04.933  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:05.157   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:05.167 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:35:05.183 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:35:05.489  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199529531 ,lux=19.103601
+
+03-17 16:35:05.621  1158  1242 D UTAnalytics:LogStoreMgr: pid:1158 [store],
+
+03-17 16:35:05.630  1158  1242 D UTAnalytics:UTSqliteLogStore: pid:1158 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 218,
+
+03-17 16:35:05.637  1158  1242 D UTAnalytics:LogStoreMgr: pid:1158 [get],[],
+
+03-17 16:35:05.646  1158  1242 D UTAnalytics:UploadEngine: pid:1158 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-17 16:35:05.653  1158  1242 D UTAnalytics:UploadTask: pid:1158 mPeriod:30000,
+
+03-17 16:35:05.659  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199529700 ,lux=3.6737695
+
+03-17 16:35:05.829  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199529871 ,lux=9.551801
+
+03-17 16:35:06.000  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199530042 ,lux=2.9390156
+
+03-17 16:35:06.158   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:06.169  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199530211 ,lux=4.4085236
+
+03-17 16:35:06.339  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199530380 ,lux=1.4695078
+
+03-17 16:35:06.508  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199530550 ,lux=1.4695078
+
+03-17 16:35:06.658  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:35:06.659  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:35:06.659  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:35:06.659  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999993959
+
+03-17 16:35:06.680  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199530722 ,lux=1.4695078
+
+03-17 16:35:06.849  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199530891 ,lux=4.4085236
+
+03-17 16:35:07.019  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199531060 ,lux=6.6127853
+
+03-17 16:35:07.159   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:07.189  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199531230 ,lux=1.4695078
+
+03-17 16:35:07.359  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199531401 ,lux=2.9390156
+
+03-17 16:35:07.529  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199531571 ,lux=6.6127853
+
+03-17 16:35:07.622  3962  4067 I octvm_drv: get memsw state event success.
+
+03-17 16:35:07.622  3962  4067 I octvm_whetstone: memory: threshold 307200, current free 293748; swap: threshold 0, current free 0
+
+03-17 16:35:07.622  3962  4067 W WtEventController: low memory 
+
+03-17 16:35:07.623  3962  3962 D MemController: receive the low memory message
+
+03-17 16:35:07.623  3962  3962 D MemController: Enter the low memory mode transfer level = 0
+
+03-17 16:35:07.623  3962  3962 D MemController: handle low memory duration time is not enough ignore
+
+03-17 16:35:07.699  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199531740 ,lux=1.4695078
+
+03-17 16:35:07.868  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199531910 ,lux=2.9390156
+
+03-17 16:35:08.039  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199532080 ,lux=3.6737695
+
+03-17 16:35:08.161   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:08.186 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:35:08.203 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:35:08.209  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199532250 ,lux=2.2042618
+
+03-17 16:35:08.379  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199532420 ,lux=8.817047
+
+03-17 16:35:08.549  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199532591 ,lux=3.6737695
+
+03-17 16:35:08.718  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199532760 ,lux=3.6737695
+
+03-17 16:35:08.889  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199532930 ,lux=3.6737695
+
+03-17 16:35:08.951  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:08.962  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:08.966  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:09.059  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199533100 ,lux=5.1432776
+
+03-17 16:35:09.162   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:35:09.228  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199533270 ,lux=2.9390156
+
+03-17 16:35:09.741  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199533782 ,lux=2.9390156
+
+03-17 16:35:09.909  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199533951 ,lux=5.8780313
+
+03-17 16:35:10.079  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199534120 ,lux=5.8780313
+
+03-17 16:35:10.164   370   482 I ThermalEngine: Sensor:batt_temp:379 mC
+
+03-17 16:35:10.248  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199534290 ,lux=6.6127853
+
+03-17 16:35:10.420  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199534461 ,lux=8.0822935
+
+03-17 16:35:10.589  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199534630 ,lux=1.4695078
+
+03-17 16:35:10.659  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:35:10.659  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:35:10.659  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:35:10.659  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999996823
+
+03-17 16:35:10.759  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199534800 ,lux=2.2042618
+
+03-17 16:35:10.928  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199534970 ,lux=3.6737695
+
+03-17 16:35:11.098  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199535140 ,lux=3.6737695
+
+03-17 16:35:11.165   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:35:11.209 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:35:11.225 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:35:11.269  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199535310 ,lux=5.1432776
+
+03-17 16:35:11.439  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199535481 ,lux=3.6737695
+
+03-17 16:35:11.609  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199535650 ,lux=4.4085236
+
+03-17 16:35:11.778  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199535820 ,lux=4.4085236
+
+03-17 16:35:11.949  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199535991 ,lux=6.6127853
+
+03-17 16:35:11.975  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:11.979  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:11.982  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:35:12.118  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199536160 ,lux=2.9390156
+
+03-17 16:35:12.166   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:35:12.289  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199536331 ,lux=2.2042618
+
+03-17 16:35:12.460  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199536501 ,lux=1.4695078
+
+03-17 16:35:12.630  1534  1906 D AutomaticBrightnessController: drop the lightsensor event ,time=199536672 ,lux=3.6737695
+
+03-17 16:35:13.167   370   482 I ThermalEngine: Sensor:batt_temp:378 mC

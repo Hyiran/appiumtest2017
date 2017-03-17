@@ -55,18 +55,551 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>init</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>37/7/3</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 15 16:09:25 CST 2017</td>
+<td>Started on:</td><td>Fri Mar 17 16:11:31 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>41 seconds (41211 ms)</td>
+<tr><td>Total time:</td><td>3243 seconds (3243633 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>我的主机2 </td>
+<td>Included groups:</td><td></td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.oribo.android365.testcase.SignIn.a_phoneregister()'><b>a_phoneregister</b><br>Test class: com.oribo.android365.testcase.SignIn<br/>
+<a href="#Output-82825098" onClick='toggleBox("Output-82825098", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-82825098" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-82825098">
+2017-03-17 16:57:20 : [INFO] groups:1<br/>
+2017-03-17 16:57:25 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:57:25 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:57:26 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:57:26 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:57:28 : [STEP] [点击退出登录] <br/>
+2017-03-17 16:57:28 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]<br/>
+2017-03-17 16:57:29 : [STEP] [提示框中点击确定] <br/>
+2017-03-17 16:57:29 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]<br/>
+2017-03-17 16:57:32 : [INFO] 注册要使用的手机号为：13265784540<br/>
+2017-03-17 16:57:35 : [STEP] [点击注册按扭] <br/>
+2017-03-17 16:57:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/register_tv]<br/>
+2017-03-17 16:57:38 : [INFO] 轻触坐标: x = 800, y = 700<br/>
+2017-03-17 16:57:40 : [STEP] [返回至帐号注册界面] <br/>
+2017-03-17 16:57:40 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]<br/>
+2017-03-17 16:57:44 : [STEP] [输入手机号] <br/>
+2017-03-17 16:57:44 : [INFO] [输入字符 -> class name: android.widget.EditText]<br/>
+2017-03-17 16:57:50 : [STEP] [点击下一步] <br/>
+2017-03-17 16:57:50 : [INFO] [点击 -> id: com.orvibo.homemate:id/nextButton]<br/>
+2017-03-17 17:03:35 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 60s内未收到验证码 expected [true] but found [false]
+	at com.oribo.android365.testcase.SignIn.a_phoneregister(SignIn.java:117)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace82825098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace82825098'><pre>java.lang.AssertionError: 60s内未收到验证码 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.oribo.android365.testcase.SignIn.a_phoneregister(SignIn.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>350</td>
+<td>com.oribo.android365.testcase.SignIn@4facf68f</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.checkaccount()'><b>checkaccount</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-706665172" onClick='toggleBox("Output-706665172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-706665172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-706665172">
+2017-03-17 16:34:38 : [INFO] groups:3<br/>
+2017-03-17 16:34:41 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:34:41 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:35:20 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: 22e81c08-02e1-4cd6-9c92-2fea813d5deb
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:44)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.oribo.common.AppOperate.click(AppOperate.java:505)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:212)
+	at com.oribo.android365.testcase.Personcenter.checkaccount(Personcenter.java:517)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace706665172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace706665172'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: 22e81c08-02e1-4cd6-9c92-2fea813d5deb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:44)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.oribo.common.AppOperate.click(AppOperate.java:505)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:212)
+	at com.oribo.android365.testcase.Personcenter.checkaccount(Personcenter.java:517)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.dragfloor()'><b>dragfloor</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1431710377" onClick='toggleBox("Output-1431710377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1431710377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1431710377">
+2017-03-17 16:28:54 : [INFO] groups:2<br/>
+2017-03-17 16:28:56 : [INFO] 当前家庭为:88rvt<br/>
+2017-03-17 16:28:57 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:28:57 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:28:59 : [STEP] [点击'房间管理'] <br/>
+2017-03-17 16:28:59 : [INFO] [点击 -> -android uiautomator: text("房间管理")]<br/>
+2017-03-17 16:29:01 : [STEP] [楼层数小于3楼时添加楼层] <br/>
+2017-03-17 16:29:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]<br/>
+2017-03-17 16:29:02 : [INFO] 操作后前端楼层数为：3<br/>
+2017-03-17 16:29:26 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NoSuchMethodError: io.appium.java_client.TouchAction.&lt;init&gt;(Lio/appium/java_client/PerformsTouchActions;)V
+	at com.oribo.android365.testcase.HomeManage.dragfloor(HomeManage.java:889)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1431710377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1431710377'><pre>java.lang.NoSuchMethodError: io.appium.java_client.TouchAction.&lt;init&gt;(Lio/appium/java_client/PerformsTouchActions;)V
+	at com.oribo.android365.testcase.HomeManage.dragfloor(HomeManage.java:889)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>8</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.myhost()'><b>myhost</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1662912171" onClick='toggleBox("Output-1662912171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1662912171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1662912171">
+2017-03-17 16:31:23 : [INFO] groups:1<br/>
+2017-03-17 16:31:23 : [INFO] 主机的名称为:智能主机,主机的MAC地址为：00:7E:56:12:12:06，主机的固件版本为：1.4.1.4,主机的IP地址为：192.168.100.245<br/>
+2017-03-17 16:31:25 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:31:25 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:31:26 : [STEP] [点击'我的主机'] <br/>
+2017-03-17 16:31:26 : [INFO] [点击 -> -android uiautomator: text("我的主机")]<br/>
+2017-03-17 16:31:53 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.oribo.android365.testcase.HomeManage.myhost(HomeManage.java:169)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1662912171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1662912171'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.oribo.android365.testcase.HomeManage.myhost(HomeManage.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>5</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.phonebind()'><b>phonebind</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-37841489" onClick='toggleBox("Output-37841489", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37841489" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37841489">
+2017-03-17 16:48:20 : [INFO] groups:3<br/>
+2017-03-17 16:48:23 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:48:23 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:49:01 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: d8e14a64-7c3f-4eb9-b84b-f693385ce2c6
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:44)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.oribo.common.AppOperate.click(AppOperate.java:505)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:212)
+	at com.oribo.android365.testcase.Personcenter.phonebind(Personcenter.java:213)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace37841489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace37841489'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: d8e14a64-7c3f-4eb9-b84b-f693385ce2c6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:44)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.oribo.common.AppOperate.click(AppOperate.java:505)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:212)
+	at com.oribo.android365.testcase.Personcenter.phonebind(Personcenter.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.rightaccountnext()'><b>rightaccountnext</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1442038800" onClick='toggleBox("Output-1442038800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442038800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442038800">
+2017-03-17 16:50:54 : [INFO] groups:4<br/>
+2017-03-17 16:51:43 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: 0958065e-eecb-42f2-a657-6308bdbfa01b
+*** Element info: {Using=-android uiautomator, value=text(&quot;我的&quot;)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.android.AndroidDriver.findElementByAndroidUIAutomator(AndroidDriver.java:394)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:212)
+	at com.oribo.android365.testcase.Personcenter.rightaccountnext(Personcenter.java:351)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1442038800", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1442038800'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: 0958065e-eecb-42f2-a657-6308bdbfa01b
+*** Element info: {Using=-android uiautomator, value=text(&quot;我的&quot;)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.android.AndroidDriver.findElementByAndroidUIAutomator(AndroidDriver.java:394)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:212)
+	at com.oribo.android365.testcase.Personcenter.rightaccountnext(Personcenter.java:351)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>21</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.specialchar()'><b>specialchar</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-637091966" onClick='toggleBox("Output-637091966", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-637091966" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-637091966">
+2017-03-17 16:55:51 : [INFO] groups:3<br/>
+2017-03-17 16:55:53 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:55:53 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:56:40 : [INFO] 成功比列:100<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: 6b48939b-7b46-4d55-a171-9e0fee20dda8
+*** Element info: {Using=id, value=com.orvibo.homemate:id/iv_personal_user_icon}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:213)
+	at com.oribo.android365.testcase.Personcenter.specialchar(Personcenter.java:241)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace637091966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace637091966'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;test&apos;, ip: &apos;192.168.80.211&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.orvibo.homemate, noReset=true, deviceName=492c754e, platform=LINUX, deviceUDID=492c754e, desired={appPackage=com.orvibo.homemate, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, noReset=true, platformVersion=6.0.1, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=492c754e, deviceName=Android Emulator, device=Selendroid, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=492c754e, deviceManufacturer=Xiaomi, resetKeyboard=true, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.orvibo.homemate.common.launch.LaunchActivity, locationContextEnabled=false, deviceModel=MI NOTE LTE, sessionOverride=true, device=Selendroid}]
+Session ID: 6b48939b-7b46-4d55-a171-9e0fee20dda8
+*** Element info: {Using=id, value=com.orvibo.homemate:id/iv_personal_user_icon}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.oribo.common.TestcaseFrame.enterPersoninfo(TestcaseFrame.java:213)
+	at com.oribo.android365.testcase.Personcenter.specialchar(Personcenter.java:241)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>23</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,19 +609,1085 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.oribo.android365.testcase.HomeManage.CheckMyHub()'><b>CheckMyHub</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
-<a href="#Output-1304117943" onClick='toggleBox("Output-1304117943", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1581078471" onClick='toggleBox("Output-1581078471", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1304117943" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1304117943">
-2017-03-15 16:09:54 : [INFO] groups:2<br/>
-2017-03-15 16:09:55 : [INFO] 有主机<br/>
-2017-03-15 16:09:56 : [STEP] [点击'我的'] <br/>
-2017-03-15 16:09:56 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+<a href="#Output-1581078471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1581078471">
+2017-03-17 16:11:56 : [INFO] groups:2<br/>
+2017-03-17 16:11:56 : [INFO] 有主机<br/>
+2017-03-17 16:11:58 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:11:58 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
 </div>
 </td>
 <td></td>
 <td>3</td>
-<td>com.oribo.android365.testcase.HomeManage@3224f60b</td></tr>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.Unboundauthorization()'><b>Unboundauthorization</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1947941827" onClick='toggleBox("Output-1947941827", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1947941827" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1947941827">
+2017-03-17 16:32:25 : [INFO] groups:3<br/>
+2017-03-17 16:32:28 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:32:28 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:32:29 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:32:29 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:32:31 : [STEP] [点击进入授权登录界面] <br/>
+2017-03-17 16:32:31 : [INFO] [点击 -> -android uiautomator: text("授权登录")]<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.about()'><b>about</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-198098993" onClick='toggleBox("Output-198098993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-198098993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-198098993">
+2017-03-17 16:33:08 : [INFO] groups:3<br/>
+2017-03-17 16:33:10 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:33:10 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:33:12 : [STEP] [点击'关于'] <br/>
+2017-03-17 16:33:12 : [INFO] [点击 -> -android uiautomator: text("关于")]<br/>
+2017-03-17 16:33:13 : [INFO] 当前版本号应为:2.3.0.201<br/>
+2017-03-17 16:33:17 : [INFO] 已截图,图片名称为:m.png<br/>
+2017-03-17 16:33:17 : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\about.png与图片:BufferedImage@76ba13c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@70f59913 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.addfloor()'><b>addfloor</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1380924218" onClick='toggleBox("Output-1380924218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1380924218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1380924218">
+2017-03-17 16:12:31 : [INFO] groups:2<br/>
+2017-03-17 16:12:33 : [INFO] 当前家庭为:feoik<br/>
+2017-03-17 16:12:33 : [INFO] 添加楼层前的楼层数为:18<br/>
+2017-03-17 16:12:34 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:12:34 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:12:36 : [STEP] [点击'房间管理'] <br/>
+2017-03-17 16:12:36 : [INFO] [点击 -> -android uiautomator: text("房间管理")]<br/>
+2017-03-17 16:12:58 : [STEP] [向上滑动查找添加按扭] <br/>
+2017-03-17 16:13:01 : [STEP] [点击添加楼层的按扭] <br/>
+2017-03-17 16:13:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_floor_tv]<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.addhome()'><b>addhome</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-661047965" onClick='toggleBox("Output-661047965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-661047965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-661047965">
+2017-03-17 16:13:36 : [INFO] groups:1<br/>
+2017-03-17 16:13:38 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:13:38 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:13:39 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:13:39 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+2017-03-17 16:13:41 : [STEP] [点击新建家庭按扭] <br/>
+2017-03-17 16:13:41 : [INFO] [点击 -> id: com.orvibo.homemate:id/right_iv]<br/>
+2017-03-17 16:13:43 : [STEP] [输入5个字符] <br/>
+2017-03-17 16:13:43 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/familyName]<br/>
+2017-03-17 16:13:48 : [STEP] [确认输入] <br/>
+2017-03-17 16:13:48 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/familyName]<br/>
+2017-03-17 16:13:53 : [INFO] 已截图,图片名称为:f.png<br/>
+2017-03-17 16:13:53 : [STEP] [点击“头像”] <br/>
+2017-03-17 16:13:53 : [INFO] [点击 -> id: com.orvibo.homemate:id/familyIcon]<br/>
+2017-03-17 16:13:55 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:13:55 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:13:58 : [STEP] [点击拍照按扭] <br/>
+2017-03-17 16:13:58 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]<br/>
+2017-03-17 16:14:01 : [STEP] [点击选择按扭] <br/>
+2017-03-17 16:14:01 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]<br/>
+2017-03-17 16:14:03 : [STEP] [裁剪界面点击确定] <br/>
+2017-03-17 16:14:03 : [INFO] [点击 -> -android uiautomator: text("确定")]<br/>
+2017-03-17 16:14:11 : [INFO] 已截图,图片名称为:y.png<br/>
+2017-03-17 16:14:12 : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\f.png与图片:BufferedImage@7241a47d: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@70f59913 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度<br/>
+2017-03-17 16:14:12 : [STEP] [点击创建家庭] <br/>
+2017-03-17 16:14:12 : [INFO] [点击 -> id: com.orvibo.homemate:id/familyAddBtn]<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.addlink()'><b>addlink</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-771105389" onClick='toggleBox("Output-771105389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-771105389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-771105389">
+2017-03-17 16:15:56 : [INFO] groups:1<br/>
+2017-03-17 16:16:00 : [STEP] [点击'场景'] <br/>
+2017-03-17 16:16:00 : [INFO] [点击 -> -android uiautomator: text("场景")]<br/>
+2017-03-17 16:16:01 : [STEP] [切换到联动界面] <br/>
+2017-03-17 16:16:01 : [INFO] [点击 -> -android uiautomator: text("联 动")]<br/>
+2017-03-17 16:16:02 : [STEP] [点击添加按扭] <br/>
+2017-03-17 16:16:02 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]<br/>
+2017-03-17 16:16:04 : [STEP] [点击添加联动按扭] <br/>
+2017-03-17 16:16:04 : [INFO] [点击 -> -android uiautomator: text("添加联动")]<br/>
+2017-03-17 16:16:05 : [STEP] [点击添加启动条件] <br/>
+2017-03-17 16:16:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/tv_condition_type]<br/>
+2017-03-17 16:16:07 : [STEP] [选择任意启动条件] <br/>
+2017-03-17 16:16:07 : [INFO] [点击 -> id: com.orvibo.homemate:id/typeName_tv]<br/>
+2017-03-17 16:16:08 : [STEP] [点击添加执行任务] <br/>
+2017-03-17 16:16:08 : [INFO] [点击 -> id: com.orvibo.homemate:id/addBindTextView]<br/>
+2017-03-17 16:16:10 : [STEP] [执行任务中点击任意设备] <br/>
+2017-03-17 16:16:10 : [INFO] [点击 -> id: com.orvibo.homemate:id/cbDevice]<br/>
+2017-03-17 16:16:11 : [STEP] [点击返回按扭] <br/>
+2017-03-17 16:16:11 : [INFO] [点击 -> id: com.orvibo.homemate:id/back_iv]<br/>
+2017-03-17 16:16:13 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:16:13 : [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.addroom()'><b>addroom</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1301987508" onClick='toggleBox("Output-1301987508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1301987508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1301987508">
+2017-03-17 16:16:48 : [INFO] groups:1<br/>
+2017-03-17 16:16:52 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:16:52 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:16:53 : [STEP] [点击'房间管理'] <br/>
+2017-03-17 16:16:53 : [INFO] [点击 -> -android uiautomator: text("房间管理")]<br/>
+2017-03-17 16:16:55 : [STEP] [点击添加房间按扭] <br/>
+2017-03-17 16:16:55 : [INFO] [点击 -> -android uiautomator: text("+添加房间")]<br/>
+2017-03-17 16:17:02 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:17:02 : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.authorizationentrance()'><b>authorizationentrance</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-832145584" onClick='toggleBox("Output-832145584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-832145584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-832145584">
+2017-03-17 16:33:50 : [INFO] groups:3<br/>
+2017-03-17 16:33:53 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:33:53 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:33:54 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:33:54 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:33:56 : [STEP] [点击进入授权登录界面] <br/>
+2017-03-17 16:33:56 : [INFO] [点击 -> -android uiautomator: text("授权登录")]<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.checkdefault()'><b>checkdefault</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-649769713" onClick='toggleBox("Output-649769713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-649769713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-649769713">
+2017-03-17 16:26:08 : [INFO] groups:0<br/>
+2017-03-17 16:26:11 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:26:11 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:26:12 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:26:12 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.checkfamilynumber()'><b>checkfamilynumber</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1634723627" onClick='toggleBox("Output-1634723627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1634723627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1634723627">
+2017-03-17 16:26:48 : [INFO] groups:1<br/>
+2017-03-17 16:26:51 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:26:51 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:26:52 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:26:52 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.checklinkage()'><b>checklinkage</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1620529408" onClick='toggleBox("Output-1620529408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620529408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620529408">
+2017-03-17 16:27:26 : [INFO] groups:2<br/>
+2017-03-17 16:27:28 : [STEP] [点击'场景'] <br/>
+2017-03-17 16:27:28 : [INFO] [点击 -> -android uiautomator: text("场景")]<br/>
+2017-03-17 16:27:29 : [STEP] [点击联动] <br/>
+2017-03-17 16:27:29 : [INFO] [点击 -> -android uiautomator: text("联 动")]<br/>
+2017-03-17 16:27:31 : [INFO] 当前联动数为:2<br/>
+2017-03-17 16:27:31 : [INFO] 联动1在前端显示<br/>
+2017-03-17 16:27:31 : [INFO] tk1ls在前端显示<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.SignIn.checkother()'><b>checkother</b><br>Test class: com.oribo.android365.testcase.SignIn<br/>
+<a href="#Output-1851255134" onClick='toggleBox("Output-1851255134", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1851255134" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1851255134">
+2017-03-17 17:04:08 : [INFO] groups:1<br/>
+2017-03-17 17:04:09 : [STEP] [点击忘记密码] <br/>
+2017-03-17 17:04:09 : [INFO] [点击 -> id: com.orvibo.homemate:id/forget_password_tv]<br/>
+2017-03-17 17:04:11 : [STEP] [返回到登录界面] <br/>
+2017-03-17 17:04:13 : [STEP] [点击微信图标] <br/>
+2017-03-17 17:04:13 : [INFO] [点击 -> id: com.orvibo.homemate:id/wechat_login]<br/>
+2017-03-17 17:04:15 : [STEP] [返回到登录界面] <br/>
+2017-03-17 17:04:17 : [STEP] [点击QQ图标] <br/>
+2017-03-17 17:04:17 : [INFO] [点击 -> id: com.orvibo.homemate:id/qq_login]<br/>
+2017-03-17 17:04:20 : [STEP] [Wait For Text Disappear : com.orvibo.homemate:id/login_btn] <br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.SignIn@4facf68f</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.defaultroom()'><b>defaultroom</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1231006815" onClick='toggleBox("Output-1231006815", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1231006815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1231006815">
+2017-03-17 16:17:38 : [INFO] groups:1<br/>
+2017-03-17 16:17:40 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:17:40 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:17:41 : [STEP] [点击'房间管理'] <br/>
+2017-03-17 16:17:41 : [INFO] [点击 -> -android uiautomator: text("房间管理")]<br/>
+2017-03-17 16:17:43 : [STEP] [点击默认房间] <br/>
+2017-03-17 16:17:43 : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]<br/>
+2017-03-17 16:17:45 : [STEP] [点击默认的房间图片] <br/>
+2017-03-17 16:17:45 : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]<br/>
+2017-03-17 16:17:46 : [STEP] [点击默认图库] <br/>
+2017-03-17 16:17:46 : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]<br/>
+2017-03-17 16:17:47 : [STEP] [默认图库中选择一张图片] <br/>
+2017-03-17 16:17:47 : [INFO] [点击 -> class name: android.widget.ImageView]<br/>
+2017-03-17 16:17:57 : [INFO] 已截图,图片名称为:xtu.png<br/>
+2017-03-17 16:17:57 : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\xtu.png与图片:BufferedImage@eda25e5: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@70f59913 transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 3 dataOff[0] = 2的相似度<br/>
+2017-03-17 16:17:57 : [STEP] [点击左上方的返回键] <br/>
+2017-03-17 16:17:57 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]<br/>
+2017-03-17 16:17:59 : [STEP] [点击默认房间] <br/>
+2017-03-17 16:17:59 : [INFO] [点击 -> id: com.orvibo.homemate:id/tag_tv]<br/>
+2017-03-17 16:18:00 : [STEP] [点击默认的房间图片] <br/>
+2017-03-17 16:18:00 : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]<br/>
+2017-03-17 16:18:02 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:18:02 : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]<br/>
+2017-03-17 16:18:04 : [STEP] [点击返回] <br/>
+2017-03-17 16:18:06 : [STEP] [点击默认的房间图片] <br/>
+2017-03-17 16:18:06 : [INFO] [点击 -> id: com.orvibo.homemate:id/room_img_iv]<br/>
+2017-03-17 16:18:07 : [STEP] [点击选择框中的“从相册中选择”按扭] <br/>
+2017-03-17 16:18:07 : [INFO] [点击 -> id: com.orvibo.homemate:id/menu_item_text]<br/>
+2017-03-17 16:18:09 : [STEP] [返回到编辑房间界面] <br/>
+2017-03-17 16:18:16 : [STEP] [房间编辑界面点击保存] <br/>
+2017-03-17 16:18:16 : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.delectfloor()'><b>delectfloor</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1671590089" onClick='toggleBox("Output-1671590089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1671590089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1671590089">
+2017-03-17 16:18:54 : [INFO] groups:1<br/>
+2017-03-17 16:18:56 : [INFO] 当前家庭为:feoik<br/>
+2017-03-17 16:18:57 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:18:57 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:18:58 : [STEP] [点击'房间管理'] <br/>
+2017-03-17 16:18:58 : [INFO] [点击 -> -android uiautomator: text("房间管理")]<br/>
+2017-03-17 16:19:01 : [STEP] [删除第01个家庭] <br/>
+2017-03-17 16:19:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/delete_tv]<br/>
+2017-03-17 16:19:03 : [STEP] [提示框中点击确认删除] <br/>
+2017-03-17 16:19:03 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightTextView]<br/>
+2017-03-17 16:19:26 : [INFO] 删除成功<br/>
+2017-03-17 16:19:27 : [STEP] [删除第11个家庭] <br/>
+2017-03-17 16:19:27 : [INFO] [点击 -> id: com.orvibo.homemate:id/delete_tv]<br/>
+2017-03-17 16:19:42 : [INFO] 该房间没有楼层<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.delectroom()'><b>delectroom</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1108889615" onClick='toggleBox("Output-1108889615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1108889615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1108889615">
+2017-03-17 16:28:03 : [INFO] groups:2<br/>
+2017-03-17 16:28:06 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:28:06 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:28:08 : [STEP] [点击'房间管理'] <br/>
+2017-03-17 16:28:08 : [INFO] [点击 -> -android uiautomator: text("房间管理")]<br/>
+2017-03-17 16:28:09 : [INFO] 房间数为1<br/>
+2017-03-17 16:28:09 : [STEP] [点击添加房间按扭] <br/>
+2017-03-17 16:28:09 : [INFO] [点击 -> -android uiautomator: text("+添加房间")]<br/>
+2017-03-17 16:28:16 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:28:16 : [INFO] [点击 -> id: com.orvibo.homemate:id/save_tv]<br/>
+2017-03-17 16:28:18 : [STEP] [删除一个房间] <br/>
+2017-03-17 16:28:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/delete_iv]<br/>
+2017-03-17 16:28:22 : [INFO] 删除后的房间数为:1<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.deletelink()'><b>deletelink</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1569435561" onClick='toggleBox("Output-1569435561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1569435561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1569435561">
+2017-03-17 16:20:16 : [INFO] groups:2<br/>
+2017-03-17 16:20:18 : [STEP] [点击'场景'] <br/>
+2017-03-17 16:20:18 : [INFO] [点击 -> -android uiautomator: text("场景")]<br/>
+2017-03-17 16:20:19 : [STEP] [点击'联动'] <br/>
+2017-03-17 16:20:19 : [INFO] [点击 -> -android uiautomator: text("联 动")]<br/>
+2017-03-17 16:20:21 : [STEP] [点击添加按扭] <br/>
+2017-03-17 16:20:21 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]<br/>
+2017-03-17 16:20:22 : [STEP] [点击编辑联动] <br/>
+2017-03-17 16:20:22 : [INFO] [点击 -> -android uiautomator: text("编辑联动")]<br/>
+2017-03-17 16:20:25 : [STEP] [点击删除联动的按扭] <br/>
+2017-03-17 16:20:25 : [INFO] [点击 -> id: com.orvibo.homemate:id/deleteTextView]<br/>
+2017-03-17 16:20:26 : [STEP] [提示框中点击删除] <br/>
+2017-03-17 16:20:26 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.edithome()'><b>edithome</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1658980982" onClick='toggleBox("Output-1658980982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658980982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658980982">
+2017-03-17 16:21:02 : [INFO] groups:1<br/>
+2017-03-17 16:21:04 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:21:04 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:21:05 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:21:05 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+2017-03-17 16:21:07 : [STEP] [点击进入默认家庭] <br/>
+2017-03-17 16:21:07 : [INFO] [点击 -> id: com.orvibo.homemate:id/familyName]<br/>
+2017-03-17 16:21:09 : [STEP] [点击家庭名称w] <br/>
+2017-03-17 16:21:09 : [INFO] [点击 -> -android uiautomator: text("家庭名称")]<br/>
+2017-03-17 16:21:10 : [STEP] [重新输入家庭名称] <br/>
+2017-03-17 16:21:10 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/input_family_nickname_edit]<br/>
+2017-03-17 16:21:16 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:21:16 : [INFO] [点击 -> -android uiautomator: text("保存")]<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.editlinkage()'><b>editlinkage</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-587180314" onClick='toggleBox("Output-587180314", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-587180314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-587180314">
+2017-03-17 16:21:54 : [INFO] groups:2<br/>
+2017-03-17 16:21:56 : [STEP] [点击'场景'] <br/>
+2017-03-17 16:21:56 : [INFO] [点击 -> -android uiautomator: text("场景")]<br/>
+2017-03-17 16:21:57 : [STEP] [点击'联动'] <br/>
+2017-03-17 16:21:57 : [INFO] [点击 -> -android uiautomator: text("联 动")]<br/>
+2017-03-17 16:21:58 : [STEP] [点击添加按扭] <br/>
+2017-03-17 16:21:58 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]<br/>
+2017-03-17 16:22:00 : [STEP] [点击编辑联动] <br/>
+2017-03-17 16:22:00 : [INFO] [点击 -> -android uiautomator: text("编辑联动")]<br/>
+2017-03-17 16:22:16 : [STEP] [点击保存] <br/>
+2017-03-17 16:22:16 : [INFO] [点击 -> id: com.orvibo.homemate:id/right_tv]<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.familydetails()'><b>familydetails</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1687354037" onClick='toggleBox("Output-1687354037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687354037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687354037">
+2017-03-17 16:23:48 : [INFO] groups:1<br/>
+2017-03-17 16:23:50 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:23:50 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:23:51 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:23:51 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+2017-03-17 16:23:53 : [INFO] 第1个家庭,家庭名称为:88rvt<br/>
+2017-03-17 16:23:53 : [STEP] [点击第1个家庭] <br/>
+2017-03-17 16:23:53 : [INFO] [点击 -> -android uiautomator: text("88rvt")]<br/>
+2017-03-17 16:23:54 : [INFO] 88rvt为默认家庭<br/>
+2017-03-17 16:23:55 : [STEP] [返回到家庭管理界面] <br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.feedback()'><b>feedback</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1196963249" onClick='toggleBox("Output-1196963249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1196963249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1196963249">
+2017-03-17 16:36:00 : [INFO] groups:3<br/>
+2017-03-17 16:36:04 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:36:04 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:36:05 : [STEP] [点击'意见反馈'] <br/>
+2017-03-17 16:36:05 : [INFO] [点击 -> -android uiautomator: text("意见反馈")]<br/>
+2017-03-17 16:36:16 : [STEP] [Wait For Text : [我要反馈]] <br/>
+2017-03-17 16:36:16 : [INFO] [Wait For Text : [我要反馈]] <br/>
+2017-03-17 16:36:20 : [STEP] [点击我要反馈] <br/>
+2017-03-17 16:36:20 : [INFO] [点击 -> class name: bc_feedback_submite]<br/>
+2017-03-17 16:36:22 : [STEP] [反馈内容框中输入内容] <br/>
+2017-03-17 16:36:22 : [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]<br/>
+2017-03-17 16:36:29 : [STEP] [选中一张照片] <br/>
+2017-03-17 16:36:29 : [INFO] [点击 -> id: com.miui.gallery:id/pick_num_indicator]<br/>
+2017-03-17 16:36:32 : [STEP] [输入联系方式] <br/>
+2017-03-17 16:36:32 : [INFO] [输入字符 -> id: feedback-contact]<br/>
+2017-03-17 16:36:34 : [STEP] [反馈内容框中输入内容] <br/>
+2017-03-17 16:36:34 : [INFO] [输入字符 -> xpath: //*[@id="feedback-content"]]<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.forgetpassword()'><b>forgetpassword</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1681094402" onClick='toggleBox("Output-1681094402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681094402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681094402">
+2017-03-17 16:37:23 : [INFO] groups:4<br/>
+2017-03-17 16:37:24 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:37:24 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:37:26 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:37:26 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:37:28 : [STEP] [点击修改密码] <br/>
+2017-03-17 16:37:28 : [INFO] [点击 -> -android uiautomator: text("修改密码")]<br/>
+2017-03-17 16:37:29 : [STEP] [点击忘记旧密码] <br/>
+2017-03-17 16:37:29 : [INFO] [点击 -> -android uiautomator: text("忘记旧密码")]<br/>
+2017-03-17 16:37:32 : [STEP] [输入正确的账号] <br/>
+2017-03-17 16:37:32 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+2017-03-17 16:37:37 : [INFO] 登录的帐号为:15079034630@126.com<br/>
+2017-03-17 16:37:38 : [STEP] [点击下一步] <br/>
+2017-03-17 16:37:38 : [INFO] [点击 -> -android uiautomator: text("下一步")]<br/>
+2017-03-17 16:37:40 : [STEP] [输入小11位手机号] <br/>
+2017-03-17 16:37:40 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]<br/>
+2017-03-17 16:37:45 : [INFO] 输入的小于11位手机号为:1348809632<br/>
+2017-03-17 16:37:46 : [STEP] [点击下一步] <br/>
+2017-03-17 16:37:46 : [INFO] [点击 -> -android uiautomator: text("下一步")]<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.getAdvInfo()'><b>getAdvInfo</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-896138248" onClick='toggleBox("Output-896138248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896138248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896138248">
+2017-03-17 16:30:00 : [INFO] groups:1<br/>
+2017-03-17 16:30:03 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:30:03 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:30:04 : [INFO] 服务器返回数据显示该用户不是广告投放目标<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.grephonenumber()'><b>grephonenumber</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1042891691" onClick='toggleBox("Output-1042891691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1042891691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1042891691">
+2017-03-17 16:39:24 : [INFO] groups:3<br/>
+2017-03-17 16:39:27 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:39:27 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:39:28 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:39:28 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:39:30 : [STEP] [点击进入手机绑定界面] <br/>
+2017-03-17 16:39:30 : [INFO] [点击 -> -android uiautomator: text("手机号")]<br/>
+2017-03-17 16:39:32 : [STEP] [输入大于11位手机号] <br/>
+2017-03-17 16:39:32 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+2017-03-17 16:39:37 : [STEP] [确认输入] <br/>
+2017-03-17 16:39:37 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.identifycode()'><b>identifycode</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1586470445" onClick='toggleBox("Output-1586470445", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1586470445" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1586470445">
+2017-03-17 16:40:19 : [INFO] groups:3<br/>
+2017-03-17 16:40:22 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:40:22 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:40:24 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:40:24 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:40:26 : [INFO] 登录的账号为邮箱登录，且未绑定手机号<br/>
+2017-03-17 16:40:26 : [STEP] [进入 手机号绑定界面] <br/>
+2017-03-17 16:40:26 : [INFO] [点击 -> -android uiautomator: text("手机号")]<br/>
+2017-03-17 16:40:28 : [STEP] [输入11位手机号] <br/>
+2017-03-17 16:40:28 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+2017-03-17 16:40:33 : [INFO] 输入的随机手机号为：13762081473<br/>
+2017-03-17 16:40:33 : [STEP] [点击下一步] <br/>
+2017-03-17 16:40:33 : [INFO] [点击 -> -android uiautomator: text("下一步")]<br/>
+2017-03-17 16:40:42 : [STEP] [输入小11位手机号] <br/>
+2017-03-17 16:40:42 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/codeEditText]<br/>
+2017-03-17 16:40:47 : [INFO] 输入的小于11位手机号为:1324519099<br/>
+2017-03-17 16:40:48 : [STEP] [点击下一步] <br/>
+2017-03-17 16:40:48 : [INFO] [点击 -> -android uiautomator: text("下一步")]<br/>
+</div>
+</td>
+<td></td>
+<td>85</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.lesphonenumber()'><b>lesphonenumber</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-626193099" onClick='toggleBox("Output-626193099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626193099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626193099">
+2017-03-17 16:42:25 : [INFO] groups:3<br/>
+2017-03-17 16:42:28 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:42:28 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:42:30 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:42:30 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:42:32 : [STEP] [点击进入手机绑定界面] <br/>
+2017-03-17 16:42:32 : [INFO] [点击 -> -android uiautomator: text("手机号")]<br/>
+2017-03-17 16:42:33 : [STEP] [输入小11位手机号] <br/>
+2017-03-17 16:42:33 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+2017-03-17 16:42:39 : [INFO] 输入的小于11位手机号为:1301513182<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.memberoffamily()'><b>memberoffamily</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1878413714" onClick='toggleBox("Output-1878413714", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1878413714" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878413714">
+2017-03-17 16:24:28 : [INFO] groups:1<br/>
+2017-03-17 16:24:31 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:24:31 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:24:32 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:24:32 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+2017-03-17 16:24:35 : [INFO] 当前家庭有0个成员<br/>
+2017-03-17 16:24:35 : [STEP] [点击进入默认家庭] <br/>
+2017-03-17 16:24:35 : [INFO] [点击 -> -android uiautomator: text("88rvt")]<br/>
+2017-03-17 16:24:36 : [STEP] [进入家庭成员列表] <br/>
+2017-03-17 16:24:36 : [INFO] [点击 -> -android uiautomator: text("家庭成员")]<br/>
+2017-03-17 16:24:38 : [STEP] [点击添加成员按扭] <br/>
+2017-03-17 16:24:38 : [INFO] [点击 -> id: com.orvibo.homemate:id/right_iv]<br/>
+2017-03-17 16:24:40 : [STEP] [点击添加联系人选择按扭] <br/>
+2017-03-17 16:24:40 : [INFO] [点击 -> id: com.orvibo.homemate:id/contactImageView]<br/>
+2017-03-17 16:24:41 : [STEP] [返回家庭管理界面] <br/>
+2017-03-17 16:24:42 : [STEP] [清空文本框] <br/>
+2017-03-17 16:24:42 : [INFO] [清空数据 -> id: com.orvibo.homemate:id/accountEditText]<br/>
+2017-03-17 16:24:47 : [STEP] [输入11位手机号] <br/>
+2017-03-17 16:24:47 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/accountEditText]<br/>
+2017-03-17 16:24:52 : [INFO] 输入的手机号为:13088884762<br/>
+2017-03-17 16:24:53 : [INFO] 被邀请的家庭未注册<br/>
+2017-03-17 16:24:53 : [STEP] [点击发起邀请按钮] <br/>
+2017-03-17 16:24:53 : [INFO] [点击 -> id: com.orvibo.homemate:id/send_invite_text]<br/>
+2017-03-17 16:24:55 : [STEP] [点击微信邀请] <br/>
+2017-03-17 16:24:55 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]<br/>
+2017-03-17 16:24:57 : [STEP] [返回家庭管理界面] <br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.nickNull()'><b>nickNull</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1373949107" onClick='toggleBox("Output-1373949107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1373949107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1373949107">
+2017-03-17 16:43:20 : [INFO] groups:3<br/>
+2017-03-17 16:43:24 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:43:24 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:43:25 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:43:25 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:43:27 : [STEP] [点击昵称] <br/>
+2017-03-17 16:43:27 : [INFO] [点击 -> -android uiautomator: text("昵称")]<br/>
+2017-03-17 16:43:29 : [STEP] [清空昵称文本框] <br/>
+2017-03-17 16:43:29 : [INFO] [清空数据 -> id: com.orvibo.homemate:id/userNicknameEditText]<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.nickmaxchina()'><b>nickmaxchina</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1870723838" onClick='toggleBox("Output-1870723838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870723838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870723838">
+2017-03-17 16:44:11 : [INFO] groups:3<br/>
+2017-03-17 16:44:15 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:44:15 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:44:16 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:44:16 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:44:18 : [STEP] [点击昵称] <br/>
+2017-03-17 16:44:18 : [INFO] [点击 -> -android uiautomator: text("昵称")]<br/>
+2017-03-17 16:44:20 : [STEP] [输入16个字汉] <br/>
+2017-03-17 16:44:20 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]<br/>
+2017-03-17 16:44:27 : [INFO] 输入的汉字为:我是中国人我爱我的祖国我们是一家<br/>
+2017-03-17 16:44:27 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:44:27 : [INFO] [点击按扭 -> -android uiautomator: text("保存")]<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.nickmaxeng()'><b>nickmaxeng</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1134202713" onClick='toggleBox("Output-1134202713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134202713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134202713">
+2017-03-17 16:45:14 : [INFO] groups:3<br/>
+2017-03-17 16:45:17 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:45:17 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:45:18 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:45:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:45:20 : [STEP] [点击昵称] <br/>
+2017-03-17 16:45:20 : [INFO] [点击 -> -android uiautomator: text("昵称")]<br/>
+2017-03-17 16:45:21 : [STEP] [输入32个英文] <br/>
+2017-03-17 16:45:21 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]<br/>
+2017-03-17 16:45:43 : [STEP] [确认输入] <br/>
+2017-03-17 16:45:43 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]<br/>
+2017-03-17 16:45:44 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:45:44 : [INFO] [点击按扭 -> -android uiautomator: text("保存")]<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.nickmodify()'><b>nickmodify</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-1228798862" onClick='toggleBox("Output-1228798862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1228798862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1228798862">
+2017-03-17 16:46:27 : [INFO] groups:3<br/>
+2017-03-17 16:46:29 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:46:29 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:46:30 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:46:30 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:46:32 : [STEP] [点击昵称] <br/>
+2017-03-17 16:46:32 : [INFO] [点击 -> id: com.orvibo.homemate:id/userNicknameTextView]<br/>
+2017-03-17 16:46:34 : [STEP] [输入1个字符] <br/>
+2017-03-17 16:46:34 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userNicknameEditText]<br/>
+2017-03-17 16:46:39 : [STEP] [确认输入] <br/>
+2017-03-17 16:46:39 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userNicknameEditText]<br/>
+2017-03-17 16:46:40 : [STEP] [点击保存按扭] <br/>
+2017-03-17 16:46:40 : [INFO] [点击按扭 -> -android uiautomator: text("保存")]<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.notphonenumber()'><b>notphonenumber</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-827035437" onClick='toggleBox("Output-827035437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-827035437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-827035437">
+2017-03-17 16:47:25 : [INFO] groups:3<br/>
+2017-03-17 16:47:27 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:47:27 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:47:28 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:47:28 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:47:30 : [STEP] [点击进入手机绑定界面] <br/>
+2017-03-17 16:47:30 : [INFO] [点击 -> -android uiautomator: text("手机号")]<br/>
+2017-03-17 16:47:32 : [STEP] [输入特殊字符] <br/>
+2017-03-17 16:47:32 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+2017-03-17 16:47:37 : [STEP] [确认输入] <br/>
+2017-03-17 16:47:37 : [INFO] [输入后回车 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.remindersettings()'><b>remindersettings</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1988939205" onClick='toggleBox("Output-1988939205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1988939205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1988939205">
+2017-03-17 16:30:37 : [INFO] groups:1<br/>
+2017-03-17 16:30:39 : [STEP] [点击我的] <br/>
+2017-03-17 16:30:39 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:30:41 : [STEP] [点击提醒 设置] <br/>
+2017-03-17 16:30:41 : [INFO] [点击 -> -android uiautomator: text("提醒设置")]<br/>
+2017-03-17 16:30:43 : [INFO] WIFI设备数为:6<br/>
+2017-03-17 16:30:43 : [STEP] [进入定时执行提醒界面] <br/>
+2017-03-17 16:30:43 : [INFO] [点击 -> -android uiautomator: text("定时执行提醒")]<br/>
+2017-03-17 16:30:44 : [STEP] [返回到提醒设置界面] <br/>
+2017-03-17 16:30:44 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]<br/>
+2017-03-17 16:30:49 : [INFO] 灯设备数为:7<br/>
+2017-03-17 16:30:49 : [STEP] [进入节能提醒界面] <br/>
+2017-03-17 16:30:49 : [INFO] [点击 -> -android uiautomator: text("节能提醒")]<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.rightaccount()'><b>rightaccount</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-417797183" onClick='toggleBox("Output-417797183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-417797183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-417797183">
+2017-03-17 16:49:42 : [INFO] groups:3<br/>
+2017-03-17 16:49:58 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:49:58 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:49:59 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:49:59 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:50:01 : [STEP] [点击进入手机绑定界面] <br/>
+2017-03-17 16:50:01 : [INFO] [点击 -> -android uiautomator: text("手机号")]<br/>
+2017-03-17 16:50:03 : [STEP] [输入11位手机号] <br/>
+2017-03-17 16:50:03 : [INFO] [输入字符 -> id: com.orvibo.homemate:id/userPhoneEmailEditText]<br/>
+2017-03-17 16:50:08 : [INFO] 输入的手机号为:13088884762<br/>
+2017-03-17 16:50:09 : [STEP] [返回到个人信息界面] <br/>
+2017-03-17 16:50:09 : [INFO] [点击 -> id: com.orvibo.homemate:id/left_iv]<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.setphotobyalbum()'><b>setphotobyalbum</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-2075372030" onClick='toggleBox("Output-2075372030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075372030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075372030">
+2017-03-17 16:52:24 : [INFO] groups:3<br/>
+2017-03-17 16:52:26 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:52:26 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:52:35 : [INFO] 已截图,图片名称为:t.png<br/>
+2017-03-17 16:52:35 : [STEP] [点击个人中心头像] <br/>
+2017-03-17 16:52:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:52:37 : [STEP] [个人信息中点击“头像”] <br/>
+2017-03-17 16:52:37 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:52:38 : [STEP] [点击选择框中的“取消”按扭] <br/>
+2017-03-17 16:52:38 : [INFO] [点击 -> -android uiautomator: text("取消")]<br/>
+2017-03-17 16:52:43 : [STEP] [个人信息中点击“头像”] <br/>
+2017-03-17 16:52:43 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:52:44 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:52:44 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:52:47 : [STEP] [拍照界面点击取消] <br/>
+2017-03-17 16:52:47 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]<br/>
+2017-03-17 16:52:51 : [STEP] [点击“头像”] <br/>
+2017-03-17 16:52:51 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:52:53 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:52:53 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:52:56 : [STEP] [点击拍照按扭] <br/>
+2017-03-17 16:52:56 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]<br/>
+2017-03-17 16:53:01 : [STEP] [点击选择按扭] <br/>
+2017-03-17 16:53:01 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]<br/>
+2017-03-17 16:53:03 : [STEP] [裁剪界面点击“取消”] <br/>
+2017-03-17 16:53:03 : [INFO] [点击 -> id: com.miui.gallery:id/cancel]<br/>
+2017-03-17 16:53:05 : [STEP] [点击“头像”] <br/>
+2017-03-17 16:53:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:53:06 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:53:06 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:53:10 : [STEP] [点击拍照按扭] <br/>
+2017-03-17 16:53:10 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]<br/>
+2017-03-17 16:53:14 : [STEP] [点击选择按扭] <br/>
+2017-03-17 16:53:14 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]<br/>
+2017-03-17 16:53:16 : [STEP] [裁剪界面点击确定] <br/>
+2017-03-17 16:53:16 : [INFO] [点击 -> -android uiautomator: text("确定")]<br/>
+2017-03-17 16:53:19 : [STEP] [图片选择界面点击返回] <br/>
+2017-03-17 16:53:27 : [INFO] 已截图,图片名称为:z.png<br/>
+2017-03-17 16:53:28 : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\z.png与图片:BufferedImage@4a9cc6cb: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@70f59913 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度<br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.Personcenter.setphotobycamera()'><b>setphotobycamera</b><br>Test class: com.oribo.android365.testcase.Personcenter<br/>
+<a href="#Output-255941269" onClick='toggleBox("Output-255941269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-255941269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-255941269">
+2017-03-17 16:54:09 : [INFO] groups:3<br/>
+2017-03-17 16:54:12 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:54:12 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:54:20 : [INFO] 已截图,图片名称为:vv.png<br/>
+2017-03-17 16:54:20 : [STEP] [点击个人信息头像] <br/>
+2017-03-17 16:54:20 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]<br/>
+2017-03-17 16:54:22 : [STEP] [个人信息中点击“头像”] <br/>
+2017-03-17 16:54:22 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:54:23 : [STEP] [点击选择框中的“取消”按扭] <br/>
+2017-03-17 16:54:23 : [INFO] [点击 -> -android uiautomator: text("取消")]<br/>
+2017-03-17 16:54:28 : [STEP] [个人信息中点击“头像”] <br/>
+2017-03-17 16:54:28 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:54:29 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:54:29 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:54:31 : [STEP] [拍照界面点击取消] <br/>
+2017-03-17 16:54:31 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_cancel]<br/>
+2017-03-17 16:54:35 : [STEP] [点击“头像”] <br/>
+2017-03-17 16:54:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:54:37 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:54:37 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:54:38 : [STEP] [点击拍照按扭] <br/>
+2017-03-17 16:54:38 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]<br/>
+2017-03-17 16:54:43 : [STEP] [点击选择按扭] <br/>
+2017-03-17 16:54:43 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]<br/>
+2017-03-17 16:54:46 : [STEP] [裁剪界面点击“取消”] <br/>
+2017-03-17 16:54:46 : [INFO] [点击 -> id: com.miui.gallery:id/cancel]<br/>
+2017-03-17 16:54:47 : [STEP] [点击“头像”] <br/>
+2017-03-17 16:54:47 : [INFO] [点击 -> id: com.orvibo.homemate:id/userPicImageView]<br/>
+2017-03-17 16:54:49 : [STEP] [点击选择框中的“拍照”按扭] <br/>
+2017-03-17 16:54:49 : [INFO] [点击 -> -android uiautomator: text("拍照")]<br/>
+2017-03-17 16:54:52 : [STEP] [点击拍照按扭] <br/>
+2017-03-17 16:54:52 : [INFO] [点击 -> id: com.android.camera:id/v6_shutter_button_internal]<br/>
+2017-03-17 16:54:56 : [STEP] [点击选择按扭] <br/>
+2017-03-17 16:54:56 : [INFO] [点击 -> id: com.android.camera:id/v6_btn_done]<br/>
+2017-03-17 16:54:59 : [STEP] [裁剪界面点击确定] <br/>
+2017-03-17 16:54:59 : [INFO] [点击 -> -android uiautomator: text("确定")]<br/>
+2017-03-17 16:55:01 : [STEP] [点击手机返回键] <br/>
+2017-03-17 16:55:09 : [INFO] 已截图,图片名称为:s6.png<br/>
+2017-03-17 16:55:10 : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\Log\ScreenCap\s6.png与图片:BufferedImage@54107f42: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@70f59913 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度<br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>com.oribo.android365.testcase.Personcenter@31368b99</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.sort()'><b>sort</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-1261044180" onClick='toggleBox("Output-1261044180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1261044180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1261044180">
+2017-03-17 16:25:31 : [INFO] groups:0<br/>
+2017-03-17 16:25:33 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:25:33 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:25:34 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:25:34 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.SignIn.weibologging()'><b>weibologging</b><br>Test class: com.oribo.android365.testcase.SignIn<br/>
+<a href="#Output-190628410" onClick='toggleBox("Output-190628410", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-190628410" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-190628410">
+2017-03-17 17:04:54 : [INFO] groups:1<br/>
+2017-03-17 17:04:56 : [STEP] [点击微博图标] <br/>
+2017-03-17 17:04:56 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]<br/>
+2017-03-17 17:05:19 : [STEP] [点击我的] <br/>
+2017-03-17 17:05:19 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 17:05:26 : [INFO] 已截图,图片名称为:defaultphoto.png<br/>
+2017-03-17 17:05:27 : [INFO] 对比图片:D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\testdata\percompare.png与图片:BufferedImage@6db66836: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@70f59913 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 1080 height = 1920 #numDataElements 4 dataOff[0] = 3的相似度<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.oribo.android365.testcase.SignIn@4facf68f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.addlink()'><b>addlink</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-254896875" onClick='toggleBox("Output-254896875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-254896875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-254896875">
+2017-03-17 16:14:49 : [INFO] groups:1<br/>
+2017-03-17 16:14:53 : [STEP] [点击'场景'] <br/>
+2017-03-17 16:14:53 : [INFO] [点击 -> -android uiautomator: text("场景")]<br/>
+2017-03-17 16:14:54 : [STEP] [切换到联动界面] <br/>
+2017-03-17 16:14:54 : [INFO] [点击 -> -android uiautomator: text("联 动")]<br/>
+2017-03-17 16:14:56 : [STEP] [点击添加按扭] <br/>
+2017-03-17 16:14:56 : [INFO] [点击 -> id: com.orvibo.homemate:id/add_iv]<br/>
+2017-03-17 16:14:57 : [STEP] [点击添加联动按扭] <br/>
+2017-03-17 16:14:57 : [INFO] [点击 -> -android uiautomator: text("添加联动")]<br/>
+2017-03-17 16:14:58 : [STEP] [点击添加启动条件] <br/>
+2017-03-17 16:14:58 : [INFO] [点击 -> id: com.orvibo.homemate:id/tv_condition_type]<br/>
+2017-03-17 16:15:00 : [STEP] [选择任意启动条件] <br/>
+2017-03-17 16:15:00 : [INFO] [点击 -> id: com.orvibo.homemate:id/typeName_tv]<br/>
+2017-03-17 16:15:01 : [STEP] [点击添加执行任务] <br/>
+2017-03-17 16:15:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/addBindTextView]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Unknown Source)
+	at com.oribo.android365.testcase.HomeManage.addlink(HomeManage.java:1169)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace254896875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace254896875'><pre>java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Unknown Source)
+	at com.oribo.android365.testcase.HomeManage.addlink(HomeManage.java:1169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>33</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.SignIn.b_logff()'><b>b_logff</b><br>Test class: com.oribo.android365.testcase.SignIn</td>
+<td><div><pre>java.lang.Throwable: Method SignIn.b_logff()[pri:0, instance:com.oribo.android365.testcase.SignIn@4facf68f] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace237297104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace237297104'><pre>java.lang.Throwable: Method SignIn.b_logff()[pri:0, instance:com.oribo.android365.testcase.SignIn@4facf68f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.oribo.android365.testcase.HomeManage.familydetails()'><b>familydetails</b><br>Test class: com.oribo.android365.testcase.HomeManage<br/>
+<a href="#Output-873175411" onClick='toggleBox("Output-873175411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-873175411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-873175411">
+2017-03-17 16:22:51 : [INFO] groups:1<br/>
+2017-03-17 16:22:54 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:22:54 : [INFO] [点击 -> -android uiautomator: text("我的")]<br/>
+2017-03-17 16:22:55 : [STEP] [点击'我的'] <br/>
+2017-03-17 16:22:55 : [INFO] [点击 -> -android uiautomator: text("家庭管理")]<br/>
+2017-03-17 16:22:56 : [INFO] 第1个家庭,家庭名称为:88rvt<br/>
+2017-03-17 16:22:56 : [STEP] [点击第1个家庭] <br/>
+2017-03-17 16:22:56 : [INFO] [点击 -> -android uiautomator: text("88rvt")]<br/>
+2017-03-17 16:22:58 : [INFO] 88rvt为默认家庭<br/>
+2017-03-17 16:22:59 : [STEP] [返回到家庭管理界面] <br/>
+2017-03-17 16:23:00 : [INFO] 第2个家庭,家庭名称为:fggg<br/>
+2017-03-17 16:23:00 : [STEP] [点击第2个家庭] <br/>
+2017-03-17 16:23:00 : [INFO] [点击 -> -android uiautomator: text("fggg")]<br/>
+2017-03-17 16:23:01 : [INFO] fggg为管理员家庭<br/>
+2017-03-17 16:23:01 : [STEP] [点击删除家庭] <br/>
+2017-03-17 16:23:01 : [INFO] [点击 -> -android uiautomator: text("删除家庭")]<br/>
+2017-03-17 16:23:03 : [STEP] [弹出提示框点击删除] <br/>
+2017-03-17 16:23:03 : [INFO] [点击 -> -android uiautomator: text("删除")]<br/>
+2017-03-17 16:23:05 : [INFO] 第3个家庭,家庭名称为:6nzp7<br/>
+2017-03-17 16:23:05 : [STEP] [点击第3个家庭] <br/>
+2017-03-17 16:23:05 : [INFO] [点击 -> -android uiautomator: text("6nzp7")]<br/>
+2017-03-17 16:23:07 : [INFO] 6nzp7为管理员家庭<br/>
+2017-03-17 16:23:07 : [STEP] [点击删除家庭] <br/>
+2017-03-17 16:23:07 : [INFO] [点击 -> -android uiautomator: text("删除家庭")]<br/>
+2017-03-17 16:23:08 : [STEP] [弹出提示框点击删除] <br/>
+2017-03-17 16:23:08 : [INFO] [点击 -> -android uiautomator: text("删除")]<br/>
+2017-03-17 16:23:10 : [INFO] 第4个家庭,家庭名称为:pugfz<br/>
+2017-03-17 16:23:10 : [STEP] [点击第4个家庭] <br/>
+2017-03-17 16:23:10 : [INFO] [点击 -> -android uiautomator: text("pugfz")]<br/>
+2017-03-17 16:23:11 : [INFO] pugfz为管理员家庭<br/>
+2017-03-17 16:23:11 : [STEP] [点击删除家庭] <br/>
+2017-03-17 16:23:11 : [INFO] [点击 -> -android uiautomator: text("删除家庭")]<br/>
+2017-03-17 16:23:13 : [STEP] [弹出提示框点击删除] <br/>
+2017-03-17 16:23:13 : [INFO] [点击 -> -android uiautomator: text("删除")]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.oribo.android365.testcase.HomeManage.familydetails(HomeManage.java:625)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace873175411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace873175411'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.oribo.android365.testcase.HomeManage.familydetails(HomeManage.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>23</td>
+<td>com.oribo.android365.testcase.HomeManage@4ac3c60d</td></tr>
 </table><p>
 </body>
 </html>

@@ -18,13 +18,14 @@
 <!--  	    <groups>
 
 		   	<run>
-		        <include name="我的主机"/>
+		        <include name="错误22"/>
 		    </run>
 		</groups>   -->
 
 		<classes>
+		    <class name="com.oribo.android365.testcase.HomeManage" />  
 			<class name="com.oribo.android365.testcase.Personcenter" />
-			<class name="com.oribo.android365.testcase.HomeManage" />  
+			<class name="com.oribo.android365.testcase.SignIn" />  
 		</classes>
 
 	</test> 

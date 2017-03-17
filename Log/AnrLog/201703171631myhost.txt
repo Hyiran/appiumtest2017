@@ -1,0 +1,1403 @@
+--------- beginning of main
+
+03-17 16:31:22.936 29371 29371 D HomeMate: allen[ main: HomeFragment.java:353 onRefreshRooms() ] - rooms:[Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}] selectRoomPosition:0
+
+03-17 16:31:22.942 29371 29371 D HomeMate: comm[ main: CmdManage.java:4932 getCommand() ] - getCommand()-cmd:201,len:138,crc:B2A3B661,sessionId:e7821833b9fd4625976a2563e8df5636,key:7TO3WQ0NO6OWOEap,uid:null,socketModel:SERVER,serial:493145827
+
+03-17 16:31:22.942 29371 29371 D HomeMate: requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=null}
+
+03-17 16:31:22.942 29371 29371 D HomeMate: json(before encrypt):{"userId":"f6355cca622144cd87b53297693b8920","cmd":201,"serial":493145827,"ver":"2.3.0"}(88)
+
+03-17 16:31:22.943 29371 29371 I HomeMate: comm[ main: BaseRequest.java:115 doRequestAsync() ] - registerEvent: com.orvibo.homemate.device.home.HomeRoomPresenter$1@ece64a4
+
+03-17 16:31:22.944 29371 29371 D HomeMate: comm[ main: BaseRequest.java:841 saveSerial() ] - Record serial 493145827 on com.orvibo.homemate.device.home.HomeRoomPresenter$1@ece64a4
+
+03-17 16:31:22.945 29371 29371 D HomeMate: allen[ main: HomeFragment.java:194 onStart() ] - onStart()
+
+03-17 16:31:22.948 29371 29528 D HomeMate: comm[ pool-4-thread-2: BaseRequest.java:149 run() ] - Start command:Command{
+
+03-17 16:31:22.948 29371 29528 D HomeMate: uid='server'
+
+03-17 16:31:22.948 29371 29528 D HomeMate: serial=493145827
+
+03-17 16:31:22.948 29371 29528 D HomeMate: cmd=201
+
+03-17 16:31:22.948 29371 29528 D HomeMate: crc='B2A3B661'
+
+03-17 16:31:22.948 29371 29528 D HomeMate: requestConfig=RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}}
+
+03-17 16:31:22.948 29371 29528 D HomeMate: jsonObject={"userId":"f6355cca622144cd87b53297693b8920","cmd":201,"serial":493145827,"ver":"2.3.0"}}
+
+03-17 16:31:22.948 29371 29528 D HomeMate: comm[ pool-4-thread-2: BaseRequest.java:163 run() ] - current count is 0,serial:493145827
+
+03-17 16:31:22.949 29371 29528 D HomeMate: comm[ pool-4-thread-2: MinaSocket.java:139 send() ] - target:server,position:server start request.requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}},messageLength:138
+
+03-17 16:31:22.949 29371 29528 D HomeMate: sConnectFutures:{server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@d1876ab}
+
+03-17 16:31:22.950 29371 29528 I HomeMate: comm[ pool-4-thread-2: CodecEncoder.java:44 encode() ] - encode()-编码完成,向IP:/192.168.2.242:10001写数�?(138):68,64,00,8a,64,6b,b2,a3,b6,61,65,37,38,32,31,38,33,33,62,39,66,64,34,36,32,35,39,37,36,61,32,35,36,33,65,38,64,66,35,36,33,36,0e,51,42,59,dc,0b,8d,0a,f1,42,98,33,ac,58,e5,9d,f5,28,88,93,6b,e6,11,b5,e2,f5,12,b6,d8,d7,81,be,75,ed,e9,04,61,b5,2b,28,0a,b2,06,df,1d,87,ff,1f,d2,de,eb,bd,9d,5e,3e,f7,54,56,ae,e0,83,1d,8e,bc,e6,3f,47,40,71,47,31,24,08,c7,18,d4,ee,86,17,7a,66,da,2a,ea,ad,d8,1e,50,17,60,f6,8a,23,f3,f4,3a
+
+03-17 16:31:22.953 29371 29528 D HomeMate: comm[ pool-4-thread-2: MinaSocket.java:157 send() ] - isWritten:true,ioSession:(0x00000001: nio socket, client, /192.168.80.111:35352 => /192.168.2.242:10001)
+
+03-17 16:31:22.973 29371 29530 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:586
+
+03-17 16:31:22.976 29371 29530 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,2,4a,64,6b,c8,ed,28,2,65,37,38,32,31,38,33,33,62,39,66,64,34,36,32,35,39,37,36,61,32,35,36,33,65,38,64,66,35,36,33,36,4c,b7,27,d7,c3,be,31,7a,5e,3e,f0,83,1d,fe,ca,67,4f,10,fb,44,7f,8f,6c,9f,d8,40,76,a,5,29,a6,53,13,94,96,62,f5,75,6c,8e,4e,42,6b,e3,e4,7f,df,9f,fd,c7,9d,c7,fa,1d,4e,e6,2e,32,93,bf,aa,dd,87,6c,77,a7,6e,f7,b1,cb,66,ef,36,c,e7,6b,6e,f3,e0,a3,94,37,7b,41,85,85,85,c7,d7,9d,e5,24,11,bf,7a,8b,b,4,f8,fe,4d,42,6f,6e,c5,8e,6e,40,2c,1f,3a,61,d7,a4,bf,d,6,a6,48,12,a9,86,e0,e0,3c,43,4,8,47,10,a2,bf,b3,c5,aa,10,2b,af,e7,57,6e,d3,11,77,ca,8b,1b,63,ba,69,2e,e1,7f,b8,a2,fe,dd,b6,a8,fd,a1,4b,95,4d,2d,92,e6,de,19,6d,20,1b,9,b1,59,46,f9,48,ab,da,51,41,10,60,7f,56,e9,1e,e,f3,c1,b2,b7,30,d3,14,3d,76,fc,72,1f,ae,3f,e,91,5a,8b,1a,2a,7f,d4,dd,cc,45,1a,7c,c,9,f3,b,a0,4,98,57,a6,98,9b,d6,b3,62,7e,61,5f,f,c6,cf,ed,c7,53,e3,a,a6,d7,ab,6e,86,77,67,42,42,5b,f6,be,82,ef,f3,40,f3,d0,aa,f4,8,aa,41,5c,b9,11,3e,2f,6c,b4,8d,e1,b5,a4,b9,7c,be,f,bd,a3,4e,d,6a,3,ca,df,d1,3,6f,cb,b2,44,36,de,c0,c1,8,9e,80,63,e8,fe,85,ba,74,bc,a7,e7,3c,27,bf,43,53,b2,f8,80,31,f2,f2,3c,43,61,16,90,85,2d,4a,13,c5,4,88,a0,b4,88,c8,50,ae,48,5f,e2,bb,e3,45,1c,d,94,86,3a,c4,34,89,9a,9b,9b,c1,e6,40,96,e,e9,37,d7,7a,d8,8a,df,ac,59,54,a5,6b,b7,59,ca,78,7a,a3,90,84,21,3,8f,b0,48,cb,f6,4e,45,3b,d6,de,36,26,1a,54,c3,3e,5,33,11,90,e0,8,fd,98,33,98,a0,df,d0,fc,bd,fe,c4,b9,e3,89,cd,db,ac,ca,22,67,99,f1,1c,8d,5d,98,d,ed,f0,9d,76,ad,f1,1b,57,85,d8,e1,5a,72,27,d,dd,2,54,76,df,9a,1a,49,14,d1,5f,3f,18,13,ee,5,5c,7f,f8,ea,dc,1d,e7,26,6f,b8,33,cf,cf,47,d,7a,32,dd,c9,54,81,c,64,1e,4,20,e9,8a,dc,b8,d5,a3,5,b4,c5,53,40,26,f5,40,56,78,84,10,33,9,18,95,a5,d8,91,24,a4,bc,27,1,72,31,f6,4f,20,9a,db,de,7,a1,53,d7,22,ad,f3,a3,d5,6a,d,27,79,f7,a0,12,3e,6c
+
+03-17 16:31:22.977 29371 29531 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:C8ED2802,sessionId:e7821833b9fd4625976a2563e8df5636,jsonLen:544,ip:192.168.2.242,port:10001
+
+03-17 16:31:22.977 29371 29531 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"cmd":201,"userId":"f6355cca622144cd87b53297693b8920","ver":"2.3.0","serial":493145827,"status":0,"familyList":[{"email":"15079034630@126.com","phone":"","userName":"a","isAdmin":1,"familyId":"1618cdf675954cf5bb56c6828d56e41c","familyName":"88rvt","creator":"f6355cca622144cd87b53297693b8920","showIndex":1,"createTime":"2017-03-13 14:19:21","updateTime":"2017-03-17 16:21:16","longitude":"114.004796","latotide":"22.594054","country":"cn","city":"shenzhen","state":"guangdong","timeOffset":28800,"zoneOffset":28800,"delFlag":0}]}]
+
+03-17 16:31:22.988 29480 29480 I MultiDex: VM with version 2.1.0 has multidex support
+
+03-17 16:31:22.988 29480 29480 I MultiDex: install
+
+03-17 16:31:22.988 29480 29480 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+
+03-17 16:31:22.992 29480 29480 E HomeMate: comm[ main: ViHomeApplication.java:61 onCreate() ] - Start HomeMate
+
+03-17 16:31:22.995 29480 29480 D HomeMate: comm[ main: BaseService.java:25 onCreate() ] - MoonService
+
+--------- beginning of system
+
+03-17 16:31:22.998  1534  1669 V ActivityManager: Attempted to start a foreground service (ComponentInfo{com.orvibo.homemate/com.orvibo.homemate.service.MoonService}) with a broken notification (no icon: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+
+03-17 16:31:23.007  3580  8027 D StatusBar: onNotificationPosted:  Key: 0|com.orvibo.homemate|1|null|10136 GroupKey: 0|com.orvibo.homemate|1|null|10136 Connected: true
+
+03-17 16:31:23.009  3580  3580 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: false IsGroupSummary: false hasIcon: true
+
+03-17 16:31:23.010  3580  3580 D PhoneStatusBar: addNotification pkg=com.orvibo.homemate;basepkg=com.orvibo.homemate;id=1
+
+03-17 16:31:23.013 29371 29559 D HomeMate: hank[ Thread-12490: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:10
+
+03-17 16:31:23.023  3580  3580 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@2702ec0
+
+03-17 16:31:23.023  3580  3580 W ProgressBarDelegate: Unknown Drawable subclass, src=android.graphics.drawable.ScaleDrawable@8297f9
+
+03-17 16:31:23.031 29371 29449 D UTAnalytics:AppMonitorDelegate: pid:29371 commitCount module: feedback, monitorPoint: getUnreadCountSuccess, value: 0.0,
+
+03-17 16:31:23.033 29371 29449 I UTAnalytics:EventRepo: pid:29371 COUNTER, EVENT size:1,
+
+03-17 16:31:23.039 29480 29480 D HomeMate: comm[ main: BaseService.java:25 onCreate() ] - TempService
+
+03-17 16:31:23.040  1534  1669 V ActivityManager: Attempted to start a foreground service (ComponentInfo{com.orvibo.homemate/com.orvibo.homemate.service.TempService}) with a broken notification (no icon: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+
+03-17 16:31:23.043 29480 29480 D HomeMate: comm[ main: BaseService.java:30 onStartCommand() ] - TempService
+
+03-17 16:31:23.047  3580  3645 D StatusBar: onNotificationPosted:  Key: 0|com.orvibo.homemate|1|null|10136 GroupKey: 0|com.orvibo.homemate|1|null|10136 Connected: true
+
+03-17 16:31:23.049 29480 29480 D HomeMate: comm[ main: BaseService.java:37 onDestroy() ] - TempService
+
+03-17 16:31:23.052  3580  3645 D StatusBar: onNotificationRemoved:  Key: 0|com.orvibo.homemate|1|null|10136
+
+03-17 16:31:23.063  3580  3580 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-17 16:31:23.067  3580  3580 D PhoneStatusBar: updateNotification pkg=com.orvibo.homemate;id=1
+
+03-17 16:31:23.082  3580  3580 D PhoneStatusBar: removeNotification key=android.os.Binder@455acb keyCode=4545227 old=StatusBarNotification(pkg=com.orvibo.homemate user=UserHandle{0} id=1 tag=null score=-20 key=0|com.orvibo.homemate|1|null|10136: Notification(pri=-2 contentView=com.orvibo.homemate/0x1090091 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE))
+
+03-17 16:31:23.087  3580  3697 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1295 android.content.ContextWrapper.bindService:614 com.xiaomi.mistatistic.sdk.controller.LocalEventRecorder.a:90 com.xiaomi.mistatistic.sdk.controller.LocalEventRecorder.b:70 com.xiaomi.mistatistic.sdk.controller.LocalEventRecorder.a:25 
+
+03-17 16:31:23.095  3782  3839 D PushService: 2017-03-17 16:31:23,095 - [DEBUG::PushService] - com.miui.klo.bugreportis not system app. StatService
+
+03-17 16:31:23.183 29371 29371 D HomeMate: allen[ main: HomeFragment.java:200 onResume() ] - onResume()
+
+03-17 16:31:23.196 29371 29571 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+
+03-17 16:31:23.202  3852  4239 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-17 16:31:23.209 29371 29371 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - HomePagerFragment
+
+03-17 16:31:23.215 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:115 onCreateView() ] - onCreateView()
+
+03-17 16:31:23.228 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@97643c3
+
+03-17 16:31:23.229 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@bd27440
+
+03-17 16:31:23.239 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@36f591f
+
+03-17 16:31:23.239 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8a946c
+
+03-17 16:31:23.244 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:180 onActivityCreated() ] - onActivityCreated()
+
+03-17 16:31:23.249 29371 29371 D HomeMate: comm[ main: PropertyReport.java:93 registerNewPropertyReport() ] - registerNewPropertyReport()-listener:com.orvibo.homemate.device.home.HomeDevicePresenter@6c1596e
+
+03-17 16:31:23.250 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:110 refresh() ] - Start to init devices.
+
+03-17 16:31:23.251 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:114 refresh() ] - Show devices from Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:23.270 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:116 refresh() ] - devices [Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='ffd65d82eae248a8a8bc08a2cb688a2b', updateTime=1489713208000(2017-03-17 09:13:28), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:23.278 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:121 refresh() ] - other devices []
+
+03-17 16:31:23.302 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:152 refreshDeviceStatus() ] - deviceStatusMap {82a33ce23bb24240996da16bace3ff37=Action{uid=5ccf7f0a0a75, deviceId=82a33ce23bb24240996da16bace3ff37, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 01d670036a634b41bb0d904fdc81ede9=Action{uid=007e56121206, deviceId=01d670036a634b41bb0d904fdc81ede9, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e3f6c345de6f42f8a201905166205fa5=Action{uid=007e56121206, deviceId=e3f6c345de6f42f8a201905166205fa5, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 475604fa58a740f7a96952a7d63ad329=Action{uid=007e56121206, deviceId=475604fa58a740f7a96952a7d63ad329, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2f6b2a1affbd459ba320d3f5df01f633=Action{uid=6001940af626, deviceId=2f6b2a1affbd459ba320d3f5df01f633, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=0, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 26b2f14bc5134049bde4e48a8afee3c1=Action{uid=accf236c8f2a, deviceId=26b2f14bc5134049bde4e48a8afee3c1, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , d82d270bd3f14c70ae21ae21e56c7cf5=Action{uid=5ccf7f1406da, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=-1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , b42a1cd1d7eb4f4097731e4ecbbfc439=Action{uid=007e56121206, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 9474f11354624d1cac365184eaf880b7=Action{uid=007e56121206, deviceId=9474f11354624d1cac365184eaf880b7, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 078f885f810e471694f07dbe99af5ebe=Action{uid=007e56121206, deviceId=078f885f810e471694f07dbe99af5ebe, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e8142799c91545dea2091f2eb965a00d=Action{uid=5ccf7f0a0a74, deviceId=e8142799c91545dea2091f2eb965a00d, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 8509b8e7868740c78772406c8a303853=Action{uid=007e56121206, deviceId=8509b8e7868740c78772406c8a303853, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2cc789e213e34fcc81767a6b0ac7f91a=Action{uid=5ccf7f2e4406, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} }
+
+03-17 16:31:23.311 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:223 onDeviceInit() ] - devices:[Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489558913000(2017-03-15 14:21:53), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:23.333 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:268 onDeviceInit() ] - Show devices
+
+03-17 16:31:23.334 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:129 refresh() ] - Finish to init device. cost 83ms
+
+03-17 16:31:23.335 29371 29371 D HomeMate: comm[ main: DeviceUtil.java:936 getEnergyDevices() ] - familyId:1618cdf675954cf5bb56c6828d56e41c
+
+03-17 16:31:23.339 29371 29371 I HomeMate: wei[ main: RoomCommonSceneDao.java:46 selRoomCommonScene() ] - select * from scene inner join roomcommonscene on scene.sceneNo = roomcommonscene.sceneNo where roomcommonscene.userId = ? and roomcommonscene.roomId = ? order by roomcommonscene.sceneSequence ASC
+
+03-17 16:31:23.342 29371 29371 D HomeMate: comm[ main: HomePagerFragment.java:326 setRoomImage() ] - room:Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:23.353 29371 29371 D HomeMate: comm[ main: RoomImageUtil.java:233 getRoomImagePathByName() ] - RoomImageUtil: getRoomImagePathByName(file.exists == false !)
+
+03-17 16:31:23.355 29371 29371 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+
+03-17 16:31:23.360 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:196 onStart() ] - onStart()
+
+03-17 16:31:23.362 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:202 onResume() ] - onResume()
+
+03-17 16:31:23.384  1534  4188 I Timeline: Timeline: App_transition_ready time:199307426
+
+03-17 16:31:23.389  1534  4188 I Timeline: Timeline: App_transition_ready time:199307431
+
+03-17 16:31:23.412 29371 29371 E RecyclerView: No adapter attached; skipping layout
+
+03-17 16:31:23.508 29371 29371 D HomeMate: comm[ main: QueryUnbinds.java:68 queryAllWifiDevices() ] - QueryUnbinds.queryWifiSockets
+
+03-17 16:31:23.510 29371 29371 E HomeMate: comm[ main: ViCenterService.java:307 onReceive() ] - action:viCenter_action,this:com.orvibo.homemate.service.ViCenterService$3@85f9d65,service:com.orvibo.homemate.service.ViCenterService@3c8fa3a
+
+03-17 16:31:23.512 29371 29466 D HomeMate: comm[ pool-6-thread-1: CmdManage.java:4932 getCommand() ] - getCommand()-cmd:66,len:90,crc:110D2022,sessionId:e7821833b9fd4625976a2563e8df5636,key:7TO3WQ0NO6OWOEap,uid:null,socketModel:SERVER,serial:1928223841
+
+03-17 16:31:23.512 29371 29466 D HomeMate: requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=null}
+
+03-17 16:31:23.512 29371 29466 D HomeMate: json(before encrypt):{"cmd":66,"serial":1928223841,"ver":"2.3.0"}(44)
+
+03-17 16:31:23.512 29371 29466 I HomeMate: comm[ pool-6-thread-1: BaseRequest.java:115 doRequestAsync() ] - registerEvent: com.orvibo.homemate.device.searchdevice.SearchDevice$2@632da77
+
+03-17 16:31:23.514 29371 29466 D HomeMate: comm[ pool-6-thread-1: BaseRequest.java:841 saveSerial() ] - Record serial 1928223841 on com.orvibo.homemate.device.searchdevice.SearchDevice$2@632da77
+
+03-17 16:31:23.516 29371 29371 D HomeMate: comm[ main: BaseRequest.java:391 stopRequest() ] -  Stop request com.orvibo.homemate.model.QueryUserMessageRequest@371474d
+
+03-17 16:31:23.521 29371 29371 D HomeMate: allen[ main: QueryUserMessage.java:87 queryLatestMessageCommon() ] - userId:f6355cca622144cd87b53297693b8920,sequence:3
+
+03-17 16:31:23.522 29371 29371 I HomeMate: comm[ main: QueryUserMessageRequest.java:42 queryUserMessageRequest() ] - startStatusRecordRequest():maxSequence=-1,minSequence3
+
+03-17 16:31:23.524 29371 29371 D HomeMate: comm[ main: CmdManage.java:4932 getCommand() ] - getCommand()-cmd:172,len:218,crc:267412AD,sessionId:e7821833b9fd4625976a2563e8df5636,key:7TO3WQ0NO6OWOEap,uid:null,socketModel:SERVER,serial:462978925
+
+03-17 16:31:23.524 29371 29371 D HomeMate: requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=null}
+
+03-17 16:31:23.524 29371 29371 D HomeMate: json(before encrypt):{"familyId":"1618cdf675954cf5bb56c6828d56e41c","tableName":"messageCommon","maxSequence":-1,"minSequence":3,"readCount":100,"cmd":172,"serial":462978925,"ver":"2.3.0"}(167)
+
+03-17 16:31:23.524 29371 29371 I HomeMate: comm[ main: BaseRequest.java:115 doRequestAsync() ] - registerEvent: com.orvibo.homemate.model.QueryUserMessageRequest@371474d
+
+03-17 16:31:23.525 29371 29371 D HomeMate: comm[ main: BaseRequest.java:841 saveSerial() ] - Record serial 462978925 on com.orvibo.homemate.model.QueryUserMessageRequest@371474d
+
+03-17 16:31:23.529 29371 29371 D HomeMate: comm[ main: BaseRequest.java:378 stopRequest() ] - Stop request which serial is 876491660 on com.orvibo.homemate.common.BaseActivityPresenter$1@daaf157
+
+03-17 16:31:23.538 29371 29371 D HomeMate: comm[ main: CheckHubUpgrade.java:59 onEventMainThread() ] - HubUpgradeEvent{hubUpgradeStates=[HubUpgradeState{uid='007e56121206', upgradeStatus=1}]upgradeStatus=-1} cmd=208 result=0 serial=876491660 uid=null
+
+03-17 16:31:23.538 29371 29371 D HomeMate: comm[ main: CheckHubUpgrade.java:97 onHubUpgradeStatus() ] - result:0,hubUpgradeStates:[HubUpgradeState{uid='007e56121206', upgradeStatus=1}]
+
+03-17 16:31:23.539 29371 29371 D HomeMate: comm[ main: BaseRequest.java:391 stopRequest() ] -  Stop request com.orvibo.homemate.common.BaseActivityPresenter$1@daaf157
+
+03-17 16:31:23.539 29371 29371 D HomeMate: comm[ main: BaseActivityPresenter.java:47 onHubUpgradeStatus() ] - hubUpgradeStates:[HubUpgradeState{uid='007e56121206', upgradeStatus=1}],result:0,mActivity:com.orvibo.homemate.common.main.MainActivity@fe9b395
+
+03-17 16:31:23.539 29371 29485 D HomeMate: comm[ pool-4-thread-1: BaseRequest.java:149 run() ] - Start command:Command{
+
+03-17 16:31:23.539 29371 29485 D HomeMate: uid='server'
+
+03-17 16:31:23.539 29371 29485 D HomeMate: serial=1928223841
+
+03-17 16:31:23.539 29371 29485 D HomeMate: cmd=66
+
+03-17 16:31:23.539 29371 29485 D HomeMate: crc='110D2022'
+
+03-17 16:31:23.539 29371 29485 D HomeMate: requestConfig=RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}}
+
+03-17 16:31:23.539 29371 29485 D HomeMate: jsonObject={"cmd":66,"serial":1928223841,"ver":"2.3.0"}}
+
+03-17 16:31:23.539 29371 29485 D HomeMate: comm[ pool-4-thread-1: BaseRequest.java:163 run() ] - current count is 0,serial:1928223841
+
+03-17 16:31:23.540 29371 29485 D HomeMate: comm[ pool-4-thread-1: MinaSocket.java:139 send() ] - target:server,position:server start request.requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}},messageLength:90
+
+03-17 16:31:23.540 29371 29485 D HomeMate: sConnectFutures:{server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@d1876ab}
+
+03-17 16:31:23.541 29371 29485 I HomeMate: comm[ pool-4-thread-1: CodecEncoder.java:44 encode() ] - encode()-编码完成,向IP:/192.168.2.242:10001写数�?(90):68,64,00,5a,64,6b,11,0d,20,22,65,37,38,32,31,38,33,33,62,39,66,64,34,36,32,35,39,37,36,61,32,35,36,33,65,38,64,66,35,36,33,36,00,92,78,a9,a0,b7,0b,9d,43,43,b3,03,53,e2,6a,56,aa,16,96,bb,1c,60,c8,ea,42,39,19,c7,a3,0c,3b,43,6e,58,db,67,62,14,e7,b7,c5,d2,d1,20,77,de,3f,52
+
+03-17 16:31:23.543 29371 29485 D HomeMate: comm[ pool-4-thread-1: MinaSocket.java:157 send() ] - isWritten:true,ioSession:(0x00000001: nio socket, client, /192.168.80.111:35352 => /192.168.2.242:10001)
+
+03-17 16:31:23.554 29371 29371 D HomeMate: comm[ main: MainActivity.java:341 onRefresh() ] - mainRefreshType:4
+
+03-17 16:31:23.555 29371 29371 D HomeMate: comm[ main: MainActivity.java:254 refreshCurrentFragment() ] - Current tag is �?,HomeFragment{ee85c36 #0 id=0x7f0d0296 家},mainRefreshType:4
+
+03-17 16:31:23.555 29371 29371 D HomeMate: comm[ main: HomeFragment.java:187 onRefresh() ] - HomeFragment{ee85c36 #0 id=0x7f0d0296 家}
+
+03-17 16:31:23.565 29371 29371 D HomeMate: allen[ main: HomeFragment.java:267 onRefreshFamilies() ] - families:[Family{familyId='1618cdf675954cf5bb56c6828d56e41c', pic='null', creator='f6355cca622144cd87b53297693b8920', familyName='88rvt', nickname_in_family='null', email='15079034630@126.com', phone='', showIndex=1, isAdmin=1, userid='f6355cca622144cd87b53297693b8920', userName=a, updateTimeSec=1489738876000} ] selectFamilyPosition:0
+
+03-17 16:31:23.571 29371 29371 D HomeMate: allen[ main: HomeFragment.java:353 onRefreshRooms() ] - rooms:[Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}] selectRoomPosition:0
+
+03-17 16:31:23.581 29371 29371 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - HomePagerFragment
+
+03-17 16:31:23.583 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:115 onCreateView() ] - onCreateView()
+
+03-17 16:31:23.587 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@13e58b
+
+03-17 16:31:23.587 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@ceb4668
+
+03-17 16:31:23.594 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@6868726
+
+03-17 16:31:23.597 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@1d94f67
+
+03-17 16:31:23.601 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:180 onActivityCreated() ] - onActivityCreated()
+
+03-17 16:31:23.604 29371 29371 D HomeMate: comm[ main: PropertyReport.java:93 registerNewPropertyReport() ] - registerNewPropertyReport()-listener:com.orvibo.homemate.device.home.HomeDevicePresenter@143efb2
+
+03-17 16:31:23.606 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:110 refresh() ] - Start to init devices.
+
+03-17 16:31:23.607 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:114 refresh() ] - Show devices from Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d93c0
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-17 16:31:23.621 22823 22823 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d93c0 after 0.000062 second wait
+
+03-17 16:31:23.622 22823 22823 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-17 16:31:23.622 22823 22823 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-17 16:31:23.622 22823 22823 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: nl80211: Event message available
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000165 seconds
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-17 16:31:23.626 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:23.626 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:116 refresh() ] - devices [Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='ffd65d82eae248a8a8bc08a2cb688a2b', updateTime=1489713208000(2017-03-17 09:13:28), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:23.637 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:121 refresh() ] - other devices []
+
+03-17 16:31:23.685 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:152 refreshDeviceStatus() ] - deviceStatusMap {82a33ce23bb24240996da16bace3ff37=Action{uid=5ccf7f0a0a75, deviceId=82a33ce23bb24240996da16bace3ff37, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 01d670036a634b41bb0d904fdc81ede9=Action{uid=007e56121206, deviceId=01d670036a634b41bb0d904fdc81ede9, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e3f6c345de6f42f8a201905166205fa5=Action{uid=007e56121206, deviceId=e3f6c345de6f42f8a201905166205fa5, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 475604fa58a740f7a96952a7d63ad329=Action{uid=007e56121206, deviceId=475604fa58a740f7a96952a7d63ad329, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2f6b2a1affbd459ba320d3f5df01f633=Action{uid=6001940af626, deviceId=2f6b2a1affbd459ba320d3f5df01f633, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=0, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 26b2f14bc5134049bde4e48a8afee3c1=Action{uid=accf236c8f2a, deviceId=26b2f14bc5134049bde4e48a8afee3c1, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , d82d270bd3f14c70ae21ae21e56c7cf5=Action{uid=5ccf7f1406da, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=-1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , b42a1cd1d7eb4f4097731e4ecbbfc439=Action{uid=007e56121206, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 9474f11354624d1cac365184eaf880b7=Action{uid=007e56121206, deviceId=9474f11354624d1cac365184eaf880b7, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 078f885f810e471694f07dbe99af5ebe=Action{uid=007e56121206, deviceId=078f885f810e471694f07dbe99af5ebe, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e8142799c91545dea2091f2eb965a00d=Action{uid=5ccf7f0a0a74, deviceId=e8142799c91545dea2091f2eb965a00d, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 8509b8e7868740c78772406c8a303853=Action{uid=007e56121206, deviceId=8509b8e7868740c78772406c8a303853, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2cc789e213e34fcc81767a6b0ac7f91a=Action{uid=5ccf7f2e4406, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} }
+
+03-17 16:31:23.695 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:223 onDeviceInit() ] - devices:[Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489558913000(2017-03-15 14:21:53), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:23.708 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:268 onDeviceInit() ] - Show devices
+
+03-17 16:31:23.710 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:129 refresh() ] - Finish to init device. cost 103ms
+
+03-17 16:31:23.711 29371 29371 D HomeMate: comm[ main: DeviceUtil.java:936 getEnergyDevices() ] - familyId:1618cdf675954cf5bb56c6828d56e41c
+
+03-17 16:31:23.711 29371 29371 I HomeMate: wei[ main: RoomCommonSceneDao.java:46 selRoomCommonScene() ] - select * from scene inner join roomcommonscene on scene.sceneNo = roomcommonscene.sceneNo where roomcommonscene.userId = ? and roomcommonscene.roomId = ? order by roomcommonscene.sceneSequence ASC
+
+03-17 16:31:23.714 29371 29371 D HomeMate: comm[ main: HomePagerFragment.java:326 setRoomImage() ] - room:Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:23.726 29371 29371 D HomeMate: comm[ main: RoomImageUtil.java:233 getRoomImagePathByName() ] - RoomImageUtil: getRoomImagePathByName(file.exists == false !)
+
+03-17 16:31:23.729 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:196 onStart() ] - onStart()
+
+03-17 16:31:23.730 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:202 onResume() ] - onResume()
+
+03-17 16:31:23.722  4041  4041 W Binder_C: type=1400 audit(0.0:3038801): avc: denied { ioctl } for path="socket:[6011186]" dev="sockfs" ino=6011186 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:31:23.722  4041  4041 W Binder_C: type=1400 audit(0.0:3038802): avc: denied { ioctl } for path="socket:[6011186]" dev="sockfs" ino=6011186 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:31:23.738 29800 29800 I AppiumUnicodeIME: onFinishInput
+
+03-17 16:31:23.740 29800 29800 I AppiumUnicodeIME: onStartInput
+
+03-17 16:31:23.758 29371 29371 E RecyclerView: No adapter attached; skipping layout
+
+03-17 16:31:23.765 29371 29530 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:186
+
+03-17 16:31:23.768 29371 29530 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,0,ba,64,6b,1c,5,7b,f7,65,37,38,32,31,38,33,33,62,39,66,64,34,36,32,35,39,37,36,61,32,35,36,33,65,38,64,66,35,36,33,36,a6,b5,4d,29,77,f8,b2,86,ca,45,98,2f,84,e6,21,78,b2,db,ba,8,6,b2,30,4d,6d,8c,9,3,b6,d,b4,d2,45,52,6d,6d,f1,fc,72,5,87,f4,3e,4f,1d,5d,70,72,2d,80,79,3a,0,e1,1f,44,35,2f,c1,80,79,8e,8f,c,23,36,21,58,56,d8,73,f,5a,6e,67,9e,e1,6a,f3,e7,d9,99,36,d4,4e,5a,16,63,8b,4d,f6,57,e0,1f,4d,a8,c5,14,21,d6,6a,ab,e7,7b,ca,c6,e9,d9,7e,2f,6b,ed,cc,55,a8,34,1a,46,98,87,a0,13,4f,58,d1,41,cf,8c,de,bd,46,6a,4e,56,21,5d,4a,ec,47,5d,e7,9f,d8,69
+
+03-17 16:31:23.770 29371 29531 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:1C057BF7,sessionId:e7821833b9fd4625976a2563e8df5636,jsonLen:144,ip:192.168.2.242,port:10001
+
+03-17 16:31:23.770 29371 29531 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"serial":1928223841,"deviceList":"[{\"uid\":\"007e561ee989\",\"model\":\"VIH001\",\"lastUpdateTime\":1489377649000}]","cmd":66,"status":0}]
+
+03-17 16:31:23.771 29371 29531 D HomeMate: comm[ pool-5-thread-1: ProcessPayload.java:3016 parseJson2DeviceList() ] - count = 1
+
+03-17 16:31:23.869   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:23.903 29371 29371 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:true,position:3
+
+03-17 16:31:23.905 29371 29371 D HomeMate: comm[ main: BaseRequest.java:378 stopRequest() ] - Stop request which serial is 493145827 on com.orvibo.homemate.device.home.HomeRoomPresenter$1@ece64a4
+
+03-17 16:31:23.906  1534  1904 I Timeline: Timeline: App_transition_ready time:199307947
+
+03-17 16:31:23.906  1534  1904 I Timeline: Timeline: App_transition_stopped time:199307948
+
+03-17 16:31:23.912  3580  3580 D PhoneStatusBar: disable: 0x00000100 -> 0x00000000 (diff: 0x00000100)
+
+03-17 16:31:23.912  3580  3580 D PhoneStatusBar: disable: < expand icons alerts ticker system_info back home recent clock full hide* keyguard none float >
+
+03-17 16:31:23.912  3580  3580 D PhoneStatusBar: showStatusBar isshow=true;delay=false
+
+03-17 16:31:23.916 29371 29371 D HomeMate: allen[ main: HomeFragment.java:267 onRefreshFamilies() ] - families:[Family{familyId='1618cdf675954cf5bb56c6828d56e41c', pic='null', creator='f6355cca622144cd87b53297693b8920', familyName='88rvt', nickname_in_family='null', email='15079034630@126.com', phone='', showIndex=1, isAdmin=1, userid='f6355cca622144cd87b53297693b8920', userName=a, updateTimeSec=1489738876000} ] selectFamilyPosition:0
+
+03-17 16:31:23.919  5869  5869 I octvm_power: handle event trigger full_screen_exit
+
+03-17 16:31:23.923 29371 29528 D HomeMate: comm[ pool-4-thread-2: BaseRequest.java:149 run() ] - Start command:Command{
+
+03-17 16:31:23.923 29371 29528 D HomeMate: uid='server'
+
+03-17 16:31:23.923 29371 29528 D HomeMate: serial=462978925
+
+03-17 16:31:23.923 29371 29528 D HomeMate: cmd=172
+
+03-17 16:31:23.923 29371 29528 D HomeMate: crc='267412AD'
+
+03-17 16:31:23.923 29371 29528 D HomeMate: requestConfig=RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}}
+
+03-17 16:31:23.923 29371 29528 D HomeMate: jsonObject={"familyId":"1618cdf675954cf5bb56c6828d56e41c","tableName":"messageCommon","maxSequence":-1,"minSequence":3,"readCount":100,"cmd":172,"serial":462978925,"ver":"2.3.0"}}
+
+03-17 16:31:23.923 29371 29528 D HomeMate: comm[ pool-4-thread-2: BaseRequest.java:163 run() ] - current count is 0,serial:462978925
+
+03-17 16:31:23.926  1534  1904 I ActivityManager: Displayed com.orvibo.homemate/.common.main.MainActivity: +1s592ms
+
+03-17 16:31:23.926  1534  1904 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{f9dd204 u0 com.orvibo.homemate/.common.main.MainActivity t10183} time:199307968
+
+03-17 16:31:23.930 29371 29528 D HomeMate: comm[ pool-4-thread-2: MinaSocket.java:139 send() ] - target:server,position:server start request.requestConfig:RequestConfig{state=2, type=0, target=1, requestConf=RequestConf{totalCount=2, intervalTime=3500}},messageLength:218
+
+03-17 16:31:23.930 29371 29528 D HomeMate: sConnectFutures:{server=org.apache.mina.core.polling.AbstractPollingIoConnector$ConnectionRequest@d1876ab}
+
+03-17 16:31:23.935 29371 29528 I HomeMate: comm[ pool-4-thread-2: CodecEncoder.java:44 encode() ] - encode()-编码完成,向IP:/192.168.2.242:10001写数�?(218):68,64,00,da,64,6b,26,74,12,ad,65,37,38,32,31,38,33,33,62,39,66,64,34,36,32,35,39,37,36,61,32,35,36,33,65,38,64,66,35,36,33,36,02,0e,ff,f5,2a,55,0e,0e,a0,b1,43,2a,36,16,e9,e4,5f,64,be,f8,b4,ad,a0,49,07,01,d6,8c,b8,4f,fe,10,af,04,6b,97,6f,73,9a,f8,ee,97,bc,9a,76,30,86,fb,83,13,23,f9,02,4b,74,29,fa,14,72,e8,d8,b9,17,d3,da,f2,66,bf,47,01,48,ad,f2,01,af,b6,75,60,4a,d1,d9,90,47,59,8b,d4,6c,2e,09,bc,b3,d3,c7,22,97,04,c9,78,c0,bc,44,87,65,5c,f7,13,56,72,12,fd,ca,71,7b,db,7a,7e,e6,72,0d,f6,b7,5b,1c,3f,77,96,0d,41,37,41,6d,12,7e,24,c2,c2,ba,d8,5e,08,2a,8a,69,22,65,cf,cc,f7,2c,03,d9,79,3a,f2,9b,50,fb,58,a9,8a,c2,ec,91,9e,37,af,c9,7b,48,ec,03,61,f2,1b,41,4c
+
+03-17 16:31:23.940 29371 29528 D HomeMate: comm[ pool-4-thread-2: MinaSocket.java:157 send() ] - isWritten:true,ioSession:(0x00000001: nio socket, client, /192.168.80.111:35352 => /192.168.2.242:10001)
+
+03-17 16:31:23.944  3580  3580 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-17 16:31:23.956 29371 29371 D HomeMate: allen[ main: HomeFragment.java:353 onRefreshRooms() ] - rooms:[Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}] selectRoomPosition:0
+
+03-17 16:31:23.961 29371 29371 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - HomePagerFragment
+
+03-17 16:31:23.962 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:115 onCreateView() ] - onCreateView()
+
+03-17 16:31:23.965 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@258ae15
+
+03-17 16:31:23.968 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@e0ab52a
+
+03-17 16:31:23.973 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@fcfa8b8
+
+03-17 16:31:23.974 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@7231691
+
+03-17 16:31:23.975 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:180 onActivityCreated() ] - onActivityCreated()
+
+03-17 16:31:23.977 29371 29371 D HomeMate: comm[ main: PropertyReport.java:93 registerNewPropertyReport() ] - registerNewPropertyReport()-listener:com.orvibo.homemate.device.home.HomeDevicePresenter@c329864
+
+03-17 16:31:23.977 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:110 refresh() ] - Start to init devices.
+
+03-17 16:31:23.978 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:114 refresh() ] - Show devices from Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:23.992 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:116 refresh() ] - devices [Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='ffd65d82eae248a8a8bc08a2cb688a2b', updateTime=1489713208000(2017-03-17 09:13:28), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:23.995 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:121 refresh() ] - other devices []
+
+03-17 16:31:24.013 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:152 refreshDeviceStatus() ] - deviceStatusMap {82a33ce23bb24240996da16bace3ff37=Action{uid=5ccf7f0a0a75, deviceId=82a33ce23bb24240996da16bace3ff37, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 01d670036a634b41bb0d904fdc81ede9=Action{uid=007e56121206, deviceId=01d670036a634b41bb0d904fdc81ede9, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e3f6c345de6f42f8a201905166205fa5=Action{uid=007e56121206, deviceId=e3f6c345de6f42f8a201905166205fa5, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 475604fa58a740f7a96952a7d63ad329=Action{uid=007e56121206, deviceId=475604fa58a740f7a96952a7d63ad329, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2f6b2a1affbd459ba320d3f5df01f633=Action{uid=6001940af626, deviceId=2f6b2a1affbd459ba320d3f5df01f633, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=0, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 26b2f14bc5134049bde4e48a8afee3c1=Action{uid=accf236c8f2a, deviceId=26b2f14bc5134049bde4e48a8afee3c1, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , d82d270bd3f14c70ae21ae21e56c7cf5=Action{uid=5ccf7f1406da, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=-1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , b42a1cd1d7eb4f4097731e4ecbbfc439=Action{uid=007e56121206, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 9474f11354624d1cac365184eaf880b7=Action{uid=007e56121206, deviceId=9474f11354624d1cac365184eaf880b7, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 078f885f810e471694f07dbe99af5ebe=Action{uid=007e56121206, deviceId=078f885f810e471694f07dbe99af5ebe, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e8142799c91545dea2091f2eb965a00d=Action{uid=5ccf7f0a0a74, deviceId=e8142799c91545dea2091f2eb965a00d, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 8509b8e7868740c78772406c8a303853=Action{uid=007e56121206, deviceId=8509b8e7868740c78772406c8a303853, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2cc789e213e34fcc81767a6b0ac7f91a=Action{uid=5ccf7f2e4406, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} }
+
+03-17 16:31:24.023 29371 29530 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:122
+
+03-17 16:31:24.024 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:223 onDeviceInit() ] - devices:[Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489558913000(2017-03-15 14:21:53), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:24.029 29371 29530 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,0,7a,64,6b,2f,3b,f6,59,65,37,38,32,31,38,33,33,62,39,66,64,34,36,32,35,39,37,36,61,32,35,36,33,65,38,64,66,35,36,33,36,10,62,bf,8,34,f7,18,e3,1,52,87,f0,51,11,a1,a8,ca,45,5d,d4,63,69,6,d7,d1,ab,f3,22,54,1a,1e,ca,f6,b6,16,c8,ce,9c,e3,8b,45,f2,4c,a6,bc,e5,ce,13,f6,c2,e8,8c,3b,9d,45,b5,a7,8c,38,d9,fe,9c,32,3c,23,cd,0,1f,83,90,e5,52,60,f,71,eb,26,f3,4d,8b
+
+03-17 16:31:24.029 29371 29531 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:2F3BF659,sessionId:e7821833b9fd4625976a2563e8df5636,jsonLen:80,ip:192.168.2.242,port:10001
+
+03-17 16:31:24.030 29371 29531 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"cmd":172,"status":0,"tableName":"messageCommon","data":[],"serial":462978925}]
+
+03-17 16:31:24.038 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:268 onDeviceInit() ] - Show devices
+
+03-17 16:31:24.039 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:129 refresh() ] - Finish to init device. cost 60ms
+
+03-17 16:31:24.039 29371 29371 D HomeMate: comm[ main: DeviceUtil.java:936 getEnergyDevices() ] - familyId:1618cdf675954cf5bb56c6828d56e41c
+
+03-17 16:31:24.043 29371 29371 I HomeMate: wei[ main: RoomCommonSceneDao.java:46 selRoomCommonScene() ] - select * from scene inner join roomcommonscene on scene.sceneNo = roomcommonscene.sceneNo where roomcommonscene.userId = ? and roomcommonscene.roomId = ? order by roomcommonscene.sceneSequence ASC
+
+03-17 16:31:24.044 29371 29371 D HomeMate: comm[ main: HomePagerFragment.java:326 setRoomImage() ] - room:Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:24.059 29371 29371 D HomeMate: comm[ main: RoomImageUtil.java:233 getRoomImagePathByName() ] - RoomImageUtil: getRoomImagePathByName(file.exists == false !)
+
+03-17 16:31:24.059 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:196 onStart() ] - onStart()
+
+03-17 16:31:24.062 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:202 onResume() ] - onResume()
+
+03-17 16:31:24.139 29371 29371 E RecyclerView: No adapter attached; skipping layout
+
+03-17 16:31:24.259 29371 29371 D HomeMate: comm[ main: QueryUnbinds.java:97 onEventMainThread() ] - QueryUnbinds.onEventMainThread event.getDeviceUnbindList() = [DeviceQueryUnbind{uid='007e561ee989', localIp='null', localPort=0, model='VIH001', isAdded=false}]
+
+03-17 16:31:24.260 29371 29371 D HomeMate: comm[ main: QueryUnbinds.java:98 onEventMainThread() ] - QueryUnbinds onEventMainThread configAp:false
+
+03-17 16:31:24.262 29371 29371 D HomeMate: comm[ main: BaseRequest.java:391 stopRequest() ] -  Stop request com.orvibo.homemate.device.searchdevice.SearchDevice$2@632da77
+
+03-17 16:31:24.264 29371 29371 E HomeMate: comm[ main: ProductManage.java:640 getWifiFlagByModel() ] - getWifiFlagByModel()-Could not get wifiFlag by null
+
+03-17 16:31:24.297 29371 29371 D HomeMate: comm[ main: BaseRequest.java:378 stopRequest() ] - Stop request which serial is 462978925 on com.orvibo.homemate.model.QueryUserMessageRequest@371474d
+
+03-17 16:31:24.300 29371 29371 D HomeMate: comm[ main: QueryUserMessage.java:112 onResultReturn() ] - cmd=172 result=0 serial=462978925 uid=null
+
+03-17 16:31:24.304 29371 29371 D HomeMate: comm[ main: BaseActivity.java:480 onEventMainThread() ] - onEventMainThread()-event:ViewEvent{loadDataType=7, uid='null', result=0}
+
+03-17 16:31:24.304 29371 29371 D HomeMate: comm[ main: MainActivity.java:223 onRefresh() ] - ViewEvent{loadDataType=7, uid='null', result=0}
+
+03-17 16:31:24.305 29371 29371 D HomeMate: comm[ main: MainActivity.java:254 refreshCurrentFragment() ] - Current tag is �?,HomeFragment{ee85c36 #0 id=0x7f0d0296 家},mainRefreshType:5
+
+03-17 16:31:24.307 29371 29371 D HomeMate: comm[ main: HomeFragment.java:187 onRefresh() ] - HomeFragment{ee85c36 #0 id=0x7f0d0296 家}
+
+03-17 16:31:24.321 29371 29371 D HomeMate: allen[ main: HomeFragment.java:267 onRefreshFamilies() ] - families:[Family{familyId='1618cdf675954cf5bb56c6828d56e41c', pic='null', creator='f6355cca622144cd87b53297693b8920', familyName='88rvt', nickname_in_family='null', email='15079034630@126.com', phone='', showIndex=1, isAdmin=1, userid='f6355cca622144cd87b53297693b8920', userName=a, updateTimeSec=1489738876000} ] selectFamilyPosition:0
+
+03-17 16:31:24.331 29371 29371 D HomeMate: allen[ main: HomeFragment.java:353 onRefreshRooms() ] - rooms:[Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}] selectRoomPosition:0
+
+03-17 16:31:24.337 29371 29371 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - HomePagerFragment
+
+03-17 16:31:24.339 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:115 onCreateView() ] - onCreateView()
+
+03-17 16:31:24.344 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@b4f3087
+
+03-17 16:31:24.345 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@eafbb4
+
+03-17 16:31:24.350 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@f8f9b52
+
+03-17 16:31:24.350 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@4e44e23
+
+03-17 16:31:24.354 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:180 onActivityCreated() ] - onActivityCreated()
+
+03-17 16:31:24.355 29371 29371 D HomeMate: comm[ main: PropertyReport.java:93 registerNewPropertyReport() ] - registerNewPropertyReport()-listener:com.orvibo.homemate.device.home.HomeDevicePresenter@ce81a9e
+
+03-17 16:31:24.359 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:110 refresh() ] - Start to init devices.
+
+03-17 16:31:24.360 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:114 refresh() ] - Show devices from Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:24.376 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:116 refresh() ] - devices [Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='ffd65d82eae248a8a8bc08a2cb688a2b', updateTime=1489713208000(2017-03-17 09:13:28), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:24.378  1534 22822 D WifiHAL : Read rolling over to the start of ring buffer
+
+03-17 16:31:24.383 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:121 refresh() ] - other devices []
+
+03-17 16:31:24.406 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:152 refreshDeviceStatus() ] - deviceStatusMap {82a33ce23bb24240996da16bace3ff37=Action{uid=5ccf7f0a0a75, deviceId=82a33ce23bb24240996da16bace3ff37, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 01d670036a634b41bb0d904fdc81ede9=Action{uid=007e56121206, deviceId=01d670036a634b41bb0d904fdc81ede9, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e3f6c345de6f42f8a201905166205fa5=Action{uid=007e56121206, deviceId=e3f6c345de6f42f8a201905166205fa5, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 475604fa58a740f7a96952a7d63ad329=Action{uid=007e56121206, deviceId=475604fa58a740f7a96952a7d63ad329, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2f6b2a1affbd459ba320d3f5df01f633=Action{uid=6001940af626, deviceId=2f6b2a1affbd459ba320d3f5df01f633, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=0, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 26b2f14bc5134049bde4e48a8afee3c1=Action{uid=accf236c8f2a, deviceId=26b2f14bc5134049bde4e48a8afee3c1, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , d82d270bd3f14c70ae21ae21e56c7cf5=Action{uid=5ccf7f1406da, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, command='null', value1=1, value2=-1, value3=-1, value4=-1, alarmType=-1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , b42a1cd1d7eb4f4097731e4ecbbfc439=Action{uid=007e56121206, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 9474f11354624d1cac365184eaf880b7=Action{uid=007e56121206, deviceId=9474f11354624d1cac365184eaf880b7, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 078f885f810e471694f07dbe99af5ebe=Action{uid=007e56121206, deviceId=078f885f810e471694f07dbe99af5ebe, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , e8142799c91545dea2091f2eb965a00d=Action{uid=5ccf7f0a0a74, deviceId=e8142799c91545dea2091f2eb965a00d, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 8509b8e7868740c78772406c8a303853=Action{uid=007e56121206, deviceId=8509b8e7868740c78772406c8a303853, command='null', value1=1, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} , 2cc789e213e34fcc81767a6b0ac7f91a=Action{uid=5ccf7f2e4406, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, command='null', value1=0, value2=0, value3=0, value4=0, alarmType=1, delayTime=0, keyName='null', freq=0, name=, pluseNum=0, pluseData=null} }
+
+03-17 16:31:24.415 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:223 onDeviceInit() ] - devices:[Device{uid=6001940af626, deviceName=智能CO监测�?, deviceId=2f6b2a1affbd459ba320d3f5df01f633, appDeviceId=65533, deviceType=66, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='33abb25852a6470d81143696b4ed9294', updateTime=1489653747000(2017-03-16 16:42:27), userName=null} , Device{uid=007e56121206, deviceName=Light7, deviceId=b42a1cd1d7eb4f4097731e4ecbbfc439, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=3, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light6, deviceId=01d670036a634b41bb0d904fdc81ede9, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B00052C3890', endpoint=1, irDeviceId=, sequence=0, model='6411fed5adb34974a3197adfde87cccd', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light5, deviceId=e3f6c345de6f42f8a201905166205fa5, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=3, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light4, deviceId=078f885f810e471694f07dbe99af5ebe, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=2, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light3, deviceId=9474f11354624d1cac365184eaf880b7, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0007515F68', endpoint=1, irDeviceId=, sequence=0, model='9008dd77c22942b09d7ed17973a05848', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light2, deviceId=475604fa58a740f7a96952a7d63ad329, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=3, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=007e56121206, deviceName=Light1, deviceId=8509b8e7868740c78772406c8a303853, appDeviceId=0, deviceType=1, roomId=, company='', delFlag=0, extAddr='00124B0005A7DBE3', endpoint=1, irDeviceId=, sequence=0, model='b7283ee184274789b9c935ae421e626c', updateTime=1489657026000(2017-03-16 17:37:06), userName=null} , Device{uid=5ccf7f0a0a74, deviceName=COCO智能插线�?, deviceId=e8142799c91545dea2091f2eb965a00d, appDeviceId=65533, deviceType=43, roomId=0, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489735903000(2017-03-17 15:31:43), userName=null} , Device{uid=5ccf7f0a0a75, deviceName=COCO智能插线�?, deviceId=82a33ce23bb24240996da16bace3ff37, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=0, sequence=0, model='2a9131f335684966a86c54ca784520d7', updateTime=1489558913000(2017-03-15 14:21:53), userName=null} , Device{uid=accf236c8f2a, deviceName=COCO智能插线�?, deviceId=26b2f14bc5134049bde4e48a8afee3c1, appDeviceId=65533, deviceType=43, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='E10109', updateTime=1489389350000(2017-03-13 15:15:50), userName=null} , Device{uid=5ccf7f2e4406, deviceName=智能插座, deviceId=2cc789e213e34fcc81767a6b0ac7f91a, appDeviceId=65533, deviceType=29, roomId=, company='', delFlag=0, extAddr='', endpoint=-1, irDeviceId=null, sequence=0, model='f8b11bed724647e98bd07a66dca6d5b6', updateTime=1489656423000(2017-03-16 17:27:03), userName=null} , Device{uid=5ccf7f1406da, deviceName=小方智能遥控�?, deviceId=d82d270bd3f14c70ae21ae21e56c7cf5, appDeviceId=65533, deviceType=30, roomId=, company='', delFlag=0, extAdd
+
+03-17 16:31:24.430 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:268 onDeviceInit() ] - Show devices
+
+03-17 16:31:24.431 29371 29371 D HomeMate: allen[ main: HomeDevicePresenter.java:129 refresh() ] - Finish to init device. cost 71ms
+
+03-17 16:31:24.433 29371 29371 D HomeMate: comm[ main: DeviceUtil.java:936 getEnergyDevices() ] - familyId:1618cdf675954cf5bb56c6828d56e41c
+
+03-17 16:31:24.434 29371 29371 I HomeMate: wei[ main: RoomCommonSceneDao.java:46 selRoomCommonScene() ] - select * from scene inner join roomcommonscene on scene.sceneNo = roomcommonscene.sceneNo where roomcommonscene.userId = ? and roomcommonscene.roomId = ? order by roomcommonscene.sceneSequence ASC
+
+03-17 16:31:24.436 29371 29371 D HomeMate: comm[ main: HomePagerFragment.java:326 setRoomImage() ] - room:Room{roomId='1618cdf675954cf5bb56c6828d56e41c', roomName='默认房间', floorId='e5fd31cdecc84fc398942121b02aaee3', roomType=0, sequence=0, isDefaultRoom=false, imgUrl='/storage/emulated/0/HomeMate/room/0_thumb'} BaseBo{delFlag=0, updateTime='0', createTime='0', updateTimeSec=0, uid='null', userName='null'}
+
+03-17 16:31:24.450 29371 29371 D HomeMate: comm[ main: RoomImageUtil.java:233 getRoomImagePathByName() ] - RoomImageUtil: getRoomImagePathByName(file.exists == false !)
+
+03-17 16:31:24.451 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:196 onStart() ] - onStart()
+
+03-17 16:31:24.454 29371 29371 D HomeMate: allen[ main: HomePagerFragment.java:202 onResume() ] - onResume()
+
+03-17 16:31:24.460 29371 29371 E RecyclerView: No adapter attached; skipping layout
+
+03-17 16:31:24.512 29307 29307 W QueryController: AccessibilityNodeInfo returned a null child (0 of 1)
+
+03-17 16:31:24.512 29307 29307 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@80028fa0; boundsInParent: Rect(0, 0 - 529, 471); boundsInScreen: Rect(11, 902 - 540, 1373); packageName: com.orvibo.homemate; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: 66; viewIdResName: com.orvibo.homemate:id/home_device_item; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]
+
+03-17 16:31:24.519 29371 29371 D HomeMate: comm[ main: LocationCity.java:163 onLocationChanged() ] - onLocationChanged(amap)-location:latitude=22.593944longitude=114.004858province=广东�?#city=深圳�?#district=南山�?#cityCode=0755#adCode=440305#address=广东省深圳市南山区塘朗东路靠近南山智�?#country=中国#road=塘朗东路#poiName=南山智园#street=学苑大道#streetNum=1001�?#errorCode=0#errorInfo=success#locationDetail=-1#locationType=4
+
+03-17 16:31:24.528 29307 29307 W QueryController: AccessibilityNodeInfo returned a null child (0 of 1)
+
+03-17 16:31:24.528 29307 29307 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@80029ae3; boundsInParent: Rect(0, 0 - 529, 471); boundsInScreen: Rect(540, 1373 - 1069, 1844); packageName: com.orvibo.homemate; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: 1; viewIdResName: com.orvibo.homemate:id/home_device_item; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]
+
+03-17 16:31:24.535  3962  4066 D WtProcessController: onAMDestroyActivity callback
+
+03-17 16:31:24.542 29371 29371 D HomeMate: comm[ main: LaunchActivity.java:384 onDestroy() ] - 
+
+03-17 16:31:24.568  4373 29604 D ANLP    : rgeo susscess[c]
+
+03-17 16:31:24.570 29307 29307 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80022e06; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:24.571 29307 29327 W art     : Long monitor contention event with owner method=android.view.accessibility.AccessibilityNodeInfo com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(com.android.uiautomator.core.UiSelector, boolean) from QueryController.java:149 waiters=1 for 830ms
+
+03-17 16:31:24.574 29371 29603 I HomeMate: comm[ Thread-12506: LocationCity.java:302 run() ] - processPosition()-addresses:[Address[addressLines=[0:"NO. No.77 Changlingpi Road, Nanshan, Shenzhen, Guangdong"],feature=NO. No.77 Changlingpi Road,admin=Guangdong,sub-admin=null,locality=Shenzhen,thoroughfare=Changlingpi Road,postalCode=null,countryCode=CN,countryName=China,hasLatitude=true,latitude=22.594195,hasLongitude=true,longitude=114.005009,phone=null,url=null,extras=null]]
+
+03-17 16:31:24.574 29371 29603 D HomeMate: comm[ Thread-12506: LocationCity.java:454 callback() ] - callback()- isCallbacked = [false], + country = [cn], state = [guangdong], city = [shenzhen]
+
+03-17 16:31:24.575 29371 29603 D HomeMate: comm[ Thread-12506: LocationCity.java:420 setCallback() ] - setCallback()- isCallbacked = [true]
+
+03-17 16:31:24.575 29371 29603 D HomeMate: comm[ Thread-12506: LocationService.java:38 onLocation() ] - onLocation()-country:cn,state:guangdong,city:shenzhen,result:0
+
+03-17 16:31:24.576 29371 29371 D HomeMate: comm[ main: LocationPresenter.java:93 onEventMainThread() ] - LocationResultEvent{country='cn', state='guangdong', city='shenzhen', latitude=22.593944, longitude=114.004858, result=0}
+
+03-17 16:31:24.584 29371 29371 D HomeMate: comm[ main: DateUtil.java:245 getTimeOffset() ] - timeOffset = 28800000
+
+03-17 16:31:24.584 29371 29371 D HomeMate: comm[ main: DateUtil.java:265 getZoneOffset() ] - getTimeOffset() - zoneOffset = 28800000
+
+03-17 16:31:24.585 29371 29371 D HomeMate: comm[ main: UploadLocation.java:47 startUploadLoaction() ] - startUploadLoaction() - longitude=114.004858 latotide=22.593944 country=cn city=shenzhen state=guangdong timeOffset=28800 zoneOffset=28800
+
+03-17 16:31:24.617 29371 29371 D HomeMate: comm[ main: LocationPresenter.java:138 onUploadLoactionResult() ] - errorCode:0,errorMessage:
+
+03-17 16:31:24.674 29307 29307 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80022e06; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:24.680 29307 29307 D InteractionController: clickAndSync(945, 1887)
+
+03-17 16:31:24.745   370   467 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-17 16:31:24.745   370   493 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-17 16:31:24.745   370   493 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 2 at 55.0 degC
+
+03-17 16:31:24.746   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 1728000
+
+03-17 16:31:24.746   370   493 I ThermalEngine: Mitigation:CPU[0]:1728000 Khz
+
+03-17 16:31:24.746   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 1728000
+
+03-17 16:31:24.746   370   493 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 1728000
+
+03-17 16:31:24.746   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 1728000
+
+03-17 16:31:24.746   370   493 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 1728000
+
+03-17 16:31:24.746   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 1728000
+
+03-17 16:31:24.747   370   493 I ThermalEngine: Mitigation:CPU[3]:1728000 Khz
+
+03-17 16:31:24.789 29371 29371 D HomeMate: comm[ main: MainActivity.java:115 onClick() ] - android.widget.RelativeLayout{a5af23 VFE...C.. ...P.... 810,0-1080,154 #7f0d0778 app:id/tab_rl}
+
+03-17 16:31:24.806 29371 29371 D HomeMate: comm[ main: MainActivity.java:131 onTabChanged() ] - tabId:我的
+
+03-17 16:31:24.810 29371 29607 D FeedbackAPI: sign before:appkey=23256401&deviceId=WJfwe+sntC4DAAdSBLpxQDCW
+
+03-17 16:31:24.815 29371 29607 D FeedbackAPI : sign after:e469344ba86f5f3f88c8fd188558071e8ce8dba2
+
+03-17 16:31:24.838 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:24.840 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:24.845 29371 29371 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - PersonalFragment
+
+03-17 16:31:24.846 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:97 onCreateView() ] - onCreateView()
+
+03-17 16:31:24.849 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@91b771f
+
+03-17 16:31:24.849 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@ff75a6c
+
+03-17 16:31:24.870   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:24.920 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:203 refresh() ] - refresh()-appUserName:15079034630@126.com,userId:f6355cca622144cd87b53297693b8920
+
+03-17 16:31:24.922 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:205 refresh() ] - refresh(0)-account:Account{userId='f6355cca622144cd87b53297693b8920', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=-1, idc=999999, country='�?域网', state='null', city=''} BaseBo{delFlag=0, updateTime='1489724203000', createTime='1489385961000', updateTimeSec=0, uid='null', userName='a'}
+
+03-17 16:31:24.935 29371 29371 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=e7821833b9fd4625976a2563e8df5636&userName=15079034630@126.com
+
+03-17 16:31:24.947 29371 29371 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"b1b8bcf57adb4941acfdf5b60295eadd","url":null}
+
+03-17 16:31:24.951 29371 29371 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-17 16:31:24.960 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:144 setHubView() ] - hub uid :[007e56121206]
+
+03-17 16:31:24.961 29371 29371 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-17 16:31:25.016 29371 29371 D HomeMate: comm[ main: MainActivity.java:341 onRefresh() ] - mainRefreshType:1
+
+03-17 16:31:25.018 29371 29371 D HomeMate: comm[ main: MainActivity.java:254 refreshCurrentFragment() ] - Current tag is 我的,PersonalFragment{ca42088 #2 id=0x7f0d0296 我的},mainRefreshType:1
+
+03-17 16:31:25.019 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:203 refresh() ] - refresh()-appUserName:15079034630@126.com,userId:f6355cca622144cd87b53297693b8920
+
+03-17 16:31:25.020 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:205 refresh() ] - refresh(0)-account:Account{userId='f6355cca622144cd87b53297693b8920', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=-1, idc=999999, country='�?域网', state='null', city=''} BaseBo{delFlag=0, updateTime='1489724203000', createTime='1489385961000', updateTimeSec=0, uid='null', userName='a'}
+
+03-17 16:31:25.028 29371 29371 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=e7821833b9fd4625976a2563e8df5636&userName=15079034630@126.com
+
+03-17 16:31:25.032 29371 29371 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"b1b8bcf57adb4941acfdf5b60295eadd","url":null}
+
+03-17 16:31:25.034  3852  4239 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-17 16:31:25.036 29371 29371 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-17 16:31:25.045 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:144 setHubView() ] - hub uid :[007e56121206]
+
+03-17 16:31:25.047 29371 29371 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-17 16:31:25.057 29371 29456 D UTAnalytics:LogStoreMgr: pid:29371 [store],
+
+03-17 16:31:25.059 29371 29607 D HomeMate: hank[ Thread-12508: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:10
+
+03-17 16:31:25.063 29371 29449 D UTAnalytics:AppMonitorDelegate: pid:29371 commitCount module: feedback, monitorPoint: getUnreadCountSuccess, value: 0.0,
+
+03-17 16:31:25.063 29371 29371 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:true,position:3
+
+03-17 16:31:25.064 29371 29449 I UTAnalytics:EventRepo: pid:29371 COUNTER, EVENT size:2,
+
+03-17 16:31:25.087 29371 29456 D UTAnalytics:UTSqliteLogStore: pid:29371 [insert] ,, isSuccess:true,ret,2246,
+
+03-17 16:31:25.089 29371 29456 D UTAnalytics:UTSqliteLogStore: pid:29371 [insert] ,, isSuccess:true,ret,2247,
+
+03-17 16:31:25.091 29371 29371 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-17 16:31:25.094 29371 29371 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170317/d46e5d1714864ae3ab11014b37c121ac.png","errorCode":0}
+
+03-17 16:31:25.097 29371 29371 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-17 16:31:25.097 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:396 onGetAccountIconResult() ] - 
+
+03-17 16:31:25.097 29371 29371 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-17 16:31:25.097 29371 29371 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170317/d46e5d1714864ae3ab11014b37c121ac.png","errorCode":0}
+
+03-17 16:31:25.100 29371 29371 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-17 16:31:25.100 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:396 onGetAccountIconResult() ] - 
+
+03-17 16:31:25.125  1534  4022 D SystemSettings: Want to modify SystemSettings? See MiuiSettings.System.PUBLIC_SETTINGS
+
+03-17 16:31:25.125  1534  4022 W SettingsProvider: You shouldn't keep your settings in the secure settings. This will soon become an error.
+
+03-17 16:31:25.235 29371 29454 D UTAnalytics:LogStoreMgr: pid:29371 [store],
+
+03-17 16:31:25.245 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 20,
+
+03-17 16:31:25.247 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,0,count,11,
+
+03-17 16:31:25.247 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,1,count,11,
+
+03-17 16:31:25.247 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,2,count,11,
+
+03-17 16:31:25.247 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,3,count,11,
+
+03-17 16:31:25.247 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,4,count,11,
+
+03-17 16:31:25.248 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,5,count,11,
+
+03-17 16:31:25.248 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,6,count,11,
+
+03-17 16:31:25.249 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,7,count,11,
+
+03-17 16:31:25.249 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,8,count,11,
+
+03-17 16:31:25.249 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,9,count,11,
+
+03-17 16:31:25.249 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 pos,10,count,11,
+
+03-17 16:31:25.254 29371 29454 D UTAnalytics:LogStoreMgr: pid:29371 [get],[Log [id=2237, eventId=19999, index=], Log [id=2238, eventId=19999, index=], Log [id=2239, eventId=2001, index=], Log [id=2240, eventId=19999, index=], Log [id=2241, eventId=2001, index=], Log [id=2242, eventId=2001, index=], Log [id=2243, eventId=2001, index=], Log [id=2244, eventId=2001, index=], Log [id=2245, eventId=19999, index=], Log [id=2246, eventId=19999, index=], Log [id=2247, eventId=2001, index=]],
+
+03-17 16:31:25.260 29371 29454 D UTAnalytics:UploadTask: pid:29371 averagePackageSize:55.272728,
+
+03-17 16:31:25.449 29371 29454 W System.err: java.lang.reflect.InvocationTargetException
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at com.alibaba.mtl.log.sign.SecurityRequestAuth.getSign(SecurityRequestAuth.java:135)
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:204)
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at com.alibaba.mtl.log.e.t.a(UrlWrapper.java:58)
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at com.alibaba.mtl.log.d.b.M(UploadTask.java:136)
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at com.alibaba.mtl.log.d.b.run(UploadTask.java:52)
+
+03-17 16:31:25.450 29371 29454 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-17 16:31:25.451 29371 29454 W System.err: Caused by: com.alibaba.wireless.security.open.SecException: 
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at com.taobao.wireless.security.adapter.JNICLibrary.doCommandNative(Native Method)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at com.alibaba.wireless.security.mainplugin.a.doCommandNative(Unknown Source)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at com.taobao.wireless.security.adapter.b.b.b(Unknown Source)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at com.taobao.wireless.security.adapter.b.b.a(Unknown Source)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	at com.alibaba.wireless.security.a.h.a.signRequest(Unknown Source)
+
+03-17 16:31:25.451 29371 29454 W System.err: 	... 11 more
+
+03-17 16:31:25.753 29371 29454 D UTAnalytics:UploadTask: pid:29371 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.201&c=null&v=3.0&s=&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1489739485277&u=&is=1&k=0,
+
+03-17 16:31:25.753 29371 29454 D UTAnalytics:UploadTask: pid:29371 result:{"t":1489739485201,"ret":"","success":"success"}
+
+03-17 16:31:25.753 29371 29454 D UTAnalytics:UploadTask: ,
+
+03-17 16:31:25.755 29371 29454 D UTAnalytics:UploadTask: pid:29371 winsize:350,
+
+03-17 16:31:25.755 29371 29454 D UTAnalytics:LogStoreMgr: pid:29371 [Log [id=2237, eventId=19999, index=], Log [id=2238, eventId=19999, index=], Log [id=2239, eventId=2001, index=], Log [id=2240, eventId=19999, index=], Log [id=2241, eventId=2001, index=], Log [id=2242, eventId=2001, index=], Log [id=2243, eventId=2001, index=], Log [id=2244, eventId=2001, index=], Log [id=2245, eventId=19999, index=], Log [id=2246, eventId=19999, index=], Log [id=2247, eventId=2001, index=]],
+
+03-17 16:31:25.786 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 delete ,11, isSuccess:true,
+
+03-17 16:31:25.788 29371 29454 D UTAnalytics:CoreStatics: pid:29371 [uploadInc]:0,count:11,
+
+03-17 16:31:25.788 29371 29454 D UTAnalytics:CoreStatics: pid:29371 [uploadInc]:11,
+
+03-17 16:31:25.788 29371 29454 D UTAnalytics:UploadTask: pid:29371 logs.size():11, selfMonitorLogCount:0,
+
+03-17 16:31:25.793 29371 29454 D UTAnalytics:UploadTask: pid:29371 upload isSendSuccess:true, consume:494, delete consume:35,
+
+03-17 16:31:25.871   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:25.879 29307 29307 I QueryController: Matched selector: UiSelector[TEXT=我的主机] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80053e97; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 1094 - 352, 1153); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的主机; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:25.892 29371 29454 D UTAnalytics:LogStoreMgr: pid:29371 [store],
+
+03-17 16:31:25.901 29371 29454 D UTAnalytics:UTSqliteLogStore: pid:29371 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 350,
+
+03-17 16:31:25.905 29371 29454 D UTAnalytics:LogStoreMgr: pid:29371 [get],[],
+
+03-17 16:31:25.907 29371 29454 D UTAnalytics:UploadEngine: pid:29371 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: nl80211: Event message available
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: wlan0: Scan completed in 2.283201 seconds
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: nl80211: Associated on 2472 MHz
+
+03-17 16:31:25.909 22823 22823 D wpa_supplicant: nl80211: Associated with cc:81:da:8d:29:08
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: nl80211: Received scan results (30 BSSes)
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:8d:29:08 as associated
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: wlan0: BSS: Start scan result update 6878
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: wlan0: BSS: Add new id 13312 BSSID f4:83:cd:3a:3c:00 SSID 'SensorGroup'
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: wlan0: BSS: Add new id 13313 BSSID 20:a6:80:6c:2d:c4 SSID 'HUAWEI_5G'
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: wlan0: BSS: Add new id 13314 BSSID f4:83:cd:3a:3c:02 SSID 'SensorGroup_5G'
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=44
+
+03-17 16:31:25.910 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: wlan0: BSS: Remove id 13303 BSSID 78:d3:8d:cf:7b:bc SSID 'SZGR' due to no match in scan
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: wlan0: BSS: Remove id 13308 BSSID e0:10:7f:4b:f7:4c SSID 'WX-ORVIBO-Guest' due to no match in scan
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: wlan0: BSS: Remove id 13309 BSSID e0:10:7f:0b:f7:4c SSID 'ORVIBO' due to no match in scan
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=46
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: BSS: last_scan_res_used=30/64
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: wlan0: Scan-only results received
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1534-11\x00
+
+03-17 16:31:25.911 22823 22823 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d93c0 done in 2.289675 seconds
+
+03-17 16:31:25.915 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3379
+
+03-17 16:31:25.920 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3711
+
+03-17 16:31:25.922 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3510
+
+03-17 16:31:25.923 22823 22823 D wpa_supplicant: RTM_NEWLINK: ifi_index=26 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-17 16:31:25.924 29371 29454 D UTAnalytics:UploadTask: pid:29371 mPeriod:30000,
+
+03-17 16:31:25.925 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3992
+
+03-17 16:31:25.929 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=4053
+
+03-17 16:31:25.934 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=1720
+
+03-17 16:31:25.963 29307 29307 I QueryController: Matched selector: UiSelector[TEXT=我的主机] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80053e97; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 1094 - 352, 1153); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的主机; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:25.966 29307 29307 D InteractionController: clickAndSync(264, 1123)
+
+03-17 16:31:25.972 22823 22823 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-17 16:31:25.972 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=280
+
+03-17 16:31:25.975  1534  1669 I WhetstoneClientManager: pid = 16082, uid = 10098 is frozen, not allowed Broadcast
+
+03-17 16:31:25.975  1534  1669 V BroadcastQueueInjector: Skipping BroadcastRecord{3ff65cc u-1 android.net.wifi.SCAN_RESULTS} to ProcessRecord{d279ccd 16082:com.sina.weibo:remote/u0a98}
+
+03-17 16:31:25.975  1534  1669 D Whetstone-FW: MiuiLog-Whetstone-BroadcastControl BroadcastRecord{3ff65cc u-1 android.net.wifi.SCAN_RESULTS} is discarded
+
+03-17 16:31:25.993  3962  3985 I StepsProvider: Steps Provider Query
+
+03-17 16:31:26.012  8449 10509 E WifiScanHomelog: start process end time - 18
+
+03-17 16:31:26.016  8449 10515 E WifiDeviceFinder: start process end time - 25
+
+03-17 16:31:26.119 29371 29371 D HomeMate: comm[ main: ProductManage.java:534 isHub() ] - uid:007e56121206,model:Hub002,wifiFlagMinhub[3]
+
+03-17 16:31:26.122 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:330 onClick() ] - Device{uid=007e56121206, deviceName=智能主机, deviceId=null, appDeviceId=0, deviceType=45, roomId=null, company='null', delFlag=0, extAddr='192.168.80.198', endpoint=0, irDeviceId=null, sequence=0, model='Hub002', updateTime=0(1970-01-01 08:00:00), userName=null} 
+
+03-17 16:31:26.126 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:334 onClick() ] - gateway:Gateway{gatewayId='02733dd63ad2475684ecddec5614df34', hardwareVersion='1.1.0', softwareVersion='1.4.1.4', staticServerPort=10001, staticServerIP='119.29.42.11', domainServerPort=10001, versionID=48, domainName='homemate.orvibo.com', localStaticIP='192.168.80.198', localGateway='192.168.1.255', localNetMask='255.255.255.0', dhcpMode=0, model='Hub002', homeName='智能主机', timeZone='8', dst=0, channel=25, panID=0, externalPanID=0, securityKey='', password='62F115C83445DC74D8414932939D3B24', uploadUser='null', activatedState=0, masterSlaveFlag=0, coordinatorVersion='2.1.22', systemVersion='2.3.0'} BaseBo{delFlag=0, updateTime='1489389881000', createTime='1489389875000', updateTimeSec=0, uid='007e56121206', userName='15079034630@126.com'}
+
+03-17 16:31:26.128 29371 29371 D HomeMate: comm[ main: PersonalFragment.java:335 onClick() ] - Device{uid=007e56121206, deviceName=智能主机, deviceId=null, appDeviceId=0, deviceType=45, roomId=null, company='null', delFlag=0, extAddr='192.168.80.198', endpoint=0, irDeviceId=null, sequence=0, model='Hub002', updateTime=0(1970-01-01 08:00:00), userName=null} 
+
+03-17 16:31:26.128 29371 29371 I Timeline: Timeline: Activity_launch_request time:199310170
+
+03-17 16:31:26.149  1534  1597 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.device.manage.edit.DeviceInfoActivity (has extras)} from uid 10136 on display 0
+
+03-17 16:31:26.156  3962  4066 D WtProcessController: onAMCreateActivity callback
+
+03-17 16:31:26.156  3962  4066 D WtProcessController: onAMPauseActivity callback
+
+03-17 16:31:26.191 29371 29371 D UTAnalytics:UTDC: pid:29371 [commit] page:Main,eventId:2001,arg1:Launch,arg2:arg3:3701,args:{SDKTYPE=mini},
+
+03-17 16:31:26.196 29371 29371 D UTAnalytics:UTLog: pid:29371 Log [id=0, eventId=2001, index=],867451020054497||460015796275061||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.201||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1489739479957||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1489739486191||Main||2001||Launch||-||3701||-,
+
+03-17 16:31:26.196 29371 29371 D UTAnalytics:LogStoreMgr: pid:29371 [add] :,
+
+03-17 16:31:26.199 29371 29371 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - MainActivity
+
+03-17 16:31:26.207  3962  4066 D WtProcessController: onAMRestartActivity callback
+
+03-17 16:31:26.208  1534  1595 I Timeline: Timeline: App_transition_ready time:199310249
+
+03-17 16:31:26.222 29371 29371 D HomeMate: comm[ main: BaseActivity.java:127 onCreate() ] - onCreate:DeviceInfoActivity
+
+03-17 16:31:26.223 29371 29371 D HomeMate: allen[ main: ActivityManager.java:47 pushActivity() ] - pushActivity:com.orvibo.homemate.device.manage.edit.DeviceInfoActivity@b52638b
+
+03-17 16:31:26.255 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@1301575
+
+03-17 16:31:26.255 29371 29371 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@580f90a
+
+03-17 16:31:26.283 29371 29371 D HomeMate: comm[ main: DeviceInfoActivity.java:83 init() ] - gateway:Gateway{gatewayId='02733dd63ad2475684ecddec5614df34', hardwareVersion='1.1.0', softwareVersion='1.4.1.4', staticServerPort=10001, staticServerIP='119.29.42.11', domainServerPort=10001, versionID=48, domainName='homemate.orvibo.com', localStaticIP='192.168.80.198', localGateway='192.168.1.255', localNetMask='255.255.255.0', dhcpMode=0, model='Hub002', homeName='智能主机', timeZone='8', dst=0, channel=25, panID=0, externalPanID=0, securityKey='', password='62F115C83445DC74D8414932939D3B24', uploadUser='null', activatedState=0, masterSlaveFlag=0, coordinatorVersion='2.1.22', systemVersion='2.3.0'} BaseBo{delFlag=0, updateTime='1489389881000', createTime='1489389875000', updateTimeSec=0, uid='007e56121206', userName='15079034630@126.com'}
+
+03-17 16:31:26.285 29371 29371 D HomeMate: comm[ main: DeviceInfoActivity.java:84 init() ] - device:Device{uid=007e56121206, deviceName=智能主机, deviceId=null, appDeviceId=0, deviceType=45, roomId=null, company='null', delFlag=0, extAddr='192.168.80.198', endpoint=0, irDeviceId=null, sequence=0, model='Hub002', updateTime=0(1970-01-01 08:00:00), userName=null} 
+
+03-17 16:31:26.292 29371 29371 D HomeMate: comm[ main: DeviceInfoActivity.java:139 init() ] - deviceDesc:{"deviceDescId":"020d0df61f1d5c9cf979967926992799","endpointSet":"","hostFlag":0,"model":"Hub002","picUrl":"http://firmware.orvibo.com/pic/device_500_infrared_host.png","productModel":"Null","source":"","wifiFlag":3,"createTime":"2016-01-01 00:00:00","delFlag":0,"updateTime":"2017-02-14 14:23:34"}
+
+03-17 16:31:26.302 29371 29371 D HomeMate: comm[ main: DeviceInfoActivity.java:154 init() ] - deviceLanguage:{"dataId":"020d0df61f1d5c9cf979967926992799","defaultName":"","deviceLanguageId":"bee1308dd859ce9ba71e34772cd39800","language":"zh","manufacturer":"","productName":"ZigBee Mini网关","stepInfo":"","createTime":"2016-01-01 00:00:00","delFlag":0,"updateTime":"2017-02-14 14:23:34"}
+
+03-17 16:31:26.312 29371 29371 D HomeMate: comm[ main: BaseActivity.java:154 onResume() ] - DeviceInfoActivity
+
+03-17 16:31:26.312  3973  3973 W Binder_8: type=1400 audit(0.0:3038803): avc: denied { ioctl } for path="socket:[6011800]" dev="sockfs" ino=6011800 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:31:26.312  3973  3973 W Binder_8: type=1400 audit(0.0:3038804): avc: denied { ioctl } for path="socket:[6011800]" dev="sockfs" ino=6011800 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:31:26.324 29371 29371 D ActivityThreadInjector: clearCachedDrawables.
+
+03-17 16:31:26.359  1534  3796 I Timeline: Timeline: App_transition_ready time:199310401
+
+03-17 16:31:26.362  1534  3796 I Timeline: Timeline: App_transition_ready time:199310404
+
+03-17 16:31:26.401  1534  1904 I Timeline: Timeline: App_transition_ready time:199310443
+
+03-17 16:31:26.406  1534  1904 I ActivityManager: Displayed com.orvibo.homemate/.device.manage.edit.DeviceInfoActivity: +201ms
+
+03-17 16:31:26.407  3580  3580 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-17 16:31:26.392  3621  3621 W Binder_3: type=1400 audit(0.0:3038805): avc: denied { ioctl } for path="socket:[6011186]" dev="sockfs" ino=6011186 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:31:26.392  3621  3621 W Binder_3: type=1400 audit(0.0:3038806): avc: denied { ioctl } for path="socket:[6011186]" dev="sockfs" ino=6011186 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-17 16:31:26.408 29800 29800 I AppiumUnicodeIME: onFinishInput
+
+03-17 16:31:26.408 29800 29800 I AppiumUnicodeIME: onStartInput
+
+03-17 16:31:26.462 29371 29475 D OpenGLRenderer: endAllStagingAnimators on 0xa034ae80 (RippleDrawable) with handle 0x96828ed0
+
+03-17 16:31:26.506 29371 29638 D HomeMate: comm[ AsyncTask #1: OrviboUpdateAgent.java:259 doInBackground() ] - result =﻿{  "oldVersion": 90,  "day": "7",  "version": 22000302 ,  "name": "HomeMate",  "packagename":"com.orvibo.homemate",  "url": "http://firmware.orvibo.com/androidapk/homemate.apk",  "message": "修复BUG，提升稳定�?��??",  "message_en": "Bug fixes and overall performance improvements.",  "size": ""}
+
+03-17 16:31:26.510 29371 29371 E HomeMate: comm[ main: OrviboUpdateAgent.java:311 onPostExecute() ] - localVersionCode=23000201
+
+03-17 16:31:26.512 29371 29371 D HomeMate: comm[ main: MainPresenter.java:333 onUpdateReturned() ] - isCanUpdate:false,responseInfos:{packagename=com.orvibo.homemate, oldVersion=90, size=, url=http://firmware.orvibo.com/androidapk/homemate.apk, version=22000302, name=HomeMate, day=7, message=修复BUG，提升稳定�?��??, message_en=Bug fixes and overall performance improvements.}
+
+03-17 16:31:26.512 29371 29371 D HomeMate: comm[ main: MainActivity.java:175 setTabReadTip() ] - showRedTip:false,position:3
+
+03-17 16:31:26.641  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:31:26.641  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:31:26.641  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:31:26.641  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999997708
+
+03-17 16:31:26.663  4242  4392 W Metok_Tag: < metok_app > invalid network operator 
+
+03-17 16:31:26.677  1534  1904 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c8ab015 u0 com.orvibo.homemate/.device.manage.edit.DeviceInfoActivity t10183} time:199310718
+
+03-17 16:31:26.679  1534  1904 I Timeline: Timeline: App_transition_stopped time:199310721
+
+03-17 16:31:26.681  4242  4392 W Metok_Tag: < metok_app > invalid network operator 
+
+03-17 16:31:26.693 29371 29371 D HomeMate: comm[ main: BaseActivity.java:215 onStop() ] - MainActivity
+
+03-17 16:31:26.872   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:27.072 17661 17661 W AppWatcher: type=1400 audit(0.0:3038807): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534627 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:31:27.072 17661 17661 W AppWatcher: type=1400 audit(0.0:3038808): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534626 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:31:27.072 17661 17661 W AppWatcher: type=1400 audit(0.0:3038809): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-17 16:31:27.082 17661 17661 W AppWatcher: type=1400 audit(0.0:3038810): avc: denied { getattr } for path="/proc/1" dev="proc" ino=8200 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-17 16:31:27.092 17661 17661 W AppWatcher: type=1400 audit(0.0:3038811): avc: denied { getattr } for path="/proc/2" dev="proc" ino=2557283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.092 17661 17661 W AppWatcher: type=1400 audit(0.0:3038812): avc: denied { getattr } for path="/proc/3" dev="proc" ino=2557284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.092 17661 17661 W AppWatcher: type=1400 audit(0.0:3038813): avc: denied { getattr } for path="/proc/6" dev="proc" ino=2557286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.092 17661 17661 W AppWatcher: type=1400 audit(0.0:3038814): avc: denied { getattr } for path="/proc/7" dev="proc" ino=2557287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.102 17661 17661 W AppWatcher: type=1400 audit(0.0:3038815): avc: denied { getattr } for path="/proc/8" dev="proc" ino=2557288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.102 17661 17661 W AppWatcher: type=1400 audit(0.0:3038816): avc: denied { getattr } for path="/proc/21" dev="proc" ino=2557289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.102 17661 17661 W AppWatcher: type=1400 audit(0.0:3038817): avc: denied { getattr } for path="/proc/22" dev="proc" ino=2557290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.102 17661 17661 W AppWatcher: type=1400 audit(0.0:3038818): avc: denied { getattr } for path="/proc/28" dev="proc" ino=2557291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.102 17661 17661 W AppWatcher: type=1400 audit(0.0:3038819): avc: denied { getattr } for path="/proc/29" dev="proc" ino=2557292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.112 17661 17661 W AppWatcher: type=1400 audit(0.0:3038820): avc: denied { getattr } for path="/proc/30" dev="proc" ino=2557293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.112 17661 17661 W AppWatcher: type=1400 audit(0.0:3038821): avc: denied { getattr } for path="/proc/32" dev="proc" ino=2557294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.112 17661 17661 W AppWatcher: type=1400 audit(0.0:3038822): avc: denied { getattr } for path="/proc/33" dev="proc" ino=2557295 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.112 17661 17661 W AppWatcher: type=1400 audit(0.0:3038823): avc: denied { getattr } for path="/proc/34" dev="proc" ino=2557296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.112 17661 17661 W AppWatcher: type=1400 audit(0.0:3038824): avc: denied { getattr } for path="/proc/61" dev="proc" ino=2557297 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.122 17661 17661 W AppWatcher: type=1400 audit(0.0:3038825): avc: denied { getattr } for path="/proc/62" dev="proc" ino=2557298 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.122 17661 17661 W AppWatcher: type=1400 audit(0.0:3038826): avc: denied { getattr } for path="/proc/63" dev="proc" ino=2557299 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.122 17661 17661 W AppWatcher: type=1400 audit(0.0:3038827): avc: denied { getattr } for path="/proc/64" dev="proc" ino=2557300 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.122 17661 17661 W AppWatcher: type=1400 audit(0.0:3038828): avc: denied { getattr } for path="/proc/65" dev="proc" ino=2557301 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:27.524 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/hubNameTv] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8005ef07; boundsInParent: Rect(0, 0 - 814, 69); boundsInScreen: Rect(244, 1238 - 1058, 1307); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 智能主机; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/hubNameTv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.632 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/hubNameTv] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8005ef07; boundsInParent: Rect(0, 0 - 814, 69); boundsInScreen: Rect(244, 1238 - 1058, 1307); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 智能主机; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/hubNameTv; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.632 29307 29307 D UiObject: getText() = 智能主机
+
+03-17 16:31:27.684 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/info1TextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8005fe0b; boundsInParent: Rect(1047750, 0 - 1048576, 59); boundsInScreen: Rect(232, 1575 - 1058, 1634); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 00:7E:56:12:12:06; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/info1TextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.733 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/info1TextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8005fe0b; boundsInParent: Rect(1047750, 0 - 1048576, 59); boundsInScreen: Rect(232, 1575 - 1058, 1634); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 00:7E:56:12:12:06; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/info1TextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.733 29307 29307 D UiObject: getText() = 00:7E:56:12:12:06
+
+03-17 16:31:27.816 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/info2TextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006058d; boundsInParent: Rect(0, 0 - 868, 59); boundsInScreen: Rect(190, 1741 - 1058, 1800); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 192.168.80.198; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/info2TextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.843 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:27.846 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:27.870 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/info2TextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006058d; boundsInParent: Rect(0, 0 - 868, 59); boundsInScreen: Rect(190, 1741 - 1058, 1800); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 192.168.80.198; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/info2TextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.870 29307 29307 D UiObject: getText() = 192.168.80.198
+
+03-17 16:31:27.874   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:27.925 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/info2TextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006058d; boundsInParent: Rect(0, 0 - 868, 59); boundsInScreen: Rect(190, 1741 - 1058, 1800); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 192.168.80.198; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/info2TextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.955 29307 29307 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/info2TextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006058d; boundsInParent: Rect(0, 0 - 868, 59); boundsInScreen: Rect(190, 1741 - 1058, 1800); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 192.168.80.198; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/info2TextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-17 16:31:27.955 29307 29307 D UiObject: getText() = 192.168.80.198
+
+03-17 16:31:28.878   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:29.065  3782  3961 W PushService: 2017-03-17 16:31:29,064 - [WARN::PushService] - [Thread:54] JOB: check the ping-pong.1489739479059
+
+03-17 16:31:29.458  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:29.471  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:29.880   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:30.641  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:31:30.642  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:31:30.642  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:31:30.642  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999996719
+
+03-17 16:31:30.850 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:30.866 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:30.881   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:31.198 29371 29456 D UTAnalytics:LogStoreMgr: pid:29371 [store],
+
+03-17 16:31:31.217 29371 29456 D UTAnalytics:UTSqliteLogStore: pid:29371 [insert] ,, isSuccess:true,ret,2248,
+
+03-17 16:31:31.882   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:32.884   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:33.870 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:33.885   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:33.887 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:34.642  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:31:34.642  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:31:34.642  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:31:34.642  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999997553
+
+03-17 16:31:34.886   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:35.460   370   467 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-17 16:31:35.461   370   493 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-17 16:31:35.461   370   493 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-17 16:31:35.462   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-17 16:31:35.462   370   493 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-17 16:31:35.462   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-17 16:31:35.462   370   493 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-17 16:31:35.462   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-17 16:31:35.462   370   493 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-17 16:31:35.462   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-17 16:31:35.463   370   493 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-17 16:31:35.484  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:35.493  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:35.887   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:36.503  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:36.506  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:36.888   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:36.894 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:36.909 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:37.332 17661 17661 W AppWatcher: type=1400 audit(0.0:3039094): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534627 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:31:37.332 17661 17661 W AppWatcher: type=1400 audit(0.0:3039095): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534626 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:31:37.342 17661 17661 W AppWatcher: type=1400 audit(0.0:3039096): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-17 16:31:37.352 17661 17661 W AppWatcher: type=1400 audit(0.0:3039097): avc: denied { getattr } for path="/proc/1" dev="proc" ino=8200 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-17 16:31:37.362 17661 17661 W AppWatcher: type=1400 audit(0.0:3039098): avc: denied { getattr } for path="/proc/2" dev="proc" ino=2557283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.362 17661 17661 W AppWatcher: type=1400 audit(0.0:3039099): avc: denied { getattr } for path="/proc/3" dev="proc" ino=2557284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.362 17661 17661 W AppWatcher: type=1400 audit(0.0:3039100): avc: denied { getattr } for path="/proc/6" dev="proc" ino=2557286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039101): avc: denied { getattr } for path="/proc/7" dev="proc" ino=2557287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039102): avc: denied { getattr } for path="/proc/8" dev="proc" ino=2557288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039103): avc: denied { getattr } for path="/proc/21" dev="proc" ino=2557289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039104): avc: denied { getattr } for path="/proc/22" dev="proc" ino=2557290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039105): avc: denied { getattr } for path="/proc/28" dev="proc" ino=2557291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039106): avc: denied { getattr } for path="/proc/29" dev="proc" ino=2557292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039107): avc: denied { getattr } for path="/proc/30" dev="proc" ino=2557293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.372 17661 17661 W AppWatcher: type=1400 audit(0.0:3039108): avc: denied { getattr } for path="/proc/32" dev="proc" ino=2557294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.382 17661 17661 W AppWatcher: type=1400 audit(0.0:3039109): avc: denied { getattr } for path="/proc/33" dev="proc" ino=2557295 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.382 17661 17661 W AppWatcher: type=1400 audit(0.0:3039110): avc: denied { getattr } for path="/proc/34" dev="proc" ino=2557296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.382 17661 17661 W AppWatcher: type=1400 audit(0.0:3039111): avc: denied { getattr } for path="/proc/61" dev="proc" ino=2557297 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.382 17661 17661 W AppWatcher: type=1400 audit(0.0:3039112): avc: denied { getattr } for path="/proc/62" dev="proc" ino=2557298 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.382 17661 17661 W AppWatcher: type=1400 audit(0.0:3039113): avc: denied { getattr } for path="/proc/63" dev="proc" ino=2557299 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:37.890   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:38.514  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:38.516  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:38.642  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:31:38.642  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:31:38.642  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:31:38.642  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999995625
+
+03-17 16:31:38.891   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:39.527  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:39.537  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:39.891 29371 29426 W System.err: 无法访问或网络不稳定
+
+03-17 16:31:39.891 29371 29426 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-17 16:31:39.892 29371 29426 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+03-17 16:31:39.892   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+03-17 16:31:39.892 29371 29426 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+03-17 16:31:39.893 29371 29426 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+03-17 16:31:39.893 29371 29426 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+03-17 16:31:39.893 29371 29426 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+03-17 16:31:39.893 29371 29426 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+03-17 16:31:39.893 29371 29426 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-17 16:31:39.893 29371 29426 W System.err: 	... 9 more
+
+03-17 16:31:39.912 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:39.927 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:40.893   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:41.895   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:42.550  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:42.551  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:42.642  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:31:42.642  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:31:42.642  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:31:42.642  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999996823
+
+03-17 16:31:42.896   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:42.933 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:42.947 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:43.434  3962  4066 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 29371 Uid: 10136 Start by: activity Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1489739486156 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 2 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10136 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:10183}
+
+03-17 16:31:43.480   370   467 I ThermalEngine: Sensor:tsens_tz_sensor5:56000 mC
+
+03-17 16:31:43.480   370   493 I ThermalEngine: Sensor:tsens_tz_sensor5:56000 mC
+
+03-17 16:31:43.480   370   493 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm raised 1 at 56.0 degC
+
+03-17 16:31:43.481   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 1728000
+
+03-17 16:31:43.481   370   493 I ThermalEngine: Mitigation:CPU[0]:1728000 Khz
+
+03-17 16:31:43.481   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 1728000
+
+03-17 16:31:43.481   370   493 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 1728000
+
+03-17 16:31:43.481   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 1728000
+
+03-17 16:31:43.481   370   493 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 1728000
+
+03-17 16:31:43.482   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 1728000
+
+03-17 16:31:43.482   370   493 I ThermalEngine: Mitigation:CPU[3]:1728000 Khz
+
+03-17 16:31:43.569  3962  4066 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 3994 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1489739477864 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:10182}
+
+03-17 16:31:43.650  3962  4066 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 29480 Uid: 10136 Start by: service Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1489739486156 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10136 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:5184,0x1440 [,TRIMHEAPS,SOFT_RESET,FLAG_DEAL_SCHEDULE] Type:0[] } tasknum:-1}
+
+03-17 16:31:43.897   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:44.022  3852  4239 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-17 16:31:44.122   370   467 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-17 16:31:44.122   370   493 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-17 16:31:44.122   370   493 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-17 16:31:44.123   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-17 16:31:44.123   370   493 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-17 16:31:44.123   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-17 16:31:44.124   370   493 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-17 16:31:44.124   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-17 16:31:44.124   370   493 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-17 16:31:44.124   370   493 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-17 16:31:44.124   370   493 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-17 16:31:44.898   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:44.988 29371 29454 D UTAnalytics:CommitTask: pid:29371 check&commit event:65501,
+
+03-17 16:31:44.989 29371 29454 D UTAnalytics:CommitTask: pid:29371 next:65501,
+
+03-17 16:31:44.989 29371 29454 D UTAnalytics:CommitTask: pid:29371 check&commit event:65502,
+
+03-17 16:31:44.989 29371 29454 D UTAnalytics:CommitTask: pid:29371 next:65502,
+
+03-17 16:31:44.989 29371 29454 D UTAnalytics:CommitTask: pid:29371 check&commit event:65503,
+
+03-17 16:31:44.989 29371 29454 D UTAnalytics:CommitTask: pid:29371 next:65503,
+
+03-17 16:31:44.992 29371 29456 D UTAnalytics:UTUtil: pid:29371 upload without flowback. args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-17 16:31:44.994 29371 29456 D UTAnalytics:null: pid:29371 [sendToUT]: args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-17 16:31:44.994 29371 29456 D UTAnalytics:UTDC: pid:29371 [commit] page:eventId:65502,arg1:feedback,arg2:getUnreadCountSuccess,arg3:args:{ARG1=feedback, counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]}, USERNICK=, ARG2=getUnreadCountSuccess, EVENTID=65502, USERID=, ACCESS=Wi-Fi, ACCESS_SUBTYPE=Unknown},
+
+03-17 16:31:45.016 29371 29456 D UTAnalytics:UTLog: pid:29371 Log [id=0, eventId=65502, index=],867451020054497||460015796275061||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.201||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1489739479957||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1489739504994||-||65502||feedback||getUnreadCountSuccess||-||counterData={"meta":{"sdk-version":"2.5.1_for_bc"},"data":[{"page":"feedback","monitorPoint":"getUnreadCountSuccess","count":2,"value":0}]},
+
+03-17 16:31:45.017 29371 29456 D UTAnalytics:LogStoreMgr: pid:29371 [add] :,
+
+03-17 16:31:45.899   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:45.954 22823 22823 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-17 16:31:45.972 22823 22823 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=48
+
+03-17 16:31:46.582  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:46.583  1534  1534 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+
+03-17 16:31:46.642  5869  5938 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-17 16:31:46.642  5869  5938 I octvm_klo: new timerfd interval:
+
+03-17 16:31:46.642  5869  5938 I octvm_klo: 	itval.it_interval.tv_sec 4, itval.it_interval.tv_nsec 0
+
+03-17 16:31:46.642  5869  5938 I octvm_klo: 	itval.it_value.tv_sec 3, itval.it_value.tv_nsec 999996822
+
+03-17 16:31:46.900   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:47.592 17661 17661 W AppWatcher: type=1400 audit(0.0:3039382): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534627 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:31:47.592 17661 17661 W AppWatcher: type=1400 audit(0.0:3039383): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534626 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-17 16:31:47.592 17661 17661 W AppWatcher: type=1400 audit(0.0:3039384): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-17 16:31:47.602 17661 17661 W AppWatcher: type=1400 audit(0.0:3039385): avc: denied { getattr } for path="/proc/1" dev="proc" ino=8200 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-17 16:31:47.602 17661 17661 W AppWatcher: type=1400 audit(0.0:3039386): avc: denied { getattr } for path="/proc/2" dev="proc" ino=2557283 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.602 17661 17661 W AppWatcher: type=1400 audit(0.0:3039387): avc: denied { getattr } for path="/proc/3" dev="proc" ino=2557284 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.612 17661 17661 W AppWatcher: type=1400 audit(0.0:3039388): avc: denied { getattr } for path="/proc/6" dev="proc" ino=2557286 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.612 17661 17661 W AppWatcher: type=1400 audit(0.0:3039389): avc: denied { getattr } for path="/proc/7" dev="proc" ino=2557287 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.612 17661 17661 W AppWatcher: type=1400 audit(0.0:3039390): avc: denied { getattr } for path="/proc/8" dev="proc" ino=2557288 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.612 17661 17661 W AppWatcher: type=1400 audit(0.0:3039391): avc: denied { getattr } for path="/proc/21" dev="proc" ino=2557289 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.622 17661 17661 W AppWatcher: type=1400 audit(0.0:3039392): avc: denied { getattr } for path="/proc/22" dev="proc" ino=2557290 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.622 17661 17661 W AppWatcher: type=1400 audit(0.0:3039393): avc: denied { getattr } for path="/proc/28" dev="proc" ino=2557291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.622 17661 17661 W AppWatcher: type=1400 audit(0.0:3039394): avc: denied { getattr } for path="/proc/29" dev="proc" ino=2557292 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.622 17661 17661 W AppWatcher: type=1400 audit(0.0:3039395): avc: denied { getattr } for path="/proc/30" dev="proc" ino=2557293 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.622 17661 17661 W AppWatcher: type=1400 audit(0.0:3039396): avc: denied { getattr } for path="/proc/32" dev="proc" ino=2557294 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.632 17661 17661 W AppWatcher: type=1400 audit(0.0:3039397): avc: denied { getattr } for path="/proc/33" dev="proc" ino=2557295 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.632 17661 17661 W AppWatcher: type=1400 audit(0.0:3039398): avc: denied { getattr } for path="/proc/34" dev="proc" ino=2557296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.632 17661 17661 W AppWatcher: type=1400 audit(0.0:3039399): avc: denied { getattr } for path="/proc/61" dev="proc" ino=2557297 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.632 17661 17661 W AppWatcher: type=1400 audit(0.0:3039400): avc: denied { getattr } for path="/proc/62" dev="proc" ino=2557298 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.632 17661 17661 W AppWatcher: type=1400 audit(0.0:3039401): avc: denied { getattr } for path="/proc/63" dev="proc" ino=2557299 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-17 16:31:47.901   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
+
+03-17 16:31:48.903   370   482 I ThermalEngine: Sensor:batt_temp:378 mC
