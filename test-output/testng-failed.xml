@@ -13,40 +13,37 @@
     <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
     <parameter name="testpassword" value="999000"/>
     <parameter name="testaccount" value="eop@qq.com"/>
+    <groups>
+      <run>
+        <include name="3.20"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.oribo.android365.testcase.Personcenter">
+      <class name="com.oribo.android365.testcase.HomeManage">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="rightaccountnext"/>
-          <include name="specialchar"/>
-          <include name="checkaccount"/>
-          <include name="phonebind"/>
           <include name="init"/>
           <include name="beforeMethod"/>
           <include name="tearDown"/>
+          <include name="deletelink"/>
         </methods>
-      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+      </class> <!-- com.oribo.android365.testcase.HomeManage -->
       <class name="com.oribo.android365.testcase.SignIn">
         <methods>
           <include name="init"/>
           <include name="beforeMethod"/>
           <include name="a_phoneregister"/>
           <include name="tearDown"/>
-          <include name="b_logff"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.SignIn -->
-      <class name="com.oribo.android365.testcase.HomeManage">
+      <class name="com.oribo.android365.testcase.Personcenter">
         <methods>
+          <include name="beforeSuite"/>
           <include name="init"/>
           <include name="beforeMethod"/>
-          <include name="CheckMyHub"/>
-          <include name="familydetails"/>
-          <include name="dragfloor"/>
-          <include name="addlink"/>
-          <include name="myhost"/>
+          <include name="feedback"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.oribo.android365.testcase.HomeManage -->
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
     </classes>
   </test> <!-- init(failed) -->
 </suite> <!-- Failed suite [智家365] -->

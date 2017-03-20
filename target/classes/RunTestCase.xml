@@ -16,9 +16,8 @@
 		<parameter name="reportreceiver" value="penghong@orvibo.com" />
 		
 <!--  	    <groups>
-
 		   	<run>
-		        <include name="错误22"/>
+		        <include name="3.20"/>
 		    </run>
 		</groups>   -->
 

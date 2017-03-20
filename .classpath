@@ -19,7 +19,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="libs/commons-logging-1.1.jar"/>
 	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="libs/java-client-3.3.0.jar"/>
 	<classpathentry kind="lib" path="libs/junit-3.8.1.jar"/>
 	<classpathentry kind="lib" path="libs/log4j-1.2.13.jar"/>
 	<classpathentry kind="lib" path="libs/mail.jar"/>
