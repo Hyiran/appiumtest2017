@@ -8,10 +8,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -214,6 +216,28 @@ public class ToolFunctions {
 		 }
 
 		 return context;
+	 }
+	 
+	 /**
+	  * 切换至本地应用
+	  */
+	 public static String nativecontext(AndroidDriver driver)
+	 {
+		 Set contextNames = driver.getContextHandles();
+		 Iterator it=contextNames.iterator();
+		 String context=null;
+		 while(it.hasNext())
+		 {
+			 String str=(String) it.next();
+			 if(str.contains("NATIVE"))
+			 {   
+				 System.out.println(str);
+				 context=str; 
+			 }
+		 }
+
+		 return context;
+		 
 	 }
     
 	/**
@@ -502,13 +526,57 @@ public class ToolFunctions {
      * @param args
      */
 
+    /**
+     * 设置手机休眠时间
+     * @param args
+     */
+    public static void setdevsleeptime(String time)
+    {
+    	try {
+    	    Log.logInfo("设置屏幕休眠时间");
+			Runtime.getRuntime().exec("adb shell settings put system screen_off_timeout "+time);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
 	
+    /**
+     * 切换输入法为非APPIUM输入法
+     * @param args
+     */
+    public static void setinputmethod()
+    {   
+    	String str;
+    	List<String> inputmethod=new ArrayList<>();
+    	//列出当前所有非appium输入法
+    	try {
+			Process process=Runtime.getRuntime().exec("adb shell ime list -s");
+			BufferedReader br=new BufferedReader(new InputStreamReader(process.getInputStream()));
+			while((str=br.readLine())!=null)
+			{   
+				
+				if(!str.contains("appium")&&str.contains("input"))
+				{   
+					System.out.println(str);
+					inputmethod.add(str.trim());
+				}
+
+			}
+			br.close();
+			//设置输入法
+			System.out.println("要设置的输入法为:"+inputmethod.get(0));
+			Runtime.getRuntime().exec("adb shell settings put secure default_input_method "+inputmethod.get(0));
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
 	public static void main(String[] args)
 	{   
-		String mms="【智家365】验证码0897，您正在注册成为智家365用户，感谢您的支持！";
-		String submms=mms.split("，")[0];
-		String verificode=submms.substring(submms.lastIndexOf("码", submms.length())+1);
-		System.out.println(verificode);
+		setinputmethod();
 
 	}
 	

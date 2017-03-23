@@ -7,8 +7,10 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -35,21 +37,7 @@ public class SignIn extends TestcaseFrame{
 	AppBean  appbean = AppBean.getAppBean();
 	String phone=ReadExcel.readsimpledata(1, 1, 3);
 	
-	
 	String mac=null;
-	@BeforeClass(alwaysRun=true)
-	@Parameters({ "port","udid","phone","platformVersion", "apk","testaccount","testpassword","reportreceiver"})
-	public void init(String port, String udid,String phone,String platformVersion ,String apk,String testaccount,String testpassword,String reportreceiver )
-	{
-		//保存app的基础信息		
-				appbean.setUid(udid);
-				appbean.setPort( port);
-				appbean.setPhone(phone);
-				appbean.setApk(apk);
-				appbean.setPlatformVersion(platformVersion);	
-				resetapp(getApppackagename());
-		
-	}
 	@BeforeMethod(alwaysRun=true)
 	public void beforeMethod()
 	{   
@@ -62,7 +50,7 @@ public class SignIn extends TestcaseFrame{
 	/**
 	 * 手机号注册
 	 */
-	@Test(groups={"注册","3.20"})
+	@Test(groups={"注册","3.21"})
 	public void a_phoneregister()
 	{   
 		//如果已登录则退出登录
@@ -91,6 +79,7 @@ public class SignIn extends TestcaseFrame{
 		AppOperate.sendKeys(edit,"输入手机号", phone);
 		//点击下一步
 		AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/nextButton")), "点击下一步");
+		AppOperate.waitelementexit(driver, "短信验证码", 20);
 		//判断是否会跳转到安全验证界面
 		Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/codeEditText")).getText().equals("短信验证码"), "未跑转至安全验证界面");
 		//下拉通知栏判断是否能查看到验证码,等待60S
@@ -167,7 +156,7 @@ public class SignIn extends TestcaseFrame{
 	/**
 	 * 授权登录微博,测试之前手机安装微博且已登录帐号
 	 */
-	@Test(groups={"登录界面"})
+	@Test(groups={"登录界面1"})
 	public void weibologging()
 	{   
 		
@@ -197,16 +186,24 @@ public class SignIn extends TestcaseFrame{
 	/**
 	 * 退出登录
 	 */
-	@Test(dependsOnMethods={"a_phoneregister"},groups={"登录界面","错误2"})
+	@Test(groups={"登录界面"})
 	public void b_logff()
 	{  
-		if(!driver.currentActivity().equals(".user.LoginActivity"))
+		newSleep(3);
+		System.out.println(driver.currentActivity());
+		if(driver.currentActivity().equals(".user.LoginActivity"))
+		{
+			Log.logInfo("应用未登录，应先登录后再做退出测试");
+
+		}
+		else
 		{
 			enterPersoninfo();
 			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/userLogoutButton")), "点击退出登录");
 			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/rightButton")), "提示框中点击确定");
 			//判断是否跳回到登录界面
 			Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/login_btn")).isDisplayed());
+			
 		}
 
 	}
@@ -231,7 +228,7 @@ public class SignIn extends TestcaseFrame{
 	@AfterMethod(alwaysRun=true)
 	public void tearDown(){
 		//关闭appium 资源
-		Log.logInfo("**********");
+		aftertest();
 		driver.quit();
 		
 	}

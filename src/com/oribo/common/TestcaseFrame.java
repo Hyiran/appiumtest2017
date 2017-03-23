@@ -71,8 +71,10 @@ public class TestcaseFrame {
 		return account;
 	}
 	
+	
 	public void testSetUp()
 	{
+	
 		
 		File classpathRoot = new File(System.getProperty("user.dir"));//本地的路径
 		File appDir = new File(classpathRoot, "apps");//apk 存放的路径
@@ -84,10 +86,10 @@ public class TestcaseFrame {
 		capabilities.setCapability("deviceName", "Android Emulator");	
 		capabilities.setCapability("device", "Selendroid");//测试H5页页
 		capabilities.setCapability("platformVersion", appbean.getPlatformVersion() );
-		 capabilities.setCapability("udid", appbean.getUid());
-	//	capabilities.setCapability("app", app.getAbsolutePath()); 	
+		capabilities.setCapability("udid", appbean.getUid());
+		capabilities.setCapability("app", app.getAbsolutePath()); 	
 		//capabilities.setCapability( "automationName","Selendroid");//这句话设置可以获取toast 消息
-		 //capabilities.setCapability( "automationName","uiautomator2");
+		//capabilities.setCapability( "automationName","uiautomator2");
 		capabilities.setCapability("appPackage", "com.orvibo.homemate");
 		capabilities.setCapability("appActivity", "com.orvibo.homemate.common.launch.LaunchActivity");
 		capabilities.setCapability("unicodeKeyboard", "True");  
@@ -103,7 +105,7 @@ public class TestcaseFrame {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);//全局等待20秒
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);//全局等待20秒
 		
 	
 	}
@@ -185,9 +187,7 @@ public class TestcaseFrame {
 		List<AndroidElement> list=driver.findElementsByClassName("android.widget.TextView");
 		Assert.assertEquals(list.size(), 3);
 		AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"拍照\")"), "点击选择框中的“拍照”按扭");
-		
-	
-		
+
 	}
 	/**
 	 * 点击头像后拍照设置头像
@@ -476,7 +476,6 @@ public class TestcaseFrame {
 					   		"'  and device.delFlag=0 and userGatewayBind.delFlag=0 "
 						+ "and device.deviceName='"+devicename+"'";
 			   }
-			System.out.println(sql);
 			 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 			   try {  
 				   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -499,12 +498,13 @@ public class TestcaseFrame {
 	 }
 
 	 /**
-	  * 某个家庭有哪些情景
+	  * 某个家庭有哪些情景,key为0代表系统场景，1为一般场景，系统场景不可编辑
 	  */
-	 public List<String> scenenumbers(String familyname)
+	 public Map<String,String> scenenumbers(String familyname)
 	 {     
 		 String sql=null;
-		 List<String> list=new ArrayList();
+	//	 List<String> list=new ArrayList();
+		 Map<String,String> map=new HashMap<>();
 			if(getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 			{
 				sql="select account2.email,scene.sceneName,scene.familyId,family.familyName from account2,scene,family"
@@ -519,7 +519,6 @@ public class TestcaseFrame {
 					   		"'  and scene.delFlag=0 and family.familyId=scene.familyId and"
 						+ " family.familyName='"+familyname+"'";
 			   }
-			
 			 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 			   try {  
 				   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -527,12 +526,16 @@ public class TestcaseFrame {
 		        	   String s=ret.getString(2);
 		        	   if(s.contains("模式"))
 		        	   {   
-		        		   //String s ="商品评论审核-处方药";
-		       	        s= s.substring(0,s.lastIndexOf("模"));//商品评论
+		        		   
+		       	        s= s.substring(0,s.lastIndexOf("模"));
+		       	        map.put(s, "0");
 		       
 		        	   }
-		        	   System.out.println(s);
-		        	   list.add(s);
+		        	   else
+		        	   {
+		        	 //  list.add(s);
+		        	   map.put(s, "1");
+		        	   }
 		                   
 		           }//显示数据 
 		         
@@ -541,7 +544,7 @@ public class TestcaseFrame {
 		       } catch (SQLException e) {  
 		           e.printStackTrace();  
 		       }  
-			return list;
+			return map;
 	 }
 	 
 	 /**
@@ -565,7 +568,6 @@ public class TestcaseFrame {
 					   		"'  and linkage.delFlag=0 and family.familyId=linkage.familyId and"
 						+ " family.familyName='"+familyname+"'";
 			   }
-			System.out.println("当前联动数"+sql);
 			 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 			   try {  
 				   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -641,7 +643,6 @@ public class TestcaseFrame {
 			 sql="select distinct floor.floorName,family.familyName from floor,account2,family where account2.userId=floor.userId and floor.delFlag=0 and account2.phone='"+TestcaseFrame.getaccount().getAccount()
 				 		+"'  and family.familyId=floor.familyId and family.delFlag=0 and account2.delFlag=0 and family.familyName='"+familyname+"' order by floor.createTime";
 		 }
-		 System.out.println(sql);
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 		   try {  
 			   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -681,7 +682,6 @@ public class TestcaseFrame {
 				 		+ " and room.floorId=floor.floorId and room.delFlag=0 and family.familyName='"+familyname+"'";
 			 
 		 }
-		 System.out.println(sql);
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 		   try {  
 			   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -720,7 +720,6 @@ public class TestcaseFrame {
 				 		+ " and room.floorId=floor.floorId and room.delFlag=0 and family.familyName='"+familyname+"' and floor.floorName='"+floorname+"'";
 			 
 		 }
-		 System.out.println(sql);
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 		   try {  
 			   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -755,7 +754,6 @@ public class TestcaseFrame {
 				 		+ "where account2.userId=floor.userId and floor.delFlag=0 and account2.phone='"+TestcaseFrame.getaccount().getAccount()+
 				 		"' and family.familyId=floor.familyId and family.delFlag=0 and family.familyName='"+familyname+"'";
 		 }
-		 System.out.println(sql);
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 		   try {  
 			   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -929,7 +927,6 @@ public class TestcaseFrame {
 		 
 		 //name为从数据库查询到的名称
 		 String name=Query.executSql(sql1,1,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
-		 System.out.println("");
 		if(name.trim().equals(""))
 		{
 		
@@ -1086,7 +1083,7 @@ public class TestcaseFrame {
 		 {
 			 sql="delete from account2 where phone='"+account+"'";
 		 }
-		 System.out.println(sql);
+		
 		 
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 		   try {  
@@ -1158,14 +1155,14 @@ public class TestcaseFrame {
 		 {
 			 sql="select account2.email,thirdAccount.thirdUserName,thirdAccount.registerType  from account2 inner "
 			 		+ "join thirdAccount on account2.userId=thirdAccount.userId and account2.delFlag=0 and"
-			 		+ " account2.email='"+TestcaseFrame.getaccount().getAccount()+"'";
+			 		+ " account2.email='"+TestcaseFrame.getaccount().getAccount()+"' and thirdAccount.delFlag=0";
 
 		 }
 		 else if(getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 		 {
 			 sql="select account2.email,thirdAccount.thirdUserName,thirdAccount.registerType  from account2 inner "
 				 		+ "join thirdAccount on account2.userId=thirdAccount.userId and account2.delFlag=0 and"
-				 		+ " account2.phone='"+TestcaseFrame.getaccount().getAccount()+"'";
+				 		+ " account2.phone='"+TestcaseFrame.getaccount().getAccount()+"' and thirdAccount.delFlag=0";
 	
 		 }
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
@@ -1184,7 +1181,68 @@ public class TestcaseFrame {
 		  
 	}
    
+	/**
+	 * 当前帐号有几个灯
+	 * @return
+	 */
+	public int lightnumbers()
+	{
+		String sql=null;
+		int count=0;
+		 if(getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
+		 {
+			 sql="select device.deviceName,device.deviceType from account2,userGatewayBind,device "
+			 		+ "where account2.userId=userGatewayBind.userId and "
+			 		+ "account2.email='"+TestcaseFrame.getaccount().getAccount()+"'  "
+			 		+ "and account2.delFlag=0 and  userGatewayBind.delFlag=0 "
+			 		+ "and userGatewayBind.uid=device.gatewayUID and device.delFlag=0  and device.deviceType in (0,1,19,38,82)";
+
+		 }
+		 else if(getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
+		 {
+			 sql="select device.deviceName,device.deviceType from account2,userGatewayBind,device "
+				 		+ "where account2.userId=userGatewayBind.userId and "
+				 		+ "account2.phone='"+TestcaseFrame.getaccount().getAccount()+"'  "
+				 		+ "and account2.delFlag=0 and  userGatewayBind.delFlag=0 "
+				 		+ "and userGatewayBind.uid=device.gatewayUID and device.delFlag=0  and device.deviceType in (0,1,19,38,82)";
 	
+		 }
+		 
+		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
+		   try {  
+			   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
+	           while (ret.next()) {
+	        	   count++;
+	        	   
+	
+	           }//显示数据  
+	           ret.close();  
+	           db.close();//关闭连接  
+	       } catch (SQLException e) {  
+	           e.printStackTrace();  
+	       }
+		   return count;
+		
+	}
+	/**
+	 * 删除三方帐号
+	 * @return
+	 */
+	public void deletethridaccout(String accountname)
+	{
+		String sql=null;
+		int state=0;
+		
+	    sql="delete from thirdAccount where thirdUserName='"+accountname+"'";
+		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
+		   try {  
+			  db.pst.executeUpdate();//执行语句，得到结果集 
+	           db.close();//关闭连接  
+	       } catch (SQLException e) {  
+	           e.printStackTrace();  
+	       }
+		
+	}
 	public static String scrennfilename()
 	{   
 		System.out.println("截图文件名为:"+picname);
@@ -1213,9 +1271,16 @@ public class TestcaseFrame {
 		ems.setAddress("15079034630@126.com", receiver, reportname+"测试报告");
 		ems.setAffix(logzip, "Log.zip");
 		ems.send("smtp.126.com", "15079034630@126.com", "penghong1987","本次测试已完成，附件为测试日志，测试报告路径为："+reportpath+File.separator+reportname+".html");
-		System.out.println("测试报告发送完成");
+		Log.logInfo("测试报告发送完成");
 	}
 	
-   Thread thread=new Thread();
+	/**
+	 * 每个测试方法结束后要做操作
+	 */
+	public void aftertest()
+	{
+		Log.logInfo("******************************************************");
+		System.out.println(System.getProperty("line.separator"));
+	}
 
 }

@@ -1,4 +1,0 @@
-<h2>Groups used for this test run</h2><table border="1">
-<tr> <td align="center"><b>Group name</b></td><td align="center"><b>Methods</b></td></tr><tr><td>个人信息</td><td>Personcenter.photocheck()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/></td></tr>
-<tr><td>头像</td><td>Personcenter.photocheck()[pri:0, instance:com.oribo.android365.testcase.Personcenter@68bbe345]<br/></td></tr>
-</table>

@@ -1,4 +1,0 @@
-drivername=com.mysql.jdbc.Driver
-dburl=jdbc:mysql://db.ufenqi.biz/ufenqi_db?seUnicode=true&characterEncoding=UTF8
-dbusername=root
-dbpassword=ufenqi@123

@@ -1,17 +1,482 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="47" total="47" passed="0">
+<testng-results skipped="2" failed="1" ignored="47" total="50" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[2017-03-23 18:01:26 : [INFO] 设置屏幕休眠时间]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:01:52 : [INFO] groups:1]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:01:57 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:01:57 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:01:59 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:01:59 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:01 : [STEP] [点击退出登录] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:02 : [STEP] [提示框中点击确定] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:02 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:05 : [STEP] [点击微博图标] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:37 : [STEP] [点击我的] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:37 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:02:38 : [INFO] ******************************************************]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:10 : [INFO] groups:1]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:16 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:16 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:17 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:17 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:18 : [STEP] [点击退出登录] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:20 : [STEP] [提示框中点击确定] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:20 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:22 : [STEP] [点击微博图标] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:22 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:54 : [STEP] [点击我的] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:54 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:03:56 : [INFO] ******************************************************]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:27 : [INFO] groups:1]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:32 : [STEP] [点击'我的'] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:32 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:34 : [STEP] [点击个人信息头像] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:34 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:35 : [STEP] [点击退出登录] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:37 : [STEP] [提示框中点击确定] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:37 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:39 : [STEP] [点击微博图标] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:04:39 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:05:11 : [STEP] [点击我的] ]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:05:11 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:05:38 : [INFO] 成功比列:100]]>
+    </line>
+    <line>
+      <![CDATA[2017-03-23 18:05:38 : [INFO] ******************************************************]]>
+    </line>
   </reporter-output>
-  <suite name="智家365" duration-ms="5" started-at="2017-03-20T08:52:44Z" finished-at="2017-03-20T08:52:44Z">
+  <suite name="智家365" duration-ms="260928" started-at="2017-03-23T10:01:26Z" finished-at="2017-03-23T10:05:47Z">
     <groups>
+      <group name="登录界面1">
+        <method signature="SignIn.weibologging()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="weibologging" class="com.oribo.android365.testcase.SignIn"/>
+      </group> <!-- 登录界面1 -->
     </groups>
-    <test name="init" duration-ms="5" started-at="2017-03-20T08:52:44Z" finished-at="2017-03-20T08:52:44Z">
-      <class name="com.oribo.android365.testcase.Personcenter">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.oribo.android365.testcase.Personcenter@636be97c]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2017-03-20T16:52:44Z" finished-at="2017-03-20T16:52:44Z">
+    <test name="init" duration-ms="260928" started-at="2017-03-23T10:01:26Z" finished-at="2017-03-23T10:05:47Z">
+      <class name="com.oribo.android365.testcase.Initializtion">
+        <test-method status="PASS" signature="beforeSuit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.oribo.android365.testcase.Initializtion@50a638b5]" name="beforeSuit" is-config="true" duration-ms="53" started-at="2017-03-23T18:01:26Z" finished-at="2017-03-23T18:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[492c754e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiaomi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HomeMate 2.3.0.201.apk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[eop@qq.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[999000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[penghong@orvibo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:01:26 : [INFO] 设置屏幕休眠时间]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.oribo.android365.testcase.Initializtion@50a638b5]" name="afterSuite" is-config="true" duration-ms="1745" started-at="2017-03-23T18:05:45Z" finished-at="2017-03-23T18:05:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.oribo.android365.testcase.Initializtion -->
+      <class name="com.oribo.android365.testcase.SignIn">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="beforeMethod" is-config="true" duration-ms="26400" started-at="2017-03-23T18:01:26Z" finished-at="2017-03-23T18:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="weibologging()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="weibologging" duration-ms="46103" started-at="2017-03-23T18:01:52Z" finished-at="2017-03-23T18:02:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[授权登录后帐号名称未变 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 授权登录后帐号名称未变 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.oribo.android365.testcase.SignIn.weibologging(SignIn.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:01:52 : [INFO] groups:1]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:01:57 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:01:57 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:01:59 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:01:59 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:01 : [STEP] [点击退出登录] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:02 : [STEP] [提示框中点击确定] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:02 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:05 : [STEP] [点击微博图标] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:37 : [STEP] [点击我的] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:02:37 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- weibologging -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="tearDown" is-config="true" duration-ms="6708" started-at="2017-03-23T18:02:38Z" finished-at="2017-03-23T18:02:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:02:38 : [INFO] ******************************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="beforeMethod" is-config="true" duration-ms="25324" started-at="2017-03-23T18:02:45Z" finished-at="2017-03-23T18:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="weibologging()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="weibologging" duration-ms="45503" started-at="2017-03-23T18:03:10Z" finished-at="2017-03-23T18:03:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[授权登录后帐号名称未变 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 授权登录后帐号名称未变 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.oribo.android365.testcase.SignIn.weibologging(SignIn.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:03:10 : [INFO] groups:1]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:16 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:16 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:17 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:17 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:18 : [STEP] [点击退出登录] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:20 : [STEP] [提示框中点击确定] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:20 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:22 : [STEP] [点击微博图标] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:22 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:54 : [STEP] [点击我的] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:03:54 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- weibologging -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="tearDown" is-config="true" duration-ms="6665" started-at="2017-03-23T18:03:56Z" finished-at="2017-03-23T18:04:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:03:56 : [INFO] ******************************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="beforeMethod" is-config="true" duration-ms="24700" started-at="2017-03-23T18:04:03Z" finished-at="2017-03-23T18:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="weibologging()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="weibologging" duration-ms="45451" started-at="2017-03-23T18:04:27Z" finished-at="2017-03-23T18:05:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[授权登录后帐号名称未变 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 授权登录后帐号名称未变 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.oribo.android365.testcase.SignIn.weibologging(SignIn.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:04:27 : [INFO] groups:1]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:32 : [STEP] [点击'我的'] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:32 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:34 : [STEP] [点击个人信息头像] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:34 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:35 : [STEP] [点击退出登录] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:37 : [STEP] [提示框中点击确定] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:37 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:39 : [STEP] [点击微博图标] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:04:39 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:05:11 : [STEP] [点击我的] ]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:05:11 : [INFO] [点击 -> -android uiautomator: text("我的")]]]>
+            </line>
+            <line>
+              <![CDATA[2017-03-23 18:05:38 : [INFO] 成功比列:100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- weibologging -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oribo.android365.testcase.SignIn@1725dc0f]" name="tearDown" is-config="true" duration-ms="6835" started-at="2017-03-23T18:05:38Z" finished-at="2017-03-23T18:05:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-03-23 18:05:38 : [INFO] ******************************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oribo.android365.testcase.SignIn -->
     </test> <!-- init -->
   </suite> <!-- 智家365 -->
 </testng-results>

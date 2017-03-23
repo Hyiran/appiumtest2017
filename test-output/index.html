@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-智家365">
-              <span class="suite-name border-passed">智家365</span>
+              <span class="suite-name border-failed">智家365</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-智家365">
-                    <span>D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\RunTestCase.xml</span>
+                    <span>F:\测试automation\orvibo_appiumtest\src\RunTestCase.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-智家365">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-智家365" class="hide-methods failed suite-智家365"> (hide)</a> <!-- hide-methods failed suite-智家365 -->
+                      <a href="#" panel-name="suite-智家365" class="show-methods failed suite-智家365"> (show)</a> <!-- show-methods failed suite-智家365 -->
+                    </span>
+                    <div class="method-list-content failed suite-智家365">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.SignIn" hash-for-method="weibologging">weibologging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-智家365 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-智家365" class="hide-methods skipped suite-智家365"> (hide)</a> <!-- hide-methods skipped suite-智家365 -->
+                      <a href="#" panel-name="suite-智家365" class="show-methods skipped suite-智家365"> (show)</a> <!-- show-methods skipped suite-智家365 -->
+                    </span>
+                    <div class="method-list-content skipped suite-智家365">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.SignIn" hash-for-method="weibologging">weibologging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-智家365" title="com.oribo.android365.testcase.SignIn" hash-for-method="weibologging">weibologging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-智家365 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,10 +136,59 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-智家365" class="panel 智家365">
+          <div class="suite-智家365-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.oribo.android365.testcase.SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="weibologging">
+                  </a> <!-- weibologging -->
+                  <span class="method-name">weibologging</span>
+                  <div class="stack-trace">java.lang.AssertionError: 授权登录后帐号名称未变 expected [true] but found [false]
+	at com.oribo.android365.testcase.SignIn.weibologging(SignIn.java:175)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-智家365-class-failed -->
+          <div class="suite-智家365-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.oribo.android365.testcase.SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="weibologging">
+                  </a> <!-- weibologging -->
+                  <span class="method-name">weibologging</span>
+                  <div class="stack-trace">java.lang.AssertionError: 授权登录后帐号名称未变 expected [true] but found [false]
+	at com.oribo.android365.testcase.SignIn.weibologging(SignIn.java:175)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weibologging">
+                  </a> <!-- weibologging -->
+                  <span class="method-name">weibologging</span>
+                  <div class="stack-trace">java.lang.AssertionError: 授权登录后帐号名称未变 expected [true] but found [false]
+	at com.oribo.android365.testcase.SignIn.weibologging(SignIn.java:175)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-智家365-class-skipped -->
         </div> <!-- panel 智家365 -->
         <div panel-name="test-xml-智家365" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\eclipse-jee-mars-R-win32-x86_64\workplace\oriboAppiumTest\orvibo_appiumtest\src\RunTestCase.xml</span>
+            <span class="header-content">F:\测试automation\orvibo_appiumtest\src\RunTestCase.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -122,18 +204,19 @@
     &lt;parameter name=&quot;platformVersion&quot; value=&quot;6.0.1&quot;/&gt;
     &lt;parameter name=&quot;reportreceiver&quot; value=&quot;penghong@orvibo.com&quot;/&gt;
     &lt;parameter name=&quot;udid&quot; value=&quot;492c754e&quot;/&gt;
-    &lt;parameter name=&quot;apk&quot; value=&quot;HomeMate 2.2.0.201.apk&quot;/&gt;
+    &lt;parameter name=&quot;apk&quot; value=&quot;HomeMate 2.3.0.201.apk&quot;/&gt;
     &lt;parameter name=&quot;testpassword&quot; value=&quot;999000&quot;/&gt;
     &lt;parameter name=&quot;testaccount&quot; value=&quot;eop@qq.com&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;3.200&quot;/&gt;
+        &lt;include name=&quot;登录界面1&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.oribo.android365.testcase.HomeManage&quot;/&gt;
+      &lt;class name=&quot;com.oribo.android365.testcase.PersoncenterWithdb&quot;/&gt;
       &lt;class name=&quot;com.oribo.android365.testcase.Personcenter&quot;/&gt;
       &lt;class name=&quot;com.oribo.android365.testcase.SignIn&quot;/&gt;
+      &lt;class name=&quot;com.oribo.android365.testcase.Initializtion&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- init --&gt;
 &lt;/suite&gt; &lt;!-- 智家365 --&gt;
@@ -147,7 +230,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">init (3 classes)</span>
+                <span class="test-name">init (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,6 +240,14 @@
             <span class="header-content">Groups for 智家365</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">登录界面1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">weibologging</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-智家365" class="panel">
@@ -173,11 +264,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'weibologging')
+data.setCell(0, 2, 'com.oribo.android365.testcase.SignIn')
+data.setCell(0, 3, 46103);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'weibologging')
+data.setCell(1, 2, 'com.oribo.android365.testcase.SignIn')
+data.setCell(1, 3, 45503);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'weibologging')
+data.setCell(2, 2, 'com.oribo.android365.testcase.SignIn')
+data.setCell(2, 3, 45451);
 window.suiteTableData['智家365']= { tableData: data, tableDiv: 'times-div-智家365'}
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-智家365">
               </div> <!-- times-div-智家365 -->
             </div> <!-- times-div -->
@@ -188,6 +292,61 @@ return data;
             <span class="header-content">Reporter output for 智家365</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">weibologging</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017-03-23 18:04:27 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-23 18:04:32 : [STEP] [点击'我的'] </span>
+                <span class="reporter-method-output">2017-03-23 18:04:32 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+                <span class="reporter-method-output">2017-03-23 18:04:34 : [STEP] [点击个人信息头像] </span>
+                <span class="reporter-method-output">2017-03-23 18:04:34 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</span>
+                <span class="reporter-method-output">2017-03-23 18:04:35 : [STEP] [点击退出登录] </span>
+                <span class="reporter-method-output">2017-03-23 18:04:35 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]</span>
+                <span class="reporter-method-output">2017-03-23 18:04:37 : [STEP] [提示框中点击确定] </span>
+                <span class="reporter-method-output">2017-03-23 18:04:37 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]</span>
+                <span class="reporter-method-output">2017-03-23 18:04:39 : [STEP] [点击微博图标] </span>
+                <span class="reporter-method-output">2017-03-23 18:04:39 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]</span>
+                <span class="reporter-method-output">2017-03-23 18:05:11 : [STEP] [点击我的] </span>
+                <span class="reporter-method-output">2017-03-23 18:05:11 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+                <span class="reporter-method-output">2017-03-23 18:05:38 : [INFO] 成功比列:100</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">weibologging</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017-03-23 18:01:52 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-23 18:01:57 : [STEP] [点击'我的'] </span>
+                <span class="reporter-method-output">2017-03-23 18:01:57 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+                <span class="reporter-method-output">2017-03-23 18:01:59 : [STEP] [点击个人信息头像] </span>
+                <span class="reporter-method-output">2017-03-23 18:01:59 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</span>
+                <span class="reporter-method-output">2017-03-23 18:02:01 : [STEP] [点击退出登录] </span>
+                <span class="reporter-method-output">2017-03-23 18:02:01 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]</span>
+                <span class="reporter-method-output">2017-03-23 18:02:02 : [STEP] [提示框中点击确定] </span>
+                <span class="reporter-method-output">2017-03-23 18:02:02 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]</span>
+                <span class="reporter-method-output">2017-03-23 18:02:05 : [STEP] [点击微博图标] </span>
+                <span class="reporter-method-output">2017-03-23 18:02:05 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]</span>
+                <span class="reporter-method-output">2017-03-23 18:02:37 : [STEP] [点击我的] </span>
+                <span class="reporter-method-output">2017-03-23 18:02:37 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">weibologging</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017-03-23 18:03:10 : [INFO] groups:1</span>
+                <span class="reporter-method-output">2017-03-23 18:03:16 : [STEP] [点击'我的'] </span>
+                <span class="reporter-method-output">2017-03-23 18:03:16 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+                <span class="reporter-method-output">2017-03-23 18:03:17 : [STEP] [点击个人信息头像] </span>
+                <span class="reporter-method-output">2017-03-23 18:03:17 : [INFO] [点击 -> id: com.orvibo.homemate:id/iv_personal_user_icon]</span>
+                <span class="reporter-method-output">2017-03-23 18:03:18 : [STEP] [点击退出登录] </span>
+                <span class="reporter-method-output">2017-03-23 18:03:18 : [INFO] [点击 -> id: com.orvibo.homemate:id/userLogoutButton]</span>
+                <span class="reporter-method-output">2017-03-23 18:03:20 : [STEP] [提示框中点击确定] </span>
+                <span class="reporter-method-output">2017-03-23 18:03:20 : [INFO] [点击 -> id: com.orvibo.homemate:id/rightButton]</span>
+                <span class="reporter-method-output">2017-03-23 18:03:22 : [STEP] [点击微博图标] </span>
+                <span class="reporter-method-output">2017-03-23 18:03:22 : [INFO] [点击 -> id: com.orvibo.homemate:id/sina_login]</span>
+                <span class="reporter-method-output">2017-03-23 18:03:54 : [STEP] [点击我的] </span>
+                <span class="reporter-method-output">2017-03-23 18:03:54 : [INFO] [点击 -> -android uiautomator: text("我的")]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-智家365" class="panel">
@@ -196,67 +355,67 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oribo.android365.testcase.HomeManage</span>
+              <span class="ignored-class-name">com.oribo.android365.testcase.PersoncenterWithdb</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">addscene</span>
-                <br/>
-                <span class="ignored-method-name">checkscene</span>
-                <br/>
-                <span class="ignored-method-name">editlinkage</span>
-                <br/>
-                <span class="ignored-method-name">addroom</span>
-                <br/>
-                <span class="ignored-method-name">edithome</span>
-                <br/>
-                <span class="ignored-method-name">memberoffamily</span>
-                <br/>
-                <span class="ignored-method-name">sort</span>
-                <br/>
-                <span class="ignored-method-name">familydetails</span>
-                <br/>
-                <span class="ignored-method-name">addfloor</span>
-                <br/>
-                <span class="ignored-method-name">delectscene</span>
-                <br/>
-                <span class="ignored-method-name">remindersettings</span>
-                <br/>
-                <span class="ignored-method-name">checkdefault</span>
-                <br/>
-                <span class="ignored-method-name">getAdvInfo</span>
-                <br/>
                 <span class="ignored-method-name">editscene</span>
                 <br/>
-                <span class="ignored-method-name">checklinkage</span>
+                <span class="ignored-method-name">defaultroom</span>
+                <br/>
+                <span class="ignored-method-name">addhome</span>
+                <br/>
+                <span class="ignored-method-name">deletelink</span>
+                <br/>
+                <span class="ignored-method-name">delectfloor</span>
+                <br/>
+                <span class="ignored-method-name">CheckMyHub</span>
+                <br/>
+                <span class="ignored-method-name">ClickMore</span>
                 <br/>
                 <span class="ignored-method-name">dragfloor</span>
                 <br/>
                 <span class="ignored-method-name">checkfamilynumber</span>
                 <br/>
-                <span class="ignored-method-name">addlink</span>
-                <br/>
                 <span class="ignored-method-name">delectroom</span>
                 <br/>
                 <span class="ignored-method-name">myhost</span>
                 <br/>
-                <span class="ignored-method-name">ClickMore</span>
+                <span class="ignored-method-name">checklinkage</span>
                 <br/>
-                <span class="ignored-method-name">CheckMyHub</span>
+                <span class="ignored-method-name">addlink</span>
                 <br/>
-                <span class="ignored-method-name">delectfloor</span>
+                <span class="ignored-method-name">delectscene</span>
                 <br/>
-                <span class="ignored-method-name">addhome</span>
+                <span class="ignored-method-name">checkdefault</span>
                 <br/>
-                <span class="ignored-method-name">defaultroom</span>
+                <span class="ignored-method-name">getAdvInfo</span>
                 <br/>
-                <span class="ignored-method-name">deletelink</span>
+                <span class="ignored-method-name">remindersettings</span>
+                <br/>
+                <span class="ignored-method-name">addfloor</span>
+                <br/>
+                <span class="ignored-method-name">familydetails</span>
+                <br/>
+                <span class="ignored-method-name">editlinkage</span>
+                <br/>
+                <span class="ignored-method-name">sort</span>
+                <br/>
+                <span class="ignored-method-name">addroom</span>
+                <br/>
+                <span class="ignored-method-name">memberoffamily</span>
+                <br/>
+                <span class="ignored-method-name">systemscene</span>
+                <br/>
+                <span class="ignored-method-name">checkscene</span>
+                <br/>
+                <span class="ignored-method-name">edithome</span>
+                <br/>
+                <span class="ignored-method-name">addscene</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.oribo.android365.testcase.SignIn</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">weibologging</span>
-                <br/>
                 <span class="ignored-method-name">a_phoneregister</span>
                 <br/>
                 <span class="ignored-method-name">checkother</span>
@@ -296,9 +455,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">modifypassword</span>
                 <br/>
-                <span class="ignored-method-name">nickmaxeng</span>
-                <br/>
                 <span class="ignored-method-name">authorizationentrance</span>
+                <br/>
+                <span class="ignored-method-name">nickmaxeng</span>
                 <br/>
                 <span class="ignored-method-name">setphotobycamera</span>
                 <br/>
@@ -312,11 +471,59 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.oribo.android365.testcase.Personcenter</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
+              <div class="chronological-class-name">com.oribo.android365.testcase.Initializtion</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeSuit(4723, 492c754e, xiaomi, 6.0.1, HomeMate 2.3.0.201.apk, eop@qq.com, 999000, penghong@orvibo.com)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.oribo.android365.testcase.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">weibologging</span>
+                <span class="method-start">26463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">79283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">weibologging</span>
+                <span class="method-start">104607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">156793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">weibologging</span>
+                <span class="method-start">181493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">252339 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.oribo.android365.testcase.Initializtion</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">259175 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

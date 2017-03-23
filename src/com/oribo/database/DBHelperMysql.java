@@ -5,7 +5,8 @@ package com.oribo.database;
  */
 import java.sql.Connection;  
 import java.sql.DriverManager;  
-import java.sql.PreparedStatement;  
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException; 
 
 public class DBHelperMysql {
@@ -36,5 +37,25 @@ public class DBHelperMysql {
 	            e.printStackTrace();  
 	        }  
 	    }  
+	    
+	    public static void main(String args[])
+	    {
+	        PreparedStatement pst1 = null;  
+	    	try {
+	    		System.out.println("0000");
+				Class.forName("com.mysql.jdbc.Driver");
+				 conn =DriverManager.getConnection("jdbc:mysql://5592482b7cb3f.gz.cdb.myqcloud.com/vihome_cloud", "root", "testDBewq#@!");//获取连接
+		            System.out.println("连接成功");
+		            ResultSet  ret = conn.prepareStatement("select * from account2 where email='15079034630@126.com").executeQuery();//准备执行语句
+		            while(ret.next())
+		            {
+		            	System.out.println(ret.getString(3));
+		            }
+			} catch (Exception e) {
+				
+			}//指定连接类型 
+	    	
+	    		
+	    }
 
 }

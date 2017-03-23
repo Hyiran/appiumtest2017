@@ -34,11 +34,16 @@ public class Constant {
 	public static final String ENDTAG ="********";
 	public static final String ERROR = "error--------";
     
-	//服务器位置
+	//内网服务器位置
 	public static final String INTERNALURL="jdbc:mysql://192.168.2.20/vihome_cloud";
 	//数据库账号和密码
 	public static final String DATABASEACCOUNTINTER="root";
 	public static final String DATABASEACCOUNTPASSWORD="orvibo888";
+	
+	/*//外网服务器地址
+	public static final String INTERNALURL="jdbc:mysql://5592482b7cb3f.gz.cdb.myqcloud.com/vihome_cloud";
+	public static final String DATABASEACCOUNTINTER="root";
+	public static final String DATABASEACCOUNTPASSWORD="testDBewq#@!";*/
 	/**
 	 * 记录待测试App的路径,名称,URL端口等
 	 */

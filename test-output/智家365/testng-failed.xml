@@ -10,40 +10,28 @@
     <parameter name="platformVersion" value="6.0.1"/>
     <parameter name="reportreceiver" value="penghong@orvibo.com"/>
     <parameter name="udid" value="492c754e"/>
-    <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
+    <parameter name="apk" value="HomeMate 2.3.0.201.apk"/>
     <parameter name="testpassword" value="999000"/>
     <parameter name="testaccount" value="eop@qq.com"/>
     <groups>
       <run>
-        <include name="3.20"/>
+        <include name="登录界面1"/>
       </run>
     </groups>
     <classes>
-      <class name="com.oribo.android365.testcase.HomeManage">
-        <methods>
-          <include name="init"/>
-          <include name="beforeMethod"/>
-          <include name="tearDown"/>
-          <include name="deletelink"/>
-        </methods>
-      </class> <!-- com.oribo.android365.testcase.HomeManage -->
       <class name="com.oribo.android365.testcase.SignIn">
         <methods>
-          <include name="init"/>
+          <include name="weibologging"/>
           <include name="beforeMethod"/>
-          <include name="a_phoneregister"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.SignIn -->
-      <class name="com.oribo.android365.testcase.Personcenter">
+      <class name="com.oribo.android365.testcase.Initializtion">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="init"/>
-          <include name="beforeMethod"/>
-          <include name="feedback"/>
-          <include name="tearDown"/>
+          <include name="beforeSuit"/>
+          <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+      </class> <!-- com.oribo.android365.testcase.Initializtion -->
     </classes>
   </test> <!-- init(failed) -->
 </suite> <!-- Failed suite [智家365] -->

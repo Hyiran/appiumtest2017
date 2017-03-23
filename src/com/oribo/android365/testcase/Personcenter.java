@@ -52,8 +52,6 @@ import io.appium.java_client.android.AndroidElement;
 @Listeners({TestResultListener.class})
 public class Personcenter extends TestcaseFrame{
 	AndroidDriver<AndroidElement> driver;
-	public String receiver;//测试报告邮件接收人
-	AppBean  appbean = AppBean.getAppBean();
 	PromptListener thread;
 
 	
@@ -66,26 +64,9 @@ public class Personcenter extends TestcaseFrame{
 	 * @param platformVersion  手机系统
 	 * @param apk  测试的apk
 	 */
-	@BeforeSuite(alwaysRun=true)
-	public void beforeSuite(){
-		
-		FileOperate.delectLogFiles();
-
-	}
 
 
-	@BeforeClass(alwaysRun=true)
-	@Parameters({ "port","udid","phone","platformVersion", "apk","testaccount","testpassword","reportreceiver"})
-	public void init(String port, String udid,String phone,String platformVersion ,String apk,String testaccount,String testpassword,String reportreceiver )
-	{
-		//保存app的基础信息		
-				appbean.setUid(udid);
-				appbean.setPort( port);
-				appbean.setPhone(phone);
-				appbean.setApk(apk);
-				appbean.setPlatformVersion(platformVersion);
-		
-	}
+
 	@BeforeMethod(alwaysRun=true)
 	public void beforeMethod()
 	{   
@@ -180,7 +161,7 @@ public class Personcenter extends TestcaseFrame{
 	/**
 	 * 邮箱登录，手机号检查;手机登录检查邮箱绑定
 	 */
-	@Test(groups={"个人中心","个人信息","账号绑定"},enabled=false)
+	@Test(groups={"个人中心","个人信息","账号绑定"})
 	public void checkbind()
 	{   
 		//DataBean  data = bean.get(24);
@@ -607,7 +588,7 @@ public class Personcenter extends TestcaseFrame{
 	 * 前提条件：账号清空
 	 *授权登录，未绑定账号
 	 */
-	@Test(groups={"个人中心","个人信息","授权登录1"})
+	@Test(groups={"个人中心","个人信息","授权登录10"})
 	public void authorizationentrance()
 	{   
 		enterPersoninfo();
@@ -629,28 +610,28 @@ public class Personcenter extends TestcaseFrame{
 				Map.Entry<String, String> entry = it.next();
 				String name=null;
 				//如果已授权微信帐号,判断授权登录界面是否显示三方名称
-				if(entry.getValue().equals(1))
+				if(entry.getValue().equals("1"))
 				{   
 					//获取微信帐号名称
 					name=entry.getKey();
 					weixin=1;
-					Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/weChatNickNameTextView")).equals(name));
+					Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/weChatNickNameTextView")).getText().equals(name));
 					
 				}
 				//如果已授权QQ帐号
-				else if(entry.getValue().equals(2))
+				else if(entry.getValue().equals("2"))
 				{
 					name=entry.getKey();
 				    qq=1;
-					Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/qqNickNameTextView")).equals(name));
+					Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/qqNickNameTextView")).getText().equals(name));
 					
 				}
 				//如果已授权微博帐号
-				else if(entry.getValue().equals(3))
+				else if(entry.getValue().equals("3"))
 				{
 					name=entry.getKey();
 					weibo=1;
-					Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/sinaNickNameTextView")).equals(name));
+					Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/sinaNickNameTextView")).getText().equals(name));
 				}
 				
 			}
@@ -678,9 +659,9 @@ public class Personcenter extends TestcaseFrame{
 	@DataProvider(name = "authorizationdataprovider")
 	public Object[][] dataprovide(){
 	    return new Object[][]{
-	    	{"com.tencent.mm","安装了微信","微信账号","点击微信账号","绑定微信","点击绑定微信","跳转到微信界面","微信",},
-	    	{"com.sina.weibo","安装了微博","微博账号","点击微博账号","绑定微博","点击绑定微博","跳转到微博界面","微博"},
-	    	{"com.tencent.mobileqq","安装了QQ","QQ账号","点击QQ账号","绑定QQ","点击绑定QQ","跳转到QQ界面","QQ"},
+	    	{"com.tencent.mm","安装了微信","微信帐号","点击微信账号","绑定微信","点击绑定微信","跳转到微信界面","微信",},
+	    	{"com.sina.weibo","安装了微博","微博帐号","点击微博账号","绑定微博","点击绑定微博","跳转到微博界面","微博"},
+	    	{"com.tencent.mobileqq","安装了QQ","QQ帐号","点击QQ账号","绑定QQ","点击绑定QQ","跳转到QQ界面","QQ"},
 	    	};                                      
 	    	 }       
 	
@@ -694,7 +675,7 @@ public class Personcenter extends TestcaseFrame{
 	 * 授权登陆，绑定第三方授权登陆
 	 * “我的”页面查看授权登陆
 	 */
-	@Test(dataProvider="authorizationdataprovider",groups={"个人中心","个人信息","授权登录"},enabled=false)
+	@Test(dataProvider="authorizationdataprovider",groups={"个人中心","个人信息","授权登录11","3.21"})
 	public void authorization(String packagename,String loginfo1,String clickname1,String loginfo2,String clickname2,String loginfo3,String assertinfo,String assertinfo2)
 	{
 		newSleep(2);
@@ -709,65 +690,73 @@ public class Personcenter extends TestcaseFrame{
 		if(ToolFunctions.ifinstallthirdapp(packagename))
 		{
 			Log.logInfo(loginfo1);
-            //截图对比
-			String photo1=ToolFunctions.getRandomstring(1);
-			screenCapCompare(driver, photo1);
-			
 			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\""+clickname1+"\")"), loginfo2);
 			
-		   if(!AppOperate.ifexitElement("解除绑定", driver))
-		   {
+			 if(AppOperate.ifexitElement("解除绑定", driver))
+			   {
+					//点击解除绑定
+					AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"解除绑定\")"), "点击解除绑定");
+					AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"知道了\")"), "点击知道了");
+			   
+			   }
+
 			   newSleep(1);
 			   AppOperate.exitElement("绑定"+assertinfo2+"可用于登录智家365", driver);
 			//点击绑定
 			   AppOperate.click(driver.findElementByAndroidUIAutomator("text(\""+clickname2+"\")"), loginfo3);
 				if(!packagename.equals("com.sina.weibo"))
 					{
-			newSleep(5);
-			//判断是否跳转到三方界面
-			Assert.assertTrue(ToolFunctions.cmdmessage("adb shell dumpsys window w|grep name=|grep "+packagename, packagename), assertinfo);
-			System.out.println("当前activity："+driver.currentActivity());
-			//判定已安装的三方应用是否登录，如果登录则直接点击登录
+			         newSleep(5);
+			         //判断是否跳转到三方界面
+			         Assert.assertTrue(ToolFunctions.cmdmessage("adb shell dumpsys window w|grep name=|grep "+packagename, packagename), assertinfo);
+			         //判定已安装的三方应用是否登录，如果登录则直接点击登录
 					if(!packagename.equals("com.tencent.mm"))
 						{
 						AndroidElement button=driver.findElement(By.className("android.widget.Button"));
-						Assert.assertNotNull(driver.findElement(By.className("android.widget.Button")), "应用未登录，请登录应用再测试");
+						Assert.assertTrue(driver.findElement(By.className("android.widget.Button")).isDisplayed(), "应用未登录，请登录应用再测试");
 						AppOperate.click(button, "点击登录按扭");
+						AppOperate.waitelementexit(driver, "解除绑定", 20);
+						Assert.assertTrue(driver.findElementByAndroidUIAutomator("text(\"解除绑定\")").isDisplayed(), "未绑定成功");
+						 AppOperate.sendKeyEvent(4, "返回到授权登录界面", driver);
+						    AppOperate.sendKeyEvent(4, "返回到个人信息界面", driver);
+						    AppOperate.sendKeyEvent(4, "返回到我的界面", driver);
+						    //返回到我的界面截图对比
+							String photo6=ToolFunctions.getRandomstring(1);
+							screenCapCompare(driver, photo6);
+							Assert.assertFalse(compareimage.sameAs(FileOperate.getScreencapFilePath()+File.separator+photo5+".png", FileOperate.getScreencapFilePath()+File.separator+photo6+".png", 0.97), "授权登录后我的界面不显示三方头像和名称");
+						
 						}
 					else
 						{
 						//如果是微信，则坐标点击
 						AppOperate.clickbycoordinate(driver, 592, 1088);
+						AppOperate.waitelementexit(driver, "解除绑定", 20);
+						Assert.assertTrue(driver.findElementByAndroidUIAutomator("text(\"解除绑定\")").isDisplayed(), "未绑定成功");
+					    AppOperate.sendKeyEvent(4, "返回到授权登录界面", driver);
+					    AppOperate.sendKeyEvent(4, "返回到个人信息界面", driver);
+					    AppOperate.sendKeyEvent(4, "返回到我的界面", driver);
+					    //返回到我的界面截图对比
+						String photo6=ToolFunctions.getRandomstring(1);
+						screenCapCompare(driver, photo6);
+						Assert.assertFalse(compareimage.sameAs(FileOperate.getScreencapFilePath()+File.separator+photo5+".png", FileOperate.getScreencapFilePath()+File.separator+photo6+".png", 0.97), "授权登录后我的界面不显示三方头像和名称");
 						}
 					}
-				else
-					{
+				else{
+					//如果是微博帐号,点击后直接登录
+					  //返回到授权登录界面
+					AppOperate.waitelementexit(driver, "解除绑定", 20);
+					Assert.assertTrue(driver.findElementByAndroidUIAutomator("text(\"解除绑定\")").isDisplayed(), "未绑定成功");
+				    AppOperate.sendKeyEvent(4, "返回到授权登录界面", driver);
+				    AppOperate.sendKeyEvent(4, "返回到个人信息界面", driver);
+				    AppOperate.sendKeyEvent(4, "返回到我的界面", driver);
+				  //返回到我的界面截图对比
+					String photo6=ToolFunctions.getRandomstring(1);
+					screenCapCompare(driver, photo6);
+					Assert.assertFalse(compareimage.sameAs(FileOperate.getScreencapFilePath()+File.separator+photo5+".png", FileOperate.getScreencapFilePath()+File.separator+photo6+".png", 0.97), "授权登录后我的界面不显示三方头像和名称");
 					
-					}
-		    //返回到授权登录界面,查看是否会显示账号名称(截图对比)
-		    AppOperate.sendKeyEvent(4, "返回到授权登录界面", driver);
-			String photo2=ToolFunctions.getRandomstring(1);
-			screenCapCompare(driver, photo2);
-			System.out.println("图片1名称:"+photo1+"图片2名称:"+photo2);
-			Assert.assertFalse(compareimage.sameAs(FileOperate.getScreencapFilePath()+File.separator+photo2+".png", FileOperate.getScreencapFilePath()+File.separator+photo1+".png", 0.999), "授权登录后授权界面还显示未登录");
-			
-			//返回到个人信息界面截图对比
-		    AppOperate.sendKeyEvent(4, "返回到授权登录界面", driver);
-			
-			//返回到我的界面截图对比
-			AppOperate.sendKeyEvent(4, "返回到授权登录界面", driver);
-			String photo6=ToolFunctions.getRandomstring(1);
-			screenCapCompare(driver, photo6);
-			Assert.assertFalse(compareimage.sameAs(FileOperate.getScreencapFilePath()+File.separator+photo5+".png", FileOperate.getScreencapFilePath()+File.separator+photo6+".png", 0.97), "授权登录后我的界面不显示三方头像和名称");
-			
-			}
-		   	else
-		   		{
-		   			Log.logInfo(clickname1+"已绑定");
-		   		}
-			
-			
+				}
 		
+
 		}
 		else
 		{
@@ -875,7 +864,7 @@ public class Personcenter extends TestcaseFrame{
 		 AppOperate.tapByadb(189, 1060);
          //选择从相册添加
 		 AppOperate.tapByadb(542,1711);
-          driver.context("NATIVE_APP");
+		 driver.context(ToolFunctions.nativecontext(driver)); 
 		 //判断相册图片是否为空s
 		 try
 		 {
@@ -886,7 +875,7 @@ public class Personcenter extends TestcaseFrame{
 			 Log.logInfo("相册中图片为空！！");
 		 }
 		 AppOperate.click(driver.findElement(By.id("com.miui.gallery:id/pick_num_indicator")), "选中一张照片");
-		 driver.context("WEBVIEW");
+		 driver.context(ToolFunctions.h5context(driver)); 
 		 //判断是否有添加一张图片
 		 Assert.assertTrue(driver.findElement(By.className("feedback-img")).isDisplayed());
 	
@@ -897,10 +886,9 @@ public class Personcenter extends TestcaseFrame{
 		 newSleep(1);
 		 //点击提交按扭
 		 AppOperate.tapByadb(526, 1851);
-		 driver.context("NATIVE_APP");
-		 Assert.assertTrue(driver.findElement(By.id("com.orvibo.homemate:id/title_text")).isDisplayed());
-		 
-			
+		 Assert.assertTrue(driver.findElement(By.className("send")).isDisplayed());
+         
+
 	}
 	
 		
@@ -932,15 +920,11 @@ public class Personcenter extends TestcaseFrame{
 	@AfterMethod(alwaysRun=true)
 	public void tearDown(){
 		//关闭appium 资源
-		Log.logInfo("**********");
-	//	thread.setexit(true);
+		aftertest();
 		driver.quit();
-		
-		
 	
-		
 	}
-	
+
 
 	public static void main(String[] args)
 	{
