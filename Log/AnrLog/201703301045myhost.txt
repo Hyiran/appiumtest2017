@@ -1,0 +1,1777 @@
+--------- beginning of main
+
+03-30 10:44:39.645 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [store],
+
+03-30 10:44:39.683 20981 21134 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:106
+
+03-30 10:44:39.685 20981 21134 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,0,6a,64,6b,d6,bf,1b,76,38,66,36,37,63,61,62,32,39,64,32,38,34,37,30,30,62,37,38,64,34,61,30,38,62,38,32,61,65,65,37,34,41,4c,17,b3,6,34,65,3,b8,8b,14,92,4c,50,b9,59,de,42,ac,ab,14,37,4,c5,ee,69,d,1,71,ba,17,8d,29,ab,78,52,25,f7,56,ee,8,f5,48,a3,5a,fa,49,24,d1,f7,f8,7b,39,28,a2,7,61,f2,62,bb,c,76,fa,f3
+
+03-30 10:44:39.696 20981 21135 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:D6BF1B76,sessionId:8f67cab29d284700b78d4a08b82aee74,jsonLen:64,ip:192.168.2.242,port:10001
+
+03-30 10:44:39.697 20981 21135 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"serial":1439854343,"deviceList":"[]","cmd":66,"status":0}]
+
+03-30 10:44:39.697 20925 20925 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8004664a; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:44:39.706 20981 21135 D HomeMate: comm[ pool-5-thread-1: ProcessPayload.java:3044 parseJson2DeviceList() ] - count = 0
+
+03-30 10:44:39.719  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:39.719  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:39.719  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:39.719  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997448
+
+03-30 10:44:39.725 20981 20981 D HomeMate: comm[ main: QueryUnbinds.java:98 onEventMainThread() ] - QueryUnbinds.onEventMainThread event.getDeviceUnbindList() = []
+
+03-30 10:44:39.725 20981 20981 D HomeMate: comm[ main: QueryUnbinds.java:99 onEventMainThread() ] - QueryUnbinds onEventMainThread configAp:false
+
+03-30 10:44:39.725 20981 20981 D HomeMate: comm[ main: BaseRequest.java:511 stopRequest() ] -  Stop request com.orvibo.homemate.device.searchdevice.SearchDevice$2@216327c
+
+03-30 10:44:39.765 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 [insert] ,, isSuccess:true,ret,2276,
+
+03-30 10:44:39.765 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 [insert] ,, isSuccess:true,ret,2277,
+
+03-30 10:44:39.771 20925 20925 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8004664a; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:44:39.776 20925 20925 D InteractionController: clickAndSync(945, 1887)
+
+--------- beginning of system
+
+03-30 10:44:39.777  2044  4142 D SystemSettings: Want to modify SystemSettings? See MiuiSettings.System.PUBLIC_SETTINGS
+
+03-30 10:44:39.777  2044  4142 W SettingsProvider: You shouldn't keep your settings in the secure settings. This will soon become an error.
+
+03-30 10:44:39.857   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:39.896 20981 20981 D HomeMate: comm[ main: MainActivity.java:116 onClick() ] - android.widget.RelativeLayout{3e03d41 VFE...C.. ...P.... 810,0-1080,154 #7f0d0780 app:id/tab_rl}
+
+03-30 10:44:39.924 20981 20981 D HomeMate: comm[ main: MainActivity.java:132 onTabChanged() ] - tabId:我的
+
+03-30 10:44:39.927 20981 20981 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-30 10:44:39.976 20981 20981 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - PersonalFragment
+
+03-30 10:44:39.976 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:97 onCreateView() ] - onCreateView()
+
+03-30 10:44:39.980 20981 20981 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@5374b7b
+
+03-30 10:44:39.980 20981 20981 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@daccd98
+
+03-30 10:44:40.042 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:204 refresh() ] - refresh()-appUserName:15079034630@126.com,userId:91a31ba24648493aad89636922662c04
+
+03-30 10:44:40.044 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:206 refresh() ] - refresh(0)-account:Account{userId='91a31ba24648493aad89636922662c04', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1490702387000', createTime='1490603889000', updateTimeSec=0, uid='null', userName='ahdhhddhhd'}
+
+03-30 10:44:40.051 20981 20981 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=8f67cab29d284700b78d4a08b82aee74&userName=15079034630@126.com
+
+03-30 10:44:40.056 20981 20981 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"27f7966430774a06a322d6bc0445be2b","url":null}
+
+03-30 10:44:40.058 20981 20981 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-30 10:44:40.062  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:44:40.064 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:144 setHubView() ] - hub uid :[007e56121206]
+
+03-30 10:44:40.067 20981 20981 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-30 10:44:40.075  2044  3620 D WifiStateMachine: starting scan for "56.1_neiwang"-WPA_PSK with 5280,2412
+
+03-30 10:44:40.076  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5280,2412'
+
+03-30 10:44:40.076  3745  3745 D wpa_supplicant: Pending scan scheduled - reject new request
+
+03-30 10:44:40.076  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=10
+
+03-30 10:44:40.116 20981 20981 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-30 10:44:40.116 20981 20981 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170328/b1c9f1c967da46dfa5aa9d21991fb39f.jpg","errorCode":0}
+
+03-30 10:44:40.116 20981 20981 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-30 10:44:40.116 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:397 onGetAccountIconResult() ] - 
+
+03-30 10:44:40.130 20981 20981 D HomeMate: comm[ main: MainActivity.java:335 onRefresh() ] - mainRefreshType:1
+
+03-30 10:44:40.130 20981 20981 D HomeMate: comm[ main: MainActivity.java:255 refreshCurrentFragment() ] - Current tag is 我的,PersonalFragment{193ed74 #2 id=0x7f0d0299 我的},mainRefreshType:1
+
+03-30 10:44:40.131 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:204 refresh() ] - refresh()-appUserName:15079034630@126.com,userId:91a31ba24648493aad89636922662c04
+
+03-30 10:44:40.134 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:206 refresh() ] - refresh(0)-account:Account{userId='91a31ba24648493aad89636922662c04', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1490702387000', createTime='1490603889000', updateTimeSec=0, uid='null', userName='ahdhhddhhd'}
+
+03-30 10:44:40.139 20981 20981 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=8f67cab29d284700b78d4a08b82aee74&userName=15079034630@126.com
+
+03-30 10:44:40.140 20981 20981 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"27f7966430774a06a322d6bc0445be2b","url":null}
+
+03-30 10:44:40.142 20981 20981 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-30 10:44:40.144 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:144 setHubView() ] - hub uid :[007e56121206]
+
+03-30 10:44:40.146 20981 20981 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-30 10:44:40.263 20981 20981 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-30 10:44:40.264 20981 20981 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170328/b1c9f1c967da46dfa5aa9d21991fb39f.jpg","errorCode":0}
+
+03-30 10:44:40.264 20981 20981 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-30 10:44:40.265 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:397 onGetAccountIconResult() ] - 
+
+03-30 10:44:40.403  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:44:40.403  3745  3745 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-30 10:44:40.403  3745  3745 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-30 10:44:40.403  3745  3745 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+
+03-30 10:44:40.403  3745  3745 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-30 10:44:40.404  3745  3745 D wpa_supplicant: wlan0: Scan completed in 2.195346 seconds
+
+03-30 10:44:40.404  3745  3745 D wpa_supplicant: nl80211: Associated on 5280 MHz
+
+03-30 10:44:40.404  3745  3745 D wpa_supplicant: nl80211: Associated with cc:81:da:9c:13:28
+
+03-30 10:44:40.404  3745  3745 D wpa_supplicant: nl80211: Received scan results (26 BSSes)
+
+03-30 10:44:40.404  3745  3745 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:9c:13:28 as associated
+
+03-30 10:44:40.404  3745  3745 D wpa_supplicant: wlan0: BSS: Start scan result update 5278
+
+03-30 10:44:40.410  3745  3745 D wpa_supplicant: wlan0: BSS: Add new id 8636 BSSID d4:68:ba:0b:d4:33 SSID 'BD_guest'
+
+03-30 10:44:40.410  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=43
+
+03-30 10:44:40.411  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:44:40.411  3745  3745 D wpa_supplicant: wlan0: BSS: Remove id 8628 BSSID d0:ee:07:3f:27:1c SSID 'zhanting_5G' due to no match in scan
+
+03-30 10:44:40.411  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=45
+
+03-30 10:44:40.411  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:44:40.411  3745  3745 D wpa_supplicant: BSS: last_scan_res_used=26/64
+
+03-30 10:44:40.411  3745  3745 D wpa_supplicant: wlan0: Scan-only results received
+
+03-30 10:44:40.412  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-30 10:44:40.412  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:44:40.412  3745  3745 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 2.207125 seconds
+
+03-30 10:44:40.418  3745  3745 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-30 10:44:40.421  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3529
+
+03-30 10:44:40.426  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3598
+
+03-30 10:44:40.428  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3955
+
+03-30 10:44:40.431  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3915
+
+03-30 10:44:40.434  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3254
+
+03-30 10:44:40.436  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3503
+
+03-30 10:44:40.437  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=1728
+
+03-30 10:44:40.458  3745  3745 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-30 10:44:40.458  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=279
+
+03-30 10:44:40.461  2044  2078 I WhetstoneClientManager: pid = 2465, uid = 10144 is frozen, not allowed Broadcast
+
+03-30 10:44:40.462  2044  2078 V BroadcastQueueInjector: Skipping BroadcastRecord{701f9dc u-1 android.net.wifi.SCAN_RESULTS} to ProcessRecord{8fb4531 2465:com.tencent.android.qqdownloader:daemon/u0a144}
+
+03-30 10:44:40.462  2044  2078 D Whetstone-FW: MiuiLog-Whetstone-BroadcastControl BroadcastRecord{701f9dc u-1 android.net.wifi.SCAN_RESULTS} is discarded
+
+03-30 10:44:40.478  4229 32604 I StepsProvider: Steps Provider Query
+
+03-30 10:44:40.590  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:40.592  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:40.720  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:40.720  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:40.720  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:40.720  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999992760
+
+03-30 10:44:40.858   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:40.998 20925 20925 I QueryController: Matched selector: UiSelector[TEXT=我的主机] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8004f4f0; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 1094 - 352, 1153); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的主机; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:44:41.036 20925 20925 I QueryController: Matched selector: UiSelector[TEXT=我的主机] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8004f4f0; boundsInParent: Rect(0, 0 - 176, 59); boundsInScreen: Rect(176, 1094 - 352, 1153); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的主机; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:44:41.042 20925 20925 D InteractionController: clickAndSync(264, 1123)
+
+03-30 10:44:41.132 20981 21276 D HomeMate: comm[ AsyncTask #1: OrviboUpdateAgent.java:259 doInBackground() ] - result =﻿{  "oldVersion": 90,  "day": "7",  "version": 22000302 ,  "name": "HomeMate",  "packagename":"com.orvibo.homemate",  "url": "http://firmware.orvibo.com/androidapk/homemate.apk",  "message": "修复BUG，提升稳定�?��??",  "message_en": "Bug fixes and overall performance improvements.",  "size": ""}
+
+03-30 10:44:41.140 20981 20981 E HomeMate: comm[ main: OrviboUpdateAgent.java:311 onPostExecute() ] - localVersionCode=23000300
+
+03-30 10:44:41.144 20981 20981 D HomeMate: comm[ main: MainPresenter.java:331 onUpdateReturned() ] - isCanUpdate:false,responseInfos:{packagename=com.orvibo.homemate, oldVersion=90, size=, url=http://firmware.orvibo.com/androidapk/homemate.apk, version=22000302, name=HomeMate, day=7, message=修复BUG，提升稳定�?��??, message_en=Bug fixes and overall performance improvements.}
+
+03-30 10:44:41.144 20981 20981 D HomeMate: comm[ main: MainActivity.java:176 setTabReadTip() ] - showRedTip:false,position:3
+
+03-30 10:44:41.190 20981 20981 D HomeMate: comm[ main: ProductManage.java:534 isHub() ] - uid:007e56121206,model:Hub002,wifiFlagMinhub[3]
+
+03-30 10:44:41.191 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:331 onClick() ] - Device{uid=007e56121206, deviceName=Zigbee Mini网关, deviceId=null, appDeviceId=0, deviceType=45, roomId=null, company='null', delFlag=0, extAddr='192.168.80.198', endpoint=0, irDeviceId=null, sequence=0, model='Hub002', updateTime=0(1970-01-01 08:00:00), userName=null} 
+
+03-30 10:44:41.193 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:335 onClick() ] - gateway:Gateway{gatewayId='5f73d020e74340f685a8feda6de7b0f6', hardwareVersion='1.1.0', softwareVersion='1.4.1.8', staticServerPort=10001, staticServerIP='119.29.42.11', domainServerPort=10001, versionID=50, domainName='homemate.orvibo.com', localStaticIP='192.168.80.198', localGateway='192.168.80.255', localNetMask='255.255.255.0', dhcpMode=0, model='Hub002', homeName='Zigbee Mini网关', timeZone='8', dst=0, channel=25, panID=0, externalPanID=0, securityKey='', password='62F115C83445DC74D8414932939D3B24', uploadUser='null', activatedState=0, masterSlaveFlag=0, coordinatorVersion='2.1.22', systemVersion='2.3.0'} BaseBo{delFlag=0, updateTime='1490604042000', createTime='1490603975000', updateTimeSec=0, uid='007e56121206', userName='15079034630@126.com'}
+
+03-30 10:44:41.194 20981 20981 D HomeMate: comm[ main: PersonalFragment.java:336 onClick() ] - Device{uid=007e56121206, deviceName=Zigbee Mini网关, deviceId=null, appDeviceId=0, deviceType=45, roomId=null, company='null', delFlag=0, extAddr='192.168.80.198', endpoint=0, irDeviceId=null, sequence=0, model='Hub002', updateTime=0(1970-01-01 08:00:00), userName=null} 
+
+03-30 10:44:41.194 20981 20981 I Timeline: Timeline: Activity_launch_request time:337971974
+
+03-30 10:44:41.224  2044  4283 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.device.manage.edit.DeviceInfoActivity (has extras)} from uid 10143 on display 0
+
+03-30 10:44:41.228  4513  4642 W Metok_Tag: < metok_app > invalid network operator 
+
+03-30 10:44:41.232  4229  4367 D WtProcessController: onAMCreateActivity callback
+
+03-30 10:44:41.235  4229  4367 D WtProcessController: onAMPauseActivity callback
+
+03-30 10:44:41.269 20981 20981 D UTAnalytics:UTDC: pid:20981 [commit] page:Main,eventId:2001,arg1:Launch,arg2:arg3:4152,args:{SDKTYPE=mini},
+
+03-30 10:44:41.276 20981 20981 D UTAnalytics:UTLog: pid:20981 Log [id=0, eventId=2001, index=],867451020054497||460015796275061||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.300||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1490841874548||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1490841881270||Main||2001||Launch||-||4152||-,
+
+03-30 10:44:41.277 20981 20981 D UTAnalytics:LogStoreMgr: pid:20981 [add] :,
+
+03-30 10:44:41.280 20981 20981 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - MainActivity
+
+03-30 10:44:41.283  4229  4367 D WtProcessController: onAMRestartActivity callback
+
+03-30 10:44:41.285  2044  3807 I Timeline: Timeline: App_transition_ready time:337972065
+
+03-30 10:44:41.293  4513  4642 W Metok_Tag: < metok_app > invalid network operator 
+
+03-30 10:44:41.304 20981 20981 D HomeMate: comm[ main: BaseActivity.java:127 onCreate() ] - onCreate:DeviceInfoActivity
+
+03-30 10:44:41.305 20981 20981 D HomeMate: allen[ main: ActivityManager.java:47 pushActivity() ] - pushActivity:com.orvibo.homemate.device.manage.edit.DeviceInfoActivity@bd9308d
+
+03-30 10:44:41.338 20981 20981 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@bfc96a7
+
+03-30 10:44:41.338 20981 20981 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@c9d3754
+
+03-30 10:44:41.375 20981 20981 D HomeMate: comm[ main: DeviceInfoActivity.java:84 init() ] - gateway:Gateway{gatewayId='5f73d020e74340f685a8feda6de7b0f6', hardwareVersion='1.1.0', softwareVersion='1.4.1.8', staticServerPort=10001, staticServerIP='119.29.42.11', domainServerPort=10001, versionID=50, domainName='homemate.orvibo.com', localStaticIP='192.168.80.198', localGateway='192.168.80.255', localNetMask='255.255.255.0', dhcpMode=0, model='Hub002', homeName='Zigbee Mini网关', timeZone='8', dst=0, channel=25, panID=0, externalPanID=0, securityKey='', password='62F115C83445DC74D8414932939D3B24', uploadUser='null', activatedState=0, masterSlaveFlag=0, coordinatorVersion='2.1.22', systemVersion='2.3.0'} BaseBo{delFlag=0, updateTime='1490604042000', createTime='1490603975000', updateTimeSec=0, uid='007e56121206', userName='15079034630@126.com'}
+
+03-30 10:44:41.376 20981 20981 D HomeMate: comm[ main: DeviceInfoActivity.java:85 init() ] - device:Device{uid=007e56121206, deviceName=Zigbee Mini网关, deviceId=null, appDeviceId=0, deviceType=45, roomId=null, company='null', delFlag=0, extAddr='192.168.80.198', endpoint=0, irDeviceId=null, sequence=0, model='Hub002', updateTime=0(1970-01-01 08:00:00), userName=null} 
+
+03-30 10:44:41.434 20981 20981 D HomeMate: comm[ main: DeviceInfoActivity.java:140 init() ] - deviceDesc:{"deviceDescId":"020d0df61f1d5c9cf979967926992799","endpointSet":"","hostFlag":0,"model":"Hub002","picUrl":"http://firmware.orvibo.com/pic/device_500_infrared_host.png","productModel":"Null","source":"","wifiFlag":3,"createTime":"2016-01-01 00:00:00","delFlag":0,"updateTime":"2017-03-23 21:26:59"}
+
+03-30 10:44:41.452 20981 20981 D HomeMate: comm[ main: DeviceInfoActivity.java:155 init() ] - deviceLanguage:{"dataId":"020d0df61f1d5c9cf979967926992799","defaultName":"","deviceLanguageId":"bee1308dd859ce9ba71e34772cd39800","language":"zh","manufacturer":"","productName":"ZigBee Mini网关","stepInfo":"","createTime":"2016-01-01 00:00:00","delFlag":0,"updateTime":"2017-03-23 21:26:59"}
+
+03-30 10:44:41.459 20981 20981 D HomeMate: comm[ main: BaseActivity.java:154 onResume() ] - DeviceInfoActivity
+
+03-30 10:44:41.459  4123  4123 W Binder_8: type=1400 audit(0.0:55210014): avc: denied { ioctl } for path="socket:[12169037]" dev="sockfs" ino=12169037 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:44:41.459  4123  4123 W Binder_8: type=1400 audit(0.0:55210015): avc: denied { ioctl } for path="socket:[12169037]" dev="sockfs" ino=12169037 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:44:41.465 20981 20981 D ActivityThreadInjector: clearCachedDrawables.
+
+03-30 10:44:41.482  2044  4283 I Timeline: Timeline: App_transition_ready time:337972262
+
+03-30 10:44:41.483  2044  4283 I Timeline: Timeline: App_transition_ready time:337972263
+
+03-30 10:44:41.515  2044  2115 I Timeline: Timeline: App_transition_ready time:337972295
+
+03-30 10:44:41.509  4123  4123 W Binder_8: type=1400 audit(0.0:55210016): avc: denied { ioctl } for path="socket:[12169293]" dev="sockfs" ino=12169293 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:44:41.509  4123  4123 W Binder_8: type=1400 audit(0.0:55210017): avc: denied { ioctl } for path="socket:[12169293]" dev="sockfs" ino=12169293 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:44:41.519  2044  2115 I ActivityManager: Displayed com.orvibo.homemate/.device.manage.edit.DeviceInfoActivity: +238ms
+
+03-30 10:44:41.519 28253 28253 I AppiumUnicodeIME: onFinishInput
+
+03-30 10:44:41.519 28253 28253 I AppiumUnicodeIME: onStartInput
+
+03-30 10:44:41.522  3746  3746 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-30 10:44:41.567 20981 21097 D OpenGLRenderer: endAllStagingAnimators on 0xa005fb80 (RippleDrawable) with handle 0x9fa717c0
+
+03-30 10:44:41.720  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:41.720  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:41.720  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:41.720  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999988698
+
+03-30 10:44:41.784  2044  2115 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2209ae5 u0 com.orvibo.homemate/.device.manage.edit.DeviceInfoActivity t17549} time:337972564
+
+03-30 10:44:41.788  2044  2115 I Timeline: Timeline: App_transition_stopped time:337972568
+
+03-30 10:44:41.797 20981 20981 D HomeMate: comm[ main: BaseActivity.java:215 onStop() ] - MainActivity
+
+03-30 10:44:41.859   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:42.076   379   472 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-30 10:44:42.078   379   516 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-30 10:44:42.078   379   516 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-30 10:44:42.080   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-30 10:44:42.081   379   516 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-30 10:44:42.081   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-30 10:44:42.081   379   516 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-30 10:44:42.082   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-30 10:44:42.082   379   516 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-30 10:44:42.082   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-30 10:44:42.083   379   516 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-30 10:44:42.636 20925 20945 I art     : Background sticky concurrent mark sweep GC freed 292889(15MB) AllocSpace objects, 0(0B) LOS objects, 92% free, 1213KB/16MB, paused 510us total 106.143ms
+
+03-30 10:44:42.720  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:42.720  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:42.720  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:42.720  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997500
+
+03-30 10:44:42.861   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:43.597  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:43.601  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:43.720  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:43.720  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:43.720  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:43.720  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996718
+
+03-30 10:44:43.862   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:44.722  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:44.722  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:44.722  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:44.722  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997447
+
+03-30 10:44:44.863   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:45.027   379   472 I ThermalEngine: Sensor:tsens_tz_sensor5:56000 mC
+
+03-30 10:44:45.028   379   516 I ThermalEngine: Sensor:tsens_tz_sensor5:56000 mC
+
+03-30 10:44:45.028   379   516 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm raised 1 at 56.0 degC
+
+03-30 10:44:45.029   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 1728000
+
+03-30 10:44:45.029   379   516 I ThermalEngine: Mitigation:CPU[0]:1728000 Khz
+
+03-30 10:44:45.029   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 1728000
+
+03-30 10:44:45.029   379   516 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 1728000
+
+03-30 10:44:45.029   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 1728000
+
+03-30 10:44:45.029   379   516 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 1728000
+
+03-30 10:44:45.030   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 1728000
+
+03-30 10:44:45.030   379   516 I ThermalEngine: Mitigation:CPU[3]:1728000 Khz
+
+03-30 10:44:45.284   379   472 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-30 10:44:45.285   379   516 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-30 10:44:45.285   379   516 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-30 10:44:45.285   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-30 10:44:45.286   379   516 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-30 10:44:45.286   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-30 10:44:45.286   379   516 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-30 10:44:45.286   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-30 10:44:45.286   379   516 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-30 10:44:45.286   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-30 10:44:45.286   379   516 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-30 10:44:45.722  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:45.722  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:45.722  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:45.722  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997656
+
+03-30 10:44:45.864   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:46.141  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337976921 ,lux=7.347539
+
+03-30 10:44:46.280 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [store],
+
+03-30 10:44:46.298 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 [insert] ,, isSuccess:true,ret,2278,
+
+03-30 10:44:46.314  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337977094 ,lux=2.9390156
+
+03-30 10:44:46.480  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337977260 ,lux=11.021309
+
+03-30 10:44:46.609  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:46.622  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:46.650  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337977430 ,lux=5.1432776
+
+03-30 10:44:46.722  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:46.722  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:46.722  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:46.722  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999995416
+
+03-30 10:44:46.821  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337977601 ,lux=5.8780313
+
+03-30 10:44:46.866   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:46.994  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337977774 ,lux=8.0822935
+
+03-30 10:44:47.160  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337977940 ,lux=8.0822935
+
+03-30 10:44:47.330  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337978110 ,lux=22.042618
+
+03-30 10:44:47.723  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:47.723  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:47.723  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:47.723  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997708
+
+03-30 10:44:47.787  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:44:47.867   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:47.932 20981 21157 D HomeMate: hank[ Thread-44564: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:18
+
+03-30 10:44:47.949 20981 20981 D HomeMate: comm[ main: MainActivity.java:176 setTabReadTip() ] - showRedTip:true,position:3
+
+03-30 10:44:48.089 25810 25810 W AppWatcher: type=1400 audit(0.0:55210018): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:44:48.089 25810 25810 W AppWatcher: type=1400 audit(0.0:55210019): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:44:48.089 25810 25810 W AppWatcher: type=1400 audit(0.0:55210020): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:44:48.089 25810 25810 W AppWatcher: type=1400 audit(0.0:55210021): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:44:48.099 25810 25810 W AppWatcher: type=1400 audit(0.0:55210022): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.099 25810 25810 W AppWatcher: type=1400 audit(0.0:55210023): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210024): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210025): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210026): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210027): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210028): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210029): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210030): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.109 25810 25810 W AppWatcher: type=1400 audit(0.0:55210031): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.119 25810 25810 W AppWatcher: type=1400 audit(0.0:55210032): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.119 25810 25810 W AppWatcher: type=1400 audit(0.0:55210033): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.119 25810 25810 W AppWatcher: type=1400 audit(0.0:55210034): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.119 25810 25810 W AppWatcher: type=1400 audit(0.0:55210035): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.119 25810 25810 W AppWatcher: type=1400 audit(0.0:55210036): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.119 25810 25810 W AppWatcher: type=1400 audit(0.0:55210037): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.129 25810 25810 W AppWatcher: type=1400 audit(0.0:55210038): avc: denied { getattr } for path="/proc/64" dev="proc" ino=11961957 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.129 25810 25810 W AppWatcher: type=1400 audit(0.0:55210039): avc: denied { getattr } for path="/proc/65" dev="proc" ino=11961958 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.129 25810 25810 W AppWatcher: type=1400 audit(0.0:55210040): avc: denied { getattr } for path="/proc/66" dev="proc" ino=11961959 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.129 25810 25810 W AppWatcher: type=1400 audit(0.0:55210041): avc: denied { getattr } for path="/proc/67" dev="proc" ino=11961960 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.129 25810 25810 W AppWatcher: type=1400 audit(0.0:55210042): avc: denied { getattr } for path="/proc/68" dev="proc" ino=11961961 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.129 25810 25810 W AppWatcher: type=1400 audit(0.0:55210043): avc: denied { getattr } for path="/proc/69" dev="proc" ino=11961962 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.149 25810 25810 W AppWatcher: type=1400 audit(0.0:55210044): avc: denied { getattr } for path="/proc/70" dev="proc" ino=11961963 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.149 25810 25810 W AppWatcher: type=1400 audit(0.0:55210045): avc: denied { getattr } for path="/proc/71" dev="proc" ino=11961964 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55210046): avc: denied { getattr } for path="/proc/72" dev="proc" ino=11961965 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.169 25810 25810 W AppWatcher: type=1400 audit(0.0:55210047): avc: denied { getattr } for path="/proc/73" dev="proc" ino=11961966 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.179 25810 25810 W AppWatcher: type=1400 audit(0.0:55210048): avc: denied { getattr } for path="/proc/74" dev="proc" ino=11961967 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.179 25810 25810 W AppWatcher: type=1400 audit(0.0:55210049): avc: denied { getattr } for path="/proc/75" dev="proc" ino=11961968 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.179 25810 25810 W AppWatcher: type=1400 audit(0.0:55210050): avc: denied { getattr } for path="/proc/76" dev="proc" ino=11961969 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.179 25810 25810 W AppWatcher: type=1400 audit(0.0:55210051): avc: denied { getattr } for path="/proc/77" dev="proc" ino=11961970 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.179 25810 25810 W AppWatcher: type=1400 audit(0.0:55210052): avc: denied { getattr } for path="/proc/78" dev="proc" ino=11961971 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.179 25810 25810 W AppWatcher: type=1400 audit(0.0:55210053): avc: denied { getattr } for path="/proc/79" dev="proc" ino=11961972 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:44:48.521  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337979301 ,lux=26.451141
+
+03-30 10:44:48.690  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337979470 ,lux=8.0822935
+
+03-30 10:44:48.723  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:48.723  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:48.723  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:48.723  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997083
+
+03-30 10:44:48.860  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337979640 ,lux=9.551801
+
+03-30 10:44:48.868   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:49.030  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337979810 ,lux=5.1432776
+
+03-30 10:44:49.200  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337979980 ,lux=9.551801
+
+03-30 10:44:49.629  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:49.636  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:49.723  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:49.723  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:49.723  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:49.723  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997031
+
+03-30 10:44:49.869   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:50.351 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [store],
+
+03-30 10:44:50.362 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 20,
+
+03-30 10:44:50.363 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 pos,0,count,4,
+
+03-30 10:44:50.363 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 pos,1,count,4,
+
+03-30 10:44:50.363 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 pos,2,count,4,
+
+03-30 10:44:50.363 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 pos,3,count,4,
+
+03-30 10:44:50.372 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [get],[Log [id=2275, eventId=19999, index=], Log [id=2276, eventId=19999, index=], Log [id=2277, eventId=2001, index=], Log [id=2278, eventId=2001, index=]],
+
+03-30 10:44:50.373 20981 21074 D UTAnalytics:UploadTask: pid:20981 averagePackageSize:123.25,
+
+03-30 10:44:50.405  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:44:50.724  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:50.724  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:50.724  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:50.724  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999993072
+
+03-30 10:44:50.870   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:51.724  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:51.724  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:51.724  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:51.724  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996719
+
+03-30 10:44:51.872   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:52.191 20981 21074 D UTAnalytics:UploadTask: pid:20981 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.300&c=null&v=3.0&s=3b847850bb8c51d582c2ef92c99634de0ef418e4&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1490841890395&u=&is=1&k=0,
+
+03-30 10:44:52.191 20981 21074 D UTAnalytics:UploadTask: pid:20981 result:{"t":1490841889686,"ret":"","success":"success"}
+
+03-30 10:44:52.191 20981 21074 D UTAnalytics:UploadTask: ,
+
+03-30 10:44:52.191 20981 21074 D UTAnalytics:UploadTask: pid:20981 winsize:98,
+
+03-30 10:44:52.192 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [Log [id=2275, eventId=19999, index=], Log [id=2276, eventId=19999, index=], Log [id=2277, eventId=2001, index=], Log [id=2278, eventId=2001, index=]],
+
+03-30 10:44:52.271 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 delete ,4, isSuccess:true,
+
+03-30 10:44:52.271 20981 21074 D UTAnalytics:CoreStatics: pid:20981 [uploadInc]:0,count:4,
+
+03-30 10:44:52.271 20981 21074 D UTAnalytics:CoreStatics: pid:20981 [uploadInc]:4,
+
+03-30 10:44:52.271 20981 21074 D UTAnalytics:UploadTask: pid:20981 logs.size():4, selfMonitorLogCount:0,
+
+03-30 10:44:52.271 20981 21074 D UTAnalytics:UploadTask: pid:20981 upload isSendSuccess:true, consume:1819, delete consume:79,
+
+03-30 10:44:52.374  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:44:52.376  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:44:52.378  4223  4223 W BatteryChargeTimeHelper: Use max, leftChargeTime 7346673 maxChargeTime 4568000
+
+03-30 10:44:52.392  4223  4223 I PowerSaveService: Update connected notification, charging true
+
+03-30 10:44:52.396  2044  2044 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-30 10:44:52.400  3746 19055 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-30 10:44:52.401  3746  3746 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-30 10:44:52.402  3746  3746 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-30 10:44:52.414 20925 20947 V MiuiFeatureUtils: Loaded and parsed feature configure file successfully
+
+03-30 10:44:52.414 20925 20947 W MiuiFeatureUtils: Failed to get system feature DumpBitmapInfo
+
+03-30 10:44:52.646  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:52.662  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:52.724  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:52.724  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:52.724  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:52.724  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996511
+
+03-30 10:44:52.873   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:53.098  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:44:53.102  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:44:53.104  4223  4223 W BatteryChargeTimeHelper: Use max, leftChargeTime 7346673 maxChargeTime 4568000
+
+03-30 10:44:53.117  2044  2044 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-30 10:44:53.122  4223  4223 I PowerSaveService: Update connected notification, charging true
+
+03-30 10:44:53.123  3746  3778 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-30 10:44:53.123  3746  3746 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-30 10:44:53.124  3746  3746 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-30 10:44:53.724  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:53.725  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:53.725  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:53.725  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996354
+
+03-30 10:44:53.874   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:54.513 20981 21040 W System.err: 无法访问或网络不稳定
+
+03-30 10:44:54.513 20981 21040 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-30 10:44:54.514 20981 21040 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-30 10:44:54.515 20981 21040 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+03-30 10:44:54.515 20981 21040 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+03-30 10:44:54.516 20981 21040 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-30 10:44:54.517 20981 21040 W System.err: 	... 9 more
+
+03-30 10:44:54.725  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:54.725  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:54.725  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:54.725  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996875
+
+03-30 10:44:54.876   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:55.660  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337986440 ,lux=2.9390156
+
+03-30 10:44:55.667  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:55.681  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:55.725  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:55.725  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:55.725  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:55.725  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997500
+
+03-30 10:44:55.830  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337986610 ,lux=2.2042618
+
+03-30 10:44:55.877   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:44:56.000  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337986780 ,lux=5.1432776
+
+03-30 10:44:56.170  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337986950 ,lux=4.4085236
+
+03-30 10:44:56.341  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337987121 ,lux=5.1432776
+
+03-30 10:44:56.510  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337987290 ,lux=5.1432776
+
+03-30 10:44:56.562 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [store],
+
+03-30 10:44:56.572 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 98,
+
+03-30 10:44:56.580 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [get],[],
+
+03-30 10:44:56.585 20981 21074 D UTAnalytics:UploadEngine: pid:20981 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-30 10:44:56.588 20981 21074 D UTAnalytics:UploadTask: pid:20981 mPeriod:30000,
+
+03-30 10:44:56.684  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337987464 ,lux=6.6127853
+
+03-30 10:44:56.725  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:56.725  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:56.725  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:56.725  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997760
+
+03-30 10:44:56.878   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:57.219  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:44:57.221  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:44:57.223  4223  4223 W BatteryChargeTimeHelper: Use max, leftChargeTime 7346673 maxChargeTime 4568000
+
+03-30 10:44:57.240  2044  2044 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-30 10:44:57.244  4223  4223 I PowerSaveService: Update connected notification, charging true
+
+03-30 10:44:57.244  3746 19055 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-30 10:44:57.245  3746  3746 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-30 10:44:57.245  3746  3746 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-30 10:44:57.725  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:57.729  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:57.729  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:57.729  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999990104
+
+03-30 10:44:57.879   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:58.041  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337988821 ,lux=12.490817
+
+03-30 10:44:58.215  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337988995 ,lux=2.9390156
+
+03-30 10:44:58.380  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337989160 ,lux=6.6127853
+
+03-30 10:44:58.550  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337989330 ,lux=8.817047
+
+03-30 10:44:58.668  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:44:58.686  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:44:58.689  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:44:58.720  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337989500 ,lux=5.8780313
+
+03-30 10:44:58.725  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:58.726  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:58.726  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:58.726  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996718
+
+03-30 10:44:58.880   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:44:58.890  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337989670 ,lux=4.4085236
+
+03-30 10:44:59.060  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337989840 ,lux=3.6737695
+
+03-30 10:44:59.232  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337990012 ,lux=10.286555
+
+03-30 10:44:59.401  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337990181 ,lux=11.7560625
+
+03-30 10:44:59.571 20981 21074 D UTAnalytics:CommitTask: pid:20981 check&commit event:65501,
+
+03-30 10:44:59.579 20981 21074 D UTAnalytics:CommitTask: pid:20981 next:65501,
+
+03-30 10:44:59.588 20981 21074 D UTAnalytics:CommitTask: pid:20981 check&commit event:65502,
+
+03-30 10:44:59.589 20981 21074 D UTAnalytics:CommitTask: pid:20981 next:65502,
+
+03-30 10:44:59.589 20981 21074 D UTAnalytics:CommitTask: pid:20981 check&commit event:65503,
+
+03-30 10:44:59.589 20981 21074 D UTAnalytics:CommitTask: pid:20981 next:65503,
+
+03-30 10:44:59.727  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:44:59.727  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:44:59.727  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:44:59.727  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996250
+
+03-30 10:44:59.884   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:00.077  2044  3620 D WifiStateMachine: starting scan for "56.1_neiwang"-WPA_PSK with 5280,2412
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5280,2412'
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d9398
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d9398 after 0.000058 second wait
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-30 10:45:00.077  3745  3745 D wpa_supplicant: nl80211: Scan frequency 2412 MHz
+
+03-30 10:45:00.078  3745  3745 D wpa_supplicant: nl80211: Scan frequency 5280 MHz
+
+03-30 10:45:00.090  4229  4367 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 20981 Uid: 10143 Start by: activity Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1490841881235 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 2 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10143 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:17549}
+
+03-30 10:45:00.091  3745  3745 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-30 10:45:00.091  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:45:00.091  3745  3745 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-30 10:45:00.091  3745  3745 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-30 10:45:00.091  3745  3745 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-30 10:45:00.092  3745  3745 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000156 seconds
+
+03-30 10:45:00.092  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-30 10:45:00.092  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:00.143  4229  4367 W WtProcessController: do not trim { PackageName :com.miui.home Pid: 4268 Uid: 10019 Start by: unknown Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1490841872611 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 1 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.miui.home uid:10019 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:-2147483392,0x80000100 [,APP_SYSTEM] Type:0[] } tasknum:17548}
+
+03-30 10:45:00.168   379   472 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-30 10:45:00.169   379   516 I ThermalEngine: Sensor:tsens_tz_sensor5:55000 mC
+
+03-30 10:45:00.169   379   516 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm raised 1 at 55.0 degC
+
+03-30 10:45:00.171   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 1728000
+
+03-30 10:45:00.173   379   516 I ThermalEngine: Mitigation:CPU[0]:1728000 Khz
+
+03-30 10:45:00.173   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 1728000
+
+03-30 10:45:00.173   379   516 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 1728000
+
+03-30 10:45:00.173   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 1728000
+
+03-30 10:45:00.174   379   516 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 1728000
+
+03-30 10:45:00.174   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 1728000
+
+03-30 10:45:00.174   379   516 I ThermalEngine: Mitigation:CPU[3]:1728000 Khz
+
+03-30 10:45:00.208  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:45:00.208  3745  3745 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-30 10:45:00.208  3745  3745 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-30 10:45:00.208  3745  3745 D wpa_supplicant: nl80211: Scan included frequencies: 2412 5280
+
+03-30 10:45:00.208  3745  3745 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-30 10:45:00.208  3745  3745 D wpa_supplicant: wlan0: Scan completed in 0.116942 seconds
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: nl80211: Associated on 5280 MHz
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: nl80211: Associated with cc:81:da:9c:13:28
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: nl80211: Received scan results (26 BSSes)
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:9c:13:28 as associated
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: wlan0: BSS: Start scan result update 5279
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: wlan0: BSS: Remove id 8635 BSSID 20:a6:80:6c:2d:c0 SSID 'HUAWEI' due to no match in scan
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=45
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: wlan0: BSS: Remove id 8626 BSSID 20:76:93:24:bd:70 SSID 'wukong222' due to no match in scan
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=45
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: BSS: last_scan_res_used=26/64
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: wlan0: Scan-only results received
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-30 10:45:00.209  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:00.212  3745  3745 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 0.134282 seconds
+
+03-30 10:45:00.212  3745  3745 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-30 10:45:00.214  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3529
+
+03-30 10:45:00.225  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3598
+
+03-30 10:45:00.228  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3955
+
+03-30 10:45:00.234  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3915
+
+03-30 10:45:00.238  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3850
+
+03-30 10:45:00.240  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3069
+
+03-30 10:45:00.250  4229  4367 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 21102 Uid: 10143 Start by: service Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1490841881236 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 0 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10143 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:-1}
+
+03-30 10:45:00.264  3745  3745 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-30 10:45:00.264  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=279
+
+03-30 10:45:00.361   379   472 I ThermalEngine: Sensor:tsens_tz_sensor5:49000 mC
+
+03-30 10:45:00.361   379   516 I ThermalEngine: Sensor:tsens_tz_sensor5:49000 mC
+
+03-30 10:45:00.361   379   516 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 49.0 degC
+
+03-30 10:45:00.363   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-30 10:45:00.363   379   516 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-30 10:45:00.363   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-30 10:45:00.364   379   516 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-30 10:45:00.364   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-30 10:45:00.364   379   516 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-30 10:45:00.364   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-30 10:45:00.365   379   516 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-30 10:45:00.727  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:00.727  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:00.727  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:00.727  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996094
+
+03-30 10:45:00.885   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:01.271  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337992050 ,lux=9.551801
+
+03-30 10:45:01.440  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337992220 ,lux=10.286555
+
+03-30 10:45:01.610  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=337992390 ,lux=10.286555
+
+03-30 10:45:01.694  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:01.697  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:01.727  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:01.727  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:01.727  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:01.727  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996666
+
+03-30 10:45:01.886   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:02.588  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:45:02.591  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:45:02.595  4223  4223 W BatteryChargeTimeHelper: Use max, leftChargeTime 7346673 maxChargeTime 4568000
+
+03-30 10:45:02.607  2044  2044 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-30 10:45:02.612  4223  4223 I PowerSaveService: Update connected notification, charging true
+
+03-30 10:45:02.615  3746  3798 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-30 10:45:02.615  3746  3746 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-30 10:45:02.616  3746  3746 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-30 10:45:02.728  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:02.728  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:02.728  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:02.728  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991042
+
+03-30 10:45:02.887   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:03.681  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:45:03.728  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:03.728  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:03.728  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:03.728  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996302
+
+03-30 10:45:03.888   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:04.704  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:04.719  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:04.728  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:04.728  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:04.728  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:04.728  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997656
+
+03-30 10:45:04.890   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:05.145 20925 20945 I art     : Background sticky concurrent mark sweep GC freed 289391(16MB) AllocSpace objects, 0(0B) LOS objects, 93% free, 1185KB/17MB, paused 496us total 102.429ms
+
+03-30 10:45:05.728  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:05.728  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:05.728  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:05.728  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994739
+
+03-30 10:45:05.891   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:06.182  4116  4556 I XiaomiFirewall: firewall pkgName:com.qihoo.appstore, result:0x0
+
+03-30 10:45:06.728  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:06.728  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:06.728  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:06.728  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999995938
+
+03-30 10:45:06.892   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:07.726  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:07.728  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:07.729  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:07.729  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:07.729  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996979
+
+03-30 10:45:07.740  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:07.893   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:08.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55210286): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:45:08.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55210287): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:45:08.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55210288): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:45:08.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55210289): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:45:08.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55210290): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210291): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210292): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210293): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210294): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210295): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210296): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210297): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55210298): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210299): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210300): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210301): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210302): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210303): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210304): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55210305): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:08.729  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:08.729  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:08.729  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:08.729  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999993854
+
+03-30 10:45:08.894   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:09.517 20981 21050 D NAT     : SYMMETRIC_NAT
+
+03-30 10:45:09.518 20981 21050 D NAT     : call void method before
+
+03-30 10:45:09.519 20981 21050 D NAT     : call void method after
+
+03-30 10:45:09.729  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:09.729  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:09.729  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:09.729  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997552
+
+03-30 10:45:09.895   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:10.730  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:10.730  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:10.730  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:10.730  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994948
+
+03-30 10:45:10.748  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:10.764  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:10.896   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:11.641  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338002421 ,lux=9.551801
+
+03-30 10:45:11.730  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:11.730  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:11.730  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:11.730  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996250
+
+03-30 10:45:11.810  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338002590 ,lux=2.9390156
+
+03-30 10:45:11.897   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:11.981  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338002761 ,lux=2.9390156
+
+03-30 10:45:12.151  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338002930 ,lux=8.0822935
+
+03-30 10:45:12.320  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338003100 ,lux=5.8780313
+
+03-30 10:45:12.490  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338003270 ,lux=10.286555
+
+03-30 10:45:12.660  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338003440 ,lux=18.368849
+
+03-30 10:45:12.730  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:12.730  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:12.730  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:12.730  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999995261
+
+03-30 10:45:12.898   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:13.511  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338004291 ,lux=4.4085236
+
+03-30 10:45:13.680  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338004460 ,lux=5.8780313
+
+03-30 10:45:13.733  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:13.733  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:13.733  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:13.733  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994792
+
+03-30 10:45:13.770  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:13.785  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:13.900   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:14.734  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:14.734  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:14.734  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:14.734  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997187
+
+03-30 10:45:14.903   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:15.677  4569  7585 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-30 10:45:15.677  4569  7585 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+03-30 10:45:15.678  4569  7585 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+03-30 10:45:15.720  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338006500 ,lux=11.021309
+
+03-30 10:45:15.734  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:15.734  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:15.734  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:15.734  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996875
+
+03-30 10:45:15.891  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338006671 ,lux=3.6737695
+
+03-30 10:45:15.911   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:16.060  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338006840 ,lux=3.6737695
+
+03-30 10:45:16.132  4569  7585 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-30 10:45:16.133  4569  7585 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+03-30 10:45:16.133  4569  7585 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-30 10:45:16.148  4569  7585 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-30 10:45:16.148  4569  7585 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+03-30 10:45:16.148  4569  7585 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-30 10:45:16.231  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338007011 ,lux=8.817047
+
+03-30 10:45:16.400  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338007180 ,lux=8.0822935
+
+03-30 10:45:16.736  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:16.736  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:16.736  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:16.736  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997031
+
+03-30 10:45:16.791  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:16.810  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:16.912   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:17.591  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338008371 ,lux=51.432777
+
+03-30 10:45:17.736  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:17.736  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:17.736  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:17.736  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996511
+
+03-30 10:45:17.761  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338008540 ,lux=9.551801
+
+03-30 10:45:17.913   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:17.930  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338008710 ,lux=6.6127853
+
+03-30 10:45:18.104  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338008884 ,lux=11.021309
+
+03-30 10:45:18.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55210554): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:45:18.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55210555): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:45:18.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55210556): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:45:18.619 25810 25810 W AppWatcher: type=1400 audit(0.0:55210557): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210558): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210559): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210560): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210561): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210562): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210563): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210564): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55210565): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210566): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210567): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210568): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210569): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210570): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210571): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210572): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.649 25810 25810 W AppWatcher: type=1400 audit(0.0:55210573): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:18.673  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:45:18.676  4223  4223 I PowerUtils: Device name:virgo
+
+03-30 10:45:18.679  4223  4223 W BatteryChargeTimeHelper: Use max, leftChargeTime 7346673 maxChargeTime 4568000
+
+03-30 10:45:18.697  4223  4223 I PowerSaveService: Update connected notification, charging true
+
+03-30 10:45:18.698  2044  2044 V NotificationService: pkg=com.miui.securitycenter canInterrupt=true intercept=true
+
+03-30 10:45:18.701  3746  5558 D StatusBar: onNotificationPosted:  Key: 0|com.miui.securitycenter|2131296947|null|1000 GroupKey: 0|com.miui.securitycenter|2131296947|null|1000 Connected: true
+
+03-30 10:45:18.701  3746  3746 D StatusBar:  GroupChild: false  GroupsContainsKey: false  IsUpdate: true IsGroupSummary: false hasIcon: true
+
+03-30 10:45:18.702  3746  3746 D PhoneStatusBar: updateNotification pkg=com.miui.securitycenter;id=2131296947
+
+03-30 10:45:18.736  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:18.736  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:18.736  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:18.736  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996198
+
+03-30 10:45:18.915   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:19.736  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:19.736  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:19.736  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:19.736  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996980
+
+03-30 10:45:19.814  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:19.829  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:19.916   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:20.078  2044  3620 D WifiStateMachine: starting scan for "56.1_neiwang"-WPA_PSK with 5280,2412
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5280,2412'
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d9398
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d9398 after 0.000057 second wait
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: nl80211: Scan frequency 2412 MHz
+
+03-30 10:45:20.079  3745  3745 D wpa_supplicant: nl80211: Scan frequency 5280 MHz
+
+03-30 10:45:20.092  3745  3745 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-30 10:45:20.092  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:45:20.092  3745  3745 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-30 10:45:20.092  3745  3745 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-30 10:45:20.093  3745  3745 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-30 10:45:20.093  3745  3745 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000170 seconds
+
+03-30 10:45:20.093  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-30 10:45:20.093  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Scan included frequencies: 2412 5280
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: wlan0: Scan completed in 0.119208 seconds
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Associated on 5280 MHz
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Associated with cc:81:da:9c:13:28
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Received scan results (27 BSSes)
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:9c:13:28 as associated
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: wlan0: BSS: Start scan result update 5280
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: wlan0: BSS: Add new id 8637 BSSID 20:76:93:24:bd:70 SSID 'wukong222'
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=43
+
+03-30 10:45:20.212  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:20.213  3745  3745 D wpa_supplicant: BSS: last_scan_res_used=27/64
+
+03-30 10:45:20.213  3745  3745 D wpa_supplicant: wlan0: Scan-only results received
+
+03-30 10:45:20.213  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=24
+
+03-30 10:45:20.213  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:45:20.213  3745  3745 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 0.133638 seconds
+
+03-30 10:45:20.213  3745  3745 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-30 10:45:20.222  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3529
+
+03-30 10:45:20.225  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3598
+
+03-30 10:45:20.227  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3955
+
+03-30 10:45:20.237  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3915
+
+03-30 10:45:20.241  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3850
+
+03-30 10:45:20.244  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3521
+
+03-30 10:45:20.273  3745  3745 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-30 10:45:20.273  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=279
+
+03-30 10:45:20.736  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:20.737  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:20.737  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:20.737  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997188
+
+03-30 10:45:20.918   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:21.737  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:21.737  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:21.737  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:21.737  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997291
+
+03-30 10:45:21.919   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:22.740  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:22.740  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:22.740  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:22.740  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996354
+
+03-30 10:45:22.834  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:22.849  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:22.921   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:23.740  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:23.740  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:23.740  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:23.740  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999990782
+
+03-30 10:45:23.923   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:24.600 20981 21074 D UTAnalytics:CommitTask: pid:20981 check&commit event:65501,
+
+03-30 10:45:24.609 20981 21074 D UTAnalytics:CommitTask: pid:20981 next:65501,
+
+03-30 10:45:24.609 20981 21074 D UTAnalytics:CommitTask: pid:20981 check&commit event:65502,
+
+03-30 10:45:24.609 20981 21074 D UTAnalytics:CommitTask: pid:20981 next:65502,
+
+03-30 10:45:24.624 20981 21074 D UTAnalytics:CommitTask: pid:20981 check&commit event:65503,
+
+03-30 10:45:24.624 20981 21074 D UTAnalytics:CommitTask: pid:20981 next:65503,
+
+03-30 10:45:24.730  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338015510 ,lux=12.490817
+
+03-30 10:45:24.740  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:24.740  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:24.740  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:24.740  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996094
+
+03-30 10:45:24.900  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338015680 ,lux=2.9390156
+
+03-30 10:45:24.925   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:25.070  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338015850 ,lux=6.6127853
+
+03-30 10:45:25.240  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338016020 ,lux=17.634094
+
+03-30 10:45:25.410  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338016190 ,lux=22.777372
+
+03-30 10:45:25.740  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:25.741  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:25.741  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:25.741  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996354
+
+03-30 10:45:25.856  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:25.870  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:25.920  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338016700 ,lux=83.76195
+
+03-30 10:45:25.926   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:26.090  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338016870 ,lux=70.53638
+
+03-30 10:45:26.260  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338017040 ,lux=78.61867
+
+03-30 10:45:26.430  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338017210 ,lux=78.61867
+
+03-30 10:45:26.591 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [store],
+
+03-30 10:45:26.600  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338017381 ,lux=83.0272
+
+03-30 10:45:26.610 20981 21074 D UTAnalytics:UTSqliteLogStore: pid:20981 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 98,
+
+03-30 10:45:26.617 20981 21074 D UTAnalytics:LogStoreMgr: pid:20981 [get],[],
+
+03-30 10:45:26.621 20981 21074 D UTAnalytics:UploadEngine: pid:20981 UTDC.bBackground:false,AppInfoUtil.isForeground(UTDC.getContext()) ,true,
+
+03-30 10:45:26.625 20981 21074 D UTAnalytics:UploadTask: pid:20981 mPeriod:30000,
+
+03-30 10:45:26.741  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:26.741  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:26.741  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:26.741  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999995781
+
+03-30 10:45:26.770  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338017550 ,lux=83.0272
+
+03-30 10:45:26.930   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:27.741  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:27.741  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:27.741  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:27.741  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991771
+
+03-30 10:45:27.793  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338018573 ,lux=95.51801
+
+03-30 10:45:27.932   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:27.960  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338018740 ,lux=7.347539
+
+03-30 10:45:28.130  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338018910 ,lux=2.2042618
+
+03-30 10:45:28.300  2044  2118 D AutomaticBrightnessController: drop the lightsensor event ,time=338019080 ,lux=7.347539
+
+03-30 10:45:28.741  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:28.741  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:28.741  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:28.741  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996823
+
+03-30 10:45:28.779 25810 25810 W AppWatcher: type=1400 audit(0.0:55210823): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:45:28.779 25810 25810 W AppWatcher: type=1400 audit(0.0:55210824): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:45:28.779 25810 25810 W AppWatcher: type=1400 audit(0.0:55210825): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:45:28.789 25810 25810 W AppWatcher: type=1400 audit(0.0:55210826): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:45:28.789 25810 25810 W AppWatcher: type=1400 audit(0.0:55210827): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.799 25810 25810 W AppWatcher: type=1400 audit(0.0:55210828): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.799 25810 25810 W AppWatcher: type=1400 audit(0.0:55210829): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.799 25810 25810 W AppWatcher: type=1400 audit(0.0:55210830): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.799 25810 25810 W AppWatcher: type=1400 audit(0.0:55210831): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.809 25810 25810 W AppWatcher: type=1400 audit(0.0:55210832): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.809 25810 25810 W AppWatcher: type=1400 audit(0.0:55210833): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.809 25810 25810 W AppWatcher: type=1400 audit(0.0:55210834): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.809 25810 25810 W AppWatcher: type=1400 audit(0.0:55210835): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.809 25810 25810 W AppWatcher: type=1400 audit(0.0:55210836): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.809 25810 25810 W AppWatcher: type=1400 audit(0.0:55210837): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.819 25810 25810 W AppWatcher: type=1400 audit(0.0:55210838): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.819 25810 25810 W AppWatcher: type=1400 audit(0.0:55210839): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.819 25810 25810 W AppWatcher: type=1400 audit(0.0:55210840): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.819 25810 25810 W AppWatcher: type=1400 audit(0.0:55210841): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.819 25810 25810 W AppWatcher: type=1400 audit(0.0:55210842): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:45:28.873  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:28.887  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:28.933   379   493 I ThermalEngine: Sensor:batt_temp:362 mC
+
+03-30 10:45:29.741  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:29.741  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:29.741  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:29.741  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999995365
+
+03-30 10:45:29.935   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:30.742  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:30.742  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:30.742  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:30.742  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999990989
+
+03-30 10:45:30.936   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:31.742  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:45:31.743  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:45:31.743  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:45:31.743  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999992188
+
+03-30 10:45:31.893  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:45:31.907  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:45:31.940   379   493 I ThermalEngine: Sensor:batt_temp:361 mC
+
+03-30 10:45:32.743  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1

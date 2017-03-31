@@ -1,5 +1,8 @@
 package com.oribo.common;
 
+/**
+ * 所有测试类应继承此类，一些公共的操作函数都放此，另外SQL查询语句也在这里
+ */
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -519,6 +522,7 @@ public class TestcaseFrame {
 					   		"'  and scene.delFlag=0 and family.familyId=scene.familyId and"
 						+ " family.familyName='"+familyname+"'";
 			   }
+			System.out.println(sql);
 			 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 			   try {  
 				   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -589,30 +593,33 @@ public class TestcaseFrame {
 	 /**
 	  * 判断是否有主机
 	  */
-		public  boolean  ifhashub() {
+		public  int  ifhashub() {
 			String sql=null;
+			List<String> modelidlist=new ArrayList<>();
 			String modelid=ReadExcel.readsimpledata(1, 1, 2);
+		
+			int count=0;
 			boolean flag=false;
+	
 			//服务器查询该账号是否有主机
 			if(getaccount().getLogingType()==Constant.LOGING_TYPE_EMAIL)
 			{
 				sql="select count(*) from account2,gateway,userGatewayBind where account2.email='"+TestcaseFrame.getaccount().getAccount()+
-					   		"'  and account2.userId=userGatewayBind.userId and userGatewayBind.uid=gateway.uid and gateway.model='"+modelid+"'";
+					   		"'  and account2.userId=userGatewayBind.userId and userGatewayBind.uid=gateway.uid and gateway.model='"+modelid+"' and account2.delFlag=0 and gateway.delFlag=0 and userGatewayBind.delFlag=0";
 			   }
 			else if(getaccount().getLogingType()==Constant.LOGING_TYPE_PHONE)
 			   {
 				sql="select count(*) from account2,gateway,userGatewayBind where account2.phone='"+TestcaseFrame.getaccount().getAccount()+
-				   		"'  and account2.userId=userGatewayBind.userId and userGatewayBind.uid=gateway.uid and gateway.model='"+modelid+"'";
+				   		"'  and account2.userId=userGatewayBind.userId and userGatewayBind.uid=gateway.uid and gateway.model='"+modelid+"' and account2.delFlag=0 and gateway.delFlag=0 and userGatewayBind.delFlag=0";
 			   }
+			System.out.println(sql);
 			 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 			   try {  
 				   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
 		           while (ret.next()) {
 		        	  //不为0代表有主机，检查我的界面是否显示我的主机
-		        	if(ret.getInt(1)!=0)
-		        	{   
-		        		flag=true;
-		        	}	           
+		        	count=ret.getInt(1);
+		        	           
 		           }//显示数据 
 		         
 		           ret.close();  
@@ -620,7 +627,8 @@ public class TestcaseFrame {
 		       } catch (SQLException e) {  
 		           e.printStackTrace();  
 		       }  
-		return flag;
+			
+		return count;
 		
 		}
 	 
@@ -682,6 +690,7 @@ public class TestcaseFrame {
 				 		+ " and room.floorId=floor.floorId and room.delFlag=0 and family.familyName='"+familyname+"'";
 			 
 		 }
+		 Log.logInfo(sql);
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);
 		   try {  
 			   ResultSet  ret = db.pst.executeQuery();//执行语句，得到结果集  
@@ -797,7 +806,7 @@ public class TestcaseFrame {
 						+ "where fu.userId=a.userId and a.phone='"+TestcaseFrame.getaccount().getAccount()+"' and fu.delFlag=0"
 						+")";
 		 }
-		
+		Log.logInfo(sql);
 
 	//	 System.out.println("查询语句是:"+sql);
 		 DBHelperMysql db=new DBHelperMysql(sql,Constant.INTERNALURL,Constant.DATABASEACCOUNTINTER,Constant.DATABASEACCOUNTPASSWORD);

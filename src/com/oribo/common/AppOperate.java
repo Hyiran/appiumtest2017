@@ -298,6 +298,7 @@ public abstract class AppOperate {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+          newSleep(1);
   		
   	}
   	

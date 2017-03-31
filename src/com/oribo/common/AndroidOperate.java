@@ -1,5 +1,8 @@
 package com.oribo.common;
 
+/**
+ * 封装android的特性操作（脚本中暂未使用）
+ */
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -82,35 +85,35 @@ public class AndroidOperate extends AppOperate {
 	 * @throws Exception  抛出查找元素的异常
 	 */
 	@SuppressWarnings("unchecked")
-	public static List<AndroidElement>  getElementsByType (String locationElement,String attribute)throws Exception{
+	public static List<AndroidElement>  getElementsByType (String locationElement,String attribute,AndroidDriver driver)throws Exception{
 		//Driver.getAndroidDriver(null).manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS); //等待元素出现
 		List<AndroidElement>  list = null;
 		if (locationElement.equals(ElemenAttribute.BYNAME)) {
-			list =(List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByName(attribute);
+			list =(List<AndroidElement>)driver.findElementsByName(attribute);
 		} 
 		else if (locationElement.equals(ElemenAttribute.BYCLASSNAME)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByClassName(attribute);	
+			list = (List<AndroidElement>)driver.findElementsByClassName(attribute);	
 		}
 		else if (locationElement.equals(ElemenAttribute.BYID)) {
-			list = (List<AndroidElement>) Driver.getAndroidDriver(null).findElementsById(attribute);	
+			list = (List<AndroidElement>) driver.findElementsById(attribute);	
 		}
 		else if (locationElement.equals(ElemenAttribute.BYACCESSID)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByAccessibilityId(attribute);
+			list = (List<AndroidElement>)driver.findElementsByAccessibilityId(attribute);
 		}
 		else if (locationElement.equals(ElemenAttribute.BYCSSSELECTOR)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByCssSelector(attribute);	
+			list = (List<AndroidElement>)driver.findElementsByCssSelector(attribute);	
 		}
 		else if (locationElement.equals(ElemenAttribute.BYLINKTEXT)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByLinkText(attribute);	
+			list = (List<AndroidElement>)driver.findElementsByLinkText(attribute);	
 		}
 		else if (locationElement.equals(ElemenAttribute.BYPARTEXT)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByPartialLinkText(attribute);
+			list = (List<AndroidElement>)driver.findElementsByPartialLinkText(attribute);
 		}
 		else if (locationElement.equals(ElemenAttribute.BYTAGNAME)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByTagName(attribute);	
+			list = (List<AndroidElement>)driver.findElementsByTagName(attribute);	
 		}
 		else if (locationElement.equals( ElemenAttribute.BYXPATH)) {
-			list = (List<AndroidElement>)Driver.getAndroidDriver(null).findElementsByXPath(attribute);		
+			list = (List<AndroidElement>)driver.findElementsByXPath(attribute);		
 		}
 		TestcaseFrame.newSleep(1);
 		return list;	
@@ -125,35 +128,35 @@ public class AndroidOperate extends AppOperate {
 	 * @throws Exception  抛出查找元素的异常
 	 */
 	@SuppressWarnings("unchecked")
-	public static AndroidElement getElementByType (String locationElement,String attribute)throws Exception{
+	public static AndroidElement getElementByType (String locationElement,String attribute,AndroidDriver driver)throws Exception{
 		AndroidElement   list = null ;
 		System.out.println("定位元素");
 		if (locationElement.equals(ElemenAttribute.BYNAME)) {
-			list =  Driver.getAndroidDriver(null).findElementByName(attribute);		
+			list =  (AndroidElement) driver.findElementByName(attribute);		
 		} 
 		else if (locationElement.equals(ElemenAttribute.BYCLASSNAME)) {
-			list = Driver.getAndroidDriver(null).findElementByClassName(attribute);		
+			list = (AndroidElement) driver.findElementByClassName(attribute);		
 		}
 		else if (locationElement.equals(ElemenAttribute.BYID)) {
-			list =  Driver.getAndroidDriver(null).findElementById(attribute);
+			list =  (AndroidElement) driver.findElementById(attribute);
 		}
 		else if (locationElement.equals(ElemenAttribute.BYACCESSID)) {
-			list = Driver.getAndroidDriver(null).findElementByAccessibilityId(attribute);	
+			list = (AndroidElement) driver.findElementByAccessibilityId(attribute);	
 		}
 		else if (locationElement.equals(ElemenAttribute.BYCSSSELECTOR)) {
-			list =  Driver.getAndroidDriver(null).findElementByCssSelector(attribute);	
+			list =  (AndroidElement) driver.findElementByCssSelector(attribute);	
 		}
 		else if (locationElement.equals(ElemenAttribute.BYLINKTEXT)) {
-			list = Driver.getAndroidDriver(null).findElementByLinkText(attribute);		
+			list = (AndroidElement) driver.findElementByLinkText(attribute);		
 		}
 		else if (locationElement.equals(ElemenAttribute.BYPARTEXT)) {
-			list =  Driver.getAndroidDriver(null).findElementByPartialLinkText(attribute);		
+			list =  (AndroidElement) driver.findElementByPartialLinkText(attribute);		
 		}
 		else if (locationElement.equals(ElemenAttribute.BYTAGNAME)) {
-			list =  Driver.getAndroidDriver(null).findElementByTagName(attribute);		
+			list =  (AndroidElement) driver.findElementByTagName(attribute);		
 		}
 		else if (locationElement.equals( ElemenAttribute.BYXPATH)) {
-			list =  Driver.getAndroidDriver(null).findElementByXPath(attribute);	
+			list =  (AndroidElement) driver.findElementByXPath(attribute);	
 		}
 		TestcaseFrame.newSleep(1);
 		System.out.println("结束");

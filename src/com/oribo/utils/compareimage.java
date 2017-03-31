@@ -77,6 +77,13 @@ public class compareimage {
 		}
 	}
 
+	/**
+	 * 对比图片是否一致
+	 * @param targetImagePath
+	 * @param myImagePath
+	 * @param percent
+	 * @return
+	 */
 	public static boolean sameAs(String targetImagePath, String myImagePath,double percent){
 		BufferedImage otherImage = null;
 		BufferedImage myImage = null;

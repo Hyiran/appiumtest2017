@@ -1,5 +1,8 @@
 package com.oribo.common;
 
+/**
+ * 一些功能函数，如生成随机字符串、获取APP版本号、是否安装某个APP、获取当前时间等
+ */
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -572,6 +575,36 @@ public class ToolFunctions {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    }
+    
+    /**
+     * 杀掉Uiautomator进程
+     * @param args
+     */
+    public static void killuiautomator()
+    {    
+    	Log.logInfo("杀掉uiautomator进程");
+    	Process process;
+    	String str,kill = null;
+		try {
+			process = Runtime.getRuntime().exec("adb shell ps |grep \"uiautomator\"");
+			BufferedReader br=new BufferedReader(new InputStreamReader(process.getInputStream()));
+		
+			if((str=br.readLine())!=null)
+			{   
+				
+				kill=str.split(" +")[1];
+				System.out.println("进程名为："+kill);
+
+			}
+			br.close();
+			 Runtime.getRuntime().exec("adb shell kill "+kill);
+	    	
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
     }
     
 	public static void main(String[] args)

@@ -10,6 +10,11 @@ import java.io.InputStreamReader;
 import com.oribo.utils.FileOperate;
 import com.oribo.utils.TimeUtils;
 
+/**
+ * 抓取错误日志
+ * @author test1
+ *
+ */
 public class ErrorLog {
 	static Process logProcess;
 	static String logFilePath;

@@ -1,0 +1,1185 @@
+--------- beginning of main
+
+03-30 10:53:15.890  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:15.890  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:15.890  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:15.890  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999992239
+
+03-30 10:53:16.187 29591 29763 D HomeMate: comm[ NioProcessor-7: CodecDecoder.java:44 doDecode() ] - hd:6864,actualLen:106
+
+03-30 10:53:16.188 29591 29763 I HomeMate: comm[ NioProcessor-7: CodecDecoder.java:76 doDecode() ] - 接收到IP:192.168.2.242的数据：68,64,0,6a,64,6b,c6,10,c4,d0,63,64,62,34,39,33,36,32,36,63,34,31,34,30,66,33,39,61,63,37,32,64,61,38,34,30,65,66,33,36,34,36,66,ec,f4,ca,43,1d,cb,3f,29,c3,5a,c,6c,c0,ba,10,6c,96,7b,db,4c,2e,e7,9b,b5,64,2a,c5,79,97,10,62,f3,dc,b6,42,f9,30,dd,56,7,63,30,50,1e,27,12,0,d4,4,ae,aa,6b,63,83,b3,b7,9a,ba,8b,99,5d,3,51
+
+03-30 10:53:16.196 29591 29764 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:70 progressMessage() ] - protocolType[dk],crc:C610C4D0,sessionId:cdb493626c4140f39ac72da840ef3646,jsonLen:64,ip:192.168.2.242,port:10001
+
+03-30 10:53:16.196 29591 29764 I HomeMate: comm[ pool-5-thread-1: SocketUtil.java:108 progressMessage() ] - After decrypt json[{"serial":54410544,"deviceList":"[]","cmd":66,"status":0}]
+
+03-30 10:53:16.198 29591 29764 D HomeMate: comm[ pool-5-thread-1: ProcessPayload.java:3044 parseJson2DeviceList() ] - count = 0
+
+03-30 10:53:16.203 29591 29591 D HomeMate: comm[ main: QueryUnbinds.java:98 onEventMainThread() ] - QueryUnbinds.onEventMainThread event.getDeviceUnbindList() = []
+
+03-30 10:53:16.206 29591 29591 D HomeMate: comm[ main: QueryUnbinds.java:99 onEventMainThread() ] - QueryUnbinds onEventMainThread configAp:false
+
+03-30 10:53:16.206 29591 29591 D HomeMate: comm[ main: BaseRequest.java:511 stopRequest() ] -  Stop request com.orvibo.homemate.device.searchdevice.SearchDevice$2@2e32b75
+
+03-30 10:53:16.223 29591 29692 D UTAnalytics:LogStoreMgr: pid:29591 [store],
+
+03-30 10:53:16.257 29591 29692 D UTAnalytics:UTSqliteLogStore: pid:29591 [insert] ,, isSuccess:true,ret,2318,
+
+03-30 10:53:16.257 29591 29692 D UTAnalytics:UTSqliteLogStore: pid:29591 [insert] ,, isSuccess:true,ret,2319,
+
+--------- beginning of system
+
+03-30 10:53:16.269  2044  4283 D SystemSettings: Want to modify SystemSettings? See MiuiSettings.System.PUBLIC_SETTINGS
+
+03-30 10:53:16.269  2044  4283 W SettingsProvider: You shouldn't keep your settings in the secure settings. This will soon become an error.
+
+03-30 10:53:16.313 29526 29526 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800479bb; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:16.358 29526 29526 I QueryController: Matched selector: UiSelector[TEXT=我的] <<==>> [android.view.accessibility.AccessibilityNodeInfo@800479bb; boundsInParent: Rect(524153, 0 - 524423, 48); boundsInScreen: Rect(810, 1863 - 1080, 1911); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 我的; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/text; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:16.383 29526 29526 D InteractionController: clickAndSync(945, 1887)
+
+03-30 10:53:16.504 29591 29591 D HomeMate: comm[ main: MainActivity.java:116 onClick() ] - android.widget.RelativeLayout{691f1a VFE...C.. ...P.... 810,0-1080,154 #7f0d0780 app:id/tab_rl}
+
+03-30 10:53:16.506  4569  7585 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-30 10:53:16.506  4569  7585 D FrozenAppController: >>> event = 22 >>> state = 2 uid 10124
+
+03-30 10:53:16.506  4569  7585 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10124 mState:2 mEvent:22 mIsForeground:false mLocationPolicy:0}
+
+03-30 10:53:16.523 29591 29591 D HomeMate: comm[ main: MainActivity.java:132 onTabChanged() ] - tabId:我的
+
+03-30 10:53:16.524 29591 29591 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-30 10:53:16.548 29591 29591 D HomeMate: comm[ main: BaseFragment.java:74 onAttach() ] - PersonalFragment
+
+03-30 10:53:16.548 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:97 onCreateView() ] - onCreateView()
+
+03-30 10:53:16.550 29591 29591 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8ea474f
+
+03-30 10:53:16.550 29591 29591 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@3949edc
+
+03-30 10:53:16.561  4569  7585 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-30 10:53:16.561  4569  7585 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+03-30 10:53:16.562  4569  7585 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-30 10:53:16.567  4569  7585 D FrozenAppController: FrozenAPP, is HasProcessOOMTooLow
+
+03-30 10:53:16.567  4569  7585 D FrozenAppController: >>> event = 22 >>> state = 0 uid 10120
+
+03-30 10:53:16.567  4569  7585 V FrozenAppController:     >>>>  MSG_FROZEN_APP : { uid: 10120 mState:0 mEvent:22 mIsForeground:false mLocationPolicy:255}
+
+03-30 10:53:16.619 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:204 refresh() ] - refresh()-appUserName:15079034630@126.com,userId:91a31ba24648493aad89636922662c04
+
+03-30 10:53:16.622 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:206 refresh() ] - refresh(0)-account:Account{userId='91a31ba24648493aad89636922662c04', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1490702387000', createTime='1490603889000', updateTimeSec=0, uid='null', userName='ahdhhddhhd'}
+
+03-30 10:53:16.623   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:16.630 29591 29591 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=cdb493626c4140f39ac72da840ef3646&userName=15079034630@126.com
+
+03-30 10:53:16.635 29591 29591 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"7e202e40c7334bb59083a08349a5ad3b","url":null}
+
+03-30 10:53:16.637 29591 29591 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-30 10:53:16.640 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:144 setHubView() ] - hub uid :[007e56121206]
+
+03-30 10:53:16.643 29591 29591 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-30 10:53:16.652  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:53:16.658  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:16.660  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:16.723 29591 29591 D HomeMate: comm[ main: MainActivity.java:335 onRefresh() ] - mainRefreshType:1
+
+03-30 10:53:16.723 29591 29591 D HomeMate: comm[ main: MainActivity.java:255 refreshCurrentFragment() ] - Current tag is 我的,PersonalFragment{19ef7f8 #2 id=0x7f0d0299 我的},mainRefreshType:1
+
+03-30 10:53:16.723 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:204 refresh() ] - refresh()-appUserName:15079034630@126.com,userId:91a31ba24648493aad89636922662c04
+
+03-30 10:53:16.725 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:206 refresh() ] - refresh(0)-account:Account{userId='91a31ba24648493aad89636922662c04', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1490702387000', createTime='1490603889000', updateTimeSec=0, uid='null', userName='ahdhhddhhd'}
+
+03-30 10:53:16.731 29591 29591 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=cdb493626c4140f39ac72da840ef3646&userName=15079034630@126.com
+
+03-30 10:53:16.733 29591 29591 D HomeMate: comm[ main: ADCache.java:50 getADInfo() ] - adInfoJson:{"errorMessage":"check gateway fail","updateTime":0,"isTarget":false,"errorCode":0,"image":null,"showAdv":false,"serial":"7e202e40c7334bb59083a08349a5ad3b","url":null}
+
+03-30 10:53:16.736 29591 29591 D HomeMate: comm[ main: ADModel.java:186 parseADInfoJson() ] - adInfo:ADInfo{, showAdv=false, errorCode=0, errorMessage='check gateway fail', image='null', url='null', isTarget=false, updateTime=0}
+
+03-30 10:53:16.739 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:144 setHubView() ] - hub uid :[007e56121206]
+
+03-30 10:53:16.741 29591 29591 I HomeMate: hank[ main: FeedBackService.java:87 obtain() ] - is obtaining unread count now
+
+03-30 10:53:16.774 29591 29591 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-30 10:53:16.774 29591 29591 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170328/b1c9f1c967da46dfa5aa9d21991fb39f.jpg","errorCode":0}
+
+03-30 10:53:16.774 29591 29591 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-30 10:53:16.775 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:397 onGetAccountIconResult() ] - 
+
+03-30 10:53:16.775 29591 29591 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-30 10:53:16.775 29591 29591 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170328/b1c9f1c967da46dfa5aa9d21991fb39f.jpg","errorCode":0}
+
+03-30 10:53:16.775 29591 29591 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-30 10:53:16.776 29591 29591 D HomeMate: comm[ main: PersonalFragment.java:397 onGetAccountIconResult() ] - 
+
+03-30 10:53:16.890  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:16.890  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:16.890  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:16.890  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991250
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: wlan0: Scan completed in 2.290978 seconds
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: nl80211: Associated on 5280 MHz
+
+03-30 10:53:16.897  3745  3745 D wpa_supplicant: nl80211: Associated with cc:81:da:9c:13:28
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: nl80211: Received scan results (32 BSSes)
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:9c:13:28 as associated
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: wlan0: BSS: Start scan result update 5307
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: wlan0: BSS: Add new id 8656 BSSID 30:b4:9e:41:40:68 SSID 'LieBaoWiFi740'
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=43
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: wlan0: BSS: Remove id 8655 BSSID 20:a6:80:6c:2d:c0 SSID 'HUAWEI' due to no match in scan
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=448 send_len=45
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: BSS: last_scan_res_used=32/64
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: wlan0: Scan-only results received
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=896 send_len=24
+
+03-30 10:53:16.898  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:16.899  3745  3745 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 2.305457 seconds
+
+03-30 10:53:16.903  3745  3745 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-30 10:53:16.909  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3541
+
+03-30 10:53:16.911  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3770
+
+03-30 10:53:16.914  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3830
+
+03-30 10:53:16.918  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3634
+
+03-30 10:53:16.921  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3322
+
+03-30 10:53:16.924  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3742
+
+03-30 10:53:16.947  3745  3745 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-30 10:53:16.947  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=279
+
+03-30 10:53:16.950  2044  2078 I WhetstoneClientManager: pid = 2465, uid = 10144 is frozen, not allowed Broadcast
+
+03-30 10:53:16.950  2044  2078 V BroadcastQueueInjector: Skipping BroadcastRecord{ea683b7 u-1 android.net.wifi.SCAN_RESULTS} to ProcessRecord{8fb4531 2465:com.tencent.android.qqdownloader:daemon/u0a144}
+
+03-30 10:53:16.950  2044  2078 D Whetstone-FW: MiuiLog-Whetstone-BroadcastControl BroadcastRecord{ea683b7 u-1 android.net.wifi.SCAN_RESULTS} is discarded
+
+03-30 10:53:16.966  4229  5007 I StepsProvider: Steps Provider Query
+
+03-30 10:53:17.149 25810 25810 W AppWatcher: type=1400 audit(0.0:55253253): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:53:17.149 25810 25810 W AppWatcher: type=1400 audit(0.0:55253254): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:53:17.149 25810 25810 W AppWatcher: type=1400 audit(0.0:55253255): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253256): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253257): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253258): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253259): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253260): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253261): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253262): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253263): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253264): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253265): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253266): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253267): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253268): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253269): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253270): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253271): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253272): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253273): avc: denied { getattr } for path="/proc/64" dev="proc" ino=11961957 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253274): avc: denied { getattr } for path="/proc/65" dev="proc" ino=11961958 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253275): avc: denied { getattr } for path="/proc/66" dev="proc" ino=11961959 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253276): avc: denied { getattr } for path="/proc/67" dev="proc" ino=11961960 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253277): avc: denied { getattr } for path="/proc/68" dev="proc" ino=11961961 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.159 25810 25810 W AppWatcher: type=1400 audit(0.0:55253278): avc: denied { getattr } for path="/proc/69" dev="proc" ino=11961962 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:17.393 29591 29786 D HomeMate: hank[ Thread-44650: FeedBackService.java:94 onSuccess() ] - FeedbackAPI unreadCount:18
+
+03-30 10:53:17.400 29591 29591 D HomeMate: comm[ main: MainActivity.java:176 setTabReadTip() ] - showRedTip:true,position:3
+
+03-30 10:53:17.479 29591 29629 I RestfulUtils: {"result":{"code":"200","msg":"操作成功!"}}
+
+03-30 10:53:17.624   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:17.678  4513  4642 W Metok_Tag: < metok_app > invalid network operator 
+
+03-30 10:53:17.773 29591 29878 D HomeMate: comm[ AsyncTask #1: OrviboUpdateAgent.java:259 doInBackground() ] - result =﻿{  "oldVersion": 90,  "day": "7",  "version": 22000302 ,  "name": "HomeMate",  "packagename":"com.orvibo.homemate",  "url": "http://firmware.orvibo.com/androidapk/homemate.apk",  "message": "修复BUG，提升稳定�?��??",  "message_en": "Bug fixes and overall performance improvements.",  "size": ""}
+
+03-30 10:53:17.782 29591 29591 E HomeMate: comm[ main: OrviboUpdateAgent.java:311 onPostExecute() ] - localVersionCode=23000300
+
+03-30 10:53:17.785 29591 29591 D HomeMate: comm[ main: MainPresenter.java:331 onUpdateReturned() ] - isCanUpdate:false,responseInfos:{packagename=com.orvibo.homemate, oldVersion=90, size=, url=http://firmware.orvibo.com/androidapk/homemate.apk, version=22000302, name=HomeMate, day=7, message=修复BUG，提升稳定�?��??, message_en=Bug fixes and overall performance improvements.}
+
+03-30 10:53:17.787 29591 29591 D HomeMate: comm[ main: MainActivity.java:176 setTabReadTip() ] - showRedTip:false,position:3
+
+03-30 10:53:17.890  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:17.891  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:17.891  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:17.891  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994688
+
+03-30 10:53:17.945 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/iv_personal_user_icon] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8004aa88; boundsInParent: Rect(0, 0 - 347, 347); boundsInScreen: Rect(366, 138 - 713, 485); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: 用户头像116; viewIdResName: com.orvibo.homemate:id/iv_personal_user_icon; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:18.007 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/iv_personal_user_icon] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8004aa88; boundsInParent: Rect(0, 0 - 347, 347); boundsInScreen: Rect(366, 138 - 713, 485); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: 用户头像116; viewIdResName: com.orvibo.homemate:id/iv_personal_user_icon; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:18.008 29526 29526 D InteractionController: clickAndSync(539, 311)
+
+03-30 10:53:18.115 29591 29591 I Timeline: Timeline: Activity_launch_request time:338488895
+
+03-30 10:53:18.128  2044  2057 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.user.UserActivity (has extras)} from uid 10143 on display 0
+
+03-30 10:53:18.136  4229  4367 D WtProcessController: onAMCreateActivity callback
+
+03-30 10:53:18.137  4229  4367 D WtProcessController: onAMPauseActivity callback
+
+03-30 10:53:18.169 29591 29591 D UTAnalytics:UTDC: pid:29591 [commit] page:Main,eventId:2001,arg1:Launch,arg2:arg3:4444,args:{SDKTYPE=mini},
+
+03-30 10:53:18.173 29591 29591 D UTAnalytics:UTLog: pid:29591 Log [id=0, eventId=2001, index=],867451020054497||460015796275061||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.300||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1490842391102||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1490842398169||Main||2001||Launch||-||4444||-,
+
+03-30 10:53:18.173 29591 29591 D UTAnalytics:LogStoreMgr: pid:29591 [add] :,
+
+03-30 10:53:18.176 29591 29591 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - MainActivity
+
+03-30 10:53:18.178  4229  4367 D WtProcessController: onAMRestartActivity callback
+
+03-30 10:53:18.180  2044  4283 I Timeline: Timeline: App_transition_ready time:338488960
+
+03-30 10:53:18.198 29591 29591 D HomeMate: comm[ main: BaseActivity.java:127 onCreate() ] - onCreate:UserActivity
+
+03-30 10:53:18.198 29591 29591 D HomeMate: allen[ main: ActivityManager.java:47 pushActivity() ] - pushActivity:com.orvibo.homemate.user.UserActivity@2ee2ecf
+
+03-30 10:53:18.230 29591 29591 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8196719
+
+03-30 10:53:18.231 29591 29591 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@690b3de
+
+03-30 10:53:18.277 29591 29602 I art     : Background sticky concurrent mark sweep GC freed 201607(14MB) AllocSpace objects, 53(2MB) LOS objects, 31% free, 38MB/56MB, paused 7.548ms total 78.809ms
+
+03-30 10:53:18.285 29591 29591 D HomeMate: comm[ main: BaseActivity.java:154 onResume() ] - UserActivity
+
+03-30 10:53:18.287 29591 29591 E HomeMate: comm[ main: UserActivity.java:189 refresh() ] - Account{userId='91a31ba24648493aad89636922662c04', familyId='null', password='E10ADC3949BA59ABBE56E057F20F883E', phone='', email='15079034630@126.com', userType=0, registerType=0, idc=0, country='null', state='null', city='null'} BaseBo{delFlag=0, updateTime='1490702387000', createTime='1490603889000', updateTimeSec=0, uid='null', userName='ahdhhddhhd'}
+
+03-30 10:53:18.294 29591 29591 D HomeMate: comm[ main: GetAccountIcon.java:39 startGetAccountIcon() ] - params:source=ZhiJia365&sessionId=cdb493626c4140f39ac72da840ef3646&userName=15079034630@126.com
+
+03-30 10:53:18.299  4104  4104 W Binder_7: type=1400 audit(0.0:55253534): avc: denied { ioctl } for path="socket:[12211809]" dev="sockfs" ino=12211809 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:18.299  4104  4104 W Binder_7: type=1400 audit(0.0:55253535): avc: denied { ioctl } for path="socket:[12211809]" dev="sockfs" ino=12211809 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:18.303 29591 29591 D ActivityThreadInjector: clearCachedDrawables.
+
+03-30 10:53:18.304  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:53:18.329  2044  4374 I Timeline: Timeline: App_transition_ready time:338489109
+
+03-30 10:53:18.332  2044  4374 I Timeline: Timeline: App_transition_ready time:338489112
+
+03-30 10:53:18.378 29591 29591 V AsyncHttpRH: Progress 129 from 1 (12900%)
+
+03-30 10:53:18.378 29591 29591 I HomeMate: comm[ main: GetAccountIcon.java:44 onSuccess() ] - {"errorMessage":"成功","file":"https://homemate.orvibo.com/images/20170328/b1c9f1c967da46dfa5aa9d21991fb39f.jpg","errorCode":0}
+
+03-30 10:53:18.378 29591 29591 I HomeMate: comm[ main: GetAccountIcon.java:63 onSuccess() ] - 成功
+
+03-30 10:53:18.380  2044  2115 I Timeline: Timeline: App_transition_ready time:338489160
+
+03-30 10:53:18.379  2057  2057 W Binder_2: type=1400 audit(0.0:55253536): avc: denied { ioctl } for path="socket:[12210060]" dev="sockfs" ino=12210060 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:18.379  2057  2057 W Binder_2: type=1400 audit(0.0:55253537): avc: denied { ioctl } for path="socket:[12210060]" dev="sockfs" ino=12210060 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:18.386 28253 28253 I AppiumUnicodeIME: onFinishInput
+
+03-30 10:53:18.386 28253 28253 I AppiumUnicodeIME: onStartInput
+
+03-30 10:53:18.388  2044  2115 I ActivityManager: Displayed com.orvibo.homemate/.user.UserActivity: +211ms
+
+03-30 10:53:18.390  3746  3746 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-30 10:53:18.625   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:18.646  2044  2115 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{f920724 u0 com.orvibo.homemate/.user.UserActivity t17574} time:338489426
+
+03-30 10:53:18.648  2044  2115 I Timeline: Timeline: App_transition_stopped time:338489428
+
+03-30 10:53:18.654 29591 29591 D HomeMate: comm[ main: BaseActivity.java:215 onStop() ] - MainActivity
+
+03-30 10:53:18.891  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:18.891  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:18.891  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:18.891  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999992031
+
+03-30 10:53:19.466 29526 29526 I QueryController: Matched selector: UiSelector[TEXT=授权登录] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80060f28; boundsInParent: Rect(0, 0 - 200, 67); boundsInScreen: Rect(44, 883 - 244, 950); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 授权登录; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:19.507 29526 29526 I QueryController: Matched selector: UiSelector[TEXT=授权登录] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80060f28; boundsInParent: Rect(0, 0 - 200, 67); boundsInScreen: Rect(44, 883 - 244, 950); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 授权登录; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:19.513 29526 29526 D InteractionController: clickAndSync(144, 916)
+
+03-30 10:53:19.627   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:19.636 29591 29591 I Timeline: Timeline: Activity_launch_request time:338490416
+
+03-30 10:53:19.642  2044  4298 I ActivityManager: START u0 {cmp=com.orvibo.homemate/.user.UserThirdActivity} from uid 10143 on display 0
+
+03-30 10:53:19.646  4229  4367 D WtProcessController: onAMCreateActivity callback
+
+03-30 10:53:19.649  4229  4367 D WtProcessController: onAMPauseActivity callback
+
+03-30 10:53:19.665  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:19.668 29591 29591 D UTAnalytics:UTDC: pid:29591 [commit] page:User,eventId:2001,arg1:Main,arg2:arg3:1384,args:{SDKTYPE=mini},
+
+03-30 10:53:19.677 29591 29591 D UTAnalytics:UTLog: pid:29591 Log [id=0, eventId=2001, index=],867451020054497||460015796275061||Xiaomi||MI NOTE LTE||1920*1080||Unknown||Wi-Fi||Unknown||null||23256401||2.3.0.300||-||-||-||-||zh||a||6.0.1||2.5.1_for_bc||1490842391102||WJfwe+sntC4DAAdSBLpxQDCW||mini||-||-||-||-||_ap=1_mac=02:00:00:00:00:00||1490842399669||User||2001||Main||-||1384||-,
+
+03-30 10:53:19.677 29591 29591 D UTAnalytics:LogStoreMgr: pid:29591 [add] :,
+
+03-30 10:53:19.679  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:19.681 29591 29591 D HomeMate: comm[ main: BaseActivity.java:198 onPause() ] - UserActivity
+
+03-30 10:53:19.684  4229  4367 D WtProcessController: onAMRestartActivity callback
+
+03-30 10:53:19.686  2044  4245 I Timeline: Timeline: App_transition_ready time:338490466
+
+03-30 10:53:19.700 29591 29591 D HomeMate: comm[ main: BaseActivity.java:127 onCreate() ] - onCreate:UserThirdActivity
+
+03-30 10:53:19.700 29591 29591 D HomeMate: allen[ main: ActivityManager.java:47 pushActivity() ] - pushActivity:com.orvibo.homemate.user.UserThirdActivity@ba03e5a
+
+03-30 10:53:19.726 29591 29591 D HomeMate: comm[ main: BaseActivity.java:154 onResume() ] - UserThirdActivity
+
+03-30 10:53:19.729  3765  3765 W Binder_3: type=1400 audit(0.0:55253538): avc: denied { ioctl } for path="socket:[12211037]" dev="sockfs" ino=12211037 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:19.729  3765  3765 W Binder_3: type=1400 audit(0.0:55253539): avc: denied { ioctl } for path="socket:[12211037]" dev="sockfs" ino=12211037 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:19.735 29591 29591 D ActivityThreadInjector: clearCachedDrawables.
+
+03-30 10:53:19.757  2044  4283 I Timeline: Timeline: App_transition_ready time:338490537
+
+03-30 10:53:19.760  2044  4283 I Timeline: Timeline: App_transition_ready time:338490540
+
+03-30 10:53:19.773  4229  4367 W WtProcessController: do not trim { PackageName :com.orvibo.homemate Pid: 29591 Uid: 10143 Start by: activity Score:50 Old score:50 state:0 mBackgroundTimeInMillis:1490842398137 WakelockCount:0 wakelogsize:0  ActivityDestroied:false Activity size: 3 PackageInfo:{WhetstonePackageInfo#PacakgeName:com.orvibo.homemate uid:10143 uiMemoryThresold:0 nonUiMemoryThresold:0 Flag:1073745984,0x40001040 [,TRIMHEAPS,FLAG_DEAL_SCHEDULE] Type:64[,AUTO_START] } tasknum:17574}
+
+03-30 10:53:19.797  2044  2115 I Timeline: Timeline: App_transition_ready time:338490577
+
+03-30 10:53:19.803  2044  2115 I ActivityManager: Displayed com.orvibo.homemate/.user.UserThirdActivity: +121ms
+
+03-30 10:53:19.803  3746  3746 V PhoneStatusBarPolicy: updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+
+03-30 10:53:19.799  4348  4348 W Binder_F: type=1400 audit(0.0:55253540): avc: denied { ioctl } for path="socket:[12210060]" dev="sockfs" ino=12210060 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:19.799  4348  4348 W Binder_F: type=1400 audit(0.0:55253541): avc: denied { ioctl } for path="socket:[12210060]" dev="sockfs" ino=12210060 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+03-30 10:53:19.805 28253 28253 I AppiumUnicodeIME: onFinishInput
+
+03-30 10:53:19.806 28253 28253 I AppiumUnicodeIME: onStartInput
+
+03-30 10:53:19.834 29591 29718 D OpenGLRenderer: endAllStagingAnimators on 0x9fa9e980 (RippleDrawable) with handle 0x9fc79180
+
+03-30 10:53:19.891  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:19.891  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:19.891  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:19.891  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999992812
+
+03-30 10:53:20.081  2044  2115 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{f1c6a89 u0 com.orvibo.homemate/.user.UserThirdActivity t17574} time:338490861
+
+03-30 10:53:20.082  2044  2115 I Timeline: Timeline: App_transition_stopped time:338490862
+
+03-30 10:53:20.087 29591 29591 D HomeMate: comm[ main: BaseActivity.java:215 onStop() ] - UserActivity
+
+03-30 10:53:20.135  2044  3620 D WifiStateMachine: starting scan for "56.1_neiwang"-WPA_PSK with 5280,2412
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5280,2412'
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d9398
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d9398 after 0.000054 second wait
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: nl80211: Scan frequency 2412 MHz
+
+03-30 10:53:20.135  3745  3745 D wpa_supplicant: nl80211: Scan frequency 5280 MHz
+
+03-30 10:53:20.148  3745  3745 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-30 10:53:20.148  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:53:20.148  3745  3745 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-30 10:53:20.148  3745  3745 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-30 10:53:20.149  3745  3745 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-30 10:53:20.149  3745  3745 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000151 seconds
+
+03-30 10:53:20.149  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-30 10:53:20.149  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:20.258  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:53:20.258  3745  3745 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-30 10:53:20.258  3745  3745 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-30 10:53:20.259  3745  3745 D wpa_supplicant: nl80211: Scan included frequencies: 2412 5280
+
+03-30 10:53:20.259  3745  3745 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-30 10:53:20.259  3745  3745 D wpa_supplicant: wlan0: Scan completed in 0.110299 seconds
+
+03-30 10:53:20.259  3745  3745 D wpa_supplicant: nl80211: Associated on 5280 MHz
+
+03-30 10:53:20.259  3745  3745 D wpa_supplicant: nl80211: Associated with cc:81:da:9c:13:28
+
+03-30 10:53:20.260  3745  3745 D wpa_supplicant: nl80211: Received scan results (33 BSSes)
+
+03-30 10:53:20.261  3745  3745 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:9c:13:28 as associated
+
+03-30 10:53:20.261  3745  3745 D wpa_supplicant: wlan0: BSS: Start scan result update 5308
+
+03-30 10:53:20.262  3745  3745 D wpa_supplicant: wlan0: BSS: Add new id 8657 BSSID 20:a6:80:6c:2d:c0 SSID 'HUAWEI'
+
+03-30 10:53:20.262  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=43
+
+03-30 10:53:20.267  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:20.267  3745  3745 D wpa_supplicant: BSS: last_scan_res_used=33/64
+
+03-30 10:53:20.267  3745  3745 D wpa_supplicant: wlan0: Scan-only results received
+
+03-30 10:53:20.268  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-30 10:53:20.268  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:20.268  3745  3745 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 0.132446 seconds
+
+03-30 10:53:20.268  3745  3745 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-30 10:53:20.277  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3541
+
+03-30 10:53:20.281  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3770
+
+03-30 10:53:20.285  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3830
+
+03-30 10:53:20.288  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3634
+
+03-30 10:53:20.290  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3322
+
+03-30 10:53:20.292  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3742
+
+03-30 10:53:20.295  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=865
+
+03-30 10:53:20.319  3745  3745 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-30 10:53:20.319  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=279
+
+03-30 10:53:20.628   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:20.869 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/authQqImageView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006a190; boundsInParent: Rect(0, 0 - 77, 77); boundsInScreen: Rect(44, 394 - 121, 471); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/authQqImageView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:20.878  7758  7765 E CoreDaemon: Start Daemon in coredaemon
+
+03-30 10:53:20.891  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:20.892  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:20.892  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:20.892  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996042
+
+03-30 10:53:20.900 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/authQqImageView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006a190; boundsInParent: Rect(0, 0 - 77, 77); boundsInScreen: Rect(44, 394 - 121, 471); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/authQqImageView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:20.929 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/authWeChatImageView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80068ecb; boundsInParent: Rect(0, 0 - 77, 77); boundsInScreen: Rect(44, 262 - 121, 339); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/authWeChatImageView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:20.936  2044  3547 I WhetstoneClientManager: pid = 2044uid = 10144 is frozen, not allowed alarm
+
+03-30 10:53:20.936  2044  3547 D Whetstone-FW: MiuiLog-Whetstone-AlarmControl Alarm{88f819a type 3 when 593820000 com.tencent.android.qqdownloader} is discarded
+
+03-30 10:53:20.936  2044  3547 I WhetstoneClientManager: pid = 2044uid = 10144 is frozen, not allowed alarm
+
+03-30 10:53:20.936  2044  3547 D Whetstone-FW: MiuiLog-Whetstone-AlarmControl Alarm{5b34acb type 3 when 593820000 com.tencent.android.qqdownloader} is discarded
+
+03-30 10:53:20.962 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/authWeChatImageView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@80068ecb; boundsInParent: Rect(0, 0 - 77, 77); boundsInScreen: Rect(44, 262 - 121, 339); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/authWeChatImageView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:20.989 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/authSinaImageView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006b455; boundsInParent: Rect(0, 0 - 77, 77); boundsInScreen: Rect(44, 526 - 121, 603); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/authSinaImageView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.031 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/authSinaImageView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006b455; boundsInParent: Rect(0, 0 - 77, 77); boundsInScreen: Rect(44, 526 - 121, 603); packageName: com.orvibo.homemate; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/authSinaImageView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.092 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/weChatNickNameTextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006964d; boundsInParent: Rect(0, 0 - 132, 59); boundsInScreen: Rect(837, 271 - 969, 330); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 未绑�?; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/weChatNickNameTextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.240 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/weChatNickNameTextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006964d; boundsInParent: Rect(0, 0 - 132, 59); boundsInScreen: Rect(837, 271 - 969, 330); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 未绑�?; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/weChatNickNameTextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.241 29526 29526 D UiObject: getText() = 未绑�?
+
+03-30 10:53:21.287 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/qqNickNameTextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006a912; boundsInParent: Rect(0, 0 - 132, 59); boundsInScreen: Rect(837, 403 - 969, 462); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 未绑�?; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/qqNickNameTextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.317 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/qqNickNameTextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006a912; boundsInParent: Rect(0, 0 - 132, 59); boundsInScreen: Rect(837, 403 - 969, 462); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 未绑�?; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/qqNickNameTextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.317 29526 29526 D UiObject: getText() = 未绑�?
+
+03-30 10:53:21.344 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/sinaNickNameTextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006bbd7; boundsInParent: Rect(0, 0 - 213, 59); boundsInScreen: Rect(756, 535 - 969, 594); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 彭红29799; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/sinaNickNameTextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.366 29526 29526 I QueryController: Matched selector: UiSelector[INSTANCE=0, RESOURCE_ID=com.orvibo.homemate:id/sinaNickNameTextView] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8006bbd7; boundsInParent: Rect(0, 0 - 213, 59); boundsInScreen: Rect(756, 535 - 969, 594); packageName: com.orvibo.homemate; className: android.widget.TextView; text: 彭红29799; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.orvibo.homemate:id/sinaNickNameTextView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_UNKNOWN - null]]
+
+03-30 10:53:21.366 29526 29526 D UiObject: getText() = 彭红29799
+
+03-30 10:53:21.629   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:21.892  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:21.892  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:21.892  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:21.892  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991719
+
+03-30 10:53:22.311   379   472 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-30 10:53:22.314   379   516 I ThermalEngine: Sensor:tsens_tz_sensor5:50000 mC
+
+03-30 10:53:22.314   379   516 I ThermalEngine: TM Id 'CPU0_MONITOR' Sensor 'cpu0' - alarm cleared 1 at 50.0 degC
+
+03-30 10:53:22.315   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[0] to 2457600
+
+03-30 10:53:22.316   379   516 I ThermalEngine: Mitigation:CPU[0]:2457600 Khz
+
+03-30 10:53:22.316   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[1] to 2457600
+
+03-30 10:53:22.317   379   516 E ThermalEngine: Failed to set desired CPU[1] frequency limit to 2457600
+
+03-30 10:53:22.317   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[2] to 2457600
+
+03-30 10:53:22.317   379   516 E ThermalEngine: Failed to set desired CPU[2] frequency limit to 2457600
+
+03-30 10:53:22.317   379   516 I ThermalEngine: ACTION: CPU - Setting CPU[3] to 2457600
+
+03-30 10:53:22.318   379   516 I ThermalEngine: Mitigation:CPU[3]:2457600 Khz
+
+03-30 10:53:22.630   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:22.681  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:22.685  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:22.892  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:22.892  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:22.892  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:22.892  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999993177
+
+03-30 10:53:23.180 29591 29694 D UTAnalytics:LogStoreMgr: pid:29591 [store],
+
+03-30 10:53:23.202 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 [insert] ,, isSuccess:true,ret,2320,
+
+03-30 10:53:23.202 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 [insert] ,, isSuccess:true,ret,2321,
+
+03-30 10:53:23.632   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:23.892  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:23.893  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:23.893  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:23.893  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996927
+
+03-30 10:53:24.633   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:24.782  4569  5306 D PowerCheckerService: rawUptime = 338495562000 us
+
+03-30 10:53:24.782  4569  5306 D PowerCheckerService: rawRealtime = 593888246000 us
+
+03-30 10:53:24.782  4569  5306 D PowerCheckerService: batteryUptime = 9136181000 us
+
+03-30 10:53:24.782  4569  5306 D PowerCheckerService: batteryRealtime = 65926604000 us
+
+03-30 10:53:24.782  4569  5306 D PowerCheckerService: whichBatteryUptime = 598000 us
+
+03-30 10:53:24.782  4569  5306 D PowerCheckerService: whichBatteryRealtime = 598000 us
+
+03-30 10:53:24.782  4569  5306 W PowerCheckerService: Time on battery is too short since last unlugged, skip this check
+
+03-30 10:53:24.893  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:24.893  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:24.893  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:24.893  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996823
+
+03-30 10:53:25.634   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:25.695  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:25.701  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:25.893  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:25.893  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:25.893  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:25.893  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991146
+
+03-30 10:53:26.636   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:26.893  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:26.893  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:26.893  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:26.893  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991563
+
+03-30 10:53:27.369 25810 25810 W AppWatcher: type=1400 audit(0.0:55253542): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:53:27.369 25810 25810 W AppWatcher: type=1400 audit(0.0:55253543): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:53:27.379 25810 25810 W AppWatcher: type=1400 audit(0.0:55253544): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:53:27.389 25810 25810 W AppWatcher: type=1400 audit(0.0:55253545): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:53:27.389 25810 25810 W AppWatcher: type=1400 audit(0.0:55253546): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.399 25810 25810 W AppWatcher: type=1400 audit(0.0:55253547): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.399 25810 25810 W AppWatcher: type=1400 audit(0.0:55253548): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.409 25810 25810 W AppWatcher: type=1400 audit(0.0:55253549): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.409 25810 25810 W AppWatcher: type=1400 audit(0.0:55253550): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55253551): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55253552): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55253553): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55253554): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55253555): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.419 25810 25810 W AppWatcher: type=1400 audit(0.0:55253556): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55253557): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55253558): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55253559): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.429 25810 25810 W AppWatcher: type=1400 audit(0.0:55253560): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55253561): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55253562): avc: denied { getattr } for path="/proc/64" dev="proc" ino=11961957 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55253563): avc: denied { getattr } for path="/proc/65" dev="proc" ino=11961958 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55253564): avc: denied { getattr } for path="/proc/66" dev="proc" ino=11961959 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.439 25810 25810 W AppWatcher: type=1400 audit(0.0:55253565): avc: denied { getattr } for path="/proc/67" dev="proc" ino=11961960 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.449 25810 25810 W AppWatcher: type=1400 audit(0.0:55253566): avc: denied { getattr } for path="/proc/68" dev="proc" ino=11961961 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.449 25810 25810 W AppWatcher: type=1400 audit(0.0:55253567): avc: denied { getattr } for path="/proc/69" dev="proc" ino=11961962 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.449 25810 25810 W AppWatcher: type=1400 audit(0.0:55253568): avc: denied { getattr } for path="/proc/70" dev="proc" ino=11961963 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.449 25810 25810 W AppWatcher: type=1400 audit(0.0:55253569): avc: denied { getattr } for path="/proc/71" dev="proc" ino=11961964 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.449 25810 25810 W AppWatcher: type=1400 audit(0.0:55253570): avc: denied { getattr } for path="/proc/72" dev="proc" ino=11961965 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.449 25810 25810 W AppWatcher: type=1400 audit(0.0:55253571): avc: denied { getattr } for path="/proc/73" dev="proc" ino=11961966 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.459 25810 25810 W AppWatcher: type=1400 audit(0.0:55253572): avc: denied { getattr } for path="/proc/74" dev="proc" ino=11961967 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.459 25810 25810 W AppWatcher: type=1400 audit(0.0:55253573): avc: denied { getattr } for path="/proc/75" dev="proc" ino=11961968 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:27.637   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:27.893  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:27.893  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:27.893  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:27.893  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996145
+
+03-30 10:53:28.638   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:28.717  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:28.732  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:28.894  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:28.894  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:28.894  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:28.894  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994271
+
+03-30 10:53:29.640   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:29.894  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:29.894  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:29.894  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:29.894  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999990989
+
+03-30 10:53:30.641   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:30.894  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:30.894  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:30.894  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:30.894  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996042
+
+03-30 10:53:31.054 29591 29658 W System.err: 无法访问或网络不稳定
+
+03-30 10:53:31.054 29591 29658 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-30 10:53:31.054 29591 29658 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.execute(Unknown Source)
+
+03-30 10:53:31.054 29591 29658 W System.err: 	at com.danale.video.sdk.utils.DnsAnalysisUtil.dnsAnalysisByDanale(Unknown Source)
+
+03-30 10:53:31.054 29591 29658 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-30 10:53:31.054 29591 29658 W System.err: 	at com.danale.video.sdk.platform.entity.Session$7.doInBackground(Unknown Source)
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at com.danale.video.sdk.async.AsyncTask$2.call(Unknown Source)
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+
+03-30 10:53:31.055 29591 29658 W System.err: Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to /54.93.73.119:443 timed out
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+
+03-30 10:53:31.055 29591 29658 W System.err: 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:370)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	at com.danale.video.sdk.http.impl.apache.ApacheHttpClient.readDataWithRetriesAndReportDanaleError(Unknown Source)
+
+03-30 10:53:31.056 29591 29658 W System.err: 	... 9 more
+
+03-30 10:53:31.642   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:31.738  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:31.750  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:31.894  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:31.894  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:31.894  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:31.894  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999995261
+
+03-30 10:53:32.643   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:32.894  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:32.894  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:32.894  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:32.894  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997188
+
+03-30 10:53:33.645   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:33.894  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:33.895  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:33.895  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:33.895  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994271
+
+03-30 10:53:34.646   379   493 I ThermalEngine: Sensor:batt_temp:365 mC
+
+03-30 10:53:34.773  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:34.790  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:34.895  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:34.895  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:34.895  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:34.895  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997292
+
+03-30 10:53:35.238  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:53:35.647   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:35.895  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:35.895  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:35.895  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:35.895  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999994740
+
+03-30 10:53:36.120 29591 29692 D UTAnalytics:CommitTask: pid:29591 check&commit event:65501,
+
+03-30 10:53:36.121 29591 29692 D UTAnalytics:CommitTask: pid:29591 next:65501,
+
+03-30 10:53:36.121 29591 29692 D UTAnalytics:CommitTask: pid:29591 check&commit event:65502,
+
+03-30 10:53:36.139 29591 29694 D UTAnalytics:CommitTask: pid:29591 check&commit event:65503,
+
+03-30 10:53:36.139 29591 29694 D UTAnalytics:CommitTask: pid:29591 next:65503,
+
+03-30 10:53:36.149 29591 29692 D UTAnalytics:CommitTask: pid:29591 next:65502,
+
+03-30 10:53:36.648   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:36.895  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:36.895  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:36.895  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:36.895  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996719
+
+03-30 10:53:37.569 25810 25810 W AppWatcher: type=1400 audit(0.0:55253813): avc: denied { getattr } for path="/proc/opalum-temp-calib" dev="proc" ino=4026534631 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:53:37.579 25810 25810 W AppWatcher: type=1400 audit(0.0:55253814): avc: denied { getattr } for path="/proc/opalum-f0-calib" dev="proc" ino=4026534630 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_opalum:s0 tclass=file permissive=0
+
+03-30 10:53:37.579 25810 25810 W AppWatcher: type=1400 audit(0.0:55253815): avc: denied { getattr } for path="/proc/sysrq-trigger" dev="proc" ino=4026533735 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:proc_sysrq:s0 tclass=file permissive=0
+
+03-30 10:53:37.589 25810 25810 W AppWatcher: type=1400 audit(0.0:55253816): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11921139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+
+03-30 10:53:37.589 25810 25810 W AppWatcher: type=1400 audit(0.0:55253817): avc: denied { getattr } for path="/proc/2" dev="proc" ino=11961941 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.599 25810 25810 W AppWatcher: type=1400 audit(0.0:55253818): avc: denied { getattr } for path="/proc/3" dev="proc" ino=11961942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.599 25810 25810 W AppWatcher: type=1400 audit(0.0:55253819): avc: denied { getattr } for path="/proc/6" dev="proc" ino=11961943 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.599 25810 25810 W AppWatcher: type=1400 audit(0.0:55253820): avc: denied { getattr } for path="/proc/7" dev="proc" ino=11961944 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.599 25810 25810 W AppWatcher: type=1400 audit(0.0:55253821): avc: denied { getattr } for path="/proc/8" dev="proc" ino=11961945 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.599 25810 25810 W AppWatcher: type=1400 audit(0.0:55253822): avc: denied { getattr } for path="/proc/21" dev="proc" ino=11961946 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55253823): avc: denied { getattr } for path="/proc/22" dev="proc" ino=11961947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55253824): avc: denied { getattr } for path="/proc/28" dev="proc" ino=11961948 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55253825): avc: denied { getattr } for path="/proc/29" dev="proc" ino=11961949 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.609 25810 25810 W AppWatcher: type=1400 audit(0.0:55253826): avc: denied { getattr } for path="/proc/30" dev="proc" ino=11961950 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.619 25810 25810 W AppWatcher: type=1400 audit(0.0:55253827): avc: denied { getattr } for path="/proc/32" dev="proc" ino=11961951 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.619 25810 25810 W AppWatcher: type=1400 audit(0.0:55253828): avc: denied { getattr } for path="/proc/33" dev="proc" ino=11961952 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.629 25810 25810 W AppWatcher: type=1400 audit(0.0:55253829): avc: denied { getattr } for path="/proc/34" dev="proc" ino=11961953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.629 25810 25810 W AppWatcher: type=1400 audit(0.0:55253830): avc: denied { getattr } for path="/proc/61" dev="proc" ino=11961954 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55253831): avc: denied { getattr } for path="/proc/62" dev="proc" ino=11961955 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.639 25810 25810 W AppWatcher: type=1400 audit(0.0:55253832): avc: denied { getattr } for path="/proc/63" dev="proc" ino=11961956 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+
+03-30 10:53:37.649   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:37.800  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:37.816  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:37.872 29591 29694 D UTAnalytics:LogStoreMgr: pid:29591 [store],
+
+03-30 10:53:37.883 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 sql:SELECT * FROM log ORDER BY time ASC  LIMIT 20,
+
+03-30 10:53:37.884 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 pos,0,count,4,
+
+03-30 10:53:37.884 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 pos,1,count,4,
+
+03-30 10:53:37.884 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 pos,2,count,4,
+
+03-30 10:53:37.884 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 pos,3,count,4,
+
+03-30 10:53:37.884 29591 29694 D UTAnalytics:LogStoreMgr: pid:29591 [get],[Log [id=2318, eventId=19999, index=], Log [id=2319, eventId=2001, index=], Log [id=2320, eventId=2001, index=], Log [id=2321, eventId=2001, index=]],
+
+03-30 10:53:37.888 29591 29694 D UTAnalytics:UploadTask: pid:29591 averagePackageSize:123.25,
+
+03-30 10:53:37.895  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:37.895  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:37.895  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:37.895  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999993906
+
+03-30 10:53:37.918  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:53:38.650   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:38.895  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:38.895  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:38.895  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:38.895  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999997084
+
+03-30 10:53:39.543 29591 29694 D UTAnalytics:UploadTask: pid:29591 url:http://adashbc.m.taobao.com/rest/sur?ak=23256401&av=2.3.0.300&c=null&v=3.0&s=c8eabef64e151cc3edc4ce19cb39d0e9e87280c7&d=WJfwe%2BsntC4DAAdSBLpxQDCW&sv=2.5.1_for_bc&p=a&t=1490842417898&u=&is=1&k=0,
+
+03-30 10:53:39.543 29591 29694 D UTAnalytics:UploadTask: pid:29591 result:{"t":1490842416466,"ret":"","success":"success"}
+
+03-30 10:53:39.543 29591 29694 D UTAnalytics:UploadTask: ,
+
+03-30 10:53:39.544 29591 29694 D UTAnalytics:UploadTask: pid:29591 winsize:108,
+
+03-30 10:53:39.545 29591 29694 D UTAnalytics:LogStoreMgr: pid:29591 [Log [id=2318, eventId=19999, index=], Log [id=2319, eventId=2001, index=], Log [id=2320, eventId=2001, index=], Log [id=2321, eventId=2001, index=]],
+
+03-30 10:53:39.599 29591 29694 D UTAnalytics:UTSqliteLogStore: pid:29591 delete ,4, isSuccess:true,
+
+03-30 10:53:39.599 29591 29694 D UTAnalytics:CoreStatics: pid:29591 [uploadInc]:0,count:4,
+
+03-30 10:53:39.599 29591 29694 D UTAnalytics:CoreStatics: pid:29591 [uploadInc]:4,
+
+03-30 10:53:39.599 29591 29694 D UTAnalytics:UploadTask: pid:29591 logs.size():4, selfMonitorLogCount:0,
+
+03-30 10:53:39.599 29591 29694 D UTAnalytics:UploadTask: pid:29591 upload isSendSuccess:true, consume:1656, delete consume:55,
+
+03-30 10:53:39.652   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:39.895  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:39.896  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:39.896  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:39.896  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999991406
+
+03-30 10:53:39.992  4116  4556 I XiaomiFirewall: firewall pkgName:com.orvibo.homemate, result:0x0
+
+03-30 10:53:40.137  2044  3620 D WifiStateMachine: starting scan for "56.1_neiwang"-WPA_PSK with 5280,2412
+
+03-30 10:53:40.138  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY freq=5280,2412'
+
+03-30 10:53:40.138  3745  3745 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+
+03-30 10:53:40.138  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3
+
+03-30 10:53:40.139  3745  3745 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+
+03-30 10:53:40.139  3745  3745 D wpa_supplicant: wlan0: Limit manual scan to specified channels
+
+03-30 10:53:40.139  3745  3745 D wpa_supplicant: wlan0: Add radio work 'scan'@0xb68d9398
+
+03-30 10:53:40.139  3745  3745 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+
+03-30 10:53:40.148  3745  3745 D wpa_supplicant: wlan0: Starting radio work 'scan'@0xb68d9398 after 0.008576 second wait
+
+03-30 10:53:40.148  3745  3745 D wpa_supplicant: wlan0: nl80211: scan request
+
+03-30 10:53:40.148  3745  3745 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+
+03-30 10:53:40.148  3745  3745 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+
+03-30 10:53:40.148  3745  3745 D wpa_supplicant: nl80211: Scan frequency 2412 MHz
+
+03-30 10:53:40.149  3745  3745 D wpa_supplicant: nl80211: Scan frequency 5280 MHz
+
+03-30 10:53:40.157  3745  3745 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+
+03-30 10:53:40.157  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:53:40.157  3745  3745 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+
+03-30 10:53:40.157  3745  3745 D wpa_supplicant: wlan0: nl80211: Scan trigger
+
+03-30 10:53:40.157  3745  3745 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+
+03-30 10:53:40.157  3745  3745 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000594 seconds
+
+03-30 10:53:40.158  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-30 10:53:40.162  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:40.269  3745  3745 D wpa_supplicant: nl80211: Event message available
+
+03-30 10:53:40.269  3745  3745 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: wlan0: nl80211: New scan results available
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: nl80211: Scan included frequencies: 2412 5280
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: wlan0: Scan completed in 0.112458 seconds
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: nl80211: Associated on 5280 MHz
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: nl80211: Associated with cc:81:da:9c:13:28
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: nl80211: Received scan results (33 BSSes)
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: nl80211: Scan results indicate BSS status with cc:81:da:9c:13:28 as associated
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: wlan0: BSS: Start scan result update 5309
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: BSS: last_scan_res_used=33/64
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: wlan0: Scan-only results received
+
+03-30 10:53:40.270  3745  3745 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=163840 outq=0 send_len=24
+
+03-30 10:53:40.271  3745  3745 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2044-2\x00
+
+03-30 10:53:40.271  3745  3745 D wpa_supplicant: wlan0: Radio work 'scan'@0xb68d9398 done in 0.122804 seconds
+
+03-30 10:53:40.277  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3541
+
+03-30 10:53:40.277  3745  3745 D wpa_supplicant: RTM_NEWLINK: ifi_index=22 ifname=wlan0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+
+03-30 10:53:40.288  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3770
+
+03-30 10:53:40.291  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3830
+
+03-30 10:53:40.294  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3634
+
+03-30 10:53:40.299  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3322
+
+03-30 10:53:40.302  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=3742
+
+03-30 10:53:40.303  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=865
+
+03-30 10:53:40.327  3745  3745 D wpa_supplicant: EAPOL: EAP Session-Id not available
+
+03-30 10:53:40.329  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=279
+
+03-30 10:53:40.472 29591 29670 D NAT     : DYNAMIC_IP
+
+03-30 10:53:40.473 29591 29670 D NAT     : call void method before
+
+03-30 10:53:40.473 29591 29670 D NAT     : call void method after
+
+03-30 10:53:40.653   379   493 I ThermalEngine: Sensor:batt_temp:366 mC
+
+03-30 10:53:40.819  3745  3745 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+
+03-30 10:53:40.831  3745  3745 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=163840 outq=0 send_len=49
+
+03-30 10:53:40.896  6151  6186 I octvm_klo: read wakeups from wakealarm_fd:1
+
+03-30 10:53:40.896  6151  6186 I octvm_klo: new timerfd interval:
+
+03-30 10:53:40.896  6151  6186 I octvm_klo: 	itval.it_interval.tv_sec 1, itval.it_interval.tv_nsec 0
+
+03-30 10:53:40.896  6151  6186 I octvm_klo: 	itval.it_value.tv_sec 0, itval.it_value.tv_nsec 999996250
+
+03-30 10:53:41.654   379   493 I ThermalEngine: Sensor:batt_temp:366 mC

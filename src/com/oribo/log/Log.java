@@ -1,12 +1,11 @@
 package com.oribo.log;
 import org.apache.log4j.*;
 import org.testng.Reporter;
-
 import com.oribo.common.ToolFunctions;
 
 import java.io.File;
 /**
- * 日志打印的 安装不同类型
+ * 日志打印,事件日志，如点击、滑动
  * @author Administrator
  *
  */
@@ -19,7 +18,6 @@ public class Log {
         logger = Logger.getLogger("dev_log");
         PropertyConfigurator.configure(new File(filePath).getAbsolutePath());
     }
-
     /**
      * 记录Info级别日志。
      *

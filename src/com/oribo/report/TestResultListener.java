@@ -1,5 +1,8 @@
 package com.oribo.report;
 
+/**
+ * 测试结果监听
+ */
 import java.util.Iterator;
 import java.util.List;
 

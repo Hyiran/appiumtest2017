@@ -16,7 +16,11 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;  
 import org.apache.poi.ss.usermodel.Workbook;  
 
-  
+  /**
+   * 写数据至excel中
+   * @author test1
+   *
+   */
 public class writeExcel {  
     private static final String EXCEL_XLS = "xls";  
     private static final String EXCEL_XLSX = "xlsx";  

@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <parameter name="port" value="4723"/>
-  <parameter name="phone" value="xiaomi"/>
-  <parameter name="platformVersion" value="6.0.1"/>
-  <parameter name="reportreceiver" value="penghong@orvibo.com"/>
-  <parameter name="udid" value="492c754e"/>
-  <parameter name="apk" value="HomeMate 2.2.0.201.apk"/>
-  <parameter name="testpassword" value="999000"/>
-  <parameter name="testaccount" value="eop@qq.com"/>
   <test name="Default test(failed)">
     <classes>
       <class name="com.oribo.android365.testcase.SignIn">
         <methods>
-          <include name="init"/>
+          <include name="weibologging"/>
+          <include name="Unboundthirdaccount"/>
+          <include name="emailregister"/>
           <include name="beforeMethod"/>
+          <include name="a_phoneregister"/>
           <include name="tearDown"/>
-          <include name="phoneregister"/>
+          <include name="b_logff"/>
+          <include name="checkother"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.SignIn -->
     </classes>

@@ -1,5 +1,8 @@
 package com.oribo.common;
 
+/**
+ * http接口访问类
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

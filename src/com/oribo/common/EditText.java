@@ -13,6 +13,11 @@ import com.oribo.log.Log;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
+/**
+ * 编辑框的常用操作，如输入汉字、英文、特殊字符、边界值等
+ * @author test1
+ *
+ */
 public class EditText {
 	 AndroidElement edittext;
 	

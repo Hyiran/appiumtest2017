@@ -1,5 +1,8 @@
 package com.oribo.utils;
 
+/**
+ * 文件操作类
+ */
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;

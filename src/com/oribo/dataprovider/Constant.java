@@ -1,5 +1,9 @@
 package com.oribo.dataprovider;
 
+
+/**
+ * 存放常量值的地方，比如数据的URL、帐号、密码等
+ */
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 import com.oribo.dataprovider.AppBean;

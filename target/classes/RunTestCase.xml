@@ -10,16 +10,16 @@
 		<parameter name="udid" value="492c754e" />
 		<parameter name="phone" value="xiaomi" />
 		<parameter name="platformVersion" value="6.0.1" />
-		<parameter name="apk" value="HomeMate 2.3.0.201.apk" />
+		<parameter name="apk" value="HomeMate 2.3.0.300.apk" />
 		<parameter name="testaccount" value="eop@qq.com" />
 		<parameter name="testpassword" value="999000" />
 		<parameter name="reportreceiver" value="penghong@orvibo.com" />
 		
- 	    <groups>
+<!--  	    <groups>
 		   	<run>
-		        <include name="登录界面1"/>
+		        <include name="3.28"/>
 		    </run>
-		</groups>  
+		</groups>   -->
 
 		<classes>
 		    <class name="com.oribo.android365.testcase.PersoncenterWithdb" />  
@@ -29,6 +29,5 @@
 		</classes>
 
 	</test> 
-	
 
 </suite>

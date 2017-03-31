@@ -1,5 +1,8 @@
 package com.oribo.report;
 
+/**
+ * 发送邮箱
+ */
 import java.util.Properties;
 
 import javax.mail.BodyPart;

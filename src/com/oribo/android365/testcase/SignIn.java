@@ -27,6 +27,7 @@ import com.oribo.utils.compareimage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 /**
+ * 登录界面用例
  * 登录界面的忘记密码已在Personcenter中实现
  * 帐号和邮箱登录则在TestcaseFrame中实现，每次执行用例前都判断当前的的登录状态，未登录则进行登录
  * @author test1
@@ -36,6 +37,7 @@ public class SignIn extends TestcaseFrame{
 	AndroidDriver<AndroidElement> driver;
 	AppBean  appbean = AppBean.getAppBean();
 	String phone=ReadExcel.readsimpledata(1, 1, 3);
+	String email=ReadExcel.readsimpledata(1, 1, 5);
 	
 	String mac=null;
 	@BeforeMethod(alwaysRun=true)
@@ -50,7 +52,7 @@ public class SignIn extends TestcaseFrame{
 	/**
 	 * 手机号注册
 	 */
-	@Test(groups={"注册","3.21"})
+	@Test(groups={"注册"})
 	public void a_phoneregister()
 	{   
 		//如果已登录则退出登录
@@ -144,6 +146,7 @@ public class SignIn extends TestcaseFrame{
 		//登录界面分别点击三个授权三方应用图标,判断是否能跳转
 		//点击微信
 		AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/wechat_login")), "点击微信图标");
+		newSleep(2);
 		Assert.assertTrue(ToolFunctions.cmdmessage("adb shell dumpsys window w |grep name=", "com.tencent.mm"));
 		//点击QQ
 		AppOperate.sendKeyEvent(4, "返回到登录界面", driver);
@@ -155,8 +158,9 @@ public class SignIn extends TestcaseFrame{
 	
 	/**
 	 * 授权登录微博,测试之前手机安装微博且已登录帐号
+	 * 判断唯一帐号登录后能否解除绑定
 	 */
-	@Test(groups={"登录界面1"})
+	@Test(groups={"登录界面"})
 	public void weibologging()
 	{   
 		
@@ -177,11 +181,81 @@ public class SignIn extends TestcaseFrame{
 			//对比是否和默认的一样
 			boolean ifsame=compareimage.sameAs(FileOperate.getTestDatapFilePath()+File.separator+"percompare.png", FileOperate.getScreencapFilePath()+File.separator+"defaultphoto.png", 0.98);
 			Assert.assertFalse(ifsame, "头像未切换为三方头像");
-		
+		 
 	
 	}
 	
+	/**
+	 * 判断唯一三方帐号登录后能否解除绑定（微博登录）
+	 */
+	@Test(groups={"授权登录","3.27"})
+	public void Unboundthirdaccount()
+	{
+		if(!driver.currentActivity().equals(".user.LoginActivity"))
+		{
+			b_logff();
+		}
+		
+			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/sina_login")), "点击微博图标");
+			AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"我的\")"), "点击我的");
+			 
+			//进入个人中心
+			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/iv_personal_user_icon")), "点击个人信息头像");
+			//点击授权登录
+			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/weChatNormalImageView")), "点击授权登录");
+			//点击微信帐号
+			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/authSinaImageView")), "点击授权登录");
+			//点击解除绑定
+			AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/bindChangeButton")), "点击授权登录");
+			//判断是否弹出提示框
+			Assert.assertTrue(driver.findElementByAndroidUIAutomator("text(\"无法解绑\")").isDisplayed());
+
+	}
 	
+	/**
+	 * 邮箱注册
+	 * 检查默认头像是否符合预期
+	 */
+    @Test(groups={"登录界面","3.277"})
+	public void emailregister()
+	{
+		//如果已登录则退出登录
+		if(!driver.currentActivity().equals(".user.LoginActivity"))
+		{
+			b_logff();
+		}
+		//删除此帐号,并删除应用数据
+		Log.logInfo("注册要使用的邮箱为："+email);
+		deleteaccount(email);
+		newSleep(3);
+		//登录界面点击注册按扭
+	    AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/register_tv")), "点击注册按扭");
+	    //切换为使用邮箱注册
+	    AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/emailRegisterButton")), "点击使用邮箱注册");
+	    //输入邮箱和密码
+	    List<AndroidElement> list= driver.findElements(By.className("android.widget.EditText"));
+	    Log.logInfo("输入邮箱帐号");
+	    list.get(0).sendKeys(email);
+	    Log.logInfo("输入密码123456");
+	    list.get(1).sendKeys("123456");
+        //点击立即注册
+	    AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/registerButton")), "点击立即注册");
+	    //弹出弹框时点击继续注册
+	    AppOperate.click(driver.findElement(By.id("com.orvibo.homemate:id/rightButton")), "点击继续注册");
+	    //判断是否登录成功
+	    Assert.assertTrue(driver.findElementByAndroidUIAutomator("text(\"我的\")").isDisplayed());
+	    AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"我的\")"), "点击'我的'");
+		
+		 //截图对比是否一致
+		 String defaultphoto=ToolFunctions.getRandomstring(1);
+		 screenCapCompare(driver, defaultphoto);
+		 boolean ifsame=compareimage.sameAs(FileOperate.getTestDatapFilePath()+File.separator+"percompare.png", FileOperate.getScreencapFilePath()+File.separator+defaultphoto+".png", 0.97);
+		 Assert.assertTrue(ifsame, "关于界面与预期不符");
+	    
+	}
+ 	
+	
+
 	
 	/**
 	 * 退出登录
@@ -231,6 +305,11 @@ public class SignIn extends TestcaseFrame{
 		aftertest();
 		driver.quit();
 		
+	}
+	
+	public static  void main(String args[])
+	{
+		System.out.println(ToolFunctions.cmdmessage("adb shell dumpsys window w |grep name=", "com.tencent.mm"));
 	}
 
 }

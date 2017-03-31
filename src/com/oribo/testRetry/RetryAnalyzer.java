@@ -1,5 +1,8 @@
 package com.oribo.testRetry;
 
+/**
+ * 设置重跑次数
+ */
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 

@@ -1,0 +1,20 @@
+测试环境准备：
+1.QQ、微信、微博都已安装，且都已登录，并且未被授权给其它帐户（测试授权登录）
+2.新安装的APP要进手机权限管理中开启相机、相册的使用权限（设置头像等需调用）
+3.APP登录的帐号信息、授权登录的三方名（微博名）、测试主机的model请写入testdata/personInfo_TestData.xls中的测试信息sheet中
+4.测试的APP请放在apps目录下，并把APP名称写入RunTestCase文件的apk参数处
+5.请插入SIM卡（测试注册功能),且把此手机号写入personInfo_TestData.xls中的测试信息sheet中
+
+测试框架：
+Appium+testng+java+maven+eclipse
+
+运行步骤：
+1.把orvibo_appiumtest导入进eclipse
+2.eclipse中安装testng、maven插件
+3.运行pom.xml文件下砸依赖包（Run As maven install）
+4.运行RunTestCase.xml执行测试
+
+测试结果：
+1.Log文件夹中存放截图(ScreenCap)、报错日志（AnrLog）、事件点击日志信息（eventlog.txt）
+2.testdata中存放测试用例及对比截图
+3.test-output中存放的为testng的测试报告，点击index.html即可查看最近一次测试的结果信息

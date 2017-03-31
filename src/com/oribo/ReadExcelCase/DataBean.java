@@ -1,7 +1,7 @@
 package com.oribo.ReadExcelCase;
 
 /**
- * 测试用例数据类型，无方法
+ * 测试用例数据类型
  * @author cindy  2016-10-11
  *
  */

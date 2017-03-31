@@ -10,28 +10,51 @@
     <parameter name="platformVersion" value="6.0.1"/>
     <parameter name="reportreceiver" value="penghong@orvibo.com"/>
     <parameter name="udid" value="492c754e"/>
-    <parameter name="apk" value="HomeMate 2.3.0.201.apk"/>
+    <parameter name="apk" value="HomeMate 2.3.0.300.apk"/>
     <parameter name="testpassword" value="999000"/>
     <parameter name="testaccount" value="eop@qq.com"/>
-    <groups>
-      <run>
-        <include name="登录界面1"/>
-      </run>
-    </groups>
     <classes>
-      <class name="com.oribo.android365.testcase.SignIn">
-        <methods>
-          <include name="weibologging"/>
-          <include name="beforeMethod"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.oribo.android365.testcase.SignIn -->
       <class name="com.oribo.android365.testcase.Initializtion">
         <methods>
           <include name="beforeSuit"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- com.oribo.android365.testcase.Initializtion -->
+      <class name="com.oribo.android365.testcase.Personcenter">
+        <methods>
+          <include name="zmodifypassword"/>
+          <include name="beforeMethod"/>
+          <include name="authorization" invocation-numbers="0 1 2"/>
+          <include name="feedback"/>
+          <include name="tearDown"/>
+          <include name="authorizationentrance"/>
+        </methods>
+      </class> <!-- com.oribo.android365.testcase.Personcenter -->
+      <class name="com.oribo.android365.testcase.PersoncenterWithdb">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="CheckMyHub"/>
+          <include name="familydetails"/>
+          <include name="sort"/>
+          <include name="checkfamilynumber"/>
+          <include name="myhost"/>
+          <include name="tearDown"/>
+          <include name="memberoffamily"/>
+          <include name="systemscene"/>
+          <include name="addlink"/>
+          <include name="checkscene"/>
+          <include name="delectscene"/>
+          <include name="remindersettings"/>
+        </methods>
+      </class> <!-- com.oribo.android365.testcase.PersoncenterWithdb -->
+      <class name="com.oribo.android365.testcase.SignIn">
+        <methods>
+          <include name="weibologging"/>
+          <include name="beforeMethod"/>
+          <include name="a_phoneregister"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.oribo.android365.testcase.SignIn -->
     </classes>
   </test> <!-- init(failed) -->
 </suite> <!-- Failed suite [智家365] -->

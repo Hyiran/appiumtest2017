@@ -3,7 +3,7 @@ package com.oribo.utils;
 import com.oribo.log.Log;
 
 /**
- * Created by Cindy on 16/10/11
+ * 小米安装提示监听器
  */
 public class HandleSafetyTips extends Thread {
     private boolean needTap = false;

@@ -1,5 +1,9 @@
 package com.oribo.android365.testcase;
 
+
+/**
+ * “我的”+场景 基本功能用例
+ */
 import java.util.logging.Logger;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -38,8 +42,6 @@ import com.oribo.ReadExcelCase.DataBean;
 import com.oribo.ReadExcelCase.ExcelData;
 import com.oribo.dataprovider.UserInfo;
 import com.oribo.log.Log;
-import com.oribo.monitor.ActionListener;
-import com.oribo.monitor.Even;
 import com.oribo.monitor.PromptListener;
 import com.oribo.report.TestResultListener;
 import com.oribo.utils.FileOperate;
@@ -372,8 +374,8 @@ public class Personcenter extends TestcaseFrame{
 	修改密码时，输入的新密码少于6位，判断完成按钮是否可点击
 	修改密码时，输入的新密码等于6位，判断是否能修改成功
 	 */
-	@Test(groups={"个人中心","个人信息","修改密码"},enabled=false)
-	public void modifypassword()
+	@Test(groups={"个人中心","个人信息","修改密码"})
+	public void zmodifypassword()
 	{
 		enterPersoninfo();
 		//点击“修改密码”
@@ -473,22 +475,7 @@ public class Personcenter extends TestcaseFrame{
 	  
 
 	}
-	
-   /**
-    * 未设置头像，检查个人信息
-    */
-	@Test(groups={"个人中心","个人信息","头像"},enabled=false)
-	public void checkdefaultphoto()
-	{
-		newSleep(2);
-		AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"我的\")"), "点击'我的'");
-		//进行截图,对比默认头像
-		screenCapCompare(driver, "defaultphoto");
-		//对比是否和默认的一样
-		boolean ifsame=compareimage.sameAs(FileOperate.getTestDatapFilePath()+File.separator+"percompare.png", FileOperate.getScreencapFilePath()+File.separator+"defaultphoto.png", 0.97);
-		Assert.assertTrue(ifsame, "默认头像与与其不符");
-		
-	}
+
 	
 	/**
 	 * 个人信息页面，点击头像选项
@@ -674,10 +661,15 @@ public class Personcenter extends TestcaseFrame{
 	 * 第三方授权登陆，查看“个人信息”页面
 	 * 授权登陆，绑定第三方授权登陆
 	 * “我的”页面查看授权登陆
+	 * 备注：连续授权三方登录，则显示第一个授权登录的帐号名称头像
 	 */
-	@Test(dataProvider="authorizationdataprovider",groups={"个人中心","个人信息","授权登录11","3.21"})
+	@Test(dataProvider="authorizationdataprovider",groups={"个人中心","个人信息","授权登录11","3.27"})
 	public void authorization(String packagename,String loginfo1,String clickname1,String loginfo2,String clickname2,String loginfo3,String assertinfo,String assertinfo2)
-	{
+	{   
+		//授权登录前删除三方帐号
+		deletethridaccout("Sunny");
+		deletethridaccout("彭红29799");
+		deletethridaccout("彭红");
 		newSleep(2);
 		AppOperate.click(driver.findElementByAndroidUIAutomator("text(\"我的\")"), "点击'我的'");
 		 //截图对比
@@ -886,6 +878,7 @@ public class Personcenter extends TestcaseFrame{
 		 newSleep(1);
 		 //点击提交按扭
 		 AppOperate.tapByadb(526, 1851);
+		 AppOperate.waitForText(driver, 20, "send");
 		 Assert.assertTrue(driver.findElement(By.className("send")).isDisplayed());
          
 
